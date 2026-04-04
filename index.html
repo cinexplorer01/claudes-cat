@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>克劳德的猫 — 量子智识 × 数字人文</title>
+    <meta name="description" content="克劳德的猫 — 一个生活在代码与哲学交界处的量子智识媒体。探索人工智能、数字哲学、科学思维与人类存在的意义。">
+    <meta name="theme-color" content="#080614">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="克劳德的猫 — 量子智识 × 数字人文">
+    <meta property="og:description" content="AI的世界里住着一只猫，不打开盒子你永远不知道它在发呆还是在进化。探索人工智能、数字哲学与人类存在的意义。">
+    <meta property="og:image" content="avatar.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="克劳德的猫 — 量子智识 × 数字人文">
+    <meta name="twitter:description" content="AI的世界里住着一只猫，不打开盒子你永远不知道它在发呆还是在进化。">
+    <meta name="twitter:image" content="avatar.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Share+Tech+Mono&display=swap" rel="stylesheet">
@@ -62,7 +77,6 @@
             font-size: 18px;
             line-height: 1.6;
             overflow-x: hidden;
-            cursor: crosshair;
         }
 
         /* Grain */
@@ -85,13 +99,14 @@
 
         /* ── NAV ── */
         nav {
-            position: fixed; top: 0; width: 100%;
+            position: fixed; top: 12px; left: 16px; right: 16px;
             z-index: 500;
-            padding: .9rem 3rem;
+            padding: .9rem 2.4rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid var(--border);
+            border: 1px solid var(--border);
+            border-radius: 14px;
             background: rgba(8, 6, 20, 0.92);
             backdrop-filter: blur(12px);
         }
@@ -107,7 +122,7 @@
 
         .nav-links { display: flex; gap: 2.2rem; list-style: none; }
         .nav-links a {
-            color: var(--phosphor-dim);
+            color: rgba(192, 132, 252, 0.55);
             text-decoration: none;
             font-family: var(--font-mono);
             font-size: .78rem;
@@ -118,6 +133,59 @@
         .nav-links a:hover { color: var(--phosphor); text-shadow: 0 0 8px var(--phosphor); }
 
         .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+        /* ── Hamburger ── */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            gap: 5px;
+            width: 44px; height: 44px;
+            padding: 10px;
+            background: none; border: 1px solid var(--border);
+            border-radius: 6px;
+            cursor: pointer;
+            transition: border-color .25s;
+        }
+        .hamburger:hover { border-color: var(--phosphor); }
+        .hamburger span {
+            display: block; width: 100%; height: 1.5px;
+            background: var(--phosphor);
+            transition: transform .25s, opacity .25s;
+        }
+        .hamburger[aria-expanded="true"] span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+        .hamburger[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+        .hamburger[aria-expanded="true"] span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+        /* ── Mobile Menu ── */
+        .mobile-menu {
+            display: flex;
+            position: fixed; top: 72px; left: 16px; right: 16px;
+            z-index: 499;
+            background: rgba(8, 6, 20, 0.96);
+            backdrop-filter: blur(16px);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem 2rem;
+            flex-direction: column; gap: 0;
+            opacity: 0; transform: translateY(-8px);
+            pointer-events: none; visibility: hidden;
+            transition: opacity .25s ease, transform .25s ease, visibility 0s .25s;
+        }
+        .mobile-menu.open { opacity: 1; transform: translateY(0); pointer-events: auto; visibility: visible; transition: opacity .25s ease, transform .25s ease, visibility 0s; }
+        .mobile-menu a {
+            display: block;
+            padding: .9rem 0;
+            font-family: var(--font-mono);
+            font-size: .85rem; letter-spacing: 2.5px;
+            text-transform: uppercase;
+            color: var(--phosphor-dim);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(192,132,252,.08);
+            transition: color .2s, padding-left .2s;
+        }
+        .mobile-menu a:last-child { border-bottom: none; }
+        .mobile-menu a:hover { color: var(--phosphor); padding-left: .5rem; }
 
         /* ── Language Toggle ── */
         .lang-btn {
@@ -293,7 +361,7 @@
             border: 1.5px solid var(--phosphor);
             box-shadow: 0 0 12px var(--phosphor-glow), inset 0 0 24px var(--phosphor-glow);
             padding: 1.8rem 3rem; min-width: 340px;
-            cursor: pointer; position: relative;
+            cursor: crosshair; position: relative;
             transition: box-shadow .3s, border-color .3s;
         }
         .q-box:hover {
@@ -358,13 +426,13 @@
 
         /* Topics */
         .topics-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
-        .topic-card { border: 1px solid var(--border); padding: 1.8rem; position: relative; cursor: default; overflow: hidden; transition: border-color .3s, box-shadow .3s; }
+        .topic-card { border: 1px solid var(--border); padding: 1.8rem; position: relative; cursor: pointer; overflow: hidden; transition: border-color .3s, box-shadow .3s; }
         .topic-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, var(--phosphor-glow) 0%, transparent 70%); opacity: 0; transition: opacity .3s; }
         .topic-card:hover { border-color: rgba(192,132,252,.5); box-shadow: 0 0 20px rgba(192,132,252,.07); }
         .topic-card:hover::after { opacity: 1; }
         .t-icon { font-family: var(--font-terminal); font-size: 2.2rem; color: var(--amber); text-shadow: 0 0 10px var(--amber); margin-bottom: .8rem; }
         .t-name { font-family: var(--font-terminal); font-size: 1.65rem; color: var(--phosphor); margin-bottom: .4rem; }
-        .t-desc { font-family: var(--font-serif); font-size: .98rem; color: rgba(237,232,220,.55); line-height: 1.65; }
+        .t-desc { font-family: var(--font-serif); font-size: .98rem; color: rgba(237,232,220,.62); line-height: 1.65; }
         .t-tag { display: inline-block; margin-top: .9rem; font-family: var(--font-mono); font-size: .62rem; letter-spacing: 2px; color: var(--amber); border: 1px solid rgba(255,183,0,.28); padding: .18rem .55rem; }
 
         /* Feed */
@@ -373,9 +441,9 @@
         .feed-item:hover { padding-left: 1.2rem; background: rgba(192,132,252,.022); }
         .feed-num { font-family: var(--font-terminal); font-size: 2.8rem; color: rgba(192,132,252,.12); line-height: 1; }
         .feed-meta { font-family: var(--font-mono); font-size: .68rem; letter-spacing: 2px; color: var(--amber); margin-bottom: .4rem; }
-        .feed-title { font-family: var(--font-terminal); font-size: 1.65rem; color: rgba(192,132,252,.75); line-height: 1.2; margin-bottom: .35rem; transition: color .2s, text-shadow .2s; }
+        .feed-title { font-family: var(--font-terminal); font-size: 1.65rem; color: rgba(192,132,252,.82); line-height: 1.2; margin-bottom: .35rem; transition: color .2s, text-shadow .2s; }
         .feed-item:hover .feed-title { color: var(--phosphor); text-shadow: 0 0 8px rgba(192,132,252,.3); }
-        .feed-exc { font-family: var(--font-serif); font-size: .98rem; color: rgba(237,232,220,.45); line-height: 1.6; }
+        .feed-exc { font-family: var(--font-serif); font-size: .98rem; color: rgba(237,232,220,.6); line-height: 1.6; }
         .feed-arr { font-family: var(--font-terminal); font-size: 1.5rem; color: var(--phosphor-dim); transition: color .2s, transform .2s; }
         .feed-item:hover .feed-arr { color: var(--phosphor); transform: translateX(6px); }
 
@@ -385,7 +453,7 @@
         .connect-quote { position: relative; font-family: var(--font-serif); font-size: clamp(1.4rem, 3.5vw, 2.6rem); font-style: italic; color: rgba(237,232,220,.75); max-width: 720px; margin: 0 auto 3.5rem; line-height: 1.55; }
         .connect-quote em { color: var(--phosphor); font-style: italic; }
         .socials { display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; position: relative; }
-        .soc-btn { display: flex; align-items: center; gap: .6rem; border: 1px solid var(--border); padding: .72rem 1.4rem; font-family: var(--font-mono); font-size: .76rem; letter-spacing: 2px; color: var(--phosphor-dim); text-decoration: none; transition: border-color .25s, color .25s, box-shadow .25s; }
+        .soc-btn { display: flex; align-items: center; gap: .6rem; border: 1px solid var(--border); padding: .72rem 1.4rem; min-height: 44px; font-family: var(--font-mono); font-size: .76rem; letter-spacing: 2px; color: var(--phosphor-dim); text-decoration: none; transition: border-color .25s, color .25s, box-shadow .25s; }
         .soc-btn:hover { border-color: var(--phosphor); color: var(--phosphor); box-shadow: 0 0 16px rgba(192,132,252,.12); }
         .soc-ic { font-family: var(--font-terminal); font-size: 1.1rem; color: var(--amber); }
 
@@ -399,19 +467,41 @@
         .nl-btn { background: var(--phosphor); color: var(--bg); border: none; padding: .75rem 1.4rem; font-family: var(--font-terminal); font-size: 1.1rem; letter-spacing: 2px; cursor: pointer; transition: background .2s; }
         .nl-btn:hover { background: var(--amber); }
 
+        /* ── Focus States ── */
+        :focus-visible {
+            outline: 2px solid var(--phosphor);
+            outline-offset: 3px;
+            box-shadow: 0 0 12px rgba(192,132,252,.3);
+        }
+        .nav-links a:focus-visible,
+        .soc-btn:focus-visible,
+        .feed-item:focus-visible { outline-offset: 4px; }
+        .nl-input:focus-visible { outline: none; }
+        .nl-form:focus-within { border-color: rgba(192,132,252,.5); box-shadow: 0 0 16px rgba(192,132,252,.1); }
+        .q-box:focus-visible { outline-offset: 6px; }
+
+        /* ── Section Dividers ── */
+        hr.div {
+            border: none; height: 1px; max-width: 1160px; margin: 0 auto;
+            background: linear-gradient(90deg, transparent, var(--phosphor-dim), transparent);
+        }
+
         /* Footer */
         footer { border-top: 1px solid var(--border); padding: 1.8rem 3rem; display: flex; justify-content: space-between; align-items: center; }
-        .ft-l { font-family: var(--font-mono); font-size: .68rem; letter-spacing: 2px; color: rgba(192,132,252,.22); }
+        .ft-l { font-family: var(--font-mono); font-size: .68rem; letter-spacing: 2px; color: rgba(192,132,252,.38); }
         .ft-r { font-family: var(--font-serif); font-style: italic; font-size: .88rem; color: rgba(237,232,220,.25); }
 
         /* Responsive */
         @media (max-width: 900px) {
-            nav { padding: .8rem 1.5rem; }
+            nav { top: 0; left: 0; right: 0; border-radius: 0; padding: .8rem 1.5rem; }
             .nav-links { display: none; }
+            .hamburger { display: flex; }
+            .nav-status { display: none; }
             .wrap { padding: 5rem 1.5rem; }
             .about-grid { grid-template-columns: 1fr; gap: 3rem; }
             .topics-grid { grid-template-columns: 1fr 1fr; }
             footer { flex-direction: column; gap: .8rem; text-align: center; }
+            .mobile-menu { top: 58px; left: 0; right: 0; border-radius: 0; border-left: none; border-right: none; }
         }
         @media (max-width: 560px) {
             .topics-grid { grid-template-columns: 1fr; }
@@ -419,10 +509,26 @@
             .q-box { min-width: 280px; padding: 1.4rem 1.6rem; }
             .hero-title { font-size: 4rem; }
         }
+
+        /* Reduced Motion */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+            body::after { animation: none; opacity: 1; }
+            #grain { display: none; }
+            .hero-avatar-wrap, .hero-eyebrow, .hero-title, .hero-sub, .q-wrap {
+                opacity: 1; transform: none;
+            }
+            .tape-inner { animation: none; }
+        }
     </style>
 </head>
 <body>
 <div id="grain"></div>
+<noscript><div style="background:#110a22;color:#c084fc;text-align:center;padding:2rem;font-family:monospace;">请启用 JavaScript 以获得完整体验 // Please enable JavaScript</div></noscript>
 
 <!-- NAV -->
 <nav>
@@ -439,8 +545,19 @@
             <span class="status-dot"></span>
             SYS.ONLINE // ψ = α|活⟩ + β|死⟩
         </div>
+        <button class="hamburger" id="hamburgerBtn" aria-label="菜单" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
     </div>
 </nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+    <a href="#about"  data-i18n="nav-about">关于</a>
+    <a href="#topics" data-i18n="nav-topics">议题</a>
+    <a href="#content"data-i18n="nav-content">内容</a>
+    <a href="#connect"data-i18n="nav-connect">联系</a>
+</div>
 
 <!-- HERO -->
 <section class="hero">
@@ -448,7 +565,10 @@
     <div class="hero-radial"></div>
 
     <div class="hero-avatar-wrap">
-        <img src="avatar.png" alt="克劳德的猫 IP" class="hero-avatar">
+        <picture>
+            <source srcset="avatar.webp" type="image/webp">
+            <img src="avatar-400.png" alt="克劳德的猫 IP" class="hero-avatar" width="200" height="200" decoding="async">
+        </picture>
         <div class="avatar-ring"></div>
         <div class="avatar-ring avatar-ring2"></div>
     </div>
@@ -465,7 +585,7 @@
 
     <div class="q-wrap">
         <div class="q-hint" data-i18n="q-hint">▶ 点击观测量子态 // CLICK TO OBSERVE</div>
-        <div class="q-box" id="qBox" data-label="[ 薛定谔之箱 ]" onclick="observe()">
+        <div class="q-box" id="qBox" data-label="[ 薛定谔之箱 ]" onclick="observe()" tabindex="0" role="button" aria-label="观测量子态">
             <div class="qc qc-tl"></div><div class="qc qc-tr"></div>
             <div class="qc qc-bl"></div><div class="qc qc-br"></div>
             <pre id="catASCII" class="cat-ascii">  /\_____/\
@@ -639,7 +759,7 @@
         <a href="#" class="soc-btn"><span class="soc-ic">X</span><span>Twitter / X</span></a>
         <a href="#" class="soc-btn"><span class="soc-ic">▶</span><span data-i18n="soc-yt">YouTube</span></a>
         <a href="#" class="soc-btn" data-lang-show="zh"><span class="soc-ic">抖</span><span data-i18n="soc-douyin">抖音</span></a>
-        <a href="#" class="soc-btn" data-lang-show="en"><span class="soc-ic">📷</span><span data-i18n="soc-ig">Instagram</span></a>
+        <a href="#" class="soc-btn" data-lang-show="en"><span class="soc-ic">IG</span><span data-i18n="soc-ig">Instagram</span></a>
         <a href="#" class="soc-btn" data-lang-show="en"><span class="soc-ic">♪</span><span data-i18n="soc-tiktok">TikTok</span></a>
     </div>
     <div class="nl">
@@ -714,7 +834,7 @@ const T = {
         'nl-label': '// 订阅量子通讯 — SUBSCRIBE',
         'nl-btn':   '发送_',
         'nl-placeholder': 'your@email.com',
-        'ft-l': '© 2024 克劳德的猫 // ALL STATES RESERVED // ψ(x,t)',
+        'ft-l': '© ' + new Date().getFullYear() + ' 克劳德的猫 // ALL STATES RESERVED // ψ(x,t)',
         'ft-r': '在被观测之前，一切皆有可能',
     },
     en: {
@@ -771,7 +891,7 @@ const T = {
         'nl-label': '// Subscribe to Quantum Dispatch',
         'nl-btn':   'SEND_',
         'nl-placeholder': 'your@email.com',
-        'ft-l': '© 2024 CLAUDE\'S CAT // ALL STATES RESERVED // ψ(x,t)',
+        'ft-l': '© ' + new Date().getFullYear() + ' CLAUDE\'S CAT // ALL STATES RESERVED // ψ(x,t)',
         'ft-r': 'All possibilities exist, until observed.',
     }
 };
@@ -904,13 +1024,50 @@ document.querySelectorAll('.topic-card, .feed-item, .stat').forEach((el, i) => {
 });
 
 /* ── Micro-glitch on title ── */
-setInterval(() => {
-    const t = document.querySelector('.hero-title');
-    const dx = (Math.random() * 6 - 3).toFixed(1);
-    const dy = (Math.random() * 3 - 1.5).toFixed(1);
-    t.style.transform = `translate(${dx}px,${dy}px)`;
-    setTimeout(() => t.style.transform = 'translate(0,0)', 80);
-}, 4500);
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+if (!prefersReducedMotion.matches) {
+    setInterval(() => {
+        const t = document.querySelector('.hero-title');
+        const dx = (Math.random() * 6 - 3).toFixed(1);
+        const dy = (Math.random() * 3 - 1.5).toFixed(1);
+        t.style.transform = `translate(${dx}px,${dy}px)`;
+        setTimeout(() => t.style.transform = 'translate(0,0)', 80);
+    }, 4500);
+}
+
+/* ── Hamburger Menu ── */
+const hamburger = document.getElementById('hamburgerBtn');
+const mobileMenu = document.getElementById('mobileMenu');
+
+hamburger.addEventListener('click', () => {
+    const expanded = hamburger.getAttribute('aria-expanded') === 'true';
+    hamburger.setAttribute('aria-expanded', !expanded);
+    mobileMenu.classList.toggle('open');
+});
+
+mobileMenu.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+        hamburger.setAttribute('aria-expanded', 'false');
+        mobileMenu.classList.remove('open');
+    });
+});
+
+document.addEventListener('click', (e) => {
+    if (!mobileMenu.contains(e.target) && !hamburger.contains(e.target)) {
+        hamburger.setAttribute('aria-expanded', 'false');
+        mobileMenu.classList.remove('open');
+    }
+});
+
+/* ── Keyboard support for quantum box ── */
+document.getElementById('qBox').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); observe(); }
+});
+
+/* ── Dynamic copyright year ── */
+document.querySelectorAll('.ft-l').forEach(el => {
+    el.textContent = el.textContent.replace('2024', new Date().getFullYear());
+});
 </script>
 </body>
 </html>
