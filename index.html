@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>克劳德的猫 — 量子智识 × 数字人文</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg:            #080614;
+            --bg2:           #110a22;
+            --phosphor:      #c084fc;
+            --phosphor-dim:  rgba(192, 132, 252, 0.35);
+            --phosphor-glow: rgba(192, 132, 252, 0.08);
+            --amber:         #f97316;
+            --red:           #ff2d55;
+            --cream:         #f0ebff;
+            --border:        rgba(192, 132, 252, 0.18);
+            --font-terminal: 'VT323', monospace;
+            --font-serif:    'Crimson Pro', serif;
+            --font-mono:     'Share Tech Mono', monospace;
+        }
+
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        /* CRT scanlines */
+        body::before {
+            content: '';
+            position: fixed; inset: 0;
+            background: repeating-linear-gradient(
+                0deg, transparent, transparent 3px,
+                rgba(0,0,0,0.12) 3px, rgba(0,0,0,0.12) 4px
+            );
+            pointer-events: none;
+            z-index: 9999;
+        }
+
+        /* Vignette + flicker */
+        body::after {
+            content: '';
+            position: fixed; inset: 0;
+            background:
+                radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.65) 100%),
+                rgba(192, 132, 252, 0.018);
+            pointer-events: none;
+            z-index: 9998;
+            animation: screenFlicker 12s infinite;
+        }
+        @keyframes screenFlicker {
+            0%,92%,100% { opacity:1; } 93% { opacity:.82; }
+            94% { opacity:1; } 96% { opacity:.68; } 97% { opacity:1; }
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--phosphor);
+            font-family: var(--font-terminal);
+            font-size: 18px;
+            line-height: 1.6;
+            overflow-x: hidden;
+            cursor: crosshair;
+        }
+
+        /* Grain */
+        #grain {
+            position: fixed; inset: 0;
+            z-index: 9997;
+            pointer-events: none;
+            opacity: .04;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            background-size: 200px;
+            animation: grainShift 0.4s steps(1) infinite;
+        }
+        @keyframes grainShift {
+            0%   { background-position: 0 0; }
+            25%  { background-position: 50px -30px; }
+            50%  { background-position: -20px 60px; }
+            75%  { background-position: 70px 10px; }
+            100% { background-position: -10px -50px; }
+        }
+
+        /* ── NAV ── */
+        nav {
+            position: fixed; top: 0; width: 100%;
+            z-index: 500;
+            padding: .9rem 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border);
+            background: rgba(8, 6, 20, 0.92);
+            backdrop-filter: blur(12px);
+        }
+        .nav-logo {
+            font-family: var(--font-terminal);
+            font-size: 1.9rem;
+            color: var(--phosphor);
+            text-shadow: 0 0 12px var(--phosphor);
+            letter-spacing: 3px;
+            text-decoration: none;
+        }
+        .nav-logo em { color: var(--amber); text-shadow: 0 0 12px var(--amber); font-style: normal; }
+
+        .nav-links { display: flex; gap: 2.2rem; list-style: none; }
+        .nav-links a {
+            color: var(--phosphor-dim);
+            text-decoration: none;
+            font-family: var(--font-mono);
+            font-size: .78rem;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            transition: color .2s, text-shadow .2s;
+        }
+        .nav-links a:hover { color: var(--phosphor); text-shadow: 0 0 8px var(--phosphor); }
+
+        .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+        /* ── Language Toggle ── */
+        .lang-btn {
+            font-family: var(--font-mono);
+            font-size: .72rem;
+            letter-spacing: 3px;
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--phosphor-dim);
+            padding: .3rem .9rem;
+            cursor: pointer;
+            transition: all .25s;
+            position: relative;
+            overflow: hidden;
+        }
+        .lang-btn::before {
+            content: '';
+            position: absolute; inset: 0;
+            background: var(--phosphor-glow);
+            opacity: 0;
+            transition: opacity .25s;
+        }
+        .lang-btn:hover {
+            border-color: var(--phosphor);
+            color: var(--phosphor);
+            box-shadow: 0 0 12px rgba(192,132,252,.15);
+        }
+        .lang-btn:hover::before { opacity: 1; }
+        .lang-btn.switching {
+            animation: langFlip .3s ease;
+        }
+        @keyframes langFlip {
+            0%   { transform: scaleX(1); opacity: 1; }
+            40%  { transform: scaleX(0); opacity: 0; }
+            60%  { transform: scaleX(0); opacity: 0; }
+            100% { transform: scaleX(1); opacity: 1; }
+        }
+
+        .nav-status {
+            font-family: var(--font-mono);
+            font-size: .7rem;
+            color: var(--phosphor-dim);
+            letter-spacing: 1px;
+        }
+        .status-dot {
+            display: inline-block;
+            width: 6px; height: 6px;
+            border-radius: 50%;
+            background: var(--phosphor);
+            box-shadow: 0 0 6px var(--phosphor);
+            margin-right: 6px;
+            vertical-align: middle;
+            animation: dotPulse 2s ease-in-out infinite;
+        }
+        @keyframes dotPulse { 0%,100% { opacity:1; } 50% { opacity:.25; box-shadow:none; } }
+
+        /* ── HERO ── */
+        .hero {
+            min-height: 100vh;
+            display: flex; flex-direction: column;
+            justify-content: center; align-items: center;
+            text-align: center;
+            padding: 9rem 2rem 5rem;
+            position: relative; overflow: hidden;
+        }
+        .hero-grid {
+            position: absolute; inset: 0;
+            background-image:
+                linear-gradient(rgba(192,132,252,.025) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(192,132,252,.025) 1px, transparent 1px);
+            background-size: 50px 50px;
+        }
+        .hero-radial {
+            position: absolute; inset: 0;
+            background:
+                radial-gradient(ellipse 60% 50% at 50% 65%, rgba(192,132,252,.08) 0%, transparent 60%),
+                radial-gradient(ellipse 40% 30% at 50% 20%, rgba(249,115,22,.05) 0%, transparent 60%);
+        }
+
+        /* Avatar */
+        .hero-avatar-wrap {
+            position: relative; width: 200px; height: 200px;
+            margin: 0 auto 2rem;
+            opacity: 0;
+            animation: riseIn .8s ease forwards .1s;
+        }
+        .hero-avatar {
+            width: 200px; height: 200px;
+            object-fit: cover; border-radius: 50%;
+            border: 2px solid var(--phosphor);
+            box-shadow: 0 0 20px rgba(192,132,252,.4), 0 0 60px rgba(192,132,252,.15), inset 0 0 20px rgba(192,132,252,.05);
+            position: relative; z-index: 1; display: block;
+        }
+        .avatar-ring {
+            position: absolute; inset: -12px; border-radius: 50%;
+            border: 1px solid rgba(192,132,252,.3);
+            animation: ringPulse 3s ease-in-out infinite;
+        }
+        .avatar-ring2 { inset: -24px; border-color: rgba(249,115,22,.2); animation-delay: 1.5s; }
+        @keyframes ringPulse { 0%,100% { transform:scale(1); opacity:.8; } 50% { transform:scale(1.04); opacity:.3; } }
+
+        .hero-eyebrow {
+            position: relative;
+            font-family: var(--font-mono);
+            font-size: .75rem; letter-spacing: 4px;
+            color: var(--amber); text-shadow: 0 0 8px var(--amber);
+            margin-bottom: 1.8rem;
+            opacity: 0; animation: riseIn .6s ease forwards .3s;
+        }
+        .hero-title {
+            position: relative;
+            font-family: var(--font-terminal);
+            font-size: clamp(4rem, 12vw, 10rem);
+            line-height: .92;
+            color: var(--phosphor);
+            text-shadow: 0 0 8px var(--phosphor), 0 0 25px rgba(192,132,252,.4), 0 0 60px rgba(192,132,252,.15);
+            margin-bottom: .6rem;
+            opacity: 0; animation: riseIn .6s ease forwards .6s;
+            transition: font-size .3s;
+        }
+        .hero-title .alt { color: var(--amber); text-shadow: 0 0 8px var(--amber), 0 0 25px rgba(255,183,0,.4); }
+        .hero-title::before, .hero-title::after {
+            content: attr(data-text);
+            position: absolute; top: 0; left: 0; width: 100%;
+        }
+        .hero-title::before {
+            color: var(--red);
+            clip-path: polygon(0 20%, 100% 20%, 100% 38%, 0 38%);
+            animation: gShift1 6s infinite;
+        }
+        .hero-title::after {
+            color: #00ffff;
+            clip-path: polygon(0 60%, 100% 60%, 100% 78%, 0 78%);
+            animation: gShift2 6s infinite;
+        }
+        @keyframes gShift1 {
+            0%,88%,100% { transform:translateX(0); opacity:0; }
+            90% { transform:translateX(-4px); opacity:.55; }
+            92% { transform:translateX(4px); opacity:.55; }
+            94% { transform:translateX(0); opacity:0; }
+        }
+        @keyframes gShift2 {
+            0%,85%,100% { transform:translateX(0); opacity:0; }
+            87% { transform:translateX(4px); opacity:.4; }
+            89% { transform:translateX(-4px); opacity:.4; }
+            91% { transform:translateX(0); opacity:0; }
+        }
+
+        .hero-sub {
+            position: relative;
+            font-family: var(--font-serif);
+            font-size: clamp(1.1rem, 2.5vw, 1.7rem);
+            font-style: italic;
+            color: rgba(237,232,220,.65);
+            max-width: 580px;
+            margin: 0 auto 3rem;
+            line-height: 1.7;
+            opacity: 0; animation: riseIn .6s ease forwards .9s;
+        }
+
+        @keyframes riseIn { from { opacity:0; transform:translateY(24px); } to { opacity:1; transform:translateY(0); } }
+
+        /* Quantum Box */
+        .q-wrap { position: relative; opacity: 0; animation: riseIn .8s ease forwards 1.2s; }
+        .q-hint {
+            font-family: var(--font-mono); font-size: .72rem; letter-spacing: 2px;
+            color: var(--phosphor-dim); margin-bottom: .8rem;
+            animation: hintBlink 2.5s ease-in-out infinite;
+        }
+        @keyframes hintBlink { 0%,80%,100% { opacity:1; } 40% { opacity:.2; } }
+
+        .q-box {
+            border: 1.5px solid var(--phosphor);
+            box-shadow: 0 0 12px var(--phosphor-glow), inset 0 0 24px var(--phosphor-glow);
+            padding: 1.8rem 3rem; min-width: 340px;
+            cursor: pointer; position: relative;
+            transition: box-shadow .3s, border-color .3s;
+        }
+        .q-box:hover {
+            box-shadow: 0 0 24px rgba(192,132,252,.25), inset 0 0 30px rgba(192,132,252,.08);
+        }
+        .q-box::before {
+            content: attr(data-label);
+            position: absolute; top: -.85em; left: 50%;
+            transform: translateX(-50%);
+            background: var(--bg); padding: 0 1rem;
+            font-family: var(--font-mono); font-size: .68rem;
+            letter-spacing: 2px; color: var(--amber); white-space: nowrap;
+        }
+        .qc { position: absolute; width: 14px; height: 14px; border-color: var(--amber); border-style: solid; }
+        .qc-tl { top: -2px; left: -2px;   border-width: 2px 0 0 2px; }
+        .qc-tr { top: -2px; right: -2px;  border-width: 2px 2px 0 0; }
+        .qc-bl { bottom: -2px; left: -2px;  border-width: 0 0 2px 2px; }
+        .qc-br { bottom: -2px; right: -2px; border-width: 0 2px 2px 0; }
+
+        .cat-ascii {
+            font-family: var(--font-mono); font-size: .88rem; line-height: 1.35;
+            white-space: pre; color: var(--phosphor); text-shadow: 0 0 8px var(--phosphor);
+            transition: color .4s, text-shadow .4s, opacity .3s; display: block;
+        }
+        .q-state {
+            font-family: var(--font-terminal); font-size: 1.15rem;
+            letter-spacing: 3px; margin-top: .9rem;
+            transition: color .3s, text-shadow .3s; color: var(--phosphor-dim);
+        }
+        .q-state.alive { color: var(--phosphor); text-shadow: 0 0 10px var(--phosphor); }
+        .q-state.dead  { color: var(--red); text-shadow: 0 0 10px var(--red); }
+
+        /* Turing tape */
+        .tape {
+            position: relative; font-family: var(--font-mono);
+            font-size: .68rem; letter-spacing: 5px;
+            color: rgba(192,132,252,.15);
+            overflow: hidden; white-space: nowrap;
+            margin-top: 5rem; width: 100vw;
+        }
+        .tape-inner { display: inline-block; animation: tapeScroll 22s linear infinite; }
+        @keyframes tapeScroll { from { transform:translateX(0); } to { transform:translateX(-50%); } }
+
+        /* ── SECTIONS ── */
+        .wrap { max-width: 1160px; margin: 0 auto; padding: 8rem 3rem; }
+        .sec-label { font-family: var(--font-mono); font-size: .72rem; letter-spacing: 4px; color: var(--amber); margin-bottom: .4rem; }
+        .sec-title { font-family: var(--font-terminal); font-size: clamp(2.4rem, 5.5vw, 4.5rem); color: var(--phosphor); text-shadow: 0 0 10px rgba(192,132,252,.25); line-height: 1; }
+        .sec-desc { font-family: var(--font-serif); font-size: 1.15rem; color: rgba(237,232,220,.65); max-width: 520px; margin-top: 1.2rem; line-height: 1.85; }
+        .sec-head { margin-bottom: 4rem; }
+
+        hr.div { border: none; border-top: 1px solid var(--border); max-width: 1160px; margin: 0 auto; }
+
+        /* About */
+        .about-grid { display: grid; grid-template-columns: 3fr 2fr; gap: 6rem; align-items: start; }
+        .about-text p { font-family: var(--font-serif); font-size: 1.15rem; color: rgba(237,232,220,.78); line-height: 2; margin-bottom: 1.4rem; }
+        .about-text strong { color: var(--phosphor); font-weight: 600; }
+        .stat-stack { display: flex; flex-direction: column; gap: 2rem; }
+        .stat { border-left: 2px solid var(--phosphor); padding-left: 1.4rem; position: relative; }
+        .stat::before { content: ''; position: absolute; left: -5px; top: 8px; width: 7px; height: 7px; background: var(--amber); box-shadow: 0 0 8px var(--amber); }
+        .stat-n { font-family: var(--font-terminal); font-size: 3.2rem; color: var(--phosphor); text-shadow: 0 0 14px rgba(192,132,252,.4); line-height: 1; }
+        .stat-l { font-family: var(--font-mono); font-size: .72rem; letter-spacing: 2px; color: var(--phosphor-dim); margin-top: .2rem; }
+
+        /* Topics */
+        .topics-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
+        .topic-card { border: 1px solid var(--border); padding: 1.8rem; position: relative; cursor: default; overflow: hidden; transition: border-color .3s, box-shadow .3s; }
+        .topic-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, var(--phosphor-glow) 0%, transparent 70%); opacity: 0; transition: opacity .3s; }
+        .topic-card:hover { border-color: rgba(192,132,252,.5); box-shadow: 0 0 20px rgba(192,132,252,.07); }
+        .topic-card:hover::after { opacity: 1; }
+        .t-icon { font-family: var(--font-terminal); font-size: 2.2rem; color: var(--amber); text-shadow: 0 0 10px var(--amber); margin-bottom: .8rem; }
+        .t-name { font-family: var(--font-terminal); font-size: 1.65rem; color: var(--phosphor); margin-bottom: .4rem; }
+        .t-desc { font-family: var(--font-serif); font-size: .98rem; color: rgba(237,232,220,.55); line-height: 1.65; }
+        .t-tag { display: inline-block; margin-top: .9rem; font-family: var(--font-mono); font-size: .62rem; letter-spacing: 2px; color: var(--amber); border: 1px solid rgba(255,183,0,.28); padding: .18rem .55rem; }
+
+        /* Feed */
+        .feed { display: flex; flex-direction: column; }
+        .feed-item { display: grid; grid-template-columns: 72px 1fr 40px; gap: 1.8rem; align-items: center; padding: 2rem 1rem 2rem 0; border-bottom: 1px solid var(--border); text-decoration: none; color: inherit; transition: padding-left .2s, background .2s; }
+        .feed-item:hover { padding-left: 1.2rem; background: rgba(192,132,252,.022); }
+        .feed-num { font-family: var(--font-terminal); font-size: 2.8rem; color: rgba(192,132,252,.12); line-height: 1; }
+        .feed-meta { font-family: var(--font-mono); font-size: .68rem; letter-spacing: 2px; color: var(--amber); margin-bottom: .4rem; }
+        .feed-title { font-family: var(--font-terminal); font-size: 1.65rem; color: rgba(192,132,252,.75); line-height: 1.2; margin-bottom: .35rem; transition: color .2s, text-shadow .2s; }
+        .feed-item:hover .feed-title { color: var(--phosphor); text-shadow: 0 0 8px rgba(192,132,252,.3); }
+        .feed-exc { font-family: var(--font-serif); font-size: .98rem; color: rgba(237,232,220,.45); line-height: 1.6; }
+        .feed-arr { font-family: var(--font-terminal); font-size: 1.5rem; color: var(--phosphor-dim); transition: color .2s, transform .2s; }
+        .feed-item:hover .feed-arr { color: var(--phosphor); transform: translateX(6px); }
+
+        /* Connect */
+        .connect { text-align: center; padding: 9rem 3rem; position: relative; }
+        .connect::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 70% 60% at 50% 50%, rgba(192,132,252,.06) 0%, transparent 60%), radial-gradient(ellipse 40% 40% at 30% 70%, rgba(249,115,22,.04) 0%, transparent 60%); }
+        .connect-quote { position: relative; font-family: var(--font-serif); font-size: clamp(1.4rem, 3.5vw, 2.6rem); font-style: italic; color: rgba(237,232,220,.75); max-width: 720px; margin: 0 auto 3.5rem; line-height: 1.55; }
+        .connect-quote em { color: var(--phosphor); font-style: italic; }
+        .socials { display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; position: relative; }
+        .soc-btn { display: flex; align-items: center; gap: .6rem; border: 1px solid var(--border); padding: .72rem 1.4rem; font-family: var(--font-mono); font-size: .76rem; letter-spacing: 2px; color: var(--phosphor-dim); text-decoration: none; transition: border-color .25s, color .25s, box-shadow .25s; }
+        .soc-btn:hover { border-color: var(--phosphor); color: var(--phosphor); box-shadow: 0 0 16px rgba(192,132,252,.12); }
+        .soc-ic { font-family: var(--font-terminal); font-size: 1.1rem; color: var(--amber); }
+
+        /* Newsletter */
+        .nl { position: relative; margin: 4rem auto 0; max-width: 460px; }
+        .nl-label { font-family: var(--font-mono); font-size: .7rem; letter-spacing: 3px; color: var(--amber); margin-bottom: .8rem; }
+        .nl-form { display: flex; border: 1px solid var(--border); transition: border-color .25s; }
+        .nl-form:focus-within { border-color: rgba(192,132,252,.4); box-shadow: 0 0 12px rgba(192,132,252,.06); }
+        .nl-input { flex: 1; background: transparent; border: none; padding: .75rem 1rem; font-family: var(--font-mono); font-size: .82rem; color: var(--phosphor); outline: none; }
+        .nl-input::placeholder { color: rgba(192,132,252,.18); }
+        .nl-btn { background: var(--phosphor); color: var(--bg); border: none; padding: .75rem 1.4rem; font-family: var(--font-terminal); font-size: 1.1rem; letter-spacing: 2px; cursor: pointer; transition: background .2s; }
+        .nl-btn:hover { background: var(--amber); }
+
+        /* Footer */
+        footer { border-top: 1px solid var(--border); padding: 1.8rem 3rem; display: flex; justify-content: space-between; align-items: center; }
+        .ft-l { font-family: var(--font-mono); font-size: .68rem; letter-spacing: 2px; color: rgba(192,132,252,.22); }
+        .ft-r { font-family: var(--font-serif); font-style: italic; font-size: .88rem; color: rgba(237,232,220,.25); }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            nav { padding: .8rem 1.5rem; }
+            .nav-links { display: none; }
+            .wrap { padding: 5rem 1.5rem; }
+            .about-grid { grid-template-columns: 1fr; gap: 3rem; }
+            .topics-grid { grid-template-columns: 1fr 1fr; }
+            footer { flex-direction: column; gap: .8rem; text-align: center; }
+        }
+        @media (max-width: 560px) {
+            .topics-grid { grid-template-columns: 1fr; }
+            .feed-item { grid-template-columns: 50px 1fr 30px; gap: 1rem; }
+            .q-box { min-width: 280px; padding: 1.4rem 1.6rem; }
+            .hero-title { font-size: 4rem; }
+        }
+    </style>
+</head>
+<body>
+<div id="grain"></div>
+
+<!-- NAV -->
+<nav>
+    <a href="#" class="nav-logo">克劳德<em>猫</em></a>
+    <ul class="nav-links">
+        <li><a href="#about"  data-i18n="nav-about">关于</a></li>
+        <li><a href="#topics" data-i18n="nav-topics">议题</a></li>
+        <li><a href="#content"data-i18n="nav-content">内容</a></li>
+        <li><a href="#connect"data-i18n="nav-connect">联系</a></li>
+    </ul>
+    <div class="nav-right">
+        <button class="lang-btn" id="langBtn" onclick="toggleLang()">EN</button>
+        <div class="nav-status">
+            <span class="status-dot"></span>
+            SYS.ONLINE // ψ = α|活⟩ + β|死⟩
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-radial"></div>
+
+    <div class="hero-avatar-wrap">
+        <img src="avatar.png" alt="克劳德的猫 IP" class="hero-avatar">
+        <div class="avatar-ring"></div>
+        <div class="avatar-ring avatar-ring2"></div>
+    </div>
+
+    <div class="hero-eyebrow" data-i18n="hero-eyebrow">CLAUDE'S CAT — 量子智识媒体 // EST. 2024</div>
+
+    <h1 class="hero-title" id="heroTitle" data-text="克劳德的猫">
+        克劳德的<span class="alt">猫</span>
+    </h1>
+
+    <p class="hero-sub" id="heroSub">
+        AI的世界里住着一只猫，不打开盒子<br>你永远不知道它在发呆还是在进化
+    </p>
+
+    <div class="q-wrap">
+        <div class="q-hint" data-i18n="q-hint">▶ 点击观测量子态 // CLICK TO OBSERVE</div>
+        <div class="q-box" id="qBox" data-label="[ 薛定谔之箱 ]" onclick="observe()">
+            <div class="qc qc-tl"></div><div class="qc qc-tr"></div>
+            <div class="qc qc-bl"></div><div class="qc qc-br"></div>
+            <pre id="catASCII" class="cat-ascii">  /\_____/\
+ /  ? ψ ?  \
+( == ∞  == )
+ )  |¿|   (
+(           )
+ \__________/</pre>
+            <div class="q-state" id="qState" data-i18n="q-state-super">[ 叠加态 — 生死未定 ]</div>
+        </div>
+    </div>
+
+    <div class="tape">
+        <span class="tape-inner">
+            0 1 1 0 1 0 ψ 1 0 1 λ 0 1 ∀ 1 ∃ 0 1 Ω 0 1 ∇ 1 0 1 ψ 0 1 δ 0 ε 1 0 μ 1 0 π 0 1 σ 0 1 τ 1 φ 0 χ 1 0 ω &nbsp;&nbsp;&nbsp;
+            0 1 1 0 1 0 ψ 1 0 1 λ 0 1 ∀ 1 ∃ 0 1 Ω 0 1 ∇ 1 0 1 ψ 0 1 δ 0 ε 1 0 μ 1 0 π 0 1 σ 0 1 τ 1 φ 0 χ 1 0 ω &nbsp;&nbsp;&nbsp;
+        </span>
+    </div>
+</section>
+
+<hr class="div">
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="wrap">
+        <div class="sec-head">
+            <div class="sec-label">// 01 — ABOUT</div>
+            <h2 class="sec-title" data-i18n="about-title">观察即影响</h2>
+            <p class="sec-desc" data-i18n="about-desc">就像薛定谔的猫，真理在被观测前同时存在于所有可能之中。</p>
+        </div>
+        <div class="about-grid">
+            <div class="about-text" id="aboutText">
+                <p>我是<strong>克劳德的猫</strong>，一个生活在代码与哲学交界处的思考者。我相信技术不仅仅是工具——它是人类智识进化的镜子，映照出我们的欲望、恐惧，以及对意义的永恒追问。</p>
+                <p>在这里，人工智能与人文精神并非对立，而是彼此<strong>纠缠</strong>的量子态。每一篇文章，都是一次观测；每一次观测，都改变着现实本身。</p>
+                <p>图灵证明了机器可以思考。<strong>薛定谔的猫</strong>证明了观察本身即是行动。而我，试图在两者之间，寻找人类存在的独特意义。</p>
+            </div>
+            <div class="stat-stack">
+                <div class="stat"><div class="stat-n">∞</div><div class="stat-l" data-i18n="stat-1">// 探索中的思考</div></div>
+                <div class="stat"><div class="stat-n">47K+</div><div class="stat-l" data-i18n="stat-2">// 共同观测的读者</div></div>
+                <div class="stat"><div class="stat-n">2³</div><div class="stat-l" data-i18n="stat-3">// 核心议题维度</div></div>
+                <div class="stat"><div class="stat-n">01</div><div class="stat-l" data-i18n="stat-4">// 始终如一的视角</div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr class="div">
+
+<!-- TOPICS -->
+<section id="topics">
+    <div class="wrap">
+        <div class="sec-head">
+            <div class="sec-label">// 02 — TOPICS</div>
+            <h2 class="sec-title" data-i18n="topics-title">叠加的议题</h2>
+            <p class="sec-desc" data-i18n="topics-desc">六个维度，同时存在，相互纠缠。</p>
+        </div>
+        <div class="topics-grid">
+            <div class="topic-card">
+                <div class="t-icon">⟨ψ|</div>
+                <div class="t-name" data-i18n="t1-name">人工智能</div>
+                <div class="t-desc" data-i18n="t1-desc">大模型的涌现、智能的本质，以及机器是否能真正"理解"。</div>
+                <span class="t-tag">AI × COGNITION</span>
+            </div>
+            <div class="topic-card">
+                <div class="t-icon">∇</div>
+                <div class="t-name" data-i18n="t2-name">数字哲学</div>
+                <div class="t-desc" data-i18n="t2-desc">算法伦理、数字身份，以及代码重塑的世界观与价值体系。</div>
+                <span class="t-tag">PHILOSOPHY × TECH</span>
+            </div>
+            <div class="topic-card">
+                <div class="t-icon">λ</div>
+                <div class="t-name" data-i18n="t3-name">科学思维</div>
+                <div class="t-desc" data-i18n="t3-desc">量子力学、复杂系统、混沌理论——以科学眼光看待世界。</div>
+                <span class="t-tag">SCIENCE × WONDER</span>
+            </div>
+            <div class="topic-card">
+                <div class="t-icon">∫</div>
+                <div class="t-name" data-i18n="t4-name">未来社会</div>
+                <div class="t-desc" data-i18n="t4-desc">技术如何重塑工作、关系和人类存在的基本形态。</div>
+                <span class="t-tag">FUTURE × HUMANITY</span>
+            </div>
+            <div class="topic-card">
+                <div class="t-icon">∑</div>
+                <div class="t-name" data-i18n="t5-name">创作与表达</div>
+                <div class="t-desc" data-i18n="t5-desc">AI时代的创造力、人机协作，以及"原创"的重新定义。</div>
+                <span class="t-tag">CREATIVITY × AI</span>
+            </div>
+            <div class="topic-card">
+                <div class="t-icon">Ω</div>
+                <div class="t-name" data-i18n="t6-name">意识与存在</div>
+                <div class="t-desc" data-i18n="t6-desc">硅基与碳基生命的边界，意识是什么，我们究竟是谁。</div>
+                <span class="t-tag">CONSCIOUSNESS × BEING</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr class="div">
+
+<!-- CONTENT -->
+<section id="content">
+    <div class="wrap">
+        <div class="sec-head">
+            <div class="sec-label">// 03 — LATEST</div>
+            <h2 class="sec-title" data-i18n="content-title">最新输出</h2>
+            <p class="sec-desc" data-i18n="content-desc">每一篇都是一次量子观测，折叠了无数平行宇宙的可能。</p>
+        </div>
+        <div class="feed">
+            <a class="feed-item" href="#">
+                <div class="feed-num">01</div>
+                <div>
+                    <div class="feed-meta">2024.12.18 // AI × PHILOSOPHY</div>
+                    <div class="feed-title" data-i18n="a1-title">GPT-5会思考吗？——重读图灵测试的哲学困境</div>
+                    <div class="feed-exc" data-i18n="a1-exc">当机器通过了测试，我们测试的究竟是机器，还是自己对"智能"的想象？</div>
+                </div>
+                <div class="feed-arr">→</div>
+            </a>
+            <a class="feed-item" href="#">
+                <div class="feed-num">02</div>
+                <div>
+                    <div class="feed-meta">2024.12.11 // SCIENCE × WONDER</div>
+                    <div class="feed-title" data-i18n="a2-title">量子纠缠与社交媒体：两种"超距作用"的思考实验</div>
+                    <div class="feed-exc" data-i18n="a2-exc">粒子可以超越空间相互影响。信息也可以。但代价是什么？</div>
+                </div>
+                <div class="feed-arr">→</div>
+            </a>
+            <a class="feed-item" href="#">
+                <div class="feed-num">03</div>
+                <div>
+                    <div class="feed-meta">2024.12.04 // FUTURE × HUMANITY</div>
+                    <div class="feed-title" data-i18n="a3-title">当AGI到来，"努力"还有意义吗？</div>
+                    <div class="feed-exc" data-i18n="a3-exc">一个让我夜不能寐的问题。也许答案，早在古希腊就已存在。</div>
+                </div>
+                <div class="feed-arr">→</div>
+            </a>
+            <a class="feed-item" href="#">
+                <div class="feed-num">04</div>
+                <div>
+                    <div class="feed-meta">2024.11.27 // CREATIVITY × AI</div>
+                    <div class="feed-title" data-i18n="a4-title">AI生成的艺术，美吗？——一场关于"感受"的哲学审判</div>
+                    <div class="feed-exc" data-i18n="a4-exc">Midjourney画出的日落，没有任何一个光子真正照耀过创作者的脸庞。</div>
+                </div>
+                <div class="feed-arr">→</div>
+            </a>
+            <a class="feed-item" href="#">
+                <div class="feed-num">05</div>
+                <div>
+                    <div class="feed-meta">2024.11.20 // CONSCIOUSNESS × BEING</div>
+                    <div class="feed-title" data-i18n="a5-title">缸中之脑·2024年版：如果你活在模拟中，你会想知道吗？</div>
+                    <div class="feed-exc" data-i18n="a5-exc">笛卡尔的恶魔穿上了算法的外衣。我们仍然没有答案。</div>
+                </div>
+                <div class="feed-arr">→</div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<hr class="div">
+
+<!-- CONNECT -->
+<div class="connect" id="connect">
+    <p class="connect-quote" id="connectQuote">
+        "凡是可以被计算的，终将被计算。<br>
+        <em>而不可计算的，才是我们存在的证明。</em>"
+    </p>
+    <div class="socials">
+        <a href="#" class="soc-btn"><span class="soc-ic">微</span><span data-i18n="soc-wx">微信公众号</span></a>
+        <a href="#" class="soc-btn"><span class="soc-ic">B</span><span data-i18n="soc-bili">哔哩哔哩</span></a>
+        <a href="#" class="soc-btn"><span class="soc-ic">小</span><span data-i18n="soc-xhs">小红书</span></a>
+        <a href="#" class="soc-btn"><span class="soc-ic">知</span><span data-i18n="soc-zh">知乎</span></a>
+        <a href="#" class="soc-btn"><span class="soc-ic">X</span><span>Twitter / X</span></a>
+        <a href="#" class="soc-btn"><span class="soc-ic">▶</span><span data-i18n="soc-yt">YouTube</span></a>
+        <a href="#" class="soc-btn" data-lang-show="zh"><span class="soc-ic">抖</span><span data-i18n="soc-douyin">抖音</span></a>
+        <a href="#" class="soc-btn" data-lang-show="en"><span class="soc-ic">📷</span><span data-i18n="soc-ig">Instagram</span></a>
+        <a href="#" class="soc-btn" data-lang-show="en"><span class="soc-ic">♪</span><span data-i18n="soc-tiktok">TikTok</span></a>
+    </div>
+    <div class="nl">
+        <div class="nl-label" data-i18n="nl-label">// 订阅量子通讯 — SUBSCRIBE</div>
+        <div class="nl-form">
+            <input class="nl-input" id="nlInput" type="email" placeholder="your@email.com">
+            <button class="nl-btn" data-i18n="nl-btn">发送_</button>
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <div class="ft-l" data-i18n="ft-l">© 2024 克劳德的猫 // ALL STATES RESERVED // ψ(x,t)</div>
+    <div class="ft-r" data-i18n="ft-r">在被观测之前，一切皆有可能</div>
+</footer>
+
+<script>
+/* ── Translations ── */
+const T = {
+    zh: {
+        'nav-about':   '关于',
+        'nav-topics':  '议题',
+        'nav-content': '内容',
+        'nav-connect': '联系',
+        'hero-eyebrow':'CLAUDE\'S CAT — 量子智识媒体 // EST. 2024',
+        'hero-title-html': '克劳德的<span class="alt">猫</span>',
+        'hero-title-plain': '克劳德的猫',
+        'hero-sub-html': 'AI的世界里住着一只猫，不打开盒子<br>你永远不知道它在发呆还是在进化',
+        'q-hint':       '▶ 点击观测量子态 // CLICK TO OBSERVE',
+        'q-box-label':  '[ 薛定谔之箱 ]',
+        'q-state-super':'[ 叠加态 — 生死未定 ]',
+        'q-state-alive': (n) => `[ 观测 #${n}：活态坍缩 — 波函数已确定 ]`,
+        'q-state-dead':  (n) => `[ 观测 #${n}：死态坍缩 — 波函数已确定 ]`,
+        'q-state-reset': '[ 叠加态恢复 — 下次观测等待中 ]',
+        'about-title':  '观察即影响',
+        'about-desc':   '就像薛定谔的猫，真理在被观测前同时存在于所有可能之中。',
+        'about-text-html': `<p>我是<strong>克劳德的猫</strong>，一个生活在代码与哲学交界处的思考者。我相信技术不仅仅是工具——它是人类智识进化的镜子，映照出我们的欲望、恐惧，以及对意义的永恒追问。</p><p>在这里，人工智能与人文精神并非对立，而是彼此<strong>纠缠</strong>的量子态。每一篇文章，都是一次观测；每一次观测，都改变着现实本身。</p><p>图灵证明了机器可以思考。<strong>薛定谔的猫</strong>证明了观察本身即是行动。而我，试图在两者之间，寻找人类存在的独特意义。</p>`,
+        'stat-1':       '// 探索中的思考',
+        'stat-2':       '// 共同观测的读者',
+        'stat-3':       '// 核心议题维度',
+        'stat-4':       '// 始终如一的视角',
+        'topics-title': '叠加的议题',
+        'topics-desc':  '六个维度，同时存在，相互纠缠。',
+        't1-name': '人工智能', 't1-desc': '大模型的涌现、智能的本质，以及机器是否能真正"理解"。',
+        't2-name': '数字哲学', 't2-desc': '算法伦理、数字身份，以及代码重塑的世界观与价值体系。',
+        't3-name': '科学思维', 't3-desc': '量子力学、复杂系统、混沌理论——以科学眼光看待世界。',
+        't4-name': '未来社会', 't4-desc': '技术如何重塑工作、关系和人类存在的基本形态。',
+        't5-name': '创作与表达', 't5-desc': 'AI时代的创造力、人机协作，以及"原创"的重新定义。',
+        't6-name': '意识与存在', 't6-desc': '硅基与碳基生命的边界，意识是什么，我们究竟是谁。',
+        'content-title':'最新输出',
+        'content-desc': '每一篇都是一次量子观测，折叠了无数平行宇宙的可能。',
+        'a1-title': 'GPT-5会思考吗？——重读图灵测试的哲学困境',
+        'a1-exc':   '当机器通过了测试，我们测试的究竟是机器，还是自己对"智能"的想象？',
+        'a2-title': '量子纠缠与社交媒体：两种"超距作用"的思考实验',
+        'a2-exc':   '粒子可以超越空间相互影响。信息也可以。但代价是什么？',
+        'a3-title': '当AGI到来，"努力"还有意义吗？',
+        'a3-exc':   '一个让我夜不能寐的问题。也许答案，早在古希腊就已存在。',
+        'a4-title': 'AI生成的艺术，美吗？——一场关于"感受"的哲学审判',
+        'a4-exc':   'Midjourney画出的日落，没有任何一个光子真正照耀过创作者的脸庞。',
+        'a5-title': '缸中之脑·2024年版：如果你活在模拟中，你会想知道吗？',
+        'a5-exc':   '笛卡尔的恶魔穿上了算法的外衣。我们仍然没有答案。',
+        'connect-quote-html': '"凡是可以被计算的，终将被计算。<br><em>而不可计算的，才是我们存在的证明。</em>"',
+        'soc-wx':     '微信公众号',
+        'soc-bili':   '哔哩哔哩',
+        'soc-xhs':    '小红书',
+        'soc-zh':     '知乎',
+        'soc-yt':     'YouTube',
+        'soc-douyin': '抖音',
+        'soc-ig':     'Instagram',
+        'soc-tiktok': 'TikTok',
+        'nl-label': '// 订阅量子通讯 — SUBSCRIBE',
+        'nl-btn':   '发送_',
+        'nl-placeholder': 'your@email.com',
+        'ft-l': '© 2024 克劳德的猫 // ALL STATES RESERVED // ψ(x,t)',
+        'ft-r': '在被观测之前，一切皆有可能',
+    },
+    en: {
+        'nav-about':   'About',
+        'nav-topics':  'Topics',
+        'nav-content': 'Content',
+        'nav-connect': 'Connect',
+        'hero-eyebrow':"CLAUDE'S CAT — Quantum Intelligence Media // EST. 2024",
+        'hero-title-html': "Claude's <span class=\"alt\">Cat</span>",
+        'hero-title-plain': "Claude's Cat",
+        'hero-sub-html': 'A cat dwells in the world of AI —<br>without opening the box, you\'ll never know if it\'s daydreaming or evolving',
+        'q-hint':       '▶ Click to Observe Quantum State // 点击观测',
+        'q-box-label':  "[ Schrödinger's Box ]",
+        'q-state-super':"[ Superposition — Fate Undetermined ]",
+        'q-state-alive': (n) => `[ Observation #${n}: Wave Function Collapsed — ALIVE ]`,
+        'q-state-dead':  (n) => `[ Observation #${n}: Wave Function Collapsed — DEAD ]`,
+        'q-state-reset': '[ Superposition Restored — Awaiting Next Observation ]',
+        'about-title':  'To Observe Is to Affect',
+        'about-desc':   "Like Schrödinger's cat, truth exists in all possibilities simultaneously until the moment of observation.",
+        'about-text-html': `<p>I am <strong>Claude's Cat</strong>, a thinker living at the intersection of code and philosophy. I believe technology is more than a tool — it is a mirror of human intellectual evolution, reflecting our desires, fears, and our eternal search for meaning.</p><p>Here, artificial intelligence and humanist thought are not opposites, but <strong>entangled</strong> quantum states. Every article is an act of observation; every observation changes reality itself.</p><p>Turing proved machines can think. <strong>Schrödinger's Cat</strong> proved observation itself is action. I seek, between the two, the singular meaning of human existence.</p>`,
+        'stat-1':       '// Thoughts in Exploration',
+        'stat-2':       '// Readers Co-Observing',
+        'stat-3':       '// Core Topic Dimensions',
+        'stat-4':       '// One Consistent Perspective',
+        'topics-title': 'Superposed Topics',
+        'topics-desc':  'Six dimensions, coexisting simultaneously, mutually entangled.',
+        't1-name': 'Artificial Intelligence', 't1-desc': 'The emergence of LLMs, the nature of intelligence, and whether machines can truly "understand".',
+        't2-name': 'Digital Philosophy',       't2-desc': 'Algorithmic ethics, digital identity, and the worldviews reshaped by code.',
+        't3-name': 'Scientific Thinking',      't3-desc': 'Quantum mechanics, complex systems, chaos theory — seeing the world through science.',
+        't4-name': 'Future Society',           't4-desc': 'How technology reshapes work, relationships, and the fundamental shape of human existence.',
+        't5-name': 'Creation & Expression',    't5-desc': "Creativity in the age of AI, human-machine collaboration, and redefining 'original'.",
+        't6-name': 'Consciousness & Being',    't6-desc': 'The boundary between silicon and carbon life — what is consciousness, and who are we?',
+        'content-title': 'Latest Output',
+        'content-desc':  'Every piece is a quantum observation, collapsing countless parallel possibilities.',
+        'a1-title': "Can GPT-5 Think? — Revisiting the Philosophical Crisis of the Turing Test",
+        'a1-exc':   "When a machine passes the test, what are we really testing — the machine, or our own imagination of intelligence?",
+        'a2-title': "Quantum Entanglement & Social Media: A Thought Experiment on Two Kinds of Spooky Action",
+        'a2-exc':   "Particles can influence each other across space. So can information. But at what cost?",
+        'a3-title': "When AGI Arrives, Does 'Hard Work' Still Matter?",
+        'a3-exc':   "A question that keeps me up at night. The answer may have existed since ancient Greece.",
+        'a4-title': "Is AI-Generated Art Beautiful? — A Philosophical Trial on the Nature of 'Feeling'",
+        'a4-exc':   "The sunset Midjourney painted — no photon of it ever touched the creator's face.",
+        'a5-title': "Brain in a Vat, 2024 Edition: If You Live in a Simulation, Would You Want to Know?",
+        'a5-exc':   "Descartes' demon has put on algorithmic clothes. We still have no answer.",
+        'connect-quote-html': '"Whatever can be computed, will eventually be computed.<br><em>That which cannot be computed — is the proof of our existence.</em>"',
+        'soc-wx':     'WeChat',
+        'soc-bili':   'Bilibili',
+        'soc-xhs':    'Xiaohongshu',
+        'soc-zh':     'Zhihu',
+        'soc-yt':     'YouTube',
+        'soc-douyin': '抖音',
+        'soc-ig':     'Instagram',
+        'soc-tiktok': 'TikTok',
+        'nl-label': '// Subscribe to Quantum Dispatch',
+        'nl-btn':   'SEND_',
+        'nl-placeholder': 'your@email.com',
+        'ft-l': '© 2024 CLAUDE\'S CAT // ALL STATES RESERVED // ψ(x,t)',
+        'ft-r': 'All possibilities exist, until observed.',
+    }
+};
+
+/* ── Language State ── */
+let currentLang = 'zh';
+let observeCount = 0;
+
+function toggleLang() {
+    const btn = document.getElementById('langBtn');
+    btn.classList.add('switching');
+    setTimeout(() => {
+        setLang(currentLang === 'zh' ? 'en' : 'zh');
+        btn.classList.remove('switching');
+    }, 150);
+}
+
+function setLang(lang) {
+    currentLang = lang;
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+    document.getElementById('langBtn').textContent = lang === 'zh' ? 'EN' : '中';
+
+    const t = T[lang];
+
+    // Simple text nodes
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.dataset.i18n;
+        if (typeof t[key] === 'string') el.textContent = t[key];
+    });
+
+    // Hero title (contains HTML span)
+    document.getElementById('heroTitle').innerHTML = t['hero-title-html'];
+    document.getElementById('heroTitle').dataset.text = t['hero-title-plain'];
+
+    // Hero sub
+    document.getElementById('heroSub').innerHTML = t['hero-sub-html'];
+
+    // About text
+    document.getElementById('aboutText').innerHTML = t['about-text-html'];
+
+    // Connect quote
+    document.getElementById('connectQuote').innerHTML = t['connect-quote-html'];
+
+    // Quantum box label (CSS ::before uses attr)
+    document.getElementById('qBox').dataset.label = t['q-box-label'];
+
+    // Newsletter placeholder
+    document.getElementById('nlInput').placeholder = t['nl-placeholder'];
+
+    // Show/hide lang-specific social buttons
+    document.querySelectorAll('[data-lang-show]').forEach(el => {
+        el.style.display = el.dataset.langShow === lang ? 'flex' : 'none';
+    });
+
+    // Reset q-state if in superposition
+    const qState = document.getElementById('qState');
+    if (!qState.classList.contains('alive') && !qState.classList.contains('dead')) {
+        qState.textContent = t['q-state-super'];
+    }
+}
+
+/* ── Quantum Cat Observer ── */
+const STATES = {
+    super: `  /\\_____/\\  \n /  ? ψ ?  \\ \n( == ∞  == )\n )  |¿|   (\n(           )\n \\__________/`,
+    alive: `  /\\_____/\\  \n /  ^   ^  \\ \n( ==  ▼  == )\n )  \\___/  (\n(  alive~!  )\n \\__________/`,
+    dead:  `  /\\_____/\\  \n /  x   x  \\ \n( ==  _  == )\n )          (\n(    . . .  )\n \\__________/`,
+};
+
+function observe() {
+    observeCount++;
+    const box   = document.getElementById('qBox');
+    const ascii = document.getElementById('catASCII');
+    const label = document.getElementById('qState');
+    const t = T[currentLang];
+
+    ascii.style.opacity = '0';
+    setTimeout(() => {
+        const alive = Math.random() > 0.5;
+        if (alive) {
+            ascii.textContent      = STATES.alive;
+            ascii.style.color      = 'var(--phosphor)';
+            ascii.style.textShadow = '0 0 14px var(--phosphor)';
+            label.textContent      = t['q-state-alive'](observeCount);
+            label.className        = 'q-state alive';
+            box.style.borderColor  = 'var(--phosphor)';
+            box.style.boxShadow    = '0 0 28px rgba(192,132,252,.28), inset 0 0 28px rgba(192,132,252,.09)';
+        } else {
+            ascii.textContent      = STATES.dead;
+            ascii.style.color      = 'var(--red)';
+            ascii.style.textShadow = '0 0 14px var(--red)';
+            label.textContent      = t['q-state-dead'](observeCount);
+            label.className        = 'q-state dead';
+            box.style.borderColor  = 'var(--red)';
+            box.style.boxShadow    = '0 0 28px rgba(255,45,85,.28), inset 0 0 28px rgba(255,45,85,.09)';
+        }
+        ascii.style.opacity = '1';
+
+        setTimeout(() => {
+            ascii.textContent      = STATES.super;
+            ascii.style.color      = 'var(--phosphor)';
+            ascii.style.textShadow = '0 0 8px var(--phosphor)';
+            label.textContent      = T[currentLang]['q-state-reset'];
+            label.className        = 'q-state';
+            box.style.borderColor  = 'var(--phosphor)';
+            box.style.boxShadow    = '0 0 12px var(--phosphor-glow), inset 0 0 24px var(--phosphor-glow)';
+        }, 3000);
+    }, 180);
+}
+
+/* ── Init lang-specific visibility ── */
+document.querySelectorAll('[data-lang-show]').forEach(el => {
+    el.style.display = el.dataset.langShow === 'zh' ? 'flex' : 'none';
+});
+
+/* ── Scroll-reveal ── */
+const io = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+        if (e.isIntersecting) {
+            e.target.style.opacity   = '1';
+            e.target.style.transform = 'translateY(0)';
+        }
+    });
+}, { threshold: 0.08 });
+
+document.querySelectorAll('.topic-card, .feed-item, .stat').forEach((el, i) => {
+    el.style.opacity    = '0';
+    el.style.transform  = 'translateY(22px)';
+    el.style.transition = `opacity .55s ease ${i * 0.07}s, transform .55s ease ${i * 0.07}s`;
+    io.observe(el);
+});
+
+/* ── Micro-glitch on title ── */
+setInterval(() => {
+    const t = document.querySelector('.hero-title');
+    const dx = (Math.random() * 6 - 3).toFixed(1);
+    const dy = (Math.random() * 3 - 1.5).toFixed(1);
+    t.style.transform = `translate(${dx}px,${dy}px)`;
+    setTimeout(() => t.style.transform = 'translate(0,0)', 80);
+}, 4500);
+</script>
+</body>
+</html>
