@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./i18n.js?v=3"></script>
+<script src="./data.js?v=3"></script>
+<script src="./support.js?v=3"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{color:#e8eaf6;font-family:'Noto Sans SC',sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden;background-color:#06070f;background-image:radial-gradient(900px 620px at 14% 2%, rgba(139,92,255,.20), transparent 60%),radial-gradient(820px 600px at 102% 4%, rgba(255,46,151,.15), transparent 55%),radial-gradient(960px 760px at 50% 96%, rgba(0,255,163,.13), transparent 55%);background-attachment:fixed;background-repeat:no-repeat;}
+  ::selection{background:#FF2E97;color:#fff;}
+  @keyframes haloPulse{0%,100%{opacity:.5;transform:scale(1);}50%{opacity:1;transform:scale(1.07);}}
+  @keyframes crownBob{0%,100%{transform:translateY(0) rotate(-5deg);}50%{transform:translateY(-8px) rotate(5deg);}}
+  @keyframes draw{from{stroke-dashoffset:1000;}to{stroke-dashoffset:0;}}
+  @keyframes goldFlash{0%,100%{box-shadow:0 0 0 1px rgba(255,210,74,.45),0 0 16px rgba(255,210,74,.22);}50%{box-shadow:0 0 0 1px rgba(255,210,74,.85),0 0 34px rgba(255,210,74,.55);}}
+  @keyframes riseIn{from{opacity:0;transform:translateY(26px);}to{opacity:1;transform:translateY(0);}}
+  @keyframes shimmer{0%{background-position:-200% 0;}100%{background-position:200% 0;}}
+  @keyframes blink{0%,100%{opacity:1;}50%{opacity:.35;}}
+</style>
+</helmet>
+
+<canvas ref="{{ setCanvas }}" style="position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:0;"></canvas>
+
+<div style="position:fixed;top:14px;right:16px;z-index:60;">
+  <button onClick="{{ toggleLangMenu }}" style="display:flex;align-items:center;gap:8px;cursor:pointer;padding:8px 14px;border-radius:99px;border:1px solid rgba(255,255,255,.16);background:rgba(10,12,30,.78);backdrop-filter:blur(10px);color:#e8eaf6;font:600 13px/1 'Noto Sans SC',sans-serif;box-shadow:0 4px 18px rgba(0,0,0,.35);">🌐 {{ curLangLabel }} <span style="font-size:10px;color:#8a90b6;">{{ langCaret }}</span></button>
+  <sc-if value="{{ langOpen }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute;right:0;top:42px;display:flex;flex-direction:column;gap:2px;padding:6px;border-radius:14px;background:rgba(10,12,30,.96);border:1px solid rgba(255,255,255,.13);backdrop-filter:blur(12px);box-shadow:0 14px 44px rgba(0,0,0,.55);min-width:148px;animation:riseIn .18s ease-out both;">
+      <sc-for list="{{ langChips }}" as="lg" hint-placeholder-count="9"><button onClick="{{ lg.onClick }}" style="{{ lg.style }}">{{ lg.label }}</button></sc-for>
+    </div>
+  </sc-if>
+</div>
+
+<div style="position:relative;z-index:2;max-width:1240px;margin:0 auto;padding:42px 28px 80px;">
+
+  <!-- ============ HEADER ============ -->
+  <header style="text-align:center;margin-bottom:54px;animation:riseIn .7s ease-out both;">
+    <div style="font-family:'Orbitron';font-size:12px;letter-spacing:6px;color:#00FFA3;text-shadow:0 0 14px rgba(0,255,163,.7);margin-bottom:14px;">A I &nbsp; M O D E L &nbsp; F O R E C A S T &nbsp; A R E N A</div>
+    <h1 style="margin:0;font-size:60px;line-height:1.05;font-weight:900;letter-spacing:1px;background:linear-gradient(92deg,#00FFA3,#00D4FF 38%,#8B5CFF 64%,#FF2E97);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 0 60px rgba(139,92,255,.35);">{{ L.heroTitle }}</h1>
+    <p style="margin:16px auto 0;max-width:680px;font-size:16px;color:#aeb3d0;line-height:1.7;">{{ L.heroSub1 }}<br><span style="color:#7a80a6;font-size:14px;">{{ L.heroSub2a }}<b style="color:#e8eaf6;">{{ L.heroSub2b }}</b>{{ L.heroSub2c }}</span></p>
+    <div style="display:flex;justify-content:center;align-items:center;gap:12px;flex-wrap:wrap;margin-top:26px;">
+      <div style="display:flex;align-items:center;gap:8px;padding:8px 16px;border-radius:999px;background:rgba(0,212,255,.10);border:1px solid rgba(0,212,255,.35);font-family:'Rajdhani';font-weight:700;color:#00D4FF;letter-spacing:1px;"><span style="width:7px;height:7px;border-radius:50%;background:#00D4FF;box-shadow:0 0 10px #00D4FF;animation:blink 1.6s infinite;"></span>{{ heroDateLabel }}</div>
+      <div style="display:flex;align-items:center;gap:14px;padding:8px 18px;border-radius:999px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.09);font-size:13px;">
+        <span style="color:#7a80a6;font-size:12px;letter-spacing:2px;border-right:1px solid rgba(255,255,255,.14);padding-right:13px;">{{ L.rulesLabel }}</span>
+        <span style="color:#FFD24A;font-weight:700;">{{ L.ruleExact }}</span>
+        <span style="color:#00FFA3;font-weight:700;">{{ L.ruleOutcome }}</span>
+        <span style="color:#6b7090;font-weight:700;">{{ L.ruleWrong }}</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ 2 · 积分竞争赛道 ============ -->
+  <section style="margin-bottom:72px;">
+    <div style="display:flex;align-items:center;gap:14px;margin-bottom:22px;">
+      <span style="font-family:'Orbitron';font-size:13px;letter-spacing:3px;color:#8B5CFF;text-shadow:0 0 12px rgba(139,92,255,.7);">01</span>
+      <h2 style="margin:0;font-size:26px;font-weight:900;color:#fff;">{{ L.sec2Title }}</h2>
+      <span style="font-size:13px;color:#7a80a6;">{{ raceSubLabel }}</span>
+      <div style="flex:1;height:1px;background:linear-gradient(90deg,rgba(255,255,255,.18),transparent);"></div>
+    </div>
+    <div style="background:linear-gradient(160deg,#0e1024,#0a0b18);border:1px solid rgba(255,255,255,.07);border-radius:20px;padding:24px 20px 18px;box-shadow:inset 0 1px 0 rgba(255,255,255,.05);">
+      {{ raceChart }}
+      <div style="display:flex;flex-wrap:wrap;gap:14px 22px;justify-content:center;margin-top:10px;padding-top:16px;border-top:1px solid rgba(255,255,255,.06);">
+        <sc-for list="{{ models }}" as="m" hint-placeholder-count="6">
+          <span style="display:flex;align-items:center;gap:8px;font-size:13px;color:#c2c6e0;">
+            <span style="{{ m.legendDot }}"></span>{{ m.short }}<b style="font-family:'Rajdhani';color:{{ m.color }};">{{ m.total }}</b>
+          </span>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 1 · 冠军领奖台 ============ -->
+  <section style="margin-bottom:72px;">
+    <div style="display:flex;align-items:center;gap:14px;margin-bottom:22px;">
+      <span style="font-family:'Orbitron';font-size:13px;letter-spacing:3px;color:#FFD24A;text-shadow:0 0 12px rgba(255,210,74,.7);">02</span>
+      <h2 style="margin:0;font-size:26px;font-weight:900;color:#fff;">{{ L.sec1Title }}</h2>
+      <div style="flex:1;height:1px;background:linear-gradient(90deg,rgba(255,255,255,.18),transparent);"></div>
+    </div>
+    <div style="position:relative;max-width:540px;margin:0 auto 38px;animation:riseIn .8s ease-out both;">
+      <div style="position:absolute;inset:-34px;border-radius:34px;background:radial-gradient(circle at 50% 28%, {{ champion.color }}, transparent 64%);opacity:.4;animation:haloPulse 3.2s ease-in-out infinite;z-index:0;filter:blur(6px);"></div>
+      <span style="position:absolute;top:-30px;left:50%;transform:translateX(-50%);font-size:46px;z-index:3;animation:crownBob 2.6s ease-in-out infinite;filter:drop-shadow(0 6px 14px rgba(255,210,74,.6));">👑</span>
+      <div style="position:relative;z-index:1;background:linear-gradient(165deg,#15183a,#0a0c1e);border:1px solid {{ champion.borderColor }};border-radius:24px;padding:40px 30px 26px;text-align:center;box-shadow:0 0 56px {{ champion.shadowColor }},inset 0 1px 0 rgba(255,255,255,.06);overflow:hidden;">
+        <div style="position:absolute;top:-1px;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,{{ champion.color }},transparent);"></div>
+        <div style="font-family:'Orbitron';font-size:11px;letter-spacing:5px;color:{{ champion.color }};margin-bottom:16px;text-shadow:0 0 14px {{ champion.color }};">CHAMPION · {{ L.championTag }}</div>
+        <div style="{{ champion.bigAvatarStyle }}">{{ champion.letter }}</div>
+        <div style="margin-top:16px;font-size:30px;font-weight:900;color:#fff;">{{ champion.name }}</div>
+        <div style="margin-top:4px;font-size:14px;color:#8a90b6;">{{ champion.vendor }}</div>
+        <div style="margin-top:18px;font-family:'Orbitron';font-weight:900;font-size:74px;line-height:1;color:#fff;text-shadow:0 0 34px {{ champion.color }};">{{ champion.displayTotal }}<span style="font-size:24px;color:{{ champion.color }};margin-left:8px;">{{ L.ptsUnit }}</span></div>
+        <div style="display:flex;justify-content:center;gap:26px;margin-top:22px;flex-wrap:wrap;">
+          <div><div style="font-family:'Rajdhani';font-weight:700;font-size:22px;color:#00FFA3;">+{{ champion.yesterday }}</div><div style="font-size:12px;color:#7a80a6;">{{ L.statYesterday }}</div></div>
+          <div><div style="font-family:'Rajdhani';font-weight:700;font-size:22px;color:#fff;">{{ champion.hitRate }}%</div><div style="font-size:12px;color:#7a80a6;">{{ L.statHitRate }}</div></div>
+          <div><div style="font-family:'Rajdhani';font-weight:700;font-size:22px;color:#fff;">{{ champion.streak }}</div><div style="font-size:12px;color:#7a80a6;">{{ L.statStreak }}</div></div>
+          <div><div style="font-family:'Rajdhani';font-weight:700;font-size:22px;color:{{ champion.arrowColor }};">{{ champion.arrow }} {{ champion.arrowText }}</div><div style="font-size:12px;color:#7a80a6;">{{ L.statRankChange }}</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;">
+      <sc-for list="{{ others }}" as="m" hint-placeholder-count="5">
+        <div style="position:relative;background:linear-gradient(160deg,#101327,#0a0b1a);border:1px solid rgba(255,255,255,.07);border-radius:18px;padding:18px 16px;overflow:hidden;animation:riseIn .6s ease-out both;">
+          <div style="{{ m.glowStyle }}"></div>
+          <div style="position:relative;z-index:1;">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;">
+              <span style="font-family:'Orbitron';font-weight:900;font-size:20px;color:rgba(255,255,255,.22);">#{{ m.rank }}</span>
+              <span style="display:flex;align-items:center;gap:4px;font-family:'Rajdhani';font-weight:700;font-size:14px;color:{{ m.arrowColor }};">{{ m.arrow }} {{ m.arrowText }}</span>
+            </div>
+            <div style="display:flex;align-items:center;gap:12px;">
+              <div style="{{ m.avatarStyle }}">{{ m.letter }}</div>
+              <div style="min-width:0;">
+                <div style="font-size:15px;font-weight:700;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">{{ m.name }}</div>
+                <div style="font-size:12px;color:#7a80a6;">{{ m.vendor }}</div>
+              </div>
+            </div>
+            <div style="margin-top:16px;font-family:'Orbitron';font-weight:900;font-size:38px;line-height:1;color:#fff;">{{ m.displayTotal }}<span style="font-size:13px;color:{{ m.color }};margin-left:5px;">{{ L.ptsUnit }}</span></div>
+            <div style="display:flex;gap:14px;margin-top:12px;padding-top:12px;border-top:1px solid rgba(255,255,255,.06);font-size:12px;color:#9398bd;">
+              <span>{{ L.yesterdayShort }} <b style="color:#00FFA3;">+{{ m.yesterday }}</b></span>
+              <span>{{ L.hitShort }} <b style="color:#e8eaf6;">{{ m.hitRate }}%</b></span>
+            </div>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+  </section>
+
+  <!-- ============ 3 · 今日答卷 PK ============ -->
+  <section style="margin-bottom:72px;">
+    <div style="display:flex;align-items:center;gap:14px;margin-bottom:22px;">
+      <span style="font-family:'Orbitron';font-size:13px;letter-spacing:3px;color:#00FFA3;text-shadow:0 0 12px rgba(0,255,163,.7);">03</span>
+      <h2 style="margin:0;font-size:26px;font-weight:900;color:#fff;">{{ L.sec3Title }}</h2>
+      <span style="font-size:13px;color:#7a80a6;">{{ todaySubLabel }}</span>
+      <div style="flex:1;height:1px;background:linear-gradient(90deg,rgba(255,255,255,.18),transparent);"></div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:22px;">
+      <sc-for list="{{ todayMatches }}" as="match" hint-placeholder-count="4">
+        <div style="background:linear-gradient(160deg,#0e1024,#0a0b18);border:1px solid rgba(255,255,255,.07);border-radius:20px;overflow:hidden;">
+          <!-- 考题卡 -->
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 22px;background:linear-gradient(90deg,rgba(139,92,255,.10),rgba(255,46,151,.06));border-bottom:1px solid rgba(255,255,255,.07);flex-wrap:wrap;">
+            <div style="display:flex;align-items:center;gap:16px;">
+              <span style="font-size:30px;">{{ match.home.f }}</span>
+              <span style="font-size:20px;font-weight:900;color:#fff;">{{ match.home.n }}</span>
+              <span style="font-family:'Orbitron';font-size:14px;color:#FF2E97;letter-spacing:2px;">VS</span>
+              <span style="font-size:20px;font-weight:900;color:#fff;">{{ match.away.n }}</span>
+              <span style="font-size:30px;">{{ match.away.f }}</span>
+            </div>
+            <div style="display:flex;align-items:center;gap:16px;font-size:12px;color:#9398bd;">
+              <span style="font-family:'Rajdhani';font-weight:700;color:#00D4FF;font-size:14px;">⏱ {{ match.time }}</span>
+              <span>{{ L.oddsInline }} <b style="color:#e8eaf6;font-family:'Rajdhani';">{{ match.odds.0 }}</b> / <b style="color:#e8eaf6;font-family:'Rajdhani';">{{ match.odds.1 }}</b> / <b style="color:#e8eaf6;font-family:'Rajdhani';">{{ match.odds.2 }}</b></span>
+            </div>
+          </div>
+          <!-- 6 模型答案 -->
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:12px;padding:18px;">
+            <sc-for list="{{ match.answers }}" as="ans" hint-placeholder-count="6">
+              <div style="{{ ans.cardStyle }}">
+                <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;">
+                  <span style="display:flex;align-items:center;gap:8px;"><span style="{{ ans.avatarStyle }}">{{ ans.letter }}</span><span style="font-size:13px;font-weight:700;color:#dfe2f3;">{{ ans.name }}</span></span>
+                  <span style="{{ ans.consensusTagStyle }}">{{ ans.consensusTag }}</span>
+                </div>
+                <div style="font-family:'Orbitron';font-weight:900;font-size:30px;line-height:1;text-align:center;color:{{ ans.color }};text-shadow:0 0 16px {{ ans.glow }};">{{ ans.score }}</div>
+                <div style="text-align:center;margin-top:8px;font-size:12px;color:#aeb3d0;">{{ L.predWinner }} · <b style="color:#fff;">{{ ans.winner }}</b></div>
+                <div style="margin-top:12px;">
+                  <div style="display:flex;justify-content:space-between;font-size:11px;color:#7a80a6;margin-bottom:4px;"><span>{{ L.confidence }}</span><span style="font-family:'Rajdhani';font-weight:700;color:{{ ans.color }};">{{ ans.conf }}%</span></div>
+                  <div style="height:6px;border-radius:99px;background:rgba(255,255,255,.07);overflow:hidden;"><div style="{{ ans.barStyle }}"></div></div>
+                </div>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+  </section>
+
+  <!-- ============ 4 · 昨日揭晓判定 ============ -->
+  <section style="margin-bottom:72px;">
+    <div style="display:flex;align-items:center;gap:14px;margin-bottom:22px;">
+      <span style="font-family:'Orbitron';font-size:13px;letter-spacing:3px;color:#FFD24A;text-shadow:0 0 12px rgba(255,210,74,.7);">04</span>
+      <h2 style="margin:0;font-size:26px;font-weight:900;color:#fff;">{{ L.sec4Title }}</h2>
+      <span style="font-size:13px;color:#7a80a6;">{{ yesterdayLabel }}</span>
+      <div style="flex:1;height:1px;background:linear-gradient(90deg,rgba(255,255,255,.18),transparent);"></div>
+    </div>
+
+    <sc-if value="{{ noYesterday }}" hint-placeholder-val="{{ false }}">
+      <div style="background:linear-gradient(160deg,#0e1024,#0a0b18);border:1px dashed rgba(255,210,74,.35);border-radius:18px;padding:34px;text-align:center;color:#aeb3d0;font-size:15px;">
+        {{ L.emptySettle }}
+      </div>
+    </sc-if>
+    <sc-if value="{{ hasYesterday }}" hint-placeholder-val="{{ true }}">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px;">
+      <sc-for list="{{ yesterdayMatches }}" as="m" hint-placeholder-count="4">
+        <div style="background:linear-gradient(160deg,#0e1024,#0a0b18);border:1px solid rgba(255,255,255,.07);border-radius:18px;padding:18px;">
+          <div style="display:flex;align-items:center;justify-content:center;gap:14px;padding-bottom:14px;margin-bottom:14px;border-bottom:1px solid rgba(255,255,255,.07);">
+            <span style="font-size:20px;">{{ m.home.f }}</span>
+            <span style="font-size:15px;font-weight:700;color:#cfd3ec;">{{ m.home.n }}</span>
+            <span style="font-family:'Orbitron';font-weight:900;font-size:30px;color:#fff;background:rgba(255,255,255,.06);padding:4px 16px;border-radius:10px;">{{ m.score }}</span>
+            <span style="font-size:15px;font-weight:700;color:#cfd3ec;">{{ m.away.n }}</span>
+            <span style="font-size:20px;">{{ m.away.f }}</span>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:8px;">
+            <sc-for list="{{ m.rows }}" as="r" hint-placeholder-count="6">
+              <div style="{{ r.rowStyle }}">
+                <span style="{{ r.avatarStyle }}">{{ r.letter }}</span>
+                <span style="flex:1;font-size:13px;font-weight:600;color:#dfe2f3;">{{ r.name }}</span>
+                <span style="font-family:'Orbitron';font-weight:700;font-size:15px;color:#cfd3ec;">{{ r.score }}</span>
+                <span style="{{ r.markStyle }}">{{ r.mark }}</span>
+                <span style="{{ r.ptsStyle }}">{{ r.pts }}</span>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+    </sc-if>
+  </section>
+
+  <!-- ============ 5 · 选手战绩细表 ============ -->
+  <section style="margin-bottom:72px;">
+    <div style="display:flex;align-items:center;gap:14px;margin-bottom:22px;">
+      <span style="font-family:'Orbitron';font-size:13px;letter-spacing:3px;color:#00D4FF;text-shadow:0 0 12px rgba(0,212,255,.7);">05</span>
+      <h2 style="margin:0;font-size:26px;font-weight:900;color:#fff;">{{ L.sec5Title }}</h2>
+      <div style="flex:1;height:1px;background:linear-gradient(90deg,rgba(255,255,255,.18),transparent);"></div>
+    </div>
+    <div style="background:linear-gradient(160deg,#0e1024,#0a0b18);border:1px solid rgba(255,255,255,.07);border-radius:18px;overflow:hidden;">
+      <div style="display:grid;grid-template-columns:2.4fr 1fr 1fr 1fr 1fr 1.1fr 1fr;gap:8px;padding:14px 20px;background:rgba(255,255,255,.03);font-size:12px;color:#8a90b6;font-weight:700;letter-spacing:1px;">
+        <span>{{ L.thModel }}</span><span style="text-align:center;color:#FFD24A;">{{ L.thExact }}</span><span style="text-align:center;color:#00FFA3;">{{ L.thWinOnly }}</span><span style="text-align:center;color:#6b7090;">{{ L.thWrong }}</span><span style="text-align:center;">{{ L.thHitRate }}</span><span style="text-align:center;">{{ L.thStreak }}</span><span style="text-align:right;">{{ L.thTotal }}</span>
+      </div>
+      <sc-for list="{{ models }}" as="m" hint-placeholder-count="6">
+        <div style="display:grid;grid-template-columns:2.4fr 1fr 1fr 1fr 1fr 1.1fr 1fr;gap:8px;align-items:center;padding:14px 20px;border-top:1px solid rgba(255,255,255,.05);">
+          <span style="display:flex;align-items:center;gap:11px;"><span style="{{ m.avatarStyle }}">{{ m.letter }}</span><span><span style="display:block;font-size:14px;font-weight:700;color:#fff;">{{ m.name }}</span><span style="font-size:11px;color:#7a80a6;">{{ m.vendor }}</span></span></span>
+          <span style="text-align:center;font-family:'Rajdhani';font-weight:700;font-size:18px;color:#FFD24A;">{{ m.exact }}</span>
+          <span style="text-align:center;font-family:'Rajdhani';font-weight:700;font-size:18px;color:#00FFA3;">{{ m.winOnly }}</span>
+          <span style="text-align:center;font-family:'Rajdhani';font-weight:700;font-size:18px;color:#6b7090;">{{ m.wrong }}</span>
+          <span style="text-align:center;font-family:'Rajdhani';font-weight:700;font-size:16px;color:#cfd3ec;">{{ m.hitRate }}%</span>
+          <span style="text-align:center;"><span style="{{ m.streakChip }}">🔥 {{ m.streak }}</span></span>
+          <span style="text-align:right;font-family:'Orbitron';font-weight:900;font-size:20px;color:{{ m.color }};">{{ m.total }}</span>
+        </div>
+      </sc-for>
+    </div>
+  </section>
+
+  <!-- ============ 6 · 考题情报档案 ============ -->
+  <section style="margin-bottom:72px;">
+    <div style="display:flex;align-items:center;gap:14px;margin-bottom:22px;">
+      <span style="font-family:'Orbitron';font-size:13px;letter-spacing:3px;color:#FF2E97;text-shadow:0 0 12px rgba(255,46,151,.7);">06</span>
+      <h2 style="margin:0;font-size:26px;font-weight:900;color:#fff;">{{ L.sec6Title }}</h2>
+      <span style="font-size:13px;color:#7a80a6;">{{ L.sec6Sub }}</span>
+      <div style="flex:1;height:1px;background:linear-gradient(90deg,rgba(255,255,255,.18),transparent);"></div>
+    </div>
+    <div style="background:linear-gradient(160deg,#0e1024,#0a0b18);border:1px solid rgba(255,255,255,.07);border-radius:18px;overflow:hidden;">
+      <button onClick="{{ toggleIntel }}" style="width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 22px;background:transparent;border:none;cursor:pointer;color:#fff;font-family:'Noto Sans SC';font-size:15px;font-weight:700;">
+        <span style="display:flex;align-items:center;gap:12px;"><span style="display:inline-flex;width:34px;height:34px;border-radius:9px;align-items:center;justify-content:center;background:rgba(255,46,151,.14);border:1px solid rgba(255,46,151,.35);">📑</span>{{ intelBtnLabel }}</span>
+        <span style="font-family:'Orbitron';font-size:12px;color:#FF2E97;">{{ intelLabel }}</span>
+      </button>
+      <sc-if value="{{ intel }}" hint-placeholder-val="{{ true }}">
+        <div style="padding:6px 22px 24px;border-top:1px solid rgba(255,255,255,.07);">
+          <div style="display:flex;align-items:center;gap:10px;padding:12px 14px;margin:14px 0 18px;border-radius:10px;background:rgba(0,255,163,.07);border:1px dashed rgba(0,255,163,.35);font-size:13px;color:#9fe9c8;">{{ L.fairNote }}</div>
+          <sc-if value="{{ hasArchiveNote }}" hint-placeholder-val="{{ false }}">
+            <div style="display:flex;align-items:center;gap:10px;padding:10px 14px;margin:0 0 18px;border-radius:10px;background:rgba(0,212,255,.06);border:1px dashed rgba(0,212,255,.3);font-size:12px;color:#9fdcef;">{{ L.archiveNote }}</div>
+          </sc-if>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;">
+            <sc-for list="{{ dossiers }}" as="d" hint-placeholder-count="4">
+              <div style="background:#0b0d1d;border:1px solid rgba(255,255,255,.07);border-radius:14px;padding:16px;font-size:13px;line-height:1.7;">
+                <div style="display:flex;align-items:center;gap:8px;font-weight:700;color:#fff;margin-bottom:10px;font-size:14px;">{{ d.flag }} {{ d.title }}</div>
+                <div style="color:#9398bd;"><span style="color:#00D4FF;">▸ {{ L.dTeam }}: </span>{{ d.team }}</div>
+                <div style="color:#9398bd;"><span style="color:#FFD24A;">▸ {{ L.dOdds }}: </span>{{ d.odds }}</div>
+                <div style="color:#9398bd;"><span style="color:#FF2E97;">▸ {{ L.dH2h }}: </span>{{ d.h2h }}</div>
+                <div style="color:#9398bd;"><span style="color:#00FFA3;">▸ {{ L.dNews }}: </span>{{ d.news }}</div>
+                <div style="color:#9398bd;"><span style="color:#8B5CFF;">▸ {{ L.dSrc }}: </span>{{ d.src }}</div>
+              </div>
+            </sc-for>
+          </div>
+          <div style="margin-top:18px;display:flex;flex-direction:column;gap:12px;">
+            <button onClick="{{ toggleCtx }}" style="display:flex;align-items:center;gap:10px;padding:13px 16px;border-radius:12px;background:rgba(0,212,255,.07);border:1px solid rgba(0,212,255,.35);cursor:pointer;color:#9fdcef;font-family:'Noto Sans SC';font-size:13px;font-weight:700;text-align:left;">{{ ctxLabel }}</button>
+            <sc-if value="{{ showCtx }}" hint-placeholder-val="{{ false }}">
+              <pre style="margin:0;max-height:460px;overflow:auto;padding:18px;border-radius:12px;background:#070812;border:1px solid rgba(255,255,255,.08);color:#aab0d4;font-size:12px;line-height:1.75;white-space:pre-wrap;font-family:'Noto Sans SC',monospace;">{{ contextDoc }}</pre>
+            </sc-if>
+            <button onClick="{{ togglePrompt }}" style="display:flex;align-items:center;gap:10px;padding:13px 16px;border-radius:12px;background:rgba(139,92,255,.08);border:1px solid rgba(139,92,255,.4);cursor:pointer;color:#c9b8f5;font-family:'Noto Sans SC';font-size:13px;font-weight:700;text-align:left;">{{ promptLabel }}</button>
+            <sc-if value="{{ showPrompt }}" hint-placeholder-val="{{ false }}">
+              <pre style="margin:0;max-height:380px;overflow:auto;padding:18px;border-radius:12px;background:#070812;border:1px solid rgba(255,255,255,.08);color:#aab0d4;font-size:12px;line-height:1.75;white-space:pre-wrap;font-family:'Noto Sans SC',monospace;">{{ promptDoc }}</pre>
+            </sc-if>
+          </div>
+        </div>
+      </sc-if>
+    </div>
+  </section>
+
+  <!-- ============ 7 · 规则与方法 ============ -->
+  <section>
+    <div style="display:flex;align-items:center;gap:14px;margin-bottom:22px;">
+      <span style="font-family:'Orbitron';font-size:13px;letter-spacing:3px;color:#8B5CFF;text-shadow:0 0 12px rgba(139,92,255,.7);">07</span>
+      <h2 style="margin:0;font-size:26px;font-weight:900;color:#fff;">{{ L.sec7Title }}</h2>
+      <div style="flex:1;height:1px;background:linear-gradient(90deg,rgba(255,255,255,.18),transparent);"></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:20px;">
+      <div style="background:linear-gradient(160deg,rgba(255,210,74,.12),#0b0d1d);border:1px solid rgba(255,210,74,.4);border-radius:16px;padding:22px;text-align:center;box-shadow:0 0 26px rgba(255,210,74,.12);"><div style="font-family:'Orbitron';font-weight:900;font-size:42px;color:#FFD24A;text-shadow:0 0 20px rgba(255,210,74,.5);">+5</div><div style="font-size:15px;font-weight:700;color:#fff;margin-top:6px;">{{ L.r5Title }}</div><div style="font-size:12px;color:#9398bd;margin-top:4px;">{{ L.r5Desc }}</div></div>
+      <div style="background:linear-gradient(160deg,rgba(0,255,163,.10),#0b0d1d);border:1px solid rgba(0,255,163,.4);border-radius:16px;padding:22px;text-align:center;box-shadow:0 0 26px rgba(0,255,163,.10);"><div style="font-family:'Orbitron';font-weight:900;font-size:42px;color:#00FFA3;text-shadow:0 0 20px rgba(0,255,163,.5);">+3</div><div style="font-size:15px;font-weight:700;color:#fff;margin-top:6px;">{{ L.r3Title }}</div><div style="font-size:12px;color:#9398bd;margin-top:4px;">{{ L.r3Desc }}</div></div>
+      <div style="background:linear-gradient(160deg,rgba(107,112,144,.12),#0b0d1d);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:22px;text-align:center;"><div style="font-family:'Orbitron';font-weight:900;font-size:42px;color:#6b7090;">0</div><div style="font-size:15px;font-weight:700;color:#fff;margin-top:6px;">{{ L.r0Title }}</div><div style="font-size:12px;color:#9398bd;margin-top:4px;">{{ L.r0Desc }}</div></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;">
+      <sc-for list="{{ methodSteps }}" as="s" hint-placeholder-count="4">
+        <div style="background:linear-gradient(160deg,#0e1024,#0a0b18);border:1px solid rgba(255,255,255,.07);border-radius:14px;padding:18px;">
+          <div style="font-family:'Orbitron';font-weight:900;font-size:15px;color:#8B5CFF;margin-bottom:8px;">{{ s.no }}</div>
+          <div style="font-size:14px;font-weight:700;color:#fff;margin-bottom:6px;">{{ s.title }}</div>
+          <div style="font-size:13px;color:#9398bd;line-height:1.65;">{{ s.body }}</div>
+        </div>
+      </sc-for>
+    </div>
+    <p style="text-align:center;margin-top:40px;font-size:12px;color:#5a607f;line-height:1.8;">{{ footerLabel }}</p>
+  </section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { progress: 0, intel: false, showCtx: false, showPrompt: false, langOpen: false,
+            lang: (function(){ try { return localStorage.getItem('arena_lang') || 'zh'; } catch(e){ return 'zh'; } })() };
+
+  componentDidMount(){
+    const t0 = performance.now(), dur = 1700;
+    const step = (now)=>{ const t=Math.min(1,(now-t0)/dur); const e=1-Math.pow(1-t,3); this.setState({progress:e}); if(t<1) this._raf=requestAnimationFrame(step); };
+    this._raf = requestAnimationFrame(step);
+    this.initParticles();
+  }
+  componentWillUnmount(){ cancelAnimationFrame(this._raf); cancelAnimationFrame(this._praf); if(this._onResize) window.removeEventListener('resize',this._onResize); }
+
+  setCanvas = (el)=>{ this._canvas = el; };
+
+  initParticles(){
+    const c = this._canvas; if(!c || !c.getContext) return;
+    const ctx = c.getContext('2d');
+    const resize=()=>{ c.width=c.offsetWidth; c.height=c.offsetHeight; };
+    resize();
+    const cols=['#00FFA3','#8B5CFF','#FF2E97','#00D4FF'];
+    const ps=Array.from({length:68},()=>({x:Math.random()*c.width,y:Math.random()*c.height,r:Math.random()*2.1+0.5,vy:-(Math.random()*0.38+0.08),vx:(Math.random()-0.5)*0.18,a:Math.random()*0.45+0.16,col:cols[(Math.random()*cols.length)|0]}));
+    const draw=()=>{ if(!c.width){this._praf=requestAnimationFrame(draw);return;} ctx.clearRect(0,0,c.width,c.height); ps.forEach(p=>{ p.x+=p.vx; p.y+=p.vy; if(p.y<-12){p.y=c.height+12;p.x=Math.random()*c.width;} ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,7); ctx.fillStyle=p.col; ctx.globalAlpha=p.a; ctx.shadowBlur=10; ctx.shadowColor=p.col; ctx.fill(); }); ctx.globalAlpha=1; ctx.shadowBlur=0; this._praf=requestAnimationFrame(draw); };
+    draw();
+    this._onResize=resize; window.addEventListener('resize',resize);
+  }
+
+  toggleIntel = ()=> this.setState(s=>({intel:!s.intel}));
+  toggleCtx = ()=> this.setState(s=>({showCtx:!s.showCtx}));
+  togglePrompt = ()=> this.setState(s=>({showPrompt:!s.showPrompt}));
+  setLang = (code)=>{ try { localStorage.setItem('arena_lang', code); } catch(e){} this.setState({lang:code, langOpen:false}); };
+  toggleLangMenu = ()=> this.setState(s=>({langOpen:!s.langOpen}));
+
+  L(){ const d=(window.I18N&&window.I18N.dict)||{}; return d[this.state.lang]||d.zh||{}; }
+  fmt(tpl,vars){ return String(tpl==null?'':tpl).replace(/\{(\w+)\}/g,(m,k)=>(vars&&vars[k]!=null)?vars[k]:''); }
+  tn(team){ return this.state.lang==='zh' ? team.zh : (team.en||team.zh); }
+
+  logoImg(m){
+    if(!m.logo) return m.letter;
+    return React.createElement('img',{src:m.logo,alt:m.short||'',style:{width:'62%',height:'62%',objectFit:m.fit||'contain',objectPosition:m.fit==='cover'?'left center':'center',filter:'brightness(0) invert(1)',display:'block',pointerEvents:'none'}});
+  }
+
+  vmeta(v){
+    if(v==='exact') return {color:'#FFD24A',bg:'rgba(255,210,74,.10)',bd:'rgba(255,210,74,.5)',mark:'✓✓',pts:'+5',gold:true};
+    if(v==='win') return {color:'#00FFA3',bg:'rgba(0,255,163,.08)',bd:'rgba(0,255,163,.4)',mark:'✓',pts:'+3',gold:false};
+    if(v==='miss') return {color:'#6b7090',bg:'rgba(255,255,255,.025)',bd:'rgba(255,255,255,.08)',mark:'—',pts:'0',gold:false};
+    return {color:'#6b7090',bg:'rgba(255,255,255,.025)',bd:'rgba(255,255,255,.08)',mark:'✗',pts:'0',gold:false};
+  }
+
+  // ======== 真实数据适配层（window.ARENA_DATA 由 scripts/build-site-data.mjs 生成） ========
+  arena(){
+    if(this._arena) return this._arena;
+    const A = window.ARENA_DATA || {updated_at:'',rules:{exact:5,outcome:3},models:[],leaderboard:[],days:[]};
+    const META = {
+      'openai/gpt-5.5-pro':           {id:'gpt',      short:'GPT',      letter:'G', color:'#10A37F', logo:'logos/gpt.svg'},
+      'x-ai/grok-4.3':                {id:'grok',     short:'Grok',     letter:'X', color:'#00D4FF', logo:'logos/grok.svg'},
+      'mistralai/mistral-medium-3-5': {id:'mistral',  short:'Mistral',  letter:'M', color:'#FF7000', logo:'logos/mistral.svg'},
+      'deepseek/deepseek-v4-pro':     {id:'deepseek', short:'DeepSeek', letter:'D', color:'#4D6BFE', logo:'logos/deepseek.svg'},
+      'moonshotai/kimi-k2.6':         {id:'kimi',     short:'Kimi',     letter:'K', color:'#8B5CFF', logo:'logos/kimi.svg', fit:'cover'},
+      'anthropic/claude-fable-5':     {id:'claude',   short:'Claude',   letter:'C', color:'#D97757', logo:'logos/claude.svg'},
+    };
+    const days = A.days || [];
+    const latest = days.length ? days[days.length-1] : null;
+    let settledDay = null;
+    for(let i=days.length-1;i>=0;i--){ if((days[i].matches||[]).some(m=>m.result)){ settledDay = days[i]; break; } }
+
+    const stats = {}; (A.leaderboard||[]).forEach(lb=>{ stats[lb.id]={exact:0,winOnly:0,wrong:0,miss:0,settled:0,seq:[]}; });
+    days.forEach(d=> (d.matches||[]).forEach(m=>{ if(!m.result) return;
+      (m.perModel||[]).forEach(pm=>{ const st=stats[pm.model]; if(!st) return; st.settled++;
+        const v=pm.settled?pm.settled.verdict:'miss';
+        if(v==='exact') st.exact++; else if(v==='outcome') st.winOnly++; else if(v==='miss') st.miss++; else st.wrong++;
+        st.seq.push(v==='exact'||v==='outcome');
+      });
+    }));
+    const streakOf=(seq)=>{ let s=0; for(let i=seq.length-1;i>=0;i--){ if(seq[i]) s++; else break; } return s; };
+
+    const lb = A.leaderboard||[];
+    const rankBy=(vals)=>{ const order=vals.slice().sort((a,b)=>b.v-a.v); const r={}; order.forEach((x,i)=>{ r[x.id]=i+1; }); return r; };
+    const curRank = rankBy(lb.map(l=>({id:l.id,v:l.total})));
+    let prevRank = null;
+    if(latest && lb.length && (lb[0].series||[]).length>=2){
+      const n=lb[0].series.length;
+      prevRank = rankBy(lb.map(l=>({id:l.id,v:l.series[n-2].total})));
+    }
+
+    const base = lb.map(l=>{
+      const meta = META[l.id] || {id:l.id,short:l.display,letter:(l.display||'?')[0],color:l.color||'#8B5CFF'};
+      const st = stats[l.id] || {exact:0,winOnly:0,wrong:0,miss:0,settled:0,seq:[]};
+      const change = prevRank ? (prevRank[l.id]-curRank[l.id]) : 0;
+      return {
+        id:meta.id, key:l.id, name:l.display, short:meta.short, vendor:l.vendor, letter:meta.letter, logo:meta.logo, fit:meta.fit, color:meta.color,
+        total:l.total, series:(l.series||[]).map(s=>s.total), dates:(l.series||[]).map(s=>s.date.slice(5)),
+        yesterday: settledDay ? (settledDay.day_points[l.id]||0) : 0,
+        hitRate: st.settled ? Math.round((st.exact+st.winOnly)/st.settled*100) : 0,
+        change, exact:st.exact, winOnly:st.winOnly, wrong:st.wrong+st.miss, streak:streakOf(st.seq), settled:st.settled,
+      };
+    }).sort((a,b)=> b.total-a.total || b.exact-a.exact || b.hitRate-a.hitRate);
+
+    const idMap={}; base.forEach(b=>{ idMap[b.key]=b; });
+    // 未完赛场次（跨比赛日合并，按北京开球时间排序）= 网站"今日答卷"的范围
+    const pendingMatches=[];
+    days.forEach(d=> (d.matches||[]).forEach(m=>{ if(!m.result) pendingMatches.push(m); }));
+    pendingMatches.sort((a,b)=> String(a.kickoff_beijing).localeCompare(String(b.kickoff_beijing)));
+    const pendingDays = days.filter(d=> (d.matches||[]).some(m=>!m.result));
+    this._arena = {A, days, latest, settledDay, base, idMap, pendingMatches, pendingDays};
+    return this._arena;
+  }
+
+  fmtOdds(m){
+    const o=(m.odds||[]).find(o=>o.home_win&&o.draw&&o.away_win);
+    return o ? [o.home_win.toFixed(2), o.draw.toFixed(2), o.away_win.toFixed(2)] : ['—','—','—'];
+  }
+  bj(m){ const s=m.kickoff_beijing||''; const mm=s.match(/\d{4}-(\d{2}-\d{2})\s*(\d{2}:\d{2})/); return mm? (mm[1]+' '+mm[2]) : s.slice(0,16); }
+  kickDate(m){ // kickoff_beijing（UTC+8）→ Date（绝对时间戳，渲染时自动落到浏览器本地时区）
+    const s=m.kickoff_beijing||''; const mm=s.match(/(\d{4})-(\d{2})-(\d{2})\s*(\d{2}):(\d{2})/);
+    if(!mm) return null;
+    return new Date(Date.UTC(+mm[1], +mm[2]-1, +mm[3], +mm[4]-8, +mm[5]));
+  }
+  fmtLocal(d){ if(!d) return '—'; const p=n=>String(n).padStart(2,'0'); return p(d.getMonth()+1)+'-'+p(d.getDate())+' '+p(d.getHours())+':'+p(d.getMinutes()); }
+  tzLabel(){
+    try {
+      const tz=(Intl.DateTimeFormat().resolvedOptions().timeZone)||'';
+      const off=-new Date().getTimezoneOffset()/60;
+      const offs='UTC'+(off>=0?'+':'')+(off%1===0?off:off.toFixed(1));
+      return tz?(tz+' '+offs):offs;
+    } catch(e){ return ''; }
+  }
+
+  buildRace(models){
+    const R=React.createElement;
+    const n = (models[0]&&models[0].series.length)||0;   // 已进行的比赛日数
+    const slots = Math.max(14, n);                        // 横轴窗口：至少预留14天赛道，从左侧起步向右生长
+    const ser = models.map(m=> m.series.length?m.series:[0]);
+    const labels = (models[0]&&models[0].dates)||[];
+    const W=1000,H=320,pl=36,pr=148,pt=22,pb=34;
+    let maxV = 10; ser.forEach(s=>s.forEach(v=>{ if(v>maxV) maxV=v; })); maxV = Math.ceil(maxV/10)*10;
+    const X=i=>pl+i/(slots-1)*(W-pl-pr);
+    const Y=v=>H-pb-(v/maxV)*(H-pt-pb);
+    const els=[];
+    for(let g=0;g<=4;g++){ const yy=pt+g/4*(H-pt-pb); els.push(R('line',{key:'g'+g,x1:pl,x2:W-pr,y1:yy,y2:yy,stroke:'rgba(255,255,255,.06)',strokeWidth:1})); els.push(R('text',{key:'gt'+g,x:pl-9,y:yy+4,textAnchor:'end',fontSize:11,fill:'#5a607f',fontFamily:'Rajdhani'},Math.round(maxV-g/4*maxV))); }
+    labels.forEach((lb,i)=>{ els.push(R('text',{key:'x'+i,x:X(i),y:H-12,textAnchor:'middle',fontSize:11,fill:'#5a607f',fontFamily:'Rajdhani'},lb)); });
+    for(let i=Math.max(labels.length,1);i<slots;i++){ els.push(R('circle',{key:'fut'+i,cx:X(i),cy:H-pb,r:1.6,fill:'rgba(255,255,255,.12)'})); }
+    models.forEach((m,mi)=>{
+      const s=ser[mi];
+      const champ=mi===0;
+      if(s.length>1){
+        const pts=s.map((v,i)=>X(i)+','+Y(v)).join(' ');
+        els.push(R('polyline',{key:'l'+m.id,points:pts,fill:'none',stroke:m.color,strokeWidth:champ?3.6:2,strokeLinecap:'round',strokeLinejoin:'round',pathLength:1000,strokeDasharray:1000,style:{animation:'draw 1.8s '+(0.15+mi*0.1).toFixed(2)+'s ease-out both',filter:champ?'drop-shadow(0 0 6px '+m.color+')':'none',opacity:champ?1:0.92}}));
+      }
+      const li=Math.max(s.length-1,0);
+      const lx=X(li),ly=Y(s[li]);
+      const lyBase=Math.min(Math.max(ly,50),245); // 标签组钳制在绘图区内（点贴底/贴顶时整组内收）
+      els.push(R('circle',{key:'d'+m.id,cx:lx,cy:ly,r:champ?5:3.4,fill:m.color,style:{filter:'drop-shadow(0 0 5px '+m.color+')',opacity:0,animation:'riseIn .5s '+(0.3+mi*0.08).toFixed(2)+'s ease-out both'}}));
+      els.push(R('text',{key:'lb'+m.id,x:lx+11,y:lyBase+4+(mi*13-32),fontSize:12,fontFamily:'Rajdhani',fontWeight:700,fill:m.color,style:{opacity:0,animation:'riseIn .5s '+(0.4+mi*0.08).toFixed(2)+'s ease-out both'}},m.short+' '+m.total));
+    });
+    return R('svg',{viewBox:'0 0 '+W+' '+H,style:{width:'100%',height:'auto',display:'block'}},els);
+  }
+
+  renderVals(){
+    const p=this.state.progress;
+    const lang=this.state.lang;
+    const L=this.L();
+    const fmt=this.fmt;
+    const {A, days, latest, settledDay, base, idMap, pendingMatches, pendingDays} = this.arena();
+    const av=(color,size,radius,fs)=>({width:size,height:size,minWidth:size,borderRadius:radius,display:'inline-flex',alignItems:'center',justifyContent:'center',fontFamily:'Orbitron',fontWeight:900,fontSize:fs,background:'linear-gradient(140deg,'+color+','+color+'99)',color:'#fff',boxShadow:'0 0 14px '+color+'66, inset 0 0 0 1px rgba(255,255,255,.22)'});
+
+    const models=base.map((m,i)=>{
+      const arrow=m.change>0?'▲':(m.change<0?'▼':'■');
+      const arrowColor=m.change>0?'#00FFA3':(m.change<0?'#FF2E97':'#6b7090');
+      const arrowText=m.change>0?('+'+m.change):(m.change<0?(''+m.change):L.arrowFlat);
+      return Object.assign({},m,{
+        rank:i+1, arrow, arrowColor, arrowText,
+        letter:this.logoImg(m),
+        displayTotal: Math.round(m.total*p),
+        avatarStyle: av(m.color,40,11,16),
+        bigAvatarStyle: Object.assign(av(m.color,92,26,40),{margin:'0 auto'}),
+        glowStyle:{position:'absolute',inset:0,pointerEvents:'none',background:'radial-gradient(150px 90px at 82% -10%, '+m.color+'33, transparent 70%)'},
+        legendDot:{width:14,height:4,borderRadius:99,background:m.color,boxShadow:'0 0 8px '+m.color},
+        streakChip:{display:'inline-block',padding:'3px 10px',borderRadius:99,fontSize:12,fontWeight:700,fontFamily:'Rajdhani',color:m.color,background:m.color+'1a',border:'1px solid '+m.color+'55'},
+        borderColor:m.color+'88', shadowColor:m.color+'4d'
+      });
+    });
+    const champion=models[0];
+    const others=models.slice(1);
+
+    // ---- 今日答卷 ----
+    const todayMatches=pendingMatches.map(mm=>{
+      const odds=this.fmtOdds(mm);
+      const preds={};
+      (mm.perModel||[]).forEach(pm=>{ const b=idMap[pm.model]; if(b) preds[b.id]=pm.pred; });
+      const counts={}; models.forEach(m=>{ const pr=preds[m.id]; if(pr) counts[pr.score]=(counts[pr.score]||0)+1; });
+      let best=null,bc=0; Object.keys(counts).forEach(s=>{ if(counts[s]>bc){bc=counts[s];best=s;} });
+      const answers=models.map(m=>{ const pr=preds[m.id];
+        const score=pr?pr.score.replace('-',' - '):'—';
+        const winner=pr?(pr.winner==='home'?this.tn(mm.home):(pr.winner==='away'?this.tn(mm.away):L.draw)):L.noAnswer;
+        const conf=pr?pr.confidence:0;
+        const cons=!!pr&&pr.score===best&&bc>=3;
+        return {id:m.id,letter:this.logoImg(m),name:m.short,color:m.color,glow:m.color+'66',score:score,winner:winner,conf:conf,
+          avatarStyle:av(m.color,26,8,12),
+          cardStyle:{position:'relative',background:cons?('linear-gradient(160deg,'+m.color+'22,#0b0d1e)'):'linear-gradient(160deg,#11132b,#0b0d1e)',border:cons?('1px solid '+m.color+'aa'):'1px solid rgba(255,255,255,.07)',borderRadius:14,padding:14,boxShadow:cons?('0 0 18px '+m.color+'33'):'none'},
+          consensusTag:cons?L.consensus:'',
+          consensusTagStyle:cons?{fontSize:10,fontWeight:700,letterSpacing:1,padding:'2px 7px',borderRadius:6,color:m.color,background:m.color+'22',border:'1px solid '+m.color+'66'}:{display:'none'},
+          barStyle:{height:'100%',width:conf+'%',borderRadius:99,background:'linear-gradient(90deg,'+m.color+','+m.color+'99)'}};
+      });
+      return {home:{n:this.tn(mm.home),f:mm.home.flag},away:{n:this.tn(mm.away),f:mm.away.flag},
+        time:this.fmtLocal(this.kickDate(mm))+' · '+fmt(L.groupFmt,{g:mm.group}), odds:odds, answers:answers};
+    });
+
+    // ---- 昨日揭晓 ----
+    const yesterdayMatches=(settledDay?settledDay.matches.filter(m=>m.result):[]).map(mm=>{
+      const rows=(mm.perModel||[]).map(pm=>{ const b=idMap[pm.model]; if(!b) return null;
+        const v=pm.settled?(pm.settled.verdict==='outcome'?'win':pm.settled.verdict):'miss';
+        const meta=this.vmeta(v);
+        return {id:b.id,letter:this.logoImg(b),name:b.short,score:pm.pred?pm.pred.score.replace('-',' - '):'—',mark:meta.mark,pts:meta.pts,
+          avatarStyle:av(b.color,26,8,12),
+          rowStyle:{display:'flex',alignItems:'center',gap:10,padding:'9px 12px',borderRadius:10,background:meta.bg,border:'1px solid '+meta.bd,animation:meta.gold?'goldFlash 2.2s ease-in-out infinite':'none'},
+          markStyle:{color:meta.color,fontWeight:900,fontFamily:'Orbitron',fontSize:14,width:30,textAlign:'center'},
+          ptsStyle:{color:meta.color,fontWeight:700,fontFamily:'Rajdhani',fontSize:15,width:32,textAlign:'right'}};
+      }).filter(Boolean);
+      return {home:{n:this.tn(mm.home),f:mm.home.flag},away:{n:this.tn(mm.away),f:mm.away.flag},score:mm.result.score.replace('-',' - '),rows:rows};
+    });
+
+    // ---- 考题情报档案 ----
+    const dossiers=pendingMatches.map(mm=>{
+      const tk=Object.keys(mm.teams||{});
+      const t1=mm.teams[tk[0]]||{}, t2=mm.teams[tk[1]]||{};
+      const form=t=>((t.recent_form||[]).map(r=>r.result).join('')||'—');
+      const odds=this.fmtOdds(mm);
+      const h2h=mm.h2h||{};
+      const hn=this.tn(mm.home), an=this.tn(mm.away);
+      const newsVal = lang==='zh'
+        ? fmt(L.dossierNewsFmt,{list:(mm.news||[]).slice(0,2).map(n=>n.headline_zh).join('；')})
+        : fmt(L.dossierNewsFmt,{n:(mm.news||[]).length});
+      return {flag:mm.home.flag, title:hn+' vs '+an+'（'+fmt(L.groupFmt,{g:mm.group})+'）',
+        team:fmt(L.dossierTeamFmt,{h:hn,hr:t1.fifa_ranking||'—',hf:form(t1),a:an,ar:t2.fifa_ranking||'—',af:form(t2)}),
+        odds:fmt(L.dossierOddsFmt,{h:odds[0],d:odds[1],a:odds[2],n:(mm.odds||[]).length}),
+        h2h:fmt(L.dossierH2hFmt,{n:(h2h.total_matches!=null?h2h.total_matches:'—'),detail:String(h2h.last_meeting||'').slice(0,72)+'…'}),
+        news:newsVal,
+        src:fmt(L.dossierSrcFmt,{n:(mm.sources||[]).length})};
+    });
+
+    const methodSteps=L.steps||[];
+
+    // ---- 标签 ----
+    let updated='—';
+    try { if(A.updated_at){ updated=new Date(A.updated_at).toLocaleString(undefined,{year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',timeZoneName:'short'}); } } catch(e){ updated=(A.updated_at||'').slice(0,16); }
+    const srcDays = pendingDays.length?pendingDays:(latest?[latest]:[]);
+    const ctxDoc = srcDays.filter(d=>d.context_md).map(d=>'━━━━━━━━━━ '+d.date+' ━━━━━━━━━━\n\n'+d.context_md).join('\n\n\n')||'—';
+    const promptDoc = srcDays.filter(d=>d.prompt).map(d=>{
+      const u=d.prompt.user||''; const ks='═══════════ 资料文档开始 ═══════════', ke='═══════════ 资料文档结束 ═══════════';
+      const i1=u.indexOf(ks), i2=u.indexOf(ke);
+      const head=i1>=0?u.slice(0,i1):u.slice(0,300), tail=i2>=0?u.slice(i2+ke.length):'';
+      return '━━━━━━━━━━ '+d.date+' ━━━━━━━━━━\n'+L.promptSys+'\n'+d.prompt.system+'\n\n'+L.promptUser+'\n'+head+ks+'\n\n'+L.promptMid+'\n\n'+ke+tail;
+    }).join('\n\n\n')||'—';
+
+    const langs=((window.I18N&&I18N.languages)||[]);
+    const langChips=langs.map(lg=>({
+      label:(lg.code===lang?'✓ ':'\u2003')+lg.label,
+      onClick:()=>this.setLang(lg.code),
+      style: lg.code===lang
+        ? {cursor:'pointer',textAlign:'left',padding:'9px 14px',borderRadius:9,border:'none',background:'rgba(0,255,163,.13)',color:'#00FFA3',font:"700 13px/1.1 'Noto Sans SC',sans-serif"}
+        : {cursor:'pointer',textAlign:'left',padding:'9px 14px',borderRadius:9,border:'none',background:'transparent',color:'#c2c6e0',font:"500 13px/1.1 'Noto Sans SC',sans-serif"},
+    }));
+    const curLangLabel=(langs.find(l=>l.code===lang)||{label:lang}).label;
+
+    return {
+      L, langChips, curLangLabel, langOpen:this.state.langOpen, toggleLangMenu:this.toggleLangMenu, langCaret:this.state.langOpen?'▲':'▼',
+      models, champion, others,
+      raceChart:this.buildRace(models),
+      todayMatches, yesterdayMatches, dossiers, methodSteps,
+      hasYesterday: yesterdayMatches.length>0,
+      noYesterday: yesterdayMatches.length===0,
+      heroDateLabel:(latest?latest.date:'—')+' · '+fmt(L.dayN,{n:days.length}),
+      raceSubLabel: fmt(L.sec2Sub,{n:days.length}),
+      todaySubLabel: (function(self){
+        const ts=pendingMatches.map(m=>self.fmtLocal(self.kickDate(m))).filter(t=>t!=='—');
+        const bj=ts.length?(ts[0]+' ~ '+ts[ts.length-1]):'—';
+        const dateLabel=(pendingDays.length?pendingDays:(latest?[latest]:[])).map(d=>d.date).join(' / ')||'—';
+        return fmt(L.sec3Sub,{date:dateLabel, bj:bj, tz:self.tzLabel()});
+      })(this),
+      yesterdayLabel: settledDay?fmt(L.yesterdaySettledFmt,{date:settledDay.date}):L.yesterdayWaiting,
+      intelBtnLabel: fmt(L.intelBtnFmt,{date:(pendingDays.length?pendingDays:(latest?[latest]:[])).map(d=>d.date).join(' / ')||'—'}),
+      hasArchiveNote: !!L.archiveNote,
+      footerLabel: fmt(L.footerTpl,{t:updated}),
+      contextDoc:ctxDoc, promptDoc:promptDoc,
+      showCtx:this.state.showCtx, toggleCtx:this.toggleCtx, ctxLabel:this.state.showCtx?L.ctxBtnCollapse:L.ctxBtnExpand,
+      showPrompt:this.state.showPrompt, togglePrompt:this.togglePrompt, promptLabel:this.state.showPrompt?L.promptBtnCollapse:L.promptBtnExpand,
+      setCanvas:this.setCanvas,
+      intel:this.state.intel, toggleIntel:this.toggleIntel,
+      intelLabel:this.state.intel?L.collapse:L.expand
+    };
+  }
+}
+</script>
+</body>
+</html>
