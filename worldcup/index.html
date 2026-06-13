@@ -448,9 +448,10 @@ class Component extends DCLogic {
   buildRace(models){
     const R=React.createElement;
     const n = (models[0]&&models[0].series.length)||0;   // 已进行的比赛日数
-    const slots = Math.max(14, n);                        // 横轴窗口：至少预留14天赛道，从左侧起步向右生长
-    const ser = models.map(m=> m.series.length?m.series:[0]);
-    const labels = (models[0]&&models[0].dates)||[];
+    // 每条线前置一个"起跑"点(0分)，让累计积分从 0 向上增长
+    const ser = models.map(m=> [0].concat(m.series.length?m.series:[0]));
+    const labels = [this.L().raceStart||'START'].concat((models[0]&&models[0].dates)||[]);
+    const slots = Math.max(15, ser[0].length);            // 横轴窗口：起跑 + 至少14天赛道，从左侧起步向右生长
     const W=1000,H=320,pl=36,pr=148,pt=22,pb=34;
     let maxV = 10; ser.forEach(s=>s.forEach(v=>{ if(v>maxV) maxV=v; })); maxV = Math.ceil(maxV/10)*10;
     const X=i=>pl+i/(slots-1)*(W-pl-pr);
