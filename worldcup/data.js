@@ -1,6 +1,6 @@
 // 自动生成 — 勿手改。由 scripts/build-site-data.mjs 在每日更新时重建。
 window.ARENA_DATA = {
- "updated_at": "2026-06-13T03:34:03.609Z",
+ "updated_at": "2026-06-13T03:43:00.079Z",
  "rules": {
   "exact": 5,
   "outcome": 3,
