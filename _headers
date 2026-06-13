@@ -1,0 +1,6 @@
+# 世界杯擂台：每日更新的页面与数据始终向源重新验证（带 ETag；内容未变则 304，省带宽）。
+# 不影响 claudes-cat 主站及 worldcup 下不常变的 i18n.js / support.js / logos（保持默认缓存）。
+/worldcup/index.html
+  Cache-Control: no-cache
+/worldcup/data.js
+  Cache-Control: no-cache
