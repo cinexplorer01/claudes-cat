@@ -1,6 +1,6 @@
 // 自动生成 — 勿手改。由 scripts/build-site-data.mjs 在每日更新时重建。
 window.ARENA_DATA = {
- "updated_at": "2026-06-12T14:18:46.533Z",
+ "updated_at": "2026-06-13T03:34:03.609Z",
  "rules": {
   "exact": 5,
   "outcome": 3,
@@ -46,21 +46,40 @@ window.ARENA_DATA = {
  ],
  "leaderboard": [
   {
-   "id": "openai/gpt-5.5-pro",
-   "display": "GPT-5.5 Pro",
-   "vendor": "OpenAI",
-   "color": "#34d399",
-   "total": 0,
+   "id": "deepseek/deepseek-v4-pro",
+   "display": "DeepSeek V4 Pro",
+   "vendor": "DeepSeek",
+   "color": "#60a5fa",
+   "total": 8,
    "series": [
     {
      "date": "2026-06-12",
-     "day": 0,
-     "total": 0
+     "day": 8,
+     "total": 8
     },
     {
      "date": "2026-06-13",
      "day": 0,
-     "total": 0
+     "total": 8
+    }
+   ]
+  },
+  {
+   "id": "openai/gpt-5.5-pro",
+   "display": "GPT-5.5 Pro",
+   "vendor": "OpenAI",
+   "color": "#34d399",
+   "total": 3,
+   "series": [
+    {
+     "date": "2026-06-12",
+     "day": 3,
+     "total": 3
+    },
+    {
+     "date": "2026-06-13",
+     "day": 0,
+     "total": 3
     }
    ]
   },
@@ -69,55 +88,17 @@ window.ARENA_DATA = {
    "display": "Grok 4.3",
    "vendor": "xAI",
    "color": "#a78bfa",
-   "total": 0,
+   "total": 3,
    "series": [
     {
      "date": "2026-06-12",
-     "day": 0,
-     "total": 0
+     "day": 3,
+     "total": 3
     },
     {
      "date": "2026-06-13",
      "day": 0,
-     "total": 0
-    }
-   ]
-  },
-  {
-   "id": "mistralai/mistral-medium-3-5",
-   "display": "Mistral Medium 3.5",
-   "vendor": "Mistral AI",
-   "color": "#fb923c",
-   "total": 0,
-   "series": [
-    {
-     "date": "2026-06-12",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-13",
-     "day": 0,
-     "total": 0
-    }
-   ]
-  },
-  {
-   "id": "deepseek/deepseek-v4-pro",
-   "display": "DeepSeek V4 Pro",
-   "vendor": "DeepSeek",
-   "color": "#60a5fa",
-   "total": 0,
-   "series": [
-    {
-     "date": "2026-06-12",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-13",
-     "day": 0,
-     "total": 0
+     "total": 3
     }
    ]
   },
@@ -126,17 +107,17 @@ window.ARENA_DATA = {
    "display": "Kimi K2.6",
    "vendor": "Moonshot AI",
    "color": "#f87171",
-   "total": 0,
+   "total": 3,
    "series": [
     {
      "date": "2026-06-12",
-     "day": 0,
-     "total": 0
+     "day": 3,
+     "total": 3
     },
     {
      "date": "2026-06-13",
      "day": 0,
-     "total": 0
+     "total": 3
     }
    ]
   },
@@ -145,6 +126,25 @@ window.ARENA_DATA = {
    "display": "Claude Fable 5",
    "vendor": "Anthropic",
    "color": "#d9a05b",
+   "total": 3,
+   "series": [
+    {
+     "date": "2026-06-12",
+     "day": 3,
+     "total": 3
+    },
+    {
+     "date": "2026-06-13",
+     "day": 0,
+     "total": 3
+    }
+   ]
+  },
+  {
+   "id": "mistralai/mistral-medium-3-5",
+   "display": "Mistral Medium 3.5",
+   "vendor": "Mistral AI",
+   "color": "#fb923c",
    "total": 0,
    "series": [
     {
@@ -411,7 +411,11 @@ window.ARENA_DATA = {
       "https://www.rotowire.com/soccer/article/2026-world-cup-group-b-preview-canada-bosnia-and-herzegovina-qatar-and-switzerland-lineups-odds-predictions-and-tactics-111899",
       "https://www.theglobeandmail.com/sports/soccer/article-canada-vs-bosnia-herzegovina-fifa-world-cup-opener-toronto/"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-12-CAN-BIH",
+      "score": "1-1",
+      "winner": "draw"
+     },
      "perModel": [
       {
        "model": "openai/gpt-5.5-pro",
@@ -423,7 +427,10 @@ window.ARENA_DATA = {
         "confidence": 58,
         "reasoning_zh": "主场与赔率占优，波黑连平且小球倾向"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "x-ai/grok-4.3",
@@ -435,7 +442,10 @@ window.ARENA_DATA = {
         "confidence": 68,
         "reasoning_zh": "主场首战动机强，波黑近5场90分钟全平，赔率明显支持加拿大小胜"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "mistralai/mistral-medium-3-5",
@@ -447,7 +457,10 @@ window.ARENA_DATA = {
         "confidence": 85,
         "reasoning_zh": "加拿大主场+排名优势，戴维斯缺阵但戴维领衔攻击线仍能破波黑铁桶，小球热门符合两队近况"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "deepseek/deepseek-v4-pro",
@@ -459,7 +472,10 @@ window.ARENA_DATA = {
         "confidence": 60,
         "reasoning_zh": "加拿大戴维斯缺阵影响进攻，波黑近5场90分钟全平且防守顽强，双方抢分压力下易出平局。"
        },
-       "settled": null
+       "settled": {
+        "points": 5,
+        "verdict": "exact"
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -471,7 +487,10 @@ window.ARENA_DATA = {
         "confidence": 68,
         "reasoning_zh": "东道主揭幕战气势加成，波黑近5场90分钟全平进攻乏力，加拿大由戴维领衔有望斩获队史世界杯首胜，小球盘口支持1-0小胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -483,7 +502,10 @@ window.ARENA_DATA = {
         "confidence": 56,
         "reasoning_zh": "赔率一边倒看好东道主，波黑90分钟赢球乏术、哲科40岁伤初愈，小球盘受捧，加拿大主场防守稳健1-0擒下队史首胜"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       }
      ]
     },
@@ -748,7 +770,11 @@ window.ARENA_DATA = {
       "https://www.starsandstripesfc.com/fifa-world-cup/44103/usa-vs-paraguay-2026-world-cup-scouting-paraguay",
       "https://inside.fifa.com/fifa-world-ranking/men"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-12-USA-PAR",
+      "score": "4-1",
+      "winner": "home"
+     },
      "perModel": [
       {
        "model": "openai/gpt-5.5-pro",
@@ -760,7 +786,10 @@ window.ARENA_DATA = {
         "confidence": 54,
         "reasoning_zh": "主场实力略优，恩西索伤缺且小球盘明显"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "x-ai/grok-4.3",
@@ -772,7 +801,10 @@ window.ARENA_DATA = {
         "confidence": 62,
         "reasoning_zh": "美国纸面实力占优，巴拉圭防守强但恩西索缺阵，历史交锋美国占优"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "mistralai/mistral-medium-3-5",
@@ -784,7 +816,10 @@ window.ARENA_DATA = {
         "confidence": 75,
         "reasoning_zh": "巴拉圭防守顽强，美国热身不稳，恩西索缺阵平衡双方优势，小组赛首战平局概率高"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "deepseek/deepseek-v4-pro",
@@ -796,7 +831,10 @@ window.ARENA_DATA = {
         "confidence": 50,
         "reasoning_zh": "美国实力占优且有主场之利，巴拉圭守强攻弱且恩西索缺阵，小球格局下东道主小胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -808,7 +846,10 @@ window.ARENA_DATA = {
         "confidence": 65,
         "reasoning_zh": "美国主场纸面占优，巴拉圭预选赛防守稳健但核心恩西索缺阵致反击哑火，深开小球盘口下东道主凭个人能力1-0破局。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -820,19 +861,22 @@ window.ARENA_DATA = {
         "confidence": 50,
         "reasoning_zh": "美国主场略占优但热身起伏，巴拉圭铁桶防守加恩西索缺阵反击乏力，盘口强烈看小球，主队闷胜1-0最符合市场共识"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       }
      ]
     }
    ],
-   "settled": false,
+   "settled": true,
    "day_points": {
-    "openai/gpt-5.5-pro": 0,
-    "x-ai/grok-4.3": 0,
+    "openai/gpt-5.5-pro": 3,
+    "x-ai/grok-4.3": 3,
     "mistralai/mistral-medium-3-5": 0,
-    "deepseek/deepseek-v4-pro": 0,
-    "moonshotai/kimi-k2.6": 0,
-    "anthropic/claude-fable-5": 0
+    "deepseek/deepseek-v4-pro": 8,
+    "moonshotai/kimi-k2.6": 3,
+    "anthropic/claude-fable-5": 3
    },
    "prompt": {
     "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。综合考虑赔率隐含概率、两队实力差距、近期状态与晋级动机，给出你认为最可能出现的精确比分。",
