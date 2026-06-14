@@ -1,6 +1,6 @@
 // 自动生成 — 勿手改。由 scripts/build-site-data.mjs 在每日更新时重建。
 window.ARENA_DATA = {
- "updated_at": "2026-06-14T14:22:29.001Z",
+ "updated_at": "2026-06-14T15:26:14.972Z",
  "rules": {
   "exact": 5,
   "outcome": 3,
@@ -39,7 +39,7 @@ window.ARENA_DATA = {
   },
   {
    "id": "anthropic/claude-fable-5",
-   "display": "Claude Fable 5",
+   "display": "Claude Opus 4.8",
    "vendor": "Anthropic",
    "color": "#d9a05b"
   }
@@ -119,7 +119,7 @@ window.ARENA_DATA = {
   },
   {
    "id": "anthropic/claude-fable-5",
-   "display": "Claude Fable 5",
+   "display": "Claude Opus 4.8",
    "vendor": "Anthropic",
    "color": "#d9a05b",
    "total": 6,
