@@ -1,6 +1,6 @@
 // 自动生成 — 勿手改。由 scripts/build-site-data.mjs 在每日更新时重建。
 window.ARENA_DATA = {
- "updated_at": "2026-06-17T05:59:25.787Z",
+ "updated_at": "2026-06-17T10:45:21.185Z",
  "rules": {
   "exact": 5,
   "outcome": 3,
@@ -50,7 +50,7 @@ window.ARENA_DATA = {
    "display": "Grok 4.3",
    "vendor": "xAI",
    "color": "#a78bfa",
-   "total": 28,
+   "total": 31,
    "series": [
     {
      "date": "2026-06-12",
@@ -74,13 +74,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-16",
-     "day": 13,
-     "total": 28
+     "day": 16,
+     "total": 31
     },
     {
      "date": "2026-06-17",
      "day": 0,
-     "total": 28
+     "total": 31
     }
    ]
   },
@@ -89,7 +89,7 @@ window.ARENA_DATA = {
    "display": "DeepSeek V4 Pro",
    "vendor": "DeepSeek",
    "color": "#60a5fa",
-   "total": 26,
+   "total": 29,
    "series": [
     {
      "date": "2026-06-12",
@@ -113,13 +113,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-16",
-     "day": 6,
-     "total": 26
+     "day": 9,
+     "total": 29
     },
     {
      "date": "2026-06-17",
      "day": 0,
-     "total": 26
+     "total": 29
     }
    ]
   },
@@ -128,7 +128,7 @@ window.ARENA_DATA = {
    "display": "GPT-5.5 Pro",
    "vendor": "OpenAI",
    "color": "#34d399",
-   "total": 23,
+   "total": 26,
    "series": [
     {
      "date": "2026-06-12",
@@ -152,13 +152,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-16",
-     "day": 9,
-     "total": 23
+     "day": 12,
+     "total": 26
     },
     {
      "date": "2026-06-17",
      "day": 0,
-     "total": 23
+     "total": 26
     }
    ]
   },
@@ -167,7 +167,7 @@ window.ARENA_DATA = {
    "display": "Mistral Medium 3.5",
    "vendor": "Mistral AI",
    "color": "#fb923c",
-   "total": 21,
+   "total": 24,
    "series": [
     {
      "date": "2026-06-12",
@@ -191,13 +191,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-16",
-     "day": 9,
-     "total": 21
+     "day": 12,
+     "total": 24
     },
     {
      "date": "2026-06-17",
      "day": 0,
-     "total": 21
+     "total": 24
     }
    ]
   },
@@ -206,7 +206,7 @@ window.ARENA_DATA = {
    "display": "Claude Opus 4.8",
    "vendor": "Anthropic",
    "color": "#d9a05b",
-   "total": 21,
+   "total": 24,
    "series": [
     {
      "date": "2026-06-12",
@@ -230,13 +230,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-16",
-     "day": 9,
-     "total": 21
+     "day": 12,
+     "total": 24
     },
     {
      "date": "2026-06-17",
      "day": 0,
-     "total": 21
+     "total": 24
     }
    ]
   },
@@ -245,7 +245,7 @@ window.ARENA_DATA = {
    "display": "Kimi K2.7",
    "vendor": "Moonshot AI",
    "color": "#f87171",
-   "total": 18,
+   "total": 21,
    "series": [
     {
      "date": "2026-06-12",
@@ -269,13 +269,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-16",
-     "day": 9,
-     "total": 18
+     "day": 12,
+     "total": 21
     },
     {
      "date": "2026-06-17",
      "day": 0,
-     "total": 18
+     "total": 21
     }
    ]
   }
@@ -7029,8 +7029,8 @@ window.ARENA_DATA = {
      ],
      "result": {
       "id": "2026-06-16-AUT-JOR",
-      "score": "1-1",
-      "winner": "draw"
+      "score": "3-1",
+      "winner": "home"
      },
      "perModel": [
       {
@@ -7044,8 +7044,8 @@ window.ARENA_DATA = {
         "reasoning_zh": "奥地利压迫成型，约旦缺射手且防线低迷"
        },
        "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "points": 3,
+        "verdict": "outcome"
        }
       },
       {
@@ -7059,8 +7059,8 @@ window.ARENA_DATA = {
         "reasoning_zh": "奥地利逼抢强势，约旦首秀防守漏洞大"
        },
        "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "points": 3,
+        "verdict": "outcome"
        }
       },
       {
@@ -7074,8 +7074,8 @@ window.ARENA_DATA = {
         "reasoning_zh": "奥地利高位逼抢体系成熟，约旦首秀压力大，攻击端缺核心，防守难以抵挡"
        },
        "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "points": 3,
+        "verdict": "outcome"
        }
       },
       {
@@ -7089,8 +7089,8 @@ window.ARENA_DATA = {
         "reasoning_zh": "奥地利实力碾压，朗尼克体系成熟+近11场9胜。约旦首秀+头号射手缺阵，热身赛连续大败无力抵抗。"
        },
        "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "points": 3,
+        "verdict": "outcome"
        }
       },
       {
@@ -7104,8 +7104,8 @@ window.ARENA_DATA = {
         "reasoning_zh": "奥地利高位逼抢压制约旦，客队进攻乏力，主队两球取胜。"
        },
        "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "points": 3,
+        "verdict": "outcome"
        }
       },
       {
@@ -7119,8 +7119,8 @@ window.ARENA_DATA = {
         "reasoning_zh": "奥地利朗尼克逼抢体系兵强马壮、近17场仅失7球；约旦五场不胜、头号射手伤缺锋无力，料奥地利掌控零封取胜。"
        },
        "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "points": 3,
+        "verdict": "outcome"
        }
       }
      ]
@@ -7128,12 +7128,12 @@ window.ARENA_DATA = {
    ],
    "settled": true,
    "day_points": {
-    "openai/gpt-5.5-pro": 9,
-    "x-ai/grok-4.3": 13,
-    "mistralai/mistral-medium-3-5": 9,
-    "deepseek/deepseek-v4-pro": 6,
-    "moonshotai/kimi-k2.6": 9,
-    "anthropic/claude-fable-5": 9
+    "openai/gpt-5.5-pro": 12,
+    "x-ai/grok-4.3": 16,
+    "mistralai/mistral-medium-3-5": 12,
+    "deepseek/deepseek-v4-pro": 9,
+    "moonshotai/kimi-k2.6": 12,
+    "anthropic/claude-fable-5": 12
    },
    "prompt": {
     "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。综合考虑赔率隐含概率、两队实力差距、近期状态与晋级动机，给出你认为最可能出现的精确比分。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
