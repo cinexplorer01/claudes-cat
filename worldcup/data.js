@@ -1,6 +1,6 @@
 // 自动生成 — 勿手改。由 scripts/build-site-data.mjs 在每日更新时重建。
 window.ARENA_DATA = {
- "updated_at": "2026-06-19T09:54:01.741Z",
+ "updated_at": "2026-06-19T10:27:59.149Z",
  "rules": {
   "exact": 5,
   "outcome": 3,
@@ -10224,9 +10224,9 @@ window.ARENA_DATA = {
        "pred": {
         "match_id": "2026-06-19-USA-AUS",
         "winner": "home",
-        "score": "2-1",
+        "score": "3-1",
         "confidence": 85,
-        "reasoning_zh": "东道主美国攻击线火力强，普利西奇可能复出，澳大利亚防守稳但攻击力有限，主场优势明显"
+        "reasoning_zh": "主场优势+首轮4-1爆发，澳大利亚防守强但锋线有限，普利西奇复出起关键作用"
        },
        "settled": null
       },
@@ -10503,9 +10503,9 @@ window.ARENA_DATA = {
        "pred": {
         "match_id": "2026-06-19-SCO-MAR",
         "winner": "away",
-        "score": "0-2",
+        "score": "0-1",
         "confidence": 80,
-        "reasoning_zh": "摩洛哥实力远超苏格兰，虽有伤情但控球率和个人能力占优，苏格兰防守难以抵挡"
+        "reasoning_zh": "摩洛哥实力与星味远超苏格兰，首轮逼平巴西展现韧性，苏格兰防守型打法难破对手球门"
        },
        "settled": null
       },
@@ -10781,9 +10781,9 @@ window.ARENA_DATA = {
        "pred": {
         "match_id": "2026-06-19-BRA-HAI",
         "winner": "home",
-        "score": "3-0",
+        "score": "4-0",
         "confidence": 90,
-        "reasoning_zh": "巴西火力全开，海地防线薄弱，内马尔缺席但维尼修斯等足以支撑大胜"
+        "reasoning_zh": "巴西需重振士气，海地防守弱且无还手之力，维尼修斯等进攻群将大规模破门"
        },
        "settled": null
       },
@@ -10805,9 +10805,9 @@ window.ARENA_DATA = {
        "pred": {
         "match_id": "2026-06-19-BRA-HAI",
         "winner": "home",
-        "score": "3-0",
+        "score": "2-0",
         "confidence": 85,
-        "reasoning_zh": "巴西首战失分后亟需反弹，海地防守难抵挡维尼修斯领衔的多线进攻。"
+        "reasoning_zh": "内马尔缺阵但巴西实力碾压海地，海地摆大巴仍难挡维尼修斯拉菲尼亚，巴西_Control winning."
        },
        "settled": null
       },
@@ -11049,9 +11049,9 @@ window.ARENA_DATA = {
        "pred": {
         "match_id": "2026-06-19-TUR-PAR",
         "winner": "home",
-        "score": "2-1",
-        "confidence": 52,
-        "reasoning_zh": "土耳其阵容更整，居莱尔哈坎创造力压制对手"
+        "score": "1-0",
+        "confidence": 56,
+        "reasoning_zh": "土耳其中场创造力占优，巴拉圭会收紧但进攻火力有限"
        },
        "settled": null
       },
@@ -11072,10 +11072,10 @@ window.ARENA_DATA = {
        "status": "ok",
        "pred": {
         "match_id": "2026-06-19-TUR-PAR",
-        "winner": "home",
-        "score": "2-1",
+        "winner": "draw",
+        "score": "1-1",
         "confidence": 75,
-        "reasoning_zh": "土耳其实力略高，主场作战，巴拉圭首轮大败士气受损，土耳其更有动力争胜"
+        "reasoning_zh": "双方均背水一战，土耳其攻击力不足，巴拉圭防守韧性强，平局概率较大"
        },
        "settled": null
       },
@@ -11097,9 +11097,9 @@ window.ARENA_DATA = {
        "pred": {
         "match_id": "2026-06-19-TUR-PAR",
         "winner": "home",
-        "score": "2-1",
-        "confidence": 60,
-        "reasoning_zh": "土耳其中前场创造力更强且背水一战，巴拉圭首轮防线崩盘后较难顶住。"
+        "score": "1-0",
+        "confidence": 70,
+        "reasoning_zh": "土耳其实力占优但首轮受挫，巴拉圭防守脆弱，蒙特拉球队小胜保命。"
        },
        "settled": null
       },
@@ -11109,9 +11109,9 @@ window.ARENA_DATA = {
        "pred": {
         "match_id": "2026-06-19-TUR-PAR",
         "winner": "home",
-        "score": "2-1",
-        "confidence": 50,
-        "reasoning_zh": "土耳其个人能力占优、主场背水一战；巴拉圭防线被美国打穿、多人黄牌，主胜。"
+        "score": "2-0",
+        "confidence": 55,
+        "reasoning_zh": "土耳其主场背水一战，居莱尔、恰尔汗奥卢个人能力碾压；巴拉圭防线被美国打穿、核心带伤、多人黄牌停赛边缘，难有反击，土耳其零封小胜。"
        },
        "settled": null
       }
