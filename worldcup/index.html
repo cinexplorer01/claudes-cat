@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="./i18n.js?v=4"></script>
+<script src="./i18n.js?v=5"></script>
 <script src="./data.js?v=aed51437"></script>
 <script src="./support.js?v=3"></script>
 </head>
@@ -379,6 +379,8 @@ class Component extends DCLogic {
 
   logoImg(m){
     if(!m.logo) return m.letter;
+    // raw=官方彩色 logo（自带底色），铺满头像、不加白化滤镜；其余为单色字形，白化后置于彩色圆底
+    if(m.raw) return React.createElement('img',{src:m.logo,alt:m.short||'',style:{width:'100%',height:'100%',objectFit:m.fit||'cover',objectPosition:'center',borderRadius:'inherit',display:'block',pointerEvents:'none'}});
     return React.createElement('img',{src:m.logo,alt:m.short||'',style:{width:'62%',height:'62%',objectFit:m.fit||'contain',objectPosition:m.fit==='cover'?'left center':'center',filter:'brightness(0) invert(1)',display:'block',pointerEvents:'none'}});
   }
 
@@ -400,8 +402,8 @@ class Component extends DCLogic {
       'deepseek/deepseek-v4-pro':     {id:'deepseek', short:'DeepSeek', letter:'D', color:'#4D6BFE', logo:'logos/deepseek.svg'},
       'moonshotai/kimi-k2.6':         {id:'kimi',     short:'Kimi',     letter:'K', color:'#8B5CFF', logo:'logos/kimi.svg', fit:'cover'},
       'anthropic/claude-fable-5':     {id:'claude',   short:'Claude',   letter:'C', color:'#D97757', logo:'logos/claude.svg'},
-      'z-ai/glm-5.2':                 {id:'glm',      short:'GLM',      letter:'Z', color:'#EC4899', logo:'logos/glm.svg'},
-      'bytedance/doubao-seed-2.0-pro':{id:'doubao',   short:'Doubao',   letter:'豆', color:'#FACC15', logo:'logos/doubao.svg'},
+      'z-ai/glm-5.2':                 {id:'glm',      short:'GLM',      letter:'Z', color:'#EC4899', logo:'logos/glm.png',    raw:true, fit:'cover'}, // 官方 Z.ai 标志（自带底色，不走白化滤镜）
+      'bytedance/doubao-seed-2.0-pro':{id:'doubao',   short:'Doubao',   letter:'豆', color:'#FACC15', logo:'logos/doubao.png', raw:true, fit:'cover'}, // 官方豆包形象（彩色铺满）
     };
     const days = A.days || [];
     const latest = days.length ? days[days.length-1] : null;
@@ -434,7 +436,7 @@ class Component extends DCLogic {
       const st = stats[l.id] || {exact:0,winOnly:0,wrong:0,miss:0,settled:0,seq:[]};
       const change = prevRank ? (prevRank[l.id]-curRank[l.id]) : 0;
       return {
-        id:meta.id, key:l.id, name:l.display, short:meta.short, vendor:l.vendor, letter:meta.letter, logo:meta.logo, fit:meta.fit, color:meta.color,
+        id:meta.id, key:l.id, name:l.display, short:meta.short, vendor:l.vendor, letter:meta.letter, logo:meta.logo, fit:meta.fit, raw:meta.raw, color:meta.color,
         isNew: !!l.joined, joined: l.joined||null,
         total:l.total, series:(l.series||[]).map(s=>s.total), dates:(l.series||[]).map(s=>s.date.slice(5)),
         yesterday: settledDay ? (settledDay.day_points[l.id]||0) : 0,

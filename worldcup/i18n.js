@@ -370,61 +370,61 @@ window.I18N = {
   }
 };
 
-// ===== 淘汰赛规则文案（2026-06-20：引入 GLM-5.2 与 Doubao，8 强两日淘汰赛）=====
+// ===== 淘汰赛规则文案（2026-06-20→改7天)：引入 GLM-5.2 与 Doubao，8 强【7 日】淘汰赛 =====
 (function(){ if(!(window.I18N&&window.I18N.dict)) return; var E = {
   "zh": {
     "newBadge": "新",
     "elimTag": "淘汰赛",
-    "elimTitle": "擂台扩军 · 八强两日淘汰赛",
-    "elimBody": "两位新挑战者 GLM-5.2（智谱 Z.ai）与 Doubao Seed 2.0 Pro（字节跳动）正式参战，擂台从 6 个模型扩军至 8 个。6/20–6/21 两个比赛日，8 个模型收到完全相同的资料、独立预测；两日战罢只结算这两天的得分，垫底的 2 个模型将被淘汰出局，其余幸存者成为常驻选手。"
+    "elimTitle": "擂台扩军 · 八强七日淘汰赛",
+    "elimBody": "两位新挑战者 GLM-5.2（智谱 Z.ai）与 Doubao Seed 2.0 Pro（字节跳动）正式参战，擂台从 6 个模型扩军至 8 个。6/20–6/26 连续 7 个比赛日，8 个模型收到完全相同的资料、独立预测；7 天战罢只结算这 7 天的得分，垫底的 2 个模型将被淘汰出局，其余幸存者成为常驻选手。"
   },
   "en": {
     "newBadge": "NEW",
     "elimTag": "KNOCKOUT",
-    "elimTitle": "Arena expands to 8 · Two-day knockout",
-    "elimBody": "Two new challengers — GLM-5.2 (Z.ai / Zhipu) and Doubao Seed 2.0 Pro (ByteDance) — join the arena, growing the field from 6 models to 8. Across the two match days of 6/20–6/21 all 8 models get identical dossiers and predict independently; only these two days are scored, and the bottom 2 are eliminated while the survivors stay on permanently."
+    "elimTitle": "Arena expands to 8 · Seven-day knockout",
+    "elimBody": "Two new challengers — GLM-5.2 (Z.ai / Zhipu) and Doubao Seed 2.0 Pro (ByteDance) — join the arena, growing the field from 6 models to 8. Over the seven match days of 6/20–6/26 all 8 models get identical dossiers and predict independently; only these seven days are scored, and the bottom 2 are eliminated while the survivors stay on permanently."
   },
   "ja": {
     "newBadge": "新規",
     "elimTag": "サバイバル",
-    "elimTitle": "8モデルに拡大 · 2日間サバイバル",
-    "elimBody": "新たな挑戦者 GLM-5.2（Z.ai／智譜）と Doubao Seed 2.0 Pro（字節跳動）が参戦し、出場モデルが6から8に増加。6/20–6/21 の2試合日、8モデルは完全に同一の資料で独立予測。この2日間のみを採点し、下位2モデルが脱落、生き残りが常設メンバーになります。"
+    "elimTitle": "8モデルに拡大 · 7日間サバイバル",
+    "elimBody": "新たな挑戦者 GLM-5.2（Z.ai／智譜）と Doubao Seed 2.0 Pro（字節跳動）が参戦し、出場モデルが6から8に増加。6/20–6/26 の7試合日、8モデルは完全に同一の資料で独立予測。この7日間のみを採点し、下位2モデルが脱落、生き残りが常設メンバーになります。"
   },
   "ko": {
     "newBadge": "신규",
     "elimTag": "서바이벌",
-    "elimTitle": "8개 모델로 확장 · 이틀 서바이벌",
-    "elimBody": "새 도전자 GLM-5.2(Z.ai/즈푸)와 Doubao Seed 2.0 Pro(바이트댄스)가 합류해 참가 모델이 6개에서 8개로 늘었습니다. 6/20–6/21 두 경기일 동안 8개 모델은 동일한 자료로 독립 예측하며, 이 이틀만 채점해 하위 2개 모델이 탈락하고 살아남은 모델이 상주 선수가 됩니다."
+    "elimTitle": "8개 모델로 확장 · 7일 서바이벌",
+    "elimBody": "새 도전자 GLM-5.2(Z.ai/즈푸)와 Doubao Seed 2.0 Pro(바이트댄스)가 합류해 참가 모델이 6개에서 8개로 늘었습니다. 6/20–6/26 7개 경기일 동안 8개 모델은 동일한 자료로 독립 예측하며, 이 7일만 채점해 하위 2개 모델이 탈락하고 살아남은 모델이 상주 선수가 됩니다."
   },
   "de": {
     "newBadge": "NEU",
     "elimTag": "K.-o.-RUNDE",
-    "elimTitle": "Feld auf 8 erweitert · Zwei-Tage-K.-o.",
-    "elimBody": "Zwei neue Herausforderer – GLM-5.2 (Z.ai / Zhipu) und Doubao Seed 2.0 Pro (ByteDance) – treten an und vergrößern das Feld von 6 auf 8 Modelle. An den beiden Spieltagen 6/20–6/21 erhalten alle 8 Modelle identische Dossiers und tippen unabhängig; nur diese zwei Tage werden gewertet, die beiden Letzten scheiden aus, die Übrigen bleiben dauerhaft dabei."
+    "elimTitle": "Feld auf 8 erweitert · Sieben-Tage-K.-o.",
+    "elimBody": "Zwei neue Herausforderer – GLM-5.2 (Z.ai / Zhipu) und Doubao Seed 2.0 Pro (ByteDance) – treten an und vergrößern das Feld von 6 auf 8 Modelle. An den sieben Spieltagen vom 20.–26.6. erhalten alle 8 Modelle identische Dossiers und tippen unabhängig; nur diese sieben Tage werden gewertet, die beiden Letzten scheiden aus, die Übrigen bleiben dauerhaft dabei."
   },
   "it": {
     "newBadge": "NUOVO",
     "elimTag": "ELIMINAZIONE",
-    "elimTitle": "Arena a 8 · Eliminazione in due giorni",
-    "elimBody": "Due nuovi sfidanti — GLM-5.2 (Z.ai / Zhipu) e Doubao Seed 2.0 Pro (ByteDance) — entrano in gara, portando i modelli da 6 a 8. Nelle due giornate del 20–21/6 tutti gli 8 modelli ricevono dossier identici e prevedono in autonomia; si contano solo questi due giorni, gli ultimi 2 vengono eliminati e i sopravvissuti restano stabili."
+    "elimTitle": "Arena a 8 · Eliminazione in sette giorni",
+    "elimBody": "Due nuovi sfidanti — GLM-5.2 (Z.ai / Zhipu) e Doubao Seed 2.0 Pro (ByteDance) — entrano in gara, portando i modelli da 6 a 8. Nelle sette giornate dal 20 al 26/6 tutti gli 8 modelli ricevono dossier identici e prevedono in autonomia; si contano solo questi sette giorni, gli ultimi 2 vengono eliminati e i sopravvissuti restano stabili."
   },
   "fr": {
     "newBadge": "NOUVEAU",
     "elimTag": "ÉLIMINATION",
-    "elimTitle": "L’arène passe à 8 · Élimination sur deux jours",
-    "elimBody": "Deux nouveaux challengers — GLM-5.2 (Z.ai / Zhipu) et Doubao Seed 2.0 Pro (ByteDance) — entrent en lice, portant le plateau de 6 à 8 modèles. Sur les deux journées des 20–21/6, les 8 modèles reçoivent des dossiers identiques et pronostiquent indépendamment ; seuls ces deux jours comptent, les 2 derniers sont éliminés et les survivants deviennent permanents."
+    "elimTitle": "L’arène passe à 8 · Élimination sur sept jours",
+    "elimBody": "Deux nouveaux challengers — GLM-5.2 (Z.ai / Zhipu) et Doubao Seed 2.0 Pro (ByteDance) — entrent en lice, portant le plateau de 6 à 8 modèles. Sur les sept journées du 20 au 26/6, les 8 modèles reçoivent des dossiers identiques et pronostiquent indépendamment ; seuls ces sept jours comptent, les 2 derniers sont éliminés et les survivants deviennent permanents."
   },
   "es": {
     "newBadge": "NUEVO",
     "elimTag": "ELIMINATORIA",
-    "elimTitle": "La arena crece a 8 · Eliminatoria de dos días",
-    "elimBody": "Dos nuevos aspirantes — GLM-5.2 (Z.ai / Zhipu) y Doubao Seed 2.0 Pro (ByteDance) — entran en la arena, pasando de 6 a 8 modelos. En las dos jornadas del 20–21/6 los 8 modelos reciben dossiers idénticos y predicen de forma independiente; solo se puntúan estos dos días, los 2 últimos quedan eliminados y los supervivientes se quedan de forma permanente."
+    "elimTitle": "La arena crece a 8 · Eliminatoria de siete días",
+    "elimBody": "Dos nuevos aspirantes — GLM-5.2 (Z.ai / Zhipu) y Doubao Seed 2.0 Pro (ByteDance) — entran en la arena, pasando de 6 a 8 modelos. En las siete jornadas del 20 al 26/6 los 8 modelos reciben dossiers idénticos y predicen de forma independiente; solo se puntúan estos siete días, los 2 últimos quedan eliminados y los supervivientes se quedan de forma permanente."
   },
   "pt": {
     "newBadge": "NOVO",
     "elimTag": "MATA-MATA",
-    "elimTitle": "Arena cresce para 8 · Mata-mata de dois dias",
-    "elimBody": "Dois novos desafiantes — GLM-5.2 (Z.ai / Zhipu) e Doubao Seed 2.0 Pro (ByteDance) — entram na arena, ampliando o grid de 6 para 8 modelos. Nos dois dias de jogos de 20–21/6 os 8 modelos recebem dossiês idênticos e preveem de forma independente; somente estes dois dias são pontuados, os 2 últimos são eliminados e os sobreviventes ficam permanentes."
+    "elimTitle": "Arena cresce para 8 · Mata-mata de sete dias",
+    "elimBody": "Dois novos desafiantes — GLM-5.2 (Z.ai / Zhipu) e Doubao Seed 2.0 Pro (ByteDance) — entram na arena, ampliando o grid de 6 para 8 modelos. Nos sete dias de jogos de 20 a 26/6 os 8 modelos recebem dossiês idênticos e preveem de forma independente; somente estes sete dias são pontuados, os 2 últimos são eliminados e os sobreviventes ficam permanentes."
   }
 };
   for (var k in E){ if(window.I18N.dict[k]) Object.assign(window.I18N.dict[k], E[k]); }
