@@ -1,6 +1,6 @@
 // 自动生成 — 勿手改。由 scripts/build-site-data.mjs 在每日更新时重建。
 window.ARENA_DATA = {
- "updated_at": "2026-06-20T04:46:15.824Z",
+ "updated_at": "2026-06-20T07:21:37.666Z",
  "rules": {
   "exact": 5,
   "outcome": 3,
@@ -64,7 +64,7 @@ window.ARENA_DATA = {
    "display": "Grok 4.3",
    "vendor": "xAI",
    "color": "#a78bfa",
-   "total": 48,
+   "total": 59,
    "series": [
     {
      "date": "2026-06-12",
@@ -103,13 +103,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-19",
-     "day": 0,
-     "total": 48
+     "day": 11,
+     "total": 59
     },
     {
      "date": "2026-06-20",
      "day": 0,
-     "total": 48
+     "total": 59
     }
    ]
   },
@@ -118,7 +118,7 @@ window.ARENA_DATA = {
    "display": "DeepSeek V4 Pro",
    "vendor": "DeepSeek",
    "color": "#60a5fa",
-   "total": 44,
+   "total": 50,
    "series": [
     {
      "date": "2026-06-12",
@@ -157,13 +157,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-19",
-     "day": 0,
-     "total": 44
+     "day": 6,
+     "total": 50
     },
     {
      "date": "2026-06-20",
      "day": 0,
-     "total": 44
+     "total": 50
     }
    ]
   },
@@ -172,7 +172,7 @@ window.ARENA_DATA = {
    "display": "Claude Opus 4.8",
    "vendor": "Anthropic",
    "color": "#d9a05b",
-   "total": 39,
+   "total": 50,
    "series": [
     {
      "date": "2026-06-12",
@@ -211,13 +211,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-19",
-     "day": 0,
-     "total": 39
+     "day": 11,
+     "total": 50
     },
     {
      "date": "2026-06-20",
      "day": 0,
-     "total": 39
+     "total": 50
     }
    ]
   },
@@ -226,7 +226,7 @@ window.ARENA_DATA = {
    "display": "GPT-5.5 Pro",
    "vendor": "OpenAI",
    "color": "#34d399",
-   "total": 38,
+   "total": 48,
    "series": [
     {
      "date": "2026-06-12",
@@ -265,13 +265,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-19",
-     "day": 0,
-     "total": 38
+     "day": 10,
+     "total": 48
     },
     {
      "date": "2026-06-20",
      "day": 0,
-     "total": 38
+     "total": 48
     }
    ]
   },
@@ -280,7 +280,7 @@ window.ARENA_DATA = {
    "display": "Kimi K2.7",
    "vendor": "Moonshot AI",
    "color": "#f87171",
-   "total": 36,
+   "total": 45,
    "series": [
     {
      "date": "2026-06-12",
@@ -319,13 +319,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-19",
-     "day": 0,
-     "total": 36
+     "day": 9,
+     "total": 45
     },
     {
      "date": "2026-06-20",
      "day": 0,
-     "total": 36
+     "total": 45
     }
    ]
   },
@@ -334,7 +334,7 @@ window.ARENA_DATA = {
    "display": "Mistral Medium 3.5",
    "vendor": "Mistral AI",
    "color": "#fb923c",
-   "total": 33,
+   "total": 44,
    "series": [
     {
      "date": "2026-06-12",
@@ -373,13 +373,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-19",
-     "day": 0,
-     "total": 33
+     "day": 11,
+     "total": 44
     },
     {
      "date": "2026-06-20",
      "day": 0,
-     "total": 33
+     "total": 44
     }
    ]
   },
@@ -10828,7 +10828,11 @@ window.ARENA_DATA = {
       "https://www.nbcsports.com/soccer/news/christian-pulisic-injury-news-latest-update",
       "https://www.cbssports.com/soccer/news/usmnt-australia-odds-prediction-time-2026-world-cup-picks-soccer-bets/"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-19-USA-AUS",
+      "score": "2-0",
+      "winner": "home"
+     },
      "perModel": [
       {
        "model": "openai/gpt-5.5-pro",
@@ -10840,7 +10844,10 @@ window.ARENA_DATA = {
         "confidence": 45,
         "reasoning_zh": "澳队五后卫反击稳，普利西奇未必满血，平局够用"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "x-ai/grok-4.3",
@@ -10852,7 +10859,10 @@ window.ARENA_DATA = {
         "confidence": 75,
         "reasoning_zh": "美国主场+进攻火力占优，普利西奇大概率复出，澳队防守反击难破"
        },
-       "settled": null
+       "settled": {
+        "points": 5,
+        "verdict": "exact"
+       }
       },
       {
        "model": "mistralai/mistral-medium-3-5",
@@ -10864,7 +10874,10 @@ window.ARENA_DATA = {
         "confidence": 85,
         "reasoning_zh": "主场优势+首轮4-1爆发，澳大利亚防守强但锋线有限，普利西奇复出起关键作用"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "deepseek/deepseek-v4-pro",
@@ -10876,7 +10889,10 @@ window.ARENA_DATA = {
         "confidence": 45,
         "reasoning_zh": "美国主场攻势强但普利西奇带伤，澳大利亚防守硬且首轮零封土耳其，历史交锋仅1球小负，头名对话双方谨慎，看好平局。"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -10888,7 +10904,10 @@ window.ARENA_DATA = {
         "confidence": 70,
         "reasoning_zh": "东道主主场气势足，美国进攻火力压过澳洲防反，普利西奇大概率可出战。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -10900,19 +10919,28 @@ window.ARENA_DATA = {
         "confidence": 55,
         "reasoning_zh": "美国主场火力正佳、首轮4-1，澳5后卫稳固但热身曾负美国，主队质量险胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "z-ai/glm-5.2",
        "status": "absent",
        "pred": null,
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "miss"
+       }
       },
       {
        "model": "bytedance/doubao-seed-2.0-pro",
        "status": "absent",
        "pred": null,
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "miss"
+       }
       }
      ]
     },
@@ -11119,7 +11147,11 @@ window.ARENA_DATA = {
       "https://www.espn.com/espn/story/_/id/49055732/morocco-yassine-bounou-injury-concern",
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mohamed-ouahbi-replaces-walid-regragui-morocco"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-19-SCO-MAR",
+      "score": "0-1",
+      "winner": "away"
+     },
      "perModel": [
       {
        "model": "openai/gpt-5.5-pro",
@@ -11131,7 +11163,10 @@ window.ARENA_DATA = {
         "confidence": 56,
         "reasoning_zh": "摩洛哥硬实力占优，边路质量可破苏格兰低位"
        },
-       "settled": null
+       "settled": {
+        "points": 5,
+        "verdict": "exact"
+       }
       },
       {
        "model": "x-ai/grok-4.3",
@@ -11143,7 +11178,10 @@ window.ARENA_DATA = {
         "confidence": 70,
         "reasoning_zh": "摩洛哥整体实力碾压，苏格兰防守反击难以抵挡哈基米等攻击"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "mistralai/mistral-medium-3-5",
@@ -11155,7 +11193,10 @@ window.ARENA_DATA = {
         "confidence": 80,
         "reasoning_zh": "摩洛哥实力与星味远超苏格兰，首轮逼平巴西展现韧性，苏格兰防守型打法难破对手球门"
        },
-       "settled": null
+       "settled": {
+        "points": 5,
+        "verdict": "exact"
+       }
       },
       {
        "model": "deepseek/deepseek-v4-pro",
@@ -11167,7 +11208,10 @@ window.ARENA_DATA = {
         "confidence": 65,
         "reasoning_zh": "摩洛哥实力远超苏格兰，1998年曾3-0完胜，首轮逼平巴西展现韧性，苏格兰首胜含金量低，博冷看好摩洛哥零封取胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -11179,7 +11223,10 @@ window.ARENA_DATA = {
         "confidence": 65,
         "reasoning_zh": "摩洛哥整体实力与大赛经验占优，阵容虽有伤但急需胜局稳固出线。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -11191,19 +11238,28 @@ window.ARENA_DATA = {
         "confidence": 52,
         "reasoning_zh": "摩洛哥实力远胜且近必胜，哈基米迪亚斯领衔；苏格兰主场紧凑防反能进一球。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "z-ai/glm-5.2",
        "status": "absent",
        "pred": null,
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "miss"
+       }
       },
       {
        "model": "bytedance/doubao-seed-2.0-pro",
        "status": "absent",
        "pred": null,
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "miss"
+       }
       }
      ]
     },
@@ -11409,7 +11465,11 @@ window.ARENA_DATA = {
       "https://www.aljazeera.com/sports/2026/6/18/neymar-will-not-play-in-brazils-world-cup-match-against-haiti",
       "https://theanalyst.com/articles/brazil-vs-haiti-prediction-world-cup-2026-match-preview"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-19-BRA-HAI",
+      "score": "3-0",
+      "winner": "home"
+     },
      "perModel": [
       {
        "model": "openai/gpt-5.5-pro",
@@ -11421,7 +11481,10 @@ window.ARENA_DATA = {
         "confidence": 86,
         "reasoning_zh": "巴西急需净胜球，海地深防仍难挡维尼修斯"
        },
-       "settled": null
+       "settled": {
+        "points": 5,
+        "verdict": "exact"
+       }
       },
       {
        "model": "x-ai/grok-4.3",
@@ -11433,7 +11496,10 @@ window.ARENA_DATA = {
         "confidence": 85,
         "reasoning_zh": "巴西实力差距巨大，海地防守脆弱，内马尔缺阵仍可轻松取胜"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "mistralai/mistral-medium-3-5",
@@ -11445,7 +11511,10 @@ window.ARENA_DATA = {
         "confidence": 90,
         "reasoning_zh": "巴西需重振士气，海地防守弱且无还手之力，维尼修斯等进攻群将大规模破门"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "deepseek/deepseek-v4-pro",
@@ -11457,7 +11526,10 @@ window.ARENA_DATA = {
         "confidence": 85,
         "reasoning_zh": "巴西实力碾压，历史三战17-1，虽内马尔缺阵但进攻端仍富足，海地难抵挡，需大胜挽回净胜球压力。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -11469,7 +11541,10 @@ window.ARENA_DATA = {
         "confidence": 85,
         "reasoning_zh": "内马尔缺阵但巴西实力碾压海地，海地摆大巴仍难挡维尼修斯拉菲尼亚，巴西_Control winning."
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -11481,19 +11556,28 @@ window.ARENA_DATA = {
         "confidence": 78,
         "reasoning_zh": "巴西虽缺内马尔仍碾压，急需取胜重夺主动；海地摆深度防守，多球完胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 5,
+        "verdict": "exact"
+       }
       },
       {
        "model": "z-ai/glm-5.2",
        "status": "absent",
        "pred": null,
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "miss"
+       }
       },
       {
        "model": "bytedance/doubao-seed-2.0-pro",
        "status": "absent",
        "pred": null,
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "miss"
+       }
       }
      ]
     },
@@ -11713,7 +11797,11 @@ window.ARENA_DATA = {
       "https://www.rotowire.com/soccer/article/turkey-vs-paraguay-preview-2026-world-cup-group-d-118661",
       "https://www.goal.com/en/news/turkiye-paraguay-world-cup-preview/blt3887ddc8c5fa4180"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-19-TUR-PAR",
+      "score": "0-1",
+      "winner": "away"
+     },
      "perModel": [
       {
        "model": "openai/gpt-5.5-pro",
@@ -11725,7 +11813,10 @@ window.ARENA_DATA = {
         "confidence": 56,
         "reasoning_zh": "土耳其中场创造力占优，巴拉圭会收紧但进攻火力有限"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "x-ai/grok-4.3",
@@ -11737,7 +11828,10 @@ window.ARENA_DATA = {
         "confidence": 65,
         "reasoning_zh": "土巴均需取胜，土耳其纸面占优，居莱尔等核心或制造破门"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "mistralai/mistral-medium-3-5",
@@ -11749,7 +11843,10 @@ window.ARENA_DATA = {
         "confidence": 75,
         "reasoning_zh": "双方均背水一战，土耳其攻击力不足，巴拉圭防守韧性强，平局概率较大"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "deepseek/deepseek-v4-pro",
@@ -11761,7 +11858,10 @@ window.ARENA_DATA = {
         "confidence": 55,
         "reasoning_zh": "土耳其技术优势明显，恰尔汗奥卢与居莱尔驱动中场，巴拉圭防守不稳且核心带伤，生死战土队反弹小胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -11773,7 +11873,10 @@ window.ARENA_DATA = {
         "confidence": 70,
         "reasoning_zh": "土耳其实力占优但首轮受挫，巴拉圭防守脆弱，蒙特拉球队小胜保命。"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -11785,31 +11888,40 @@ window.ARENA_DATA = {
         "confidence": 55,
         "reasoning_zh": "土耳其主场背水一战，居莱尔、恰尔汗奥卢个人能力碾压；巴拉圭防线被美国打穿、核心带伤、多人黄牌停赛边缘，难有反击，土耳其零封小胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "z-ai/glm-5.2",
        "status": "absent",
        "pred": null,
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "miss"
+       }
       },
       {
        "model": "bytedance/doubao-seed-2.0-pro",
        "status": "absent",
        "pred": null,
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "miss"
+       }
       }
      ]
     }
    ],
-   "settled": false,
+   "settled": true,
    "day_points": {
-    "openai/gpt-5.5-pro": 0,
-    "x-ai/grok-4.3": 0,
-    "mistralai/mistral-medium-3-5": 0,
-    "deepseek/deepseek-v4-pro": 0,
-    "moonshotai/kimi-k2.6": 0,
-    "anthropic/claude-fable-5": 0,
+    "openai/gpt-5.5-pro": 10,
+    "x-ai/grok-4.3": 11,
+    "mistralai/mistral-medium-3-5": 11,
+    "deepseek/deepseek-v4-pro": 6,
+    "moonshotai/kimi-k2.6": 9,
+    "anthropic/claude-fable-5": 11,
     "z-ai/glm-5.2": 0,
     "bytedance/doubao-seed-2.0-pro": 0
    },
@@ -12126,9 +12238,9 @@ window.ARENA_DATA = {
        "pred": {
         "match_id": "2026-06-20-NED-SWE",
         "winner": "home",
-        "score": "2-1",
-        "confidence": 75,
-        "reasoning_zh": "荷兰整体实力更强，虽首轮防守不稳，但瑞典铁防难挡加克波与德容。"
+        "score": "3-1",
+        "confidence": 62,
+        "reasoning_zh": "荷兰进攻火力更胜，瑞典防线不稳，预计主队3-1取胜。"
        },
        "settled": null
       },
@@ -12150,9 +12262,9 @@ window.ARENA_DATA = {
        "pred": {
         "match_id": "2026-06-20-NED-SWE",
         "winner": "draw",
-        "score": "2-2",
+        "score": "1-1",
         "confidence": 55,
-        "reasoning_zh": "荷兰首轮防守暴露隐患且廷贝尔伤缺，瑞典锋线伊萨克约克雷斯状态火热，对攻平局可能性大。"
+        "reasoning_zh": "荷兰防守有隐患且廷贝尔缺阵，瑞典进攻火力正旺，双方互有攻守大概率握手言和。"
        },
        "settled": null
       },
@@ -12162,9 +12274,9 @@ window.ARENA_DATA = {
        "pred": {
         "match_id": "2026-06-20-NED-SWE",
         "winner": "home",
-        "score": "2-1",
+        "score": "3-1",
         "confidence": 80,
-        "reasoning_zh": "荷兰实力占优抢分战意足，瑞典状态火爆但防线稳定性不足"
+        "reasoning_zh": "荷兰抢分战意足，实力占优，瑞典防守漏洞多，荷兰可稳胜"
        },
        "settled": null
       }
@@ -12418,9 +12530,9 @@ window.ARENA_DATA = {
        "pred": {
         "match_id": "2026-06-20-GER-CIV",
         "winner": "home",
-        "score": "3-1",
-        "confidence": 85,
-        "reasoning_zh": "德国火力全开（7-1库拉索），科特迪瓦缺恩迪卡和瓦希，实力差距明显"
+        "score": "4-0",
+        "confidence": 88,
+        "reasoning_zh": "德国首轮大胜凭火力，科特迪瓦防守弱，纳格尔斯曼阵容完整，预判大胜。"
        },
        "settled": null
       },
@@ -12466,9 +12578,9 @@ window.ARENA_DATA = {
        "pred": {
         "match_id": "2026-06-20-GER-CIV",
         "winner": "home",
-        "score": "3-1",
-        "confidence": 78,
-        "reasoning_zh": "德国首轮7-1火力全开，科特迪瓦瓦希缺阵恩迪卡伤疑，冲击力难掩后防短板，德国主场取胜。"
+        "score": "3-0",
+        "confidence": 82,
+        "reasoning_zh": "德国首轮7-1火力全开，科特迪瓦中卫恩迪卡伤疑后防承压，德国主场优势明显，净胜两球以上。"
        },
        "settled": null
       },
@@ -12776,9 +12888,9 @@ window.ARENA_DATA = {
        "pred": {
         "match_id": "2026-06-20-ECU-CUW",
         "winner": "home",
-        "score": "3-0",
-        "confidence": 88,
-        "reasoning_zh": "厄瓜多尔实力远超库拉索，首轮创造大量机会仅运气不佳，库拉索防线被德国打穿难挡南美劲旅。"
+        "score": "3-1",
+        "confidence": 78,
+        "reasoning_zh": "厄瓜多尔实力远胜且急需抢分，库拉索防线首轮被灌7球，但客队有一定反击能力可破门。"
        },
        "settled": null
       },
@@ -12788,9 +12900,9 @@ window.ARENA_DATA = {
        "pred": {
         "match_id": "2026-06-20-ECU-CUW",
         "winner": "home",
-        "score": "3-0",
-        "confidence": 95,
-        "reasoning_zh": "两队实力差距悬殊，厄瓜多尔急需抢分，库拉索防线薄弱"
+        "score": "3-1",
+        "confidence": 85,
+        "reasoning_zh": "厄瓜多尔实力碾压求胜心切，库拉索防线薄弱易被打穿，偶有反击得手"
        },
        "settled": null
       }
@@ -13033,9 +13145,9 @@ window.ARENA_DATA = {
        "pred": {
         "match_id": "2026-06-20-TUN-JPN",
         "winner": "away",
-        "score": "0-2",
-        "confidence": 80,
-        "reasoning_zh": "日本韧性强（首轮绝平荷兰），突尼斯防守崩盘（1-5瑞典+换帅），历史交锋优势"
+        "score": "0-1",
+        "confidence": 85,
+        "reasoning_zh": "突尼斯新帅未稳防守，日本韧性强，镰田等能突破，小胜可能性大。"
        },
        "settled": null
       },
@@ -13057,9 +13169,9 @@ window.ARENA_DATA = {
        "pred": {
         "match_id": "2026-06-20-TUN-JPN",
         "winner": "away",
-        "score": "0-2",
-        "confidence": 86,
-        "reasoning_zh": "突尼斯换帅且防线漏洞大，日本韧性强且亟需胜利，客场可轻松取胜。"
+        "score": "1-2",
+        "confidence": 70,
+        "reasoning_zh": "突尼斯临阵换帅、防守漏洞多，日本整体更强，客胜2-1。"
        },
        "settled": null
       },
@@ -13081,9 +13193,9 @@ window.ARENA_DATA = {
        "pred": {
         "match_id": "2026-06-20-TUN-JPN",
         "winner": "away",
-        "score": "0-2",
-        "confidence": 82,
-        "reasoning_zh": "突尼斯连丢大比分且赛中换帅仅4天备战，日本首轮逼平荷兰展现韧性，交锋日本正式赛全胜。"
+        "score": "0-3",
+        "confidence": 80,
+        "reasoning_zh": "突尼斯连吃大比分防线崩塌且临阵换帅，日本整体实力占优且交锋碾压，客场大胜可期。"
        },
        "settled": null
       },
@@ -13093,9 +13205,9 @@ window.ARENA_DATA = {
        "pred": {
         "match_id": "2026-06-20-TUN-JPN",
         "winner": "away",
-        "score": "1-2",
-        "confidence": 82,
-        "reasoning_zh": "日本实力占优状态佳，突尼斯临时换帅防守漏洞大难爆冷"
+        "score": "0-3",
+        "confidence": 80,
+        "reasoning_zh": "日本攻防实力占优，突尼斯临阵换帅磨合不足，客队大胜概率高"
        },
        "settled": null
       }
