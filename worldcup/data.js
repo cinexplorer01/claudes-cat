@@ -1,6 +1,6 @@
 // 自动生成 — 勿手改。由 scripts/build-site-data.mjs 在每日更新时重建。
 window.ARENA_DATA = {
- "updated_at": "2026-06-22T02:04:46.666Z",
+ "updated_at": "2026-06-22T03:33:05.969Z",
  "rules": {
   "exact": 5,
   "outcome": 3,
@@ -64,7 +64,7 @@ window.ARENA_DATA = {
    "display": "Grok 4.3",
    "vendor": "xAI",
    "color": "#a78bfa",
-   "total": 68,
+   "total": 74,
    "series": [
     {
      "date": "2026-06-12",
@@ -113,205 +113,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-21",
-     "day": 0,
-     "total": 68
+     "day": 6,
+     "total": 74
     },
     {
      "date": "2026-06-22",
      "day": 0,
-     "total": 68
-    }
-   ]
-  },
-  {
-   "id": "anthropic/claude-fable-5",
-   "display": "Claude Opus 4.8",
-   "vendor": "Anthropic",
-   "color": "#d9a05b",
-   "total": 59,
-   "series": [
-    {
-     "date": "2026-06-12",
-     "day": 3,
-     "total": 3
-    },
-    {
-     "date": "2026-06-13",
-     "day": 3,
-     "total": 6
-    },
-    {
-     "date": "2026-06-14",
-     "day": 6,
-     "total": 12
-    },
-    {
-     "date": "2026-06-15",
-     "day": 0,
-     "total": 12
-    },
-    {
-     "date": "2026-06-16",
-     "day": 12,
-     "total": 24
-    },
-    {
-     "date": "2026-06-17",
-     "day": 6,
-     "total": 30
-    },
-    {
-     "date": "2026-06-18",
-     "day": 9,
-     "total": 39
-    },
-    {
-     "date": "2026-06-19",
-     "day": 11,
-     "total": 50
-    },
-    {
-     "date": "2026-06-20",
-     "day": 9,
-     "total": 59
-    },
-    {
-     "date": "2026-06-21",
-     "day": 0,
-     "total": 59
-    },
-    {
-     "date": "2026-06-22",
-     "day": 0,
-     "total": 59
-    }
-   ]
-  },
-  {
-   "id": "openai/gpt-5.5-pro",
-   "display": "GPT-5.5 Pro",
-   "vendor": "OpenAI",
-   "color": "#34d399",
-   "total": 56,
-   "series": [
-    {
-     "date": "2026-06-12",
-     "day": 3,
-     "total": 3
-    },
-    {
-     "date": "2026-06-13",
-     "day": 5,
-     "total": 8
-    },
-    {
-     "date": "2026-06-14",
-     "day": 6,
-     "total": 14
-    },
-    {
-     "date": "2026-06-15",
-     "day": 0,
-     "total": 14
-    },
-    {
-     "date": "2026-06-16",
-     "day": 12,
-     "total": 26
-    },
-    {
-     "date": "2026-06-17",
-     "day": 6,
-     "total": 32
-    },
-    {
-     "date": "2026-06-18",
-     "day": 6,
-     "total": 38
-    },
-    {
-     "date": "2026-06-19",
-     "day": 10,
-     "total": 48
-    },
-    {
-     "date": "2026-06-20",
-     "day": 8,
-     "total": 56
-    },
-    {
-     "date": "2026-06-21",
-     "day": 0,
-     "total": 56
-    },
-    {
-     "date": "2026-06-22",
-     "day": 0,
-     "total": 56
-    }
-   ]
-  },
-  {
-   "id": "deepseek/deepseek-v4-pro",
-   "display": "DeepSeek V4 Pro",
-   "vendor": "DeepSeek",
-   "color": "#60a5fa",
-   "total": 56,
-   "series": [
-    {
-     "date": "2026-06-12",
-     "day": 8,
-     "total": 8
-    },
-    {
-     "date": "2026-06-13",
-     "day": 3,
-     "total": 11
-    },
-    {
-     "date": "2026-06-14",
-     "day": 9,
-     "total": 20
-    },
-    {
-     "date": "2026-06-15",
-     "day": 0,
-     "total": 20
-    },
-    {
-     "date": "2026-06-16",
-     "day": 9,
-     "total": 29
-    },
-    {
-     "date": "2026-06-17",
-     "day": 6,
-     "total": 35
-    },
-    {
-     "date": "2026-06-18",
-     "day": 9,
-     "total": 44
-    },
-    {
-     "date": "2026-06-19",
-     "day": 6,
-     "total": 50
-    },
-    {
-     "date": "2026-06-20",
-     "day": 6,
-     "total": 56
-    },
-    {
-     "date": "2026-06-21",
-     "day": 0,
-     "total": 56
-    },
-    {
-     "date": "2026-06-22",
-     "day": 0,
-     "total": 56
+     "total": 74
     }
    ]
   },
@@ -320,7 +128,7 @@ window.ARENA_DATA = {
    "display": "Kimi K2.7",
    "vendor": "Moonshot AI",
    "color": "#f87171",
-   "total": 56,
+   "total": 68,
    "series": [
     {
      "date": "2026-06-12",
@@ -369,13 +177,205 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-21",
-     "day": 0,
-     "total": 56
+     "day": 12,
+     "total": 68
     },
     {
      "date": "2026-06-22",
      "day": 0,
+     "total": 68
+    }
+   ]
+  },
+  {
+   "id": "openai/gpt-5.5-pro",
+   "display": "GPT-5.5 Pro",
+   "vendor": "OpenAI",
+   "color": "#34d399",
+   "total": 65,
+   "series": [
+    {
+     "date": "2026-06-12",
+     "day": 3,
+     "total": 3
+    },
+    {
+     "date": "2026-06-13",
+     "day": 5,
+     "total": 8
+    },
+    {
+     "date": "2026-06-14",
+     "day": 6,
+     "total": 14
+    },
+    {
+     "date": "2026-06-15",
+     "day": 0,
+     "total": 14
+    },
+    {
+     "date": "2026-06-16",
+     "day": 12,
+     "total": 26
+    },
+    {
+     "date": "2026-06-17",
+     "day": 6,
+     "total": 32
+    },
+    {
+     "date": "2026-06-18",
+     "day": 6,
+     "total": 38
+    },
+    {
+     "date": "2026-06-19",
+     "day": 10,
+     "total": 48
+    },
+    {
+     "date": "2026-06-20",
+     "day": 8,
      "total": 56
+    },
+    {
+     "date": "2026-06-21",
+     "day": 9,
+     "total": 65
+    },
+    {
+     "date": "2026-06-22",
+     "day": 0,
+     "total": 65
+    }
+   ]
+  },
+  {
+   "id": "anthropic/claude-fable-5",
+   "display": "Claude Opus 4.8",
+   "vendor": "Anthropic",
+   "color": "#d9a05b",
+   "total": 65,
+   "series": [
+    {
+     "date": "2026-06-12",
+     "day": 3,
+     "total": 3
+    },
+    {
+     "date": "2026-06-13",
+     "day": 3,
+     "total": 6
+    },
+    {
+     "date": "2026-06-14",
+     "day": 6,
+     "total": 12
+    },
+    {
+     "date": "2026-06-15",
+     "day": 0,
+     "total": 12
+    },
+    {
+     "date": "2026-06-16",
+     "day": 12,
+     "total": 24
+    },
+    {
+     "date": "2026-06-17",
+     "day": 6,
+     "total": 30
+    },
+    {
+     "date": "2026-06-18",
+     "day": 9,
+     "total": 39
+    },
+    {
+     "date": "2026-06-19",
+     "day": 11,
+     "total": 50
+    },
+    {
+     "date": "2026-06-20",
+     "day": 9,
+     "total": 59
+    },
+    {
+     "date": "2026-06-21",
+     "day": 6,
+     "total": 65
+    },
+    {
+     "date": "2026-06-22",
+     "day": 0,
+     "total": 65
+    }
+   ]
+  },
+  {
+   "id": "deepseek/deepseek-v4-pro",
+   "display": "DeepSeek V4 Pro",
+   "vendor": "DeepSeek",
+   "color": "#60a5fa",
+   "total": 62,
+   "series": [
+    {
+     "date": "2026-06-12",
+     "day": 8,
+     "total": 8
+    },
+    {
+     "date": "2026-06-13",
+     "day": 3,
+     "total": 11
+    },
+    {
+     "date": "2026-06-14",
+     "day": 9,
+     "total": 20
+    },
+    {
+     "date": "2026-06-15",
+     "day": 0,
+     "total": 20
+    },
+    {
+     "date": "2026-06-16",
+     "day": 9,
+     "total": 29
+    },
+    {
+     "date": "2026-06-17",
+     "day": 6,
+     "total": 35
+    },
+    {
+     "date": "2026-06-18",
+     "day": 9,
+     "total": 44
+    },
+    {
+     "date": "2026-06-19",
+     "day": 6,
+     "total": 50
+    },
+    {
+     "date": "2026-06-20",
+     "day": 6,
+     "total": 56
+    },
+    {
+     "date": "2026-06-21",
+     "day": 6,
+     "total": 62
+    },
+    {
+     "date": "2026-06-22",
+     "day": 0,
+     "total": 62
     }
    ]
   },
@@ -384,7 +384,7 @@ window.ARENA_DATA = {
    "display": "Mistral Medium 3.5",
    "vendor": "Mistral AI",
    "color": "#fb923c",
-   "total": 50,
+   "total": 59,
    "series": [
     {
      "date": "2026-06-12",
@@ -433,13 +433,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-21",
-     "day": 0,
-     "total": 50
+     "day": 9,
+     "total": 59
     },
     {
      "date": "2026-06-22",
      "day": 0,
-     "total": 50
+     "total": 59
     }
    ]
   },
@@ -449,7 +449,7 @@ window.ARENA_DATA = {
    "vendor": "ByteDance",
    "color": "#f472b6",
    "joined": "2026-06-20",
-   "total": 9,
+   "total": 17,
    "series": [
     {
      "date": "2026-06-12",
@@ -498,13 +498,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-21",
-     "day": 0,
-     "total": 9
+     "day": 8,
+     "total": 17
     },
     {
      "date": "2026-06-22",
      "day": 0,
-     "total": 9
+     "total": 17
     }
    ]
   },
@@ -514,7 +514,7 @@ window.ARENA_DATA = {
    "vendor": "Z.ai",
    "color": "#22d3ee",
    "joined": "2026-06-20",
-   "total": 6,
+   "total": 12,
    "series": [
     {
      "date": "2026-06-12",
@@ -563,13 +563,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-21",
-     "day": 0,
-     "total": 6
+     "day": 6,
+     "total": 12
     },
     {
      "date": "2026-06-22",
      "day": 0,
-     "total": 6
+     "total": 12
     }
    ]
   }
@@ -13675,7 +13675,11 @@ window.ARENA_DATA = {
       "https://bolavip.com/en/amp/world-cup/whats-saudi-arabias-fifa-ranking-at-the-2026-world-cup-uruguay-spains-group-opponent",
       "https://www.espn.com/soccer/story/_/id/48870392/spain-world-cup-2026-squad-confirmed-lamine-yamal-stars-no-real-madrid-players"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-21-ESP-KSA",
+      "score": "4-0",
+      "winner": "home"
+     },
      "perModel": [
       {
        "model": "openai/gpt-5.5-pro",
@@ -13687,7 +13691,10 @@ window.ARENA_DATA = {
         "confidence": 72,
         "reasoning_zh": "西班牙急需反弹，沙特反击有一球机会"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "x-ai/grok-4.3",
@@ -13699,7 +13706,10 @@ window.ARENA_DATA = {
         "confidence": 82,
         "reasoning_zh": "西班牙实力碾压，沙特客场难守，西班牙急需进球反弹"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "mistralai/mistral-medium-3-5",
@@ -13711,7 +13721,10 @@ window.ARENA_DATA = {
         "confidence": 90,
         "reasoning_zh": "西班牙首轮爆冷后必取胜重回正轨，沙特防守弱Control高，历史交锋完全压制"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "deepseek/deepseek-v4-pro",
@@ -13723,7 +13736,10 @@ window.ARENA_DATA = {
         "confidence": 82,
         "reasoning_zh": "西班牙急需反弹，实力碾压，沙特首轮消耗大，斗牛士终破密集防守"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -13735,7 +13751,10 @@ window.ARENA_DATA = {
         "confidence": 78,
         "reasoning_zh": "西班牙破僵能力不差，沙特换帅后防线经不起持续冲击。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -13747,7 +13766,10 @@ window.ARENA_DATA = {
         "confidence": 72,
         "reasoning_zh": "西班牙首战遭闷平后必猛攻，整体实力碾压沙特，新帅磨合期防线难顶亚马尔佩德里，破门只是时间问题。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "z-ai/glm-5.2",
@@ -13759,7 +13781,10 @@ window.ARENA_DATA = {
         "confidence": 85,
         "reasoning_zh": "西班牙实力碾压且急需反弹，沙特对乌拉圭有进球展现反击能力，主队大胜但难零封。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "bytedance/doubao-seed-2.0-pro",
@@ -13771,7 +13796,10 @@ window.ARENA_DATA = {
         "confidence": 88,
         "reasoning_zh": "西班牙首轮哑火后进攻回暖，实力优势明显，沙特难阻其全取三分"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       }
      ]
     },
@@ -13977,7 +14005,11 @@ window.ARENA_DATA = {
       "https://www.sportsmole.co.uk/football/belgium/world-cup-2026/preview/belgium-vs-iran-prediction-team-news-lineups_599581.html",
       "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-21-BEL-IRN",
+      "score": "0-0",
+      "winner": "draw"
+     },
      "perModel": [
       {
        "model": "openai/gpt-5.5-pro",
@@ -13989,7 +14021,10 @@ window.ARENA_DATA = {
         "confidence": 61,
         "reasoning_zh": "伊朗备战受扰，比利时缺边仍可小胜"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "x-ai/grok-4.3",
@@ -14001,7 +14036,10 @@ window.ARENA_DATA = {
         "confidence": 71,
         "reasoning_zh": "比利时阵容厚度优势明显，伊朗虽韧性强但客场难取分"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "mistralai/mistral-medium-3-5",
@@ -14013,7 +14051,10 @@ window.ARENA_DATA = {
         "confidence": 75,
         "reasoning_zh": "比利时老化伤病多，伊朗韧性强且备战受干扰但求生欲强，胶着下平局"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "deepseek/deepseek-v4-pro",
@@ -14025,7 +14066,10 @@ window.ARENA_DATA = {
         "confidence": 70,
         "reasoning_zh": "比利时经验占优但老化，伊朗韧性足且有塔雷米，场面胶着比利时险胜"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -14037,7 +14081,10 @@ window.ARENA_DATA = {
         "confidence": 60,
         "reasoning_zh": "比利时阵容老化攻坚乏力，伊朗韧性强有望再取一分。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -14049,7 +14096,10 @@ window.ARENA_DATA = {
         "confidence": 50,
         "reasoning_zh": "比利时实力占优、伊朗备战受扰且客场，主队控局拿下零封；避开已满比分取2-0。"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "z-ai/glm-5.2",
@@ -14061,7 +14111,10 @@ window.ARENA_DATA = {
         "confidence": 70,
         "reasoning_zh": "比利时整体实力占优，伊朗虽有韧性但防线有漏洞，主队通过球星个人能力取胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "bytedance/doubao-seed-2.0-pro",
@@ -14073,7 +14126,10 @@ window.ARENA_DATA = {
         "confidence": 75,
         "reasoning_zh": "比利时攻防体系更成熟，伊朗备战受场外因素干扰难抢分"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       }
      ]
     },
@@ -14274,7 +14330,11 @@ window.ARENA_DATA = {
       "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
       "https://www.skysports.com/football/spain-vs-cape-verde/report"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-21-URU-CPV",
+      "score": "2-2",
+      "winner": "draw"
+     },
      "perModel": [
       {
        "model": "openai/gpt-5.5-pro",
@@ -14286,7 +14346,10 @@ window.ARENA_DATA = {
         "confidence": 44,
         "reasoning_zh": "乌拉圭近况多平，佛得角防守信心很足"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "x-ai/grok-4.3",
@@ -14298,7 +14361,10 @@ window.ARENA_DATA = {
         "confidence": 68,
         "reasoning_zh": "乌拉圭比尔萨体系更成熟，佛得角虽顽强但整体差距仍存"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "mistralai/mistral-medium-3-5",
@@ -14310,7 +14376,10 @@ window.ARENA_DATA = {
         "confidence": 80,
         "reasoning_zh": "乌拉圭阵容更强，首轮未能取胜，本场面对处子秀球队必全力拿下"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "deepseek/deepseek-v4-pro",
@@ -14322,7 +14391,10 @@ window.ARENA_DATA = {
         "confidence": 75,
         "reasoning_zh": "比尔萨急需调整进攻，佛得角门神继续出色但难阻乌拉圭抢分小胜"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -14334,7 +14406,10 @@ window.ARENA_DATA = {
         "confidence": 60,
         "reasoning_zh": "佛得角首轮逼平西班牙士气高涨、门将神勇，乌拉圭缺少苏亚雷斯终结不稳，恐再遭阻击。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -14346,7 +14421,10 @@ window.ARENA_DATA = {
         "confidence": 50,
         "reasoning_zh": "佛得角逼平西班牙证明门将神勇防守稳固，比尔萨进攻乏力。乌拉圭凭主场和个人能力小胜，难大比分。"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "z-ai/glm-5.2",
@@ -14358,7 +14436,10 @@ window.ARENA_DATA = {
         "confidence": 68,
         "reasoning_zh": "佛得角状态火热且门将神勇，乌拉圭锋线终将发威但难大胜，比尔萨球队小胜过关。"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "bytedance/doubao-seed-2.0-pro",
@@ -14370,7 +14451,10 @@ window.ARENA_DATA = {
         "confidence": 78,
         "reasoning_zh": "乌拉圭锋线把握机会能力提升，佛得角防守韧性足仍失球"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       }
      ]
     },
@@ -14567,7 +14651,11 @@ window.ARENA_DATA = {
       "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
       "https://www.oddschecker.com/us/soccer/world-cup/new-zealand-v-egypt"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-21-NZL-EGY",
+      "score": "1-3",
+      "winner": "away"
+     },
      "perModel": [
       {
        "model": "openai/gpt-5.5-pro",
@@ -14579,7 +14667,10 @@ window.ARENA_DATA = {
         "confidence": 62,
         "reasoning_zh": "埃及锋线层次更强，新西兰仍有定位球威胁"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "x-ai/grok-4.3",
@@ -14591,7 +14682,10 @@ window.ARENA_DATA = {
         "confidence": 75,
         "reasoning_zh": "埃及萨拉赫领衔进攻，历史交锋占优，新西兰难以抵挡"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "mistralai/mistral-medium-3-5",
@@ -14603,7 +14697,10 @@ window.ARENA_DATA = {
         "confidence": 85,
         "reasoning_zh": "埃及求胜欲强，萨拉赫状态在线，新西兰首轮 만들어两球但防守漏洞大"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "deepseek/deepseek-v4-pro",
@@ -14615,7 +14712,10 @@ window.ARENA_DATA = {
         "confidence": 80,
         "reasoning_zh": "萨拉赫领衔冲首胜，埃及控制力更强，新西兰先声夺人后遭逆转"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -14627,7 +14727,10 @@ window.ARENA_DATA = {
         "confidence": 70,
         "reasoning_zh": "埃及萨拉赫领衔攻击线实力占优，新西兰虽顽强但综合实力有限，埃及有望拿下世界杯正赛首胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -14639,7 +14742,10 @@ window.ARENA_DATA = {
         "confidence": 52,
         "reasoning_zh": "埃及实力占优、萨拉赫领衔追逐队史首胜，新西兰排名垫底但首战顽强。历史交锋低比分胶着，埃及小胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "z-ai/glm-5.2",
@@ -14651,7 +14757,10 @@ window.ARENA_DATA = {
         "confidence": 72,
         "reasoning_zh": "埃及萨拉赫+马尔穆什攻击力强，历史交锋占优且追逐队史世界杯首胜；新西兰防线漏洞明显，埃及稳胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "bytedance/doubao-seed-2.0-pro",
@@ -14663,21 +14772,24 @@ window.ARENA_DATA = {
         "confidence": 82,
         "reasoning_zh": "萨拉赫领衔埃及进攻火力充足，新西兰防线漏洞较多"
        },
-       "settled": null
+       "settled": {
+        "points": 5,
+        "verdict": "exact"
+       }
       }
      ]
     }
    ],
-   "settled": false,
+   "settled": true,
    "day_points": {
-    "openai/gpt-5.5-pro": 0,
-    "x-ai/grok-4.3": 0,
-    "mistralai/mistral-medium-3-5": 0,
-    "deepseek/deepseek-v4-pro": 0,
-    "moonshotai/kimi-k2.6": 0,
-    "anthropic/claude-fable-5": 0,
-    "z-ai/glm-5.2": 0,
-    "bytedance/doubao-seed-2.0-pro": 0
+    "openai/gpt-5.5-pro": 9,
+    "x-ai/grok-4.3": 6,
+    "mistralai/mistral-medium-3-5": 9,
+    "deepseek/deepseek-v4-pro": 6,
+    "moonshotai/kimi-k2.6": 12,
+    "anthropic/claude-fable-5": 6,
+    "z-ai/glm-5.2": 6,
+    "bytedance/doubao-seed-2.0-pro": 8
    },
    "prompt": {
     "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断会出现冷门、平局或非热门球队取胜时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的精确比分。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
