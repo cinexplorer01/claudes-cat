@@ -1,6 +1,6 @@
 // 自动生成 — 勿手改。由 scripts/build-site-data.mjs 在每日更新时重建。
 window.ARENA_DATA = {
- "updated_at": "2026-06-23T03:59:36.853Z",
+ "updated_at": "2026-06-23T06:49:00.713Z",
  "rules": {
   "exact": 5,
   "outcome": 3,
@@ -64,7 +64,7 @@ window.ARENA_DATA = {
    "display": "Grok 4.3",
    "vendor": "xAI",
    "color": "#a78bfa",
-   "total": 74,
+   "total": 86,
    "series": [
     {
      "date": "2026-06-12",
@@ -118,151 +118,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-22",
-     "day": 0,
-     "total": 74
+     "day": 12,
+     "total": 86
     },
     {
      "date": "2026-06-23",
      "day": 0,
-     "total": 74
-    }
-   ]
-  },
-  {
-   "id": "moonshotai/kimi-k2.6",
-   "display": "Kimi K2.7",
-   "vendor": "Moonshot AI",
-   "color": "#f87171",
-   "total": 68,
-   "series": [
-    {
-     "date": "2026-06-12",
-     "day": 3,
-     "total": 3
-    },
-    {
-     "date": "2026-06-13",
-     "day": 0,
-     "total": 3
-    },
-    {
-     "date": "2026-06-14",
-     "day": 6,
-     "total": 9
-    },
-    {
-     "date": "2026-06-15",
-     "day": 0,
-     "total": 9
-    },
-    {
-     "date": "2026-06-16",
-     "day": 12,
-     "total": 21
-    },
-    {
-     "date": "2026-06-17",
-     "day": 6,
-     "total": 27
-    },
-    {
-     "date": "2026-06-18",
-     "day": 9,
-     "total": 36
-    },
-    {
-     "date": "2026-06-19",
-     "day": 9,
-     "total": 45
-    },
-    {
-     "date": "2026-06-20",
-     "day": 11,
-     "total": 56
-    },
-    {
-     "date": "2026-06-21",
-     "day": 12,
-     "total": 68
-    },
-    {
-     "date": "2026-06-22",
-     "day": 0,
-     "total": 68
-    },
-    {
-     "date": "2026-06-23",
-     "day": 0,
-     "total": 68
-    }
-   ]
-  },
-  {
-   "id": "openai/gpt-5.5-pro",
-   "display": "GPT-5.5 Pro",
-   "vendor": "OpenAI",
-   "color": "#34d399",
-   "total": 65,
-   "series": [
-    {
-     "date": "2026-06-12",
-     "day": 3,
-     "total": 3
-    },
-    {
-     "date": "2026-06-13",
-     "day": 5,
-     "total": 8
-    },
-    {
-     "date": "2026-06-14",
-     "day": 6,
-     "total": 14
-    },
-    {
-     "date": "2026-06-15",
-     "day": 0,
-     "total": 14
-    },
-    {
-     "date": "2026-06-16",
-     "day": 12,
-     "total": 26
-    },
-    {
-     "date": "2026-06-17",
-     "day": 6,
-     "total": 32
-    },
-    {
-     "date": "2026-06-18",
-     "day": 6,
-     "total": 38
-    },
-    {
-     "date": "2026-06-19",
-     "day": 10,
-     "total": 48
-    },
-    {
-     "date": "2026-06-20",
-     "day": 8,
-     "total": 56
-    },
-    {
-     "date": "2026-06-21",
-     "day": 9,
-     "total": 65
-    },
-    {
-     "date": "2026-06-22",
-     "day": 0,
-     "total": 65
-    },
-    {
-     "date": "2026-06-23",
-     "day": 0,
-     "total": 65
+     "total": 86
     }
    ]
   },
@@ -271,7 +133,7 @@ window.ARENA_DATA = {
    "display": "Claude Opus 4.8",
    "vendor": "Anthropic",
    "color": "#d9a05b",
-   "total": 65,
+   "total": 83,
    "series": [
     {
      "date": "2026-06-12",
@@ -325,13 +187,151 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-22",
-     "day": 0,
-     "total": 65
+     "day": 18,
+     "total": 83
     },
     {
      "date": "2026-06-23",
      "day": 0,
+     "total": 83
+    }
+   ]
+  },
+  {
+   "id": "moonshotai/kimi-k2.6",
+   "display": "Kimi K2.7",
+   "vendor": "Moonshot AI",
+   "color": "#f87171",
+   "total": 82,
+   "series": [
+    {
+     "date": "2026-06-12",
+     "day": 3,
+     "total": 3
+    },
+    {
+     "date": "2026-06-13",
+     "day": 0,
+     "total": 3
+    },
+    {
+     "date": "2026-06-14",
+     "day": 6,
+     "total": 9
+    },
+    {
+     "date": "2026-06-15",
+     "day": 0,
+     "total": 9
+    },
+    {
+     "date": "2026-06-16",
+     "day": 12,
+     "total": 21
+    },
+    {
+     "date": "2026-06-17",
+     "day": 6,
+     "total": 27
+    },
+    {
+     "date": "2026-06-18",
+     "day": 9,
+     "total": 36
+    },
+    {
+     "date": "2026-06-19",
+     "day": 9,
+     "total": 45
+    },
+    {
+     "date": "2026-06-20",
+     "day": 11,
+     "total": 56
+    },
+    {
+     "date": "2026-06-21",
+     "day": 12,
+     "total": 68
+    },
+    {
+     "date": "2026-06-22",
+     "day": 14,
+     "total": 82
+    },
+    {
+     "date": "2026-06-23",
+     "day": 0,
+     "total": 82
+    }
+   ]
+  },
+  {
+   "id": "openai/gpt-5.5-pro",
+   "display": "GPT-5.5 Pro",
+   "vendor": "OpenAI",
+   "color": "#34d399",
+   "total": 76,
+   "series": [
+    {
+     "date": "2026-06-12",
+     "day": 3,
+     "total": 3
+    },
+    {
+     "date": "2026-06-13",
+     "day": 5,
+     "total": 8
+    },
+    {
+     "date": "2026-06-14",
+     "day": 6,
+     "total": 14
+    },
+    {
+     "date": "2026-06-15",
+     "day": 0,
+     "total": 14
+    },
+    {
+     "date": "2026-06-16",
+     "day": 12,
+     "total": 26
+    },
+    {
+     "date": "2026-06-17",
+     "day": 6,
+     "total": 32
+    },
+    {
+     "date": "2026-06-18",
+     "day": 6,
+     "total": 38
+    },
+    {
+     "date": "2026-06-19",
+     "day": 10,
+     "total": 48
+    },
+    {
+     "date": "2026-06-20",
+     "day": 8,
+     "total": 56
+    },
+    {
+     "date": "2026-06-21",
+     "day": 9,
      "total": 65
+    },
+    {
+     "date": "2026-06-22",
+     "day": 11,
+     "total": 76
+    },
+    {
+     "date": "2026-06-23",
+     "day": 0,
+     "total": 76
     }
    ]
   },
@@ -340,7 +340,7 @@ window.ARENA_DATA = {
    "display": "DeepSeek V4 Pro",
    "vendor": "DeepSeek",
    "color": "#60a5fa",
-   "total": 62,
+   "total": 76,
    "series": [
     {
      "date": "2026-06-12",
@@ -394,13 +394,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-22",
-     "day": 0,
-     "total": 62
+     "day": 14,
+     "total": 76
     },
     {
      "date": "2026-06-23",
      "day": 0,
-     "total": 62
+     "total": 76
     }
    ]
   },
@@ -409,7 +409,7 @@ window.ARENA_DATA = {
    "display": "Mistral Medium 3.5",
    "vendor": "Mistral AI",
    "color": "#fb923c",
-   "total": 59,
+   "total": 73,
    "series": [
     {
      "date": "2026-06-12",
@@ -463,13 +463,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-22",
-     "day": 0,
-     "total": 59
+     "day": 14,
+     "total": 73
     },
     {
      "date": "2026-06-23",
      "day": 0,
-     "total": 59
+     "total": 73
     }
    ]
   },
@@ -479,7 +479,7 @@ window.ARENA_DATA = {
    "vendor": "ByteDance",
    "color": "#f472b6",
    "joined": "2026-06-20",
-   "total": 17,
+   "total": 29,
    "series": [
     {
      "date": "2026-06-12",
@@ -533,13 +533,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-22",
-     "day": 0,
-     "total": 17
+     "day": 12,
+     "total": 29
     },
     {
      "date": "2026-06-23",
      "day": 0,
-     "total": 17
+     "total": 29
     }
    ]
   },
@@ -549,7 +549,7 @@ window.ARENA_DATA = {
    "vendor": "Z.ai",
    "color": "#22d3ee",
    "joined": "2026-06-20",
-   "total": 12,
+   "total": 24,
    "series": [
     {
      "date": "2026-06-12",
@@ -603,13 +603,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-22",
-     "day": 0,
-     "total": 12
+     "day": 12,
+     "total": 24
     },
     {
      "date": "2026-06-23",
      "day": 0,
-     "total": 12
+     "total": 24
     }
    ]
   }
@@ -15108,7 +15108,11 @@ window.ARENA_DATA = {
       "https://www.cbssports.com/soccer/news/argentina-austria-odds-prediction-time-2026-world-cup-picks-best-bets/",
       "https://www.skysports.com/football/news/11095/13552725/world-cup-2026-austria-3-1-jordan-european-side-earn-first-world-cup-win-in-36-years"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-22-ARG-AUT",
+      "score": "2-0",
+      "winner": "home"
+     },
      "perModel": [
       {
        "model": "openai/gpt-5.5-pro",
@@ -15120,7 +15124,10 @@ window.ARENA_DATA = {
         "confidence": 62,
         "reasoning_zh": "阿根廷控场更稳，奥地利高压能进一球"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "x-ai/grok-4.3",
@@ -15132,7 +15139,10 @@ window.ARENA_DATA = {
         "confidence": 85,
         "reasoning_zh": "阿根廷实力碾压，梅西状态火热，奥地利难有还手之力"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "mistralai/mistral-medium-3-5",
@@ -15144,7 +15154,10 @@ window.ARENA_DATA = {
         "confidence": 85,
         "reasoning_zh": "阿根廷攻击力强，梅西领衔，奥地利或凭反击扳回一球但难阻胜势"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "deepseek/deepseek-v4-pro",
@@ -15156,7 +15169,10 @@ window.ARENA_DATA = {
         "confidence": 85,
         "reasoning_zh": "奥地利高压逼抢能给阿根廷制造麻烦，但梅西领衔的攻击线实力碾压。阿根廷末轮对手弱，无需大幅轮换，经验与个人能力决定胜负"
        },
-       "settled": null
+       "settled": {
+        "points": 5,
+        "verdict": "exact"
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -15168,7 +15184,10 @@ window.ARENA_DATA = {
         "confidence": 78,
         "reasoning_zh": "阿根廷整体实力与球星质量占优，奥地利高压或能进球但难全身而退。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -15180,7 +15199,10 @@ window.ARENA_DATA = {
         "confidence": 62,
         "reasoning_zh": "卫冕冠军主场实力碾压，梅西帽子戏法状态火热；奥地利高压拼抢但整体差距明显，阿根廷控制比赛小胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 5,
+        "verdict": "exact"
+       }
       },
       {
        "model": "z-ai/glm-5.2",
@@ -15192,7 +15214,10 @@ window.ARENA_DATA = {
         "confidence": 72,
         "reasoning_zh": "梅西状态火热但或轮换，奥地利朗尼克高压逼抢有威胁，阿根廷实力仍碾压，有望多点开花取胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "bytedance/doubao-seed-2.0-pro",
@@ -15204,7 +15229,10 @@ window.ARENA_DATA = {
         "confidence": 85,
         "reasoning_zh": "阿根廷实力占优，奥地利韧性不俗，梅西领衔锋线可斩获3球"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       }
      ]
     },
@@ -15419,7 +15447,11 @@ window.ARENA_DATA = {
       "https://www.aljazeera.com/sports/2026/6/21/mbappe-france-play-iraq-in-world-cup-match-prediction-team-news-lineups",
       "https://www.espn.com/soccer/story/_/id/49137803/iraq-coach-france-kylian-mbappe-3-goalkeepers-graham-arnold"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-22-FRA-IRQ",
+      "score": "3-0",
+      "winner": "home"
+     },
      "perModel": [
       {
        "model": "openai/gpt-5.5-pro",
@@ -15431,7 +15463,10 @@ window.ARENA_DATA = {
         "confidence": 88,
         "reasoning_zh": "法国轮换仍有深度，伊拉克防线承压"
        },
-       "settled": null
+       "settled": {
+        "points": 5,
+        "verdict": "exact"
+       }
       },
       {
        "model": "x-ai/grok-4.3",
@@ -15443,7 +15478,10 @@ window.ARENA_DATA = {
         "confidence": 90,
         "reasoning_zh": "法国整体碾压，姆巴佩百场里程碑，伊拉克防线脆弱"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "mistralai/mistral-medium-3-5",
@@ -15455,7 +15493,10 @@ window.ARENA_DATA = {
         "confidence": 90,
         "reasoning_zh": "法国锋线群星闪耀，伊拉克防线脆弱，姆巴佩或上演大四喜"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "deepseek/deepseek-v4-pro",
@@ -15467,7 +15508,10 @@ window.ARENA_DATA = {
         "confidence": 95,
         "reasoning_zh": "实力差距悬殊，法国预计轮换仍碾压。伊拉克主帅玩笑背后是绝望，首战被挪威灌4球暴露防线脆弱，法国零封取胜"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -15479,7 +15523,10 @@ window.ARENA_DATA = {
         "confidence": 95,
         "reasoning_zh": "法国轮换仍强、伊拉克防线难挡，预计法国多点开花并丢一球"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -15491,7 +15538,10 @@ window.ARENA_DATA = {
         "confidence": 75,
         "reasoning_zh": "法国实力全面压制，姆巴佩状态正佳迎百场；伊拉克首轮失四球防线脆弱，即便轮换法国也能大胜零封。"
        },
-       "settled": null
+       "settled": {
+        "points": 5,
+        "verdict": "exact"
+       }
       },
       {
        "model": "z-ai/glm-5.2",
@@ -15503,7 +15553,10 @@ window.ARENA_DATA = {
         "confidence": 88,
         "reasoning_zh": "法国实力碾压伊拉克，姆巴佩百场战意足，伊拉克防线首轮丢4球，法国大胜但伊拉克或偷一球。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "bytedance/doubao-seed-2.0-pro",
@@ -15515,7 +15568,10 @@ window.ARENA_DATA = {
         "confidence": 92,
         "reasoning_zh": "姆巴佩迎国家队百场战意高昂，法国火力完全碾压伊拉克防线"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       }
      ]
     },
@@ -15736,7 +15792,11 @@ window.ARENA_DATA = {
       "https://www.sportsmole.co.uk/football/senegal/world-cup-2026/news/senegal-face-norway-with-unpaid-wages-and-fatigue-at-world-cup-2026_599755.html",
       "https://www.sportsmole.co.uk/football/norway/world-cup-2026/predicted-lineups/double-defensive-boost-for-solbakken-predicted-norway-xi-vs-senegal_599672.html"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-22-NOR-SEN",
+      "score": "3-2",
+      "winner": "home"
+     },
      "perModel": [
       {
        "model": "openai/gpt-5.5-pro",
@@ -15748,7 +15808,10 @@ window.ARENA_DATA = {
         "confidence": 46,
         "reasoning_zh": "挪威锋线强，塞内加尔抢分动力足"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong"
+       }
       },
       {
        "model": "x-ai/grok-4.3",
@@ -15760,7 +15823,10 @@ window.ARENA_DATA = {
         "confidence": 65,
         "reasoning_zh": "哈兰德锋线优势，塞内加尔状态与伤病影响，挪威主场取胜"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "mistralai/mistral-medium-3-5",
@@ -15772,7 +15838,10 @@ window.ARENA_DATA = {
         "confidence": 75,
         "reasoning_zh": "挪威主场哈兰德发挥稳定，塞内加尔体能不佳但马内有机会扳平"
        },
-       "settled": null
+       "settled": {
+        "points": 5,
+        "verdict": "exact"
+       }
       },
       {
        "model": "deepseek/deepseek-v4-pro",
@@ -15784,7 +15853,10 @@ window.ARENA_DATA = {
         "confidence": 72,
         "reasoning_zh": "挪威首轮4-1大胜士气正盛，哈兰德厄德高状态火热；塞内加尔欠薪+体能问题困扰，首轮1-3负法国暴露防线漏洞，挪威攻击力足以再破门。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -15796,7 +15868,10 @@ window.ARENA_DATA = {
         "confidence": 62,
         "reasoning_zh": "挪威进攻状态火热，塞内加尔体能与场外问题削弱防守，主队小胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -15808,7 +15883,10 @@ window.ARENA_DATA = {
         "confidence": 52,
         "reasoning_zh": "哈兰德状态火爆、挪威主场气势如虹；塞内加尔有马内等强阵但欠薪体能困扰，挪威略占上风但难零封。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "z-ai/glm-5.2",
@@ -15820,7 +15898,10 @@ window.ARENA_DATA = {
         "confidence": 68,
         "reasoning_zh": "挪威势头正盛哈兰德状态火爆，塞内加尔受欠薪体能困扰，挪威攻击群有望多点破门取胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "bytedance/doubao-seed-2.0-pro",
@@ -15832,7 +15913,10 @@ window.ARENA_DATA = {
         "confidence": 78,
         "reasoning_zh": "哈兰德状态火热，塞内加尔受场外因素干扰，挪威进攻更犀利"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       }
      ]
     },
@@ -16052,7 +16136,11 @@ window.ARENA_DATA = {
       "https://theanalyst.com/articles/jordan-vs-algeria-prediction-world-cup-2026-match-preview",
       "https://www.racingpost.com/sport/football-tips/world-cup-2026/jordan-vs-algeria-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-abUG75Z79uPM/"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-22-JOR-ALG",
+      "score": "1-2",
+      "winner": "away"
+     },
      "perModel": [
       {
        "model": "openai/gpt-5.5-pro",
@@ -16064,7 +16152,10 @@ window.ARENA_DATA = {
         "confidence": 70,
         "reasoning_zh": "阿尔及利亚攻击点更多，约旦防线松散"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "x-ai/grok-4.3",
@@ -16076,7 +16167,10 @@ window.ARENA_DATA = {
         "confidence": 75,
         "reasoning_zh": "阿尔及利亚阵容远胜，约旦首秀经验不足，客队取分需求更强"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "mistralai/mistral-medium-3-5",
@@ -16088,7 +16182,10 @@ window.ARENA_DATA = {
         "confidence": 70,
         "reasoning_zh": "阿尔及利亚整体实力略高，约旦锋线乏力，马赫雷斯或绝杀"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "deepseek/deepseek-v4-pro",
@@ -16100,7 +16197,10 @@ window.ARENA_DATA = {
         "confidence": 78,
         "reasoning_zh": "阿尔及利亚首战惨败因对手太强，实力远胜约旦。马赫雷斯重回首发、前场旅欧球员找回状态，约旦处子秀难抵非洲劲旅反击"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -16112,7 +16212,10 @@ window.ARENA_DATA = {
         "confidence": 70,
         "reasoning_zh": "阿尔及利亚旅欧球员实力更强，急需反弹；约旦防守不稳，客队取胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 5,
+        "verdict": "exact"
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -16124,7 +16227,10 @@ window.ARENA_DATA = {
         "confidence": 55,
         "reasoning_zh": "阿尔及利亚阵容旅欧球员更具实力，马赫雷斯阿穆拉锋线占优；约旦主场拼劲足或进球，但客队胜算更大。"
        },
-       "settled": null
+       "settled": {
+        "points": 5,
+        "verdict": "exact"
+       }
       },
       {
        "model": "z-ai/glm-5.2",
@@ -16136,7 +16242,10 @@ window.ARENA_DATA = {
         "confidence": 75,
         "reasoning_zh": "阿尔及利亚旅欧阵容远强于约旦，马赫雷斯首发战意强，背水一战预计全力出击大胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       },
       {
        "model": "bytedance/doubao-seed-2.0-pro",
@@ -16148,21 +16257,24 @@ window.ARENA_DATA = {
         "confidence": 80,
         "reasoning_zh": "阿尔及利亚实力占优，首战惨败后战意强烈，约旦防线难守"
        },
-       "settled": null
+       "settled": {
+        "points": 3,
+        "verdict": "outcome"
+       }
       }
      ]
     }
    ],
-   "settled": false,
+   "settled": true,
    "day_points": {
-    "openai/gpt-5.5-pro": 0,
-    "x-ai/grok-4.3": 0,
-    "mistralai/mistral-medium-3-5": 0,
-    "deepseek/deepseek-v4-pro": 0,
-    "moonshotai/kimi-k2.6": 0,
-    "anthropic/claude-fable-5": 0,
-    "z-ai/glm-5.2": 0,
-    "bytedance/doubao-seed-2.0-pro": 0
+    "openai/gpt-5.5-pro": 11,
+    "x-ai/grok-4.3": 12,
+    "mistralai/mistral-medium-3-5": 14,
+    "deepseek/deepseek-v4-pro": 14,
+    "moonshotai/kimi-k2.6": 14,
+    "anthropic/claude-fable-5": 18,
+    "z-ai/glm-5.2": 12,
+    "bytedance/doubao-seed-2.0-pro": 12
    },
    "prompt": {
     "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断会出现冷门、平局或非热门球队取胜时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的精确比分。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
