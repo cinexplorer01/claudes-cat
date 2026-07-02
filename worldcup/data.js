@@ -1,35 +1,20 @@
 // 自动生成 — 勿手改。由 scripts/build-site-data.mjs 在每日更新时重建。
 window.ARENA_DATA = {
- "updated_at": "2026-06-24T09:14:45.828Z",
+ "updated_at": "2026-07-02T04:02:46.582Z",
  "rules": {
+  "direction": 2,
+  "score": 3,
   "exact": 5,
-  "outcome": 3,
+  "outcome": 2,
+  "scoreOnly": 3,
   "miss": 0
  },
  "models": [
-  {
-   "id": "openai/gpt-5.5-pro",
-   "display": "GPT-5.5 Pro",
-   "vendor": "OpenAI",
-   "color": "#34d399"
-  },
   {
    "id": "x-ai/grok-4.3",
    "display": "Grok 4.3",
    "vendor": "xAI",
    "color": "#a78bfa"
-  },
-  {
-   "id": "mistralai/mistral-medium-3-5",
-   "display": "Mistral Medium 3.5",
-   "vendor": "Mistral AI",
-   "color": "#fb923c"
-  },
-  {
-   "id": "deepseek/deepseek-v4-pro",
-   "display": "DeepSeek V4 Pro",
-   "vendor": "DeepSeek",
-   "color": "#60a5fa"
   },
   {
    "id": "moonshotai/kimi-k2.6",
@@ -44,18 +29,37 @@ window.ARENA_DATA = {
    "color": "#d9a05b"
   },
   {
-   "id": "z-ai/glm-5.2",
-   "display": "GLM-5.2",
-   "vendor": "Z.ai",
-   "color": "#22d3ee",
-   "joined": "2026-06-20"
+   "id": "google/gemini-3.5-flash",
+   "display": "Gemini 3.5 Flash",
+   "vendor": "Google",
+   "color": "#38bdf8"
   },
   {
-   "id": "bytedance/doubao-seed-2.0-pro",
-   "display": "Doubao Seed 2.0 Pro",
-   "vendor": "ByteDance",
-   "color": "#f472b6",
-   "joined": "2026-06-20"
+   "id": "sakana/fugu-ultra",
+   "display": "Fugu Ultra",
+   "vendor": "Sakana AI",
+   "color": "#eab308"
+  },
+  {
+   "id": "tencent/hy3-preview",
+   "display": "Tencent HY3 Preview",
+   "vendor": "Tencent",
+   "color": "#22c55e",
+   "joined": "2026-06-30"
+  },
+  {
+   "id": "xiaomi/mimo-v2.5-pro",
+   "display": "Xiaomi MiMo v2.5 Pro",
+   "vendor": "Xiaomi",
+   "color": "#ff6900",
+   "joined": "2026-06-30"
+  },
+  {
+   "id": "minimax/minimax-m3",
+   "display": "MiniMax M3",
+   "vendor": "MiniMax",
+   "color": "#8b5cf6",
+   "joined": "2026-06-30"
   }
  ],
  "leaderboard": [
@@ -64,146 +68,112 @@ window.ARENA_DATA = {
    "display": "Claude Opus 4.8",
    "vendor": "Anthropic",
    "color": "#d9a05b",
-   "total": 96,
+   "total": 148,
    "series": [
     {
      "date": "2026-06-12",
-     "day": 3,
-     "total": 3
+     "day": 2,
+     "total": 2
     },
     {
      "date": "2026-06-13",
-     "day": 3,
-     "total": 6
+     "day": 2,
+     "total": 4
     },
     {
      "date": "2026-06-14",
-     "day": 6,
-     "total": 12
+     "day": 4,
+     "total": 8
     },
     {
      "date": "2026-06-15",
      "day": 0,
-     "total": 12
+     "total": 8
     },
     {
      "date": "2026-06-16",
-     "day": 12,
-     "total": 24
+     "day": 8,
+     "total": 16
     },
     {
      "date": "2026-06-17",
-     "day": 6,
-     "total": 30
+     "day": 4,
+     "total": 20
     },
     {
      "date": "2026-06-18",
-     "day": 9,
-     "total": 39
+     "day": 6,
+     "total": 26
     },
     {
      "date": "2026-06-19",
-     "day": 11,
-     "total": 50
+     "day": 9,
+     "total": 35
     },
     {
      "date": "2026-06-20",
-     "day": 9,
-     "total": 59
+     "day": 6,
+     "total": 41
     },
     {
      "date": "2026-06-21",
-     "day": 6,
-     "total": 65
+     "day": 4,
+     "total": 45
     },
     {
      "date": "2026-06-22",
-     "day": 18,
-     "total": 83
+     "day": 17,
+     "total": 62
     },
     {
      "date": "2026-06-23",
-     "day": 13,
-     "total": 96
-    },
-    {
-     "date": "2026-06-24",
-     "day": 0,
-     "total": 96
-    }
-   ]
-  },
-  {
-   "id": "x-ai/grok-4.3",
-   "display": "Grok 4.3",
-   "vendor": "xAI",
-   "color": "#a78bfa",
-   "total": 95,
-   "series": [
-    {
-     "date": "2026-06-12",
-     "day": 3,
-     "total": 3
-    },
-    {
-     "date": "2026-06-13",
-     "day": 3,
-     "total": 6
-    },
-    {
-     "date": "2026-06-14",
-     "day": 9,
-     "total": 15
-    },
-    {
-     "date": "2026-06-15",
-     "day": 0,
-     "total": 15
-    },
-    {
-     "date": "2026-06-16",
-     "day": 16,
-     "total": 31
-    },
-    {
-     "date": "2026-06-17",
-     "day": 6,
-     "total": 37
-    },
-    {
-     "date": "2026-06-18",
-     "day": 11,
-     "total": 48
-    },
-    {
-     "date": "2026-06-19",
-     "day": 11,
-     "total": 59
-    },
-    {
-     "date": "2026-06-20",
-     "day": 9,
-     "total": 68
-    },
-    {
-     "date": "2026-06-21",
-     "day": 6,
+     "day": 12,
      "total": 74
     },
     {
-     "date": "2026-06-22",
-     "day": 12,
-     "total": 86
-    },
-    {
-     "date": "2026-06-23",
-     "day": 9,
-     "total": 95
-    },
-    {
      "date": "2026-06-24",
+     "day": 8,
+     "total": 82
+    },
+    {
+     "date": "2026-06-25",
+     "day": 14,
+     "total": 96
+    },
+    {
+     "date": "2026-06-26",
+     "day": 13,
+     "total": 109
+    },
+    {
+     "date": "2026-06-27",
+     "day": 15,
+     "total": 124
+    },
+    {
+     "date": "2026-06-28",
+     "day": 2,
+     "total": 126
+    },
+    {
+     "date": "2026-06-29",
+     "day": 7,
+     "total": 133
+    },
+    {
+     "date": "2026-06-30",
+     "day": 9,
+     "total": 142
+    },
+    {
+     "date": "2026-07-01",
+     "day": 6,
+     "total": 148
+    },
+    {
+     "date": "2026-07-02",
      "day": 0,
-     "total": 95
+     "total": 148
     }
    ]
   },
@@ -212,379 +182,235 @@ window.ARENA_DATA = {
    "display": "Kimi K2.7",
    "vendor": "Moonshot AI",
    "color": "#f87171",
-   "total": 91,
+   "total": 136,
    "series": [
     {
      "date": "2026-06-12",
-     "day": 3,
-     "total": 3
+     "day": 2,
+     "total": 2
     },
     {
      "date": "2026-06-13",
      "day": 0,
-     "total": 3
+     "total": 2
     },
     {
      "date": "2026-06-14",
-     "day": 6,
-     "total": 9
+     "day": 4,
+     "total": 6
     },
     {
      "date": "2026-06-15",
      "day": 0,
-     "total": 9
+     "total": 6
     },
     {
      "date": "2026-06-16",
-     "day": 12,
-     "total": 21
-    },
-    {
-     "date": "2026-06-17",
-     "day": 6,
-     "total": 27
-    },
-    {
-     "date": "2026-06-18",
-     "day": 9,
-     "total": 36
-    },
-    {
-     "date": "2026-06-19",
-     "day": 9,
-     "total": 45
-    },
-    {
-     "date": "2026-06-20",
-     "day": 11,
-     "total": 56
-    },
-    {
-     "date": "2026-06-21",
-     "day": 12,
-     "total": 68
-    },
-    {
-     "date": "2026-06-22",
-     "day": 14,
-     "total": 82
-    },
-    {
-     "date": "2026-06-23",
-     "day": 9,
-     "total": 91
-    },
-    {
-     "date": "2026-06-24",
-     "day": 0,
-     "total": 91
-    }
-   ]
-  },
-  {
-   "id": "openai/gpt-5.5-pro",
-   "display": "GPT-5.5 Pro",
-   "vendor": "OpenAI",
-   "color": "#34d399",
-   "total": 85,
-   "series": [
-    {
-     "date": "2026-06-12",
-     "day": 3,
-     "total": 3
-    },
-    {
-     "date": "2026-06-13",
-     "day": 5,
-     "total": 8
-    },
-    {
-     "date": "2026-06-14",
-     "day": 6,
+     "day": 8,
      "total": 14
     },
     {
-     "date": "2026-06-15",
-     "day": 0,
-     "total": 14
-    },
-    {
-     "date": "2026-06-16",
-     "day": 12,
-     "total": 26
-    },
-    {
      "date": "2026-06-17",
-     "day": 6,
-     "total": 32
+     "day": 4,
+     "total": 18
     },
     {
      "date": "2026-06-18",
      "day": 6,
-     "total": 38
-    },
-    {
-     "date": "2026-06-19",
-     "day": 10,
-     "total": 48
-    },
-    {
-     "date": "2026-06-20",
-     "day": 8,
-     "total": 56
-    },
-    {
-     "date": "2026-06-21",
-     "day": 9,
-     "total": 65
-    },
-    {
-     "date": "2026-06-22",
-     "day": 11,
-     "total": 76
-    },
-    {
-     "date": "2026-06-23",
-     "day": 9,
-     "total": 85
-    },
-    {
-     "date": "2026-06-24",
-     "day": 0,
-     "total": 85
-    }
-   ]
-  },
-  {
-   "id": "deepseek/deepseek-v4-pro",
-   "display": "DeepSeek V4 Pro",
-   "vendor": "DeepSeek",
-   "color": "#60a5fa",
-   "total": 85,
-   "series": [
-    {
-     "date": "2026-06-12",
-     "day": 8,
-     "total": 8
-    },
-    {
-     "date": "2026-06-13",
-     "day": 3,
-     "total": 11
-    },
-    {
-     "date": "2026-06-14",
-     "day": 9,
-     "total": 20
-    },
-    {
-     "date": "2026-06-15",
-     "day": 0,
-     "total": 20
-    },
-    {
-     "date": "2026-06-16",
-     "day": 9,
-     "total": 29
-    },
-    {
-     "date": "2026-06-17",
-     "day": 6,
-     "total": 35
-    },
-    {
-     "date": "2026-06-18",
-     "day": 9,
-     "total": 44
-    },
-    {
-     "date": "2026-06-19",
-     "day": 6,
-     "total": 50
-    },
-    {
-     "date": "2026-06-20",
-     "day": 6,
-     "total": 56
-    },
-    {
-     "date": "2026-06-21",
-     "day": 6,
-     "total": 62
-    },
-    {
-     "date": "2026-06-22",
-     "day": 14,
-     "total": 76
-    },
-    {
-     "date": "2026-06-23",
-     "day": 9,
-     "total": 85
-    },
-    {
-     "date": "2026-06-24",
-     "day": 0,
-     "total": 85
-    }
-   ]
-  },
-  {
-   "id": "mistralai/mistral-medium-3-5",
-   "display": "Mistral Medium 3.5",
-   "vendor": "Mistral AI",
-   "color": "#fb923c",
-   "total": 84,
-   "series": [
-    {
-     "date": "2026-06-12",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-13",
-     "day": 3,
-     "total": 3
-    },
-    {
-     "date": "2026-06-14",
-     "day": 9,
-     "total": 12
-    },
-    {
-     "date": "2026-06-15",
-     "day": 0,
-     "total": 12
-    },
-    {
-     "date": "2026-06-16",
-     "day": 12,
      "total": 24
     },
     {
-     "date": "2026-06-17",
+     "date": "2026-06-19",
      "day": 6,
      "total": 30
     },
     {
-     "date": "2026-06-18",
-     "day": 3,
-     "total": 33
-    },
-    {
-     "date": "2026-06-19",
-     "day": 11,
-     "total": 44
-    },
-    {
-     "date": "2026-06-20",
-     "day": 6,
-     "total": 50
-    },
-    {
-     "date": "2026-06-21",
-     "day": 9,
-     "total": 59
-    },
-    {
-     "date": "2026-06-22",
-     "day": 14,
-     "total": 73
-    },
-    {
-     "date": "2026-06-23",
-     "day": 11,
-     "total": 84
-    },
-    {
-     "date": "2026-06-24",
-     "day": 0,
-     "total": 84
-    }
-   ]
-  },
-  {
-   "id": "bytedance/doubao-seed-2.0-pro",
-   "display": "Doubao Seed 2.0 Pro",
-   "vendor": "ByteDance",
-   "color": "#f472b6",
-   "joined": "2026-06-20",
-   "total": 38,
-   "series": [
-    {
-     "date": "2026-06-12",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-13",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-14",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-15",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-16",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-17",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-18",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-19",
-     "day": 0,
-     "total": 0
-    },
-    {
      "date": "2026-06-20",
      "day": 9,
-     "total": 9
+     "total": 39
     },
     {
      "date": "2026-06-21",
      "day": 8,
-     "total": 17
+     "total": 47
     },
     {
      "date": "2026-06-22",
-     "day": 12,
-     "total": 29
+     "day": 11,
+     "total": 58
     },
     {
      "date": "2026-06-23",
-     "day": 9,
-     "total": 38
+     "day": 6,
+     "total": 64
     },
     {
      "date": "2026-06-24",
+     "day": 8,
+     "total": 72
+    },
+    {
+     "date": "2026-06-25",
+     "day": 12,
+     "total": 84
+    },
+    {
+     "date": "2026-06-26",
+     "day": 13,
+     "total": 97
+    },
+    {
+     "date": "2026-06-27",
+     "day": 13,
+     "total": 110
+    },
+    {
+     "date": "2026-06-28",
      "day": 0,
-     "total": 38
+     "total": 110
+    },
+    {
+     "date": "2026-06-29",
+     "day": 10,
+     "total": 120
+    },
+    {
+     "date": "2026-06-30",
+     "day": 7,
+     "total": 127
+    },
+    {
+     "date": "2026-07-01",
+     "day": 9,
+     "total": 136
+    },
+    {
+     "date": "2026-07-02",
+     "day": 0,
+     "total": 136
     }
    ]
   },
   {
-   "id": "z-ai/glm-5.2",
-   "display": "GLM-5.2",
-   "vendor": "Z.ai",
-   "color": "#22d3ee",
-   "joined": "2026-06-20",
-   "total": 27,
+   "id": "x-ai/grok-4.3",
+   "display": "Grok 4.3",
+   "vendor": "xAI",
+   "color": "#a78bfa",
+   "total": 133,
+   "series": [
+    {
+     "date": "2026-06-12",
+     "day": 2,
+     "total": 2
+    },
+    {
+     "date": "2026-06-13",
+     "day": 2,
+     "total": 4
+    },
+    {
+     "date": "2026-06-14",
+     "day": 6,
+     "total": 10
+    },
+    {
+     "date": "2026-06-15",
+     "day": 0,
+     "total": 10
+    },
+    {
+     "date": "2026-06-16",
+     "day": 14,
+     "total": 24
+    },
+    {
+     "date": "2026-06-17",
+     "day": 4,
+     "total": 28
+    },
+    {
+     "date": "2026-06-18",
+     "day": 9,
+     "total": 37
+    },
+    {
+     "date": "2026-06-19",
+     "day": 9,
+     "total": 46
+    },
+    {
+     "date": "2026-06-20",
+     "day": 6,
+     "total": 52
+    },
+    {
+     "date": "2026-06-21",
+     "day": 4,
+     "total": 56
+    },
+    {
+     "date": "2026-06-22",
+     "day": 8,
+     "total": 64
+    },
+    {
+     "date": "2026-06-23",
+     "day": 6,
+     "total": 70
+    },
+    {
+     "date": "2026-06-24",
+     "day": 8,
+     "total": 78
+    },
+    {
+     "date": "2026-06-25",
+     "day": 9,
+     "total": 87
+    },
+    {
+     "date": "2026-06-26",
+     "day": 8,
+     "total": 95
+    },
+    {
+     "date": "2026-06-27",
+     "day": 13,
+     "total": 108
+    },
+    {
+     "date": "2026-06-28",
+     "day": 2,
+     "total": 110
+    },
+    {
+     "date": "2026-06-29",
+     "day": 2,
+     "total": 112
+    },
+    {
+     "date": "2026-06-30",
+     "day": 12,
+     "total": 124
+    },
+    {
+     "date": "2026-07-01",
+     "day": 9,
+     "total": 133
+    },
+    {
+     "date": "2026-07-02",
+     "day": 0,
+     "total": 133
+    }
+   ]
+  },
+  {
+   "id": "google/gemini-3.5-flash",
+   "display": "Gemini 3.5 Flash",
+   "vendor": "Google",
+   "color": "#38bdf8",
+   "total": 52,
    "series": [
     {
      "date": "2026-06-12",
@@ -628,28 +454,527 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-06-20",
-     "day": 6,
-     "total": 6
+     "day": 0,
+     "total": 0
     },
     {
      "date": "2026-06-21",
-     "day": 6,
-     "total": 12
+     "day": 0,
+     "total": 0
     },
     {
      "date": "2026-06-22",
-     "day": 12,
-     "total": 24
+     "day": 0,
+     "total": 0
     },
     {
      "date": "2026-06-23",
-     "day": 3,
-     "total": 27
+     "day": 0,
+     "total": 0
     },
     {
      "date": "2026-06-24",
      "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-25",
+     "day": 6,
+     "total": 6
+    },
+    {
+     "date": "2026-06-26",
+     "day": 8,
+     "total": 14
+    },
+    {
+     "date": "2026-06-27",
+     "day": 16,
+     "total": 30
+    },
+    {
+     "date": "2026-06-28",
+     "day": 2,
+     "total": 32
+    },
+    {
+     "date": "2026-06-29",
+     "day": 2,
+     "total": 34
+    },
+    {
+     "date": "2026-06-30",
+     "day": 9,
+     "total": 43
+    },
+    {
+     "date": "2026-07-01",
+     "day": 9,
+     "total": 52
+    },
+    {
+     "date": "2026-07-02",
+     "day": 0,
+     "total": 52
+    }
+   ]
+  },
+  {
+   "id": "sakana/fugu-ultra",
+   "display": "Fugu Ultra",
+   "vendor": "Sakana AI",
+   "color": "#eab308",
+   "total": 46,
+   "series": [
+    {
+     "date": "2026-06-12",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-13",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-14",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-15",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-16",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-17",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-18",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-19",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-20",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-21",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-22",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-23",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-24",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-25",
+     "day": 6,
+     "total": 6
+    },
+    {
+     "date": "2026-06-26",
+     "day": 10,
+     "total": 16
+    },
+    {
+     "date": "2026-06-27",
+     "day": 11,
      "total": 27
+    },
+    {
+     "date": "2026-06-28",
+     "day": 5,
+     "total": 32
+    },
+    {
+     "date": "2026-06-29",
+     "day": 2,
+     "total": 34
+    },
+    {
+     "date": "2026-06-30",
+     "day": 6,
+     "total": 40
+    },
+    {
+     "date": "2026-07-01",
+     "day": 6,
+     "total": 46
+    },
+    {
+     "date": "2026-07-02",
+     "day": 0,
+     "total": 46
+    }
+   ]
+  },
+  {
+   "id": "xiaomi/mimo-v2.5-pro",
+   "display": "Xiaomi MiMo v2.5 Pro",
+   "vendor": "Xiaomi",
+   "color": "#ff6900",
+   "joined": "2026-06-30",
+   "total": 15,
+   "series": [
+    {
+     "date": "2026-06-12",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-13",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-14",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-15",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-16",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-17",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-18",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-19",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-20",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-21",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-22",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-23",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-24",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-25",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-26",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-27",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-28",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-29",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-30",
+     "day": 6,
+     "total": 6
+    },
+    {
+     "date": "2026-07-01",
+     "day": 9,
+     "total": 15
+    },
+    {
+     "date": "2026-07-02",
+     "day": 0,
+     "total": 15
+    }
+   ]
+  },
+  {
+   "id": "minimax/minimax-m3",
+   "display": "MiniMax M3",
+   "vendor": "MiniMax",
+   "color": "#8b5cf6",
+   "joined": "2026-06-30",
+   "total": 15,
+   "series": [
+    {
+     "date": "2026-06-12",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-13",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-14",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-15",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-16",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-17",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-18",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-19",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-20",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-21",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-22",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-23",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-24",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-25",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-26",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-27",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-28",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-29",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-30",
+     "day": 6,
+     "total": 6
+    },
+    {
+     "date": "2026-07-01",
+     "day": 9,
+     "total": 15
+    },
+    {
+     "date": "2026-07-02",
+     "day": 0,
+     "total": 15
+    }
+   ]
+  },
+  {
+   "id": "tencent/hy3-preview",
+   "display": "Tencent HY3 Preview",
+   "vendor": "Tencent",
+   "color": "#22c55e",
+   "joined": "2026-06-30",
+   "total": 12,
+   "series": [
+    {
+     "date": "2026-06-12",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-13",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-14",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-15",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-16",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-17",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-18",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-19",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-20",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-21",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-22",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-23",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-24",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-25",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-26",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-27",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-28",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-29",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-30",
+     "day": 6,
+     "total": 6
+    },
+    {
+     "date": "2026-07-01",
+     "day": 6,
+     "total": 12
+    },
+    {
+     "date": "2026-07-02",
+     "day": 0,
+     "total": 12
     }
    ]
   }
@@ -912,21 +1237,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-12-CAN-BIH",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 58,
-        "reasoning_zh": "主场与赔率占优，波黑连平且小球倾向"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -938,37 +1248,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-12-CAN-BIH",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 85,
-        "reasoning_zh": "加拿大主场+排名优势，戴维斯缺阵但戴维领衔攻击线仍能破波黑铁桶，小球热门符合两队近况"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-12-CAN-BIH",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 60,
-        "reasoning_zh": "加拿大戴维斯缺阵影响进攻，波黑近5场90分钟全平且防守顽强，双方抢分压力下易出平局。"
-       },
-       "settled": {
-        "points": 5,
-        "verdict": "exact"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -983,7 +1265,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -998,25 +1282,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -1289,21 +1612,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-12-USA-PAR",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 54,
-        "reasoning_zh": "主场实力略优，恩西索伤缺且小球盘明显"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -1314,38 +1622,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "美国纸面实力占优，巴拉圭防守强但恩西索缺阵，历史交锋美国占优"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-12-USA-PAR",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 75,
-        "reasoning_zh": "巴拉圭防守顽强，美国热身不稳，恩西索缺阵平衡双方优势，小组赛首战平局概率高"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-12-USA-PAR",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 50,
-        "reasoning_zh": "美国实力占优且有主场之利，巴拉圭守强攻弱且恩西索缺阵，小球格局下东道主小胜。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -1359,8 +1639,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "美国主场纸面占优，巴拉圭预选赛防守稳健但核心恩西索缺阵致反击哑火，深开小球盘口下东道主凭个人能力1-0破局。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -1374,26 +1656,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "美国主场略占优但热身起伏，巴拉圭铁桶防守加恩西索缺阵反击乏力，盘口强烈看小球，主队闷胜1-0最符合市场共识"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -1401,14 +1722,14 @@ window.ARENA_DATA = {
    ],
    "settled": true,
    "day_points": {
-    "openai/gpt-5.5-pro": 3,
-    "x-ai/grok-4.3": 3,
-    "mistralai/mistral-medium-3-5": 0,
-    "deepseek/deepseek-v4-pro": 8,
-    "moonshotai/kimi-k2.6": 3,
-    "anthropic/claude-fable-5": 3,
-    "z-ai/glm-5.2": 0,
-    "bytedance/doubao-seed-2.0-pro": 0
+    "x-ai/grok-4.3": 2,
+    "moonshotai/kimi-k2.6": 2,
+    "anthropic/claude-fable-5": 2,
+    "google/gemini-3.5-flash": 0,
+    "sakana/fugu-ultra": 0,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
    },
    "prompt": {
     "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。综合考虑赔率隐含概率、两队实力差距、近期状态与晋级动机，给出你认为最可能出现的精确比分。",
@@ -1725,21 +2046,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-13-AUS-TUR",
-        "winner": "away",
-        "score": "0-1",
-        "confidence": 58,
-        "reasoning_zh": "土耳其状态和创造力占优，澳主力射手伤疑。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -1751,37 +2057,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-13-AUS-TUR",
-        "winner": "away",
-        "score": "0-1",
-        "confidence": 85,
-        "reasoning_zh": "土耳其8场不败+排名优势，澳大利亚攻坚乏力+图雷伤疑，历史交锋全负"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-13-AUS-TUR",
-        "winner": "away",
-        "score": "0-1",
-        "confidence": 70,
-        "reasoning_zh": "土耳其状态与阵容均占优，澳大利亚射手存疑且攻坚无力，土队小胜。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -1796,7 +2074,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -1811,25 +2091,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -2113,21 +2432,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-13-BRA-MAR",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 56,
-        "reasoning_zh": "巴西赔率占优，摩洛哥防守强，预计小胜。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -2139,37 +2443,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-13-BRA-MAR",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 80,
-        "reasoning_zh": "巴西整体实力略高，摩洛哥换帅+伤病，小球趋势下巴西零星制胜"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-13-BRA-MAR",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 65,
-        "reasoning_zh": "巴西伤病多但攻击线仍强，摩洛哥后防受损换帅不久，巴西险胜。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -2184,7 +2460,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -2199,25 +2477,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -2522,21 +2839,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-13-HAI-SCO",
-        "winner": "away",
-        "score": "0-1",
-        "confidence": 61,
-        "reasoning_zh": "苏格兰厚度更好，海地有冲击但防线不稳。"
-       },
-       "settled": {
-        "points": 5,
-        "verdict": "exact"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -2547,38 +2849,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "苏格兰排名与实力碾压，赔率1.44-1.59支持客胜，海地防线不稳"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-13-HAI-SCO",
-        "winner": "away",
-        "score": "0-2",
-        "confidence": 75,
-        "reasoning_zh": "苏格兰阵容厚度+热身状态佳，海地防线不稳，实力差距明显"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-13-HAI-SCO",
-        "winner": "away",
-        "score": "0-2",
-        "confidence": 75,
-        "reasoning_zh": "苏格兰实力与大赛经验占优，海地防守漏洞明显，苏格兰可零封获胜。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -2593,7 +2867,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -2607,26 +2883,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "苏格兰班底成熟、热身连胜状态正佳，赔率约六成胜率；海地防线专注度差但锋线有冲击力，苏格兰险胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -2900,21 +3215,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-13-QAT-SUI",
-        "winner": "away",
-        "score": "0-2",
-        "confidence": 78,
-        "reasoning_zh": "瑞士实力状态压倒，卡塔尔近况进攻乏力。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -2926,37 +3226,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-13-QAT-SUI",
-        "winner": "away",
-        "score": "0-2",
-        "confidence": 90,
-        "reasoning_zh": "瑞士实力远超+状态稳定，卡塔尔6场不胜+进攻乏力，盘口一边倒"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-13-QAT-SUI",
-        "winner": "away",
-        "score": "0-2",
-        "confidence": 85,
-        "reasoning_zh": "瑞士攻防均衡，卡塔尔状态低迷且锋无力，瑞士轻松取胜。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -2971,7 +3243,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -2986,25 +3260,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -3012,14 +3325,14 @@ window.ARENA_DATA = {
    ],
    "settled": true,
    "day_points": {
-    "openai/gpt-5.5-pro": 5,
-    "x-ai/grok-4.3": 3,
-    "mistralai/mistral-medium-3-5": 3,
-    "deepseek/deepseek-v4-pro": 3,
+    "x-ai/grok-4.3": 2,
     "moonshotai/kimi-k2.6": 0,
-    "anthropic/claude-fable-5": 3,
-    "z-ai/glm-5.2": 0,
-    "bytedance/doubao-seed-2.0-pro": 0
+    "anthropic/claude-fable-5": 2,
+    "google/gemini-3.5-flash": 0,
+    "sakana/fugu-ultra": 0,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
    },
    "prompt": {
     "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。综合考虑赔率隐含概率、两队实力差距、近期状态与晋级动机，给出你认为最可能出现的精确比分。",
@@ -3342,21 +3655,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-14-CIV-ECU",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 36,
-        "reasoning_zh": "实力接近且厄瓜多尔防守强，抢二战偏谨慎"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -3368,37 +3666,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-14-CIV-ECU",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 85,
-        "reasoning_zh": "双方实力接近，厄瓜多尔防守强但进攻弱，科特迪瓦状态佳但缺中卫，博彩平局概率高"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-14-CIV-ECU",
-        "winner": "draw",
-        "score": "0-0",
-        "confidence": 75,
-        "reasoning_zh": "两队实力接近且均防守稳固，厄瓜多尔19场不败13场零封，科特迪瓦主力中卫缺阵，市场大小球盘口罕见开在1.5球，强烈预示0-0闷平。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -3413,7 +3683,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -3428,25 +3700,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -3728,21 +4039,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-14-GER-CUW",
-        "winner": "home",
-        "score": "4-0",
-        "confidence": 84,
-        "reasoning_zh": "德国优势碾压，库拉索遇强队防线屡崩"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -3753,38 +4049,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "德国实力碾压，市场预期大胜，盘口高开4.5球"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-14-GER-CUW",
-        "winner": "home",
-        "score": "4-0",
-        "confidence": 95,
-        "reasoning_zh": "德国9连胜且阵容豪华，库拉索实力悬殊且热身连败，大比分胜几乎确定"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-14-GER-CUW",
-        "winner": "home",
-        "score": "5-0",
-        "confidence": 98,
-        "reasoning_zh": "实力悬殊巨大，德国正式比赛9连胜进攻火力全开，库拉索对强队屡遭惨败，市场盘口高开4.5球且看好大球，德国至少净胜5球。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -3798,8 +4066,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "实力悬殊，德国九连胜进攻豪华，库拉索对强队连败防线崩盘，盘口支持大比分获胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -3813,26 +4083,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "实力悬殊，德国Opta胜率90.7%、9连胜，进攻群豪华；库拉索赛前连负强队多次崩盘，盘口高开4.5球大球受捧，德国大胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -4096,21 +4405,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-14-NED-JPN",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 44,
-        "reasoning_zh": "荷兰纸面略优，日本伤缺两核心但反击有威胁"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -4121,38 +4415,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "赔率接近均势，日本状态佳但缺核心，历史交锋平局可能"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-14-NED-JPN",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 75,
-        "reasoning_zh": "荷兰略占优但状态起伏，日本连胜但缺核心，博彩接近均势，平局概率大"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-14-NED-JPN",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 65,
-        "reasoning_zh": "强强对话且均势明显，荷兰近况起伏，日本虽缺远藤航与三笘薫但6连胜士气高昂，历史交锋荷兰不败但日本近年屡克强敌，平局概率最高。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -4167,7 +4433,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -4182,25 +4450,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -4484,21 +4791,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-14-SWE-TUN",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 53,
-        "reasoning_zh": "瑞典锋线优势明显，突尼斯近况差且小球倾向"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -4509,38 +4801,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "瑞典锋线豪华，赔率主胜热门，突尼斯防守为主但近期崩盘"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-14-SWE-TUN",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 80,
-        "reasoning_zh": "瑞典锋线强突尼斯防守硬，但突尼斯热身连败且缺核心，瑞典主场优势明显"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-14-SWE-TUN",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 70,
-        "reasoning_zh": "瑞典伊萨克复出与约凯雷斯组成豪华锋线，突尼斯热身赛0-5惨败比利时且核心迈杰布里伤疑，预选赛零失球纪录在绝对实力差距下恐难维持。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -4554,8 +4818,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "瑞典锋线实力占优，突尼斯热身连败且核心伤疑，大小球倾向小比分，瑞典揭幕战有望一球小胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -4569,26 +4835,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "Opta看好瑞典51%，伊萨克+约凯雷斯锋线占优；突尼斯防守硬朗但0-5惨败比利时、迈杰布里伤疑，低比分瑞典小胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -4596,14 +4901,14 @@ window.ARENA_DATA = {
    ],
    "settled": true,
    "day_points": {
-    "openai/gpt-5.5-pro": 6,
-    "x-ai/grok-4.3": 9,
-    "mistralai/mistral-medium-3-5": 9,
-    "deepseek/deepseek-v4-pro": 9,
-    "moonshotai/kimi-k2.6": 6,
-    "anthropic/claude-fable-5": 6,
-    "z-ai/glm-5.2": 0,
-    "bytedance/doubao-seed-2.0-pro": 0
+    "x-ai/grok-4.3": 6,
+    "moonshotai/kimi-k2.6": 4,
+    "anthropic/claude-fable-5": 4,
+    "google/gemini-3.5-flash": 0,
+    "sakana/fugu-ultra": 0,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
    },
    "prompt": {
     "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。综合考虑赔率隐含概率、两队实力差距、近期状态与晋级动机，给出你认为最可能出现的精确比分。",
@@ -4920,21 +5225,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-15-ESP-CPV",
-        "winner": "home",
-        "score": "3-0",
-        "confidence": 88,
-        "reasoning_zh": "实力和赔率极悬殊，西班牙控场大胜"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -4946,37 +5236,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-15-ESP-CPV",
-        "winner": "home",
-        "score": "3-0",
-        "confidence": 95,
-        "reasoning_zh": "西班牙实力压倒性，佛得角首次参赛且无历史交锋优势，热身状态差距明显"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-15-ESP-CPV",
-        "winner": "home",
-        "score": "3-0",
-        "confidence": 95,
-        "reasoning_zh": "西班牙实力碾压，佛得角首次参赛难挡，残阵边锋仍足够大胜。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -4991,7 +5253,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -5006,25 +5270,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -5300,21 +5603,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-15-BEL-EGY",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 62,
-        "reasoning_zh": "比利时状态更佳，埃及反击强但萨拉赫存疑"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -5326,37 +5614,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-15-BEL-EGY",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 80,
-        "reasoning_zh": "比利时热身状态佳，埃及萨拉赫伤情存疑，历史交锋埃及虽占优但非正式赛"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-15-BEL-EGY",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 75,
-        "reasoning_zh": "比利时攻击线状态佳，埃及防守顽强但缺少破局火力，小胜合理。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -5371,7 +5631,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -5386,25 +5648,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -5693,21 +5994,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-15-KSA-URU",
-        "winner": "away",
-        "score": "0-1",
-        "confidence": 66,
-        "reasoning_zh": "乌拉圭硬实力占优，但伤病多致小胜"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -5719,37 +6005,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-15-KSA-URU",
-        "winner": "away",
-        "score": "0-1",
-        "confidence": 85,
-        "reasoning_zh": "乌拉圭纸面实力强，沙特后防漏洞多，但乌拉圭伤病影响进攻效率"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-15-KSA-URU",
-        "winner": "away",
-        "score": "0-1",
-        "confidence": 80,
-        "reasoning_zh": "乌拉圭硬实力明显占优，沙特换帅后防守提升但进攻手段有限，一球小胜。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -5764,7 +6022,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -5779,25 +6039,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -6075,21 +6374,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-15-IRN-NZL",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 60,
-        "reasoning_zh": "伊朗经验与防守更稳，盘口倾向小球"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -6101,37 +6385,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-15-IRN-NZL",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 88,
-        "reasoning_zh": "伊朗排名和经验占优，新西兰热身状态差，历史交锋伊朗不败"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-15-IRN-NZL",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 78,
-        "reasoning_zh": "伊朗大赛经验与防守体系优于新西兰，塔雷米把握机会锁定小胜。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -6146,7 +6402,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -6161,25 +6419,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -6187,14 +6484,14 @@ window.ARENA_DATA = {
    ],
    "settled": true,
    "day_points": {
-    "openai/gpt-5.5-pro": 0,
     "x-ai/grok-4.3": 0,
-    "mistralai/mistral-medium-3-5": 0,
-    "deepseek/deepseek-v4-pro": 0,
     "moonshotai/kimi-k2.6": 0,
     "anthropic/claude-fable-5": 0,
-    "z-ai/glm-5.2": 0,
-    "bytedance/doubao-seed-2.0-pro": 0
+    "google/gemini-3.5-flash": 0,
+    "sakana/fugu-ultra": 0,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
    },
    "prompt": {
     "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。综合考虑赔率隐含概率、两队实力差距、近期状态与晋级动机，给出你认为最可能出现的精确比分。",
@@ -6524,21 +6821,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-16-FRA-SEN",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 62,
-        "reasoning_zh": "法国火力更强，但塞内加尔反击可破门"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -6550,37 +6832,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 5,
-        "verdict": "exact"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-16-FRA-SEN",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 85,
-        "reasoning_zh": "法国攻击火力强，塞内加尔反击有威胁，但实力差距明显，参考2002年历史但今非昔比"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-16-FRA-SEN",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 45,
-        "reasoning_zh": "法国实力占优但塞内加尔心理优势（02年1-0）且近30场不败。法国热身曾负科特迪瓦，首战慢热可博平。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
        }
       },
       {
@@ -6594,8 +6848,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "法国阵容齐整、攻击火力强，塞内加尔反击有威胁但难阻主队小胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -6609,26 +6865,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "法国阵容碾压且伤情利好，但塞内加尔20人旅欧、马内回归反击犀利，法防热身露漏洞，料法国小胜难零封。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -6926,21 +7221,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-16-IRQ-NOR",
-        "winner": "away",
-        "score": "0-2",
-        "confidence": 80,
-        "reasoning_zh": "挪威锋线压倒性，伊拉克低位难守全场"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -6951,38 +7231,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "挪威哈兰德领衔，伊拉克实力差距明显"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-16-IRQ-NOR",
-        "winner": "away",
-        "score": "0-3",
-        "confidence": 90,
-        "reasoning_zh": "挪威火力全开，哈兰德+厄德高组合，伊拉克防守虽韧但进攻乏力，实力悬殊"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-16-IRQ-NOR",
-        "winner": "away",
-        "score": "0-3",
-        "confidence": 85,
-        "reasoning_zh": "挪威预选赛8战全胜+37球，哈兰德/厄德高领衔实力碾压。伊拉克防守虽顽强但攻击力有限无力爆冷。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -6996,8 +7248,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "挪威实力碾压且哈兰德状态佳，伊拉克防守顽强但难挡两球落败。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -7011,26 +7265,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "挪威实力碾压，哈兰德厄德高领衔；伊拉克低位密防预选9场仅失9球，挪威取胜但破密防有限，料2球小胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -7315,21 +7608,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-16-ARG-ALG",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 70,
-        "reasoning_zh": "阿根廷状态稳防守强，阿尔及利亚难爆冷"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -7341,37 +7619,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 5,
-        "verdict": "exact"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-16-ARG-ALG",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 95,
-        "reasoning_zh": "阿根廷卫冕冠军，梅西首发，阿尔及利亚实力有限，博彩一边倒看好阿根廷"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-16-ARG-ALG",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 78,
-        "reasoning_zh": "阿根廷世界第一+状态火热近5战全胜，梅西健康首发。阿尔及利亚实力差距明显，虽曾胜荷兰但难阻卫冕冠军。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
        }
       },
       {
@@ -7385,8 +7635,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "阿根廷卫冕冠军状态火热，梅西领衔主场轻取阿尔及利亚。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -7400,26 +7652,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "卫冕冠军阿根廷世界第1、近5战全胜仅失1球，梅西首发领衔；阿尔及利亚反击有速度但硬实力差距大，料稳胜零封。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -7722,21 +8013,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-16-AUT-JOR",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 73,
-        "reasoning_zh": "奥地利压迫成型，约旦缺射手且防线低迷"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -7747,38 +8023,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "奥地利逼抢强势，约旦首秀防守漏洞大"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-16-AUT-JOR",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 88,
-        "reasoning_zh": "奥地利高位逼抢体系成熟，约旦首秀压力大，攻击端缺核心，防守难以抵挡"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-16-AUT-JOR",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 80,
-        "reasoning_zh": "奥地利实力碾压，朗尼克体系成熟+近11场9胜。约旦首秀+头号射手缺阵，热身赛连续大败无力抵抗。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -7792,8 +8040,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "奥地利高位逼抢压制约旦，客队进攻乏力，主队两球取胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -7807,26 +8057,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "奥地利朗尼克逼抢体系兵强马壮、近17场仅失7球；约旦五场不胜、头号射手伤缺锋无力，料奥地利掌控零封取胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -7834,14 +8123,14 @@ window.ARENA_DATA = {
    ],
    "settled": true,
    "day_points": {
-    "openai/gpt-5.5-pro": 12,
-    "x-ai/grok-4.3": 16,
-    "mistralai/mistral-medium-3-5": 12,
-    "deepseek/deepseek-v4-pro": 9,
-    "moonshotai/kimi-k2.6": 12,
-    "anthropic/claude-fable-5": 12,
-    "z-ai/glm-5.2": 0,
-    "bytedance/doubao-seed-2.0-pro": 0
+    "x-ai/grok-4.3": 14,
+    "moonshotai/kimi-k2.6": 8,
+    "anthropic/claude-fable-5": 8,
+    "google/gemini-3.5-flash": 0,
+    "sakana/fugu-ultra": 0,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
    },
    "prompt": {
     "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。综合考虑赔率隐含概率、两队实力差距、近期状态与晋级动机，给出你认为最可能出现的精确比分。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
@@ -8142,21 +8431,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-17-POR-COD",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 74,
-        "reasoning_zh": "赔率悬殊，葡萄牙阵容完整，刚果金偏守。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -8168,37 +8442,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-17-POR-COD",
-        "winner": "home",
-        "score": "3-0",
-        "confidence": 90,
-        "reasoning_zh": "葡萄牙全主力，C罗+费尔南德斯组合，刚果金防守为主但实力差距大，博彩主胜概率高"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-17-POR-COD",
-        "winner": "home",
-        "score": "3-0",
-        "confidence": 92,
-        "reasoning_zh": "葡萄牙实力碾压，C罗可出战，刚果金时隔52年重返且实力有限，主胜赔1.3支持大胜。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -8213,7 +8459,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -8228,25 +8476,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -8523,21 +8810,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-17-ENG-CRO",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 58,
-        "reasoning_zh": "英格兰防守极稳，克罗地亚老化，首战小胜。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -8548,38 +8820,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "英格兰近期零失球状态佳，克罗地亚老化，英主场小胜概率高"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-17-ENG-CRO",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 85,
-        "reasoning_zh": "英格兰预选赛全胜零失球，克罗地亚老将为主，主场优势+近期状态更佳"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-17-ENG-CRO",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 70,
-        "reasoning_zh": "英格兰预选赛零失球且状态火热，克罗地亚老将依赖度高，但莫德里奇经验或助其破门，英格兰小胜。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -8593,8 +8837,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "英格兰防守稳固且状态正佳，克罗地亚阵容老化，主场小胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -8608,26 +8854,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "英格兰预选赛零失球、热身两连胜，主胜热门；克罗地亚中场老化、近期0-2负比利时防线有漏，英格兰攻防占优取小胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -8888,21 +9173,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-17-GHA-PAN",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 36,
-        "reasoning_zh": "双方接近且加纳缺核心，巴拿马反击可取分。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -8914,37 +9184,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-17-GHA-PAN",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 70,
-        "reasoning_zh": "双方实力接近，加纳缺核心球员，巴拿马防守稳固，博彩赔率五五开"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-17-GHA-PAN",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 55,
-        "reasoning_zh": "加纳缺库杜斯和帕尔蒂，巴拿马防守稳固，赔率接近五五开，双方均难有绝对胜算，平局合理。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -8959,7 +9201,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -8974,25 +9218,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -9225,21 +9508,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-17-UZB-COL",
-        "winner": "away",
-        "score": "0-2",
-        "confidence": 69,
-        "reasoning_zh": "哥伦比亚状态与火力占优，乌兹首秀偏守。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -9250,38 +9518,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "哥伦比亚整体碾压乌兹别克，高海拔下客队反击更占优"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-17-UZB-COL",
-        "winner": "away",
-        "score": "0-2",
-        "confidence": 88,
-        "reasoning_zh": "哥伦比亚攻击力强，乌兹别克斯坦首次参赛经验不足，热身赛连败，高海拔或影响体能"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-17-UZB-COL",
-        "winner": "away",
-        "score": "0-2",
-        "confidence": 88,
-        "reasoning_zh": "哥伦比亚实力远超乌兹别克斯坦，热身赛状态佳且无伤病，客胜赔1.4支持，高海拔影响有限。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -9295,8 +9535,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "哥伦比亚实力占优且热身状态出色，乌兹别克斯坦首秀难挡强敌。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -9310,26 +9552,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "哥伦比亚FIFA第13、状态火热（3-1、2-0），赔率1.40；乌兹首秀热身两连败、防守隐忧，客队强攻取胜2-0。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -9337,14 +9618,14 @@ window.ARENA_DATA = {
    ],
    "settled": true,
    "day_points": {
-    "openai/gpt-5.5-pro": 6,
-    "x-ai/grok-4.3": 6,
-    "mistralai/mistral-medium-3-5": 6,
-    "deepseek/deepseek-v4-pro": 6,
-    "moonshotai/kimi-k2.6": 6,
-    "anthropic/claude-fable-5": 6,
-    "z-ai/glm-5.2": 0,
-    "bytedance/doubao-seed-2.0-pro": 0
+    "x-ai/grok-4.3": 4,
+    "moonshotai/kimi-k2.6": 4,
+    "anthropic/claude-fable-5": 4,
+    "google/gemini-3.5-flash": 0,
+    "sakana/fugu-ultra": 0,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
    },
    "prompt": {
     "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。综合考虑赔率隐含概率、两队实力差距、近期状态与晋级动机，给出你认为最可能出现的精确比分。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
@@ -9611,21 +9892,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-18-CZE-RSA",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 64,
-        "reasoning_zh": "南非中场双停赛，捷克定位球强但防线不稳"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -9637,37 +9903,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-18-CZE-RSA",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 75,
-        "reasoning_zh": "捷克主场优势明显，希克等核心状态佳，南非两中场停赛，进攻乏力"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-18-CZE-RSA",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 78,
-        "reasoning_zh": "捷克首轮遭逆转急需胜利，希克与定位球为破局关键；南非两人停赛中场重组、首战仅3射门，攻防皆弱难抵欧洲级别对抗。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -9682,7 +9920,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -9697,25 +9937,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -9944,21 +10223,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-18-SUI-BIH",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 57,
-        "reasoning_zh": "瑞士创造力更强，波黑锋线伤缺且进攻有限"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -9969,38 +10233,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "瑞士整体强于波黑，波黑近期多平但客场难守"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-18-SUI-BIH",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 70,
-        "reasoning_zh": "瑞士首战错失胜果，波黑连平模式，双方均需稳定，战术相抵"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-18-SUI-BIH",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 72,
-        "reasoning_zh": "瑞士首战26射门碾压却仅平，实力远胜波黑；波黑近5场全平韧性足但进攻乏力，哲科老将难支撑全场，瑞士终将破密集险胜。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -10014,8 +10250,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "瑞士中前场实力明显占优，首轮控制力极强但运气差，本场可正路拿下。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -10029,26 +10267,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "瑞士整体与控球远胜，主场施压；波黑虽善平局，但防线带伤、攻击力有限，主队补强左路后取胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -10277,21 +10554,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-18-CAN-QAT",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 72,
-        "reasoning_zh": "加拿大主场和阵容深度占优，卡塔尔火力弱"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -10302,38 +10564,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "加拿大主场排名优势大，卡塔尔客战韧性不足"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-18-CAN-QAT",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 80,
-        "reasoning_zh": "加拿大东道主优势+戴维斯复出，卡塔尔热身不足，实力差距明显"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-18-CAN-QAT",
-        "winner": "home",
-        "score": "3-0",
-        "confidence": 85,
-        "reasoning_zh": "加拿大主场之利加之戴维斯复出，实力碾压；卡塔尔热身质量成疑、首轮靠乌龙逼平，客战东道主难逃惨败，历史交锋加队2-0已显差距。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -10347,8 +10581,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "东道主战意与整体实力领先，卡塔尔反击有限，加拿大主场有望取胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -10362,26 +10598,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "加拿大主场加排名优势，戴维、戴维斯可用；卡塔尔热身受阻状态差、客场难有作为，主队完胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -10603,21 +10878,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-18-MEX-KOR",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 48,
-        "reasoning_zh": "墨西哥中卫停赛，韩国反击强，双方趋稳"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -10629,37 +10889,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 5,
-        "verdict": "exact"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-18-MEX-KOR",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 65,
-        "reasoning_zh": "墨西哥主场但后防受冲击，韩国逆转能力强，六分战平局合理"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-18-MEX-KOR",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 70,
-        "reasoning_zh": "墨西哥本土作战且状态火热（近5场4胜），蒙特斯停赛可调整；韩国逆转韧性佳但孙兴慜状态存疑，墨队世界杯对韩全胜心理占优。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
        }
       },
       {
@@ -10673,8 +10905,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "墨西哥主场强势且状态正佳，韩国虽有个人能力但难挡东道主攻势。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -10688,26 +10922,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "墨西哥主场状态火热、近5战4胜，世界杯正赛对韩全胜；虽蒙特斯停赛，仍凭主场与锋线险胜孙兴慜之韩。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -10715,14 +10988,14 @@ window.ARENA_DATA = {
    ],
    "settled": true,
    "day_points": {
-    "openai/gpt-5.5-pro": 6,
-    "x-ai/grok-4.3": 11,
-    "mistralai/mistral-medium-3-5": 3,
-    "deepseek/deepseek-v4-pro": 9,
-    "moonshotai/kimi-k2.6": 9,
-    "anthropic/claude-fable-5": 9,
-    "z-ai/glm-5.2": 0,
-    "bytedance/doubao-seed-2.0-pro": 0
+    "x-ai/grok-4.3": 9,
+    "moonshotai/kimi-k2.6": 6,
+    "anthropic/claude-fable-5": 6,
+    "google/gemini-3.5-flash": 0,
+    "sakana/fugu-ultra": 0,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
    },
    "prompt": {
     "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断会出现冷门、平局或非热门球队取胜时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的精确比分。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
@@ -10995,21 +11268,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-19-USA-AUS",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 45,
-        "reasoning_zh": "澳队五后卫反击稳，普利西奇未必满血，平局够用"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -11021,37 +11279,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 5,
-        "verdict": "exact"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-19-USA-AUS",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 85,
-        "reasoning_zh": "主场优势+首轮4-1爆发，澳大利亚防守强但锋线有限，普利西奇复出起关键作用"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-19-USA-AUS",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 45,
-        "reasoning_zh": "美国主场攻势强但普利西奇带伤，澳大利亚防守硬且首轮零封土耳其，历史交锋仅1球小负，头名对话双方谨慎，看好平局。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
        }
       },
       {
@@ -11065,8 +11295,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "东道主主场气势足，美国进攻火力压过澳洲防反，普利西奇大概率可出战。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -11080,26 +11312,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "美国主场火力正佳、首轮4-1，澳5后卫稳固但热身曾负美国，主队质量险胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -11314,21 +11585,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-19-SCO-MAR",
-        "winner": "away",
-        "score": "0-1",
-        "confidence": 56,
-        "reasoning_zh": "摩洛哥硬实力占优，边路质量可破苏格兰低位"
-       },
-       "settled": {
-        "points": 5,
-        "verdict": "exact"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -11339,38 +11595,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "摩洛哥整体实力碾压，苏格兰防守反击难以抵挡哈基米等攻击"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-19-SCO-MAR",
-        "winner": "away",
-        "score": "0-1",
-        "confidence": 80,
-        "reasoning_zh": "摩洛哥实力与星味远超苏格兰，首轮逼平巴西展现韧性，苏格兰防守型打法难破对手球门"
-       },
-       "settled": {
-        "points": 5,
-        "verdict": "exact"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-19-SCO-MAR",
-        "winner": "away",
-        "score": "0-2",
-        "confidence": 65,
-        "reasoning_zh": "摩洛哥实力远超苏格兰，1998年曾3-0完胜，首轮逼平巴西展现韧性，苏格兰首胜含金量低，博冷看好摩洛哥零封取胜。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -11384,8 +11612,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "摩洛哥整体实力与大赛经验占优，阵容虽有伤但急需胜局稳固出线。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -11399,26 +11629,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "摩洛哥实力远胜且近必胜，哈基米迪亚斯领衔；苏格兰主场紧凑防反能进一球。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -11632,21 +11901,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-19-BRA-HAI",
-        "winner": "home",
-        "score": "3-0",
-        "confidence": 86,
-        "reasoning_zh": "巴西急需净胜球，海地深防仍难挡维尼修斯"
-       },
-       "settled": {
-        "points": 5,
-        "verdict": "exact"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -11657,38 +11911,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "巴西实力差距巨大，海地防守脆弱，内马尔缺阵仍可轻松取胜"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-19-BRA-HAI",
-        "winner": "home",
-        "score": "4-0",
-        "confidence": 90,
-        "reasoning_zh": "巴西需重振士气，海地防守弱且无还手之力，维尼修斯等进攻群将大规模破门"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-19-BRA-HAI",
-        "winner": "home",
-        "score": "4-0",
-        "confidence": 85,
-        "reasoning_zh": "巴西实力碾压，历史三战17-1，虽内马尔缺阵但进攻端仍富足，海地难抵挡，需大胜挽回净胜球压力。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -11702,8 +11928,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "内马尔缺阵但巴西实力碾压海地，海地摆大巴仍难挡维尼修斯拉菲尼亚，巴西_Control winning."
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -11718,25 +11946,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 5,
-        "verdict": "exact"
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -11964,21 +12231,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-19-TUR-PAR",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 56,
-        "reasoning_zh": "土耳其中场创造力占优，巴拉圭会收紧但进攻火力有限"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -11990,37 +12242,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-19-TUR-PAR",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 75,
-        "reasoning_zh": "双方均背水一战，土耳其攻击力不足，巴拉圭防守韧性强，平局概率较大"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-19-TUR-PAR",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 55,
-        "reasoning_zh": "土耳其技术优势明显，恰尔汗奥卢与居莱尔驱动中场，巴拉圭防守不稳且核心带伤，生死战土队反弹小胜。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -12035,7 +12259,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -12050,25 +12276,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
+       "model": "google/gemini-3.5-flash",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
+       "model": "sakana/fugu-ultra",
        "status": "absent",
        "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "miss"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -12076,14 +12341,14 @@ window.ARENA_DATA = {
    ],
    "settled": true,
    "day_points": {
-    "openai/gpt-5.5-pro": 10,
-    "x-ai/grok-4.3": 11,
-    "mistralai/mistral-medium-3-5": 11,
-    "deepseek/deepseek-v4-pro": 6,
-    "moonshotai/kimi-k2.6": 9,
-    "anthropic/claude-fable-5": 11,
-    "z-ai/glm-5.2": 0,
-    "bytedance/doubao-seed-2.0-pro": 0
+    "x-ai/grok-4.3": 9,
+    "moonshotai/kimi-k2.6": 6,
+    "anthropic/claude-fable-5": 9,
+    "google/gemini-3.5-flash": 0,
+    "sakana/fugu-ultra": 0,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
    },
    "prompt": {
     "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断会出现冷门、平局或非热门球队取胜时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的精确比分。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
@@ -12349,21 +12614,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-NED-SWE",
-        "winner": "draw",
-        "score": "2-2",
-        "confidence": 43,
-        "reasoning_zh": "荷兰防线不稳，瑞典双锋正热，易对攻成平"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -12374,38 +12624,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "荷兰实力碾压，瑞典首胜后防守或露破绽"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-NED-SWE",
-        "winner": "away",
-        "score": "1-2",
-        "confidence": 75,
-        "reasoning_zh": "瑞典攻势火热（首轮5-1），荷兰防守漏洞大（廷贝尔缺席），动机强烈抢分出线"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-NED-SWE",
-        "winner": "draw",
-        "score": "2-2",
-        "confidence": 60,
-        "reasoning_zh": "荷兰首轮暴露防守漏洞且廷贝尔缺席，瑞典锋线状态火爆，看好两队对攻难分胜负。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -12419,8 +12641,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "荷兰进攻火力更胜，瑞典防线不稳，预计主队3-1取胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -12434,38 +12658,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "荷兰主场+夺冠热门，阵容深度占优须取胜；瑞典5-1含金量打折（对手突尼斯防线崩），但锋线伊萨克约克雷斯仍危险，荷兰有失球。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-NED-SWE",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 55,
-        "reasoning_zh": "荷兰防守有隐患且廷贝尔缺阵，瑞典进攻火力正旺，双方互有攻守大概率握手言和。"
-       },
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-NED-SWE",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 80,
-        "reasoning_zh": "荷兰抢分战意足，实力占优，瑞典防守漏洞多，荷兰可稳胜"
-       },
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -12693,21 +12944,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-GER-CIV",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 64,
-        "reasoning_zh": "德国前场层次更强，科特迪瓦反击可破门"
-       },
-       "settled": {
-        "points": 5,
-        "verdict": "exact"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -12718,38 +12954,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "德国攻击力爆棚，科特迪瓦伤停严重"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-GER-CIV",
-        "winner": "home",
-        "score": "4-0",
-        "confidence": 88,
-        "reasoning_zh": "德国首轮大胜凭火力，科特迪瓦防守弱，纳格尔斯曼阵容完整，预判大胜。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-GER-CIV",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 85,
-        "reasoning_zh": "德国首轮7-1展示统治力，科特迪瓦伤停折损大将，实力差距明显，德国取胜无悬念。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -12764,7 +12972,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 5,
-        "verdict": "exact"
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
        }
       },
       {
@@ -12778,38 +12988,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "德国火力全开主场作战明显大热门；科特迪瓦瓦希停赛、恩迪卡伤疑后防承压，速度反击难破德国，德国掌控取胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-GER-CIV",
-        "winner": "home",
-        "score": "3-0",
-        "confidence": 82,
-        "reasoning_zh": "德国首轮7-1火力全开，科特迪瓦中卫恩迪卡伤疑后防承压，德国主场优势明显，净胜两球以上。"
-       },
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-GER-CIV",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 85,
-        "reasoning_zh": "德国攻防状态上佳，科特迪瓦伤停严重，取胜即可基本出线"
-       },
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -13031,21 +13268,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-ECU-CUW",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 83,
-        "reasoning_zh": "厄瓜多尔硬实力占优，库拉索防线承压"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -13057,37 +13279,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-ECU-CUW",
-        "winner": "home",
-        "score": "3-0",
-        "confidence": 90,
-        "reasoning_zh": "厄瓜多尔实力远超库拉索（第24 vs 82），0分压力大，库拉索防守弱（首战丢7球）"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-ECU-CUW",
-        "winner": "home",
-        "score": "4-0",
-        "confidence": 95,
-        "reasoning_zh": "厄瓜多尔实力远胜库拉索，首轮运气欠佳，本场为出线必取大胜挽回净胜球。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -13102,7 +13296,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -13117,37 +13313,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-ECU-CUW",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 78,
-        "reasoning_zh": "厄瓜多尔实力远胜且急需抢分，库拉索防线首轮被灌7球，但客队有一定反击能力可破门。"
-       },
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-ECU-CUW",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 85,
-        "reasoning_zh": "厄瓜多尔实力碾压求胜心切，库拉索防线薄弱易被打穿，偶有反击得手"
-       },
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -13364,21 +13587,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-TUN-JPN",
-        "winner": "away",
-        "score": "0-2",
-        "confidence": 75,
-        "reasoning_zh": "突尼斯换帅仓促，日本组织与韧性更稳"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -13389,38 +13597,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "日本整体与历史交锋占优，新帅突尼斯防守差"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-TUN-JPN",
-        "winner": "away",
-        "score": "0-1",
-        "confidence": 85,
-        "reasoning_zh": "突尼斯新帅未稳防守，日本韧性强，镰田等能突破，小胜可能性大。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-TUN-JPN",
-        "winner": "away",
-        "score": "1-3",
-        "confidence": 88,
-        "reasoning_zh": "日本首轮逼平荷兰状态更佳，突尼斯换帅仓促防线漏洞大，日本历史交锋占优。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -13434,8 +13614,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "突尼斯临阵换帅、防守漏洞多，日本整体更强，客胜2-1。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -13449,38 +13631,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "日本逼平荷兰韧性足、历史正赛全胜突尼斯；突尼斯防线崩盘新帅仅数日备战，但主场背水一战拼劲足或入一球，日本仍胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-TUN-JPN",
-        "winner": "away",
-        "score": "0-3",
-        "confidence": 80,
-        "reasoning_zh": "突尼斯连吃大比分防线崩塌且临阵换帅，日本整体实力占优且交锋碾压，客场大胜可期。"
-       },
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-20-TUN-JPN",
-        "winner": "away",
-        "score": "0-3",
-        "confidence": 80,
-        "reasoning_zh": "日本攻防实力占优，突尼斯临阵换帅磨合不足，客队大胜概率高"
-       },
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -13488,14 +13697,14 @@ window.ARENA_DATA = {
    ],
    "settled": true,
    "day_points": {
-    "openai/gpt-5.5-pro": 8,
-    "x-ai/grok-4.3": 9,
-    "mistralai/mistral-medium-3-5": 6,
-    "deepseek/deepseek-v4-pro": 6,
-    "moonshotai/kimi-k2.6": 11,
-    "anthropic/claude-fable-5": 9,
-    "z-ai/glm-5.2": 6,
-    "bytedance/doubao-seed-2.0-pro": 9
+    "x-ai/grok-4.3": 6,
+    "moonshotai/kimi-k2.6": 9,
+    "anthropic/claude-fable-5": 6,
+    "google/gemini-3.5-flash": 0,
+    "sakana/fugu-ultra": 0,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
    },
    "prompt": {
     "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断会出现冷门、平局或非热门球队取胜时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的精确比分。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
@@ -13762,21 +13971,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-ESP-KSA",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 72,
-        "reasoning_zh": "西班牙急需反弹，沙特反击有一球机会"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -13787,38 +13981,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "西班牙实力碾压，沙特客场难守，西班牙急需进球反弹"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-ESP-KSA",
-        "winner": "home",
-        "score": "3-0",
-        "confidence": 90,
-        "reasoning_zh": "西班牙首轮爆冷后必取胜重回正轨，沙特防守弱Control高，历史交锋完全压制"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-ESP-KSA",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 82,
-        "reasoning_zh": "西班牙急需反弹，实力碾压，沙特首轮消耗大，斗牛士终破密集防守"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -13832,8 +13998,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "西班牙破僵能力不差，沙特换帅后防线经不起持续冲击。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -13847,38 +14015,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "西班牙首战遭闷平后必猛攻，整体实力碾压沙特，新帅磨合期防线难顶亚马尔佩德里，破门只是时间问题。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-ESP-KSA",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 85,
-        "reasoning_zh": "西班牙实力碾压且急需反弹，沙特对乌拉圭有进球展现反击能力，主队大胜但难零封。"
-       },
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-ESP-KSA",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 88,
-        "reasoning_zh": "西班牙首轮哑火后进攻回暖，实力优势明显，沙特难阻其全取三分"
-       },
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -14092,21 +14287,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-BEL-IRN",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 61,
-        "reasoning_zh": "伊朗备战受扰，比利时缺边仍可小胜"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -14118,37 +14298,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-BEL-IRN",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 75,
-        "reasoning_zh": "比利时老化伤病多，伊朗韧性强且备战受干扰但求生欲强，胶着下平局"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-BEL-IRN",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 70,
-        "reasoning_zh": "比利时经验占优但老化，伊朗韧性足且有塔雷米，场面胶着比利时险胜"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -14162,8 +14314,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "比利时阵容老化攻坚乏力，伊朗韧性强有望再取一分。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -14178,37 +14332,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-BEL-IRN",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 70,
-        "reasoning_zh": "比利时整体实力占优，伊朗虽有韧性但防线有漏洞，主队通过球星个人能力取胜。"
-       },
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-BEL-IRN",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 75,
-        "reasoning_zh": "比利时攻防体系更成熟，伊朗备战受场外因素干扰难抢分"
-       },
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -14417,21 +14598,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-URU-CPV",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 44,
-        "reasoning_zh": "乌拉圭近况多平，佛得角防守信心很足"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -14443,37 +14609,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-URU-CPV",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 80,
-        "reasoning_zh": "乌拉圭阵容更强，首轮未能取胜，本场面对处子秀球队必全力拿下"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-URU-CPV",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 75,
-        "reasoning_zh": "比尔萨急需调整进攻，佛得角门神继续出色但难阻乌拉圭抢分小胜"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -14487,8 +14625,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "佛得角首轮逼平西班牙士气高涨、门将神勇，乌拉圭缺少苏亚雷斯终结不稳，恐再遭阻击。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -14503,37 +14643,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-URU-CPV",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 68,
-        "reasoning_zh": "佛得角状态火热且门将神勇，乌拉圭锋线终将发威但难大胜，比尔萨球队小胜过关。"
-       },
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-URU-CPV",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 78,
-        "reasoning_zh": "乌拉圭锋线把握机会能力提升，佛得角防守韧性足仍失球"
-       },
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -14738,21 +14905,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-NZL-EGY",
-        "winner": "away",
-        "score": "1-2",
-        "confidence": 62,
-        "reasoning_zh": "埃及锋线层次更强，新西兰仍有定位球威胁"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -14763,38 +14915,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "埃及萨拉赫领衔进攻，历史交锋占优，新西兰难以抵挡"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-NZL-EGY",
-        "winner": "away",
-        "score": "0-1",
-        "confidence": 85,
-        "reasoning_zh": "埃及求胜欲强，萨拉赫状态在线，新西兰首轮 만들어两球但防守漏洞大"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-NZL-EGY",
-        "winner": "away",
-        "score": "1-2",
-        "confidence": 80,
-        "reasoning_zh": "萨拉赫领衔冲首胜，埃及控制力更强，新西兰先声夺人后遭逆转"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -14808,8 +14932,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "埃及萨拉赫领衔攻击线实力占优，新西兰虽顽强但综合实力有限，埃及有望拿下世界杯正赛首胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -14823,38 +14949,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "埃及实力占优、萨拉赫领衔追逐队史首胜，新西兰排名垫底但首战顽强。历史交锋低比分胶着，埃及小胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-NZL-EGY",
-        "winner": "away",
-        "score": "0-2",
-        "confidence": 72,
-        "reasoning_zh": "埃及萨拉赫+马尔穆什攻击力强，历史交锋占优且追逐队史世界杯首胜；新西兰防线漏洞明显，埃及稳胜。"
-       },
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-21-NZL-EGY",
-        "winner": "away",
-        "score": "1-3",
-        "confidence": 82,
-        "reasoning_zh": "萨拉赫领衔埃及进攻火力充足，新西兰防线漏洞较多"
-       },
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 5,
-        "verdict": "exact"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -14862,14 +15015,14 @@ window.ARENA_DATA = {
    ],
    "settled": true,
    "day_points": {
-    "openai/gpt-5.5-pro": 9,
-    "x-ai/grok-4.3": 6,
-    "mistralai/mistral-medium-3-5": 9,
-    "deepseek/deepseek-v4-pro": 6,
-    "moonshotai/kimi-k2.6": 12,
-    "anthropic/claude-fable-5": 6,
-    "z-ai/glm-5.2": 6,
-    "bytedance/doubao-seed-2.0-pro": 8
+    "x-ai/grok-4.3": 4,
+    "moonshotai/kimi-k2.6": 8,
+    "anthropic/claude-fable-5": 4,
+    "google/gemini-3.5-flash": 0,
+    "sakana/fugu-ultra": 0,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
    },
    "prompt": {
     "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断会出现冷门、平局或非热门球队取胜时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的精确比分。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
@@ -15155,21 +15308,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-ARG-AUT",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 62,
-        "reasoning_zh": "阿根廷控场更稳，奥地利高压能进一球"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -15180,38 +15318,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "阿根廷实力碾压，梅西状态火热，奥地利难有还手之力"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-ARG-AUT",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 85,
-        "reasoning_zh": "阿根廷攻击力强，梅西领衔，奥地利或凭反击扳回一球但难阻胜势"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-ARG-AUT",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 85,
-        "reasoning_zh": "奥地利高压逼抢能给阿根廷制造麻烦，但梅西领衔的攻击线实力碾压。阿根廷末轮对手弱，无需大幅轮换，经验与个人能力决定胜负"
-       },
-       "settled": {
-        "points": 5,
-        "verdict": "exact"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -15225,8 +15335,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "阿根廷整体实力与球星质量占优，奥地利高压或能进球但难全身而退。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -15241,37 +15353,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 5,
-        "verdict": "exact"
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
        }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-ARG-AUT",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 72,
-        "reasoning_zh": "梅西状态火热但或轮换，奥地利朗尼克高压逼抢有威胁，阿根廷实力仍碾压，有望多点开花取胜。"
-       },
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-ARG-AUT",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 85,
-        "reasoning_zh": "阿根廷实力占优，奥地利韧性不俗，梅西领衔锋线可斩获3球"
-       },
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -15494,21 +15633,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-FRA-IRQ",
-        "winner": "home",
-        "score": "3-0",
-        "confidence": 88,
-        "reasoning_zh": "法国轮换仍有深度，伊拉克防线承压"
-       },
-       "settled": {
-        "points": 5,
-        "verdict": "exact"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -15519,38 +15643,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "法国整体碾压，姆巴佩百场里程碑，伊拉克防线脆弱"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-FRA-IRQ",
-        "winner": "home",
-        "score": "5-0",
-        "confidence": 90,
-        "reasoning_zh": "法国锋线群星闪耀，伊拉克防线脆弱，姆巴佩或上演大四喜"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-FRA-IRQ",
-        "winner": "home",
-        "score": "4-0",
-        "confidence": 95,
-        "reasoning_zh": "实力差距悬殊，法国预计轮换仍碾压。伊拉克主帅玩笑背后是绝望，首战被挪威灌4球暴露防线脆弱，法国零封取胜"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -15564,8 +15660,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "法国轮换仍强、伊拉克防线难挡，预计法国多点开花并丢一球"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -15580,37 +15678,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 5,
-        "verdict": "exact"
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
        }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-FRA-IRQ",
-        "winner": "home",
-        "score": "4-1",
-        "confidence": 88,
-        "reasoning_zh": "法国实力碾压伊拉克，姆巴佩百场战意足，伊拉克防线首轮丢4球，法国大胜但伊拉克或偷一球。"
-       },
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-FRA-IRQ",
-        "winner": "home",
-        "score": "5-0",
-        "confidence": 92,
-        "reasoning_zh": "姆巴佩迎国家队百场战意高昂，法国火力完全碾压伊拉克防线"
-       },
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -15839,21 +15964,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-NOR-SEN",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 46,
-        "reasoning_zh": "挪威锋线强，塞内加尔抢分动力足"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -15864,38 +15974,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "哈兰德锋线优势，塞内加尔状态与伤病影响，挪威主场取胜"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-NOR-SEN",
-        "winner": "home",
-        "score": "3-2",
-        "confidence": 75,
-        "reasoning_zh": "挪威主场哈兰德发挥稳定，塞内加尔体能不佳但马内有机会扳平"
-       },
-       "settled": {
-        "points": 5,
-        "verdict": "exact"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-NOR-SEN",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 72,
-        "reasoning_zh": "挪威首轮4-1大胜士气正盛，哈兰德厄德高状态火热；塞内加尔欠薪+体能问题困扰，首轮1-3负法国暴露防线漏洞，挪威攻击力足以再破门。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -15909,8 +15991,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "挪威进攻状态火热，塞内加尔体能与场外问题削弱防守，主队小胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -15924,38 +16008,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "哈兰德状态火爆、挪威主场气势如虹；塞内加尔有马内等强阵但欠薪体能困扰，挪威略占上风但难零封。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-NOR-SEN",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 68,
-        "reasoning_zh": "挪威势头正盛哈兰德状态火爆，塞内加尔受欠薪体能困扰，挪威攻击群有望多点破门取胜。"
-       },
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-NOR-SEN",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 78,
-        "reasoning_zh": "哈兰德状态火热，塞内加尔受场外因素干扰，挪威进攻更犀利"
-       },
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -16183,21 +16294,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-JOR-ALG",
-        "winner": "away",
-        "score": "1-3",
-        "confidence": 70,
-        "reasoning_zh": "阿尔及利亚攻击点更多，约旦防线松散"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -16208,38 +16304,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "阿尔及利亚阵容远胜，约旦首秀经验不足，客队取分需求更强"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-JOR-ALG",
-        "winner": "away",
-        "score": "0-1",
-        "confidence": 70,
-        "reasoning_zh": "阿尔及利亚整体实力略高，约旦锋线乏力，马赫雷斯或绝杀"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-JOR-ALG",
-        "winner": "away",
-        "score": "0-2",
-        "confidence": 78,
-        "reasoning_zh": "阿尔及利亚首战惨败因对手太强，实力远胜约旦。马赫雷斯重回首发、前场旅欧球员找回状态，约旦处子秀难抵非洲劲旅反击"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -16254,7 +16322,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 5,
-        "verdict": "exact"
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
        }
       },
       {
@@ -16269,37 +16339,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 5,
-        "verdict": "exact"
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
        }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-JOR-ALG",
-        "winner": "away",
-        "score": "0-3",
-        "confidence": 75,
-        "reasoning_zh": "阿尔及利亚旅欧阵容远强于约旦，马赫雷斯首发战意强，背水一战预计全力出击大胜。"
-       },
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-22-JOR-ALG",
-        "winner": "away",
-        "score": "0-3",
-        "confidence": 80,
-        "reasoning_zh": "阿尔及利亚实力占优，首战惨败后战意强烈，约旦防线难守"
-       },
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -16307,14 +16404,14 @@ window.ARENA_DATA = {
    ],
    "settled": true,
    "day_points": {
-    "openai/gpt-5.5-pro": 11,
-    "x-ai/grok-4.3": 12,
-    "mistralai/mistral-medium-3-5": 14,
-    "deepseek/deepseek-v4-pro": 14,
-    "moonshotai/kimi-k2.6": 14,
-    "anthropic/claude-fable-5": 18,
-    "z-ai/glm-5.2": 12,
-    "bytedance/doubao-seed-2.0-pro": 12
+    "x-ai/grok-4.3": 8,
+    "moonshotai/kimi-k2.6": 11,
+    "anthropic/claude-fable-5": 17,
+    "google/gemini-3.5-flash": 0,
+    "sakana/fugu-ultra": 0,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
    },
    "prompt": {
     "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断会出现冷门、平局或非热门球队取胜时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的精确比分。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
@@ -16602,21 +16699,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-POR-UZB",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 79,
-        "reasoning_zh": "葡萄牙急需三分，迪亚斯回归后防更稳。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -16627,38 +16709,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "葡萄牙实力碾压，迪亚斯复出后的防守更稳，乌兹别克斯坦客场难有建树"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-POR-UZB",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 85,
-        "reasoning_zh": "葡萄牙攻击力强，乌兹别克斯坦防守薄弱，但卡纳瓦罗可能组织有效反击，考虑到C罗和费尔南德斯的配合，预测葡萄牙取胜。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-POR-UZB",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 78,
-        "reasoning_zh": "葡萄牙整体实力碾压，C罗急需正名，迪亚斯复出强化防线；但乌兹别克曾逼平阿联酋、对哥伦比亚也取得进球，反击可偷一球。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -16672,8 +16726,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "葡萄牙次轮必取3分，乌兹别克经验不足难阻主队；但高温下难大比分。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -16687,38 +16743,65 @@ window.ARENA_DATA = {
         "reasoning_zh": "葡萄牙志在取胜但首战暴露防守漏洞，乌兹卡纳瓦罗体系硬朗，绍穆罗多夫有机会偷一球，葡主胜难零封。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-POR-UZB",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 82,
-        "reasoning_zh": "葡萄牙实力碾压且急需三分，迪亚斯复出稳固防线，但防守仍有隐患，乌兹别克难破零但可觅一球。"
-       },
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-POR-UZB",
-        "winner": "home",
-        "score": "3-0",
-        "confidence": 90,
-        "reasoning_zh": "葡萄牙实力碾压，首轮平后求胜欲强，防线补强后零封概率高"
-       },
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -16943,21 +17026,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-ENG-GHA",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 73,
-        "reasoning_zh": "英格兰火力强，但边路隐患给加纳机会。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -16969,37 +17037,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-ENG-GHA",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 80,
-        "reasoning_zh": "英格兰实力远超加纳，凯恩和贝林厄姆状态火热，但加纳防守顽强，预测英格兰小胜。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-ENG-GHA",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 85,
-        "reasoning_zh": "英格兰攻击线状态火热，加纳防守平平且库杜斯缺阵，但边路速度可能偷一球，整体差距明显。"
-       },
-       "settled": {
-        "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -17014,7 +17054,9 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
@@ -17029,37 +17071,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-ENG-GHA",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 75,
-        "reasoning_zh": "英格兰边路防守有漏洞，加纳帕尔泰回归且反击有速度可破门，但英格兰整体火力足以险胜。"
-       },
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-ENG-GHA",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 85,
-        "reasoning_zh": "英格兰进攻天赋溢出，加纳边路反击或偷1球但难阻失利"
-       },
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -17270,21 +17339,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-PAN-CRO",
-        "winner": "away",
-        "score": "1-2",
-        "confidence": 61,
-        "reasoning_zh": "克罗地亚经验占优，巴拿马反击可破门。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -17295,38 +17349,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "克罗地亚班底远胜巴拿马，生死战中莫德里奇与格瓦迪奥尔经验占优"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-PAN-CRO",
-        "winner": "away",
-        "score": "0-1",
-        "confidence": 68,
-        "reasoning_zh": "克罗地亚经验丰富，巴拿马缺核心卡拉斯基亚，防守反击难破 Eisen 体系，小负可能"
-       },
-       "settled": {
-        "points": 5,
-        "verdict": "exact"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-PAN-CRO",
-        "winner": "away",
-        "score": "1-3",
-        "confidence": 72,
-        "reasoning_zh": "克罗地亚背水一战，实力碾压但防线有隙；巴拿马核心卡拉斯基亚存疑，难阻格子军苏醒，莫德里奇定位球助攻破局。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -17340,8 +17366,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "格子军实力占优但防线不稳，巴拿马主场反击有望进球，克罗地亚小胜。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -17356,37 +17384,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 5,
-        "verdict": "exact"
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
        }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-PAN-CRO",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 50,
-        "reasoning_zh": "克罗地亚防线漏洞明显、莫德里奇疲态尽显，巴拿马背水一战有望借主场氛围逼平老牌劲旅。"
-       },
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-PAN-CRO",
-        "winner": "away",
-        "score": "0-2",
-        "confidence": 82,
-        "reasoning_zh": "克罗地亚背水一战战力拉满，巴拿马核心伤缺中场不足"
-       },
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -17615,21 +17670,6 @@ window.ARENA_DATA = {
      },
      "perModel": [
       {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-COL-COD",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 64,
-        "reasoning_zh": "哥伦比亚边路更锐，刚果反击仍有威胁。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
        "model": "x-ai/grok-4.3",
        "status": "ok",
        "pred": {
@@ -17640,38 +17680,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "哥伦比亚控球与火力占优，但刚果民主共和国反击犀利险制造冷门"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-COL-COD",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 72,
-        "reasoning_zh": "哥伦比亚主场火力全开，迪亚斯与J罗配合默契，刚果防守反击难顺利，干净小胜"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
-       }
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-COL-COD",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 76,
-        "reasoning_zh": "哥伦比亚攻击线状态正佳、全员健康，再胜即出线动力足；刚果首轮逼平葡萄牙消耗大，姆本巴带黄牌防守或保守。"
-       },
-       "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -17685,8 +17697,10 @@ window.ARENA_DATA = {
         "reasoning_zh": "哥伦比亚连胜势头强劲，刚果(金)靠死守或难破门，主队全取三分。"
        },
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
        }
       },
       {
@@ -17701,37 +17715,64 @@ window.ARENA_DATA = {
        },
        "settled": {
         "points": 5,
-        "verdict": "exact"
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
        }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-COL-COD",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 48,
-        "reasoning_zh": "刚果(金)逼平葡萄牙证明防守反击有力，姆本巴领衔防线稳固，哥伦比亚J罗状态下滑恐难破铁桶。"
-       },
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
        "settled": {
         "points": 0,
-        "verdict": "wrong"
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-23-COL-COD",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 80,
-        "reasoning_zh": "哥伦比亚实力占优进攻火力充足，刚果金防守有漏洞，仅能靠反击零星得分"
-       },
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
        "settled": {
-        "points": 3,
-        "verdict": "outcome"
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
        }
       }
      ]
@@ -17739,14 +17780,14 @@ window.ARENA_DATA = {
    ],
    "settled": true,
    "day_points": {
-    "openai/gpt-5.5-pro": 9,
-    "x-ai/grok-4.3": 9,
-    "mistralai/mistral-medium-3-5": 11,
-    "deepseek/deepseek-v4-pro": 9,
-    "moonshotai/kimi-k2.6": 9,
-    "anthropic/claude-fable-5": 13,
-    "z-ai/glm-5.2": 3,
-    "bytedance/doubao-seed-2.0-pro": 9
+    "x-ai/grok-4.3": 6,
+    "moonshotai/kimi-k2.6": 6,
+    "anthropic/claude-fable-5": 12,
+    "google/gemini-3.5-flash": 0,
+    "sakana/fugu-ultra": 0,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
    },
    "prompt": {
     "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断会出现冷门、平局或非热门球队取胜时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的精确比分。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
@@ -17960,20 +18001,12 @@ window.ARENA_DATA = {
       "https://www.espn.com/soccer/",
       "https://sportsbook.draftkings.com/"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-24-SUI-CAN",
+      "score": "2-1",
+      "winner": "home"
+     },
      "perModel": [
-      {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-SUI-CAN",
-        "winner": "draw",
-        "score": "0-0",
-        "confidence": 46,
-        "reasoning_zh": "双方都能接受平局，戴维斯缺首发压低节奏"
-       },
-       "settled": null
-      },
       {
        "model": "x-ai/grok-4.3",
        "status": "ok",
@@ -17984,31 +18017,12 @@ window.ARENA_DATA = {
         "confidence": 62,
         "reasoning_zh": "两队已基本出线，同积4分，加拿大缺戴维斯首发，双方均谨慎求稳，平局最可能"
        },
-       "settled": null
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-SUI-CAN",
-        "winner": "away",
-        "score": "1-2",
-        "confidence": 85,
-        "reasoning_zh": "东道主加拿大状态火热，戴维帽子戏法后气势如虹，瑞士平局即可出线动机不足"
-       },
-       "settled": null
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-SUI-CAN",
-        "winner": "draw",
-        "score": "0-0",
-        "confidence": 65,
-        "reasoning_zh": "打平即双双出线，双方均无强攻动机，戴维斯缺阵削弱加拿大边路，瑞士客战谨慎。"
-       },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -18020,7 +18034,12 @@ window.ARENA_DATA = {
         "confidence": 75,
         "reasoning_zh": "两队打平即携手出线，东道主缺少戴维斯，瑞士也不愿冒险，默契低比分平局概率高。"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -18032,31 +18051,67 @@ window.ARENA_DATA = {
         "confidence": 40,
         "reasoning_zh": "两队打平即双双出线，加拿大平局夺头名，瑞士求胜但动机有限，互交白卷概率高"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-SUI-CAN",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 58,
-        "reasoning_zh": "瑞士须胜争头名，戴维斯伤缺首发削弱加拿大，瑞士大赛经验更老到，主场温哥华对加拿大虽有助益但防线面对瑞士锋线有隐患。"
-       },
-       "settled": null
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-SUI-CAN",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 72,
-        "reasoning_zh": "瑞士争头名战意足，加拿大戴维斯缺首发，攻防稍占优"
-       },
-       "settled": null
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       }
      ]
     },
@@ -18181,20 +18236,12 @@ window.ARENA_DATA = {
       "https://www.espn.com/soccer/",
       "https://www.opta.com/"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-24-BIH-QAT",
+      "score": "3-1",
+      "winner": "home"
+     },
      "perModel": [
-      {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-BIH-QAT",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 63,
-        "reasoning_zh": "卡塔尔两停赛，波黑经验与哲科压阵占优"
-       },
-       "settled": null
-      },
       {
        "model": "x-ai/grok-4.3",
        "status": "ok",
@@ -18205,31 +18252,12 @@ window.ARENA_DATA = {
         "confidence": 68,
         "reasoning_zh": "波黑排名与实力占优，卡塔尔两主力停赛，哲科告别战动机强，波黑取胜留最佳第三希望"
        },
-       "settled": null
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-BIH-QAT",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 75,
-        "reasoning_zh": "波黑主场作战，哲科告别战，卡塔尔两主力停赛，波黑 Realistic取胜可能"
-       },
-       "settled": null
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-BIH-QAT",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 70,
-        "reasoning_zh": "波黑实力占优，哲科告别战，卡塔尔两主力停赛，波黑小胜保留一丝希望。"
-       },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -18241,7 +18269,12 @@ window.ARENA_DATA = {
         "confidence": 75,
         "reasoning_zh": "波黑实力占优且哲科告别战动力十足，卡塔尔两主力停赛。"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -18253,31 +18286,67 @@ window.ARENA_DATA = {
         "confidence": 52,
         "reasoning_zh": "波黑赔率占优、哲科告别战主场作战，卡塔尔两主力停赛，主队胜算更大"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-BIH-QAT",
-        "winner": "home",
-        "score": "3-1",
-        "confidence": 62,
-        "reasoning_zh": "波黑哲科告别战动机强，卡塔尔两主力停赛实力折损，波黑整体厚度占优，有望大胜挽尊。"
-       },
-       "settled": null
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-BIH-QAT",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 80,
-        "reasoning_zh": "哲科告别战战意足，卡塔尔两主力停赛实力受损"
-       },
-       "settled": null
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       }
      ]
     },
@@ -18426,20 +18495,12 @@ window.ARENA_DATA = {
       "https://www.espn.com/soccer/",
       "https://www.bet365.com/"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-24-SCO-BRA",
+      "score": "0-3",
+      "winner": "away"
+     },
      "perModel": [
-      {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-SCO-BRA",
-        "winner": "away",
-        "score": "0-1",
-        "confidence": 57,
-        "reasoning_zh": "巴西质量更高且争头名，苏格兰进攻有限"
-       },
-       "settled": null
-      },
       {
        "model": "x-ai/grok-4.3",
        "status": "ok",
@@ -18450,31 +18511,12 @@ window.ARENA_DATA = {
         "confidence": 71,
         "reasoning_zh": "巴西实力碾压历史对苏格兰不败，内马尔或替补，平局即可锁定头名，客胜最稳"
        },
-       "settled": null
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-SCO-BRA",
-        "winner": "away",
-        "score": "0-1",
-        "confidence": 90,
-        "reasoning_zh": "巴西实力远超，苏格兰历史从未胜巴西，安切洛蒂首届世界杯求稳平局已锁头名"
-       },
-       "settled": null
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-SCO-BRA",
-        "winner": "away",
-        "score": "1-2",
-        "confidence": 78,
-        "reasoning_zh": "巴西打平即锁定头名但不会满足平局，实力碾压苏格兰。苏格兰背水一战、士气高昂，罗伯逊领衔或偷一球，但巴西维尼修斯状态火热，安切洛蒂不会给苏格兰创造历史的机会。"
-       },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -18486,7 +18528,12 @@ window.ARENA_DATA = {
         "confidence": 70,
         "reasoning_zh": "巴西确保头名但求稳，苏格兰打平大概率出线会立足防守，巴西小胜即止。"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -18498,31 +18545,67 @@ window.ARENA_DATA = {
         "confidence": 62,
         "reasoning_zh": "巴西实力碾压、历史交锋苏格兰从未取胜，平局即夺头名，稳扎稳打小胜"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-SCO-BRA",
-        "winner": "away",
-        "score": "1-3",
-        "confidence": 65,
-        "reasoning_zh": "苏格兰虽拼队史首出线但实力差距明显，巴西安切洛蒂底蕴深厚，内马尔回归提振攻击线，苏格兰防线难挡维尼修斯。"
-       },
-       "settled": null
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-SCO-BRA",
-        "winner": "away",
-        "score": "0-1",
-        "confidence": 85,
-        "reasoning_zh": "巴西实力占优，打平即锁头名，攻防稳定取胜概率大"
-       },
-       "settled": null
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       }
      ]
     },
@@ -18668,20 +18751,12 @@ window.ARENA_DATA = {
       "https://www.espn.com/soccer/",
       "https://kalshi.com/"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-24-MAR-HAI",
+      "score": "4-2",
+      "winner": "home"
+     },
      "perModel": [
-      {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-MAR-HAI",
-        "winner": "home",
-        "score": "2-0",
-        "confidence": 79,
-        "reasoning_zh": "摩洛哥防守稳，海地已淘汰且两战零进球"
-       },
-       "settled": null
-      },
       {
        "model": "x-ai/grok-4.3",
        "status": "ok",
@@ -18692,31 +18767,12 @@ window.ARENA_DATA = {
         "confidence": 82,
         "reasoning_zh": "摩洛哥FIFA第6已锁定出线，海地已淘汰且0球，摩洛哥状态火热赛巴里连场破门，轻取"
        },
-       "settled": null
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-MAR-HAI",
-        "winner": "home",
-        "score": "4-0",
-        "confidence": 88,
-        "reasoning_zh": "摩洛哥打平即出线但求胜争头名，海地已淘汰，摩洛哥进攻火力充足"
-       },
-       "settled": null
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-MAR-HAI",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 75,
-        "reasoning_zh": "摩洛哥打平即晋级，可能轮换保体力，海地已淘汰但为尊严死守，摩洛哥小胜。"
-       },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -18728,7 +18784,12 @@ window.ARENA_DATA = {
         "confidence": 84,
         "reasoning_zh": "摩洛哥打平即晋级，海地已出局且零进球，双方差距悬殊。"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -18740,31 +18801,67 @@ window.ARENA_DATA = {
         "confidence": 75,
         "reasoning_zh": "摩洛哥实力悬殊、赛巴里状态火热，海地已淘汰且无进球，主队大胜锁定晋级"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-MAR-HAI",
-        "winner": "home",
-        "score": "4-0",
-        "confidence": 72,
-        "reasoning_zh": "摩洛哥实力碾压已淘汰且零进球的海地，赛巴里状态火热，布拉欣持续喂球，大胜可期。"
-       },
-       "settled": null
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-MAR-HAI",
-        "winner": "home",
-        "score": "4-0",
-        "confidence": 90,
-        "reasoning_zh": "摩洛哥实力占优战意足，海地已淘汰防线疲软，大胜无悬念"
-       },
-       "settled": null
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       }
      ]
     },
@@ -18908,20 +19005,12 @@ window.ARENA_DATA = {
       "https://www.espn.com/soccer/",
       "https://sportsbook.draftkings.com/"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-24-CZE-MEX",
+      "score": "0-3",
+      "winner": "away"
+     },
      "perModel": [
-      {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-CZE-MEX",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 43,
-        "reasoning_zh": "墨西哥锁头名轮换，捷克背水但难客胜"
-       },
-       "settled": null
-      },
       {
        "model": "x-ai/grok-4.3",
        "status": "ok",
@@ -18932,31 +19021,12 @@ window.ARENA_DATA = {
         "confidence": 59,
         "reasoning_zh": "墨西哥已锁头名但阿兹特克主场不败，奥乔亚告别战，捷克需胜才存活，墨西哥大轮换仍能取胜"
        },
-       "settled": null
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-CZE-MEX",
-        "winner": "away",
-        "score": "0-1",
-        "confidence": 70,
-        "reasoning_zh": "墨西哥主场锁定头名或轮换，但捷克必须取胜，奥乔亚经验丰富，捷克进攻乏力"
-       },
-       "settled": null
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-CZE-MEX",
-        "winner": "draw",
-        "score": "1-1",
-        "confidence": 65,
-        "reasoning_zh": "墨西哥已锁头名必大轮换、战意成疑，但阿兹特克主场8场不败底蕴犹存。捷克背水一战必须取胜，但74岁库贝克战术保守，面对轮换墨西哥也难取三分，各取平局。"
-       },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -18968,7 +19038,12 @@ window.ARENA_DATA = {
         "confidence": 72,
         "reasoning_zh": "捷克背水一战但实力不济，墨西哥轮换仍可凭阿兹特克主场优势取胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -18980,31 +19055,67 @@ window.ARENA_DATA = {
         "confidence": 50,
         "reasoning_zh": "墨西哥已锁头名或大轮换，捷克须胜，但墨西哥阿兹特克主场不败、整体更强"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-CZE-MEX",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 55,
-        "reasoning_zh": "墨西哥已锁头名大轮换，捷克背水一战席克领衔，奥乔亚首发但防线轮换有隙，捷克借机抢胜。"
-       },
-       "settled": null
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-CZE-MEX",
-        "winner": "home",
-        "score": "2-1",
-        "confidence": 65,
-        "reasoning_zh": "墨西哥锁定头名大轮换，捷克背水一战战意更强"
-       },
-       "settled": null
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       }
      ]
     },
@@ -19144,20 +19255,12 @@ window.ARENA_DATA = {
       "https://www.espn.com/soccer/",
       "https://kalshi.com/"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-06-24-RSA-KOR",
+      "score": "1-0",
+      "winner": "home"
+     },
      "perModel": [
-      {
-       "model": "openai/gpt-5.5-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-RSA-KOR",
-        "winner": "away",
-        "score": "1-2",
-        "confidence": 60,
-        "reasoning_zh": "南非缺中场且必须压上，韩国反击更稳"
-       },
-       "settled": null
-      },
       {
        "model": "x-ai/grok-4.3",
        "status": "ok",
@@ -19168,31 +19271,12 @@ window.ARENA_DATA = {
         "confidence": 65,
         "reasoning_zh": "韩国胜平即出线，孙兴慜或最后一战，南非两主力停赛，韩国小胜晋级概率最高"
        },
-       "settled": null
-      },
-      {
-       "model": "mistralai/mistral-medium-3-5",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-RSA-KOR",
-        "winner": "away",
-        "score": "1-2",
-        "confidence": 80,
-        "reasoning_zh": "韩国胜平即出线动机充足，南非两主力停赛，孙兴慜或爆发"
-       },
-       "settled": null
-      },
-      {
-       "model": "deepseek/deepseek-v4-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-RSA-KOR",
-        "winner": "away",
-        "score": "1-3",
-        "confidence": 80,
-        "reasoning_zh": "韩国平局即出线但不会保守，孙兴慜渴望破纪录。南非两主力停赛、实力受损，虽背水一战但防线漏洞明显。韩国实力优势明显，洪明甫或变阵稳守反击锁定小组第二。"
-       },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -19204,7 +19288,12 @@ window.ARENA_DATA = {
         "confidence": 78,
         "reasoning_zh": "南非必须取胜但两主力停赛，韩国胜平即出线且实力占优。"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -19216,45 +19305,81 @@ window.ARENA_DATA = {
         "confidence": 55,
         "reasoning_zh": "韩国胜平即出线、孙兴慜领衔实力更强，南非两主力停赛，客队取胜出线"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       },
       {
-       "model": "z-ai/glm-5.2",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-RSA-KOR",
-        "winner": "away",
-        "score": "0-2",
-        "confidence": 75,
-        "reasoning_zh": "南非两主力停赛雪上加霜，韩国平即出线且实力占优，孙兴慜有望破荒带领取胜。"
-       },
-       "settled": null
+       "model": "google/gemini-3.5-flash",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       },
       {
-       "model": "bytedance/doubao-seed-2.0-pro",
-       "status": "ok",
-       "pred": {
-        "match_id": "2026-06-24-RSA-KOR",
-        "winner": "away",
-        "score": "0-2",
-        "confidence": 78,
-        "reasoning_zh": "韩国实力占优，胜平即出线，南非两主力停赛竞争力弱"
-       },
-       "settled": null
+       "model": "sakana/fugu-ultra",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       }
      ]
     }
    ],
-   "settled": false,
+   "settled": true,
    "day_points": {
-    "openai/gpt-5.5-pro": 0,
-    "x-ai/grok-4.3": 0,
-    "mistralai/mistral-medium-3-5": 0,
-    "deepseek/deepseek-v4-pro": 0,
-    "moonshotai/kimi-k2.6": 0,
-    "anthropic/claude-fable-5": 0,
-    "z-ai/glm-5.2": 0,
-    "bytedance/doubao-seed-2.0-pro": 0
+    "x-ai/grok-4.3": 8,
+    "moonshotai/kimi-k2.6": 8,
+    "anthropic/claude-fable-5": 8,
+    "google/gemini-3.5-flash": 0,
+    "sakana/fugu-ultra": 0,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
    },
    "prompt": {
     "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断会出现冷门、平局或非热门球队取胜时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的精确比分。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
@@ -19312,6 +19437,11055 @@ window.ARENA_DATA = {
     }
    },
    "context_md": "# 2026-06-24 世界杯比赛资料文档\n\n本文档汇总了 2026-06-24（比赛日，北美当地时间）FIFA 2026 世界杯全部 6 场小组赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与小组形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-06-24-SUI-CAN`：B组 瑞士(Switzerland, 主) vs 加拿大(Canada, 客)\n- `2026-06-24-BIH-QAT`：B组 波黑(Bosnia & Herzegovina, 主) vs 卡塔尔(Qatar, 客)\n- `2026-06-24-SCO-BRA`：C组 苏格兰(Scotland, 主) vs 巴西(Brazil, 客)\n- `2026-06-24-MAR-HAI`：C组 摩洛哥(Morocco, 主) vs 海地(Haiti, 客)\n- `2026-06-24-CZE-MEX`：A组 捷克(Czechia, 主) vs 墨西哥(Mexico, 客)\n- `2026-06-24-RSA-KOR`：A组 南非(South Africa, 主) vs 韩国(Korea Republic, 客)\n\n---\n\n## B组 · 瑞士 vs 加拿大（match_id: `2026-06-24-SUI-CAN`）\n\n- 开球：2026-06-24 15:00（美东时间 ET；温哥华当地 12:00 PT）｜北京时间 2026-06-25 03:00（北京时间周四凌晨）\n- 场地：BC Place 球场，加拿大温哥华（B 组第 3 轮，小组收官）\n\n### 瑞士（Switzerland，主队）\n- FIFA 排名：第 19 位\n- 晋级之路：欧洲区预选赛晋级；本届 B 组两轮后 4 分（首轮 4-1 大胜波黑、次轮 1-1 平卡塔尔），净胜+3 暂列小组第二\n- 主教练：穆拉特·亚金 (Murat Yakin)，4-2-3-1\n- 世界杯历史：世界杯常客，近年多次小组出线但鲜少突破八强；本届志在小组头名\n- 核心球员：\n  - 格拉尼特·扎卡 (Granit Xhaka)（中场，勒沃库森）\n  - 曼努埃尔·阿坎吉 (Manuel Akanji)（后卫，曼城）\n  - 丹·恩多耶 (Dan Ndoye)（边锋，诺丁汉森林）\n  - 布雷尔·恩博洛 (Breel Embolo)（前锋，摩纳哥）\n- 近 2 场正式比赛（新→旧）：\n  - 2026-06-19 vs 卡塔尔（世界杯B组第2轮）：1-1（D）\n  - 2026-06-13 vs 波黑（世界杯B组第1轮）：4-1（W）\n\n### 加拿大（Canada，客队）\n- FIFA 排名：第 30 位\n- 晋级之路：东道主之一自动参赛；本届 B 组两轮后 4 分（首轮 6-0 血洗卡塔尔、次轮 1-1 平波黑），净胜+6 凭净胜球暂列小组第一\n- 主教练：杰西·马什 (Jesse Marsch，美国籍)，4-4-2\n- 世界杯历史：世界杯历史浅，2022 年三战全负小组出局；本届为东道主，全部小组赛主场作战，晋级 32 强即追平队史最佳\n- 核心球员：\n  - 乔纳森·戴维 (Jonathan David)（前锋，尤文图斯）\n  - 阿方索·戴维斯 (Alphonso Davies)（边后卫，拜仁慕尼黑）\n  - 斯蒂芬·尤斯塔基奥 (Stephen Eustáquio)（中场，波尔图）\n  - 塔让·布坎南 (Tajon Buchanan)（边锋，比利亚雷亚尔）\n- 近 2 场正式比赛（新→旧）：\n  - 2026-06-19 vs 波黑（世界杯B组第2轮）：1-1（D）\n  - 2026-06-13 vs 卡塔尔（世界杯B组第1轮）：6-0（W）\n\n### 博彩赔率（1X2，十进制）\n- DraftKings（美式换算十进制）：主胜 2.35 / 平 3.1 / 客胜 3.4（home=瑞士；原始美式 瑞士 +135 / 平 +210 / 加拿大 +240。）\n- Opta 模型概率：主胜 — / 平 — / 客胜 —（瑞士 43.5% / 平 28.3% / 加拿大 28.1%。）\n\n### 历史交锋（H2H）\n- 共交手 1 次。两队仅 2002 年一场友谊赛交手（加拿大 3-1 瑞士），这是世界杯首次相遇。瑞士在世界杯对中北美球队保持不败（2 胜 3 平）。\n\n### 近期新闻\n- [Canada] 戴维斯确认不首发，但可能替补登场：队长阿方索·戴维斯左腿筋伤确认不进首发，但有望替补迎来本届首秀；伊斯梅尔·科内小腿骨折整届报销。（来源：Agent 多源核实）\n- [Canada] 乔纳森·戴维上演帽子戏法：戴维对卡塔尔上演帽子戏法，成为史上第二位攻入世界杯帽子戏法的中北美球员；加拿大 6-0 追平世界杯东道主最大胜差纪录。（来源：Agent 多源核实）\n- [Switzerland] 扎卡创纪录、曼藏巴二度梅开：扎卡迎来第 4 届世界杯、为瑞士出场纪录保持者；20 岁曼藏巴此前替补梅开二度创瑞士纪录。（来源：Agent 多源核实）\n\n### 小组形势\n- B 组两轮战罢：加拿大 4 分(+6)、瑞士 4 分(+3)、波黑 1 分(-3)、卡塔尔 1 分(-6)。本场两队同积 4 分，打平即双双出线，加拿大凭净胜球平局即夺头名，瑞士须取胜方能争头名。两队均已几乎锁定晋级，争的是小组第一与避开淘汰赛强敌。48 队赛制：每组前 2 名 + 8 个最佳第三名晋级 32 强。\n\n### 综述\n- B 组收官战，温哥华 BC Place。瑞士（FIFA 19）与加拿大（FIFA 30）同积 4 分，打平双双出线，争的是头名归属——加拿大净胜球占优、平局即可夺冠组，瑞士须胜。东道主加拿大全主场作战、戴维上轮帽子戏法状态正火，但戴维斯伤缺首发。世界杯两队首次相遇。\n\n### 资料来源\n- https://www.espn.com/soccer/\n- https://sportsbook.draftkings.com/\n\n---\n\n## B组 · 波黑 vs 卡塔尔（match_id: `2026-06-24-BIH-QAT`）\n\n- 开球：2026-06-24 15:00（美东时间 ET；西雅图当地 12:00 PT）｜北京时间 2026-06-25 03:00（北京时间周四凌晨）\n- 场地：Lumen Field 球场，美国西雅图（B 组第 3 轮，小组收官）\n\n### 波黑（Bosnia & Herzegovina，主队）\n- FIFA 排名：第 64 位\n- 晋级之路：欧洲区预选赛晋级；本届 B 组两轮后仅 1 分（首轮 1-4 负瑞士、次轮 1-1 平加拿大），净胜-3\n- 主教练：塞尔盖·巴尔巴雷兹 (Sergej Barbarez)，4-3-3\n- 世界杯历史：队史第 2 次参加世界杯（首次 2014 年小组出局）；本届取得队史本届首分\n- 核心球员：\n  - 埃丁·哲科 (Edin Dzeko)（前锋，沙尔克04）\n  - 塞阿德·科拉希纳茨 (Sead Kolasinac)（后卫，亚特兰大）\n- 近 2 场正式比赛（新→旧）：\n  - 2026-06-19 vs 加拿大（世界杯B组第2轮）：1-1（D）\n  - 2026-06-13 vs 瑞士（世界杯B组第1轮）：1-4（L）\n\n### 卡塔尔（Qatar，客队）\n- FIFA 排名：第 56 位\n- 晋级之路：亚洲区预选赛晋级；本届 B 组两轮后 1 分（首轮 0-6 负加拿大、次轮 1-1 平瑞士），净胜-6 垫底\n- 主教练：胡伦·洛佩特吉 (Julen Lopetegui)，4-3-3\n- 世界杯历史：队史第 2 次参加世界杯（2022 年东道主三战全负）；本届取得队史世界杯首分（平瑞士）\n- 核心球员：\n  - 阿克拉姆·阿菲夫 (Akram Afif)（前锋，阿尔萨德）\n- 近 2 场正式比赛（新→旧）：\n  - 2026-06-19 vs 瑞士（世界杯B组第2轮）：1-1（D）\n  - 2026-06-13 vs 加拿大（世界杯B组第1轮）：0-6（L）\n\n### 博彩赔率（1X2，十进制）\n- 综合博彩（美式换算十进制）：主胜 1.44 / 平 5.25 / 客胜 7.75（home=波黑；原始美式约 波黑 -255 / 平 +415 / 卡塔尔 +625。）\n- Opta 模型概率：主胜 — / 平 — / 客胜 —（波黑 65.9% / 卡塔尔 15.8%。）\n\n### 历史交锋（H2H）\n- 共交手 2 次。两队仅 2 次友谊赛交手（卡塔尔 1 胜 1 平：2000 年 2-0、2010 年 1-1），这是首次正式比赛相遇。\n\n### 近期新闻\n- [Bosnia & Herzegovina] 哲科或迎告别之战：40 岁队长哲科为波黑队史射手王(73 球)兼出场王(140 次)，本赛季助沙尔克升入德甲，本场普遍视为其世界杯告别战。穆哈雷莫维奇红牌停赛。（来源：Agent 多源核实）\n- [Qatar] 两主力停赛：卡塔尔后卫霍曼·艾哈迈德、中场马迪博均因对加拿大染红停赛，洛佩特吉排兵受限。（来源：Agent 多源核实）\n\n### 小组形势\n- B 组生死战：波黑、卡塔尔均 1 分。胜者保留争最佳第三名的渺茫希望，平局则两队各 2 分双双出局（历史上远不够最佳第三名门槛）。两队均已无法进小组前二。波黑赔率明显占优但两边均有主力停赛。\n\n### 综述\n- B 组收官生死战，西雅图 Lumen Field。波黑（FIFA 64）对卡塔尔（FIFA 56）均仅 1 分，平局两队齐出局、只有胜者留一线最佳第三名希望。40 岁哲科或踢世界杯告别战。双方各有主力停赛，波黑赔率占优。两队首次正式交锋。\n\n### 资料来源\n- https://www.espn.com/soccer/\n- https://www.opta.com/\n\n---\n\n## C组 · 苏格兰 vs 巴西（match_id: `2026-06-24-SCO-BRA`）\n\n- 开球：2026-06-24 18:00（美东时间 ET；迈阿密当地 18:00 ET）｜北京时间 2026-06-25 06:00（北京时间周四上午）\n- 场地：Hard Rock 球场，美国迈阿密（C 组第 3 轮，小组收官）\n\n### 苏格兰（Scotland，主队）\n- FIFA 排名：第 40 位\n- 晋级之路：欧洲区预选赛晋级；本届 C 组两轮后 3 分（首轮 0-1 负摩洛哥、次轮 1-0 胜海地），暂列小组第三\n- 主教练：史蒂夫·克拉克 (Steve Clarke)，4-2-3-1\n- 世界杯历史：世界杯参赛次数最多却从未小组出线的球队（含本届 9 次，曾 3 次因净胜球出局）；本场争队史首次进淘汰赛\n- 核心球员：\n  - 安德鲁·罗伯逊 (Andrew Robertson)（后卫/队长，利物浦）\n  - 斯科特·麦克托米奈 (Scott McTominay)（中场，那不勒斯）\n  - 约翰·麦金 (John McGinn)（中场，阿斯顿维拉）\n  - 切·亚当斯 (Ché Adams)（前锋，都灵）\n- 近 2 场正式比赛（新→旧）：\n  - 2026-06-19 vs 海地（世界杯C组第2轮）：1-0（W）\n  - 2026-06-13 vs 摩洛哥（世界杯C组第1轮）：0-1（L）\n\n### 巴西（Brazil，客队）\n- FIFA 排名：第 6 位\n- 晋级之路：南美区预选赛晋级；本届 C 组两轮后 4 分（首轮 3-0 胜海地、次轮 1-1 平摩洛哥），凭净胜+3 暂列小组第一\n- 主教练：卡洛·安切洛蒂 (Carlo Ancelotti)，4-3-3（其执教首届世界杯）\n- 世界杯历史：五星巴西、史上最成功球队（5 次夺冠），自 2002 年来追逐第六颗星\n- 核心球员：\n  - 维尼修斯·儒尼奥尔 (Vinícius Júnior)（边锋，皇家马德里）\n  - 卡塞米罗 (Casemiro)（中场/队长，曼联）\n  - 马尔基尼奥斯 (Marquinhos)（后卫/队长，巴黎圣日耳曼）\n  - 马特乌斯·库尼亚 (Matheus Cunha)（前锋，曼联）\n- 近 2 场正式比赛（新→旧）：\n  - 2026-06-19 vs 摩洛哥（世界杯C组第2轮）：1-1（D）\n  - 2026-06-13 vs 海地（世界杯C组第1轮）：3-0（W）\n\n### 博彩赔率（1X2，十进制）\n- bet365（美式换算十进制）：主胜 8 / 平 5 / 客胜 1.36（home=苏格兰；原始 苏格兰 +700 / 平 +400 / 巴西 -275。巴西为大热门。）\n\n### 历史交锋（H2H）\n- 共交手 10 次。10 次交手苏格兰从未胜巴西（巴西 8 胜 2 平）；4 次世界杯交手（1974 0-0、1982 巴西 4-1、1990 巴西 1-0、1998 巴西 2-1）苏格兰 0 胜。1998 年苏格兰上次参加世界杯时同样与巴西、摩洛哥同组并双负。\n\n### 近期新闻\n- [Brazil] 拉菲尼亚伤缺，内马尔可出战：拉菲尼亚因腿筋伤确认缺阵，19 岁拉扬顶替；内马尔已恢复、安切洛蒂确认可出战，或替补迎本届首秀。（来源：Agent 多源核实）\n- [Scotland] 苏格兰冲击队史首次淘汰赛：取胜即直接晋级（队史首次进淘汰赛），打平大概率以最佳第三名出线，告负则出线权不在自己手中。队长罗伯逊 92 次出场为队内最多。吉尔摩赛前因伤退出大名单。（来源：Agent 多源核实）\n- [Brazil] 维尼修斯本届 2 球：维尼修斯本届已入 2 球，对摩洛哥的进球为其第 50 次代表巴西、第 10 个国家队进球；安切洛蒂率队冲击自 2002 年以来的第六颗星。（来源：Agent 多源核实）\n\n### 小组形势\n- C 组两轮战罢：巴西 4 分(+3)、摩洛哥 4 分(+1)、苏格兰 3 分(0)、海地 0 分（已淘汰）。巴西打平即锁定小组头名；苏格兰若取胜则直接晋级（队史首次进淘汰赛），打平大概率最佳第三名出线，告负则被动。\n\n### 综述\n- C 组收官战，迈阿密 Hard Rock。FIFA 第 6 的巴西（4 分领头）对阵 FIFA 第 40 的苏格兰（3 分第三）。巴西平局即夺头名，苏格兰则志在取胜、追逐队史首次世界杯淘汰赛资格。巴西安切洛蒂麾下拉菲尼亚伤缺、内马尔或登场。两队世界杯交锋苏格兰从未取胜。\n\n### 资料来源\n- https://www.espn.com/soccer/\n- https://www.bet365.com/\n\n---\n\n## C组 · 摩洛哥 vs 海地（match_id: `2026-06-24-MAR-HAI`）\n\n- 开球：2026-06-24 18:00（美东时间 ET；亚特兰大当地 18:00 ET）｜北京时间 2026-06-25 06:00（北京时间周四上午）\n- 场地：梅赛德斯-奔驰球场，美国亚特兰大（C 组第 3 轮，小组收官）\n\n### 摩洛哥（Morocco，主队）\n- FIFA 排名：第 6 位\n- 晋级之路：非洲区预选赛晋级；本届 C 组两轮后 4 分（首轮 1-0 胜苏格兰、次轮 1-1 平巴西），净胜+1 暂列小组第二\n- 主教练：穆罕默德·瓦赫比 (Mohamed Ouahbi，2025 U20 世界杯冠军教头，2026 年 3 月接替辞职的雷格拉吉)，4-3-3\n- 世界杯历史：2022 年世界杯四强（首支闯入世界杯半决赛的非洲及阿拉伯球队）；本届志在小组出线\n- 核心球员：\n  - 阿什拉夫·哈基米 (Achraf Hakimi)（边后卫/队长，巴黎圣日耳曼）\n  - 布拉欣·迪亚斯 (Brahim Díaz)（中场，皇家马德里）\n  - 伊斯梅尔·赛巴里 (Ismael Saibari)（中场，埃因霍温）\n  - 亚辛·布努 (Yassine Bounou)（门将，阿尔希拉尔）\n- 近 2 场正式比赛（新→旧）：\n  - 2026-06-19 vs 巴西（世界杯C组第2轮）：1-1（D）\n  - 2026-06-13 vs 苏格兰（世界杯C组第1轮）：1-0（W）\n\n### 海地（Haiti，客队）\n- FIFA 排名：第 85 位\n- 晋级之路：中北美区预选赛晋级；本届 C 组两轮后 0 分（首轮 0-3 负巴西、次轮 0-1 负苏格兰），净胜-4 已淘汰，为全队首支出局\n- 主教练：塞巴斯蒂安·米涅 (Sébastien Migné，法籍)，5-4-1（本场或变 4-4-2）\n- 世界杯历史：队史第 2 次、自 1974 年来首次参加世界杯（阔别 52 年）；球员几乎全部来自海外侨民，因国内动荡所有预选赛主场均在境外进行\n- 核心球员：\n  - 约翰尼·普拉西德 (Johnny Placide)（门将/队长，自由身）\n  - 威尔逊·伊西多 (Wilson Isidor)（前锋，桑德兰）\n- 近 2 场正式比赛（新→旧）：\n  - 2026-06-19 vs 苏格兰（世界杯C组第2轮）：0-1（L）\n  - 2026-06-13 vs 巴西（世界杯C组第1轮）：0-3（L）\n\n### 博彩赔率（1X2，十进制）\n- bet365（美式换算十进制）：主胜 1.18 / 平 7 / 客胜 15（home=摩洛哥；原始 摩洛哥 -550 / 平 +600 / 海地 +1400。摩洛哥为大热门。）\n- Kalshi 预测市场：主胜 — / 平 — / 客胜 —（摩洛哥 83% / 平 12% / 海地 5%，本日最悬殊对阵之一。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队历史上从未交手，这是世界杯也是两队历史上首次相遇。\n\n### 近期新闻\n- [Morocco] 瓦赫比接掌、赛巴里成奇兵：摩洛哥已于 2026 年 3 月换帅，现任为 U20 世界杯冠军教头瓦赫比；恩内斯里落选大名单、齐耶赫非主力，本届奇兵是赛巴里（两场各入一球，均由布拉欣·迪亚斯助攻，首战 71 秒破门为本届最快进球）。（来源：Agent 多源核实（已更正主帅））\n- [Morocco] 打平即晋级：摩洛哥与巴西同积 4 分、净胜球居次，打平即保证前二晋级，取胜并配合迈阿密赛果可夺头名，基本已锁定 32 强。（来源：Agent 多源核实）\n- [Haiti] 海地已淘汰、为荣誉而战：海地两战 0 分 0 进球已淘汰，本场只为队史世界杯首个进球/首分而战；队史射手王纳松出战存疑，伊西多力争首发。（来源：Agent 多源核实）\n\n### 小组形势\n- C 组：巴西 4 分(+3)、摩洛哥 4 分(+1)、苏格兰 3 分、海地 0 分（已淘汰）。摩洛哥打平即晋级、取胜可争头名。海地已无晋级可能，只为荣誉与队史世界杯首球首分而战。本场为全日最悬殊对阵之一。\n\n### 综述\n- C 组收官战，亚特兰大。2022 世界杯四强、FIFA 第 6 的摩洛哥（4 分）对阵已淘汰的海地（0 分、FIFA 约 85）。摩洛哥打平即晋级、新帅瓦赫比麾下赛巴里两场两球状态火热，赔率一边倒。海地为荣誉与队史世界杯首球而战。两队历史首次交锋。\n\n### 资料来源\n- https://www.espn.com/soccer/\n- https://kalshi.com/\n\n---\n\n## A组 · 捷克 vs 墨西哥（match_id: `2026-06-24-CZE-MEX`）\n\n- 开球：2026-06-24 21:00（美东时间 ET；墨西哥城当地 19:00 CT）｜北京时间 2026-06-25 09:00（北京时间周四上午）\n- 场地：阿兹特克球场，墨西哥墨西哥城（A 组第 3 轮，小组收官；名义主队捷克，实际墨西哥主场）\n\n### 捷克（Czechia，主队）\n- FIFA 排名：第 40 位\n- 晋级之路：欧洲区预选赛附加赛两轮点球大战（爱尔兰、丹麦）惊险晋级；本届 A 组两轮后 1 分（1-1 平南非、1-2 负韩国），净胜-1\n- 主教练：米罗斯拉夫·库贝克 (Miroslav Koubek，74 岁，2025 年 12 月接任)，低位防守 3-4-2-1\n- 世界杯历史：自 2006 年以来首次参加世界杯（捷克斯洛伐克时期曾两获亚军）；本届靠点球大战惊险晋级\n- 核心球员：\n  - 帕特里克·席克 (Patrik Schick)（前锋，勒沃库森）\n  - 托马什·索切克 (Tomáš Souček)（中场，西汉姆联）\n  - 拉迪斯拉夫·克雷伊奇 (Ladislav Krejčí)（后卫/队长，吉罗纳）\n- 近 2 场正式比赛（新→旧）：\n  - 2026-06-19 vs 韩国（世界杯A组第2轮）：1-2（L）\n  - 2026-06-13 vs 南非（世界杯A组第1轮）：1-1（D）\n\n### 墨西哥（Mexico，客队）\n- FIFA 排名：第 14 位\n- 晋级之路：东道主之一自动参赛；本届 A 组两轮全胜零失球（1-0 胜韩国、2-0 胜南非），6 分(+3)已锁定小组头名出线\n- 主教练：哈维尔·阿吉雷 (Javier Aguirre，第 3 度执教，2025 中北美国家联赛+金杯冠军)，4-3-3\n- 世界杯历史：世界杯常客，多次打入 16 强；本届为东道主之一，开局 2 战全胜零失球\n- 核心球员：\n  - 吉列尔莫·奥乔亚 (Guillermo Ochoa)（门将，自由身）\n  - 埃德森·阿尔瓦雷斯 (Edson Álvarez)（中场/队长，西汉姆联）\n  - 圣地亚哥·吉门内斯 (Santiago Giménez)（前锋，AC米兰）\n  - 胡里安·阿尔瓦拉多 (Julián Alvarado)（边锋，蒙特雷）\n- 近 2 场正式比赛（新→旧）：\n  - 2026-06-19 vs 南非（世界杯A组第2轮）：2-0（W）\n  - 2026-06-13 vs 韩国（世界杯A组第1轮）：1-0（W）\n\n### 博彩赔率（1X2，十进制）\n- DraftKings（美式换算十进制）：主胜 3.4 / 平 3.7 / 客胜 2.1（home=捷克；原始 捷克 +240 / 平 +270 / 墨西哥 +110。注：名义主队捷克，但实际在墨西哥主场阿兹特克进行，墨西哥占优。）\n\n### 历史交锋（H2H）\n- 共交手 1 次。仅 2000 年贺岁杯（香港）一次正式交手（捷克 2-1 墨西哥），这是世界杯首次相遇。\n\n### 近期新闻\n- [Mexico] 奥乔亚将首发、第 6 届世界杯：40 岁奥乔亚将首发，成为史上第 6 次参加世界杯的墨西哥球员（加入梅西、C 罗等极少数 6 届俱乐部），阿兹特克球场告别式；墨西哥已锁定头名，预计大轮换、希门尼斯/吉门内斯轮换，拉乌尔·希门尼斯或轮休。（来源：Agent 多源核实）\n- [Mexico] 阿兹特克 8 场不败、开局零失球：墨西哥在阿兹特克球场世界杯比赛保持 8 场不败，本届开局 2 战全胜零失球，埃德森·阿尔瓦雷斯揭幕战达成 100 次国家队出场。首选门将马拉贡十字韧带报销。（来源：Agent 多源核实）\n- [Czechia] 不胜即出局：捷克 1 分，必须取胜才有望争小组第二（还需韩国输球+多重小分占优），否则只剩争最佳第三名的渺茫机会。74 岁库贝克带队，前锋席克为关键。队长克雷伊奇一张黄牌即停赛。（来源：Agent 多源核实）\n\n### 小组形势\n- A 组两轮战罢：墨西哥 6 分(+3)已锁头名、韩国 3 分、捷克 1 分(-1)、南非 1 分(-2)。墨西哥已出线且锁定头名，本场或大轮换。捷克 1 分必须取胜才有望争第二，否则出局。本场在墨西哥主场阿兹特克进行。\n\n### 综述\n- A 组收官战，墨西哥城阿兹特克。已锁定头名的墨西哥（6 分、东道主、主场）对阵不胜即出局的捷克（1 分）。40 岁奥乔亚将首发、追平 6 届世界杯纪录并在阿兹特克告别。墨西哥或大轮换，捷克须背水一战取胜方能争第二。两队世界杯首次相遇。\n\n### 资料来源\n- https://www.espn.com/soccer/\n- https://sportsbook.draftkings.com/\n\n---\n\n## A组 · 南非 vs 韩国（match_id: `2026-06-24-RSA-KOR`）\n\n- 开球：2026-06-24 21:00（美东时间 ET；蒙特雷当地 19:00 CT）｜北京时间 2026-06-25 09:00（北京时间周四上午）\n- 场地：BBVA 球场，墨西哥蒙特雷/瓜达卢佩（A 组第 3 轮，小组收官）\n\n### 南非（South Africa，主队）\n- FIFA 排名：第 59 位\n- 晋级之路：非洲区预选赛晋级；本届 A 组两轮后 1 分（1-1 平捷克、0-2 负墨西哥），净胜-2\n- 主教练：雨果·布鲁斯 (Hugo Broos，比利时籍)，4-2-3-1\n- 世界杯历史：自 2010 年（东道主）来首次参加世界杯，追逐队史首次小组出线\n- 核心球员：\n  - 罗恩文·威廉姆斯 (Ronwen Williams)（门将/队长，马姆罗迪日落）\n  - 雷利沃·莫科埃纳 (Relebohile Mofokeng)（边锋，奥兰多海盗）\n- 近 2 场正式比赛（新→旧）：\n  - 2026-06-19 vs 墨西哥（世界杯A组第2轮）：0-2（L）\n  - 2026-06-13 vs 捷克（世界杯A组第1轮）：1-1（D）\n\n### 韩国（Korea Republic，客队）\n- FIFA 排名：第 25 位\n- 晋级之路：亚洲区预选赛晋级；本届 A 组两轮后 3 分（2-1 胜捷克、0-1 负墨西哥），净胜0 暂列小组第二\n- 主教练：洪明甫 (Hong Myung-bo)，本场或用 5-2-2-1\n- 世界杯历史：亚洲劲旅，2002 年（东道主）四强、2010/2022 年 16 强；本届志在再度出线\n- 核心球员：\n  - 孙兴慜 (Son Heung-min)（前锋/队长，洛杉矶FC）\n  - 金玟哉 (Kim Min-jae)（后卫，拜仁慕尼黑）\n  - 李刚仁 (Lee Kang-in)（中场，巴黎圣日耳曼）\n  - 黄仁范 (Hwang In-beom)（中场，费耶诺德）\n- 近 2 场正式比赛（新→旧）：\n  - 2026-06-19 vs 墨西哥（世界杯A组第2轮）：0-1（L）\n  - 2026-06-13 vs 捷克（世界杯A组第1轮）：2-1（W）\n\n### 博彩赔率（1X2，十进制）\n- bet365（美式换算十进制）：主胜 5.25 / 平 3.8 / 客胜 1.65（home=南非；原始 南非 +425 / 平 +280 / 韩国 -154。韩国占优。）\n- Kalshi 预测市场：主胜 — / 平 — / 客胜 —（韩国 59% / 平 25% / 南非 18%。）\n\n### 历史交锋（H2H）\n- 共交手 1 次。有记录的唯一一次为 1994 年韩国杯友谊赛（韩国 1-0），此前从未在正式大赛相遇。\n\n### 近期新闻\n- [Korea Republic] 孙兴慜或踢最后一届世界杯：33 岁队长孙兴慜第 4 届也很可能是最后一届世界杯；国家队进球达 56 球，距车范根队史纪录 58 球仅差 2 球，但本届尚未破门（对墨西哥 57 分钟被换下引发争议）。韩国胜或平即以小组第二晋级。（来源：Agent 多源核实）\n- [South Africa] 南非必须取胜、两主力停赛：南非 1 分必须取胜才能存活（胜韩国且捷克对墨西哥不胜可抢第二）；主力莫科埃纳（Teboho Mokoena）与兹瓦内（Themba Zwane）均停赛。门将兼队长威廉姆斯为核心。（来源：Agent 多源核实）\n\n### 小组形势\n- A 组：墨西哥 6 分已锁头名、韩国 3 分、捷克 1 分、南非 1 分。韩国胜或平即以小组第二晋级；若负且捷克击败墨西哥则可能掉到第三。南非必须取胜才能存活、争最佳第三或第二，且两主力停赛。\n\n### 综述\n- A 组收官战，蒙特雷 BBVA。韩国（FIFA 25、3 分）胜平即出线，对阵必须取胜的南非（FIFA 59、1 分，两主力停赛）。孙兴慜或踢生涯最后一届世界杯、距韩国队史进球纪录仅差 2 球但本届尚未破门。南非自 2010 年来首战世界杯、追逐队史首次小组出线。两队大赛从未相遇。\n\n### 资料来源\n- https://www.espn.com/soccer/\n- https://kalshi.com/\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 12 个比赛日、共 46 场比赛中，6 个先期参赛模型的历次预测、实际赛果与所得分数（结算规则：比分完全猜对 5 分 / 仅胜负方向猜对 3 分 / 猜错或未预测 0 分）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 胜负方向命中 | 比分完全命中 |\n|  ---  |  ---  |  ---  |  ---  |\n| Claude Opus 4.8 | 96 | 28/46 | 6/46 |\n| Grok 4.3 | 95 | 29/46 | 4/46 |\n| Kimi K2.7 | 91 | 29/46 | 2/46 |\n| GPT-5.5 Pro | 85 | 25/46 | 5/46 |\n| DeepSeek V4 Pro | 85 | 27/46 | 2/46 |\n| Mistral Medium 3.5 | 84 | 26/46 | 3/46 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | GPT-5.5 Pro | Grok 4.3 | Mistral Medium 3.5 | DeepSeek V4 Pro | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 1-1（5） | 1-0（0） | 1-0（0） |\n| 美国 vs 巴拉圭 | 4-1 | 1-0（3） | 2-1（3） | 1-1（0） | 1-0（3） | 1-0（3） | 1-0（3） |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | GPT-5.5 Pro | Grok 4.3 | Mistral Medium 3.5 | DeepSeek V4 Pro | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 0-1（0） | 1-2（0） | 0-1（0） | 0-1（0） | 1-2（0） | 0-1（0） |\n| 巴西 vs 摩洛哥 | 1-1 | 1-0（0） | 2-1（0） | 1-0（0） | 2-1（0） | 1-0（0） | 1-0（0） |\n| 海地 vs 苏格兰 | 0-1 | 0-1（5） | 0-2（3） | 0-2（3） | 0-2（3） | 2-0（0） | 1-2（3） |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-2（0） | 0-3（0） | 0-2（0） | 0-2（0） | 0-2（0） | 0-3（0） |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | GPT-5.5 Pro | Grok 4.3 | Mistral Medium 3.5 | DeepSeek V4 Pro | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 0-0（0） | 1-1（0） | 1-1（0） |\n| 德国 vs 库拉索 | 7-1 | 4-0（3） | 6-0（3） | 4-0（3） | 5-0（3） | 4-0（3） | 4-0（3） |\n| 荷兰 vs 日本 | 2-2 | 2-1（0） | 1-1（3） | 1-1（3） | 1-1（3） | 2-1（0） | 2-1（0） |\n| 瑞典 vs 突尼斯 | 5-1 | 1-0（3） | 2-1（3） | 2-0（3） | 2-0（3） | 1-0（3） | 1-0（3） |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | GPT-5.5 Pro | Grok 4.3 | Mistral Medium 3.5 | DeepSeek V4 Pro | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 3-0（0） | 3-0（0） | 3-0（0） |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） | 2-1（0） |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 0-1（0） | 0-1（0） | 0-1（0） |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | GPT-5.5 Pro | Grok 4.3 | Mistral Medium 3.5 | DeepSeek V4 Pro | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 2-1（3） | 3-1（5） | 2-1（3） | 1-1（0） | 2-1（3） | 2-1（3） |\n| 伊拉克 vs 挪威 | 1-4 | 0-2（3） | 0-4（3） | 0-3（3） | 0-3（3） | 0-2（3） | 0-2（3） |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 2-0（3） | 3-0（5） | 2-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 奥地利 vs 约旦 | 3-1 | 2-0（3） | 3-0（3） | 2-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | GPT-5.5 Pro | Grok 4.3 | Mistral Medium 3.5 | DeepSeek V4 Pro | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 2-0（0） | 3-0（0） | 3-0（0） | 3-0（0） | 2-0（0） | 2-0（0） |\n| 英格兰 vs 克罗地亚 | 4-2 | 1-0（3） | 2-1（3） | 2-1（3） | 2-1（3） | 2-1（3） | 2-0（3） |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（3） | 0-2（3） | 0-2（3） | 0-2（3） | 0-2（3） | 0-2（3） |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | GPT-5.5 Pro | Grok 4.3 | Mistral Medium 3.5 | DeepSeek V4 Pro | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-1（0） | 2-1（0） | 2-0（0） | 2-0（0） | 2-0（0） |\n| 瑞士 vs 波黑 | 4-1 | 1-0（3） | 2-1（3） | 1-1（0） | 2-1（3） | 2-0（3） | 2-1（3） |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（3） | 2-0（3） | 2-0（3） | 3-0（3） | 2-0（3） | 2-0（3） |\n| 墨西哥 vs 韩国 | 1-0 | 1-1（0） | 1-0（5） | 1-1（0） | 2-1（3） | 2-1（3） | 2-1（3） |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | GPT-5.5 Pro | Grok 4.3 | Mistral Medium 3.5 | DeepSeek V4 Pro | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 1-1（0） | 2-0（5） | 3-1（3） | 1-1（0） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-1（5） | 0-2（3） | 0-1（5） | 0-2（3） | 1-2（3） | 1-2（3） |\n| 巴西 vs 海地 | 3-0 | 3-0（5） | 4-0（3） | 4-0（3） | 4-0（3） | 2-0（3） | 3-0（5） |\n| 土耳其 vs 巴拉圭 | 0-1 | 1-0（0） | 2-1（0） | 1-1（0） | 2-1（0） | 1-0（0） | 2-0（0） |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | GPT-5.5 Pro | Grok 4.3 | Mistral Medium 3.5 | DeepSeek V4 Pro | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-2（0） | 2-1（3） | 1-2（0） | 2-2（0） | 3-1（3） | 2-1（3） |\n| 德国 vs 科特迪瓦 | 2-1 | 2-1（5） | 3-1（3） | 4-0（3） | 3-1（3） | 2-1（5） | 2-0（3） |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 2-0（0） | 4-0（0） | 3-0（0） | 4-0（0） | 3-0（0） | 2-0（0） |\n| 突尼斯 vs 日本 | 0-4 | 0-2（3） | 0-2（3） | 0-1（3） | 1-3（3） | 1-2（3） | 1-2（3） |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | GPT-5.5 Pro | Grok 4.3 | Mistral Medium 3.5 | DeepSeek V4 Pro | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 2-1（3） | 3-0（3） | 3-0（3） | 2-0（3） | 1-0（3） | 2-0（3） |\n| 比利时 vs 伊朗 | 0-0 | 1-0（0） | 2-1（0） | 1-1（3） | 2-1（0） | 1-1（3） | 2-0（0） |\n| 乌拉圭 vs 佛得角 | 2-2 | 1-1（3） | 2-0（0） | 2-0（0） | 1-0（0） | 1-1（3） | 1-0（0） |\n| 新西兰 vs 埃及 | 1-3 | 1-2（3） | 0-2（3） | 0-1（3） | 1-2（3） | 0-1（3） | 0-1（3） |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | GPT-5.5 Pro | Grok 4.3 | Mistral Medium 3.5 | DeepSeek V4 Pro | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 2-1（3） | 3-0（3） | 3-1（3） | 2-0（5） | 2-1（3） | 2-0（5） |\n| 法国 vs 伊拉克 | 3-0 | 3-0（5） | 4-0（3） | 5-0（3） | 4-0（3） | 3-1（3） | 3-0（5） |\n| 挪威 vs 塞内加尔 | 3-2 | 1-1（0） | 2-1（3） | 3-2（5） | 3-1（3） | 2-1（3） | 2-1（3） |\n| 约旦 vs 阿尔及利亚 | 1-2 | 1-3（3） | 0-2（3） | 0-1（3） | 0-2（3） | 1-2（5） | 1-2（5） |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | GPT-5.5 Pro | Grok 4.3 | Mistral Medium 3.5 | DeepSeek V4 Pro | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 2-0（3） | 3-0（3） | 3-1（3） | 2-1（3） | 2-0（3） | 2-1（3） |\n| 英格兰 vs 加纳 | 0-0 | 2-1（0） | 3-0（0） | 2-0（0） | 3-1（0） | 3-0（0） | 2-0（0） |\n| 巴拿马 vs 克罗地亚 | 0-1 | 1-2（3） | 0-2（3） | 0-1（5） | 1-3（3） | 1-2（3） | 0-1（5） |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（3） | 2-1（3） | 2-0（3） | 3-1（3） | 2-0（3） | 1-0（5） |\n\n<!-- HISTORY-REVIEW-END -->\n"
+  },
+  {
+   "date": "2026-06-25",
+   "matches": [
+    {
+     "id": "2026-06-25-CUW-CIV",
+     "group": "E",
+     "home": {
+      "code": "CUW",
+      "en": "Curaçao",
+      "zh": "库拉索",
+      "flag": "🇨🇼"
+     },
+     "away": {
+      "code": "CIV",
+      "en": "Ivory Coast",
+      "zh": "科特迪瓦",
+      "flag": "🇨🇮"
+     },
+     "kickoff_local": "2026-06-25 16:00（费城当地时间 EDT；FIFA API: 2026-06-25T20:00:00Z）",
+     "kickoff_beijing": "2026-06-26 04:00（北京时间周五凌晨）",
+     "venue": "Philadelphia Stadium（Lincoln Financial Field），美国宾夕法尼亚州费城（E组第3轮收官）",
+     "teams": {
+      "Curaçao": {
+       "name_zh": "库拉索",
+       "fifa_ranking": 82,
+       "qualified_via": "中北美及加勒比区第三轮B组头名；2025-11-18客场0-0平牙买加后锁定队史首次世界杯正赛资格。",
+       "coach": "迪克·艾德沃卡特 (Dick Advocaat)",
+       "wc_history": "队史首次参加世界杯；本届已取得队史世界杯首球和首个积分。",
+       "key_players": [
+        {
+         "name": "Eloy Room",
+         "pos": "门将",
+         "club": "维特斯/库拉索国家队"
+        },
+        {
+         "name": "Leandro Bacuna",
+         "pos": "中场/队长",
+         "club": "格罗宁根"
+        },
+        {
+         "name": "Juninho Bacuna",
+         "pos": "中场",
+         "club": "福伦丹"
+        },
+        {
+         "name": "Tahith Chong",
+         "pos": "中前场",
+         "club": "谢菲尔德联"
+        },
+        {
+         "name": "Jurgen Locadia",
+         "pos": "前锋",
+         "club": "自由身/待核"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-20",
+         "opponent": "厄瓜多尔（世界杯E组第2轮）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-14",
+         "opponent": "德国（世界杯E组第1轮）",
+         "score": "1-7",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-07",
+         "opponent": "阿鲁巴（友谊赛）",
+         "score": "4-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-05-30",
+         "opponent": "苏格兰（友谊赛）",
+         "score": "1-4",
+         "result": "L"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "澳大利亚（FIFA Series）",
+         "score": "1-5",
+         "result": "L"
+        }
+       ]
+      },
+      "Ivory Coast": {
+       "name_zh": "科特迪瓦",
+       "fifa_ranking": 33,
+       "qualified_via": "非洲区CAF F组头名直接晋级；2025-10-14锁定世界杯资格，队史第4次参加世界杯。",
+       "coach": "埃梅尔斯·法埃 (Emerse Faé)",
+       "wc_history": "2006、2010、2014三届均止步小组赛；本场冲击队史首次世界杯淘汰赛。",
+       "key_players": [
+        {
+         "name": "Amad Diallo",
+         "pos": "边锋/前锋",
+         "club": "曼联"
+        },
+        {
+         "name": "Yan Diomandé",
+         "pos": "边锋",
+         "club": "莱比锡"
+        },
+        {
+         "name": "Franck Kessié",
+         "pos": "中场",
+         "club": "吉达国民"
+        },
+        {
+         "name": "Ibrahim Sangaré",
+         "pos": "后腰",
+         "club": "诺丁汉森林"
+        },
+        {
+         "name": "Elye Wahi",
+         "pos": "前锋",
+         "club": "马赛"
+        },
+        {
+         "name": "Ousmane Diomandé",
+         "pos": "中卫",
+         "club": "葡萄牙体育"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-20",
+         "opponent": "德国（世界杯E组第2轮）",
+         "score": "1-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-14",
+         "opponent": "厄瓜多尔（世界杯E组第1轮）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-04",
+         "opponent": "法国（友谊赛）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "苏格兰（友谊赛）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-28",
+         "opponent": "韩国（友谊赛）",
+         "score": "4-0",
+         "result": "W"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "The Sun / bookmaker references（分数赔率换算十进制）",
+       "home_win": 13,
+       "draw": 8.5,
+       "away_win": 1.13,
+       "note": "home=库拉索；原始库拉索12/1、平局15/2、科特迪瓦1/8。赔率快照临场会变动。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 0,
+      "summary_zh": "两队此前没有正式或公开记录的A级交锋，本场为首次世界杯/正式大赛相遇。"
+     },
+     "news": [
+      {
+       "team": "Ivory Coast",
+       "headline_zh": "科特迪瓦冲击队史首次世界杯淘汰赛",
+       "detail_zh": "AP赛前称科特迪瓦击败库拉索即可晋级；球队首轮1-0胜厄瓜多尔、次轮半场领先德国但最终1-2被逆转。",
+       "source": "AP"
+      },
+      {
+       "team": "Ivory Coast",
+       "headline_zh": "Elye Wahi预计回归可用名单",
+       "detail_zh": "AP赛前报道提到Wahi expected back；球员赛前表示专注比赛，不评论场外争议。",
+       "source": "AP"
+      },
+      {
+       "team": "Curaçao",
+       "headline_zh": "Juninho Bacuna状态存疑",
+       "detail_zh": "苏格兰太阳报称Bacuna对厄瓜多尔第75分钟左右因明显不适被换下，出战科特迪瓦仍待确认。",
+       "source": "The Scottish Sun"
+      },
+      {
+       "team": "Curaçao",
+       "headline_zh": "Eloy Room 15次扑救拿到首分",
+       "detail_zh": "库拉索0-0厄瓜多尔，Room的高扑救量成为核心新闻；球队从首轮1-7惨败德国后反弹。",
+       "source": "AP"
+      }
+     ],
+     "group_context_zh": "E组两轮后：德国6分(+7)已占据头名主动；科特迪瓦3分(0)第二；厄瓜多尔1分(-1)；库拉索1分(-6)。科特迪瓦胜利可直接锁定晋级，拿到1分也非常接近出线；库拉索必须击败科特迪瓦，并最好同时寄望厄瓜多尔不胜德国，若厄瓜多尔取胜则库拉索即使赢球也大概率受净胜球拖累，只能看最佳第三名排名。48队赛制为每组前二及8个最佳第三名进32强。",
+     "summary_zh": "E组收官关键战。库拉索世界排名82，队史首次世界杯，首轮1-7负德国后靠Eloy Room神勇发挥0-0逼平厄瓜多尔，但净胜球劣势巨大且Juninho Bacuna有伤情疑问；科特迪瓦世界排名33，首轮1-0绝杀厄瓜多尔、次轮1-2惜败德国，整体实力、速度和出线形势均占优。历史交锋为空，赔率一边倒支持科特迪瓦。",
+     "sources": [
+      "https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&language=en&count=500",
+      "https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en",
+      "https://apnews.com/article/ivory-coast-world-cup-curacao-wahi-c641f73a27ac2bfd57353e1f850eab84",
+      "https://apnews.com/article/ecuador-curacao-world-cup-soccer-0b542d63af13ea256222e8cc2243ed2c",
+      "https://www.thesun.co.uk/sport/39497615/curacao-ivory-coast-betting-tips-predictions-odds/",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E"
+     ],
+     "result": {
+      "id": "2026-06-25-CUW-CIV",
+      "score": "0-2",
+      "winner": "away"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-CUW-CIV",
+        "winner": "away",
+        "score": "0-2",
+        "confidence": 75,
+        "reasoning_zh": "库拉索攻防疲软，科特迪瓦需胜出线且锋线高效"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-CUW-CIV",
+        "winner": "away",
+        "score": "0-1",
+        "confidence": 72,
+        "reasoning_zh": "科特迪瓦实力与战意占优，但库拉索0-0逼平厄瓜多尔展现铁桶阵韧性，预计科特迪瓦小胜晋级。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-CUW-CIV",
+        "winner": "away",
+        "score": "0-2",
+        "confidence": 72,
+        "reasoning_zh": "科特迪瓦实力速度全面占优，赢球即晋级，库拉索净胜球巨差只能搏命，客队胜出。"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-CUW-CIV",
+        "winner": "away",
+        "score": "0-3",
+        "confidence": 85,
+        "reasoning_zh": "科特迪瓦实力远超库拉索且需锁定出线，库拉索核心巴库纳出战存疑，看好非洲大象轻松取胜。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-CUW-CIV",
+        "winner": "away",
+        "score": "0-3",
+        "confidence": 82,
+        "reasoning_zh": "科特迪瓦实力和动力占优，库拉索压出易失守。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-25-ECU-GER",
+     "group": "E",
+     "home": {
+      "code": "ECU",
+      "en": "Ecuador",
+      "zh": "厄瓜多尔",
+      "flag": "🇪🇨"
+     },
+     "away": {
+      "code": "GER",
+      "en": "Germany",
+      "zh": "德国",
+      "flag": "🇩🇪"
+     },
+     "kickoff_local": "2026-06-25 16:00（新泽西东拉瑟福德，美东时间 EDT）",
+     "kickoff_beijing": "2026-06-26 04:00（北京时间周五凌晨）",
+     "venue": "New York New Jersey Stadium（MetLife Stadium），美国新泽西州东拉瑟福德（E组第3轮收官）",
+     "teams": {
+      "Ecuador": {
+       "name_zh": "厄瓜多尔",
+       "fifa_ranking": 24,
+       "qualified_via": "南美区CONMEBOL循环赛亚军直接晋级；18轮仅2负、失5球，虽有扣3分背景仍列阿根廷之后。",
+       "coach": "塞巴斯蒂安·贝卡塞塞 (Sebastián Beccacece)",
+       "wc_history": "队史第5次参加世界杯，最佳成绩为2006年16强。",
+       "key_players": [
+        {
+         "name": "Moisés Caicedo",
+         "pos": "中场",
+         "club": "切尔西"
+        },
+        {
+         "name": "Willian Pacho",
+         "pos": "中后卫",
+         "club": "巴黎圣日耳曼"
+        },
+        {
+         "name": "Piero Hincapié",
+         "pos": "中后卫/左后卫",
+         "club": "阿森纳"
+        },
+        {
+         "name": "Pervis Estupiñán",
+         "pos": "左后卫",
+         "club": "AC米兰"
+        },
+        {
+         "name": "Enner Valencia",
+         "pos": "前锋/队长",
+         "club": "帕丘卡"
+        },
+        {
+         "name": "John Yeboah",
+         "pos": "攻击中场/边锋",
+         "club": "威尼斯/待核"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-20",
+         "opponent": "库拉索（世界杯E组第2轮）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-14",
+         "opponent": "科特迪瓦（世界杯E组第1轮）",
+         "score": "0-1",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-07",
+         "opponent": "危地马拉（友谊赛）",
+         "score": "3-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-05-30",
+         "opponent": "沙特阿拉伯（友谊赛）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "荷兰（友谊赛）",
+         "score": "1-1",
+         "result": "D"
+        }
+       ]
+      },
+      "Germany": {
+       "name_zh": "德国",
+       "fifa_ranking": 10,
+       "qualified_via": "欧洲区UEFA A组头名直接晋级；2025-11-17主场6-0胜斯洛伐克锁定世界杯席位。",
+       "coach": "尤利安·纳格尔斯曼 (Julian Nagelsmann)，常用4-2-3-1",
+       "wc_history": "4次世界杯冠军（1954、1974、1990、2014）；2018、2022连续两届小组赛出局，本届已提前锁定E组第一。",
+       "key_players": [
+        {
+         "name": "Joshua Kimmich",
+         "pos": "中场/右后卫/队长",
+         "club": "拜仁慕尼黑"
+        },
+        {
+         "name": "Florian Wirtz",
+         "pos": "攻击中场",
+         "club": "利物浦"
+        },
+        {
+         "name": "Jamal Musiala",
+         "pos": "攻击中场",
+         "club": "拜仁慕尼黑"
+        },
+        {
+         "name": "Kai Havertz",
+         "pos": "前锋/前腰",
+         "club": "阿森纳"
+        },
+        {
+         "name": "Manuel Neuer",
+         "pos": "门将",
+         "club": "拜仁慕尼黑"
+        },
+        {
+         "name": "Deniz Undav",
+         "pos": "前锋",
+         "club": "斯图加特"
+        },
+        {
+         "name": "Antonio Rüdiger",
+         "pos": "中后卫",
+         "club": "皇家马德里"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-20",
+         "opponent": "科特迪瓦（世界杯E组第2轮）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-14",
+         "opponent": "库拉索（世界杯E组第1轮）",
+         "score": "7-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "美国（友谊赛）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-05-31",
+         "opponent": "芬兰（友谊赛）",
+         "score": "4-0",
+         "result": "W"
+        },
+        {
+         "date": "2025-11-17",
+         "opponent": "斯洛伐克（世预赛）",
+         "score": "6-0",
+         "result": "W"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "Bavarian Football Works赛前预览（美式赔率换算十进制）",
+       "home_win": 3.6,
+       "draw": 4.1,
+       "away_win": 1.91,
+       "note": "home=厄瓜多尔；原始德国-110、平局+310、厄瓜多尔+260。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 2,
+      "summary_zh": "两队历史2次交手德国全胜：2006年世界杯小组赛德国3-0厄瓜多尔，2013年友谊赛德国4-2厄瓜多尔；总比分德国7-2。"
+     },
+     "news": [
+      {
+       "team": "Germany",
+       "headline_zh": "德国已提前锁定E组第一",
+       "detail_zh": "德国前两轮7-1胜库拉索、2-1逆转科特迪瓦，6分且凭交锋优势已锁定小组头名，末轮不影响德国排名。",
+       "source": "Bavarian Football Works"
+      },
+      {
+       "team": "Germany",
+       "headline_zh": "纳格尔斯曼不会大幅轮换",
+       "detail_zh": "德国赛前消息称纳格尔斯曼希望延续主力磨合，除施洛特贝克和纳撒尼尔·布朗因伤缺席外，不会把本场完全当成练兵。",
+       "source": "Bavarian Football Works"
+      },
+      {
+       "team": "Germany",
+       "headline_zh": "施洛特贝克重伤，布朗轻伤休战",
+       "detail_zh": "施洛特贝克在对科特迪瓦比赛中遭遇严重韧带伤，预计缺席本届剩余比赛；左后卫布朗有内收肌小伤。",
+       "source": "Bavarian Football Works"
+      },
+      {
+       "team": "Ecuador",
+       "headline_zh": "厄瓜多尔两轮仍未进球",
+       "detail_zh": "厄瓜多尔首轮0-1负科特迪瓦，次轮对库拉索27脚射门仍0-0；库拉索门将Eloy Room完成15次扑救。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Ecuador",
+       "headline_zh": "卡塞多已结束首战停赛",
+       "detail_zh": "卡塞多因世预赛累计黄牌缺席首战对科特迪瓦，已可出战库拉索与德国；本场中场对抗和纪律风险仍是关注点。",
+       "source": "FourFourTwo"
+      }
+     ],
+     "group_context_zh": "E组两轮后：德国6分（9进2失，净胜+7）已锁定小组第一；科特迪瓦3分（净胜0）第二；厄瓜多尔1分（0进1失，净胜-1）第三；库拉索1分（1进7失，净胜-6）第四。末轮同时间进行：厄瓜多尔vs德国、库拉索vs科特迪瓦。厄瓜多尔若不胜基本出局；若击败德国且库拉索击败科特迪瓦，厄瓜多尔大概率升至小组第二；若厄瓜多尔取胜但科特迪瓦不败，厄瓜多尔多半只能以4分第三名竞争32强名额。",
+     "summary_zh": "动力差异明显的E组收官战：德国两连胜后已锁定头名，但最新队内消息显示纳格尔斯曼不会大幅轮换，只会因施洛特贝克重伤、布朗轻伤做被动调整。厄瓜多尔纸面中后场很强，却在前两轮0进球，仅1分，必须赢德国才有现实晋级希望。赔率仍明显偏向德国。",
+     "sources": [
+      "https://inside.fifa.com/fifa-world-ranking/men",
+      "https://www.bavarianfootballworks.com/fifa-world-cup/220354/world-cup-matchday-preview-ecuador-vs-germany",
+      "https://www.bavarianfootballworks.com/germany-international-soccer/221000/germany-ecuador-world-cup-lineups-rotation-julian-nagelsmann-deniz-undav",
+      "https://www.theguardian.com/football/2026/jun/21/curacao-ecuador-world-cup-group-e-match-report",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E"
+     ],
+     "result": {
+      "id": "2026-06-25-ECU-GER",
+      "score": "2-1",
+      "winner": "home"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-ECU-GER",
+        "winner": "away",
+        "score": "1-2",
+        "confidence": 65,
+        "reasoning_zh": "德国已锁定头名但不大幅轮换，厄瓜多尔急需取胜却前两轮0球"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-ECU-GER",
+        "winner": "away",
+        "score": "1-2",
+        "confidence": 65,
+        "reasoning_zh": "德国虽锁定头名但阵容仍强，厄瓜多尔前两轮未进球且背水一战易留空当。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-ECU-GER",
+        "winner": "draw",
+        "score": "1-1",
+        "confidence": 40,
+        "reasoning_zh": "德国已锁头名动力不足，厄瓜多尔中后场强必须取胜全力压上，但两轮0进球，平局可能性大。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-ECU-GER",
+        "winner": "draw",
+        "score": "1-1",
+        "confidence": 60,
+        "reasoning_zh": "德国锁定小组第一预计轻微轮换，厄瓜多尔有凯塞多复出退无可退全力一搏，两队各取一分。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-ECU-GER",
+        "winner": "away",
+        "score": "0-2",
+        "confidence": 66,
+        "reasoning_zh": "厄瓜多尔进攻低效，德国不大轮换仍占优。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-25-JPN-SWE",
+     "group": "F",
+     "home": {
+      "code": "JPN",
+      "en": "Japan",
+      "zh": "日本",
+      "flag": "🇯🇵"
+     },
+     "away": {
+      "code": "SWE",
+      "en": "Sweden",
+      "zh": "瑞典",
+      "flag": "🇸🇪"
+     },
+     "kickoff_local": "2026-06-25 18:00（达拉斯/阿灵顿当地 CDT）",
+     "kickoff_beijing": "2026-06-26 07:00（北京时间周五上午）",
+     "venue": "Dallas Stadium（AT&T Stadium），美国德州阿灵顿/达拉斯赛区（F组第3轮收官）",
+     "teams": {
+      "Japan": {
+       "name_zh": "日本",
+       "fifa_ranking": 18,
+       "qualified_via": "亚洲区第三阶段C组头名，2025-03-20锁定晋级；连续第8次参加世界杯。",
+       "coach": "森保一 (Hajime Moriyasu)，常用3-4-2-1/3-4-3",
+       "wc_history": "世界杯常客，近年多次晋级16强；本届前两轮4分，打平即可确保小组前二。",
+       "key_players": [
+        {
+         "name": "Zion Suzuki",
+         "pos": "门将",
+         "club": "帕尔马"
+        },
+        {
+         "name": "Takehiro Tomiyasu",
+         "pos": "后卫",
+         "club": "阿森纳"
+        },
+        {
+         "name": "Ko Itakura",
+         "pos": "后卫",
+         "club": "门兴"
+        },
+        {
+         "name": "Daichi Kamada",
+         "pos": "中场/前腰",
+         "club": "水晶宫"
+        },
+        {
+         "name": "Ritsu Doan",
+         "pos": "攻击中场",
+         "club": "弗赖堡"
+        },
+        {
+         "name": "Junya Ito",
+         "pos": "边路",
+         "club": "兰斯"
+        },
+        {
+         "name": "Ayase Ueda",
+         "pos": "前锋",
+         "club": "费耶诺德"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-21",
+         "opponent": "突尼斯（世界杯F组第2轮）",
+         "score": "4-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-14",
+         "opponent": "荷兰（世界杯F组第1轮）",
+         "score": "2-2",
+         "result": "D"
+        },
+        {
+         "date": "2026-05-31",
+         "opponent": "冰岛（友谊赛）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "英格兰（友谊赛）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-28",
+         "opponent": "苏格兰（友谊赛）",
+         "score": "1-0",
+         "result": "W"
+        }
+       ]
+      },
+      "Sweden": {
+       "name_zh": "瑞典",
+       "fifa_ranking": 38,
+       "qualified_via": "欧洲区附加赛Path B晋级；2026-03-26半决赛3-1胜乌克兰，2026-03-31决赛3-2胜波兰。",
+       "coach": "格雷厄姆·波特 (Graham Potter)",
+       "wc_history": "历史最佳为1958年亚军；近年起伏较大，本届靠附加赛惊险晋级。",
+       "key_players": [
+        {
+         "name": "Alexander Isak",
+         "pos": "前锋",
+         "club": "利物浦"
+        },
+        {
+         "name": "Viktor Gyökeres",
+         "pos": "前锋",
+         "club": "阿森纳"
+        },
+        {
+         "name": "Anthony Elanga",
+         "pos": "边锋/前锋",
+         "club": "纽卡斯尔联"
+        },
+        {
+         "name": "Lucas Bergvall",
+         "pos": "中场",
+         "club": "托特纳姆热刺"
+        },
+        {
+         "name": "Yasin Ayari",
+         "pos": "中场",
+         "club": "布莱顿"
+        },
+        {
+         "name": "Victor Lindelöf",
+         "pos": "后卫",
+         "club": "曼联"
+        },
+        {
+         "name": "Isak Hien",
+         "pos": "后卫",
+         "club": "亚特兰大"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-20",
+         "opponent": "荷兰（世界杯F组第2轮）",
+         "score": "1-5",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-14",
+         "opponent": "突尼斯（世界杯F组第1轮）",
+         "score": "5-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-04",
+         "opponent": "希腊（友谊赛）",
+         "score": "2-2",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-01",
+         "opponent": "挪威（友谊赛）",
+         "score": "1-3",
+         "result": "L"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "波兰（世界杯欧洲区附加赛决赛）",
+         "score": "3-2",
+         "result": "W"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "talkSPORT引用bet365（主胜项）",
+       "home_win": 1.91,
+       "draw": null,
+       "away_win": null,
+       "note": "home=日本；公开页面抓到日本胜10/11，未列出平局/瑞典胜完整价格。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 7,
+      "summary_zh": "纳入1936年奥运会口径，两队历史7次交手：日本唯一胜利是1936年柏林奥运3-2。近现代A级赛口径日本0胜2平4负，最近一次是2002-05-25日本1-1瑞典。"
+     },
+     "news": [
+      {
+       "team": "Japan",
+       "headline_zh": "日本只需平局即可确保小组前二",
+       "detail_zh": "日本前两轮2-2平荷兰、4-0胜突尼斯，4分净胜+4；赛前预览普遍认为日本会利用瑞典必须压上的空间打反击。",
+       "source": "talkSPORT / SBNation"
+      },
+      {
+       "team": "Japan",
+       "headline_zh": "久保建英谨慎恢复，预计不踢瑞典",
+       "detail_zh": "西媒称久保已开始个人跑动训练，但仍未回归合练，预计缺席小组末轮，对32强淘汰赛也存疑。",
+       "source": "AS"
+      },
+      {
+       "team": "Japan",
+       "headline_zh": "远藤航退出世界杯",
+       "detail_zh": "日本队长远藤航因持续脚伤退出本届世界杯，并宣布结束国家队生涯；日本中场领导力受损。",
+       "source": "Times of India"
+      },
+      {
+       "team": "Sweden",
+       "headline_zh": "瑞典1-5负荷兰，边路防守被打穿",
+       "detail_zh": "荷兰连续进球大胜；瑞典替补埃兰加破门，但波特赛后承认球队暴露出防守经验与宽度保护问题。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Sweden",
+       "headline_zh": "埃兰加争取首发，瑞典必须主动进攻",
+       "detail_zh": "瑞典现积3分，击败日本即可反超进入前二；埃兰加表达希望首发出战日本。",
+       "source": "Aftonbladet"
+      }
+     ],
+     "group_context_zh": "F组两轮后：荷兰4分(+4，进7失3)第1，日本4分(+4，进6失2)第2，瑞典3分(0，进6失6)第3，突尼斯0分(-8)已出局。日本本场打平即可确保前二，赢球仍可争小组头名；输球则可能落到第三并寄望最佳第三名。瑞典赢球即可反超日本进前二；平局无法反超日本，但4分仍有较强最佳第三希望；输球则风险显著增加。",
+     "summary_zh": "F组收官关键战，日本排名更高、近5场4胜1平，本届已2-2平荷兰、4-0大胜突尼斯，只需平局即可锁定前二；但远藤航、久保建英等伤停削弱中前场。瑞典由波特执教，伊萨克和哲凯赖什锋线威胁大，但前两轮从5-1胜突尼斯到1-5负荷兰，防线稳定性是最大隐患。整体看，日本的平局容错和反击空间更好，瑞典必须主动压上。",
+     "sources": [
+      "https://api.fifa.com/api/v3/calendar/17/285023/400021471?language=en",
+      "https://talksport.com/betting/4360111/japan-vs-sweden-odds-tips-2026/",
+      "https://talksport.com/betting/4360014/world-cup-2026-spreadex-free-bets-japan-vs-sweden/",
+      "https://www.theguardian.com/football/2026/jun/20/netherlands-sweden-world-cup-group-f-match-report",
+      "https://www.sbnation.com/soccer/1119155/world-cup-2026-group-f-scenarios-japan-netherlands-sweden",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F"
+     ],
+     "result": {
+      "id": "2026-06-25-JPN-SWE",
+      "score": "1-1",
+      "winner": "draw"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-JPN-SWE",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 70,
+        "reasoning_zh": "日本只需平局即可出线，状态更好且反击犀利"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-JPN-SWE",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 60,
+        "reasoning_zh": "瑞典必须强攻但防线脆弱，日本反击质量更高，主场取三分。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-JPN-SWE",
+        "winner": "draw",
+        "score": "1-1",
+        "confidence": 45,
+        "reasoning_zh": "日本平局即出线主打反击，瑞典锋线强但防线漏洞大，双方各有得失，倾向平局。"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-JPN-SWE",
+        "winner": "home",
+        "score": "3-1",
+        "confidence": 70,
+        "reasoning_zh": "瑞典由于必须赢球将大举压上，这给擅长反击的日本留下巨大空间，看好日本利用对手防线漏洞取胜。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-JPN-SWE",
+        "winner": "draw",
+        "score": "2-2",
+        "confidence": 54,
+        "reasoning_zh": "瑞典锋线强但防线漏，日本反击好且平局可接受"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-25-TUN-NED",
+     "group": "F",
+     "home": {
+      "code": "TUN",
+      "en": "Tunisia",
+      "zh": "突尼斯",
+      "flag": "🇹🇳"
+     },
+     "away": {
+      "code": "NED",
+      "en": "Netherlands",
+      "zh": "荷兰",
+      "flag": "🇳🇱"
+     },
+     "kickoff_local": "2026-06-25 18:00（堪萨斯城当地 CDT；美东 19:00）",
+     "kickoff_beijing": "2026-06-26 07:00（北京时间周五上午）",
+     "venue": "Kansas City Stadium（GEHA Field at Arrowhead Stadium），美国密苏里州堪萨斯城（F组第3轮收官）",
+     "teams": {
+      "Tunisia": {
+       "name_zh": "突尼斯",
+       "fifa_ranking": 40,
+       "qualified_via": "非洲区CAF H组头名直接晋级；最终9胜1平、28分，预选赛全程0失球。",
+       "coach": "埃尔韦·勒纳尔 (Herve Renard)，2026-06-16火线接任",
+       "wc_history": "第7次参加世界杯；此前多届均止步小组赛，从未晋级淘汰赛。",
+       "key_players": [
+        {
+         "name": "Ellyes Skhiri",
+         "pos": "后腰/中场核心",
+         "club": "法兰克福"
+        },
+        {
+         "name": "Hannibal Mejbri",
+         "pos": "攻击中场",
+         "club": "伯恩利"
+        },
+        {
+         "name": "Anis Ben Slimane",
+         "pos": "中场",
+         "club": "谢菲尔德联"
+        },
+        {
+         "name": "Mohamed Ali Ben Romdhane",
+         "pos": "中场",
+         "club": "费内巴切"
+        },
+        {
+         "name": "Montassar Talbi",
+         "pos": "中后卫",
+         "club": "洛里昂"
+        },
+        {
+         "name": "Aymen Dahmen",
+         "pos": "门将",
+         "club": "斯法克斯"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-20",
+         "opponent": "日本（世界杯F组第2轮）",
+         "score": "0-4",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-14",
+         "opponent": "瑞典（世界杯F组第1轮）",
+         "score": "1-5",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "比利时（友谊赛）",
+         "score": "0-5",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-01",
+         "opponent": "奥地利（友谊赛）",
+         "score": "0-1",
+         "result": "L"
+        },
+        {
+         "date": "2026-04-01",
+         "opponent": "加拿大（友谊赛）",
+         "score": "0-0",
+         "result": "D"
+        }
+       ]
+      },
+      "Netherlands": {
+       "name_zh": "荷兰",
+       "fifa_ranking": 7,
+       "qualified_via": "欧洲区UEFA G组头名直接晋级；8战6胜2平积20分。",
+       "coach": "罗纳德·科曼 (Ronald Koeman)",
+       "wc_history": "第12次参加世界杯；三次亚军（1974、1978、2010），2014年季军，2022年止步八强。",
+       "key_players": [
+        {
+         "name": "Virgil van Dijk",
+         "pos": "中后卫/队长",
+         "club": "利物浦"
+        },
+        {
+         "name": "Frenkie de Jong",
+         "pos": "中场",
+         "club": "巴塞罗那"
+        },
+        {
+         "name": "Cody Gakpo",
+         "pos": "边锋/前锋",
+         "club": "利物浦"
+        },
+        {
+         "name": "Brian Brobbey",
+         "pos": "中锋",
+         "club": "阿贾克斯"
+        },
+        {
+         "name": "Denzel Dumfries",
+         "pos": "右后卫/翼卫",
+         "club": "皇家马德里"
+        },
+        {
+         "name": "Tijjani Reijnders",
+         "pos": "中场",
+         "club": "曼城"
+        },
+        {
+         "name": "Memphis Depay",
+         "pos": "前锋",
+         "club": "科林蒂安"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-20",
+         "opponent": "瑞典（世界杯F组第2轮）",
+         "score": "5-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-14",
+         "opponent": "日本（世界杯F组第1轮）",
+         "score": "2-2",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-08",
+         "opponent": "乌兹别克斯坦（友谊赛）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-03",
+         "opponent": "阿尔及利亚（友谊赛）",
+         "score": "0-1",
+         "result": "L"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "厄瓜多尔（友谊赛）",
+         "score": "1-1",
+         "result": "D"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "The Sun汇总Betfair/Paddy Power/Sky Bet（分数赔率换算十进制）",
+       "home_win": 19,
+       "draw": 8.5,
+       "away_win": 1.1,
+       "note": "home=突尼斯；原始突尼斯18/1、平15/2、荷兰1/10。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 3,
+      "summary_zh": "两队此前3次交手，突尼斯0胜1平2负，进2球失5球；最近一次为2009年友谊赛1-1。本场是双方首次世界杯交锋。"
+     },
+     "news": [
+      {
+       "team": "Tunisia",
+       "headline_zh": "突尼斯首轮惨败后换帅",
+       "detail_zh": "突尼斯1-5负瑞典后，Sabri Lamouchi在6月15日被解职；Herve Renard火线接手。",
+       "source": "People / FIFA"
+      },
+      {
+       "team": "Tunisia",
+       "headline_zh": "0-4负日本后提前出局",
+       "detail_zh": "突尼斯次轮被日本4-0击败，两战失9球、积0分，已无缘小组前三；勒纳尔只有数日带队，防守组织仍未改善。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Netherlands",
+       "headline_zh": "荷兰5-1大胜瑞典升至F组第一",
+       "detail_zh": "布罗比开场17分钟内梅开二度，加克波下半场双响，邓弗里斯贡献两次助攻。",
+       "source": "Managing Madrid / ESPN"
+      },
+      {
+       "team": "Netherlands",
+       "headline_zh": "德容和范戴克均有轻伤但表态乐观",
+       "detail_zh": "德容对瑞典赛前曾因身体问题存疑，最终首发约60分钟；范戴克有髋部撞击/神经压迫感，但本人称问题不大。",
+       "source": "Barca Blaugranes / The Sun"
+      }
+     ],
+     "group_context_zh": "F组两轮后：荷兰4分（7进3失，净胜+4）第一，日本4分（6进2失，净胜+4）第二，瑞典3分（6进6失）第三，突尼斯0分（1进9失，净胜-8）垫底且已出局。6月25日末轮两场同时开球：突尼斯vs荷兰、日本vs瑞典。荷兰赢球即可确保小组第一；打平仍大概率前二，但可能被日本反超；若输球且瑞典胜日本，荷兰可能跌至第三，但4分和现有净胜球使其作为最佳第三名前景仍强。",
+     "summary_zh": "强弱和动机都鲜明的F组收官战。突尼斯从预选赛0失球晋级，到正赛两场丢9球并中途换帅，已提前出局；荷兰则在2-2平日本后5-1击溃瑞典，布罗比、加克波和邓弗里斯状态上扬，目标是用胜利压住日本夺得小组第一。主要变量在荷兰健康状况：德容和范戴克都有轻微伤情但公开表态偏乐观。",
+     "sources": [
+      "https://www.sbnation.com/soccer/1119155/world-cup-2026-group-f-scenarios-japan-netherlands-sweden",
+      "https://www.thesun.co.uk/sport/39499853/tunisia-vs-netherlands-world-cup-betting-tips/",
+      "https://people.com/tunisia-soccer-team-fires-head-coach-one-game-into-2026-world-cup-12000166",
+      "https://www.theguardian.com/football/2026/jun/21/japan-tunisia-world-cup-group-f-match-report",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F"
+     ],
+     "result": {
+      "id": "2026-06-25-TUN-NED",
+      "score": "1-3",
+      "winner": "away"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-TUN-NED",
+        "winner": "away",
+        "score": "0-3",
+        "confidence": 80,
+        "reasoning_zh": "突尼斯两战丢9球已出局，荷兰状态正佳且目标小组第一"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-TUN-NED",
+        "winner": "away",
+        "score": "1-3",
+        "confidence": 80,
+        "reasoning_zh": "突尼斯已出局且换帅后防守崩溃，荷兰争头名进攻火力充足。"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-TUN-NED",
+        "winner": "away",
+        "score": "0-3",
+        "confidence": 80,
+        "reasoning_zh": "突尼斯已出局两战丢9球新帅难救，荷兰状态火热争头名，客队大胜。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-TUN-NED",
+        "winner": "away",
+        "score": "0-4",
+        "confidence": 88,
+        "reasoning_zh": "突尼斯防线已彻底崩溃且提前出局，荷兰状态正佳需要用大胜稳固小组第一。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-TUN-NED",
+        "winner": "away",
+        "score": "0-4",
+        "confidence": 85,
+        "reasoning_zh": "突尼斯防线崩盘，荷兰争头名火力正盛。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-25-TUR-USA",
+     "group": "D",
+     "home": {
+      "code": "TUR",
+      "en": "Turkiye",
+      "zh": "土耳其",
+      "flag": "🇹🇷"
+     },
+     "away": {
+      "code": "USA",
+      "en": "United States",
+      "zh": "美国",
+      "flag": "🇺🇸"
+     },
+     "kickoff_local": "2026-06-25 19:00（洛杉矶/英格尔伍德当地 PDT；美东 22:00）",
+     "kickoff_beijing": "2026-06-26 10:00（北京时间周五上午）",
+     "venue": "Los Angeles Stadium（SoFi Stadium），美国加州英格尔伍德/洛杉矶赛区（D组第3轮收官）",
+     "teams": {
+      "Turkiye": {
+       "name_zh": "土耳其",
+       "fifa_ranking": 22,
+       "qualified_via": "欧洲区预选赛E组第二，进入UEFA附加赛Path C；2026-03-26主场1-0罗马尼亚，2026-03-31客场1-0科索沃，时隔24年重返世界杯。",
+       "coach": "文森佐·蒙特拉 (Vincenzo Montella)，常用4-2-3-1",
+       "wc_history": "队史第3次参加世界杯（1954、2002、2026）；2002年韩日世界杯季军为队史最佳。",
+       "key_players": [
+        {
+         "name": "Hakan Çalhanoğlu",
+         "pos": "后腰/队长",
+         "club": "国际米兰"
+        },
+        {
+         "name": "Arda Güler",
+         "pos": "前腰/右路",
+         "club": "皇家马德里"
+        },
+        {
+         "name": "Kenan Yıldız",
+         "pos": "前锋/攻击中场",
+         "club": "尤文图斯"
+        },
+        {
+         "name": "Kerem Aktürkoğlu",
+         "pos": "边锋/伪九",
+         "club": "费内巴切"
+        },
+        {
+         "name": "Ferdi Kadıoğlu",
+         "pos": "边后卫/边翼",
+         "club": "布莱顿"
+        },
+        {
+         "name": "Merih Demiral",
+         "pos": "中后卫",
+         "club": "吉达国民"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-19",
+         "opponent": "巴拉圭（世界杯D组第2轮）",
+         "score": "0-1",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-13",
+         "opponent": "澳大利亚（世界杯D组第1轮）",
+         "score": "0-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "委内瑞拉（友谊赛）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-01",
+         "opponent": "北马其顿（友谊赛）",
+         "score": "4-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "科索沃（世预赛附加赛决赛）",
+         "score": "1-0",
+         "result": "W"
+        }
+       ]
+      },
+      "United States": {
+       "name_zh": "美国",
+       "fifa_ranking": 17,
+       "qualified_via": "东道主自动晋级（与加拿大、墨西哥共同主办2026世界杯）。",
+       "coach": "毛里西奥·波切蒂诺 (Mauricio Pochettino)",
+       "wc_history": "第12次参加世界杯；1930年季军为队史最佳，2002年打进八强，2022年止步16强。",
+       "key_players": [
+        {
+         "name": "Christian Pulisic",
+         "pos": "边锋/前腰",
+         "club": "AC米兰"
+        },
+        {
+         "name": "Folarin Balogun",
+         "pos": "中锋",
+         "club": "摩纳哥"
+        },
+        {
+         "name": "Tyler Adams",
+         "pos": "后腰/队长",
+         "club": "伯恩茅斯"
+        },
+        {
+         "name": "Weston McKennie",
+         "pos": "中场",
+         "club": "尤文图斯"
+        },
+        {
+         "name": "Antonee Robinson",
+         "pos": "左后卫",
+         "club": "富勒姆"
+        },
+        {
+         "name": "Chris Richards",
+         "pos": "中后卫",
+         "club": "水晶宫"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-19",
+         "opponent": "澳大利亚（世界杯D组第2轮）",
+         "score": "2-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-12",
+         "opponent": "巴拉圭（世界杯D组第1轮）",
+         "score": "4-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "德国（友谊赛）",
+         "score": "1-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-05-31",
+         "opponent": "塞内加尔（友谊赛）",
+         "score": "3-2",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "葡萄牙（友谊赛）",
+         "score": "0-2",
+         "result": "L"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "Oddschecker Win Market（分数赔率换算十进制）",
+       "home_win": 4.2,
+       "draw": 4.33,
+       "away_win": 1.88,
+       "note": "home=土耳其；原始土耳其16/5、平10/3、美国88/100；页面概率约27%/22%/51%。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 5,
+      "summary_zh": "赛前两队历史交手5次，双方各2胜、另1平；本场是首次世界杯交锋。最近一次为2025-06-07友谊赛，土耳其2-1击败美国。"
+     },
+     "news": [
+      {
+       "team": "United States",
+       "headline_zh": "美国已锁定D组头名",
+       "detail_zh": "美国前两轮4-1胜巴拉圭、2-0胜澳大利亚，已确定以D组第一进入32强；本场主要是保持节奏与保护球员。",
+       "source": "talkSPORT / SBNation"
+      },
+      {
+       "team": "United States",
+       "headline_zh": "普利西奇小腿伤后回归训练",
+       "detail_zh": "普利西奇因小腿问题缺席对澳大利亚一战，赛前已恢复训练并表示接近100%；波切蒂诺需决定给他多少时间找状态。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "United States",
+       "headline_zh": "四名主力身背黄牌，轮换概率高",
+       "detail_zh": "Tyler Adams、Folarin Balogun、Chris Richards、Antonee Robinson若再吃黄牌将停赛32强，因此可能被保护或限制出场。",
+       "source": "talkSPORT"
+      },
+      {
+       "team": "Turkiye",
+       "headline_zh": "土耳其两连败且0进球，已提前出局",
+       "detail_zh": "土耳其先后0-2负澳大利亚、0-1负巴拉圭；据赛前报道，两战累计62脚射门未进球，进攻效率成为最大问题。",
+       "source": "talkSPORT"
+      },
+      {
+       "team": "Turkiye",
+       "headline_zh": "蒙特拉承受强烈批评但拒绝辞职",
+       "detail_zh": "出局后土耳其球迷和媒体批评升级，蒙特拉公开维护球员并表示仍会继续带队。",
+       "source": "Stars and Stripes FC"
+      }
+     ],
+     "group_context_zh": "D组赛前形势：美国6分、净胜球+5，已锁定小组第一；澳大利亚3分、净胜球0，巴拉圭3分、净胜球-2，将在同日直接争小组第二；土耳其0分、净胜球-3，因前两轮不敌澳大利亚和巴拉圭已提前出局。48队赛制为每组前二加8个成绩最好的小组第三晋级32强；美国作为D组第一将在32强对阵B/E/F/I/J组之一的小组第三。",
+     "summary_zh": "D组收官战竞技悬念较低但信息量很大：美国已提前头名出线，重点是普利西奇复出节奏、黄牌球员保护和延续前两轮6进球1失球的状态；土耳其则是本届最失望球队之一，赛前被视为出线竞争者，却两战0球提前出局。赔率端仍明显看好美国。",
+     "sources": [
+      "https://talksport.com/football/world-cup/4360348/usmnt-vs-turkey-kick-off-time-date-weather-world-cup/",
+      "https://www.oddschecker.com/football/world-cup/turkey-v-usa/winner",
+      "https://www.starsandstripesfc.com/world-cup-2026-content/44400/usa-vs-turkiye-2026-world-cup-scouting-turkiye",
+      "https://www.sbnation.com/fifa-world-cup/1119067/world-cup-2026-how-can-the-usmnt-advance-out-of-group-d",
+      "https://www.theguardian.com/football/2026/jun/25/mauricio-pochettino-usa-turkey-world-cup-preview",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D"
+     ],
+     "result": {
+      "id": "2026-06-25-TUR-USA",
+      "score": "3-2",
+      "winner": "home"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-TUR-USA",
+        "winner": "away",
+        "score": "0-2",
+        "confidence": 68,
+        "reasoning_zh": "土耳其两战0球已出局，美国头名出线但保持节奏"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-TUR-USA",
+        "winner": "draw",
+        "score": "1-1",
+        "confidence": 55,
+        "reasoning_zh": "美国已锁定头名大概率轮换，土耳其为荣誉而战且具备破门能力。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-TUR-USA",
+        "winner": "away",
+        "score": "1-2",
+        "confidence": 50,
+        "reasoning_zh": "土耳其两战0球出局士气低落，美国头名稳但可能轮换护牌，整体仍占优势。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-TUR-USA",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 60,
+        "reasoning_zh": "美国已稳拿头名必大幅轮换并保护黄牌主力。土耳其两战攒大把射门未果，为荣誉而战必死咬二线美国。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-TUR-USA",
+        "winner": "away",
+        "score": "0-1",
+        "confidence": 58,
+        "reasoning_zh": "美国或轮换控风险，土耳其两战零球难破门。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-25-PAR-AUS",
+     "group": "D",
+     "home": {
+      "code": "PAR",
+      "en": "Paraguay",
+      "zh": "巴拉圭",
+      "flag": "🇵🇾"
+     },
+     "away": {
+      "code": "AUS",
+      "en": "Australia",
+      "zh": "澳大利亚",
+      "flag": "🇦🇺"
+     },
+     "kickoff_local": "2026-06-25 19:00（圣克拉拉当地 PDT；美东 22:00 ET）",
+     "kickoff_beijing": "2026-06-26 10:00（北京时间周五上午）",
+     "venue": "San Francisco Bay Area Stadium（Levi's Stadium），美国加州圣克拉拉/旧金山湾区（D组第3轮收官）",
+     "teams": {
+      "Paraguay": {
+       "name_zh": "巴拉圭",
+       "fifa_ranking": 40,
+       "qualified_via": "南美区CONMEBOL预选赛第6名，拿到最后一个直通名额，2025年9月锁定资格；自2010年后首次重返世界杯。",
+       "coach": "古斯塔沃·阿尔法罗 (Gustavo Alfaro)",
+       "wc_history": "第9次参加世界杯，队史最佳为2010年南非世界杯八强；传统标签是低位防守、身体对抗和反击。",
+       "key_players": [
+        {
+         "name": "Miguel Almirón",
+         "pos": "边锋/进攻核心",
+         "club": "亚特兰大联"
+        },
+        {
+         "name": "Julio Enciso",
+         "pos": "前锋/攻击型中场",
+         "club": "斯特拉斯堡"
+        },
+        {
+         "name": "Gustavo Gómez",
+         "pos": "中后卫/队长",
+         "club": "帕尔梅拉斯"
+        },
+        {
+         "name": "Antonio Sanabria",
+         "pos": "中锋",
+         "club": "克雷莫纳"
+        },
+        {
+         "name": "Matías Galarza",
+         "pos": "中场",
+         "club": "河床"
+        },
+        {
+         "name": "Andrés Cubas",
+         "pos": "后腰",
+         "club": "温哥华白浪"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-19",
+         "opponent": "土耳其（世界杯D组第2轮）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-12",
+         "opponent": "美国（世界杯D组第1轮）",
+         "score": "1-4",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-05",
+         "opponent": "尼加拉瓜（热身赛）",
+         "score": "4-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "摩洛哥（热身赛）",
+         "score": "1-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-03-27",
+         "opponent": "希腊（热身赛）",
+         "score": "1-0",
+         "result": "W"
+        }
+       ]
+      },
+      "Australia": {
+       "name_zh": "澳大利亚",
+       "fifa_ranking": 27,
+       "qualified_via": "亚洲区AFC第三阶段C组第二名直接晋级，2025年6月10日客场2-1逆转沙特锁定席位；连续第6届、总第7次参加世界杯。",
+       "coach": "托尼·波波维奇 (Tony Popovic)",
+       "wc_history": "第7次参加世界杯，2006年和2022年两次进入16强为队史最佳；本场若不败将大概率锁定队史第三次淘汰赛资格。",
+       "key_players": [
+        {
+         "name": "Mathew Ryan",
+         "pos": "门将/队长",
+         "club": "莱万特"
+        },
+        {
+         "name": "Harry Souttar",
+         "pos": "中后卫",
+         "club": "谢菲尔德联"
+        },
+        {
+         "name": "Alessandro Circati",
+         "pos": "中后卫",
+         "club": "帕尔马"
+        },
+        {
+         "name": "Jackson Irvine",
+         "pos": "中场",
+         "club": "圣保利"
+        },
+        {
+         "name": "Jordan Bos",
+         "pos": "左翼卫/左后卫",
+         "club": "费耶诺德"
+        },
+        {
+         "name": "Nestory Irankunda",
+         "pos": "边锋/前锋",
+         "club": "沃特福德"
+        },
+        {
+         "name": "Mohamed Toure",
+         "pos": "前锋",
+         "club": "诺维奇"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-19",
+         "opponent": "美国（世界杯D组第2轮）",
+         "score": "0-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-13",
+         "opponent": "土耳其（世界杯D组第1轮）",
+         "score": "2-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "瑞士（热身赛）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-05-30",
+         "opponent": "墨西哥（热身赛）",
+         "score": "0-1",
+         "result": "L"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "库拉索（FIFA系列赛）",
+         "score": "5-1",
+         "result": "W"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "Oddschecker最佳1X2赔率（分数赔率换算十进制）",
+       "home_win": 3,
+       "draw": 2.3,
+       "away_win": 4.2,
+       "note": "home=巴拉圭；原始巴拉圭2/1，平局13/10，澳大利亚16/5；页面概率约35%/35%/30%。"
+      },
+      {
+       "source": "bet365 via talkSPORT（交叉验证）",
+       "home_win": null,
+       "draw": 2.25,
+       "away_win": null,
+       "note": "talkSPORT赛前推荐平局5/4（十进制2.25）与小1.5球13/10；未完整列出1X2三项。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 5,
+      "summary_zh": "两队历史交手5次，巴拉圭0胜3平2负，进2球失4球；澳大利亚保持不败。最近一次为2010年友谊赛澳大利亚1-0取胜；双方世界杯正赛首次交手。"
+     },
+     "news": [
+      {
+       "team": "Australia",
+       "headline_zh": "澳大利亚右路和锋线被迫调整",
+       "detail_zh": "右后卫Jacob Italiano训练中内收肌受伤缺阵，Mathew Leckie也因对美国时的腿筋伤缺席；Geria、Trewin、Irankunda、Metcalfe、Volpato是替代人选。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Paraguay",
+       "headline_zh": "阿尔米隆停赛，巴拉圭创造力受损",
+       "detail_zh": "阿尔米隆在1-0击败土耳其一战中被红牌罚下，本场停赛；阿尔法罗预计更多依靠恩西索、加拉尔萨和定位球/反击制造机会。",
+       "source": "The Guardian / talkSPORT"
+      },
+      {
+       "team": "Both",
+       "headline_zh": "出线形势直接对撞",
+       "detail_zh": "澳大利亚因净胜球占优，赢球或打平即可锁定D组第二；巴拉圭必须取胜才能反超拿到第二，若不胜只能看最佳第三名竞争。",
+       "source": "The Guardian / SBNation"
+      },
+      {
+       "team": "Australia",
+       "headline_zh": "黄牌风险影响淘汰赛排兵",
+       "detail_zh": "苏塔尔、奇尔卡蒂、博斯均已有一张黄牌，再染黄将影响潜在32强战；波波维奇同时要管理图雷的体能。",
+       "source": "The Guardian"
+      }
+     ],
+     "group_context_zh": "D组两轮后：美国2战6分、净胜+5，已锁定小组第一；澳大利亚3分、净胜0，暂列第二；巴拉圭3分、净胜-2，暂列第三；土耳其0分、净胜-3，已出局。末轮美国vs土耳其与巴拉圭vs澳大利亚同时开球。澳大利亚本场只需不败即可第二出线；巴拉圭必须赢球才能拿第二，打平或输球则进入第三名横向比较。",
+     "summary_zh": "D组第二名决战。巴拉圭排名第40，阿尔法罗体系防守强硬，但阿尔米隆停赛让必须赢球的一方少了最重要的推进和创造点；澳大利亚排名第27，波波维奇的5-4-1/三中卫体系更适合守平局，且历史交锋对巴拉圭保持不败。风险在于澳大利亚边路伤停和多名后卫一黄在身。赔率市场给出平局低赔，比赛预期偏谨慎、小比分。",
+     "sources": [
+      "https://www.theguardian.com/football/2026/jun/25/socceroos-australia-paraguay-game-permutations-last-32-world-cup",
+      "https://www.theguardian.com/football/2026/jun/24/australia-changes-world-cup-paraguay",
+      "https://talksport.com/betting/4360485/paraguay-vs-australia-odds-tips-2026/",
+      "https://www.oddschecker.com/football/world-cup/paraguay-v-australia/winner",
+      "https://www.sbnation.com/fifa-world-cup/1119067/world-cup-2026-how-can-the-usmnt-advance-out-of-group-d",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D"
+     ],
+     "result": {
+      "id": "2026-06-25-PAR-AUS",
+      "score": "0-0",
+      "winner": "draw"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-PAR-AUS",
+        "winner": "draw",
+        "score": "1-1",
+        "confidence": 72,
+        "reasoning_zh": "巴拉圭缺核心阿尔米隆，澳大利亚只需不败即可出线"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-PAR-AUS",
+        "winner": "draw",
+        "score": "0-0",
+        "confidence": 58,
+        "reasoning_zh": "巴拉圭少了阿尔米隆创造力大减，澳大利亚立足防守即可出线，预计闷平。"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-PAR-AUS",
+        "winner": "draw",
+        "score": "1-1",
+        "confidence": 42,
+        "reasoning_zh": "澳洲不败即出线主打稳守，巴拉圭阿尔米隆停赛创造力受损，谨慎小球，倾向平局。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-PAR-AUS",
+        "winner": "away",
+        "score": "0-1",
+        "confidence": 65,
+        "reasoning_zh": "巴拉圭大将阿尔米隆停赛对进攻打击巨大，必须抢攻的他们极易被防守稳固的澳大利亚反击绝杀。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-25-PAR-AUS",
+        "winner": "away",
+        "score": "0-1",
+        "confidence": 52,
+        "reasoning_zh": "巴拉圭少核心需强攻，澳洲防反偷一球。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    }
+   ],
+   "settled": true,
+   "day_points": {
+    "x-ai/grok-4.3": 9,
+    "moonshotai/kimi-k2.6": 12,
+    "anthropic/claude-fable-5": 14,
+    "google/gemini-3.5-flash": 6,
+    "sakana/fugu-ultra": 6,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
+   },
+   "prompt": {
+    "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断会出现冷门、平局或非热门球队取胜时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的精确比分。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
+    "user": "以下是 2026-06-25（明天）世界杯 6 场小组赛的完整资料文档：\n\n═══════════ 资料文档开始 ═══════════\n# 2026-06-25 世界杯比赛资料文档\n\n本文档汇总了 2026-06-25（比赛日，北美当地时间）FIFA 2026 世界杯全部 6 场小组赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与小组形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-06-25-CUW-CIV`：E组 库拉索(Curaçao, 主) vs 科特迪瓦(Ivory Coast, 客)\n- `2026-06-25-ECU-GER`：E组 厄瓜多尔(Ecuador, 主) vs 德国(Germany, 客)\n- `2026-06-25-JPN-SWE`：F组 日本(Japan, 主) vs 瑞典(Sweden, 客)\n- `2026-06-25-TUN-NED`：F组 突尼斯(Tunisia, 主) vs 荷兰(Netherlands, 客)\n- `2026-06-25-TUR-USA`：D组 土耳其(Turkiye, 主) vs 美国(United States, 客)\n- `2026-06-25-PAR-AUS`：D组 巴拉圭(Paraguay, 主) vs 澳大利亚(Australia, 客)\n\n---\n\n## E组 · 库拉索 vs 科特迪瓦（match_id: `2026-06-25-CUW-CIV`）\n\n- 开球：2026-06-25 16:00（费城当地时间 EDT；FIFA API: 2026-06-25T20:00:00Z）｜北京时间 2026-06-26 04:00（北京时间周五凌晨）\n- 场地：Philadelphia Stadium（Lincoln Financial Field），美国宾夕法尼亚州费城（E组第3轮收官）\n\n### 库拉索（Curaçao，主队）\n- FIFA 排名：第 82 位\n- 晋级之路：中北美及加勒比区第三轮B组头名；2025-11-18客场0-0平牙买加后锁定队史首次世界杯正赛资格。\n- 主教练：迪克·艾德沃卡特 (Dick Advocaat)\n- 世界杯历史：队史首次参加世界杯；本届已取得队史世界杯首球和首个积分。\n- 核心球员：\n  - Eloy Room（门将，维特斯/库拉索国家队）\n  - Leandro Bacuna（中场/队长，格罗宁根）\n  - Juninho Bacuna（中场，福伦丹）\n  - Tahith Chong（中前场，谢菲尔德联）\n  - Jurgen Locadia（前锋，自由身/待核）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-20 vs 厄瓜多尔（世界杯E组第2轮）：0-0（D）\n  - 2026-06-14 vs 德国（世界杯E组第1轮）：1-7（L）\n  - 2026-06-07 vs 阿鲁巴（友谊赛）：4-0（W）\n  - 2026-05-30 vs 苏格兰（友谊赛）：1-4（L）\n  - 2026-03-31 vs 澳大利亚（FIFA Series）：1-5（L）\n\n### 科特迪瓦（Ivory Coast，客队）\n- FIFA 排名：第 33 位\n- 晋级之路：非洲区CAF F组头名直接晋级；2025-10-14锁定世界杯资格，队史第4次参加世界杯。\n- 主教练：埃梅尔斯·法埃 (Emerse Faé)\n- 世界杯历史：2006、2010、2014三届均止步小组赛；本场冲击队史首次世界杯淘汰赛。\n- 核心球员：\n  - Amad Diallo（边锋/前锋，曼联）\n  - Yan Diomandé（边锋，莱比锡）\n  - Franck Kessié（中场，吉达国民）\n  - Ibrahim Sangaré（后腰，诺丁汉森林）\n  - Elye Wahi（前锋，马赛）\n  - Ousmane Diomandé（中卫，葡萄牙体育）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-20 vs 德国（世界杯E组第2轮）：1-2（L）\n  - 2026-06-14 vs 厄瓜多尔（世界杯E组第1轮）：1-0（W）\n  - 2026-06-04 vs 法国（友谊赛）：2-1（W）\n  - 2026-03-31 vs 苏格兰（友谊赛）：1-0（W）\n  - 2026-03-28 vs 韩国（友谊赛）：4-0（W）\n\n### 博彩赔率（1X2，十进制）\n- The Sun / bookmaker references（分数赔率换算十进制）：主胜 13 / 平 8.5 / 客胜 1.13（home=库拉索；原始库拉索12/1、平局15/2、科特迪瓦1/8。赔率快照临场会变动。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队此前没有正式或公开记录的A级交锋，本场为首次世界杯/正式大赛相遇。\n\n### 近期新闻\n- [Ivory Coast] 科特迪瓦冲击队史首次世界杯淘汰赛：AP赛前称科特迪瓦击败库拉索即可晋级；球队首轮1-0胜厄瓜多尔、次轮半场领先德国但最终1-2被逆转。（来源：AP）\n- [Ivory Coast] Elye Wahi预计回归可用名单：AP赛前报道提到Wahi expected back；球员赛前表示专注比赛，不评论场外争议。（来源：AP）\n- [Curaçao] Juninho Bacuna状态存疑：苏格兰太阳报称Bacuna对厄瓜多尔第75分钟左右因明显不适被换下，出战科特迪瓦仍待确认。（来源：The Scottish Sun）\n- [Curaçao] Eloy Room 15次扑救拿到首分：库拉索0-0厄瓜多尔，Room的高扑救量成为核心新闻；球队从首轮1-7惨败德国后反弹。（来源：AP）\n\n### 小组形势\n- E组两轮后：德国6分(+7)已占据头名主动；科特迪瓦3分(0)第二；厄瓜多尔1分(-1)；库拉索1分(-6)。科特迪瓦胜利可直接锁定晋级，拿到1分也非常接近出线；库拉索必须击败科特迪瓦，并最好同时寄望厄瓜多尔不胜德国，若厄瓜多尔取胜则库拉索即使赢球也大概率受净胜球拖累，只能看最佳第三名排名。48队赛制为每组前二及8个最佳第三名进32强。\n\n### 综述\n- E组收官关键战。库拉索世界排名82，队史首次世界杯，首轮1-7负德国后靠Eloy Room神勇发挥0-0逼平厄瓜多尔，但净胜球劣势巨大且Juninho Bacuna有伤情疑问；科特迪瓦世界排名33，首轮1-0绝杀厄瓜多尔、次轮1-2惜败德国，整体实力、速度和出线形势均占优。历史交锋为空，赔率一边倒支持科特迪瓦。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&language=en&count=500\n- https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en\n- https://apnews.com/article/ivory-coast-world-cup-curacao-wahi-c641f73a27ac2bfd57353e1f850eab84\n- https://apnews.com/article/ecuador-curacao-world-cup-soccer-0b542d63af13ea256222e8cc2243ed2c\n- https://www.thesun.co.uk/sport/39497615/curacao-ivory-coast-betting-tips-predictions-odds/\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E\n\n---\n\n## E组 · 厄瓜多尔 vs 德国（match_id: `2026-06-25-ECU-GER`）\n\n- 开球：2026-06-25 16:00（新泽西东拉瑟福德，美东时间 EDT）｜北京时间 2026-06-26 04:00（北京时间周五凌晨）\n- 场地：New York New Jersey Stadium（MetLife Stadium），美国新泽西州东拉瑟福德（E组第3轮收官）\n\n### 厄瓜多尔（Ecuador，主队）\n- FIFA 排名：第 24 位\n- 晋级之路：南美区CONMEBOL循环赛亚军直接晋级；18轮仅2负、失5球，虽有扣3分背景仍列阿根廷之后。\n- 主教练：塞巴斯蒂安·贝卡塞塞 (Sebastián Beccacece)\n- 世界杯历史：队史第5次参加世界杯，最佳成绩为2006年16强。\n- 核心球员：\n  - Moisés Caicedo（中场，切尔西）\n  - Willian Pacho（中后卫，巴黎圣日耳曼）\n  - Piero Hincapié（中后卫/左后卫，阿森纳）\n  - Pervis Estupiñán（左后卫，AC米兰）\n  - Enner Valencia（前锋/队长，帕丘卡）\n  - John Yeboah（攻击中场/边锋，威尼斯/待核）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-20 vs 库拉索（世界杯E组第2轮）：0-0（D）\n  - 2026-06-14 vs 科特迪瓦（世界杯E组第1轮）：0-1（L）\n  - 2026-06-07 vs 危地马拉（友谊赛）：3-0（W）\n  - 2026-05-30 vs 沙特阿拉伯（友谊赛）：2-1（W）\n  - 2026-03-31 vs 荷兰（友谊赛）：1-1（D）\n\n### 德国（Germany，客队）\n- FIFA 排名：第 10 位\n- 晋级之路：欧洲区UEFA A组头名直接晋级；2025-11-17主场6-0胜斯洛伐克锁定世界杯席位。\n- 主教练：尤利安·纳格尔斯曼 (Julian Nagelsmann)，常用4-2-3-1\n- 世界杯历史：4次世界杯冠军（1954、1974、1990、2014）；2018、2022连续两届小组赛出局，本届已提前锁定E组第一。\n- 核心球员：\n  - Joshua Kimmich（中场/右后卫/队长，拜仁慕尼黑）\n  - Florian Wirtz（攻击中场，利物浦）\n  - Jamal Musiala（攻击中场，拜仁慕尼黑）\n  - Kai Havertz（前锋/前腰，阿森纳）\n  - Manuel Neuer（门将，拜仁慕尼黑）\n  - Deniz Undav（前锋，斯图加特）\n  - Antonio Rüdiger（中后卫，皇家马德里）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-20 vs 科特迪瓦（世界杯E组第2轮）：2-1（W）\n  - 2026-06-14 vs 库拉索（世界杯E组第1轮）：7-1（W）\n  - 2026-06-06 vs 美国（友谊赛）：2-1（W）\n  - 2026-05-31 vs 芬兰（友谊赛）：4-0（W）\n  - 2025-11-17 vs 斯洛伐克（世预赛）：6-0（W）\n\n### 博彩赔率（1X2，十进制）\n- Bavarian Football Works赛前预览（美式赔率换算十进制）：主胜 3.6 / 平 4.1 / 客胜 1.91（home=厄瓜多尔；原始德国-110、平局+310、厄瓜多尔+260。）\n\n### 历史交锋（H2H）\n- 共交手 2 次。两队历史2次交手德国全胜：2006年世界杯小组赛德国3-0厄瓜多尔，2013年友谊赛德国4-2厄瓜多尔；总比分德国7-2。\n\n### 近期新闻\n- [Germany] 德国已提前锁定E组第一：德国前两轮7-1胜库拉索、2-1逆转科特迪瓦，6分且凭交锋优势已锁定小组头名，末轮不影响德国排名。（来源：Bavarian Football Works）\n- [Germany] 纳格尔斯曼不会大幅轮换：德国赛前消息称纳格尔斯曼希望延续主力磨合，除施洛特贝克和纳撒尼尔·布朗因伤缺席外，不会把本场完全当成练兵。（来源：Bavarian Football Works）\n- [Germany] 施洛特贝克重伤，布朗轻伤休战：施洛特贝克在对科特迪瓦比赛中遭遇严重韧带伤，预计缺席本届剩余比赛；左后卫布朗有内收肌小伤。（来源：Bavarian Football Works）\n- [Ecuador] 厄瓜多尔两轮仍未进球：厄瓜多尔首轮0-1负科特迪瓦，次轮对库拉索27脚射门仍0-0；库拉索门将Eloy Room完成15次扑救。（来源：The Guardian）\n- [Ecuador] 卡塞多已结束首战停赛：卡塞多因世预赛累计黄牌缺席首战对科特迪瓦，已可出战库拉索与德国；本场中场对抗和纪律风险仍是关注点。（来源：FourFourTwo）\n\n### 小组形势\n- E组两轮后：德国6分（9进2失，净胜+7）已锁定小组第一；科特迪瓦3分（净胜0）第二；厄瓜多尔1分（0进1失，净胜-1）第三；库拉索1分（1进7失，净胜-6）第四。末轮同时间进行：厄瓜多尔vs德国、库拉索vs科特迪瓦。厄瓜多尔若不胜基本出局；若击败德国且库拉索击败科特迪瓦，厄瓜多尔大概率升至小组第二；若厄瓜多尔取胜但科特迪瓦不败，厄瓜多尔多半只能以4分第三名竞争32强名额。\n\n### 综述\n- 动力差异明显的E组收官战：德国两连胜后已锁定头名，但最新队内消息显示纳格尔斯曼不会大幅轮换，只会因施洛特贝克重伤、布朗轻伤做被动调整。厄瓜多尔纸面中后场很强，却在前两轮0进球，仅1分，必须赢德国才有现实晋级希望。赔率仍明显偏向德国。\n\n### 资料来源\n- https://inside.fifa.com/fifa-world-ranking/men\n- https://www.bavarianfootballworks.com/fifa-world-cup/220354/world-cup-matchday-preview-ecuador-vs-germany\n- https://www.bavarianfootballworks.com/germany-international-soccer/221000/germany-ecuador-world-cup-lineups-rotation-julian-nagelsmann-deniz-undav\n- https://www.theguardian.com/football/2026/jun/21/curacao-ecuador-world-cup-group-e-match-report\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E\n\n---\n\n## F组 · 日本 vs 瑞典（match_id: `2026-06-25-JPN-SWE`）\n\n- 开球：2026-06-25 18:00（达拉斯/阿灵顿当地 CDT）｜北京时间 2026-06-26 07:00（北京时间周五上午）\n- 场地：Dallas Stadium（AT&T Stadium），美国德州阿灵顿/达拉斯赛区（F组第3轮收官）\n\n### 日本（Japan，主队）\n- FIFA 排名：第 18 位\n- 晋级之路：亚洲区第三阶段C组头名，2025-03-20锁定晋级；连续第8次参加世界杯。\n- 主教练：森保一 (Hajime Moriyasu)，常用3-4-2-1/3-4-3\n- 世界杯历史：世界杯常客，近年多次晋级16强；本届前两轮4分，打平即可确保小组前二。\n- 核心球员：\n  - Zion Suzuki（门将，帕尔马）\n  - Takehiro Tomiyasu（后卫，阿森纳）\n  - Ko Itakura（后卫，门兴）\n  - Daichi Kamada（中场/前腰，水晶宫）\n  - Ritsu Doan（攻击中场，弗赖堡）\n  - Junya Ito（边路，兰斯）\n  - Ayase Ueda（前锋，费耶诺德）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-21 vs 突尼斯（世界杯F组第2轮）：4-0（W）\n  - 2026-06-14 vs 荷兰（世界杯F组第1轮）：2-2（D）\n  - 2026-05-31 vs 冰岛（友谊赛）：1-0（W）\n  - 2026-03-31 vs 英格兰（友谊赛）：1-0（W）\n  - 2026-03-28 vs 苏格兰（友谊赛）：1-0（W）\n\n### 瑞典（Sweden，客队）\n- FIFA 排名：第 38 位\n- 晋级之路：欧洲区附加赛Path B晋级；2026-03-26半决赛3-1胜乌克兰，2026-03-31决赛3-2胜波兰。\n- 主教练：格雷厄姆·波特 (Graham Potter)\n- 世界杯历史：历史最佳为1958年亚军；近年起伏较大，本届靠附加赛惊险晋级。\n- 核心球员：\n  - Alexander Isak（前锋，利物浦）\n  - Viktor Gyökeres（前锋，阿森纳）\n  - Anthony Elanga（边锋/前锋，纽卡斯尔联）\n  - Lucas Bergvall（中场，托特纳姆热刺）\n  - Yasin Ayari（中场，布莱顿）\n  - Victor Lindelöf（后卫，曼联）\n  - Isak Hien（后卫，亚特兰大）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-20 vs 荷兰（世界杯F组第2轮）：1-5（L）\n  - 2026-06-14 vs 突尼斯（世界杯F组第1轮）：5-1（W）\n  - 2026-06-04 vs 希腊（友谊赛）：2-2（D）\n  - 2026-06-01 vs 挪威（友谊赛）：1-3（L）\n  - 2026-03-31 vs 波兰（世界杯欧洲区附加赛决赛）：3-2（W）\n\n### 博彩赔率（1X2，十进制）\n- talkSPORT引用bet365（主胜项）：主胜 1.91 / 平 — / 客胜 —（home=日本；公开页面抓到日本胜10/11，未列出平局/瑞典胜完整价格。）\n\n### 历史交锋（H2H）\n- 共交手 7 次。纳入1936年奥运会口径，两队历史7次交手：日本唯一胜利是1936年柏林奥运3-2。近现代A级赛口径日本0胜2平4负，最近一次是2002-05-25日本1-1瑞典。\n\n### 近期新闻\n- [Japan] 日本只需平局即可确保小组前二：日本前两轮2-2平荷兰、4-0胜突尼斯，4分净胜+4；赛前预览普遍认为日本会利用瑞典必须压上的空间打反击。（来源：talkSPORT / SBNation）\n- [Japan] 久保建英谨慎恢复，预计不踢瑞典：西媒称久保已开始个人跑动训练，但仍未回归合练，预计缺席小组末轮，对32强淘汰赛也存疑。（来源：AS）\n- [Japan] 远藤航退出世界杯：日本队长远藤航因持续脚伤退出本届世界杯，并宣布结束国家队生涯；日本中场领导力受损。（来源：Times of India）\n- [Sweden] 瑞典1-5负荷兰，边路防守被打穿：荷兰连续进球大胜；瑞典替补埃兰加破门，但波特赛后承认球队暴露出防守经验与宽度保护问题。（来源：The Guardian）\n- [Sweden] 埃兰加争取首发，瑞典必须主动进攻：瑞典现积3分，击败日本即可反超进入前二；埃兰加表达希望首发出战日本。（来源：Aftonbladet）\n\n### 小组形势\n- F组两轮后：荷兰4分(+4，进7失3)第1，日本4分(+4，进6失2)第2，瑞典3分(0，进6失6)第3，突尼斯0分(-8)已出局。日本本场打平即可确保前二，赢球仍可争小组头名；输球则可能落到第三并寄望最佳第三名。瑞典赢球即可反超日本进前二；平局无法反超日本，但4分仍有较强最佳第三希望；输球则风险显著增加。\n\n### 综述\n- F组收官关键战，日本排名更高、近5场4胜1平，本届已2-2平荷兰、4-0大胜突尼斯，只需平局即可锁定前二；但远藤航、久保建英等伤停削弱中前场。瑞典由波特执教，伊萨克和哲凯赖什锋线威胁大，但前两轮从5-1胜突尼斯到1-5负荷兰，防线稳定性是最大隐患。整体看，日本的平局容错和反击空间更好，瑞典必须主动压上。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/17/285023/400021471?language=en\n- https://talksport.com/betting/4360111/japan-vs-sweden-odds-tips-2026/\n- https://talksport.com/betting/4360014/world-cup-2026-spreadex-free-bets-japan-vs-sweden/\n- https://www.theguardian.com/football/2026/jun/20/netherlands-sweden-world-cup-group-f-match-report\n- https://www.sbnation.com/soccer/1119155/world-cup-2026-group-f-scenarios-japan-netherlands-sweden\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F\n\n---\n\n## F组 · 突尼斯 vs 荷兰（match_id: `2026-06-25-TUN-NED`）\n\n- 开球：2026-06-25 18:00（堪萨斯城当地 CDT；美东 19:00）｜北京时间 2026-06-26 07:00（北京时间周五上午）\n- 场地：Kansas City Stadium（GEHA Field at Arrowhead Stadium），美国密苏里州堪萨斯城（F组第3轮收官）\n\n### 突尼斯（Tunisia，主队）\n- FIFA 排名：第 40 位\n- 晋级之路：非洲区CAF H组头名直接晋级；最终9胜1平、28分，预选赛全程0失球。\n- 主教练：埃尔韦·勒纳尔 (Herve Renard)，2026-06-16火线接任\n- 世界杯历史：第7次参加世界杯；此前多届均止步小组赛，从未晋级淘汰赛。\n- 核心球员：\n  - Ellyes Skhiri（后腰/中场核心，法兰克福）\n  - Hannibal Mejbri（攻击中场，伯恩利）\n  - Anis Ben Slimane（中场，谢菲尔德联）\n  - Mohamed Ali Ben Romdhane（中场，费内巴切）\n  - Montassar Talbi（中后卫，洛里昂）\n  - Aymen Dahmen（门将，斯法克斯）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-20 vs 日本（世界杯F组第2轮）：0-4（L）\n  - 2026-06-14 vs 瑞典（世界杯F组第1轮）：1-5（L）\n  - 2026-06-06 vs 比利时（友谊赛）：0-5（L）\n  - 2026-06-01 vs 奥地利（友谊赛）：0-1（L）\n  - 2026-04-01 vs 加拿大（友谊赛）：0-0（D）\n\n### 荷兰（Netherlands，客队）\n- FIFA 排名：第 7 位\n- 晋级之路：欧洲区UEFA G组头名直接晋级；8战6胜2平积20分。\n- 主教练：罗纳德·科曼 (Ronald Koeman)\n- 世界杯历史：第12次参加世界杯；三次亚军（1974、1978、2010），2014年季军，2022年止步八强。\n- 核心球员：\n  - Virgil van Dijk（中后卫/队长，利物浦）\n  - Frenkie de Jong（中场，巴塞罗那）\n  - Cody Gakpo（边锋/前锋，利物浦）\n  - Brian Brobbey（中锋，阿贾克斯）\n  - Denzel Dumfries（右后卫/翼卫，皇家马德里）\n  - Tijjani Reijnders（中场，曼城）\n  - Memphis Depay（前锋，科林蒂安）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-20 vs 瑞典（世界杯F组第2轮）：5-1（W）\n  - 2026-06-14 vs 日本（世界杯F组第1轮）：2-2（D）\n  - 2026-06-08 vs 乌兹别克斯坦（友谊赛）：2-1（W）\n  - 2026-06-03 vs 阿尔及利亚（友谊赛）：0-1（L）\n  - 2026-03-31 vs 厄瓜多尔（友谊赛）：1-1（D）\n\n### 博彩赔率（1X2，十进制）\n- The Sun汇总Betfair/Paddy Power/Sky Bet（分数赔率换算十进制）：主胜 19 / 平 8.5 / 客胜 1.1（home=突尼斯；原始突尼斯18/1、平15/2、荷兰1/10。）\n\n### 历史交锋（H2H）\n- 共交手 3 次。两队此前3次交手，突尼斯0胜1平2负，进2球失5球；最近一次为2009年友谊赛1-1。本场是双方首次世界杯交锋。\n\n### 近期新闻\n- [Tunisia] 突尼斯首轮惨败后换帅：突尼斯1-5负瑞典后，Sabri Lamouchi在6月15日被解职；Herve Renard火线接手。（来源：People / FIFA）\n- [Tunisia] 0-4负日本后提前出局：突尼斯次轮被日本4-0击败，两战失9球、积0分，已无缘小组前三；勒纳尔只有数日带队，防守组织仍未改善。（来源：The Guardian）\n- [Netherlands] 荷兰5-1大胜瑞典升至F组第一：布罗比开场17分钟内梅开二度，加克波下半场双响，邓弗里斯贡献两次助攻。（来源：Managing Madrid / ESPN）\n- [Netherlands] 德容和范戴克均有轻伤但表态乐观：德容对瑞典赛前曾因身体问题存疑，最终首发约60分钟；范戴克有髋部撞击/神经压迫感，但本人称问题不大。（来源：Barca Blaugranes / The Sun）\n\n### 小组形势\n- F组两轮后：荷兰4分（7进3失，净胜+4）第一，日本4分（6进2失，净胜+4）第二，瑞典3分（6进6失）第三，突尼斯0分（1进9失，净胜-8）垫底且已出局。6月25日末轮两场同时开球：突尼斯vs荷兰、日本vs瑞典。荷兰赢球即可确保小组第一；打平仍大概率前二，但可能被日本反超；若输球且瑞典胜日本，荷兰可能跌至第三，但4分和现有净胜球使其作为最佳第三名前景仍强。\n\n### 综述\n- 强弱和动机都鲜明的F组收官战。突尼斯从预选赛0失球晋级，到正赛两场丢9球并中途换帅，已提前出局；荷兰则在2-2平日本后5-1击溃瑞典，布罗比、加克波和邓弗里斯状态上扬，目标是用胜利压住日本夺得小组第一。主要变量在荷兰健康状况：德容和范戴克都有轻微伤情但公开表态偏乐观。\n\n### 资料来源\n- https://www.sbnation.com/soccer/1119155/world-cup-2026-group-f-scenarios-japan-netherlands-sweden\n- https://www.thesun.co.uk/sport/39499853/tunisia-vs-netherlands-world-cup-betting-tips/\n- https://people.com/tunisia-soccer-team-fires-head-coach-one-game-into-2026-world-cup-12000166\n- https://www.theguardian.com/football/2026/jun/21/japan-tunisia-world-cup-group-f-match-report\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F\n\n---\n\n## D组 · 土耳其 vs 美国（match_id: `2026-06-25-TUR-USA`）\n\n- 开球：2026-06-25 19:00（洛杉矶/英格尔伍德当地 PDT；美东 22:00）｜北京时间 2026-06-26 10:00（北京时间周五上午）\n- 场地：Los Angeles Stadium（SoFi Stadium），美国加州英格尔伍德/洛杉矶赛区（D组第3轮收官）\n\n### 土耳其（Turkiye，主队）\n- FIFA 排名：第 22 位\n- 晋级之路：欧洲区预选赛E组第二，进入UEFA附加赛Path C；2026-03-26主场1-0罗马尼亚，2026-03-31客场1-0科索沃，时隔24年重返世界杯。\n- 主教练：文森佐·蒙特拉 (Vincenzo Montella)，常用4-2-3-1\n- 世界杯历史：队史第3次参加世界杯（1954、2002、2026）；2002年韩日世界杯季军为队史最佳。\n- 核心球员：\n  - Hakan Çalhanoğlu（后腰/队长，国际米兰）\n  - Arda Güler（前腰/右路，皇家马德里）\n  - Kenan Yıldız（前锋/攻击中场，尤文图斯）\n  - Kerem Aktürkoğlu（边锋/伪九，费内巴切）\n  - Ferdi Kadıoğlu（边后卫/边翼，布莱顿）\n  - Merih Demiral（中后卫，吉达国民）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-19 vs 巴拉圭（世界杯D组第2轮）：0-1（L）\n  - 2026-06-13 vs 澳大利亚（世界杯D组第1轮）：0-2（L）\n  - 2026-06-06 vs 委内瑞拉（友谊赛）：2-1（W）\n  - 2026-06-01 vs 北马其顿（友谊赛）：4-0（W）\n  - 2026-03-31 vs 科索沃（世预赛附加赛决赛）：1-0（W）\n\n### 美国（United States，客队）\n- FIFA 排名：第 17 位\n- 晋级之路：东道主自动晋级（与加拿大、墨西哥共同主办2026世界杯）。\n- 主教练：毛里西奥·波切蒂诺 (Mauricio Pochettino)\n- 世界杯历史：第12次参加世界杯；1930年季军为队史最佳，2002年打进八强，2022年止步16强。\n- 核心球员：\n  - Christian Pulisic（边锋/前腰，AC米兰）\n  - Folarin Balogun（中锋，摩纳哥）\n  - Tyler Adams（后腰/队长，伯恩茅斯）\n  - Weston McKennie（中场，尤文图斯）\n  - Antonee Robinson（左后卫，富勒姆）\n  - Chris Richards（中后卫，水晶宫）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-19 vs 澳大利亚（世界杯D组第2轮）：2-0（W）\n  - 2026-06-12 vs 巴拉圭（世界杯D组第1轮）：4-1（W）\n  - 2026-06-06 vs 德国（友谊赛）：1-2（L）\n  - 2026-05-31 vs 塞内加尔（友谊赛）：3-2（W）\n  - 2026-03-31 vs 葡萄牙（友谊赛）：0-2（L）\n\n### 博彩赔率（1X2，十进制）\n- Oddschecker Win Market（分数赔率换算十进制）：主胜 4.2 / 平 4.33 / 客胜 1.88（home=土耳其；原始土耳其16/5、平10/3、美国88/100；页面概率约27%/22%/51%。）\n\n### 历史交锋（H2H）\n- 共交手 5 次。赛前两队历史交手5次，双方各2胜、另1平；本场是首次世界杯交锋。最近一次为2025-06-07友谊赛，土耳其2-1击败美国。\n\n### 近期新闻\n- [United States] 美国已锁定D组头名：美国前两轮4-1胜巴拉圭、2-0胜澳大利亚，已确定以D组第一进入32强；本场主要是保持节奏与保护球员。（来源：talkSPORT / SBNation）\n- [United States] 普利西奇小腿伤后回归训练：普利西奇因小腿问题缺席对澳大利亚一战，赛前已恢复训练并表示接近100%；波切蒂诺需决定给他多少时间找状态。（来源：The Guardian）\n- [United States] 四名主力身背黄牌，轮换概率高：Tyler Adams、Folarin Balogun、Chris Richards、Antonee Robinson若再吃黄牌将停赛32强，因此可能被保护或限制出场。（来源：talkSPORT）\n- [Turkiye] 土耳其两连败且0进球，已提前出局：土耳其先后0-2负澳大利亚、0-1负巴拉圭；据赛前报道，两战累计62脚射门未进球，进攻效率成为最大问题。（来源：talkSPORT）\n- [Turkiye] 蒙特拉承受强烈批评但拒绝辞职：出局后土耳其球迷和媒体批评升级，蒙特拉公开维护球员并表示仍会继续带队。（来源：Stars and Stripes FC）\n\n### 小组形势\n- D组赛前形势：美国6分、净胜球+5，已锁定小组第一；澳大利亚3分、净胜球0，巴拉圭3分、净胜球-2，将在同日直接争小组第二；土耳其0分、净胜球-3，因前两轮不敌澳大利亚和巴拉圭已提前出局。48队赛制为每组前二加8个成绩最好的小组第三晋级32强；美国作为D组第一将在32强对阵B/E/F/I/J组之一的小组第三。\n\n### 综述\n- D组收官战竞技悬念较低但信息量很大：美国已提前头名出线，重点是普利西奇复出节奏、黄牌球员保护和延续前两轮6进球1失球的状态；土耳其则是本届最失望球队之一，赛前被视为出线竞争者，却两战0球提前出局。赔率端仍明显看好美国。\n\n### 资料来源\n- https://talksport.com/football/world-cup/4360348/usmnt-vs-turkey-kick-off-time-date-weather-world-cup/\n- https://www.oddschecker.com/football/world-cup/turkey-v-usa/winner\n- https://www.starsandstripesfc.com/world-cup-2026-content/44400/usa-vs-turkiye-2026-world-cup-scouting-turkiye\n- https://www.sbnation.com/fifa-world-cup/1119067/world-cup-2026-how-can-the-usmnt-advance-out-of-group-d\n- https://www.theguardian.com/football/2026/jun/25/mauricio-pochettino-usa-turkey-world-cup-preview\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D\n\n---\n\n## D组 · 巴拉圭 vs 澳大利亚（match_id: `2026-06-25-PAR-AUS`）\n\n- 开球：2026-06-25 19:00（圣克拉拉当地 PDT；美东 22:00 ET）｜北京时间 2026-06-26 10:00（北京时间周五上午）\n- 场地：San Francisco Bay Area Stadium（Levi's Stadium），美国加州圣克拉拉/旧金山湾区（D组第3轮收官）\n\n### 巴拉圭（Paraguay，主队）\n- FIFA 排名：第 40 位\n- 晋级之路：南美区CONMEBOL预选赛第6名，拿到最后一个直通名额，2025年9月锁定资格；自2010年后首次重返世界杯。\n- 主教练：古斯塔沃·阿尔法罗 (Gustavo Alfaro)\n- 世界杯历史：第9次参加世界杯，队史最佳为2010年南非世界杯八强；传统标签是低位防守、身体对抗和反击。\n- 核心球员：\n  - Miguel Almirón（边锋/进攻核心，亚特兰大联）\n  - Julio Enciso（前锋/攻击型中场，斯特拉斯堡）\n  - Gustavo Gómez（中后卫/队长，帕尔梅拉斯）\n  - Antonio Sanabria（中锋，克雷莫纳）\n  - Matías Galarza（中场，河床）\n  - Andrés Cubas（后腰，温哥华白浪）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-19 vs 土耳其（世界杯D组第2轮）：1-0（W）\n  - 2026-06-12 vs 美国（世界杯D组第1轮）：1-4（L）\n  - 2026-06-05 vs 尼加拉瓜（热身赛）：4-0（W）\n  - 2026-03-31 vs 摩洛哥（热身赛）：1-2（L）\n  - 2026-03-27 vs 希腊（热身赛）：1-0（W）\n\n### 澳大利亚（Australia，客队）\n- FIFA 排名：第 27 位\n- 晋级之路：亚洲区AFC第三阶段C组第二名直接晋级，2025年6月10日客场2-1逆转沙特锁定席位；连续第6届、总第7次参加世界杯。\n- 主教练：托尼·波波维奇 (Tony Popovic)\n- 世界杯历史：第7次参加世界杯，2006年和2022年两次进入16强为队史最佳；本场若不败将大概率锁定队史第三次淘汰赛资格。\n- 核心球员：\n  - Mathew Ryan（门将/队长，莱万特）\n  - Harry Souttar（中后卫，谢菲尔德联）\n  - Alessandro Circati（中后卫，帕尔马）\n  - Jackson Irvine（中场，圣保利）\n  - Jordan Bos（左翼卫/左后卫，费耶诺德）\n  - Nestory Irankunda（边锋/前锋，沃特福德）\n  - Mohamed Toure（前锋，诺维奇）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-19 vs 美国（世界杯D组第2轮）：0-2（L）\n  - 2026-06-13 vs 土耳其（世界杯D组第1轮）：2-0（W）\n  - 2026-06-06 vs 瑞士（热身赛）：1-1（D）\n  - 2026-05-30 vs 墨西哥（热身赛）：0-1（L）\n  - 2026-03-31 vs 库拉索（FIFA系列赛）：5-1（W）\n\n### 博彩赔率（1X2，十进制）\n- Oddschecker最佳1X2赔率（分数赔率换算十进制）：主胜 3 / 平 2.3 / 客胜 4.2（home=巴拉圭；原始巴拉圭2/1，平局13/10，澳大利亚16/5；页面概率约35%/35%/30%。）\n- bet365 via talkSPORT（交叉验证）：主胜 — / 平 2.25 / 客胜 —（talkSPORT赛前推荐平局5/4（十进制2.25）与小1.5球13/10；未完整列出1X2三项。）\n\n### 历史交锋（H2H）\n- 共交手 5 次。两队历史交手5次，巴拉圭0胜3平2负，进2球失4球；澳大利亚保持不败。最近一次为2010年友谊赛澳大利亚1-0取胜；双方世界杯正赛首次交手。\n\n### 近期新闻\n- [Australia] 澳大利亚右路和锋线被迫调整：右后卫Jacob Italiano训练中内收肌受伤缺阵，Mathew Leckie也因对美国时的腿筋伤缺席；Geria、Trewin、Irankunda、Metcalfe、Volpato是替代人选。（来源：The Guardian）\n- [Paraguay] 阿尔米隆停赛，巴拉圭创造力受损：阿尔米隆在1-0击败土耳其一战中被红牌罚下，本场停赛；阿尔法罗预计更多依靠恩西索、加拉尔萨和定位球/反击制造机会。（来源：The Guardian / talkSPORT）\n- [Both] 出线形势直接对撞：澳大利亚因净胜球占优，赢球或打平即可锁定D组第二；巴拉圭必须取胜才能反超拿到第二，若不胜只能看最佳第三名竞争。（来源：The Guardian / SBNation）\n- [Australia] 黄牌风险影响淘汰赛排兵：苏塔尔、奇尔卡蒂、博斯均已有一张黄牌，再染黄将影响潜在32强战；波波维奇同时要管理图雷的体能。（来源：The Guardian）\n\n### 小组形势\n- D组两轮后：美国2战6分、净胜+5，已锁定小组第一；澳大利亚3分、净胜0，暂列第二；巴拉圭3分、净胜-2，暂列第三；土耳其0分、净胜-3，已出局。末轮美国vs土耳其与巴拉圭vs澳大利亚同时开球。澳大利亚本场只需不败即可第二出线；巴拉圭必须赢球才能拿第二，打平或输球则进入第三名横向比较。\n\n### 综述\n- D组第二名决战。巴拉圭排名第40，阿尔法罗体系防守强硬，但阿尔米隆停赛让必须赢球的一方少了最重要的推进和创造点；澳大利亚排名第27，波波维奇的5-4-1/三中卫体系更适合守平局，且历史交锋对巴拉圭保持不败。风险在于澳大利亚边路伤停和多名后卫一黄在身。赔率市场给出平局低赔，比赛预期偏谨慎、小比分。\n\n### 资料来源\n- https://www.theguardian.com/football/2026/jun/25/socceroos-australia-paraguay-game-permutations-last-32-world-cup\n- https://www.theguardian.com/football/2026/jun/24/australia-changes-world-cup-paraguay\n- https://talksport.com/betting/4360485/paraguay-vs-australia-odds-tips-2026/\n- https://www.oddschecker.com/football/world-cup/paraguay-v-australia/winner\n- https://www.sbnation.com/fifa-world-cup/1119067/world-cup-2026-how-can-the-usmnt-advance-out-of-group-d\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 13 个比赛日、共 52 场比赛中，4 个先期参赛模型的历次预测、实际赛果与所得分数（结算规则：比分完全猜对 5 分 / 仅胜负方向猜对 3 分 / 猜错或未预测 0 分）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 胜负方向命中 | 比分完全命中 |\n|  ---  |  ---  |  ---  |  ---  |\n| Claude Opus 4.8 | 108 | 32/52 | 6/52 |\n| Grok 4.3 | 107 | 33/52 | 4/52 |\n| Kimi K2.7 | 103 | 33/52 | 2/52 |\n| Mistral Medium 3.5 | 96 | 30/52 | 3/52 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（3） | 1-1（0） | 1-0（3） | 1-0（3） |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 0-1（0） | 1-2（0） | 0-1（0） |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 海地 vs 苏格兰 | 0-1 | 0-2（3） | 0-2（3） | 2-0（0） | 1-2（3） |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-2（0） | 0-3（0） |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 德国 vs 库拉索 | 7-1 | 6-0（3） | 4-0（3） | 4-0（3） | 4-0（3） |\n| 荷兰 vs 日本 | 2-2 | 1-1（3） | 1-1（3） | 2-1（0） | 2-1（0） |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（3） | 2-0（3） | 1-0（3） | 1-0（3） |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 3-0（0） |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 2-1（0） |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 0-1（0） |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（3） | 2-1（3） | 2-1（3） |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（3） | 0-3（3） | 0-2（3） | 0-2（3） |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 奥地利 vs 约旦 | 3-1 | 3-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 3-0（0） | 2-0（0） | 2-0（0） |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（3） | 2-1（3） | 2-1（3） | 2-0（3） |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（3） | 0-2（3） | 0-2（3） | 0-2（3） |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-1（0） | 2-0（0） | 2-0（0） |\n| 瑞士 vs 波黑 | 4-1 | 2-1（3） | 1-1（0） | 2-0（3） | 2-1（3） |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 1-1（0） | 2-1（3） | 2-1（3） |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 3-1（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 1-2（3） |\n| 巴西 vs 海地 | 3-0 | 4-0（3） | 4-0（3） | 2-0（3） | 3-0（5） |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-1（0） | 1-0（0） | 2-0（0） |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（3） | 1-2（0） | 3-1（3） | 2-1（3） |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（3） | 4-0（3） | 2-1（5） | 2-0（3） |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 3-0（0） | 2-0（0） |\n| 突尼斯 vs 日本 | 0-4 | 0-2（3） | 0-1（3） | 1-2（3） | 1-2（3） |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（3） | 3-0（3） | 1-0（3） | 2-0（3） |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（3） | 1-1（3） | 2-0（0） |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 2-0（0） | 1-1（3） | 1-0（0） |\n| 新西兰 vs 埃及 | 1-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-1（3） |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（3） | 3-1（3） | 2-1（3） | 2-0（5） |\n| 法国 vs 伊拉克 | 3-0 | 4-0（3） | 5-0（3） | 3-1（3） | 3-0（5） |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（3） | 3-2（5） | 2-1（3） | 2-1（3） |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（3） | 0-1（3） | 1-2（5） | 1-2（5） |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（3） | 3-1（3） | 2-0（3） | 2-1（3） |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 2-0（0） | 3-0（0） | 2-0（0） |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 0-1（5） |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（3） | 2-0（3） | 2-0（3） | 1-0（5） |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 1-2（0） | 0-0（0） | 1-1（0） |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（3） | 1-0（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-2（3） |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（3） | 4-0（3） | 2-0（3） | 3-0（3） |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（3） | 0-1（3） | 0-1（3） | 1-2（3） |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 1-2（0） | 0-1（0） | 1-2（0） |\n\n<!-- HISTORY-REVIEW-END -->\n\n═══════════ 资料文档结束 ═══════════\n\n文档末尾附有各模型（包括你自己）历次预测与实际赛果的对照战绩，请在预测前先复盘这些记录，再给出你独立的判断。\n\n请预测每场比赛常规时间的结果，严格按以下 JSON 数组格式输出，不要输出任何其他文字，不要用 markdown 代码块包裹：\n[{\"match_id\": \"...\", \"winner\": \"home\" 或 \"away\" 或 \"draw\", \"score\": \"主队进球-客队进球（如 2-1）\", \"confidence\": 1到100的整数, \"reasoning_zh\": \"50字以内中文理由\"}]\n\nmatch_id 必须逐一使用以下 ID（共 6 场，每场恰好一条预测）：\n2026-06-25-CUW-CIV\n2026-06-25-ECU-GER\n2026-06-25-JPN-SWE\n2026-06-25-TUN-NED\n2026-06-25-TUR-USA\n2026-06-25-PAR-AUS"
+   },
+   "generated_at": "2026-06-25T08:38:14.873Z",
+   "model_runs": {
+    "x-ai/grok-4.3": {
+     "status": "ok",
+     "latency_s": 8,
+     "via": "openrouter",
+     "error": null
+    },
+    "mistralai/mistral-medium-3-5": {
+     "status": "ok",
+     "latency_s": 14,
+     "via": "openrouter",
+     "error": null
+    },
+    "moonshotai/kimi-k2.6": {
+     "status": "ok",
+     "latency_s": 66,
+     "via": "openrouter",
+     "error": null
+    },
+    "anthropic/claude-fable-5": {
+     "status": "ok",
+     "latency_s": 11,
+     "via": "openrouter",
+     "error": null
+    },
+    "qwen/qwen3.7-max": {
+     "status": "ok",
+     "latency_s": 46,
+     "via": "openrouter",
+     "error": null
+    },
+    "google/gemini-3.5-flash": {
+     "status": "ok",
+     "latency_s": 25,
+     "via": "openrouter",
+     "error": null
+    },
+    "sakana/fugu-ultra": {
+     "status": "ok",
+     "latency_s": 123,
+     "via": "openrouter",
+     "error": null
+    },
+    "bytedance/doubao-seed-2.0-pro": {
+     "status": "ok",
+     "latency_s": 53,
+     "via": "volcengine",
+     "error": null
+    }
+   },
+   "context_md": "# 2026-06-25 世界杯比赛资料文档\n\n本文档汇总了 2026-06-25（比赛日，北美当地时间）FIFA 2026 世界杯全部 6 场小组赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与小组形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-06-25-CUW-CIV`：E组 库拉索(Curaçao, 主) vs 科特迪瓦(Ivory Coast, 客)\n- `2026-06-25-ECU-GER`：E组 厄瓜多尔(Ecuador, 主) vs 德国(Germany, 客)\n- `2026-06-25-JPN-SWE`：F组 日本(Japan, 主) vs 瑞典(Sweden, 客)\n- `2026-06-25-TUN-NED`：F组 突尼斯(Tunisia, 主) vs 荷兰(Netherlands, 客)\n- `2026-06-25-TUR-USA`：D组 土耳其(Turkiye, 主) vs 美国(United States, 客)\n- `2026-06-25-PAR-AUS`：D组 巴拉圭(Paraguay, 主) vs 澳大利亚(Australia, 客)\n\n---\n\n## E组 · 库拉索 vs 科特迪瓦（match_id: `2026-06-25-CUW-CIV`）\n\n- 开球：2026-06-25 16:00（费城当地时间 EDT；FIFA API: 2026-06-25T20:00:00Z）｜北京时间 2026-06-26 04:00（北京时间周五凌晨）\n- 场地：Philadelphia Stadium（Lincoln Financial Field），美国宾夕法尼亚州费城（E组第3轮收官）\n\n### 库拉索（Curaçao，主队）\n- FIFA 排名：第 82 位\n- 晋级之路：中北美及加勒比区第三轮B组头名；2025-11-18客场0-0平牙买加后锁定队史首次世界杯正赛资格。\n- 主教练：迪克·艾德沃卡特 (Dick Advocaat)\n- 世界杯历史：队史首次参加世界杯；本届已取得队史世界杯首球和首个积分。\n- 核心球员：\n  - Eloy Room（门将，维特斯/库拉索国家队）\n  - Leandro Bacuna（中场/队长，格罗宁根）\n  - Juninho Bacuna（中场，福伦丹）\n  - Tahith Chong（中前场，谢菲尔德联）\n  - Jurgen Locadia（前锋，自由身/待核）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-20 vs 厄瓜多尔（世界杯E组第2轮）：0-0（D）\n  - 2026-06-14 vs 德国（世界杯E组第1轮）：1-7（L）\n  - 2026-06-07 vs 阿鲁巴（友谊赛）：4-0（W）\n  - 2026-05-30 vs 苏格兰（友谊赛）：1-4（L）\n  - 2026-03-31 vs 澳大利亚（FIFA Series）：1-5（L）\n\n### 科特迪瓦（Ivory Coast，客队）\n- FIFA 排名：第 33 位\n- 晋级之路：非洲区CAF F组头名直接晋级；2025-10-14锁定世界杯资格，队史第4次参加世界杯。\n- 主教练：埃梅尔斯·法埃 (Emerse Faé)\n- 世界杯历史：2006、2010、2014三届均止步小组赛；本场冲击队史首次世界杯淘汰赛。\n- 核心球员：\n  - Amad Diallo（边锋/前锋，曼联）\n  - Yan Diomandé（边锋，莱比锡）\n  - Franck Kessié（中场，吉达国民）\n  - Ibrahim Sangaré（后腰，诺丁汉森林）\n  - Elye Wahi（前锋，马赛）\n  - Ousmane Diomandé（中卫，葡萄牙体育）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-20 vs 德国（世界杯E组第2轮）：1-2（L）\n  - 2026-06-14 vs 厄瓜多尔（世界杯E组第1轮）：1-0（W）\n  - 2026-06-04 vs 法国（友谊赛）：2-1（W）\n  - 2026-03-31 vs 苏格兰（友谊赛）：1-0（W）\n  - 2026-03-28 vs 韩国（友谊赛）：4-0（W）\n\n### 博彩赔率（1X2，十进制）\n- The Sun / bookmaker references（分数赔率换算十进制）：主胜 13 / 平 8.5 / 客胜 1.13（home=库拉索；原始库拉索12/1、平局15/2、科特迪瓦1/8。赔率快照临场会变动。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队此前没有正式或公开记录的A级交锋，本场为首次世界杯/正式大赛相遇。\n\n### 近期新闻\n- [Ivory Coast] 科特迪瓦冲击队史首次世界杯淘汰赛：AP赛前称科特迪瓦击败库拉索即可晋级；球队首轮1-0胜厄瓜多尔、次轮半场领先德国但最终1-2被逆转。（来源：AP）\n- [Ivory Coast] Elye Wahi预计回归可用名单：AP赛前报道提到Wahi expected back；球员赛前表示专注比赛，不评论场外争议。（来源：AP）\n- [Curaçao] Juninho Bacuna状态存疑：苏格兰太阳报称Bacuna对厄瓜多尔第75分钟左右因明显不适被换下，出战科特迪瓦仍待确认。（来源：The Scottish Sun）\n- [Curaçao] Eloy Room 15次扑救拿到首分：库拉索0-0厄瓜多尔，Room的高扑救量成为核心新闻；球队从首轮1-7惨败德国后反弹。（来源：AP）\n\n### 小组形势\n- E组两轮后：德国6分(+7)已占据头名主动；科特迪瓦3分(0)第二；厄瓜多尔1分(-1)；库拉索1分(-6)。科特迪瓦胜利可直接锁定晋级，拿到1分也非常接近出线；库拉索必须击败科特迪瓦，并最好同时寄望厄瓜多尔不胜德国，若厄瓜多尔取胜则库拉索即使赢球也大概率受净胜球拖累，只能看最佳第三名排名。48队赛制为每组前二及8个最佳第三名进32强。\n\n### 综述\n- E组收官关键战。库拉索世界排名82，队史首次世界杯，首轮1-7负德国后靠Eloy Room神勇发挥0-0逼平厄瓜多尔，但净胜球劣势巨大且Juninho Bacuna有伤情疑问；科特迪瓦世界排名33，首轮1-0绝杀厄瓜多尔、次轮1-2惜败德国，整体实力、速度和出线形势均占优。历史交锋为空，赔率一边倒支持科特迪瓦。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&language=en&count=500\n- https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en\n- https://apnews.com/article/ivory-coast-world-cup-curacao-wahi-c641f73a27ac2bfd57353e1f850eab84\n- https://apnews.com/article/ecuador-curacao-world-cup-soccer-0b542d63af13ea256222e8cc2243ed2c\n- https://www.thesun.co.uk/sport/39497615/curacao-ivory-coast-betting-tips-predictions-odds/\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E\n\n---\n\n## E组 · 厄瓜多尔 vs 德国（match_id: `2026-06-25-ECU-GER`）\n\n- 开球：2026-06-25 16:00（新泽西东拉瑟福德，美东时间 EDT）｜北京时间 2026-06-26 04:00（北京时间周五凌晨）\n- 场地：New York New Jersey Stadium（MetLife Stadium），美国新泽西州东拉瑟福德（E组第3轮收官）\n\n### 厄瓜多尔（Ecuador，主队）\n- FIFA 排名：第 24 位\n- 晋级之路：南美区CONMEBOL循环赛亚军直接晋级；18轮仅2负、失5球，虽有扣3分背景仍列阿根廷之后。\n- 主教练：塞巴斯蒂安·贝卡塞塞 (Sebastián Beccacece)\n- 世界杯历史：队史第5次参加世界杯，最佳成绩为2006年16强。\n- 核心球员：\n  - Moisés Caicedo（中场，切尔西）\n  - Willian Pacho（中后卫，巴黎圣日耳曼）\n  - Piero Hincapié（中后卫/左后卫，阿森纳）\n  - Pervis Estupiñán（左后卫，AC米兰）\n  - Enner Valencia（前锋/队长，帕丘卡）\n  - John Yeboah（攻击中场/边锋，威尼斯/待核）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-20 vs 库拉索（世界杯E组第2轮）：0-0（D）\n  - 2026-06-14 vs 科特迪瓦（世界杯E组第1轮）：0-1（L）\n  - 2026-06-07 vs 危地马拉（友谊赛）：3-0（W）\n  - 2026-05-30 vs 沙特阿拉伯（友谊赛）：2-1（W）\n  - 2026-03-31 vs 荷兰（友谊赛）：1-1（D）\n\n### 德国（Germany，客队）\n- FIFA 排名：第 10 位\n- 晋级之路：欧洲区UEFA A组头名直接晋级；2025-11-17主场6-0胜斯洛伐克锁定世界杯席位。\n- 主教练：尤利安·纳格尔斯曼 (Julian Nagelsmann)，常用4-2-3-1\n- 世界杯历史：4次世界杯冠军（1954、1974、1990、2014）；2018、2022连续两届小组赛出局，本届已提前锁定E组第一。\n- 核心球员：\n  - Joshua Kimmich（中场/右后卫/队长，拜仁慕尼黑）\n  - Florian Wirtz（攻击中场，利物浦）\n  - Jamal Musiala（攻击中场，拜仁慕尼黑）\n  - Kai Havertz（前锋/前腰，阿森纳）\n  - Manuel Neuer（门将，拜仁慕尼黑）\n  - Deniz Undav（前锋，斯图加特）\n  - Antonio Rüdiger（中后卫，皇家马德里）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-20 vs 科特迪瓦（世界杯E组第2轮）：2-1（W）\n  - 2026-06-14 vs 库拉索（世界杯E组第1轮）：7-1（W）\n  - 2026-06-06 vs 美国（友谊赛）：2-1（W）\n  - 2026-05-31 vs 芬兰（友谊赛）：4-0（W）\n  - 2025-11-17 vs 斯洛伐克（世预赛）：6-0（W）\n\n### 博彩赔率（1X2，十进制）\n- Bavarian Football Works赛前预览（美式赔率换算十进制）：主胜 3.6 / 平 4.1 / 客胜 1.91（home=厄瓜多尔；原始德国-110、平局+310、厄瓜多尔+260。）\n\n### 历史交锋（H2H）\n- 共交手 2 次。两队历史2次交手德国全胜：2006年世界杯小组赛德国3-0厄瓜多尔，2013年友谊赛德国4-2厄瓜多尔；总比分德国7-2。\n\n### 近期新闻\n- [Germany] 德国已提前锁定E组第一：德国前两轮7-1胜库拉索、2-1逆转科特迪瓦，6分且凭交锋优势已锁定小组头名，末轮不影响德国排名。（来源：Bavarian Football Works）\n- [Germany] 纳格尔斯曼不会大幅轮换：德国赛前消息称纳格尔斯曼希望延续主力磨合，除施洛特贝克和纳撒尼尔·布朗因伤缺席外，不会把本场完全当成练兵。（来源：Bavarian Football Works）\n- [Germany] 施洛特贝克重伤，布朗轻伤休战：施洛特贝克在对科特迪瓦比赛中遭遇严重韧带伤，预计缺席本届剩余比赛；左后卫布朗有内收肌小伤。（来源：Bavarian Football Works）\n- [Ecuador] 厄瓜多尔两轮仍未进球：厄瓜多尔首轮0-1负科特迪瓦，次轮对库拉索27脚射门仍0-0；库拉索门将Eloy Room完成15次扑救。（来源：The Guardian）\n- [Ecuador] 卡塞多已结束首战停赛：卡塞多因世预赛累计黄牌缺席首战对科特迪瓦，已可出战库拉索与德国；本场中场对抗和纪律风险仍是关注点。（来源：FourFourTwo）\n\n### 小组形势\n- E组两轮后：德国6分（9进2失，净胜+7）已锁定小组第一；科特迪瓦3分（净胜0）第二；厄瓜多尔1分（0进1失，净胜-1）第三；库拉索1分（1进7失，净胜-6）第四。末轮同时间进行：厄瓜多尔vs德国、库拉索vs科特迪瓦。厄瓜多尔若不胜基本出局；若击败德国且库拉索击败科特迪瓦，厄瓜多尔大概率升至小组第二；若厄瓜多尔取胜但科特迪瓦不败，厄瓜多尔多半只能以4分第三名竞争32强名额。\n\n### 综述\n- 动力差异明显的E组收官战：德国两连胜后已锁定头名，但最新队内消息显示纳格尔斯曼不会大幅轮换，只会因施洛特贝克重伤、布朗轻伤做被动调整。厄瓜多尔纸面中后场很强，却在前两轮0进球，仅1分，必须赢德国才有现实晋级希望。赔率仍明显偏向德国。\n\n### 资料来源\n- https://inside.fifa.com/fifa-world-ranking/men\n- https://www.bavarianfootballworks.com/fifa-world-cup/220354/world-cup-matchday-preview-ecuador-vs-germany\n- https://www.bavarianfootballworks.com/germany-international-soccer/221000/germany-ecuador-world-cup-lineups-rotation-julian-nagelsmann-deniz-undav\n- https://www.theguardian.com/football/2026/jun/21/curacao-ecuador-world-cup-group-e-match-report\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E\n\n---\n\n## F组 · 日本 vs 瑞典（match_id: `2026-06-25-JPN-SWE`）\n\n- 开球：2026-06-25 18:00（达拉斯/阿灵顿当地 CDT）｜北京时间 2026-06-26 07:00（北京时间周五上午）\n- 场地：Dallas Stadium（AT&T Stadium），美国德州阿灵顿/达拉斯赛区（F组第3轮收官）\n\n### 日本（Japan，主队）\n- FIFA 排名：第 18 位\n- 晋级之路：亚洲区第三阶段C组头名，2025-03-20锁定晋级；连续第8次参加世界杯。\n- 主教练：森保一 (Hajime Moriyasu)，常用3-4-2-1/3-4-3\n- 世界杯历史：世界杯常客，近年多次晋级16强；本届前两轮4分，打平即可确保小组前二。\n- 核心球员：\n  - Zion Suzuki（门将，帕尔马）\n  - Takehiro Tomiyasu（后卫，阿森纳）\n  - Ko Itakura（后卫，门兴）\n  - Daichi Kamada（中场/前腰，水晶宫）\n  - Ritsu Doan（攻击中场，弗赖堡）\n  - Junya Ito（边路，兰斯）\n  - Ayase Ueda（前锋，费耶诺德）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-21 vs 突尼斯（世界杯F组第2轮）：4-0（W）\n  - 2026-06-14 vs 荷兰（世界杯F组第1轮）：2-2（D）\n  - 2026-05-31 vs 冰岛（友谊赛）：1-0（W）\n  - 2026-03-31 vs 英格兰（友谊赛）：1-0（W）\n  - 2026-03-28 vs 苏格兰（友谊赛）：1-0（W）\n\n### 瑞典（Sweden，客队）\n- FIFA 排名：第 38 位\n- 晋级之路：欧洲区附加赛Path B晋级；2026-03-26半决赛3-1胜乌克兰，2026-03-31决赛3-2胜波兰。\n- 主教练：格雷厄姆·波特 (Graham Potter)\n- 世界杯历史：历史最佳为1958年亚军；近年起伏较大，本届靠附加赛惊险晋级。\n- 核心球员：\n  - Alexander Isak（前锋，利物浦）\n  - Viktor Gyökeres（前锋，阿森纳）\n  - Anthony Elanga（边锋/前锋，纽卡斯尔联）\n  - Lucas Bergvall（中场，托特纳姆热刺）\n  - Yasin Ayari（中场，布莱顿）\n  - Victor Lindelöf（后卫，曼联）\n  - Isak Hien（后卫，亚特兰大）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-20 vs 荷兰（世界杯F组第2轮）：1-5（L）\n  - 2026-06-14 vs 突尼斯（世界杯F组第1轮）：5-1（W）\n  - 2026-06-04 vs 希腊（友谊赛）：2-2（D）\n  - 2026-06-01 vs 挪威（友谊赛）：1-3（L）\n  - 2026-03-31 vs 波兰（世界杯欧洲区附加赛决赛）：3-2（W）\n\n### 博彩赔率（1X2，十进制）\n- talkSPORT引用bet365（主胜项）：主胜 1.91 / 平 — / 客胜 —（home=日本；公开页面抓到日本胜10/11，未列出平局/瑞典胜完整价格。）\n\n### 历史交锋（H2H）\n- 共交手 7 次。纳入1936年奥运会口径，两队历史7次交手：日本唯一胜利是1936年柏林奥运3-2。近现代A级赛口径日本0胜2平4负，最近一次是2002-05-25日本1-1瑞典。\n\n### 近期新闻\n- [Japan] 日本只需平局即可确保小组前二：日本前两轮2-2平荷兰、4-0胜突尼斯，4分净胜+4；赛前预览普遍认为日本会利用瑞典必须压上的空间打反击。（来源：talkSPORT / SBNation）\n- [Japan] 久保建英谨慎恢复，预计不踢瑞典：西媒称久保已开始个人跑动训练，但仍未回归合练，预计缺席小组末轮，对32强淘汰赛也存疑。（来源：AS）\n- [Japan] 远藤航退出世界杯：日本队长远藤航因持续脚伤退出本届世界杯，并宣布结束国家队生涯；日本中场领导力受损。（来源：Times of India）\n- [Sweden] 瑞典1-5负荷兰，边路防守被打穿：荷兰连续进球大胜；瑞典替补埃兰加破门，但波特赛后承认球队暴露出防守经验与宽度保护问题。（来源：The Guardian）\n- [Sweden] 埃兰加争取首发，瑞典必须主动进攻：瑞典现积3分，击败日本即可反超进入前二；埃兰加表达希望首发出战日本。（来源：Aftonbladet）\n\n### 小组形势\n- F组两轮后：荷兰4分(+4，进7失3)第1，日本4分(+4，进6失2)第2，瑞典3分(0，进6失6)第3，突尼斯0分(-8)已出局。日本本场打平即可确保前二，赢球仍可争小组头名；输球则可能落到第三并寄望最佳第三名。瑞典赢球即可反超日本进前二；平局无法反超日本，但4分仍有较强最佳第三希望；输球则风险显著增加。\n\n### 综述\n- F组收官关键战，日本排名更高、近5场4胜1平，本届已2-2平荷兰、4-0大胜突尼斯，只需平局即可锁定前二；但远藤航、久保建英等伤停削弱中前场。瑞典由波特执教，伊萨克和哲凯赖什锋线威胁大，但前两轮从5-1胜突尼斯到1-5负荷兰，防线稳定性是最大隐患。整体看，日本的平局容错和反击空间更好，瑞典必须主动压上。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/17/285023/400021471?language=en\n- https://talksport.com/betting/4360111/japan-vs-sweden-odds-tips-2026/\n- https://talksport.com/betting/4360014/world-cup-2026-spreadex-free-bets-japan-vs-sweden/\n- https://www.theguardian.com/football/2026/jun/20/netherlands-sweden-world-cup-group-f-match-report\n- https://www.sbnation.com/soccer/1119155/world-cup-2026-group-f-scenarios-japan-netherlands-sweden\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F\n\n---\n\n## F组 · 突尼斯 vs 荷兰（match_id: `2026-06-25-TUN-NED`）\n\n- 开球：2026-06-25 18:00（堪萨斯城当地 CDT；美东 19:00）｜北京时间 2026-06-26 07:00（北京时间周五上午）\n- 场地：Kansas City Stadium（GEHA Field at Arrowhead Stadium），美国密苏里州堪萨斯城（F组第3轮收官）\n\n### 突尼斯（Tunisia，主队）\n- FIFA 排名：第 40 位\n- 晋级之路：非洲区CAF H组头名直接晋级；最终9胜1平、28分，预选赛全程0失球。\n- 主教练：埃尔韦·勒纳尔 (Herve Renard)，2026-06-16火线接任\n- 世界杯历史：第7次参加世界杯；此前多届均止步小组赛，从未晋级淘汰赛。\n- 核心球员：\n  - Ellyes Skhiri（后腰/中场核心，法兰克福）\n  - Hannibal Mejbri（攻击中场，伯恩利）\n  - Anis Ben Slimane（中场，谢菲尔德联）\n  - Mohamed Ali Ben Romdhane（中场，费内巴切）\n  - Montassar Talbi（中后卫，洛里昂）\n  - Aymen Dahmen（门将，斯法克斯）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-20 vs 日本（世界杯F组第2轮）：0-4（L）\n  - 2026-06-14 vs 瑞典（世界杯F组第1轮）：1-5（L）\n  - 2026-06-06 vs 比利时（友谊赛）：0-5（L）\n  - 2026-06-01 vs 奥地利（友谊赛）：0-1（L）\n  - 2026-04-01 vs 加拿大（友谊赛）：0-0（D）\n\n### 荷兰（Netherlands，客队）\n- FIFA 排名：第 7 位\n- 晋级之路：欧洲区UEFA G组头名直接晋级；8战6胜2平积20分。\n- 主教练：罗纳德·科曼 (Ronald Koeman)\n- 世界杯历史：第12次参加世界杯；三次亚军（1974、1978、2010），2014年季军，2022年止步八强。\n- 核心球员：\n  - Virgil van Dijk（中后卫/队长，利物浦）\n  - Frenkie de Jong（中场，巴塞罗那）\n  - Cody Gakpo（边锋/前锋，利物浦）\n  - Brian Brobbey（中锋，阿贾克斯）\n  - Denzel Dumfries（右后卫/翼卫，皇家马德里）\n  - Tijjani Reijnders（中场，曼城）\n  - Memphis Depay（前锋，科林蒂安）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-20 vs 瑞典（世界杯F组第2轮）：5-1（W）\n  - 2026-06-14 vs 日本（世界杯F组第1轮）：2-2（D）\n  - 2026-06-08 vs 乌兹别克斯坦（友谊赛）：2-1（W）\n  - 2026-06-03 vs 阿尔及利亚（友谊赛）：0-1（L）\n  - 2026-03-31 vs 厄瓜多尔（友谊赛）：1-1（D）\n\n### 博彩赔率（1X2，十进制）\n- The Sun汇总Betfair/Paddy Power/Sky Bet（分数赔率换算十进制）：主胜 19 / 平 8.5 / 客胜 1.1（home=突尼斯；原始突尼斯18/1、平15/2、荷兰1/10。）\n\n### 历史交锋（H2H）\n- 共交手 3 次。两队此前3次交手，突尼斯0胜1平2负，进2球失5球；最近一次为2009年友谊赛1-1。本场是双方首次世界杯交锋。\n\n### 近期新闻\n- [Tunisia] 突尼斯首轮惨败后换帅：突尼斯1-5负瑞典后，Sabri Lamouchi在6月15日被解职；Herve Renard火线接手。（来源：People / FIFA）\n- [Tunisia] 0-4负日本后提前出局：突尼斯次轮被日本4-0击败，两战失9球、积0分，已无缘小组前三；勒纳尔只有数日带队，防守组织仍未改善。（来源：The Guardian）\n- [Netherlands] 荷兰5-1大胜瑞典升至F组第一：布罗比开场17分钟内梅开二度，加克波下半场双响，邓弗里斯贡献两次助攻。（来源：Managing Madrid / ESPN）\n- [Netherlands] 德容和范戴克均有轻伤但表态乐观：德容对瑞典赛前曾因身体问题存疑，最终首发约60分钟；范戴克有髋部撞击/神经压迫感，但本人称问题不大。（来源：Barca Blaugranes / The Sun）\n\n### 小组形势\n- F组两轮后：荷兰4分（7进3失，净胜+4）第一，日本4分（6进2失，净胜+4）第二，瑞典3分（6进6失）第三，突尼斯0分（1进9失，净胜-8）垫底且已出局。6月25日末轮两场同时开球：突尼斯vs荷兰、日本vs瑞典。荷兰赢球即可确保小组第一；打平仍大概率前二，但可能被日本反超；若输球且瑞典胜日本，荷兰可能跌至第三，但4分和现有净胜球使其作为最佳第三名前景仍强。\n\n### 综述\n- 强弱和动机都鲜明的F组收官战。突尼斯从预选赛0失球晋级，到正赛两场丢9球并中途换帅，已提前出局；荷兰则在2-2平日本后5-1击溃瑞典，布罗比、加克波和邓弗里斯状态上扬，目标是用胜利压住日本夺得小组第一。主要变量在荷兰健康状况：德容和范戴克都有轻微伤情但公开表态偏乐观。\n\n### 资料来源\n- https://www.sbnation.com/soccer/1119155/world-cup-2026-group-f-scenarios-japan-netherlands-sweden\n- https://www.thesun.co.uk/sport/39499853/tunisia-vs-netherlands-world-cup-betting-tips/\n- https://people.com/tunisia-soccer-team-fires-head-coach-one-game-into-2026-world-cup-12000166\n- https://www.theguardian.com/football/2026/jun/21/japan-tunisia-world-cup-group-f-match-report\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F\n\n---\n\n## D组 · 土耳其 vs 美国（match_id: `2026-06-25-TUR-USA`）\n\n- 开球：2026-06-25 19:00（洛杉矶/英格尔伍德当地 PDT；美东 22:00）｜北京时间 2026-06-26 10:00（北京时间周五上午）\n- 场地：Los Angeles Stadium（SoFi Stadium），美国加州英格尔伍德/洛杉矶赛区（D组第3轮收官）\n\n### 土耳其（Turkiye，主队）\n- FIFA 排名：第 22 位\n- 晋级之路：欧洲区预选赛E组第二，进入UEFA附加赛Path C；2026-03-26主场1-0罗马尼亚，2026-03-31客场1-0科索沃，时隔24年重返世界杯。\n- 主教练：文森佐·蒙特拉 (Vincenzo Montella)，常用4-2-3-1\n- 世界杯历史：队史第3次参加世界杯（1954、2002、2026）；2002年韩日世界杯季军为队史最佳。\n- 核心球员：\n  - Hakan Çalhanoğlu（后腰/队长，国际米兰）\n  - Arda Güler（前腰/右路，皇家马德里）\n  - Kenan Yıldız（前锋/攻击中场，尤文图斯）\n  - Kerem Aktürkoğlu（边锋/伪九，费内巴切）\n  - Ferdi Kadıoğlu（边后卫/边翼，布莱顿）\n  - Merih Demiral（中后卫，吉达国民）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-19 vs 巴拉圭（世界杯D组第2轮）：0-1（L）\n  - 2026-06-13 vs 澳大利亚（世界杯D组第1轮）：0-2（L）\n  - 2026-06-06 vs 委内瑞拉（友谊赛）：2-1（W）\n  - 2026-06-01 vs 北马其顿（友谊赛）：4-0（W）\n  - 2026-03-31 vs 科索沃（世预赛附加赛决赛）：1-0（W）\n\n### 美国（United States，客队）\n- FIFA 排名：第 17 位\n- 晋级之路：东道主自动晋级（与加拿大、墨西哥共同主办2026世界杯）。\n- 主教练：毛里西奥·波切蒂诺 (Mauricio Pochettino)\n- 世界杯历史：第12次参加世界杯；1930年季军为队史最佳，2002年打进八强，2022年止步16强。\n- 核心球员：\n  - Christian Pulisic（边锋/前腰，AC米兰）\n  - Folarin Balogun（中锋，摩纳哥）\n  - Tyler Adams（后腰/队长，伯恩茅斯）\n  - Weston McKennie（中场，尤文图斯）\n  - Antonee Robinson（左后卫，富勒姆）\n  - Chris Richards（中后卫，水晶宫）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-19 vs 澳大利亚（世界杯D组第2轮）：2-0（W）\n  - 2026-06-12 vs 巴拉圭（世界杯D组第1轮）：4-1（W）\n  - 2026-06-06 vs 德国（友谊赛）：1-2（L）\n  - 2026-05-31 vs 塞内加尔（友谊赛）：3-2（W）\n  - 2026-03-31 vs 葡萄牙（友谊赛）：0-2（L）\n\n### 博彩赔率（1X2，十进制）\n- Oddschecker Win Market（分数赔率换算十进制）：主胜 4.2 / 平 4.33 / 客胜 1.88（home=土耳其；原始土耳其16/5、平10/3、美国88/100；页面概率约27%/22%/51%。）\n\n### 历史交锋（H2H）\n- 共交手 5 次。赛前两队历史交手5次，双方各2胜、另1平；本场是首次世界杯交锋。最近一次为2025-06-07友谊赛，土耳其2-1击败美国。\n\n### 近期新闻\n- [United States] 美国已锁定D组头名：美国前两轮4-1胜巴拉圭、2-0胜澳大利亚，已确定以D组第一进入32强；本场主要是保持节奏与保护球员。（来源：talkSPORT / SBNation）\n- [United States] 普利西奇小腿伤后回归训练：普利西奇因小腿问题缺席对澳大利亚一战，赛前已恢复训练并表示接近100%；波切蒂诺需决定给他多少时间找状态。（来源：The Guardian）\n- [United States] 四名主力身背黄牌，轮换概率高：Tyler Adams、Folarin Balogun、Chris Richards、Antonee Robinson若再吃黄牌将停赛32强，因此可能被保护或限制出场。（来源：talkSPORT）\n- [Turkiye] 土耳其两连败且0进球，已提前出局：土耳其先后0-2负澳大利亚、0-1负巴拉圭；据赛前报道，两战累计62脚射门未进球，进攻效率成为最大问题。（来源：talkSPORT）\n- [Turkiye] 蒙特拉承受强烈批评但拒绝辞职：出局后土耳其球迷和媒体批评升级，蒙特拉公开维护球员并表示仍会继续带队。（来源：Stars and Stripes FC）\n\n### 小组形势\n- D组赛前形势：美国6分、净胜球+5，已锁定小组第一；澳大利亚3分、净胜球0，巴拉圭3分、净胜球-2，将在同日直接争小组第二；土耳其0分、净胜球-3，因前两轮不敌澳大利亚和巴拉圭已提前出局。48队赛制为每组前二加8个成绩最好的小组第三晋级32强；美国作为D组第一将在32强对阵B/E/F/I/J组之一的小组第三。\n\n### 综述\n- D组收官战竞技悬念较低但信息量很大：美国已提前头名出线，重点是普利西奇复出节奏、黄牌球员保护和延续前两轮6进球1失球的状态；土耳其则是本届最失望球队之一，赛前被视为出线竞争者，却两战0球提前出局。赔率端仍明显看好美国。\n\n### 资料来源\n- https://talksport.com/football/world-cup/4360348/usmnt-vs-turkey-kick-off-time-date-weather-world-cup/\n- https://www.oddschecker.com/football/world-cup/turkey-v-usa/winner\n- https://www.starsandstripesfc.com/world-cup-2026-content/44400/usa-vs-turkiye-2026-world-cup-scouting-turkiye\n- https://www.sbnation.com/fifa-world-cup/1119067/world-cup-2026-how-can-the-usmnt-advance-out-of-group-d\n- https://www.theguardian.com/football/2026/jun/25/mauricio-pochettino-usa-turkey-world-cup-preview\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D\n\n---\n\n## D组 · 巴拉圭 vs 澳大利亚（match_id: `2026-06-25-PAR-AUS`）\n\n- 开球：2026-06-25 19:00（圣克拉拉当地 PDT；美东 22:00 ET）｜北京时间 2026-06-26 10:00（北京时间周五上午）\n- 场地：San Francisco Bay Area Stadium（Levi's Stadium），美国加州圣克拉拉/旧金山湾区（D组第3轮收官）\n\n### 巴拉圭（Paraguay，主队）\n- FIFA 排名：第 40 位\n- 晋级之路：南美区CONMEBOL预选赛第6名，拿到最后一个直通名额，2025年9月锁定资格；自2010年后首次重返世界杯。\n- 主教练：古斯塔沃·阿尔法罗 (Gustavo Alfaro)\n- 世界杯历史：第9次参加世界杯，队史最佳为2010年南非世界杯八强；传统标签是低位防守、身体对抗和反击。\n- 核心球员：\n  - Miguel Almirón（边锋/进攻核心，亚特兰大联）\n  - Julio Enciso（前锋/攻击型中场，斯特拉斯堡）\n  - Gustavo Gómez（中后卫/队长，帕尔梅拉斯）\n  - Antonio Sanabria（中锋，克雷莫纳）\n  - Matías Galarza（中场，河床）\n  - Andrés Cubas（后腰，温哥华白浪）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-19 vs 土耳其（世界杯D组第2轮）：1-0（W）\n  - 2026-06-12 vs 美国（世界杯D组第1轮）：1-4（L）\n  - 2026-06-05 vs 尼加拉瓜（热身赛）：4-0（W）\n  - 2026-03-31 vs 摩洛哥（热身赛）：1-2（L）\n  - 2026-03-27 vs 希腊（热身赛）：1-0（W）\n\n### 澳大利亚（Australia，客队）\n- FIFA 排名：第 27 位\n- 晋级之路：亚洲区AFC第三阶段C组第二名直接晋级，2025年6月10日客场2-1逆转沙特锁定席位；连续第6届、总第7次参加世界杯。\n- 主教练：托尼·波波维奇 (Tony Popovic)\n- 世界杯历史：第7次参加世界杯，2006年和2022年两次进入16强为队史最佳；本场若不败将大概率锁定队史第三次淘汰赛资格。\n- 核心球员：\n  - Mathew Ryan（门将/队长，莱万特）\n  - Harry Souttar（中后卫，谢菲尔德联）\n  - Alessandro Circati（中后卫，帕尔马）\n  - Jackson Irvine（中场，圣保利）\n  - Jordan Bos（左翼卫/左后卫，费耶诺德）\n  - Nestory Irankunda（边锋/前锋，沃特福德）\n  - Mohamed Toure（前锋，诺维奇）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-19 vs 美国（世界杯D组第2轮）：0-2（L）\n  - 2026-06-13 vs 土耳其（世界杯D组第1轮）：2-0（W）\n  - 2026-06-06 vs 瑞士（热身赛）：1-1（D）\n  - 2026-05-30 vs 墨西哥（热身赛）：0-1（L）\n  - 2026-03-31 vs 库拉索（FIFA系列赛）：5-1（W）\n\n### 博彩赔率（1X2，十进制）\n- Oddschecker最佳1X2赔率（分数赔率换算十进制）：主胜 3 / 平 2.3 / 客胜 4.2（home=巴拉圭；原始巴拉圭2/1，平局13/10，澳大利亚16/5；页面概率约35%/35%/30%。）\n- bet365 via talkSPORT（交叉验证）：主胜 — / 平 2.25 / 客胜 —（talkSPORT赛前推荐平局5/4（十进制2.25）与小1.5球13/10；未完整列出1X2三项。）\n\n### 历史交锋（H2H）\n- 共交手 5 次。两队历史交手5次，巴拉圭0胜3平2负，进2球失4球；澳大利亚保持不败。最近一次为2010年友谊赛澳大利亚1-0取胜；双方世界杯正赛首次交手。\n\n### 近期新闻\n- [Australia] 澳大利亚右路和锋线被迫调整：右后卫Jacob Italiano训练中内收肌受伤缺阵，Mathew Leckie也因对美国时的腿筋伤缺席；Geria、Trewin、Irankunda、Metcalfe、Volpato是替代人选。（来源：The Guardian）\n- [Paraguay] 阿尔米隆停赛，巴拉圭创造力受损：阿尔米隆在1-0击败土耳其一战中被红牌罚下，本场停赛；阿尔法罗预计更多依靠恩西索、加拉尔萨和定位球/反击制造机会。（来源：The Guardian / talkSPORT）\n- [Both] 出线形势直接对撞：澳大利亚因净胜球占优，赢球或打平即可锁定D组第二；巴拉圭必须取胜才能反超拿到第二，若不胜只能看最佳第三名竞争。（来源：The Guardian / SBNation）\n- [Australia] 黄牌风险影响淘汰赛排兵：苏塔尔、奇尔卡蒂、博斯均已有一张黄牌，再染黄将影响潜在32强战；波波维奇同时要管理图雷的体能。（来源：The Guardian）\n\n### 小组形势\n- D组两轮后：美国2战6分、净胜+5，已锁定小组第一；澳大利亚3分、净胜0，暂列第二；巴拉圭3分、净胜-2，暂列第三；土耳其0分、净胜-3，已出局。末轮美国vs土耳其与巴拉圭vs澳大利亚同时开球。澳大利亚本场只需不败即可第二出线；巴拉圭必须赢球才能拿第二，打平或输球则进入第三名横向比较。\n\n### 综述\n- D组第二名决战。巴拉圭排名第40，阿尔法罗体系防守强硬，但阿尔米隆停赛让必须赢球的一方少了最重要的推进和创造点；澳大利亚排名第27，波波维奇的5-4-1/三中卫体系更适合守平局，且历史交锋对巴拉圭保持不败。风险在于澳大利亚边路伤停和多名后卫一黄在身。赔率市场给出平局低赔，比赛预期偏谨慎、小比分。\n\n### 资料来源\n- https://www.theguardian.com/football/2026/jun/25/socceroos-australia-paraguay-game-permutations-last-32-world-cup\n- https://www.theguardian.com/football/2026/jun/24/australia-changes-world-cup-paraguay\n- https://talksport.com/betting/4360485/paraguay-vs-australia-odds-tips-2026/\n- https://www.oddschecker.com/football/world-cup/paraguay-v-australia/winner\n- https://www.sbnation.com/fifa-world-cup/1119067/world-cup-2026-how-can-the-usmnt-advance-out-of-group-d\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 13 个比赛日、共 52 场比赛中，4 个先期参赛模型的历次预测、实际赛果与所得分数（结算规则：比分完全猜对 5 分 / 仅胜负方向猜对 3 分 / 猜错或未预测 0 分）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 胜负方向命中 | 比分完全命中 |\n|  ---  |  ---  |  ---  |  ---  |\n| Claude Opus 4.8 | 108 | 32/52 | 6/52 |\n| Grok 4.3 | 107 | 33/52 | 4/52 |\n| Kimi K2.7 | 103 | 33/52 | 2/52 |\n| Mistral Medium 3.5 | 96 | 30/52 | 3/52 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（3） | 1-1（0） | 1-0（3） | 1-0（3） |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 0-1（0） | 1-2（0） | 0-1（0） |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 海地 vs 苏格兰 | 0-1 | 0-2（3） | 0-2（3） | 2-0（0） | 1-2（3） |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-2（0） | 0-3（0） |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 德国 vs 库拉索 | 7-1 | 6-0（3） | 4-0（3） | 4-0（3） | 4-0（3） |\n| 荷兰 vs 日本 | 2-2 | 1-1（3） | 1-1（3） | 2-1（0） | 2-1（0） |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（3） | 2-0（3） | 1-0（3） | 1-0（3） |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 3-0（0） |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 2-1（0） |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 0-1（0） |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（3） | 2-1（3） | 2-1（3） |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（3） | 0-3（3） | 0-2（3） | 0-2（3） |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 奥地利 vs 约旦 | 3-1 | 3-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 3-0（0） | 2-0（0） | 2-0（0） |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（3） | 2-1（3） | 2-1（3） | 2-0（3） |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（3） | 0-2（3） | 0-2（3） | 0-2（3） |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-1（0） | 2-0（0） | 2-0（0） |\n| 瑞士 vs 波黑 | 4-1 | 2-1（3） | 1-1（0） | 2-0（3） | 2-1（3） |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 1-1（0） | 2-1（3） | 2-1（3） |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 3-1（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 1-2（3） |\n| 巴西 vs 海地 | 3-0 | 4-0（3） | 4-0（3） | 2-0（3） | 3-0（5） |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-1（0） | 1-0（0） | 2-0（0） |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（3） | 1-2（0） | 3-1（3） | 2-1（3） |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（3） | 4-0（3） | 2-1（5） | 2-0（3） |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 3-0（0） | 2-0（0） |\n| 突尼斯 vs 日本 | 0-4 | 0-2（3） | 0-1（3） | 1-2（3） | 1-2（3） |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（3） | 3-0（3） | 1-0（3） | 2-0（3） |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（3） | 1-1（3） | 2-0（0） |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 2-0（0） | 1-1（3） | 1-0（0） |\n| 新西兰 vs 埃及 | 1-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-1（3） |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（3） | 3-1（3） | 2-1（3） | 2-0（5） |\n| 法国 vs 伊拉克 | 3-0 | 4-0（3） | 5-0（3） | 3-1（3） | 3-0（5） |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（3） | 3-2（5） | 2-1（3） | 2-1（3） |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（3） | 0-1（3） | 1-2（5） | 1-2（5） |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（3） | 3-1（3） | 2-0（3） | 2-1（3） |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 2-0（0） | 3-0（0） | 2-0（0） |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 0-1（5） |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（3） | 2-0（3） | 2-0（3） | 1-0（5） |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 1-2（0） | 0-0（0） | 1-1（0） |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（3） | 1-0（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-2（3） |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（3） | 4-0（3） | 2-0（3） | 3-0（3） |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（3） | 0-1（3） | 0-1（3） | 1-2（3） |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 1-2（0） | 0-1（0） | 1-2（0） |\n\n<!-- HISTORY-REVIEW-END -->\n"
+  },
+  {
+   "date": "2026-06-26",
+   "matches": [
+    {
+     "id": "2026-06-26-NOR-FRA",
+     "group": "I",
+     "home": {
+      "code": "NOR",
+      "en": "Norway",
+      "zh": "挪威",
+      "flag": "🇳🇴"
+     },
+     "away": {
+      "code": "FRA",
+      "en": "France",
+      "zh": "法国",
+      "flag": "🇫🇷"
+     },
+     "kickoff_local": "2026-06-26 15:00（波士顿当地时间 EDT）",
+     "kickoff_beijing": "2026-06-27 03:00（北京时间周六凌晨）",
+     "venue": "Boston Stadium（Gillette Stadium），美国马萨诸塞州福克斯堡（I组第3轮收官）",
+     "teams": {
+      "Norway": {
+       "name_zh": "挪威",
+       "fifa_ranking": 31,
+       "qualified_via": "欧洲区（UEFA）预选赛I组头名直接晋级——8战全胜力压意大利，哈兰德预选赛打进16球；2025-11客场4-1胜意大利锁定出线。自1998年以来首次重返世界杯（历史第4次参赛）。",
+       "coach": "斯塔勒·索尔巴肯 (Ståle Solbakken)",
+       "wc_history": "第4次参加世界杯（1938、1994、1998、2026）；1998年止步16强，本届为时隔28年回归。",
+       "key_players": [
+        {
+         "name": "埃尔林·哈兰德 (Erling Haaland)",
+         "pos": "前锋",
+         "club": "曼城"
+        },
+        {
+         "name": "马丁·厄德高 (Martin Ødegaard)",
+         "pos": "中场（队长）",
+         "club": "阿森纳"
+        },
+        {
+         "name": "亚历山大·瑟尔洛特 (Alexander Sørloth)",
+         "pos": "前锋",
+         "club": "马德里竞技"
+        },
+        {
+         "name": "安东尼奥·努萨 (Antonio Nusa)",
+         "pos": "边锋",
+         "club": "莱比锡"
+        },
+        {
+         "name": "桑德·贝格 (Sander Berge)",
+         "pos": "中场",
+         "club": "富勒姆"
+        },
+        {
+         "name": "克里斯托弗·阿耶尔 (Kristoffer Ajer)",
+         "pos": "后卫",
+         "club": "布伦特福德"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-22",
+         "opponent": "塞内加尔（世界杯I组第2轮）",
+         "score": "3-2",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-16",
+         "opponent": "伊拉克（世界杯I组第1轮）",
+         "score": "4-1",
+         "result": "W"
+        },
+        {
+         "date": "2025-11-16",
+         "opponent": "意大利（世预赛）",
+         "score": "4-1",
+         "result": "W"
+        },
+        {
+         "date": "2025-11-13",
+         "opponent": "爱沙尼亚（世预赛）",
+         "score": "4-1",
+         "result": "W"
+        },
+        {
+         "date": "2025-10-13",
+         "opponent": "以色列（世预赛）",
+         "score": "5-0",
+         "result": "W"
+        }
+       ]
+      },
+      "France": {
+       "name_zh": "法国",
+       "fifa_ranking": 3,
+       "qualified_via": "欧洲区预选赛头名直接晋级（2018年世界杯冠军、2022年亚军）",
+       "coach": "迪迪埃·德尚 (Didier Deschamps)",
+       "wc_history": "传统强队，2次夺冠（1998、2018），2022年决赛点球负于阿根廷获亚军；本届被视为德尚执教法国的告别之旅。",
+       "key_players": [
+        {
+         "name": "基利安·姆巴佩 (Kylian Mbappé)",
+         "pos": "前锋（队长）",
+         "club": "皇家马德里"
+        },
+        {
+         "name": "奥斯曼·登贝莱 (Ousmane Dembélé)",
+         "pos": "前锋",
+         "club": "巴黎圣日耳曼"
+        },
+        {
+         "name": "迈克尔·奥利斯 (Michael Olise)",
+         "pos": "边锋",
+         "club": "拜仁慕尼黑"
+        },
+        {
+         "name": "威廉·萨利巴 (William Saliba)",
+         "pos": "中后卫",
+         "club": "阿森纳"
+        },
+        {
+         "name": "阿德里安·拉比奥 (Adrien Rabiot)",
+         "pos": "中场",
+         "club": "AC米兰"
+        },
+        {
+         "name": "奥雷利安·楚阿梅尼 (Aurélien Tchouaméni)",
+         "pos": "中场",
+         "club": "皇家马德里"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-22",
+         "opponent": "伊拉克（世界杯I组第2轮）",
+         "score": "3-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-16",
+         "opponent": "塞内加尔（世界杯I组第1轮）",
+         "score": "3-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-08",
+         "opponent": "北爱尔兰（热身赛）",
+         "score": "3-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-04",
+         "opponent": "科特迪瓦（热身赛）",
+         "score": "1-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-03-29",
+         "opponent": "哥伦比亚（热身赛）",
+         "score": "3-1",
+         "result": "W"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "The Sun / talkSPORT 赛前预览",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "两家预览均把法国列为更被看好的一方；公开页面未完整列出1X2三项十进制数。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 0,
+      "summary_zh": "暂无可靠统一交锋口径；两队并非近年常见正式赛对手，本场核心看点不是历史交锋，而是哈兰德与姆巴佩的直接对照。"
+     },
+     "news": [
+      {
+       "team": "Both",
+       "headline_zh": "哈兰德和姆巴佩前两轮均打进4球",
+       "detail_zh": "多家赛前稿把本场定义为金靴热门正面对话，法国只需不败即可保住I组头名，挪威必须赢球才能反超。",
+       "source": "The Guardian / talkSPORT"
+      },
+      {
+       "team": "France",
+       "headline_zh": "法国防线更稳",
+       "detail_zh": "前两轮6进1失，净胜球领先挪威；预览普遍认为法国阵容深度更好。",
+       "source": "talkSPORT / The Sun"
+      },
+      {
+       "team": "Norway",
+       "headline_zh": "挪威火力更猛",
+       "detail_zh": "前两轮打进7球，哈兰德、厄德高、瑟尔洛特的前场组合保持高效率。",
+       "source": "talkSPORT"
+      }
+     ],
+     "group_context_zh": "I组两轮后：法国6分、净胜+5暂列第一；挪威6分、净胜+4第二；塞内加尔和伊拉克均0分。法国打平即可拿小组第一，挪威必须赢球才能反超。",
+     "summary_zh": "I组头名决战。法国整体阵容厚度和防守稳定性更好，挪威则有本届最火的锋线输出。双方都已晋级，变量在轮换幅度与两位头号球星是否继续追金靴。",
+     "sources": [
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification",
+      "https://www.thesun.co.uk/betting/39539609/world-cup-bet-builder-tips-june-26/",
+      "https://www.theguardian.com/football/2026/jun/25/erling-haaland-v-kylian-mbappe-how-the-norway-and-france-hitmen-match-up",
+      "https://www.thesun.co.uk/sport/39536764/norway-france-betting-tips-predictions-odds-world-cup/",
+      "https://talksport.com/football/4365353/norway-vs-france-super-boost-mbappe-haaland-sot-talksportbet/"
+     ],
+     "result": {
+      "id": "2026-06-26-NOR-FRA",
+      "score": "1-4",
+      "winner": "away"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-NOR-FRA",
+        "winner": "away",
+        "score": "2-3",
+        "confidence": 72,
+        "reasoning_zh": "法国阵容厚度与防守优于挪威，姆巴佩状态稳定"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-NOR-FRA",
+        "winner": "away",
+        "score": "2-3",
+        "confidence": 78,
+        "reasoning_zh": "法国阵容与状态占优，挪威必须强攻反给反击空间。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-NOR-FRA",
+        "winner": "draw",
+        "score": "2-2",
+        "confidence": 40,
+        "reasoning_zh": "双方均已出线，可能轮换。挪威火力猛但法国防线稳，头名战或对攻，平局可能性大。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-NOR-FRA",
+        "winner": "away",
+        "score": "1-2",
+        "confidence": 70,
+        "reasoning_zh": "两队均已晋级但需争夺头名。法国阵容厚度及防守更稳，预计一球小胜挪威取得小组第一。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-NOR-FRA",
+        "winner": "away",
+        "score": "1-2",
+        "confidence": 59,
+        "reasoning_zh": "法国阵容深度更足，挪威压上争胜易被反击。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-26-SEN-IRQ",
+     "group": "I",
+     "home": {
+      "code": "SEN",
+      "en": "Senegal",
+      "zh": "塞内加尔",
+      "flag": "🇸🇳"
+     },
+     "away": {
+      "code": "IRQ",
+      "en": "Iraq",
+      "zh": "伊拉克",
+      "flag": "🇮🇶"
+     },
+     "kickoff_local": "2026-06-26 15:00（多伦多当地时间 EDT）",
+     "kickoff_beijing": "2026-06-27 03:00（北京时间周六凌晨）",
+     "venue": "Toronto Stadium（BMO Field），加拿大安大略省多伦多（I组第3轮收官）",
+     "teams": {
+      "Senegal": {
+       "name_zh": "塞内加尔",
+       "fifa_ranking": 15,
+       "qualified_via": "非洲区（CAF）预选赛B组头名直接晋级——10战不败积24分，以大胜毛里塔尼亚锁定出线。",
+       "coach": "帕佩·蒂亚乌 (Pape Thiaw)",
+       "wc_history": "第4次参加世界杯（2002、2018、2022、2026）；2002年首秀闯入8强，2022年打入16强。",
+       "key_players": [
+        {
+         "name": "萨迪奥·马内 (Sadio Mané)",
+         "pos": "前锋",
+         "club": "利雅得胜利"
+        },
+        {
+         "name": "尼古拉斯·杰克逊 (Nicolas Jackson)",
+         "pos": "前锋",
+         "club": "拜仁慕尼黑（租借）"
+        },
+        {
+         "name": "伊斯马伊拉·萨尔 (Ismaïla Sarr)",
+         "pos": "边锋",
+         "club": "水晶宫"
+        },
+        {
+         "name": "卡利杜·库利巴利 (Kalidou Koulibaly)",
+         "pos": "后卫（队长）",
+         "club": "利雅得新月"
+        },
+        {
+         "name": "爱德华·门迪 (Édouard Mendy)",
+         "pos": "门将",
+         "club": "吉达联合（Al-Ahli）"
+        },
+        {
+         "name": "帕佩·马塔尔·萨尔 (Pape Matar Sarr)",
+         "pos": "中场",
+         "club": "托特纳姆热刺"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-22",
+         "opponent": "挪威（世界杯I组第2轮）",
+         "score": "2-3",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-16",
+         "opponent": "法国（世界杯I组第1轮）",
+         "score": "1-3",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-09",
+         "opponent": "沙特阿拉伯（热身赛）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06",
+         "opponent": "美国（赛前热身赛）",
+         "score": "2-3",
+         "result": "L"
+        },
+        {
+         "date": "2026-03",
+         "opponent": "秘鲁（热身赛）",
+         "score": "2-0",
+         "result": "W"
+        }
+       ]
+      },
+      "Iraq": {
+       "name_zh": "伊拉克",
+       "fifa_ranking": 58,
+       "qualified_via": "通过洲际附加赛晋级——2026-03-31在墨西哥蒙特雷以2-1击败玻利维亚，拿下最后一张门票",
+       "coach": "格雷厄姆·阿诺德 (Graham Arnold，澳大利亚籍，2025年上任)",
+       "wc_history": "时隔40年再度参赛；唯一一次世界杯经历为1986年墨西哥世界杯，小组三战全负。",
+       "key_players": [
+        {
+         "name": "艾门·侯赛因 (Aymen Hussein)",
+         "pos": "前锋",
+         "club": "（国家队头号射手，附加赛绝杀玻利维亚）"
+        },
+        {
+         "name": "阿里·哈马迪 (Ali Al-Hamadi)",
+         "pos": "前锋",
+         "club": "卢顿（租借）"
+        },
+        {
+         "name": "齐丹·伊克巴尔 (Zidane Iqbal)",
+         "pos": "中场",
+         "club": "（旅欧中场）"
+        },
+        {
+         "name": "阿里·贾西姆 (Ali Jasim)",
+         "pos": "边锋",
+         "club": ""
+        },
+        {
+         "name": "杰拉勒·哈桑 (Jalal Hassan)",
+         "pos": "门将（队长）",
+         "club": ""
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-22",
+         "opponent": "法国（世界杯I组第2轮）",
+         "score": "0-3",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-16",
+         "opponent": "挪威（世界杯I组第1轮）",
+         "score": "1-4",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-09",
+         "opponent": "委内瑞拉（热身赛）",
+         "score": "0-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-04",
+         "opponent": "西班牙（热身赛）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-05-29",
+         "opponent": "安道尔（热身赛）",
+         "score": "1-0",
+         "result": "W"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "talkSPORT / SBK 赛前预览",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "预览称塞内加尔明显更被看好，但两队都处于必须赢球的局面；公开页面未完整列出1X2三项十进制数。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 0,
+      "summary_zh": "缺少两队A级正式交锋记录，本场以当前状态和小组形势为主要参考。"
+     },
+     "news": [
+      {
+       "team": "Senegal",
+       "headline_zh": "塞内加尔必须大胜才有希望",
+       "detail_zh": "前两轮连败后净胜球为负，必须击败伊拉克并寄望最佳第三名排序。",
+       "source": "The Guardian / AS"
+      },
+      {
+       "team": "Senegal",
+       "headline_zh": "队内压力升高",
+       "detail_zh": "赛前报道提到管理层动荡、主帅合同问题和马内、库利巴利状态受批评。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Iraq",
+       "headline_zh": "伊拉克同样机会很小",
+       "detail_zh": "两战失7球，净胜球劣势更大；前锋艾门·侯赛因伤情被列为疑点。",
+       "source": "AS"
+      }
+     ],
+     "group_context_zh": "I组两轮后：法国和挪威均6分已提前出线；塞内加尔0分、净胜-3；伊拉克0分、净胜-6。塞内加尔和伊拉克只能争取第三名横向比较，且都需要赢球。",
+     "summary_zh": "I组生死边缘战。塞内加尔纸面实力明显高于伊拉克，但前两轮防守和内部环境都不稳；伊拉克防线承压更大，更多依赖反击和定位球。",
+     "sources": [
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification",
+      "https://www.thesun.co.uk/betting/39539609/world-cup-bet-builder-tips-june-26/",
+      "https://www.theguardian.com/football/2026/jun/25/senegals-world-cup-is-hanging-by-a-thread-after-comedy-of-errors-on-and-off-pitch",
+      "https://talksport.com/betting/4356137/senegal-vs-iraq-betting-offer-50-free-bets-sbk/",
+      "https://as.com/futbol/mundial/senegal-busca-una-hazana-f202606-n/"
+     ],
+     "result": {
+      "id": "2026-06-26-SEN-IRQ",
+      "score": "5-0",
+      "winner": "home"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-SEN-IRQ",
+        "winner": "home",
+        "score": "3-0",
+        "confidence": 81,
+        "reasoning_zh": "塞内加尔整体实力碾压伊拉克，必须取胜心态更坚决"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-SEN-IRQ",
+        "winner": "home",
+        "score": "3-1",
+        "confidence": 76,
+        "reasoning_zh": "塞内加尔实力与进攻明显高出一档，伊拉克防线脆弱。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-SEN-IRQ",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 62,
+        "reasoning_zh": "塞内加尔实力明显占优且必须大胜，伊拉克两战失7球防线脆弱，主队拿下。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-SEN-IRQ",
+        "winner": "home",
+        "score": "3-1",
+        "confidence": 78,
+        "reasoning_zh": "塞内加尔硬实力远超伊拉克，伊拉克防线漏洞大且核心存疑，塞队大胜争取出线。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-SEN-IRQ",
+        "winner": "home",
+        "score": "4-1",
+        "confidence": 64,
+        "reasoning_zh": "塞内加尔实力占优且需净胜球，伊拉克防线承压。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-26-EGY-IRN",
+     "group": "G",
+     "home": {
+      "code": "EGY",
+      "en": "Egypt",
+      "zh": "埃及",
+      "flag": "🇪🇬"
+     },
+     "away": {
+      "code": "IRN",
+      "en": "IR Iran",
+      "zh": "伊朗",
+      "flag": "🇮🇷"
+     },
+     "kickoff_local": "2026-06-26 18:00（西雅图当地时间 PDT）",
+     "kickoff_beijing": "2026-06-27 09:00（北京时间周六上午）",
+     "venue": "Seattle Stadium（Lumen Field），美国华盛顿州西雅图（G组第3轮收官）",
+     "teams": {
+      "Egypt": {
+       "name_zh": "埃及",
+       "fifa_ranking": 30,
+       "qualified_via": "非洲区预选赛晋级；赛前刚打入2025非洲杯（AFCON）半决赛",
+       "coach": "侯萨姆·哈桑 (Hossam Hassan)",
+       "wc_history": "第4次参加世界杯（1934、1990、2018后再度晋级）；正赛历史仅平局未尝胜绩，正追逐队史首次小组出线。",
+       "key_players": [
+        {
+         "name": "穆罕默德·萨拉赫 (Mohamed Salah)",
+         "pos": "前锋",
+         "club": "利物浦（队长）"
+        },
+        {
+         "name": "奥马尔·马尔穆什 (Omar Marmoush)",
+         "pos": "前锋",
+         "club": "曼城"
+        },
+        {
+         "name": "特雷泽盖 (Mahmoud Hassan Trezeguet)",
+         "pos": "边锋",
+         "club": "俱乐部待定"
+        },
+        {
+         "name": "伊马姆·阿舒尔 (Emam Ashour)",
+         "pos": "中场",
+         "club": "俱乐部待定（首轮对比利时破门）"
+        },
+        {
+         "name": "济佐 (Zizo)",
+         "pos": "边锋/中场",
+         "club": "俱乐部待定"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-21",
+         "opponent": "新西兰（世界杯G组第2轮）",
+         "score": "3-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-15",
+         "opponent": "比利时（世界杯G组第1轮）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-15",
+         "opponent": "比利时（世界杯G组）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "巴西（友谊赛）",
+         "score": "1-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-05-28",
+         "opponent": "俄罗斯（友谊赛）",
+         "score": "1-0",
+         "result": "W"
+        }
+       ]
+      },
+      "Iran": {
+       "name_zh": "伊朗",
+       "fifa_ranking": 20,
+       "qualified_via": "亚洲区（AFC）第三阶段A组头名直接出线（16场11胜4平1负）",
+       "coach": "阿米尔·加莱诺伊 (Amir Ghalenoei)",
+       "wc_history": "伊朗是亚洲传统强队、第7次跻身世界杯决赛圈，但历史上从未小组出线。本届首战两度落后两度扳平、2-2战平新西兰，展现韧性。",
+       "key_players": [
+        {
+         "name": "迈赫迪·塔雷米 (Mehdi Taremi)",
+         "pos": "前锋",
+         "club": "奥林匹亚科斯"
+        },
+        {
+         "name": "阿里礼萨·贾汉巴赫什 (Alireza Jahanbakhsh)",
+         "pos": "边锋（队长）",
+         "club": "俱乐部待定"
+        },
+        {
+         "name": "阿里礼萨·贝兰万德 (Alireza Beiranvand)",
+         "pos": "门将",
+         "club": "波斯波利斯"
+        },
+        {
+         "name": "拉明·礼萨埃扬 (Ramin Rezaeian)",
+         "pos": "右后卫",
+         "club": "塞帕汗"
+        },
+        {
+         "name": "穆罕默德·莫赫比 (Mohammad Mohebbi)",
+         "pos": "边锋/前锋",
+         "club": "俱乐部待定"
+        },
+        {
+         "name": "萨埃德·埃扎托拉希 (Saeid Ezatolahi)",
+         "pos": "后腰",
+         "club": "俱乐部待定"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-21",
+         "opponent": "比利时（世界杯G组第2轮）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-15",
+         "opponent": "新西兰（世界杯G组第1轮）",
+         "score": "2-2",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-16",
+         "opponent": "新西兰（世界杯G组第1轮）",
+         "score": "2-2",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "卡塔尔（热身赛）",
+         "score": "0-1",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-02",
+         "opponent": "俄罗斯（热身赛）",
+         "score": "1-2",
+         "result": "L"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "AS / Guardian 赛前报道",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "报道重点在出线形势和场外议题，未完整列出1X2三项十进制数。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 0,
+      "summary_zh": "暂无可靠统一交锋口径；两队历史交锋资料口径分散，本场更重要的是G组实时积分和防守风格对撞。"
+     },
+     "news": [
+      {
+       "team": "Egypt",
+       "headline_zh": "埃及4分领跑G组",
+       "detail_zh": "萨拉赫、马尔穆什和特雷泽盖带动进攻；埃及有机会冲击队史首次世界杯小组突围。",
+       "source": "AS / Scottish Sun"
+      },
+      {
+       "team": "Iran",
+       "headline_zh": "伊朗两连平仍在第二集团",
+       "detail_zh": "伊朗前两轮对新西兰、比利时均打平，防守韧性强，但仍需要处理埃及的锋线冲击。",
+       "source": "AS / Scottish Sun"
+      },
+      {
+       "team": "Both",
+       "headline_zh": "西雅图场外议题升温",
+       "detail_zh": "FIFA确认允许相关旗帜入场，但两队教练都强调专注比赛本身。",
+       "source": "The Guardian"
+      }
+     ],
+     "group_context_zh": "G组两轮后：埃及4分第一，伊朗2分第二，比利时2分第三，新西兰1分第四。埃及不败基本锁定前二；伊朗赢球直接前二，平局要看比利时一战结果和净胜球。",
+     "summary_zh": "G组关键卡位战。埃及进攻端选择更多，伊朗组织更稳、防守更硬。埃及的目标是稳住前二，伊朗若想避免被比利时挤下去，最好主动争胜。",
+     "sources": [
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification",
+      "https://www.thescottishsun.co.uk/sport/16455372/world-cup-2026-group-g-live-table-latest-standings/",
+      "https://www.theguardian.com/football/2026/jun/26/fifa-rainbow-flags-egypt-iran-world-cup-pride-match",
+      "https://as.com/futbol/mundial/egipto-e-iran-buscan-un-hueco-en-la-historia-mundial-f202606-n/",
+      "https://www.theguardian.com/football/2026/jun/25/seattle-pride-match-world-cup-egypt-iran"
+     ],
+     "result": {
+      "id": "2026-06-26-EGY-IRN",
+      "score": "1-1",
+      "winner": "draw"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-EGY-IRN",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 68,
+        "reasoning_zh": "埃及进攻端选择更多，萨拉赫带动下主场优势明显"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-EGY-IRN",
+        "winner": "draw",
+        "score": "1-1",
+        "confidence": 72,
+        "reasoning_zh": "埃及只需平局求稳，伊朗坚韧防线难被轻易打穿。"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-EGY-IRN",
+        "winner": "draw",
+        "score": "1-1",
+        "confidence": 42,
+        "reasoning_zh": "埃及不败即锁前二会偏稳，伊朗防守韧性强且需争胜，互相牵制，平局概率高。"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-EGY-IRN",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 65,
+        "reasoning_zh": "埃及锋线状态正佳，只需不败即可锁定前两名；伊朗虽坚韧，但埃及反击更具威胁，看好埃及小胜。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-EGY-IRN",
+        "winner": "draw",
+        "score": "0-0",
+        "confidence": 54,
+        "reasoning_zh": "埃及不败即稳，伊朗防守硬，节奏可能谨慎。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-26-NZL-BEL",
+     "group": "G",
+     "home": {
+      "code": "NZL",
+      "en": "New Zealand",
+      "zh": "新西兰",
+      "flag": "🇳🇿"
+     },
+     "away": {
+      "code": "BEL",
+      "en": "Belgium",
+      "zh": "比利时",
+      "flag": "🇧🇪"
+     },
+     "kickoff_local": "2026-06-26 18:00（温哥华当地时间 PDT）",
+     "kickoff_beijing": "2026-06-27 09:00（北京时间周六上午）",
+     "venue": "BC Place Vancouver，加拿大不列颠哥伦比亚省温哥华（G组第3轮收官）",
+     "teams": {
+      "New Zealand": {
+       "name_zh": "新西兰",
+       "fifa_ranking": 85,
+       "qualified_via": "大洋洲区（OFC）预选赛冠军，史上首次以大洋洲唯一直通名额晋级，预选赛5战全胜、进29球仅失1球；本届48队中排名最低",
+       "coach": "达伦·巴泽利 (Darren Bazeley)",
+       "wc_history": "第3次参加世界杯（1982、2010后再度晋级）；2010年南非世界杯3场全平不败但小组出局，至今世界杯正赛尚无胜绩。",
+       "key_players": [
+        {
+         "name": "克里斯·伍德 (Chris Wood)",
+         "pos": "前锋",
+         "club": "诺丁汉森林（队长、队史最佳射手）"
+        },
+        {
+         "name": "伊利亚·贾斯特 (Elijah Just)",
+         "pos": "前锋/边锋",
+         "club": "马瑟韦尔（首轮对伊朗梅开二度）"
+        },
+        {
+         "name": "汤米·史密斯 (Tommy Smith)",
+         "pos": "后卫",
+         "club": "俱乐部待定"
+        },
+        {
+         "name": "马尔科·罗哈斯 (Marco Rojas)",
+         "pos": "边锋",
+         "club": "俱乐部待定"
+        },
+        {
+         "name": "利伯顿·卡乔 (Liberato Cacace)",
+         "pos": "左后卫",
+         "club": "俱乐部待定"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-21",
+         "opponent": "埃及（世界杯G组第2轮）",
+         "score": "1-3",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-15",
+         "opponent": "伊朗（世界杯G组第1轮）",
+         "score": "2-2",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-16",
+         "opponent": "伊朗（世界杯G组）",
+         "score": "2-2",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-07",
+         "opponent": "英格兰（友谊赛）",
+         "score": "0-1",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-03",
+         "opponent": "海地（友谊赛）",
+         "score": "0-4",
+         "result": "L"
+        }
+       ]
+      },
+      "Belgium": {
+       "name_zh": "比利时",
+       "fifa_ranking": 9,
+       "qualified_via": "欧洲区（UEFA）预选赛出线",
+       "coach": "鲁迪·加西亚 (Rudi Garcia)",
+       "wc_history": "比利时是世界杯常客，最佳战绩为2018年俄罗斯世界杯季军（黄金一代）。本届首战仅1-1战平埃及暴露主力老化隐忧。",
+       "key_players": [
+        {
+         "name": "凯文·德布劳内 (Kevin De Bruyne)",
+         "pos": "攻击型中场",
+         "club": "那不勒斯"
+        },
+        {
+         "name": "罗梅卢·卢卡库 (Romelu Lukaku)",
+         "pos": "前锋",
+         "club": "那不勒斯"
+        },
+        {
+         "name": "蒂博·库尔图瓦 (Thibaut Courtois)",
+         "pos": "门将",
+         "club": "皇家马德里"
+        },
+        {
+         "name": "尤里·蒂勒曼斯 (Youri Tielemans)",
+         "pos": "中场（队长）",
+         "club": "阿斯顿维拉"
+        },
+        {
+         "name": "莱安德罗·特罗萨德 (Leandro Trossard)",
+         "pos": "边锋/前锋",
+         "club": "阿森纳"
+        },
+        {
+         "name": "阿马杜·奥纳纳 (Amadou Onana)",
+         "pos": "后腰",
+         "club": "阿斯顿维拉"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-21",
+         "opponent": "伊朗（世界杯G组第2轮）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-15",
+         "opponent": "埃及（世界杯G组第1轮）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-02",
+         "opponent": "克罗地亚（热身赛）",
+         "score": "2-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-25",
+         "opponent": "突尼斯（热身赛）",
+         "score": "5-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-21",
+         "opponent": "墨西哥（热身赛）",
+         "score": "1-1",
+         "result": "D"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "The Sun / talkSPORT 赛前预览",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "预览称比利时必须赢球且整体实力占优；公开页面未完整列出1X2三项十进制数。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 0,
+      "summary_zh": "两队此前没有正式A级交锋记录，本场为首次世界杯交手。"
+     },
+     "news": [
+      {
+       "team": "Belgium",
+       "headline_zh": "比利时两场不胜且运动战未开张",
+       "detail_zh": "前两轮1-1埃及、0-0伊朗，38脚射门只有一个乌龙进球；Nathan Ngoy停赛。",
+       "source": "The Sun"
+      },
+      {
+       "team": "Belgium",
+       "headline_zh": "多库回归训练",
+       "detail_zh": "Jérémy Doku已经重新回到球队，德布劳内和卢卡库需要带队打破进球荒。",
+       "source": "talkSPORT"
+      },
+      {
+       "team": "New Zealand",
+       "headline_zh": "新西兰仍有出线希望",
+       "detail_zh": "新西兰首战2-2伊朗、次战1-3埃及；后卫Michael Boxall停赛削弱防线。",
+       "source": "talkSPORT / The Sun"
+      }
+     ],
+     "group_context_zh": "G组两轮后：埃及4分第一，伊朗2分第二，比利时2分第三，新西兰1分第四。比利时必须赢球才最稳，新西兰赢球也仍可能争前二或最佳第三。",
+     "summary_zh": "G组压力最大的强队战。比利时纸面优势仍明显，但前两轮效率很低；新西兰排名低、阵容深度薄，却已经证明能给强队制造麻烦。",
+     "sources": [
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification",
+      "https://www.thescottishsun.co.uk/sport/16455372/world-cup-2026-group-g-live-table-latest-standings/",
+      "https://www.thesun.co.uk/sport/39540109/new-zealand-belgium-betting-tips-odds-world-cup/",
+      "https://talksport.com/betting/4360582/world-cup-2026-247bet-free-bets-new-zealand-belgium/"
+     ],
+     "result": {
+      "id": "2026-06-26-NZL-BEL",
+      "score": "1-5",
+      "winner": "away"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-NZL-BEL",
+        "winner": "away",
+        "score": "1-2",
+        "confidence": 65,
+        "reasoning_zh": "比利时虽效率低但实力碾压，新西兰防线已现疲态"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-NZL-BEL",
+        "winner": "away",
+        "score": "1-2",
+        "confidence": 74,
+        "reasoning_zh": "比利时必须取胜且整体实力占优，但新西兰定位球有威胁。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-NZL-BEL",
+        "winner": "away",
+        "score": "0-2",
+        "confidence": 60,
+        "reasoning_zh": "比利时必须赢且实力占优，多库回归补强进攻，新西兰后防停赛减员，比利时终将打破球荒。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-NZL-BEL",
+        "winner": "away",
+        "score": "0-3",
+        "confidence": 82,
+        "reasoning_zh": "比利时退无可退，多库复出且新西兰面临防线主力停赛，红魔迎来大胜。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-NZL-BEL",
+        "winner": "away",
+        "score": "0-1",
+        "confidence": 60,
+        "reasoning_zh": "比利时必须赢但效率低，新西兰少后卫仍难守全场。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-26-CPV-KSA",
+     "group": "H",
+     "home": {
+      "code": "CPV",
+      "en": "Cabo Verde",
+      "zh": "佛得角",
+      "flag": "🇨🇻"
+     },
+     "away": {
+      "code": "KSA",
+      "en": "Saudi Arabia",
+      "zh": "沙特阿拉伯",
+      "flag": "🇸🇦"
+     },
+     "kickoff_local": "2026-06-26 19:00（休斯敦当地时间 CDT）",
+     "kickoff_beijing": "2026-06-27 08:00（北京时间周六上午）",
+     "venue": "Houston Stadium（NRG Stadium/Reliant Stadium），美国得克萨斯州休斯敦（H组第3轮收官）",
+     "teams": {
+      "Cape Verde": {
+       "name_zh": "佛得角",
+       "fifa_ranking": 68,
+       "qualified_via": "非洲区（CAF）预选赛D组头名出线（力压喀麦隆），队史首次晋级世界杯",
+       "coach": "佩德罗·莱唐·布里托（绰号 Bubista）",
+       "wc_history": "队史首次参加世界杯（2026为处子秀），是本届四支首次参赛球队之一；揭幕战0-0逼平西班牙，门将沃津哈贡献7次扑救，被视为本届赛事最大冷门之一。",
+       "key_players": [
+        {
+         "name": "瑞安·门德斯 (Ryan Mendes)",
+         "pos": "边锋/队长",
+         "club": "伊迪尔体育 (Iğdır FK，土耳其乙级)"
+        },
+        {
+         "name": "沃津哈 (Vozinha)",
+         "pos": "门将",
+         "club": "马里迪莫"
+        },
+        {
+         "name": "罗伯托·'皮科'·洛佩斯 (Roberto 'Pico' Lopes)",
+         "pos": "后卫",
+         "club": "沙姆洛克流浪者"
+        },
+        {
+         "name": "戴隆·利夫拉门托 (Dailon Livramento)",
+         "pos": "前锋",
+         "club": "俱乐部待定"
+        },
+        {
+         "name": "迪尼 (Diney)",
+         "pos": "中场/前锋",
+         "club": "俱乐部待定"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-21",
+         "opponent": "乌拉圭（世界杯H组第2轮）",
+         "score": "2-2",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-15",
+         "opponent": "西班牙（世界杯H组第1轮）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-15",
+         "opponent": "西班牙（世界杯H组）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "百慕大（友谊赛）",
+         "score": "3-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-05-31",
+         "opponent": "塞尔维亚（友谊赛）",
+         "score": "3-0",
+         "result": "W"
+        }
+       ]
+      },
+      "Saudi Arabia": {
+       "name_zh": "沙特阿拉伯",
+       "fifa_ranking": 61,
+       "qualified_via": "亚洲区（AFC）预选赛晋级",
+       "coach": "乔治斯·多尼斯 (Georgios Donis，世界杯前约56天接替被解职的埃尔韦·勒纳尔)",
+       "wc_history": "沙特阿拉伯第7次参加世界杯，最佳成绩为1994年美国世界杯16强；2022年卡塔尔世界杯小组赛曾2-1爆冷击败最终冠军阿根廷，但最终小组未能出线。",
+       "key_players": [
+        {
+         "name": "萨利姆·道萨里 (Salem Al-Dawsari)",
+         "pos": "边锋",
+         "club": "利雅得新月 (Al-Hilal)"
+        },
+        {
+         "name": "菲拉斯·布赖坎 (Firas Al-Buraikan)",
+         "pos": "前锋",
+         "club": "利雅得新月 (Al-Hilal)"
+        },
+        {
+         "name": "穆罕默德·坎诺 (Mohamed Kanno)",
+         "pos": "中场",
+         "club": "利雅得新月 (Al-Hilal)"
+        },
+        {
+         "name": "纳赛尔·达萨里 (Nasser Al-Dawsari)",
+         "pos": "中场",
+         "club": "利雅得新月 (Al-Hilal)"
+        },
+        {
+         "name": "穆罕默德·奥韦斯 (Mohammed Al-Owais)",
+         "pos": "门将",
+         "club": "利雅得胜利 (Al-Nassr)"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-21",
+         "opponent": "西班牙（世界杯H组第2轮）",
+         "score": "0-4",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-15",
+         "opponent": "乌拉圭（世界杯H组第1轮）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-15",
+         "opponent": "乌拉圭（2026世界杯H组）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-09",
+         "opponent": "塞内加尔（热身赛）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-05",
+         "opponent": "波多黎各（热身赛）",
+         "score": "3-0",
+         "result": "W"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "Houston Chronicle / The Sun 赛前报道",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "报道强调两队都仍有晋级机会，未完整列出1X2三项十进制数。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 0,
+      "summary_zh": "两队此前没有正式A级交锋记录，本场为首次世界杯交手。"
+     },
+     "news": [
+      {
+       "team": "Cabo Verde",
+       "headline_zh": "佛得角冲击历史首次淘汰赛",
+       "detail_zh": "世界杯首秀前两轮逼平西班牙和乌拉圭，2分在手，赢球可能直接进前二。",
+       "source": "Houston Chronicle / The Times"
+      },
+      {
+       "team": "Saudi Arabia",
+       "headline_zh": "沙特只有1分但仍未出局",
+       "detail_zh": "首战1-1乌拉圭，次战0-4负西班牙；本场必须赢球才有现实晋级希望。",
+       "source": "Houston Chronicle / The Sun"
+      },
+      {
+       "team": "Cabo Verde",
+       "headline_zh": "Vozinha和Ryan Mendes是故事核心",
+       "detail_zh": "40岁门将Vozinha首战表现出色，老队长Ryan Mendes仍是球队精神核心。",
+       "source": "Houston Chronicle"
+      }
+     ],
+     "group_context_zh": "H组两轮后：西班牙4分第一，乌拉圭2分第二，佛得角2分第三，沙特1分第四。佛得角赢球很可能晋级；沙特必须赢球并看另一场结果。",
+     "summary_zh": "H组黑马战。佛得角防守纪律和团队情绪都很好，沙特经验更多但上一轮大败后净胜球压力巨大。两队都需要三分，比赛可能比前两轮更开放。",
+     "sources": [
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification",
+      "https://www.thesun.co.uk/sport/39539521/world-cup-2026-group-h-live-table-lastest-standings/",
+      "https://www.houstonchronicle.com/world-cup/article/cape-verde-saudia-arabia-game-time-tv-22320229.php",
+      "https://www.thetimes.com/sport/football/world-cup/article/inside-joyful-cape-verde-training-camp-next-to-a-cannabis-store-nkpdrcvj7"
+     ],
+     "result": {
+      "id": "2026-06-26-CPV-KSA",
+      "score": "0-0",
+      "winner": "draw"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-CPV-KSA",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 59,
+        "reasoning_zh": "佛得角韧性极强，两战逼平强队，沙特大败后信心受损"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-CPV-KSA",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 66,
+        "reasoning_zh": "佛得角士气高涨防守紧密，沙特必须取胜反而暴露空当。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-CPV-KSA",
+        "winner": "draw",
+        "score": "1-1",
+        "confidence": 35,
+        "reasoning_zh": "佛得角防守稳逼平西乌，沙特大败后净胜球承压。两队都需胜，比赛开放，平局对佛得角更有利。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-CPV-KSA",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 60,
+        "reasoning_zh": "佛得角前两轮表现惊艳，防守严密。沙特必须大举进攻，容易被佛得角的高效反击击溃。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-CPV-KSA",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 57,
+        "reasoning_zh": "佛得角防守纪律好，沙特压上会留下反击空间。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-26-URU-ESP",
+     "group": "H",
+     "home": {
+      "code": "URU",
+      "en": "Uruguay",
+      "zh": "乌拉圭",
+      "flag": "🇺🇾"
+     },
+     "away": {
+      "code": "ESP",
+      "en": "Spain",
+      "zh": "西班牙",
+      "flag": "🇪🇸"
+     },
+     "kickoff_local": "2026-06-26 18:00（瓜达拉哈拉当地时间 CST）",
+     "kickoff_beijing": "2026-06-27 08:00（北京时间周六上午）",
+     "venue": "Estadio Guadalajara（Estadio Akron），墨西哥哈利斯科州瓜达拉哈拉（H组第3轮收官）",
+     "teams": {
+      "Uruguay": {
+       "name_zh": "乌拉圭",
+       "fifa_ranking": 16,
+       "qualified_via": "南美区（CONMEBOL）预选赛第4名直接出线",
+       "coach": "马塞洛·比尔萨 (Marcelo Bielsa)",
+       "wc_history": "世界杯传统强队，两届冠军（1930、1950），共参加15届世界杯；近年含2010殿军、2018/2022淘汰赛阶段出局。",
+       "key_players": [
+        {
+         "name": "费德里科·巴尔韦德 (Federico Valverde)",
+         "pos": "中场",
+         "club": "皇家马德里"
+        },
+        {
+         "name": "达尔文·努涅斯 (Darwin Núñez)",
+         "pos": "前锋",
+         "club": "利物浦"
+        },
+        {
+         "name": "罗纳尔德·阿劳霍 (Ronald Araújo)",
+         "pos": "后卫",
+         "club": "巴塞罗那"
+        },
+        {
+         "name": "何塞·马里亚·希门尼斯 (José María Giménez)",
+         "pos": "后卫/队长",
+         "club": "马德里竞技"
+        },
+        {
+         "name": "曼努埃尔·乌加特 (Manuel Ugarte)",
+         "pos": "中场",
+         "club": "曼联"
+        },
+        {
+         "name": "罗德里戈·本坦库尔 (Rodrigo Bentancur)",
+         "pos": "中场",
+         "club": "托特纳姆热刺"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-21",
+         "opponent": "佛得角（世界杯H组第2轮）",
+         "score": "2-2",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-15",
+         "opponent": "沙特阿拉伯（世界杯H组第1轮）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-15",
+         "opponent": "沙特阿拉伯（世界杯H组）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-03-26",
+         "opponent": "阿尔及利亚（友谊赛）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-03-22",
+         "opponent": "英格兰（友谊赛）",
+         "score": "1-1",
+         "result": "D"
+        }
+       ]
+      },
+      "Spain": {
+       "name_zh": "西班牙",
+       "fifa_ranking": 2,
+       "qualified_via": "欧洲区预选赛头名直接晋级；2024 欧洲杯冠军、本届夺冠大热门",
+       "coach": "路易斯·德拉富恩特 (Luis de la Fuente)",
+       "wc_history": "西班牙 2010 年南非世界杯首夺世界杯冠军；2022 卡塔尔世界杯止步16强（点球负摩洛哥）。2024 年欧洲杯夺冠，本届为夺冠大热门之一。",
+       "key_players": [
+        {
+         "name": "拉明·亚马尔 (Lamine Yamal)",
+         "pos": "边锋",
+         "club": "巴塞罗那"
+        },
+        {
+         "name": "佩德里 (Pedri)",
+         "pos": "中场",
+         "club": "巴塞罗那"
+        },
+        {
+         "name": "罗德里 (Rodri)",
+         "pos": "后腰",
+         "club": "曼城"
+        },
+        {
+         "name": "尼科·威廉姆斯 (Nico Williams)",
+         "pos": "边锋",
+         "club": "毕尔巴鄂竞技"
+        },
+        {
+         "name": "米克尔·奥亚萨瓦尔 (Mikel Oyarzabal)",
+         "pos": "前锋",
+         "club": "皇家社会"
+        },
+        {
+         "name": "马克·库库雷利亚 (Marc Cucurella)",
+         "pos": "左后卫",
+         "club": "切尔西"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-21",
+         "opponent": "沙特阿拉伯（世界杯H组第2轮）",
+         "score": "4-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-15",
+         "opponent": "佛得角（世界杯H组第1轮）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-15",
+         "opponent": "佛得角（2026世界杯H组）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-08",
+         "opponent": "秘鲁（热身赛）",
+         "score": "3-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-04",
+         "opponent": "伊拉克（热身赛）",
+         "score": "1-1",
+         "result": "D"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "Barca Blaugranes / The Sun 赛前预览",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "预览看好西班牙，乌拉圭因伤停和积分压力处于被动；公开页面未完整列出1X2三项十进制数。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 10,
+      "summary_zh": "两队历史约10次交手，世界杯有1950年2-2和1990年0-0两场平局；近年西班牙保持较强交锋优势。"
+     },
+     "news": [
+      {
+       "team": "Spain",
+       "headline_zh": "西班牙4分领跑且无明显伤情",
+       "detail_zh": "4-0击败沙特后，西班牙掌握小组头名主动，亚马尔预计继续首发。",
+       "source": "Barca Blaugranes"
+      },
+      {
+       "team": "Uruguay",
+       "headline_zh": "乌拉圭必须主动抢分",
+       "detail_zh": "前两轮连平只有2分，如另一场分出胜负，乌拉圭输球风险很大。",
+       "source": "Barca Blaugranes / The Sun"
+      },
+      {
+       "team": "Uruguay",
+       "headline_zh": "阿劳霍和德阿拉斯卡埃塔缺席",
+       "detail_zh": "赛前报道称乌拉圭将缺少两名关键球员，贝尔萨需要依靠巴尔韦德和本坦库尔撑住强度。",
+       "source": "Barca Blaugranes"
+      }
+     ],
+     "group_context_zh": "H组两轮后：西班牙4分第一，乌拉圭2分第二，佛得角2分第三，沙特1分第四。西班牙不败基本锁定小组第一；乌拉圭最好赢球，平局仍要看另一场。",
+     "summary_zh": "H组头名与出线压力同场。西班牙状态刚起，控球和边路都占优；乌拉圭逼抢强度高，但伤停和必须拿分的压力会放大后场风险。",
+     "sources": [
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification",
+      "https://www.thesun.co.uk/sport/39539521/world-cup-2026-group-h-live-table-lastest-standings/",
+      "https://www.barcablaugranes.com/world-cup-2026/124729/uruguay-spain-world-cup-2026-team-news-match-preview-lineups-prediction"
+     ],
+     "result": {
+      "id": "2026-06-26-URU-ESP",
+      "score": "0-1",
+      "winner": "away"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-URU-ESP",
+        "winner": "away",
+        "score": "1-2",
+        "confidence": 70,
+        "reasoning_zh": "西班牙控球与边路占优，乌拉圭伤停削弱反击威胁"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-URU-ESP",
+        "winner": "away",
+        "score": "0-2",
+        "confidence": 77,
+        "reasoning_zh": "西班牙整体实力与控球明显占优，乌拉圭缺主力后卫且必须压上，容易被反击打穿。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-URU-ESP",
+        "winner": "away",
+        "score": "1-2",
+        "confidence": 48,
+        "reasoning_zh": "西班牙状态回暖且阵容齐整，乌拉圭缺阿劳霍后防隐患，西班牙边路占优客胜。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-URU-ESP",
+        "winner": "away",
+        "score": "0-2",
+        "confidence": 75,
+        "reasoning_zh": "乌拉圭两名核心球员缺阵且防线不稳，面对控球极强的西班牙难有作为，西班牙预计轻松取胜。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-26-URU-ESP",
+        "winner": "away",
+        "score": "0-2",
+        "confidence": 63,
+        "reasoning_zh": "乌拉圭伤停削弱后防，西班牙控球和边路更稳。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    }
+   ],
+   "settled": true,
+   "day_points": {
+    "x-ai/grok-4.3": 8,
+    "moonshotai/kimi-k2.6": 13,
+    "anthropic/claude-fable-5": 13,
+    "google/gemini-3.5-flash": 8,
+    "sakana/fugu-ultra": 10,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
+   },
+   "prompt": {
+    "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断会出现冷门、平局或非热门球队取胜时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的精确比分。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
+    "user": "以下是 2026-06-26（明天）世界杯 6 场小组赛的完整资料文档：\n\n═══════════ 资料文档开始 ═══════════\n# 2026-06-26 世界杯比赛资料文档\n\n本文档汇总了 2026-06-26（比赛日，北美当地时间）FIFA 2026 世界杯全部 6 场小组赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与小组形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-06-26-NOR-FRA`：I组 挪威(Norway, 主) vs 法国(France, 客)\n- `2026-06-26-SEN-IRQ`：I组 塞内加尔(Senegal, 主) vs 伊拉克(Iraq, 客)\n- `2026-06-26-EGY-IRN`：G组 埃及(Egypt, 主) vs 伊朗(IR Iran, 客)\n- `2026-06-26-NZL-BEL`：G组 新西兰(New Zealand, 主) vs 比利时(Belgium, 客)\n- `2026-06-26-CPV-KSA`：H组 佛得角(Cabo Verde, 主) vs 沙特阿拉伯(Saudi Arabia, 客)\n- `2026-06-26-URU-ESP`：H组 乌拉圭(Uruguay, 主) vs 西班牙(Spain, 客)\n\n---\n\n## I组 · 挪威 vs 法国（match_id: `2026-06-26-NOR-FRA`）\n\n- 开球：2026-06-26 15:00（波士顿当地时间 EDT）｜北京时间 2026-06-27 03:00（北京时间周六凌晨）\n- 场地：Boston Stadium（Gillette Stadium），美国马萨诸塞州福克斯堡（I组第3轮收官）\n\n### 挪威（Norway，主队）\n- FIFA 排名：第 31 位\n- 晋级之路：欧洲区（UEFA）预选赛I组头名直接晋级——8战全胜力压意大利，哈兰德预选赛打进16球；2025-11客场4-1胜意大利锁定出线。自1998年以来首次重返世界杯（历史第4次参赛）。\n- 主教练：斯塔勒·索尔巴肯 (Ståle Solbakken)\n- 世界杯历史：第4次参加世界杯（1938、1994、1998、2026）；1998年止步16强，本届为时隔28年回归。\n- 核心球员：\n  - 埃尔林·哈兰德 (Erling Haaland)（前锋，曼城）\n  - 马丁·厄德高 (Martin Ødegaard)（中场（队长），阿森纳）\n  - 亚历山大·瑟尔洛特 (Alexander Sørloth)（前锋，马德里竞技）\n  - 安东尼奥·努萨 (Antonio Nusa)（边锋，莱比锡）\n  - 桑德·贝格 (Sander Berge)（中场，富勒姆）\n  - 克里斯托弗·阿耶尔 (Kristoffer Ajer)（后卫，布伦特福德）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-22 vs 塞内加尔（世界杯I组第2轮）：3-2（W）\n  - 2026-06-16 vs 伊拉克（世界杯I组第1轮）：4-1（W）\n  - 2025-11-16 vs 意大利（世预赛）：4-1（W）\n  - 2025-11-13 vs 爱沙尼亚（世预赛）：4-1（W）\n  - 2025-10-13 vs 以色列（世预赛）：5-0（W）\n\n### 法国（France，客队）\n- FIFA 排名：第 3 位\n- 晋级之路：欧洲区预选赛头名直接晋级（2018年世界杯冠军、2022年亚军）\n- 主教练：迪迪埃·德尚 (Didier Deschamps)\n- 世界杯历史：传统强队，2次夺冠（1998、2018），2022年决赛点球负于阿根廷获亚军；本届被视为德尚执教法国的告别之旅。\n- 核心球员：\n  - 基利安·姆巴佩 (Kylian Mbappé)（前锋（队长），皇家马德里）\n  - 奥斯曼·登贝莱 (Ousmane Dembélé)（前锋，巴黎圣日耳曼）\n  - 迈克尔·奥利斯 (Michael Olise)（边锋，拜仁慕尼黑）\n  - 威廉·萨利巴 (William Saliba)（中后卫，阿森纳）\n  - 阿德里安·拉比奥 (Adrien Rabiot)（中场，AC米兰）\n  - 奥雷利安·楚阿梅尼 (Aurélien Tchouaméni)（中场，皇家马德里）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-22 vs 伊拉克（世界杯I组第2轮）：3-0（W）\n  - 2026-06-16 vs 塞内加尔（世界杯I组第1轮）：3-1（W）\n  - 2026-06-08 vs 北爱尔兰（热身赛）：3-1（W）\n  - 2026-06-04 vs 科特迪瓦（热身赛）：1-2（L）\n  - 2026-03-29 vs 哥伦比亚（热身赛）：3-1（W）\n\n### 博彩赔率（1X2，十进制）\n- The Sun / talkSPORT 赛前预览：主胜 — / 平 — / 客胜 —（两家预览均把法国列为更被看好的一方；公开页面未完整列出1X2三项十进制数。）\n\n### 历史交锋（H2H）\n- 共交手 null 次。两队并非近年常见正式赛对手；本场核心看点不是历史交锋，而是哈兰德与姆巴佩的直接对照。\n\n### 近期新闻\n- [Both] 哈兰德和姆巴佩前两轮均打进4球：多家赛前稿把本场定义为金靴热门正面对话，法国只需不败即可保住I组头名，挪威必须赢球才能反超。（来源：The Guardian / talkSPORT）\n- [France] 法国防线更稳：前两轮6进1失，净胜球领先挪威；预览普遍认为法国阵容深度更好。（来源：talkSPORT / The Sun）\n- [Norway] 挪威火力更猛：前两轮打进7球，哈兰德、厄德高、瑟尔洛特的前场组合保持高效率。（来源：talkSPORT）\n\n### 小组形势\n- I组两轮后：法国6分、净胜+5暂列第一；挪威6分、净胜+4第二；塞内加尔和伊拉克均0分。法国打平即可拿小组第一，挪威必须赢球才能反超。\n\n### 综述\n- I组头名决战。法国整体阵容厚度和防守稳定性更好，挪威则有本届最火的锋线输出。双方都已晋级，变量在轮换幅度与两位头号球星是否继续追金靴。\n\n### 资料来源\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification\n- https://www.thesun.co.uk/betting/39539609/world-cup-bet-builder-tips-june-26/\n- https://www.theguardian.com/football/2026/jun/25/erling-haaland-v-kylian-mbappe-how-the-norway-and-france-hitmen-match-up\n- https://www.thesun.co.uk/sport/39536764/norway-france-betting-tips-predictions-odds-world-cup/\n- https://talksport.com/football/4365353/norway-vs-france-super-boost-mbappe-haaland-sot-talksportbet/\n\n---\n\n## I组 · 塞内加尔 vs 伊拉克（match_id: `2026-06-26-SEN-IRQ`）\n\n- 开球：2026-06-26 15:00（多伦多当地时间 EDT）｜北京时间 2026-06-27 03:00（北京时间周六凌晨）\n- 场地：Toronto Stadium（BMO Field），加拿大安大略省多伦多（I组第3轮收官）\n\n### 塞内加尔（Senegal，主队）\n- FIFA 排名：第 15 位\n- 晋级之路：非洲区（CAF）预选赛B组头名直接晋级——10战不败积24分，以大胜毛里塔尼亚锁定出线。\n- 主教练：帕佩·蒂亚乌 (Pape Thiaw)\n- 世界杯历史：第4次参加世界杯（2002、2018、2022、2026）；2002年首秀闯入8强，2022年打入16强。\n- 核心球员：\n  - 萨迪奥·马内 (Sadio Mané)（前锋，利雅得胜利）\n  - 尼古拉斯·杰克逊 (Nicolas Jackson)（前锋，拜仁慕尼黑（租借））\n  - 伊斯马伊拉·萨尔 (Ismaïla Sarr)（边锋，水晶宫）\n  - 卡利杜·库利巴利 (Kalidou Koulibaly)（后卫（队长），利雅得新月）\n  - 爱德华·门迪 (Édouard Mendy)（门将，吉达联合（Al-Ahli））\n  - 帕佩·马塔尔·萨尔 (Pape Matar Sarr)（中场，托特纳姆热刺）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-22 vs 挪威（世界杯I组第2轮）：2-3（L）\n  - 2026-06-16 vs 法国（世界杯I组第1轮）：1-3（L）\n  - 2026-06-09 vs 沙特阿拉伯（热身赛）：0-0（D）\n  - 2026-06 vs 美国（赛前热身赛）：2-3（L）\n  - 2026-03 vs 秘鲁（热身赛）：2-0（W）\n\n### 伊拉克（Iraq，客队）\n- FIFA 排名：第 58 位\n- 晋级之路：通过洲际附加赛晋级——2026-03-31在墨西哥蒙特雷以2-1击败玻利维亚，拿下最后一张门票\n- 主教练：格雷厄姆·阿诺德 (Graham Arnold，澳大利亚籍，2025年上任)\n- 世界杯历史：时隔40年再度参赛；唯一一次世界杯经历为1986年墨西哥世界杯，小组三战全负。\n- 核心球员：\n  - 艾门·侯赛因 (Aymen Hussein)（前锋，（国家队头号射手，附加赛绝杀玻利维亚））\n  - 阿里·哈马迪 (Ali Al-Hamadi)（前锋，卢顿（租借））\n  - 齐丹·伊克巴尔 (Zidane Iqbal)（中场，（旅欧中场））\n  - 阿里·贾西姆 (Ali Jasim)（边锋，）\n  - 杰拉勒·哈桑 (Jalal Hassan)（门将（队长），）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-22 vs 法国（世界杯I组第2轮）：0-3（L）\n  - 2026-06-16 vs 挪威（世界杯I组第1轮）：1-4（L）\n  - 2026-06-09 vs 委内瑞拉（热身赛）：0-2（L）\n  - 2026-06-04 vs 西班牙（热身赛）：1-1（D）\n  - 2026-05-29 vs 安道尔（热身赛）：1-0（W）\n\n### 博彩赔率（1X2，十进制）\n- talkSPORT / SBK 赛前预览：主胜 — / 平 — / 客胜 —（预览称塞内加尔明显更被看好，但两队都处于必须赢球的局面；公开页面未完整列出1X2三项十进制数。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。缺少两队A级正式交锋记录，本场以当前状态和小组形势为主要参考。\n\n### 近期新闻\n- [Senegal] 塞内加尔必须大胜才有希望：前两轮连败后净胜球为负，必须击败伊拉克并寄望最佳第三名排序。（来源：The Guardian / AS）\n- [Senegal] 队内压力升高：赛前报道提到管理层动荡、主帅合同问题和马内、库利巴利状态受批评。（来源：The Guardian）\n- [Iraq] 伊拉克同样机会很小：两战失7球，净胜球劣势更大；前锋艾门·侯赛因伤情被列为疑点。（来源：AS）\n\n### 小组形势\n- I组两轮后：法国和挪威均6分已提前出线；塞内加尔0分、净胜-3；伊拉克0分、净胜-6。塞内加尔和伊拉克只能争取第三名横向比较，且都需要赢球。\n\n### 综述\n- I组生死边缘战。塞内加尔纸面实力明显高于伊拉克，但前两轮防守和内部环境都不稳；伊拉克防线承压更大，更多依赖反击和定位球。\n\n### 资料来源\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification\n- https://www.thesun.co.uk/betting/39539609/world-cup-bet-builder-tips-june-26/\n- https://www.theguardian.com/football/2026/jun/25/senegals-world-cup-is-hanging-by-a-thread-after-comedy-of-errors-on-and-off-pitch\n- https://talksport.com/betting/4356137/senegal-vs-iraq-betting-offer-50-free-bets-sbk/\n- https://as.com/futbol/mundial/senegal-busca-una-hazana-f202606-n/\n\n---\n\n## G组 · 埃及 vs 伊朗（match_id: `2026-06-26-EGY-IRN`）\n\n- 开球：2026-06-26 18:00（西雅图当地时间 PDT）｜北京时间 2026-06-27 09:00（北京时间周六上午）\n- 场地：Seattle Stadium（Lumen Field），美国华盛顿州西雅图（G组第3轮收官）\n\n### 埃及（Egypt，主队）\n- FIFA 排名：第 30 位\n- 晋级之路：非洲区预选赛晋级；赛前刚打入2025非洲杯（AFCON）半决赛\n- 主教练：侯萨姆·哈桑 (Hossam Hassan)\n- 世界杯历史：第4次参加世界杯（1934、1990、2018后再度晋级）；正赛历史仅平局未尝胜绩，正追逐队史首次小组出线。\n- 核心球员：\n  - 穆罕默德·萨拉赫 (Mohamed Salah)（前锋，利物浦（队长））\n  - 奥马尔·马尔穆什 (Omar Marmoush)（前锋，曼城）\n  - 特雷泽盖 (Mahmoud Hassan Trezeguet)（边锋，俱乐部待定）\n  - 伊马姆·阿舒尔 (Emam Ashour)（中场，俱乐部待定（首轮对比利时破门））\n  - 济佐 (Zizo)（边锋/中场，俱乐部待定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-21 vs 新西兰（世界杯G组第2轮）：3-1（W）\n  - 2026-06-15 vs 比利时（世界杯G组第1轮）：1-1（D）\n  - 2026-06-15 vs 比利时（世界杯G组）：1-1（D）\n  - 2026-06-06 vs 巴西（友谊赛）：1-2（L）\n  - 2026-05-28 vs 俄罗斯（友谊赛）：1-0（W）\n\n### 伊朗（Iran，客队）\n- FIFA 排名：第 20 位\n- 晋级之路：亚洲区（AFC）第三阶段A组头名直接出线（16场11胜4平1负）\n- 主教练：阿米尔·加莱诺伊 (Amir Ghalenoei)\n- 世界杯历史：伊朗是亚洲传统强队、第7次跻身世界杯决赛圈，但历史上从未小组出线。本届首战两度落后两度扳平、2-2战平新西兰，展现韧性。\n- 核心球员：\n  - 迈赫迪·塔雷米 (Mehdi Taremi)（前锋，奥林匹亚科斯）\n  - 阿里礼萨·贾汉巴赫什 (Alireza Jahanbakhsh)（边锋（队长），俱乐部待定）\n  - 阿里礼萨·贝兰万德 (Alireza Beiranvand)（门将，波斯波利斯）\n  - 拉明·礼萨埃扬 (Ramin Rezaeian)（右后卫，塞帕汗）\n  - 穆罕默德·莫赫比 (Mohammad Mohebbi)（边锋/前锋，俱乐部待定）\n  - 萨埃德·埃扎托拉希 (Saeid Ezatolahi)（后腰，俱乐部待定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-21 vs 比利时（世界杯G组第2轮）：0-0（D）\n  - 2026-06-15 vs 新西兰（世界杯G组第1轮）：2-2（D）\n  - 2026-06-16 vs 新西兰（世界杯G组第1轮）：2-2（D）\n  - 2026-06-06 vs 卡塔尔（热身赛）：0-1（L）\n  - 2026-06-02 vs 俄罗斯（热身赛）：1-2（L）\n\n### 博彩赔率（1X2，十进制）\n- AS / Guardian 赛前报道：主胜 — / 平 — / 客胜 —（报道重点在出线形势和场外议题，未完整列出1X2三项十进制数。）\n\n### 历史交锋（H2H）\n- 共交手 null 次。两队历史交锋资料口径分散；本场更重要的是G组实时积分和防守风格对撞。\n\n### 近期新闻\n- [Egypt] 埃及4分领跑G组：萨拉赫、马尔穆什和特雷泽盖带动进攻；埃及有机会冲击队史首次世界杯小组突围。（来源：AS / Scottish Sun）\n- [Iran] 伊朗两连平仍在第二集团：伊朗前两轮对新西兰、比利时均打平，防守韧性强，但仍需要处理埃及的锋线冲击。（来源：AS / Scottish Sun）\n- [Both] 西雅图场外议题升温：FIFA确认允许相关旗帜入场，但两队教练都强调专注比赛本身。（来源：The Guardian）\n\n### 小组形势\n- G组两轮后：埃及4分第一，伊朗2分第二，比利时2分第三，新西兰1分第四。埃及不败基本锁定前二；伊朗赢球直接前二，平局要看比利时一战结果和净胜球。\n\n### 综述\n- G组关键卡位战。埃及进攻端选择更多，伊朗组织更稳、防守更硬。埃及的目标是稳住前二，伊朗若想避免被比利时挤下去，最好主动争胜。\n\n### 资料来源\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification\n- https://www.thescottishsun.co.uk/sport/16455372/world-cup-2026-group-g-live-table-latest-standings/\n- https://www.theguardian.com/football/2026/jun/26/fifa-rainbow-flags-egypt-iran-world-cup-pride-match\n- https://as.com/futbol/mundial/egipto-e-iran-buscan-un-hueco-en-la-historia-mundial-f202606-n/\n- https://www.theguardian.com/football/2026/jun/25/seattle-pride-match-world-cup-egypt-iran\n\n---\n\n## G组 · 新西兰 vs 比利时（match_id: `2026-06-26-NZL-BEL`）\n\n- 开球：2026-06-26 18:00（温哥华当地时间 PDT）｜北京时间 2026-06-27 09:00（北京时间周六上午）\n- 场地：BC Place Vancouver，加拿大不列颠哥伦比亚省温哥华（G组第3轮收官）\n\n### 新西兰（New Zealand，主队）\n- FIFA 排名：第 85 位\n- 晋级之路：大洋洲区（OFC）预选赛冠军，史上首次以大洋洲唯一直通名额晋级，预选赛5战全胜、进29球仅失1球；本届48队中排名最低\n- 主教练：达伦·巴泽利 (Darren Bazeley)\n- 世界杯历史：第3次参加世界杯（1982、2010后再度晋级）；2010年南非世界杯3场全平不败但小组出局，至今世界杯正赛尚无胜绩。\n- 核心球员：\n  - 克里斯·伍德 (Chris Wood)（前锋，诺丁汉森林（队长、队史最佳射手））\n  - 伊利亚·贾斯特 (Elijah Just)（前锋/边锋，马瑟韦尔（首轮对伊朗梅开二度））\n  - 汤米·史密斯 (Tommy Smith)（后卫，俱乐部待定）\n  - 马尔科·罗哈斯 (Marco Rojas)（边锋，俱乐部待定）\n  - 利伯顿·卡乔 (Liberato Cacace)（左后卫，俱乐部待定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-21 vs 埃及（世界杯G组第2轮）：1-3（L）\n  - 2026-06-15 vs 伊朗（世界杯G组第1轮）：2-2（D）\n  - 2026-06-16 vs 伊朗（世界杯G组）：2-2（D）\n  - 2026-06-07 vs 英格兰（友谊赛）：0-1（L）\n  - 2026-06-03 vs 海地（友谊赛）：0-4（L）\n\n### 比利时（Belgium，客队）\n- FIFA 排名：第 9 位\n- 晋级之路：欧洲区（UEFA）预选赛出线\n- 主教练：鲁迪·加西亚 (Rudi Garcia)\n- 世界杯历史：比利时是世界杯常客，最佳战绩为2018年俄罗斯世界杯季军（黄金一代）。本届首战仅1-1战平埃及暴露主力老化隐忧。\n- 核心球员：\n  - 凯文·德布劳内 (Kevin De Bruyne)（攻击型中场，那不勒斯）\n  - 罗梅卢·卢卡库 (Romelu Lukaku)（前锋，那不勒斯）\n  - 蒂博·库尔图瓦 (Thibaut Courtois)（门将，皇家马德里）\n  - 尤里·蒂勒曼斯 (Youri Tielemans)（中场（队长），阿斯顿维拉）\n  - 莱安德罗·特罗萨德 (Leandro Trossard)（边锋/前锋，阿森纳）\n  - 阿马杜·奥纳纳 (Amadou Onana)（后腰，阿斯顿维拉）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-21 vs 伊朗（世界杯G组第2轮）：0-0（D）\n  - 2026-06-15 vs 埃及（世界杯G组第1轮）：1-1（D）\n  - 2026-06-02 vs 克罗地亚（热身赛）：2-0（W）\n  - 2026-03-25 vs 突尼斯（热身赛）：5-0（W）\n  - 2026-03-21 vs 墨西哥（热身赛）：1-1（D）\n\n### 博彩赔率（1X2，十进制）\n- The Sun / talkSPORT 赛前预览：主胜 — / 平 — / 客胜 —（预览称比利时必须赢球且整体实力占优；公开页面未完整列出1X2三项十进制数。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队此前没有正式A级交锋记录，本场为首次世界杯交手。\n\n### 近期新闻\n- [Belgium] 比利时两场不胜且运动战未开张：前两轮1-1埃及、0-0伊朗，38脚射门只有一个乌龙进球；Nathan Ngoy停赛。（来源：The Sun）\n- [Belgium] 多库回归训练：Jérémy Doku已经重新回到球队，德布劳内和卢卡库需要带队打破进球荒。（来源：talkSPORT）\n- [New Zealand] 新西兰仍有出线希望：新西兰首战2-2伊朗、次战1-3埃及；后卫Michael Boxall停赛削弱防线。（来源：talkSPORT / The Sun）\n\n### 小组形势\n- G组两轮后：埃及4分第一，伊朗2分第二，比利时2分第三，新西兰1分第四。比利时必须赢球才最稳，新西兰赢球也仍可能争前二或最佳第三。\n\n### 综述\n- G组压力最大的强队战。比利时纸面优势仍明显，但前两轮效率很低；新西兰排名低、阵容深度薄，却已经证明能给强队制造麻烦。\n\n### 资料来源\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification\n- https://www.thescottishsun.co.uk/sport/16455372/world-cup-2026-group-g-live-table-latest-standings/\n- https://www.thesun.co.uk/sport/39540109/new-zealand-belgium-betting-tips-odds-world-cup/\n- https://talksport.com/betting/4360582/world-cup-2026-247bet-free-bets-new-zealand-belgium/\n\n---\n\n## H组 · 佛得角 vs 沙特阿拉伯（match_id: `2026-06-26-CPV-KSA`）\n\n- 开球：2026-06-26 19:00（休斯敦当地时间 CDT）｜北京时间 2026-06-27 08:00（北京时间周六上午）\n- 场地：Houston Stadium（NRG Stadium/Reliant Stadium），美国得克萨斯州休斯敦（H组第3轮收官）\n\n### 佛得角（Cape Verde，主队）\n- FIFA 排名：第 68 位\n- 晋级之路：非洲区（CAF）预选赛D组头名出线（力压喀麦隆），队史首次晋级世界杯\n- 主教练：佩德罗·莱唐·布里托（绰号 Bubista）\n- 世界杯历史：队史首次参加世界杯（2026为处子秀），是本届四支首次参赛球队之一；揭幕战0-0逼平西班牙，门将沃津哈贡献7次扑救，被视为本届赛事最大冷门之一。\n- 核心球员：\n  - 瑞安·门德斯 (Ryan Mendes)（边锋/队长，伊迪尔体育 (Iğdır FK，土耳其乙级)）\n  - 沃津哈 (Vozinha)（门将，马里迪莫）\n  - 罗伯托·'皮科'·洛佩斯 (Roberto 'Pico' Lopes)（后卫，沙姆洛克流浪者）\n  - 戴隆·利夫拉门托 (Dailon Livramento)（前锋，俱乐部待定）\n  - 迪尼 (Diney)（中场/前锋，俱乐部待定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-21 vs 乌拉圭（世界杯H组第2轮）：2-2（D）\n  - 2026-06-15 vs 西班牙（世界杯H组第1轮）：0-0（D）\n  - 2026-06-15 vs 西班牙（世界杯H组）：0-0（D）\n  - 2026-06-06 vs 百慕大（友谊赛）：3-0（W）\n  - 2026-05-31 vs 塞尔维亚（友谊赛）：3-0（W）\n\n### 沙特阿拉伯（Saudi Arabia，客队）\n- FIFA 排名：第 61 位\n- 晋级之路：亚洲区（AFC）预选赛晋级\n- 主教练：乔治斯·多尼斯 (Georgios Donis，世界杯前约56天接替被解职的埃尔韦·勒纳尔)\n- 世界杯历史：沙特阿拉伯第7次参加世界杯，最佳成绩为1994年美国世界杯16强；2022年卡塔尔世界杯小组赛曾2-1爆冷击败最终冠军阿根廷，但最终小组未能出线。\n- 核心球员：\n  - 萨利姆·道萨里 (Salem Al-Dawsari)（边锋，利雅得新月 (Al-Hilal)）\n  - 菲拉斯·布赖坎 (Firas Al-Buraikan)（前锋，利雅得新月 (Al-Hilal)）\n  - 穆罕默德·坎诺 (Mohamed Kanno)（中场，利雅得新月 (Al-Hilal)）\n  - 纳赛尔·达萨里 (Nasser Al-Dawsari)（中场，利雅得新月 (Al-Hilal)）\n  - 穆罕默德·奥韦斯 (Mohammed Al-Owais)（门将，利雅得胜利 (Al-Nassr)）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-21 vs 西班牙（世界杯H组第2轮）：0-4（L）\n  - 2026-06-15 vs 乌拉圭（世界杯H组第1轮）：1-1（D）\n  - 2026-06-15 vs 乌拉圭（2026世界杯H组）：1-1（D）\n  - 2026-06-09 vs 塞内加尔（热身赛）：0-0（D）\n  - 2026-06-05 vs 波多黎各（热身赛）：3-0（W）\n\n### 博彩赔率（1X2，十进制）\n- Houston Chronicle / The Sun 赛前报道：主胜 — / 平 — / 客胜 —（报道强调两队都仍有晋级机会，未完整列出1X2三项十进制数。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队此前没有正式A级交锋记录，本场为首次世界杯交手。\n\n### 近期新闻\n- [Cabo Verde] 佛得角冲击历史首次淘汰赛：世界杯首秀前两轮逼平西班牙和乌拉圭，2分在手，赢球可能直接进前二。（来源：Houston Chronicle / The Times）\n- [Saudi Arabia] 沙特只有1分但仍未出局：首战1-1乌拉圭，次战0-4负西班牙；本场必须赢球才有现实晋级希望。（来源：Houston Chronicle / The Sun）\n- [Cabo Verde] Vozinha和Ryan Mendes是故事核心：40岁门将Vozinha首战表现出色，老队长Ryan Mendes仍是球队精神核心。（来源：Houston Chronicle）\n\n### 小组形势\n- H组两轮后：西班牙4分第一，乌拉圭2分第二，佛得角2分第三，沙特1分第四。佛得角赢球很可能晋级；沙特必须赢球并看另一场结果。\n\n### 综述\n- H组黑马战。佛得角防守纪律和团队情绪都很好，沙特经验更多但上一轮大败后净胜球压力巨大。两队都需要三分，比赛可能比前两轮更开放。\n\n### 资料来源\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification\n- https://www.thesun.co.uk/sport/39539521/world-cup-2026-group-h-live-table-lastest-standings/\n- https://www.houstonchronicle.com/world-cup/article/cape-verde-saudia-arabia-game-time-tv-22320229.php\n- https://www.thetimes.com/sport/football/world-cup/article/inside-joyful-cape-verde-training-camp-next-to-a-cannabis-store-nkpdrcvj7\n\n---\n\n## H组 · 乌拉圭 vs 西班牙（match_id: `2026-06-26-URU-ESP`）\n\n- 开球：2026-06-26 18:00（瓜达拉哈拉当地时间 CST）｜北京时间 2026-06-27 08:00（北京时间周六上午）\n- 场地：Estadio Guadalajara（Estadio Akron），墨西哥哈利斯科州瓜达拉哈拉（H组第3轮收官）\n\n### 乌拉圭（Uruguay，主队）\n- FIFA 排名：第 16 位\n- 晋级之路：南美区（CONMEBOL）预选赛第4名直接出线\n- 主教练：马塞洛·比尔萨 (Marcelo Bielsa)\n- 世界杯历史：世界杯传统强队，两届冠军（1930、1950），共参加15届世界杯；近年含2010殿军、2018/2022淘汰赛阶段出局。\n- 核心球员：\n  - 费德里科·巴尔韦德 (Federico Valverde)（中场，皇家马德里）\n  - 达尔文·努涅斯 (Darwin Núñez)（前锋，利物浦）\n  - 罗纳尔德·阿劳霍 (Ronald Araújo)（后卫，巴塞罗那）\n  - 何塞·马里亚·希门尼斯 (José María Giménez)（后卫/队长，马德里竞技）\n  - 曼努埃尔·乌加特 (Manuel Ugarte)（中场，曼联）\n  - 罗德里戈·本坦库尔 (Rodrigo Bentancur)（中场，托特纳姆热刺）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-21 vs 佛得角（世界杯H组第2轮）：2-2（D）\n  - 2026-06-15 vs 沙特阿拉伯（世界杯H组第1轮）：1-1（D）\n  - 2026-06-15 vs 沙特阿拉伯（世界杯H组）：1-1（D）\n  - 2026-03-26 vs 阿尔及利亚（友谊赛）：0-0（D）\n  - 2026-03-22 vs 英格兰（友谊赛）：1-1（D）\n\n### 西班牙（Spain，客队）\n- FIFA 排名：第 2 位\n- 晋级之路：欧洲区预选赛头名直接晋级；2024 欧洲杯冠军、本届夺冠大热门\n- 主教练：路易斯·德拉富恩特 (Luis de la Fuente)\n- 世界杯历史：西班牙 2010 年南非世界杯首夺世界杯冠军；2022 卡塔尔世界杯止步16强（点球负摩洛哥）。2024 年欧洲杯夺冠，本届为夺冠大热门之一。\n- 核心球员：\n  - 拉明·亚马尔 (Lamine Yamal)（边锋，巴塞罗那）\n  - 佩德里 (Pedri)（中场，巴塞罗那）\n  - 罗德里 (Rodri)（后腰，曼城）\n  - 尼科·威廉姆斯 (Nico Williams)（边锋，毕尔巴鄂竞技）\n  - 米克尔·奥亚萨瓦尔 (Mikel Oyarzabal)（前锋，皇家社会）\n  - 马克·库库雷利亚 (Marc Cucurella)（左后卫，切尔西）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-21 vs 沙特阿拉伯（世界杯H组第2轮）：4-0（W）\n  - 2026-06-15 vs 佛得角（世界杯H组第1轮）：0-0（D）\n  - 2026-06-15 vs 佛得角（2026世界杯H组）：0-0（D）\n  - 2026-06-08 vs 秘鲁（热身赛）：3-1（W）\n  - 2026-06-04 vs 伊拉克（热身赛）：1-1（D）\n\n### 博彩赔率（1X2，十进制）\n- Barca Blaugranes / The Sun 赛前预览：主胜 — / 平 — / 客胜 —（预览看好西班牙，乌拉圭因伤停和积分压力处于被动；公开页面未完整列出1X2三项十进制数。）\n\n### 历史交锋（H2H）\n- 共交手 10 次。两队历史约10次交手，世界杯有1950年2-2和1990年0-0两场平局；近年西班牙保持较强交锋优势。\n\n### 近期新闻\n- [Spain] 西班牙4分领跑且无明显伤情：4-0击败沙特后，西班牙掌握小组头名主动，亚马尔预计继续首发。（来源：Barca Blaugranes）\n- [Uruguay] 乌拉圭必须主动抢分：前两轮连平只有2分，如另一场分出胜负，乌拉圭输球风险很大。（来源：Barca Blaugranes / The Sun）\n- [Uruguay] 阿劳霍和德阿拉斯卡埃塔缺席：赛前报道称乌拉圭将缺少两名关键球员，贝尔萨需要依靠巴尔韦德和本坦库尔撑住强度。（来源：Barca Blaugranes）\n\n### 小组形势\n- H组两轮后：西班牙4分第一，乌拉圭2分第二，佛得角2分第三，沙特1分第四。西班牙不败基本锁定小组第一；乌拉圭最好赢球，平局仍要看另一场。\n\n### 综述\n- H组头名与出线压力同场。西班牙状态刚起，控球和边路都占优；乌拉圭逼抢强度高，但伤停和必须拿分的压力会放大后场风险。\n\n### 资料来源\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification\n- https://www.thesun.co.uk/sport/39539521/world-cup-2026-group-h-live-table-lastest-standings/\n- https://www.barcablaugranes.com/world-cup-2026/124729/uruguay-spain-world-cup-2026-team-news-match-preview-lineups-prediction\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 14 个比赛日、共 58 场比赛中，4 个先期参赛模型的历次预测、实际赛果与所得分数（结算规则：比分完全猜对 5 分 / 仅胜负方向猜对 3 分 / 猜错或未预测 0 分）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 胜负方向命中 | 比分完全命中 |\n|  ---  |  ---  |  ---  |  ---  |\n| Claude Opus 4.8 | 124 | 36/58 | 8/58 |\n| Grok 4.3 | 118 | 36/58 | 5/58 |\n| Kimi K2.7 | 116 | 36/58 | 4/58 |\n| Mistral Medium 3.5 | 107 | 33/58 | 4/58 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（3） | 1-1（0） | 1-0（3） | 1-0（3） |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 0-1（0） | 1-2（0） | 0-1（0） |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 海地 vs 苏格兰 | 0-1 | 0-2（3） | 0-2（3） | 2-0（0） | 1-2（3） |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-2（0） | 0-3（0） |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 德国 vs 库拉索 | 7-1 | 6-0（3） | 4-0（3） | 4-0（3） | 4-0（3） |\n| 荷兰 vs 日本 | 2-2 | 1-1（3） | 1-1（3） | 2-1（0） | 2-1（0） |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（3） | 2-0（3） | 1-0（3） | 1-0（3） |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 3-0（0） |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 2-1（0） |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 0-1（0） |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（3） | 2-1（3） | 2-1（3） |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（3） | 0-3（3） | 0-2（3） | 0-2（3） |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 奥地利 vs 约旦 | 3-1 | 3-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 3-0（0） | 2-0（0） | 2-0（0） |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（3） | 2-1（3） | 2-1（3） | 2-0（3） |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（3） | 0-2（3） | 0-2（3） | 0-2（3） |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-1（0） | 2-0（0） | 2-0（0） |\n| 瑞士 vs 波黑 | 4-1 | 2-1（3） | 1-1（0） | 2-0（3） | 2-1（3） |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 1-1（0） | 2-1（3） | 2-1（3） |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 3-1（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 1-2（3） |\n| 巴西 vs 海地 | 3-0 | 4-0（3） | 4-0（3） | 2-0（3） | 3-0（5） |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-1（0） | 1-0（0） | 2-0（0） |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（3） | 1-2（0） | 3-1（3） | 2-1（3） |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（3） | 4-0（3） | 2-1（5） | 2-0（3） |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 3-0（0） | 2-0（0） |\n| 突尼斯 vs 日本 | 0-4 | 0-2（3） | 0-1（3） | 1-2（3） | 1-2（3） |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（3） | 3-0（3） | 1-0（3） | 2-0（3） |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（3） | 1-1（3） | 2-0（0） |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 2-0（0） | 1-1（3） | 1-0（0） |\n| 新西兰 vs 埃及 | 1-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-1（3） |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（3） | 3-1（3） | 2-1（3） | 2-0（5） |\n| 法国 vs 伊拉克 | 3-0 | 4-0（3） | 5-0（3） | 3-1（3） | 3-0（5） |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（3） | 3-2（5） | 2-1（3） | 2-1（3） |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（3） | 0-1（3） | 1-2（5） | 1-2（5） |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（3） | 3-1（3） | 2-0（3） | 2-1（3） |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 2-0（0） | 3-0（0） | 2-0（0） |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 0-1（5） |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（3） | 2-0（3） | 2-0（3） | 1-0（5） |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 1-2（0） | 0-0（0） | 1-1（0） |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（3） | 1-0（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-2（3） |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（3） | 4-0（3） | 2-0（3） | 3-0（3） |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（3） | 0-1（3） | 0-1（3） | 1-2（3） |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 1-2（0） | 0-1（0） | 1-2（0） |\n\n**2026-06-25**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 库拉索 vs 科特迪瓦 | 0-2 | 0-2（5） | 0-3（3） | 0-1（3） | 0-2（5） |\n| 厄瓜多尔 vs 德国 | 2-1 | 1-2（0） | 0-3（0） | 1-2（0） | 1-1（0） |\n| 日本 vs 瑞典 | 1-1 | 2-1（0） | 1-1（5） | 2-1（0） | 1-1（5） |\n| 突尼斯 vs 荷兰 | 1-3 | 0-3（3） | 0-4（3） | 1-3（5） | 0-3（3） |\n| 土耳其 vs 美国 | 3-2 | 0-2（0） | 1-2（0） | 1-1（0） | 1-2（0） |\n| 巴拉圭 vs 澳大利亚 | 0-0 | 1-1（3） | 1-0（0） | 0-0（5） | 1-1（3） |\n\n<!-- HISTORY-REVIEW-END -->\n\n═══════════ 资料文档结束 ═══════════\n\n文档末尾附有各模型（包括你自己）历次预测与实际赛果的对照战绩，请在预测前先复盘这些记录，再给出你独立的判断。\n\n请预测每场比赛常规时间的结果，严格按以下 JSON 数组格式输出，不要输出任何其他文字，不要用 markdown 代码块包裹：\n[{\"match_id\": \"...\", \"winner\": \"home\" 或 \"away\" 或 \"draw\", \"score\": \"主队进球-客队进球（如 2-1）\", \"confidence\": 1到100的整数, \"reasoning_zh\": \"50字以内中文理由\"}]\n\nmatch_id 必须逐一使用以下 ID（共 6 场，每场恰好一条预测）：\n2026-06-26-NOR-FRA\n2026-06-26-SEN-IRQ\n2026-06-26-EGY-IRN\n2026-06-26-NZL-BEL\n2026-06-26-CPV-KSA\n2026-06-26-URU-ESP"
+   },
+   "generated_at": "2026-06-26T08:27:57.887Z",
+   "model_runs": {
+    "x-ai/grok-4.3": {
+     "status": "ok",
+     "latency_s": 8,
+     "via": "openrouter",
+     "error": null
+    },
+    "mistralai/mistral-medium-3-5": {
+     "status": "ok",
+     "latency_s": 12,
+     "via": "openrouter",
+     "error": null
+    },
+    "moonshotai/kimi-k2.6": {
+     "status": "ok",
+     "latency_s": 197,
+     "via": "openrouter",
+     "error": null
+    },
+    "anthropic/claude-fable-5": {
+     "status": "ok",
+     "latency_s": 12,
+     "via": "openrouter",
+     "error": null
+    },
+    "qwen/qwen3.7-max": {
+     "status": "ok",
+     "latency_s": 59,
+     "via": "openrouter",
+     "error": null
+    },
+    "google/gemini-3.5-flash": {
+     "status": "ok",
+     "latency_s": 19,
+     "via": "openrouter",
+     "error": null
+    },
+    "sakana/fugu-ultra": {
+     "status": "ok",
+     "latency_s": 137,
+     "via": "openrouter",
+     "error": null
+    },
+    "bytedance/doubao-seed-2.0-pro": {
+     "status": "ok",
+     "latency_s": 41,
+     "via": "volcengine",
+     "error": null
+    }
+   },
+   "context_md": "# 2026-06-26 世界杯比赛资料文档\n\n本文档汇总了 2026-06-26（比赛日，北美当地时间）FIFA 2026 世界杯全部 6 场小组赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与小组形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-06-26-NOR-FRA`：I组 挪威(Norway, 主) vs 法国(France, 客)\n- `2026-06-26-SEN-IRQ`：I组 塞内加尔(Senegal, 主) vs 伊拉克(Iraq, 客)\n- `2026-06-26-EGY-IRN`：G组 埃及(Egypt, 主) vs 伊朗(IR Iran, 客)\n- `2026-06-26-NZL-BEL`：G组 新西兰(New Zealand, 主) vs 比利时(Belgium, 客)\n- `2026-06-26-CPV-KSA`：H组 佛得角(Cabo Verde, 主) vs 沙特阿拉伯(Saudi Arabia, 客)\n- `2026-06-26-URU-ESP`：H组 乌拉圭(Uruguay, 主) vs 西班牙(Spain, 客)\n\n---\n\n## I组 · 挪威 vs 法国（match_id: `2026-06-26-NOR-FRA`）\n\n- 开球：2026-06-26 15:00（波士顿当地时间 EDT）｜北京时间 2026-06-27 03:00（北京时间周六凌晨）\n- 场地：Boston Stadium（Gillette Stadium），美国马萨诸塞州福克斯堡（I组第3轮收官）\n\n### 挪威（Norway，主队）\n- FIFA 排名：第 31 位\n- 晋级之路：欧洲区（UEFA）预选赛I组头名直接晋级——8战全胜力压意大利，哈兰德预选赛打进16球；2025-11客场4-1胜意大利锁定出线。自1998年以来首次重返世界杯（历史第4次参赛）。\n- 主教练：斯塔勒·索尔巴肯 (Ståle Solbakken)\n- 世界杯历史：第4次参加世界杯（1938、1994、1998、2026）；1998年止步16强，本届为时隔28年回归。\n- 核心球员：\n  - 埃尔林·哈兰德 (Erling Haaland)（前锋，曼城）\n  - 马丁·厄德高 (Martin Ødegaard)（中场（队长），阿森纳）\n  - 亚历山大·瑟尔洛特 (Alexander Sørloth)（前锋，马德里竞技）\n  - 安东尼奥·努萨 (Antonio Nusa)（边锋，莱比锡）\n  - 桑德·贝格 (Sander Berge)（中场，富勒姆）\n  - 克里斯托弗·阿耶尔 (Kristoffer Ajer)（后卫，布伦特福德）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-22 vs 塞内加尔（世界杯I组第2轮）：3-2（W）\n  - 2026-06-16 vs 伊拉克（世界杯I组第1轮）：4-1（W）\n  - 2025-11-16 vs 意大利（世预赛）：4-1（W）\n  - 2025-11-13 vs 爱沙尼亚（世预赛）：4-1（W）\n  - 2025-10-13 vs 以色列（世预赛）：5-0（W）\n\n### 法国（France，客队）\n- FIFA 排名：第 3 位\n- 晋级之路：欧洲区预选赛头名直接晋级（2018年世界杯冠军、2022年亚军）\n- 主教练：迪迪埃·德尚 (Didier Deschamps)\n- 世界杯历史：传统强队，2次夺冠（1998、2018），2022年决赛点球负于阿根廷获亚军；本届被视为德尚执教法国的告别之旅。\n- 核心球员：\n  - 基利安·姆巴佩 (Kylian Mbappé)（前锋（队长），皇家马德里）\n  - 奥斯曼·登贝莱 (Ousmane Dembélé)（前锋，巴黎圣日耳曼）\n  - 迈克尔·奥利斯 (Michael Olise)（边锋，拜仁慕尼黑）\n  - 威廉·萨利巴 (William Saliba)（中后卫，阿森纳）\n  - 阿德里安·拉比奥 (Adrien Rabiot)（中场，AC米兰）\n  - 奥雷利安·楚阿梅尼 (Aurélien Tchouaméni)（中场，皇家马德里）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-22 vs 伊拉克（世界杯I组第2轮）：3-0（W）\n  - 2026-06-16 vs 塞内加尔（世界杯I组第1轮）：3-1（W）\n  - 2026-06-08 vs 北爱尔兰（热身赛）：3-1（W）\n  - 2026-06-04 vs 科特迪瓦（热身赛）：1-2（L）\n  - 2026-03-29 vs 哥伦比亚（热身赛）：3-1（W）\n\n### 博彩赔率（1X2，十进制）\n- The Sun / talkSPORT 赛前预览：主胜 — / 平 — / 客胜 —（两家预览均把法国列为更被看好的一方；公开页面未完整列出1X2三项十进制数。）\n\n### 历史交锋（H2H）\n- 暂无可靠统一交锋口径；两队并非近年常见正式赛对手，本场核心看点不是历史交锋，而是哈兰德与姆巴佩的直接对照。\n\n### 近期新闻\n- [Both] 哈兰德和姆巴佩前两轮均打进4球：多家赛前稿把本场定义为金靴热门正面对话，法国只需不败即可保住I组头名，挪威必须赢球才能反超。（来源：The Guardian / talkSPORT）\n- [France] 法国防线更稳：前两轮6进1失，净胜球领先挪威；预览普遍认为法国阵容深度更好。（来源：talkSPORT / The Sun）\n- [Norway] 挪威火力更猛：前两轮打进7球，哈兰德、厄德高、瑟尔洛特的前场组合保持高效率。（来源：talkSPORT）\n\n### 小组形势\n- I组两轮后：法国6分、净胜+5暂列第一；挪威6分、净胜+4第二；塞内加尔和伊拉克均0分。法国打平即可拿小组第一，挪威必须赢球才能反超。\n\n### 综述\n- I组头名决战。法国整体阵容厚度和防守稳定性更好，挪威则有本届最火的锋线输出。双方都已晋级，变量在轮换幅度与两位头号球星是否继续追金靴。\n\n### 资料来源\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification\n- https://www.thesun.co.uk/betting/39539609/world-cup-bet-builder-tips-june-26/\n- https://www.theguardian.com/football/2026/jun/25/erling-haaland-v-kylian-mbappe-how-the-norway-and-france-hitmen-match-up\n- https://www.thesun.co.uk/sport/39536764/norway-france-betting-tips-predictions-odds-world-cup/\n- https://talksport.com/football/4365353/norway-vs-france-super-boost-mbappe-haaland-sot-talksportbet/\n\n---\n\n## I组 · 塞内加尔 vs 伊拉克（match_id: `2026-06-26-SEN-IRQ`）\n\n- 开球：2026-06-26 15:00（多伦多当地时间 EDT）｜北京时间 2026-06-27 03:00（北京时间周六凌晨）\n- 场地：Toronto Stadium（BMO Field），加拿大安大略省多伦多（I组第3轮收官）\n\n### 塞内加尔（Senegal，主队）\n- FIFA 排名：第 15 位\n- 晋级之路：非洲区（CAF）预选赛B组头名直接晋级——10战不败积24分，以大胜毛里塔尼亚锁定出线。\n- 主教练：帕佩·蒂亚乌 (Pape Thiaw)\n- 世界杯历史：第4次参加世界杯（2002、2018、2022、2026）；2002年首秀闯入8强，2022年打入16强。\n- 核心球员：\n  - 萨迪奥·马内 (Sadio Mané)（前锋，利雅得胜利）\n  - 尼古拉斯·杰克逊 (Nicolas Jackson)（前锋，拜仁慕尼黑（租借））\n  - 伊斯马伊拉·萨尔 (Ismaïla Sarr)（边锋，水晶宫）\n  - 卡利杜·库利巴利 (Kalidou Koulibaly)（后卫（队长），利雅得新月）\n  - 爱德华·门迪 (Édouard Mendy)（门将，吉达联合（Al-Ahli））\n  - 帕佩·马塔尔·萨尔 (Pape Matar Sarr)（中场，托特纳姆热刺）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-22 vs 挪威（世界杯I组第2轮）：2-3（L）\n  - 2026-06-16 vs 法国（世界杯I组第1轮）：1-3（L）\n  - 2026-06-09 vs 沙特阿拉伯（热身赛）：0-0（D）\n  - 2026-06 vs 美国（赛前热身赛）：2-3（L）\n  - 2026-03 vs 秘鲁（热身赛）：2-0（W）\n\n### 伊拉克（Iraq，客队）\n- FIFA 排名：第 58 位\n- 晋级之路：通过洲际附加赛晋级——2026-03-31在墨西哥蒙特雷以2-1击败玻利维亚，拿下最后一张门票\n- 主教练：格雷厄姆·阿诺德 (Graham Arnold，澳大利亚籍，2025年上任)\n- 世界杯历史：时隔40年再度参赛；唯一一次世界杯经历为1986年墨西哥世界杯，小组三战全负。\n- 核心球员：\n  - 艾门·侯赛因 (Aymen Hussein)（前锋，（国家队头号射手，附加赛绝杀玻利维亚））\n  - 阿里·哈马迪 (Ali Al-Hamadi)（前锋，卢顿（租借））\n  - 齐丹·伊克巴尔 (Zidane Iqbal)（中场，（旅欧中场））\n  - 阿里·贾西姆 (Ali Jasim)（边锋，）\n  - 杰拉勒·哈桑 (Jalal Hassan)（门将（队长），）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-22 vs 法国（世界杯I组第2轮）：0-3（L）\n  - 2026-06-16 vs 挪威（世界杯I组第1轮）：1-4（L）\n  - 2026-06-09 vs 委内瑞拉（热身赛）：0-2（L）\n  - 2026-06-04 vs 西班牙（热身赛）：1-1（D）\n  - 2026-05-29 vs 安道尔（热身赛）：1-0（W）\n\n### 博彩赔率（1X2，十进制）\n- talkSPORT / SBK 赛前预览：主胜 — / 平 — / 客胜 —（预览称塞内加尔明显更被看好，但两队都处于必须赢球的局面；公开页面未完整列出1X2三项十进制数。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。缺少两队A级正式交锋记录，本场以当前状态和小组形势为主要参考。\n\n### 近期新闻\n- [Senegal] 塞内加尔必须大胜才有希望：前两轮连败后净胜球为负，必须击败伊拉克并寄望最佳第三名排序。（来源：The Guardian / AS）\n- [Senegal] 队内压力升高：赛前报道提到管理层动荡、主帅合同问题和马内、库利巴利状态受批评。（来源：The Guardian）\n- [Iraq] 伊拉克同样机会很小：两战失7球，净胜球劣势更大；前锋艾门·侯赛因伤情被列为疑点。（来源：AS）\n\n### 小组形势\n- I组两轮后：法国和挪威均6分已提前出线；塞内加尔0分、净胜-3；伊拉克0分、净胜-6。塞内加尔和伊拉克只能争取第三名横向比较，且都需要赢球。\n\n### 综述\n- I组生死边缘战。塞内加尔纸面实力明显高于伊拉克，但前两轮防守和内部环境都不稳；伊拉克防线承压更大，更多依赖反击和定位球。\n\n### 资料来源\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification\n- https://www.thesun.co.uk/betting/39539609/world-cup-bet-builder-tips-june-26/\n- https://www.theguardian.com/football/2026/jun/25/senegals-world-cup-is-hanging-by-a-thread-after-comedy-of-errors-on-and-off-pitch\n- https://talksport.com/betting/4356137/senegal-vs-iraq-betting-offer-50-free-bets-sbk/\n- https://as.com/futbol/mundial/senegal-busca-una-hazana-f202606-n/\n\n---\n\n## G组 · 埃及 vs 伊朗（match_id: `2026-06-26-EGY-IRN`）\n\n- 开球：2026-06-26 18:00（西雅图当地时间 PDT）｜北京时间 2026-06-27 09:00（北京时间周六上午）\n- 场地：Seattle Stadium（Lumen Field），美国华盛顿州西雅图（G组第3轮收官）\n\n### 埃及（Egypt，主队）\n- FIFA 排名：第 30 位\n- 晋级之路：非洲区预选赛晋级；赛前刚打入2025非洲杯（AFCON）半决赛\n- 主教练：侯萨姆·哈桑 (Hossam Hassan)\n- 世界杯历史：第4次参加世界杯（1934、1990、2018后再度晋级）；正赛历史仅平局未尝胜绩，正追逐队史首次小组出线。\n- 核心球员：\n  - 穆罕默德·萨拉赫 (Mohamed Salah)（前锋，利物浦（队长））\n  - 奥马尔·马尔穆什 (Omar Marmoush)（前锋，曼城）\n  - 特雷泽盖 (Mahmoud Hassan Trezeguet)（边锋，俱乐部待定）\n  - 伊马姆·阿舒尔 (Emam Ashour)（中场，俱乐部待定（首轮对比利时破门））\n  - 济佐 (Zizo)（边锋/中场，俱乐部待定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-21 vs 新西兰（世界杯G组第2轮）：3-1（W）\n  - 2026-06-15 vs 比利时（世界杯G组第1轮）：1-1（D）\n  - 2026-06-15 vs 比利时（世界杯G组）：1-1（D）\n  - 2026-06-06 vs 巴西（友谊赛）：1-2（L）\n  - 2026-05-28 vs 俄罗斯（友谊赛）：1-0（W）\n\n### 伊朗（Iran，客队）\n- FIFA 排名：第 20 位\n- 晋级之路：亚洲区（AFC）第三阶段A组头名直接出线（16场11胜4平1负）\n- 主教练：阿米尔·加莱诺伊 (Amir Ghalenoei)\n- 世界杯历史：伊朗是亚洲传统强队、第7次跻身世界杯决赛圈，但历史上从未小组出线。本届首战两度落后两度扳平、2-2战平新西兰，展现韧性。\n- 核心球员：\n  - 迈赫迪·塔雷米 (Mehdi Taremi)（前锋，奥林匹亚科斯）\n  - 阿里礼萨·贾汉巴赫什 (Alireza Jahanbakhsh)（边锋（队长），俱乐部待定）\n  - 阿里礼萨·贝兰万德 (Alireza Beiranvand)（门将，波斯波利斯）\n  - 拉明·礼萨埃扬 (Ramin Rezaeian)（右后卫，塞帕汗）\n  - 穆罕默德·莫赫比 (Mohammad Mohebbi)（边锋/前锋，俱乐部待定）\n  - 萨埃德·埃扎托拉希 (Saeid Ezatolahi)（后腰，俱乐部待定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-21 vs 比利时（世界杯G组第2轮）：0-0（D）\n  - 2026-06-15 vs 新西兰（世界杯G组第1轮）：2-2（D）\n  - 2026-06-16 vs 新西兰（世界杯G组第1轮）：2-2（D）\n  - 2026-06-06 vs 卡塔尔（热身赛）：0-1（L）\n  - 2026-06-02 vs 俄罗斯（热身赛）：1-2（L）\n\n### 博彩赔率（1X2，十进制）\n- AS / Guardian 赛前报道：主胜 — / 平 — / 客胜 —（报道重点在出线形势和场外议题，未完整列出1X2三项十进制数。）\n\n### 历史交锋（H2H）\n- 暂无可靠统一交锋口径；两队历史交锋资料口径分散，本场更重要的是G组实时积分和防守风格对撞。\n\n### 近期新闻\n- [Egypt] 埃及4分领跑G组：萨拉赫、马尔穆什和特雷泽盖带动进攻；埃及有机会冲击队史首次世界杯小组突围。（来源：AS / Scottish Sun）\n- [Iran] 伊朗两连平仍在第二集团：伊朗前两轮对新西兰、比利时均打平，防守韧性强，但仍需要处理埃及的锋线冲击。（来源：AS / Scottish Sun）\n- [Both] 西雅图场外议题升温：FIFA确认允许相关旗帜入场，但两队教练都强调专注比赛本身。（来源：The Guardian）\n\n### 小组形势\n- G组两轮后：埃及4分第一，伊朗2分第二，比利时2分第三，新西兰1分第四。埃及不败基本锁定前二；伊朗赢球直接前二，平局要看比利时一战结果和净胜球。\n\n### 综述\n- G组关键卡位战。埃及进攻端选择更多，伊朗组织更稳、防守更硬。埃及的目标是稳住前二，伊朗若想避免被比利时挤下去，最好主动争胜。\n\n### 资料来源\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification\n- https://www.thescottishsun.co.uk/sport/16455372/world-cup-2026-group-g-live-table-latest-standings/\n- https://www.theguardian.com/football/2026/jun/26/fifa-rainbow-flags-egypt-iran-world-cup-pride-match\n- https://as.com/futbol/mundial/egipto-e-iran-buscan-un-hueco-en-la-historia-mundial-f202606-n/\n- https://www.theguardian.com/football/2026/jun/25/seattle-pride-match-world-cup-egypt-iran\n\n---\n\n## G组 · 新西兰 vs 比利时（match_id: `2026-06-26-NZL-BEL`）\n\n- 开球：2026-06-26 18:00（温哥华当地时间 PDT）｜北京时间 2026-06-27 09:00（北京时间周六上午）\n- 场地：BC Place Vancouver，加拿大不列颠哥伦比亚省温哥华（G组第3轮收官）\n\n### 新西兰（New Zealand，主队）\n- FIFA 排名：第 85 位\n- 晋级之路：大洋洲区（OFC）预选赛冠军，史上首次以大洋洲唯一直通名额晋级，预选赛5战全胜、进29球仅失1球；本届48队中排名最低\n- 主教练：达伦·巴泽利 (Darren Bazeley)\n- 世界杯历史：第3次参加世界杯（1982、2010后再度晋级）；2010年南非世界杯3场全平不败但小组出局，至今世界杯正赛尚无胜绩。\n- 核心球员：\n  - 克里斯·伍德 (Chris Wood)（前锋，诺丁汉森林（队长、队史最佳射手））\n  - 伊利亚·贾斯特 (Elijah Just)（前锋/边锋，马瑟韦尔（首轮对伊朗梅开二度））\n  - 汤米·史密斯 (Tommy Smith)（后卫，俱乐部待定）\n  - 马尔科·罗哈斯 (Marco Rojas)（边锋，俱乐部待定）\n  - 利伯顿·卡乔 (Liberato Cacace)（左后卫，俱乐部待定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-21 vs 埃及（世界杯G组第2轮）：1-3（L）\n  - 2026-06-15 vs 伊朗（世界杯G组第1轮）：2-2（D）\n  - 2026-06-16 vs 伊朗（世界杯G组）：2-2（D）\n  - 2026-06-07 vs 英格兰（友谊赛）：0-1（L）\n  - 2026-06-03 vs 海地（友谊赛）：0-4（L）\n\n### 比利时（Belgium，客队）\n- FIFA 排名：第 9 位\n- 晋级之路：欧洲区（UEFA）预选赛出线\n- 主教练：鲁迪·加西亚 (Rudi Garcia)\n- 世界杯历史：比利时是世界杯常客，最佳战绩为2018年俄罗斯世界杯季军（黄金一代）。本届首战仅1-1战平埃及暴露主力老化隐忧。\n- 核心球员：\n  - 凯文·德布劳内 (Kevin De Bruyne)（攻击型中场，那不勒斯）\n  - 罗梅卢·卢卡库 (Romelu Lukaku)（前锋，那不勒斯）\n  - 蒂博·库尔图瓦 (Thibaut Courtois)（门将，皇家马德里）\n  - 尤里·蒂勒曼斯 (Youri Tielemans)（中场（队长），阿斯顿维拉）\n  - 莱安德罗·特罗萨德 (Leandro Trossard)（边锋/前锋，阿森纳）\n  - 阿马杜·奥纳纳 (Amadou Onana)（后腰，阿斯顿维拉）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-21 vs 伊朗（世界杯G组第2轮）：0-0（D）\n  - 2026-06-15 vs 埃及（世界杯G组第1轮）：1-1（D）\n  - 2026-06-02 vs 克罗地亚（热身赛）：2-0（W）\n  - 2026-03-25 vs 突尼斯（热身赛）：5-0（W）\n  - 2026-03-21 vs 墨西哥（热身赛）：1-1（D）\n\n### 博彩赔率（1X2，十进制）\n- The Sun / talkSPORT 赛前预览：主胜 — / 平 — / 客胜 —（预览称比利时必须赢球且整体实力占优；公开页面未完整列出1X2三项十进制数。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队此前没有正式A级交锋记录，本场为首次世界杯交手。\n\n### 近期新闻\n- [Belgium] 比利时两场不胜且运动战未开张：前两轮1-1埃及、0-0伊朗，38脚射门只有一个乌龙进球；Nathan Ngoy停赛。（来源：The Sun）\n- [Belgium] 多库回归训练：Jérémy Doku已经重新回到球队，德布劳内和卢卡库需要带队打破进球荒。（来源：talkSPORT）\n- [New Zealand] 新西兰仍有出线希望：新西兰首战2-2伊朗、次战1-3埃及；后卫Michael Boxall停赛削弱防线。（来源：talkSPORT / The Sun）\n\n### 小组形势\n- G组两轮后：埃及4分第一，伊朗2分第二，比利时2分第三，新西兰1分第四。比利时必须赢球才最稳，新西兰赢球也仍可能争前二或最佳第三。\n\n### 综述\n- G组压力最大的强队战。比利时纸面优势仍明显，但前两轮效率很低；新西兰排名低、阵容深度薄，却已经证明能给强队制造麻烦。\n\n### 资料来源\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification\n- https://www.thescottishsun.co.uk/sport/16455372/world-cup-2026-group-g-live-table-latest-standings/\n- https://www.thesun.co.uk/sport/39540109/new-zealand-belgium-betting-tips-odds-world-cup/\n- https://talksport.com/betting/4360582/world-cup-2026-247bet-free-bets-new-zealand-belgium/\n\n---\n\n## H组 · 佛得角 vs 沙特阿拉伯（match_id: `2026-06-26-CPV-KSA`）\n\n- 开球：2026-06-26 19:00（休斯敦当地时间 CDT）｜北京时间 2026-06-27 08:00（北京时间周六上午）\n- 场地：Houston Stadium（NRG Stadium/Reliant Stadium），美国得克萨斯州休斯敦（H组第3轮收官）\n\n### 佛得角（Cape Verde，主队）\n- FIFA 排名：第 68 位\n- 晋级之路：非洲区（CAF）预选赛D组头名出线（力压喀麦隆），队史首次晋级世界杯\n- 主教练：佩德罗·莱唐·布里托（绰号 Bubista）\n- 世界杯历史：队史首次参加世界杯（2026为处子秀），是本届四支首次参赛球队之一；揭幕战0-0逼平西班牙，门将沃津哈贡献7次扑救，被视为本届赛事最大冷门之一。\n- 核心球员：\n  - 瑞安·门德斯 (Ryan Mendes)（边锋/队长，伊迪尔体育 (Iğdır FK，土耳其乙级)）\n  - 沃津哈 (Vozinha)（门将，马里迪莫）\n  - 罗伯托·'皮科'·洛佩斯 (Roberto 'Pico' Lopes)（后卫，沙姆洛克流浪者）\n  - 戴隆·利夫拉门托 (Dailon Livramento)（前锋，俱乐部待定）\n  - 迪尼 (Diney)（中场/前锋，俱乐部待定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-21 vs 乌拉圭（世界杯H组第2轮）：2-2（D）\n  - 2026-06-15 vs 西班牙（世界杯H组第1轮）：0-0（D）\n  - 2026-06-15 vs 西班牙（世界杯H组）：0-0（D）\n  - 2026-06-06 vs 百慕大（友谊赛）：3-0（W）\n  - 2026-05-31 vs 塞尔维亚（友谊赛）：3-0（W）\n\n### 沙特阿拉伯（Saudi Arabia，客队）\n- FIFA 排名：第 61 位\n- 晋级之路：亚洲区（AFC）预选赛晋级\n- 主教练：乔治斯·多尼斯 (Georgios Donis，世界杯前约56天接替被解职的埃尔韦·勒纳尔)\n- 世界杯历史：沙特阿拉伯第7次参加世界杯，最佳成绩为1994年美国世界杯16强；2022年卡塔尔世界杯小组赛曾2-1爆冷击败最终冠军阿根廷，但最终小组未能出线。\n- 核心球员：\n  - 萨利姆·道萨里 (Salem Al-Dawsari)（边锋，利雅得新月 (Al-Hilal)）\n  - 菲拉斯·布赖坎 (Firas Al-Buraikan)（前锋，利雅得新月 (Al-Hilal)）\n  - 穆罕默德·坎诺 (Mohamed Kanno)（中场，利雅得新月 (Al-Hilal)）\n  - 纳赛尔·达萨里 (Nasser Al-Dawsari)（中场，利雅得新月 (Al-Hilal)）\n  - 穆罕默德·奥韦斯 (Mohammed Al-Owais)（门将，利雅得胜利 (Al-Nassr)）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-21 vs 西班牙（世界杯H组第2轮）：0-4（L）\n  - 2026-06-15 vs 乌拉圭（世界杯H组第1轮）：1-1（D）\n  - 2026-06-15 vs 乌拉圭（2026世界杯H组）：1-1（D）\n  - 2026-06-09 vs 塞内加尔（热身赛）：0-0（D）\n  - 2026-06-05 vs 波多黎各（热身赛）：3-0（W）\n\n### 博彩赔率（1X2，十进制）\n- Houston Chronicle / The Sun 赛前报道：主胜 — / 平 — / 客胜 —（报道强调两队都仍有晋级机会，未完整列出1X2三项十进制数。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队此前没有正式A级交锋记录，本场为首次世界杯交手。\n\n### 近期新闻\n- [Cabo Verde] 佛得角冲击历史首次淘汰赛：世界杯首秀前两轮逼平西班牙和乌拉圭，2分在手，赢球可能直接进前二。（来源：Houston Chronicle / The Times）\n- [Saudi Arabia] 沙特只有1分但仍未出局：首战1-1乌拉圭，次战0-4负西班牙；本场必须赢球才有现实晋级希望。（来源：Houston Chronicle / The Sun）\n- [Cabo Verde] Vozinha和Ryan Mendes是故事核心：40岁门将Vozinha首战表现出色，老队长Ryan Mendes仍是球队精神核心。（来源：Houston Chronicle）\n\n### 小组形势\n- H组两轮后：西班牙4分第一，乌拉圭2分第二，佛得角2分第三，沙特1分第四。佛得角赢球很可能晋级；沙特必须赢球并看另一场结果。\n\n### 综述\n- H组黑马战。佛得角防守纪律和团队情绪都很好，沙特经验更多但上一轮大败后净胜球压力巨大。两队都需要三分，比赛可能比前两轮更开放。\n\n### 资料来源\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification\n- https://www.thesun.co.uk/sport/39539521/world-cup-2026-group-h-live-table-lastest-standings/\n- https://www.houstonchronicle.com/world-cup/article/cape-verde-saudia-arabia-game-time-tv-22320229.php\n- https://www.thetimes.com/sport/football/world-cup/article/inside-joyful-cape-verde-training-camp-next-to-a-cannabis-store-nkpdrcvj7\n\n---\n\n## H组 · 乌拉圭 vs 西班牙（match_id: `2026-06-26-URU-ESP`）\n\n- 开球：2026-06-26 18:00（瓜达拉哈拉当地时间 CST）｜北京时间 2026-06-27 08:00（北京时间周六上午）\n- 场地：Estadio Guadalajara（Estadio Akron），墨西哥哈利斯科州瓜达拉哈拉（H组第3轮收官）\n\n### 乌拉圭（Uruguay，主队）\n- FIFA 排名：第 16 位\n- 晋级之路：南美区（CONMEBOL）预选赛第4名直接出线\n- 主教练：马塞洛·比尔萨 (Marcelo Bielsa)\n- 世界杯历史：世界杯传统强队，两届冠军（1930、1950），共参加15届世界杯；近年含2010殿军、2018/2022淘汰赛阶段出局。\n- 核心球员：\n  - 费德里科·巴尔韦德 (Federico Valverde)（中场，皇家马德里）\n  - 达尔文·努涅斯 (Darwin Núñez)（前锋，利物浦）\n  - 罗纳尔德·阿劳霍 (Ronald Araújo)（后卫，巴塞罗那）\n  - 何塞·马里亚·希门尼斯 (José María Giménez)（后卫/队长，马德里竞技）\n  - 曼努埃尔·乌加特 (Manuel Ugarte)（中场，曼联）\n  - 罗德里戈·本坦库尔 (Rodrigo Bentancur)（中场，托特纳姆热刺）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-21 vs 佛得角（世界杯H组第2轮）：2-2（D）\n  - 2026-06-15 vs 沙特阿拉伯（世界杯H组第1轮）：1-1（D）\n  - 2026-06-15 vs 沙特阿拉伯（世界杯H组）：1-1（D）\n  - 2026-03-26 vs 阿尔及利亚（友谊赛）：0-0（D）\n  - 2026-03-22 vs 英格兰（友谊赛）：1-1（D）\n\n### 西班牙（Spain，客队）\n- FIFA 排名：第 2 位\n- 晋级之路：欧洲区预选赛头名直接晋级；2024 欧洲杯冠军、本届夺冠大热门\n- 主教练：路易斯·德拉富恩特 (Luis de la Fuente)\n- 世界杯历史：西班牙 2010 年南非世界杯首夺世界杯冠军；2022 卡塔尔世界杯止步16强（点球负摩洛哥）。2024 年欧洲杯夺冠，本届为夺冠大热门之一。\n- 核心球员：\n  - 拉明·亚马尔 (Lamine Yamal)（边锋，巴塞罗那）\n  - 佩德里 (Pedri)（中场，巴塞罗那）\n  - 罗德里 (Rodri)（后腰，曼城）\n  - 尼科·威廉姆斯 (Nico Williams)（边锋，毕尔巴鄂竞技）\n  - 米克尔·奥亚萨瓦尔 (Mikel Oyarzabal)（前锋，皇家社会）\n  - 马克·库库雷利亚 (Marc Cucurella)（左后卫，切尔西）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-21 vs 沙特阿拉伯（世界杯H组第2轮）：4-0（W）\n  - 2026-06-15 vs 佛得角（世界杯H组第1轮）：0-0（D）\n  - 2026-06-15 vs 佛得角（2026世界杯H组）：0-0（D）\n  - 2026-06-08 vs 秘鲁（热身赛）：3-1（W）\n  - 2026-06-04 vs 伊拉克（热身赛）：1-1（D）\n\n### 博彩赔率（1X2，十进制）\n- Barca Blaugranes / The Sun 赛前预览：主胜 — / 平 — / 客胜 —（预览看好西班牙，乌拉圭因伤停和积分压力处于被动；公开页面未完整列出1X2三项十进制数。）\n\n### 历史交锋（H2H）\n- 共交手 10 次。两队历史约10次交手，世界杯有1950年2-2和1990年0-0两场平局；近年西班牙保持较强交锋优势。\n\n### 近期新闻\n- [Spain] 西班牙4分领跑且无明显伤情：4-0击败沙特后，西班牙掌握小组头名主动，亚马尔预计继续首发。（来源：Barca Blaugranes）\n- [Uruguay] 乌拉圭必须主动抢分：前两轮连平只有2分，如另一场分出胜负，乌拉圭输球风险很大。（来源：Barca Blaugranes / The Sun）\n- [Uruguay] 阿劳霍和德阿拉斯卡埃塔缺席：赛前报道称乌拉圭将缺少两名关键球员，贝尔萨需要依靠巴尔韦德和本坦库尔撑住强度。（来源：Barca Blaugranes）\n\n### 小组形势\n- H组两轮后：西班牙4分第一，乌拉圭2分第二，佛得角2分第三，沙特1分第四。西班牙不败基本锁定小组第一；乌拉圭最好赢球，平局仍要看另一场。\n\n### 综述\n- H组头名与出线压力同场。西班牙状态刚起，控球和边路都占优；乌拉圭逼抢强度高，但伤停和必须拿分的压力会放大后场风险。\n\n### 资料来源\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification\n- https://www.thesun.co.uk/sport/39539521/world-cup-2026-group-h-live-table-lastest-standings/\n- https://www.barcablaugranes.com/world-cup-2026/124729/uruguay-spain-world-cup-2026-team-news-match-preview-lineups-prediction\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 14 个比赛日、共 58 场比赛中，4 个先期参赛模型的历次预测、实际赛果与所得分数（结算规则：比分完全猜对 5 分 / 仅胜负方向猜对 3 分 / 猜错或未预测 0 分）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 胜负方向命中 | 比分完全命中 |\n|  ---  |  ---  |  ---  |  ---  |\n| Claude Opus 4.8 | 124 | 36/58 | 8/58 |\n| Grok 4.3 | 118 | 36/58 | 5/58 |\n| Kimi K2.7 | 116 | 36/58 | 4/58 |\n| Mistral Medium 3.5 | 107 | 33/58 | 4/58 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（3） | 1-1（0） | 1-0（3） | 1-0（3） |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 0-1（0） | 1-2（0） | 0-1（0） |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 海地 vs 苏格兰 | 0-1 | 0-2（3） | 0-2（3） | 2-0（0） | 1-2（3） |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-2（0） | 0-3（0） |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 德国 vs 库拉索 | 7-1 | 6-0（3） | 4-0（3） | 4-0（3） | 4-0（3） |\n| 荷兰 vs 日本 | 2-2 | 1-1（3） | 1-1（3） | 2-1（0） | 2-1（0） |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（3） | 2-0（3） | 1-0（3） | 1-0（3） |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 3-0（0） |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 2-1（0） |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 0-1（0） |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（3） | 2-1（3） | 2-1（3） |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（3） | 0-3（3） | 0-2（3） | 0-2（3） |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 奥地利 vs 约旦 | 3-1 | 3-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 3-0（0） | 2-0（0） | 2-0（0） |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（3） | 2-1（3） | 2-1（3） | 2-0（3） |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（3） | 0-2（3） | 0-2（3） | 0-2（3） |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-1（0） | 2-0（0） | 2-0（0） |\n| 瑞士 vs 波黑 | 4-1 | 2-1（3） | 1-1（0） | 2-0（3） | 2-1（3） |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 1-1（0） | 2-1（3） | 2-1（3） |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 3-1（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 1-2（3） |\n| 巴西 vs 海地 | 3-0 | 4-0（3） | 4-0（3） | 2-0（3） | 3-0（5） |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-1（0） | 1-0（0） | 2-0（0） |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（3） | 1-2（0） | 3-1（3） | 2-1（3） |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（3） | 4-0（3） | 2-1（5） | 2-0（3） |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 3-0（0） | 2-0（0） |\n| 突尼斯 vs 日本 | 0-4 | 0-2（3） | 0-1（3） | 1-2（3） | 1-2（3） |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（3） | 3-0（3） | 1-0（3） | 2-0（3） |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（3） | 1-1（3） | 2-0（0） |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 2-0（0） | 1-1（3） | 1-0（0） |\n| 新西兰 vs 埃及 | 1-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-1（3） |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（3） | 3-1（3） | 2-1（3） | 2-0（5） |\n| 法国 vs 伊拉克 | 3-0 | 4-0（3） | 5-0（3） | 3-1（3） | 3-0（5） |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（3） | 3-2（5） | 2-1（3） | 2-1（3） |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（3） | 0-1（3） | 1-2（5） | 1-2（5） |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（3） | 3-1（3） | 2-0（3） | 2-1（3） |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 2-0（0） | 3-0（0） | 2-0（0） |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 0-1（5） |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（3） | 2-0（3） | 2-0（3） | 1-0（5） |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 1-2（0） | 0-0（0） | 1-1（0） |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（3） | 1-0（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-2（3） |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（3） | 4-0（3） | 2-0（3） | 3-0（3） |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（3） | 0-1（3） | 0-1（3） | 1-2（3） |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 1-2（0） | 0-1（0） | 1-2（0） |\n\n**2026-06-25**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 库拉索 vs 科特迪瓦 | 0-2 | 0-2（5） | 0-3（3） | 0-1（3） | 0-2（5） |\n| 厄瓜多尔 vs 德国 | 2-1 | 1-2（0） | 0-3（0） | 1-2（0） | 1-1（0） |\n| 日本 vs 瑞典 | 1-1 | 2-1（0） | 1-1（5） | 2-1（0） | 1-1（5） |\n| 突尼斯 vs 荷兰 | 1-3 | 0-3（3） | 0-4（3） | 1-3（5） | 0-3（3） |\n| 土耳其 vs 美国 | 3-2 | 0-2（0） | 1-2（0） | 1-1（0） | 1-2（0） |\n| 巴拉圭 vs 澳大利亚 | 0-0 | 1-1（3） | 1-0（0） | 0-0（5） | 1-1（3） |\n\n<!-- HISTORY-REVIEW-END -->\n"
+  },
+  {
+   "date": "2026-06-27",
+   "matches": [
+    {
+     "id": "2026-06-27-PAN-ENG",
+     "group": "L",
+     "home": {
+      "code": "PAN",
+      "en": "Panama",
+      "zh": "巴拿马",
+      "flag": "🇵🇦"
+     },
+     "away": {
+      "code": "ENG",
+      "en": "England",
+      "zh": "英格兰",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+     },
+     "kickoff_local": "2026-06-27 17:00（东卢瑟福当地时间 EDT）",
+     "kickoff_beijing": "2026-06-28 05:00（北京时间周日清晨）",
+     "venue": "New York New Jersey Stadium（MetLife Stadium），美国新泽西州东卢瑟福（L组第3轮收官）",
+     "teams": {
+      "Panama": {
+       "name_zh": "巴拿马",
+       "fifa_ranking": 30,
+       "qualified_via": "中北美及加勒比海区预选赛A组头名直接晋级，最终轮10战7胜3平保持不败；队史第二次参加世界杯。",
+       "coach": "托马斯·克里斯蒂安森 (Thomas Christiansen)",
+       "wc_history": "2018年首次参赛，小组三战全负；本届前两轮均0-1小负，仍在争取队史世界杯首个积分。",
+       "key_players": [
+        {
+         "name": "克里斯蒂安·马丁内斯 (Cristian Martínez)",
+         "pos": "边路/中场",
+         "club": "未指定"
+        },
+        {
+         "name": "迈克尔·阿米尔·穆里略 (Michael Amir Murillo)",
+         "pos": "右后卫",
+         "club": "马赛"
+        },
+        {
+         "name": "何塞·路易斯·罗德里格斯 (José Luis Rodríguez)",
+         "pos": "边路",
+         "club": "未指定"
+        },
+        {
+         "name": "塞西利奥·沃特曼 (Cecilio Waterman)",
+         "pos": "前锋",
+         "club": "科洛科洛"
+        },
+        {
+         "name": "何塞·法哈多 (José Fajardo)",
+         "pos": "前锋",
+         "club": "未指定"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-23",
+         "opponent": "克罗地亚（世界杯L组第2轮）",
+         "score": "0-1",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-17",
+         "opponent": "加纳（世界杯L组第1轮）",
+         "score": "0-1",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "波黑（热身赛）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-03",
+         "opponent": "多米尼加（热身赛）",
+         "score": "4-2",
+         "result": "W"
+        },
+        {
+         "date": "2026-05-31",
+         "opponent": "巴西（热身赛）",
+         "score": "2-6",
+         "result": "L"
+        }
+       ]
+      },
+      "England": {
+       "name_zh": "英格兰",
+       "fifa_ranking": 4,
+       "qualified_via": "欧洲区K组头名直接晋级，预选赛8战全胜且一球未失。",
+       "coach": "托马斯·图赫尔 (Thomas Tuchel)",
+       "wc_history": "1966年世界杯冠军；近两届分别为2018年第四名、2022年八强。本届前两轮积4分，已确认至少以较好第三名身份晋级。",
+       "key_players": [
+        {
+         "name": "哈里·凯恩 (Harry Kane)",
+         "pos": "前锋（队长）",
+         "club": "拜仁慕尼黑"
+        },
+        {
+         "name": "裘德·贝林厄姆 (Jude Bellingham)",
+         "pos": "中场",
+         "club": "皇家马德里"
+        },
+        {
+         "name": "德克兰·赖斯 (Declan Rice)",
+         "pos": "中场",
+         "club": "阿森纳"
+        },
+        {
+         "name": "布卡约·萨卡 (Bukayo Saka)",
+         "pos": "边锋",
+         "club": "阿森纳"
+        },
+        {
+         "name": "马库斯·拉什福德 (Marcus Rashford)",
+         "pos": "边锋/前锋",
+         "club": "巴塞罗那"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-23",
+         "opponent": "加纳（世界杯L组第2轮）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-17",
+         "opponent": "克罗地亚（世界杯L组第1轮）",
+         "score": "4-2",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-10",
+         "opponent": "哥斯达黎加（热身赛）",
+         "score": "3-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "新西兰（热身赛）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "日本（热身赛）",
+         "score": "0-1",
+         "result": "L"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "talkSPORT / Sky Bet 赛前促销页",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "公开页未完整列出常规1X2三项；多篇赛前稿均把英格兰列为明显热门。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 1,
+      "summary_zh": "唯一一次交锋是2018世界杯，英格兰6-1大胜巴拿马，凯恩上演帽子戏法。"
+     },
+     "news": [
+      {
+       "team": "England",
+       "headline_zh": "英格兰已确认晋级，但仍要争小组第一",
+       "detail_zh": "乌拉圭出局等结果让英格兰至少锁定较好第三名资格；最后一轮击败巴拿马可主动锁定L组头名。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "England",
+       "headline_zh": "里斯·詹姆斯伤缺，赖斯也有健康状况关注",
+       "detail_zh": "詹姆斯腿筋不适，将缺席巴拿马一战和32强战；赖斯的身体状态也被图赫尔提及，梅努可能顶上。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Panama",
+       "headline_zh": "巴拿马两场0-1后已无晋级路径",
+       "detail_zh": "球队仍在争取队史世界杯首个积分；克里斯蒂安森预计继续依靠5-4-1低位与快速反击。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Panama",
+       "headline_zh": "训练中出现队友冲突",
+       "detail_zh": "沃特曼与罗德里格斯在训练中发生肢体冲突，主帅淡化事件，称是竞争首发位置的表现。",
+       "source": "New York Post / The Sun"
+      }
+     ],
+     "group_context_zh": "L组两轮后：英格兰4分净胜+2第一，加纳4分净胜+1第二，克罗地亚3分第三，巴拿马0分第四。英格兰已至少确认晋级，取胜可锁定小组第一；巴拿马已出局。",
+     "summary_zh": "英格兰实力和动机都占优，但刚被加纳0-0限制后，需要破解巴拿马低位防守。巴拿马前两轮防线并未崩盘，问题是至今没有进球。",
+     "sources": [
+      "https://www.theguardian.com/football/2026/jun/27/england-through-to-last-32-of-the-world-cup-after-uruguay-exit-against-spain",
+      "https://www.theguardian.com/football/2026/jun/27/england-world-cup-thomas-tuchel-panama",
+      "https://www.theguardian.com/football/2026/jun/26/world-cup-scouting-report-lowdown-england-opponent-panama",
+      "https://nypost.com/2026/06/26/sports/panamas-disastrous-world-cup-hits-new-low-with-fight-at-practice/",
+      "https://talksport.com/football/world-cup/4365423/england-panama-betting-offer-world-cup-sky-bet/"
+     ],
+     "result": {
+      "id": "2026-06-27-PAN-ENG",
+      "score": "0-2",
+      "winner": "away"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-PAN-ENG",
+        "winner": "away",
+        "score": "0-3",
+        "confidence": 82,
+        "reasoning_zh": "英格兰实力碾压且争头名，巴拿马两战0球防守难扛"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-PAN-ENG",
+        "winner": "away",
+        "score": "0-2",
+        "confidence": 85,
+        "reasoning_zh": "英格兰实力占优且争小组第一，巴拿马两连败士气低，恐难破门。"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-PAN-ENG",
+        "winner": "away",
+        "score": "0-2",
+        "confidence": 70,
+        "reasoning_zh": "英格兰实力碾压，争头名动机足，巴拿马已出局零进球，破低位防守取胜。"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-PAN-ENG",
+        "winner": "away",
+        "score": "0-3",
+        "confidence": 85,
+        "reasoning_zh": "英格兰需胜锁头名，巴拿马已出局且队内不和。实力差距明显，看好三狮军团大胜过关。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-PAN-ENG",
+        "winner": "away",
+        "score": "0-1",
+        "confidence": 66,
+        "reasoning_zh": "巴拿马低位顽强但火力弱，英格兰争头名小胜"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-27-CRO-GHA",
+     "group": "L",
+     "home": {
+      "code": "CRO",
+      "en": "Croatia",
+      "zh": "克罗地亚",
+      "flag": "🇭🇷"
+     },
+     "away": {
+      "code": "GHA",
+      "en": "Ghana",
+      "zh": "加纳",
+      "flag": "🇬🇭"
+     },
+     "kickoff_local": "2026-06-27 17:00（费城当地时间 EDT）",
+     "kickoff_beijing": "2026-06-28 05:00（北京时间周日清晨）",
+     "venue": "Philadelphia Stadium（Lincoln Financial Field），美国宾夕法尼亚州费城（L组第3轮收官）",
+     "teams": {
+      "Croatia": {
+       "name_zh": "克罗地亚",
+       "fifa_ranking": 10,
+       "qualified_via": "欧洲区L组头名直接晋级，预选赛8战7胜1平不败。",
+       "coach": "兹拉特科·达利奇 (Zlatko Dalić)",
+       "wc_history": "2018年世界杯亚军、2022年季军。本届首轮2-4负英格兰，次轮1-0胜巴拿马。",
+       "key_players": [
+        {
+         "name": "卢卡·莫德里奇 (Luka Modrić)",
+         "pos": "中场（队长）",
+         "club": "AC米兰"
+        },
+        {
+         "name": "马特奥·科瓦契奇 (Mateo Kovačić)",
+         "pos": "中场",
+         "club": "曼城"
+        },
+        {
+         "name": "约什科·格瓦迪奥尔 (Joško Gvardiol)",
+         "pos": "后卫",
+         "club": "曼城"
+        },
+        {
+         "name": "安特·布迪米尔 (Ante Budimir)",
+         "pos": "前锋",
+         "club": "奥萨苏纳"
+        },
+        {
+         "name": "伊万·佩里西奇 (Ivan Perišić)",
+         "pos": "边路",
+         "club": "埃因霍温"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-23",
+         "opponent": "巴拿马（世界杯L组第2轮）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-17",
+         "opponent": "英格兰（世界杯L组第1轮）",
+         "score": "2-4",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-07",
+         "opponent": "斯洛文尼亚（热身赛）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-02",
+         "opponent": "比利时（热身赛）",
+         "score": "0-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "巴西（热身赛）",
+         "score": "1-3",
+         "result": "L"
+        }
+       ]
+      },
+      "Ghana": {
+       "name_zh": "加纳",
+       "fifa_ranking": 72,
+       "qualified_via": "非洲区I组头名直接晋级。",
+       "coach": "卡洛斯·奎罗斯 (Carlos Queiroz)",
+       "wc_history": "第5次参加世界杯，2010年曾进八强。本届1-0胜巴拿马、0-0平英格兰，前两轮不失球。",
+       "key_players": [
+        {
+         "name": "安托万·塞门约 (Antoine Semenyo)",
+         "pos": "边锋/前锋",
+         "club": "曼城"
+        },
+        {
+         "name": "托马斯·帕尔泰 (Thomas Partey)",
+         "pos": "中场",
+         "club": "阿森纳"
+        },
+        {
+         "name": "伊纳基·威廉姆斯 (Iñaki Williams)",
+         "pos": "前锋",
+         "club": "毕尔巴鄂竞技"
+        },
+        {
+         "name": "乔丹·阿尤 (Jordan Ayew)",
+         "pos": "前锋（队长）",
+         "club": "莱斯特城"
+        },
+        {
+         "name": "卡莱布·耶伦基 (Caleb Yirenkyi)",
+         "pos": "中场",
+         "club": "未指定"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-23",
+         "opponent": "英格兰（世界杯L组第2轮）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-17",
+         "opponent": "巴拿马（世界杯L组第1轮）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-02",
+         "opponent": "威尔士（热身赛）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-05-22",
+         "opponent": "墨西哥（热身赛）",
+         "score": "0-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-03-30",
+         "opponent": "德国（热身赛）",
+         "score": "1-2",
+         "result": "L"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "The Sun / SunSport",
+       "home_win": 1.7,
+       "draw": 3.3,
+       "away_win": 5.5,
+       "note": "原始分数赔率：克罗地亚7/10，平23/10，加纳9/2，换算十进制约为1.70 / 3.30 / 5.50。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 0,
+      "summary_zh": "两队成年国家队此前没有交锋记录，本场是首次正式交手。"
+     },
+     "news": [
+      {
+       "team": "Croatia",
+       "headline_zh": "莫德里奇达成国家队200场",
+       "detail_zh": "对巴拿马一战，莫德里奇完成国家队第200次出场；克罗地亚靠布迪米尔进球拿到首胜。",
+       "source": "HNS"
+      },
+      {
+       "team": "Croatia",
+       "headline_zh": "格瓦迪奥尔仍在找比赛节奏",
+       "detail_zh": "达利奇提到格瓦迪奥尔此前重伤后比赛节奏还需评估，但没有抓到新增缺阵名单。",
+       "source": "HNS"
+      },
+      {
+       "team": "Ghana",
+       "headline_zh": "加纳平局即可压住克罗地亚",
+       "detail_zh": "加纳前两轮4分且零失球；奎罗斯赛前强调只专注执行对克罗地亚的计划。",
+       "source": "GFA / The Sun"
+      },
+      {
+       "team": "Ghana",
+       "headline_zh": "进攻产量偏低",
+       "detail_zh": "赛前报道提到加纳前两轮射门和射正都不多，但防守纪律很好。",
+       "source": "talkSPORT"
+      }
+     ],
+     "group_context_zh": "L组两轮后：英格兰4分第一，加纳4分第二，克罗地亚3分第三，巴拿马0分第四。加纳打平即可积分压住克罗地亚；克罗地亚只有赢球才能反超到前二。",
+     "summary_zh": "这是L组最直接的生死卡位。克罗地亚经验更足、必须主动进攻；加纳防线前两轮很硬，平局对他们更有利。",
+     "sources": [
+      "https://www.thesun.co.uk/sport/39512159/croatia-ghana-betting-tips-predictions-world-cup/",
+      "https://talksport.com/betting/4368578/croatia-vs-ghana-odds-tips-2026/",
+      "https://hns.team/en/news/31400/croatia-defeat-panama-through-budimir-goal-to-earn-first-points-at-the-world-cup/",
+      "https://www.ghanafa.org/semenyo-insists-team-is-focused-on-finishing-off-right",
+      "https://www.ghanafa.org/carlos-queiroz-vows-team-will-come-out-more-strong",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L"
+     ],
+     "result": {
+      "id": "2026-06-27-CRO-GHA",
+      "score": "2-1",
+      "winner": "home"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-CRO-GHA",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 65,
+        "reasoning_zh": "克罗地亚需胜争出线，莫德里奇经验占优加纳防守难持久"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-CRO-GHA",
+        "winner": "draw",
+        "score": "1-1",
+        "confidence": 65,
+        "reasoning_zh": "克罗地亚必须攻出，但加纳防守硬且平局有利，可能僵持成和。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-CRO-GHA",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 55,
+        "reasoning_zh": "克罗地亚必须赢才能晋级，经验占优主动进攻，加纳防守硬但产量低，主队小胜。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-CRO-GHA",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 65,
+        "reasoning_zh": "克罗地亚面临生死战，其丰富的大赛经验助其险胜，同时加纳的快速反击亦有能力收获进球。"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-CRO-GHA",
+        "winner": "draw",
+        "score": "1-1",
+        "confidence": 56,
+        "reasoning_zh": "加纳防守硬，克罗地亚压上易留空"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-27-ALG-AUT",
+     "group": "J",
+     "home": {
+      "code": "ALG",
+      "en": "Algeria",
+      "zh": "阿尔及利亚",
+      "flag": "🇩🇿"
+     },
+     "away": {
+      "code": "AUT",
+      "en": "Austria",
+      "zh": "奥地利",
+      "flag": "🇦🇹"
+     },
+     "kickoff_local": "2026-06-27 21:00（堪萨斯城当地时间 CDT）",
+     "kickoff_beijing": "2026-06-28 10:00（北京时间周日上午）",
+     "venue": "Kansas City Stadium（Arrowhead Stadium），美国密苏里州堪萨斯城（J组第3轮收官）",
+     "teams": {
+      "Algeria": {
+       "name_zh": "阿尔及利亚",
+       "fifa_ranking": 35,
+       "qualified_via": "非洲区G组头名直接晋级，2014年后重返世界杯。",
+       "coach": "弗拉基米尔·佩特科维奇 (Vladimir Petković)",
+       "wc_history": "第5次参加世界杯，最佳成绩为2014年16强。1982年因“希洪之耻”被奥地利与西德的结果挤出局，本场有强烈历史叙事。",
+       "key_players": [
+        {
+         "name": "里亚德·马赫雷斯 (Riyad Mahrez)",
+         "pos": "边锋（队长）",
+         "club": "吉达国民"
+        },
+        {
+         "name": "穆罕默德·阿穆拉 (Mohamed Amoura)",
+         "pos": "前锋",
+         "club": "沃尔夫斯堡"
+        },
+        {
+         "name": "阿明·古伊里 (Amine Gouiri)",
+         "pos": "前锋",
+         "club": "马赛"
+        },
+        {
+         "name": "伊斯梅尔·本纳赛尔 (Ismaël Bennacer)",
+         "pos": "中场",
+         "club": "AC米兰"
+        },
+        {
+         "name": "卢卡·齐达内 (Luca Zidane)",
+         "pos": "门将",
+         "club": "未指定"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-22",
+         "opponent": "约旦（世界杯J组第2轮）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-16",
+         "opponent": "阿根廷（世界杯J组第1轮）",
+         "score": "0-3",
+         "result": "L"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "乌拉圭（热身赛）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-03-27",
+         "opponent": "沙特阿拉伯（热身赛）",
+         "score": "2-0",
+         "result": "W"
+        },
+        {
+         "date": "2025-11-18",
+         "opponent": "沙特阿拉伯（热身赛）",
+         "score": "2-0",
+         "result": "W"
+        }
+       ]
+      },
+      "Austria": {
+       "name_zh": "奥地利",
+       "fifa_ranking": 24,
+       "qualified_via": "欧洲区H组头名直接晋级，1998年后首次重返世界杯。",
+       "coach": "拉尔夫·朗尼克 (Ralf Rangnick)",
+       "wc_history": "历史最佳为1934年、1954年四强；本届首轮3-1胜约旦，取得多年后世界杯首胜，次轮0-2负阿根廷。",
+       "key_players": [
+        {
+         "name": "大卫·阿拉巴 (David Alaba)",
+         "pos": "后卫（队长）",
+         "club": "皇家马德里"
+        },
+        {
+         "name": "马塞尔·萨比策 (Marcel Sabitzer)",
+         "pos": "中场",
+         "club": "多特蒙德"
+        },
+        {
+         "name": "孔拉德·莱默 (Konrad Laimer)",
+         "pos": "中场/后卫",
+         "club": "拜仁慕尼黑"
+        },
+        {
+         "name": "马尔科·阿瑙托维奇 (Marko Arnautović)",
+         "pos": "前锋",
+         "club": "自由身"
+        },
+        {
+         "name": "凯文·丹索 (Kevin Danso)",
+         "pos": "后卫",
+         "club": "托特纳姆热刺"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-22",
+         "opponent": "阿根廷（世界杯J组第2轮）",
+         "score": "0-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-16",
+         "opponent": "约旦（世界杯J组第1轮）",
+         "score": "3-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-01",
+         "opponent": "突尼斯（热身赛）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "韩国（热身赛）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-27",
+         "opponent": "加纳（热身赛）",
+         "score": "5-1",
+         "result": "W"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "The Sun 6月27日赛前提示",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "公开页强调低比分倾向，未完整列出1X2三项；talkSPORT当日提示更看好奥地利方向。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 2,
+      "summary_zh": "世界杯相关历史叙事集中在1982年“希洪之耻”；本场是44年后再度在世界杯语境下相遇。"
+     },
+     "news": [
+      {
+       "team": "Both",
+       "headline_zh": "1982旧账成为赛前最大叙事",
+       "detail_zh": "阿尔及利亚媒体与球迷把本场视作对1982年被间接挤出局的一次情绪补账。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Both",
+       "headline_zh": "平局可能同时有利",
+       "detail_zh": "两队均为3分，赛前报道提到一分很可能让两队都保留晋级路径，这让比赛动机更复杂。",
+       "source": "The Guardian / Times of India"
+      },
+      {
+       "team": "Austria",
+       "headline_zh": "朗尼克球队更重整体压迫",
+       "detail_zh": "奥地利首轮3-1胜约旦，次轮0-2负阿根廷，整体组织和体能强度仍被视为优势。",
+       "source": "talkSPORT"
+      },
+      {
+       "team": "Algeria",
+       "headline_zh": "阿尔及利亚赢约旦后重回出线竞争",
+       "detail_zh": "首轮0-3负阿根廷后，阿尔及利亚2-1击败约旦，把末轮变成与奥地利的直接卡位。",
+       "source": "The Guardian"
+      }
+     ],
+     "group_context_zh": "J组两轮后：阿根廷6分净胜+5已锁定小组第一；奥地利3分净胜0第二；阿尔及利亚3分净胜-2第三；约旦0分第四。奥地利与阿尔及利亚直接争第二，也都可能争较好第三名。",
+     "summary_zh": "这是今天情绪最重的一场。奥地利整体更稳，阿尔及利亚有历史动员和反击速度；但一分对双方都可能够用，比赛节奏可能偏谨慎。",
+     "sources": [
+      "https://www.theguardian.com/football/2026/jun/26/algeria-austria-1982-world-cup-shame-of-gijon-west-germany",
+      "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/will-world-cup-witness-another-disgrace-of-gijon-austria-vs-algeria-raises-fears/articleshow/132028195.cms",
+      "https://www.thesun.co.uk/betting/39553633/world-cup-2026-acca-tips-27-june/",
+      "https://talksport.com/football/4367219/football-tips-best-football-bets-saturday-27-june/",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J"
+     ],
+     "result": {
+      "id": "2026-06-27-ALG-AUT",
+      "score": "3-3",
+      "winner": "draw"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-ALG-AUT",
+        "winner": "draw",
+        "score": "0-0",
+        "confidence": 62,
+        "reasoning_zh": "双方均需积分保晋级，情绪战下节奏谨慎"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-ALG-AUT",
+        "winner": "draw",
+        "score": "1-1",
+        "confidence": 62,
+        "reasoning_zh": "双方平局即可保出线希望，比赛或偏保守，最终握手言和。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-ALG-AUT",
+        "winner": "draw",
+        "score": "1-1",
+        "confidence": 50,
+        "reasoning_zh": "双方均3分，平局对两队都可能够用，节奏谨慎，历史叙事重，互交白卷概率大。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-ALG-AUT",
+        "winner": "draw",
+        "score": "0-0",
+        "confidence": 55,
+        "reasoning_zh": "平局大概率锁双双出线。在1982年历史背景和出线动机下，双方踢法或趋于谨慎，闷平收尾。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-ALG-AUT",
+        "winner": "away",
+        "score": "0-1",
+        "confidence": 53,
+        "reasoning_zh": "双方谨慎，奥地利压迫和整体性略胜一筹"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-27-JOR-ARG",
+     "group": "J",
+     "home": {
+      "code": "JOR",
+      "en": "Jordan",
+      "zh": "约旦",
+      "flag": "🇯🇴"
+     },
+     "away": {
+      "code": "ARG",
+      "en": "Argentina",
+      "zh": "阿根廷",
+      "flag": "🇦🇷"
+     },
+     "kickoff_local": "2026-06-27 21:00（阿灵顿/达拉斯当地时间 CDT）",
+     "kickoff_beijing": "2026-06-28 10:00（北京时间周日上午）",
+     "venue": "Dallas Stadium（AT&T Stadium），美国得克萨斯州阿灵顿（J组第3轮收官）",
+     "teams": {
+      "Jordan": {
+       "name_zh": "约旦",
+       "fifa_ranking": 65,
+       "qualified_via": "亚洲区第三阶段B组第二名直接晋级，队史首次进入世界杯。",
+       "coach": "贾马尔·塞拉米 (Jamal Sellami)",
+       "wc_history": "队史首次参加世界杯；前两轮1-3负奥地利、1-2负阿尔及利亚，已经基本告别出线希望。",
+       "key_players": [
+        {
+         "name": "穆萨·塔马里 (Mousa Al-Tamari)",
+         "pos": "边锋/前锋",
+         "club": "蒙彼利埃"
+        },
+        {
+         "name": "阿里·奥尔万 (Ali Olwan)",
+         "pos": "前锋",
+         "club": "未指定"
+        },
+        {
+         "name": "亚赞·奈马特 (Yazan Al-Naimat)",
+         "pos": "前锋",
+         "club": "未指定"
+        },
+        {
+         "name": "尼扎尔·拉什丹 (Nizar Al-Rashdan)",
+         "pos": "中场",
+         "club": "未指定"
+        },
+        {
+         "name": "亚泽德·阿布莱拉 (Yazeed Abulaila)",
+         "pos": "门将",
+         "club": "未指定"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-22",
+         "opponent": "阿尔及利亚（世界杯J组第2轮）",
+         "score": "1-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-16",
+         "opponent": "奥地利（世界杯J组第1轮）",
+         "score": "1-3",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-09",
+         "opponent": "哥伦比亚（热身赛）",
+         "score": "0-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "尼日利亚（热身赛）",
+         "score": "2-2",
+         "result": "D"
+        },
+        {
+         "date": "2026-03-27",
+         "opponent": "哥斯达黎加（热身赛）",
+         "score": "2-1",
+         "result": "W"
+        }
+       ]
+      },
+      "Argentina": {
+       "name_zh": "阿根廷",
+       "fifa_ranking": 2,
+       "qualified_via": "南美区预选赛头名直接晋级；2022年世界杯冠军。",
+       "coach": "莱昂内尔·斯卡洛尼 (Lionel Scaloni)",
+       "wc_history": "三次夺得世界杯冠军（1978、1986、2022）。本届前两轮3-0胜阿尔及利亚、2-0胜奥地利，已锁定J组第一。",
+       "key_players": [
+        {
+         "name": "莱昂内尔·梅西 (Lionel Messi)",
+         "pos": "前锋/队长",
+         "club": "迈阿密国际"
+        },
+        {
+         "name": "胡利安·阿尔瓦雷斯 (Julián Álvarez)",
+         "pos": "前锋",
+         "club": "马德里竞技"
+        },
+        {
+         "name": "尼科·帕斯 (Nico Paz)",
+         "pos": "攻击手",
+         "club": "科莫"
+        },
+        {
+         "name": "恩佐·费尔南德斯 (Enzo Fernández)",
+         "pos": "中场",
+         "club": "切尔西"
+        },
+        {
+         "name": "埃米利亚诺·马丁内斯 (Emiliano Martínez)",
+         "pos": "门将",
+         "club": "阿斯顿维拉"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-22",
+         "opponent": "奥地利（世界杯J组第2轮）",
+         "score": "2-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-16",
+         "opponent": "阿尔及利亚（世界杯J组第1轮）",
+         "score": "3-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "冰岛（热身赛）",
+         "score": "3-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-02",
+         "opponent": "洪都拉斯（热身赛）",
+         "score": "2-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-26",
+         "opponent": "赞比亚（热身赛）",
+         "score": "5-0",
+         "result": "W"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "The Sun / Times of India 赛前稿",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "公开页未完整列出1X2三项；所有赛前稿均把阿根廷列为明显热门，但强调会轮换。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 0,
+      "summary_zh": "两队成年国家队缺少正式交锋记录，本场是约旦队史首次世界杯对阵卫冕冠军。"
+     },
+     "news": [
+      {
+       "team": "Argentina",
+       "headline_zh": "梅西确认替补",
+       "detail_zh": "斯卡洛尼确认梅西不会首发，但会在下半场获得出场时间以保持节奏。",
+       "source": "The Sun / Times of India"
+      },
+      {
+       "team": "Argentina",
+       "headline_zh": "阿根廷已锁定J组第一",
+       "detail_zh": "前两轮全胜且零失球，末轮主要是轮换和考察阵容深度。",
+       "source": "The Sun"
+      },
+      {
+       "team": "Jordan",
+       "headline_zh": "约旦为荣誉而战",
+       "detail_zh": "队史首次世界杯前两轮全败，但两场都有进球；面对卫冕冠军仍有展示窗口。",
+       "source": "Times of India / Wikipedia"
+      },
+      {
+       "team": "Argentina",
+       "headline_zh": "尼科·帕斯和阿尔瓦雷斯预计获得更多时间",
+       "detail_zh": "赛前稿称斯卡洛尼会让替补攻击线首发，劳塔罗也可能休息。",
+       "source": "The Sun"
+      }
+     ],
+     "group_context_zh": "J组两轮后：阿根廷6分净胜+5已锁定小组第一；奥地利3分第二；阿尔及利亚3分第三；约旦0分第四。阿根廷没有排名压力，约旦理论空间极小，主要争取体面收官。",
+     "summary_zh": "阿根廷即便轮换，整体质量仍明显高于约旦。变量在梅西替补、进攻端轮换后默契是否下降；约旦更现实的目标是争取进球和少失球。",
+     "sources": [
+      "https://www.thesun.co.uk/sport/39562837/lionel-messi-argentina-lionel-scaloni-venezuela/",
+      "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/fifa-world-cup-record-breaker-lionel-messi-rested-for-argentinas-group-finale-against-jordan/articleshow/132027044.cms",
+      "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/will-world-cup-witness-another-disgrace-of-gijon-austria-vs-algeria-raises-fears/articleshow/132028195.cms",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
+      "https://en.wikipedia.org/wiki/Jordan_at_the_FIFA_World_Cup"
+     ],
+     "result": {
+      "id": "2026-06-27-JOR-ARG",
+      "score": "1-3",
+      "winner": "away"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-JOR-ARG",
+        "winner": "away",
+        "score": "0-3",
+        "confidence": 85,
+        "reasoning_zh": "阿根廷已锁定第一仍具轮换质量，约旦无力阻挡"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-JOR-ARG",
+        "winner": "away",
+        "score": "0-2",
+        "confidence": 80,
+        "reasoning_zh": "阿根廷轮换仍远强于约旦，轻松小胜末轮练兵。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-JOR-ARG",
+        "winner": "away",
+        "score": "0-2",
+        "confidence": 68,
+        "reasoning_zh": "阿根廷轮换梅西替补，但整体质量碾压约旦，零失球状态延续，客队稳胜。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-JOR-ARG",
+        "winner": "away",
+        "score": "1-3",
+        "confidence": 88,
+        "reasoning_zh": "阿根廷轮换阵容依然实力超群，约旦后防不稳但每场皆有进球，阿根廷大胜且约旦有望挽回颜面破门。"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-JOR-ARG",
+        "winner": "away",
+        "score": "1-2",
+        "confidence": 67,
+        "reasoning_zh": "阿根廷轮换降火力，约旦仍有反击进球机会"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-27-COL-POR",
+     "group": "K",
+     "home": {
+      "code": "COL",
+      "en": "Colombia",
+      "zh": "哥伦比亚",
+      "flag": "🇨🇴"
+     },
+     "away": {
+      "code": "POR",
+      "en": "Portugal",
+      "zh": "葡萄牙",
+      "flag": "🇵🇹"
+     },
+     "kickoff_local": "2026-06-27 19:30（迈阿密当地时间 EDT）",
+     "kickoff_beijing": "2026-06-28 07:30（北京时间周日上午）",
+     "venue": "Miami Stadium（Hard Rock Stadium），美国佛罗里达州迈阿密花园（K组第3轮收官）",
+     "teams": {
+      "Colombia": {
+       "name_zh": "哥伦比亚",
+       "fifa_ranking": 13,
+       "qualified_via": "南美区预选赛第3名直接晋级。",
+       "coach": "内斯托尔·洛伦索 (Néstor Lorenzo)",
+       "wc_history": "第7次参加世界杯，最佳成绩为2014年八强；本届前两轮全胜，已晋级32强。",
+       "key_players": [
+        {
+         "name": "路易斯·迪亚斯 (Luis Díaz)",
+         "pos": "边锋",
+         "club": "拜仁慕尼黑"
+        },
+        {
+         "name": "哈梅斯·罗德里格斯 (James Rodríguez)",
+         "pos": "中场（队长）",
+         "club": "明尼苏达联"
+        },
+        {
+         "name": "丹尼尔·穆尼奥斯 (Daniel Muñoz)",
+         "pos": "右后卫",
+         "club": "水晶宫"
+        },
+        {
+         "name": "杰弗森·莱尔马 (Jefferson Lerma)",
+         "pos": "中场",
+         "club": "水晶宫"
+        },
+        {
+         "name": "路易斯·苏亚雷斯 (Luis Suárez)",
+         "pos": "前锋",
+         "club": "葡萄牙体育"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-23",
+         "opponent": "刚果民主共和国（世界杯K组第2轮）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-17",
+         "opponent": "乌兹别克斯坦（世界杯K组第1轮）",
+         "score": "3-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-07",
+         "opponent": "约旦（热身赛）",
+         "score": "2-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-05-29",
+         "opponent": "哥斯达黎加（热身赛）",
+         "score": "3-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-29",
+         "opponent": "法国（热身赛）",
+         "score": "1-3",
+         "result": "L"
+        }
+       ]
+      },
+      "Portugal": {
+       "name_zh": "葡萄牙",
+       "fifa_ranking": 5,
+       "qualified_via": "欧洲区F组头名直接晋级。",
+       "coach": "罗伯托·马丁内斯 (Roberto Martínez)",
+       "wc_history": "第9次参加世界杯，最佳成绩为1966年季军。本届首轮1-1平刚果（金），次轮5-0大胜乌兹别克斯坦，已至少锁定出线资格。",
+       "key_players": [
+        {
+         "name": "克里斯蒂亚诺·罗纳尔多 (Cristiano Ronaldo)",
+         "pos": "前锋（队长）",
+         "club": "利雅得胜利"
+        },
+        {
+         "name": "布鲁诺·费尔南德斯 (Bruno Fernandes)",
+         "pos": "中场",
+         "club": "曼联"
+        },
+        {
+         "name": "贝尔纳多·席尔瓦 (Bernardo Silva)",
+         "pos": "中场/边锋",
+         "club": "曼城"
+        },
+        {
+         "name": "维蒂尼亚 (Vitinha)",
+         "pos": "中场",
+         "club": "巴黎圣日耳曼"
+        },
+        {
+         "name": "鲁本·迪亚斯 (Rúben Dias)",
+         "pos": "后卫",
+         "club": "曼城"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-23",
+         "opponent": "乌兹别克斯坦（世界杯K组第2轮）",
+         "score": "5-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-17",
+         "opponent": "刚果民主共和国（世界杯K组第1轮）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-10",
+         "opponent": "尼日利亚（热身赛）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "智利（热身赛）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "美国（热身赛）",
+         "score": "2-0",
+         "result": "W"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "Betfred / talkSPORT",
+       "home_win": 5,
+       "draw": 4.33,
+       "away_win": 1.62,
+       "note": "原始分数赔率：哥伦比亚4/1，平10/3，葡萄牙8/13，换算十进制约为5.00 / 4.33 / 1.62。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 0,
+      "summary_zh": "K组资料列示两队此前没有成年国家队正式交锋记录。"
+     },
+     "news": [
+      {
+       "team": "Colombia",
+       "headline_zh": "哥伦比亚两连胜已出线",
+       "detail_zh": "次轮1-0击败刚果（金），穆尼奥斯第76分钟打进制胜球；全场20脚射门、9次射正。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Portugal",
+       "headline_zh": "C罗对乌兹别克斯坦梅开二度",
+       "detail_zh": "葡萄牙5-0大胜后重新掌握出线主动，C罗、努诺·门德斯、莱昂都有进球贡献。",
+       "source": "The Guardian / talkSPORT"
+      },
+      {
+       "team": "Portugal",
+       "headline_zh": "鲁本·迪亚斯已回归",
+       "detail_zh": "赛前阵容信息称葡萄牙暂无重大新增伤情，迪亚斯从伤病中回归。",
+       "source": "talkSPORT"
+      },
+      {
+       "team": "Colombia",
+       "headline_zh": "迈阿密球迷环境偏哥伦比亚",
+       "detail_zh": "迈阿密-戴德县哥伦比亚出生居民超过10万人，现场氛围可能不完全中立。",
+       "source": "Axios Miami"
+      }
+     ],
+     "group_context_zh": "K组两轮后：哥伦比亚6分第一，葡萄牙4分第二，刚果（金）1分第三，乌兹别克斯坦0分第四。哥伦比亚打平即可锁定小组第一；葡萄牙必须赢球才能反超头名。",
+     "summary_zh": "K组头名直接对话。葡萄牙纸面更强、状态刚起；哥伦比亚两连胜、防守更稳，并且打平就够。",
+     "sources": [
+      "https://talksport.com/football/4367089/colombia-portugal-world-cup-betting-tips-predictions/",
+      "https://www.theguardian.com/football/live/2026/jun/24/fifa-world-cup-2026-live-colombia-v-dr-congo-updates-col-vs-cod-group-k-match-score-latest",
+      "https://www.theguardian.com/football/live/2026/jun/23/portugal-v-uzbekistan-world-cup-2026-live",
+      "https://www.axios.com/local/miami/2026/06/26/colombia-portugal-hard-rock-miami-world-cup",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K"
+     ],
+     "result": {
+      "id": "2026-06-27-COL-POR",
+      "score": "0-0",
+      "winner": "draw"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-COL-POR",
+        "winner": "away",
+        "score": "1-2",
+        "confidence": 58,
+        "reasoning_zh": "葡萄牙状态火热，客场小胜锁定头名"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-COL-POR",
+        "winner": "draw",
+        "score": "1-1",
+        "confidence": 68,
+        "reasoning_zh": "哥伦比亚打平即锁头名，防守反击或令葡萄牙难取胜，双方僵持。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-COL-POR",
+        "winner": "draw",
+        "score": "1-1",
+        "confidence": 45,
+        "reasoning_zh": "哥伦比亚两连胜防守稳且打平即头名，迈阿密氛围偏主队，葡萄牙强但平局可能大。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-COL-POR",
+        "winner": "away",
+        "score": "1-2",
+        "confidence": 62,
+        "reasoning_zh": "哥伦比亚已出线或有保留，葡萄牙回暖且必须赢球争头名，战意更足的欧洲豪强有望险胜。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-COL-POR",
+        "winner": "draw",
+        "score": "0-0",
+        "confidence": 54,
+        "reasoning_zh": "哥伦比亚平局即头名，防线稳，葡萄牙难打穿"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-27-COD-UZB",
+     "group": "K",
+     "home": {
+      "code": "COD",
+      "en": "DR Congo",
+      "zh": "刚果民主共和国",
+      "flag": "🇨🇩"
+     },
+     "away": {
+      "code": "UZB",
+      "en": "Uzbekistan",
+      "zh": "乌兹别克斯坦",
+      "flag": "🇺🇿"
+     },
+     "kickoff_local": "2026-06-27 19:30（亚特兰大当地时间 EDT）",
+     "kickoff_beijing": "2026-06-28 07:30（北京时间周日上午）",
+     "venue": "Atlanta Stadium（Mercedes-Benz Stadium），美国佐治亚州亚特兰大（K组第3轮收官）",
+     "teams": {
+      "DR Congo": {
+       "name_zh": "刚果民主共和国",
+       "fifa_ranking": 56,
+       "qualified_via": "非洲区B组第二，随后通过非洲附加赛和洲际附加赛晋级；2026-03-31加时1-0胜牙买加拿到门票。",
+       "coach": "塞巴斯蒂安·德萨布尔 (Sébastien Desabre)",
+       "wc_history": "继1974年后第二次参加世界杯（当时以扎伊尔名义参赛）。本届首轮1-1平葡萄牙，次轮0-1负哥伦比亚。",
+       "key_players": [
+        {
+         "name": "约安·维萨 (Yoane Wissa)",
+         "pos": "前锋",
+         "club": "布伦特福德"
+        },
+        {
+         "name": "塞德里克·巴坎布 (Cédric Bakambu)",
+         "pos": "前锋",
+         "club": "贝蒂斯"
+        },
+        {
+         "name": "尚塞尔·姆本巴 (Chancel Mbemba)",
+         "pos": "后卫（队长）",
+         "club": "未指定"
+        },
+        {
+         "name": "阿隆·万-比萨卡 (Aaron Wan-Bissaka)",
+         "pos": "后卫",
+         "club": "西汉姆联"
+        },
+        {
+         "name": "利昂内尔·姆帕西 (Lionel Mpasi)",
+         "pos": "门将",
+         "club": "未指定"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-23",
+         "opponent": "哥伦比亚（世界杯K组第2轮）",
+         "score": "0-1",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-17",
+         "opponent": "葡萄牙（世界杯K组第1轮）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-09",
+         "opponent": "智利（热身赛）",
+         "score": "1-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-03",
+         "opponent": "丹麦（热身赛）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "牙买加（洲际附加赛）",
+         "score": "1-0",
+         "result": "W"
+        }
+       ]
+      },
+      "Uzbekistan": {
+       "name_zh": "乌兹别克斯坦",
+       "fifa_ranking": 50,
+       "qualified_via": "亚洲区第三阶段A组第二，队史首次进入世界杯。",
+       "coach": "法比奥·卡纳瓦罗 (Fabio Cannavaro)",
+       "wc_history": "队史首次参加世界杯；前两轮1-3负哥伦比亚、0-5负葡萄牙，防线压力很大。",
+       "key_players": [
+        {
+         "name": "阿卜杜科迪尔·胡萨诺夫 (Abdukodir Khusanov)",
+         "pos": "后卫",
+         "club": "曼城"
+        },
+        {
+         "name": "埃尔多尔·绍穆罗多夫 (Eldor Shomurodov)",
+         "pos": "前锋（队长）",
+         "club": "伊斯坦布尔"
+        },
+        {
+         "name": "阿博斯别克·法伊祖拉耶夫 (Abbosbek Fayzullaev)",
+         "pos": "攻击中场",
+         "club": "伊斯坦布尔"
+        },
+        {
+         "name": "贾洛利丁·马沙里波夫 (Jaloliddin Masharipov)",
+         "pos": "中场",
+         "club": "未指定"
+        },
+        {
+         "name": "鲁斯塔姆·阿舒尔马托夫 (Rustam Ashurmatov)",
+         "pos": "后卫",
+         "club": "未指定"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-23",
+         "opponent": "葡萄牙（世界杯K组第2轮）",
+         "score": "0-5",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-17",
+         "opponent": "哥伦比亚（世界杯K组第1轮）",
+         "score": "1-3",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-08",
+         "opponent": "荷兰（热身赛）",
+         "score": "1-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-02",
+         "opponent": "加拿大（热身赛）",
+         "score": "0-2",
+         "result": "L"
+        },
+        {
+         "date": "2025-06-05",
+         "opponent": "阿联酋（世预赛）",
+         "score": "0-0",
+         "result": "D"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "The Sun / NY Post 小组前瞻",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "未抓到完整本场1X2三项；赛前材料把刚果（金）列为更被看好的一方。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 0,
+      "summary_zh": "两队此前没有成年国家队交锋记录。"
+     },
+     "news": [
+      {
+       "team": "DR Congo",
+       "headline_zh": "刚果（金）仍有争第三机会",
+       "detail_zh": "一平一负后积1分，本场赢球可到4分，保留较好第三名晋级希望。",
+       "source": "The Sun / SB Nation"
+      },
+      {
+       "team": "DR Congo",
+       "headline_zh": "门将姆帕西对哥伦比亚表现抢眼",
+       "detail_zh": "次轮0-1小负哥伦比亚，姆帕西多次扑救，让比赛悬念维持到最后。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Uzbekistan",
+       "headline_zh": "乌兹别克两连败失8球",
+       "detail_zh": "次轮0-5负葡萄牙，胡萨诺夫出现乌龙，球队情绪和防守稳定性都受考验。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Uzbekistan",
+       "headline_zh": "法伊祖拉耶夫完成队史世界杯首球",
+       "detail_zh": "首轮对哥伦比亚打进乌兹别克世界杯历史首球，是球队少数正面信号。",
+       "source": "Wikipedia / Guardian"
+      }
+     ],
+     "group_context_zh": "K组两轮后：哥伦比亚6分，葡萄牙4分，刚果（金）1分，乌兹别克斯坦0分。刚果（金）赢球可到4分争较好第三；乌兹别克斯坦净胜球-7，出线空间极小。",
+     "summary_zh": "刚果（金）对葡萄牙拿过分，防守组织比乌兹别克更稳；乌兹别克斯坦处子秀两连败，可能会更开放，但后场风险也更高。",
+     "sources": [
+      "https://www.thesun.co.uk/sport/39552031/world-cup-2026-live-group-k-table-latest-standings/",
+      "https://www.sbnation.com/fifa-world-cup/1119534/world-cup-2026-what-are-the-knockout-round-scenarios-in-group-k",
+      "https://www.theguardian.com/football/live/2026/jun/24/fifa-world-cup-2026-live-colombia-v-dr-congo-updates-col-vs-cod-group-k-match-score-latest",
+      "https://www.theguardian.com/football/live/2026/jun/23/portugal-v-uzbekistan-world-cup-2026-live",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
+      "https://en.wikipedia.org/wiki/Uzbekistan_at_the_FIFA_World_Cup"
+     ],
+     "result": {
+      "id": "2026-06-27-COD-UZB",
+      "score": "3-1",
+      "winner": "home"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-COD-UZB",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 70,
+        "reasoning_zh": "刚果防线更稳且争第三，乌兹别克斯坦两连败崩盘风险高"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-COD-UZB",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 74,
+        "reasoning_zh": "刚果金士气与防守更稳，乌兹别克两连败失信心，主队拿下。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-COD-UZB",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 55,
+        "reasoning_zh": "刚果金防守更稳争第三动机强，乌兹别克两连败失8球防线脆弱，主队取胜。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-COD-UZB",
+        "winner": "home",
+        "score": "3-0",
+        "confidence": 75,
+        "reasoning_zh": "刚果（金）仍有争夺第三晋级的战意，面对两战狂丢8球、士气低迷的乌兹别克，有望取得完胜。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-27-COD-UZB",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 69,
+        "reasoning_zh": "刚果组织更稳，乌兹防线失衡"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    }
+   ],
+   "settled": true,
+   "day_points": {
+    "x-ai/grok-4.3": 13,
+    "moonshotai/kimi-k2.6": 13,
+    "anthropic/claude-fable-5": 15,
+    "google/gemini-3.5-flash": 16,
+    "sakana/fugu-ultra": 11,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
+   },
+   "prompt": {
+    "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果，小组赛允许平局。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断会出现冷门、平局或非热门球队取胜时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的精确比分。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
+    "user": "以下是 2026-06-27（明天）世界杯 6 场小组赛的完整资料文档：\n\n═══════════ 资料文档开始 ═══════════\n# 2026-06-27 世界杯比赛资料文档\n\n本文档汇总了 2026-06-27（比赛日，北美当地时间）FIFA 2026 世界杯全部 6 场小组赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与小组形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-06-27-PAN-ENG`：L组 巴拿马(Panama, 主) vs 英格兰(England, 客)\n- `2026-06-27-CRO-GHA`：L组 克罗地亚(Croatia, 主) vs 加纳(Ghana, 客)\n- `2026-06-27-ALG-AUT`：J组 阿尔及利亚(Algeria, 主) vs 奥地利(Austria, 客)\n- `2026-06-27-JOR-ARG`：J组 约旦(Jordan, 主) vs 阿根廷(Argentina, 客)\n- `2026-06-27-COL-POR`：K组 哥伦比亚(Colombia, 主) vs 葡萄牙(Portugal, 客)\n- `2026-06-27-COD-UZB`：K组 刚果民主共和国(DR Congo, 主) vs 乌兹别克斯坦(Uzbekistan, 客)\n\n---\n\n## L组 · 巴拿马 vs 英格兰（match_id: `2026-06-27-PAN-ENG`）\n\n- 开球：2026-06-27 17:00（东卢瑟福当地时间 EDT）｜北京时间 2026-06-28 05:00（北京时间周日清晨）\n- 场地：New York New Jersey Stadium（MetLife Stadium），美国新泽西州东卢瑟福（L组第3轮收官）\n\n### 巴拿马（Panama，主队）\n- FIFA 排名：第 30 位\n- 晋级之路：中北美及加勒比海区预选赛A组头名直接晋级，最终轮10战7胜3平保持不败；队史第二次参加世界杯。\n- 主教练：托马斯·克里斯蒂安森 (Thomas Christiansen)\n- 世界杯历史：2018年首次参赛，小组三战全负；本届前两轮均0-1小负，仍在争取队史世界杯首个积分。\n- 核心球员：\n  - 克里斯蒂安·马丁内斯 (Cristian Martínez)（边路/中场，未指定）\n  - 迈克尔·阿米尔·穆里略 (Michael Amir Murillo)（右后卫，马赛）\n  - 何塞·路易斯·罗德里格斯 (José Luis Rodríguez)（边路，未指定）\n  - 塞西利奥·沃特曼 (Cecilio Waterman)（前锋，科洛科洛）\n  - 何塞·法哈多 (José Fajardo)（前锋，未指定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-23 vs 克罗地亚（世界杯L组第2轮）：0-1（L）\n  - 2026-06-17 vs 加纳（世界杯L组第1轮）：0-1（L）\n  - 2026-06-06 vs 波黑（热身赛）：1-1（D）\n  - 2026-06-03 vs 多米尼加（热身赛）：4-2（W）\n  - 2026-05-31 vs 巴西（热身赛）：2-6（L）\n\n### 英格兰（England，客队）\n- FIFA 排名：第 4 位\n- 晋级之路：欧洲区K组头名直接晋级，预选赛8战全胜且一球未失。\n- 主教练：托马斯·图赫尔 (Thomas Tuchel)\n- 世界杯历史：1966年世界杯冠军；近两届分别为2018年第四名、2022年八强。本届前两轮积4分，已确认至少以较好第三名身份晋级。\n- 核心球员：\n  - 哈里·凯恩 (Harry Kane)（前锋（队长），拜仁慕尼黑）\n  - 裘德·贝林厄姆 (Jude Bellingham)（中场，皇家马德里）\n  - 德克兰·赖斯 (Declan Rice)（中场，阿森纳）\n  - 布卡约·萨卡 (Bukayo Saka)（边锋，阿森纳）\n  - 马库斯·拉什福德 (Marcus Rashford)（边锋/前锋，巴塞罗那）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-23 vs 加纳（世界杯L组第2轮）：0-0（D）\n  - 2026-06-17 vs 克罗地亚（世界杯L组第1轮）：4-2（W）\n  - 2026-06-10 vs 哥斯达黎加（热身赛）：3-0（W）\n  - 2026-06-06 vs 新西兰（热身赛）：1-0（W）\n  - 2026-03-31 vs 日本（热身赛）：0-1（L）\n\n### 博彩赔率（1X2，十进制）\n- talkSPORT / Sky Bet 赛前促销页：主胜 — / 平 — / 客胜 —（公开页未完整列出常规1X2三项；多篇赛前稿均把英格兰列为明显热门。）\n\n### 历史交锋（H2H）\n- 共交手 1 次。唯一一次交锋是2018世界杯，英格兰6-1大胜巴拿马，凯恩上演帽子戏法。\n\n### 近期新闻\n- [England] 英格兰已确认晋级，但仍要争小组第一：乌拉圭出局等结果让英格兰至少锁定较好第三名资格；最后一轮击败巴拿马可主动锁定L组头名。（来源：The Guardian）\n- [England] 里斯·詹姆斯伤缺，赖斯也有健康状况关注：詹姆斯腿筋不适，将缺席巴拿马一战和32强战；赖斯的身体状态也被图赫尔提及，梅努可能顶上。（来源：The Guardian）\n- [Panama] 巴拿马两场0-1后已无晋级路径：球队仍在争取队史世界杯首个积分；克里斯蒂安森预计继续依靠5-4-1低位与快速反击。（来源：The Guardian）\n- [Panama] 训练中出现队友冲突：沃特曼与罗德里格斯在训练中发生肢体冲突，主帅淡化事件，称是竞争首发位置的表现。（来源：New York Post / The Sun）\n\n### 小组形势\n- L组两轮后：英格兰4分净胜+2第一，加纳4分净胜+1第二，克罗地亚3分第三，巴拿马0分第四。英格兰已至少确认晋级，取胜可锁定小组第一；巴拿马已出局。\n\n### 综述\n- 英格兰实力和动机都占优，但刚被加纳0-0限制后，需要破解巴拿马低位防守。巴拿马前两轮防线并未崩盘，问题是至今没有进球。\n\n### 资料来源\n- https://www.theguardian.com/football/2026/jun/27/england-through-to-last-32-of-the-world-cup-after-uruguay-exit-against-spain\n- https://www.theguardian.com/football/2026/jun/27/england-world-cup-thomas-tuchel-panama\n- https://www.theguardian.com/football/2026/jun/26/world-cup-scouting-report-lowdown-england-opponent-panama\n- https://nypost.com/2026/06/26/sports/panamas-disastrous-world-cup-hits-new-low-with-fight-at-practice/\n- https://talksport.com/football/world-cup/4365423/england-panama-betting-offer-world-cup-sky-bet/\n\n---\n\n## L组 · 克罗地亚 vs 加纳（match_id: `2026-06-27-CRO-GHA`）\n\n- 开球：2026-06-27 17:00（费城当地时间 EDT）｜北京时间 2026-06-28 05:00（北京时间周日清晨）\n- 场地：Philadelphia Stadium（Lincoln Financial Field），美国宾夕法尼亚州费城（L组第3轮收官）\n\n### 克罗地亚（Croatia，主队）\n- FIFA 排名：第 10 位\n- 晋级之路：欧洲区L组头名直接晋级，预选赛8战7胜1平不败。\n- 主教练：兹拉特科·达利奇 (Zlatko Dalić)\n- 世界杯历史：2018年世界杯亚军、2022年季军。本届首轮2-4负英格兰，次轮1-0胜巴拿马。\n- 核心球员：\n  - 卢卡·莫德里奇 (Luka Modrić)（中场（队长），AC米兰）\n  - 马特奥·科瓦契奇 (Mateo Kovačić)（中场，曼城）\n  - 约什科·格瓦迪奥尔 (Joško Gvardiol)（后卫，曼城）\n  - 安特·布迪米尔 (Ante Budimir)（前锋，奥萨苏纳）\n  - 伊万·佩里西奇 (Ivan Perišić)（边路，埃因霍温）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-23 vs 巴拿马（世界杯L组第2轮）：1-0（W）\n  - 2026-06-17 vs 英格兰（世界杯L组第1轮）：2-4（L）\n  - 2026-06-07 vs 斯洛文尼亚（热身赛）：2-1（W）\n  - 2026-06-02 vs 比利时（热身赛）：0-2（L）\n  - 2026-03-31 vs 巴西（热身赛）：1-3（L）\n\n### 加纳（Ghana，客队）\n- FIFA 排名：第 72 位\n- 晋级之路：非洲区I组头名直接晋级。\n- 主教练：卡洛斯·奎罗斯 (Carlos Queiroz)\n- 世界杯历史：第5次参加世界杯，2010年曾进八强。本届1-0胜巴拿马、0-0平英格兰，前两轮不失球。\n- 核心球员：\n  - 安托万·塞门约 (Antoine Semenyo)（边锋/前锋，曼城）\n  - 托马斯·帕尔泰 (Thomas Partey)（中场，阿森纳）\n  - 伊纳基·威廉姆斯 (Iñaki Williams)（前锋，毕尔巴鄂竞技）\n  - 乔丹·阿尤 (Jordan Ayew)（前锋（队长），莱斯特城）\n  - 卡莱布·耶伦基 (Caleb Yirenkyi)（中场，未指定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-23 vs 英格兰（世界杯L组第2轮）：0-0（D）\n  - 2026-06-17 vs 巴拿马（世界杯L组第1轮）：1-0（W）\n  - 2026-06-02 vs 威尔士（热身赛）：1-1（D）\n  - 2026-05-22 vs 墨西哥（热身赛）：0-2（L）\n  - 2026-03-30 vs 德国（热身赛）：1-2（L）\n\n### 博彩赔率（1X2，十进制）\n- The Sun / SunSport：主胜 1.7 / 平 3.3 / 客胜 5.5（原始分数赔率：克罗地亚7/10，平23/10，加纳9/2，换算十进制约为1.70 / 3.30 / 5.50。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队成年国家队此前没有交锋记录，本场是首次正式交手。\n\n### 近期新闻\n- [Croatia] 莫德里奇达成国家队200场：对巴拿马一战，莫德里奇完成国家队第200次出场；克罗地亚靠布迪米尔进球拿到首胜。（来源：HNS）\n- [Croatia] 格瓦迪奥尔仍在找比赛节奏：达利奇提到格瓦迪奥尔此前重伤后比赛节奏还需评估，但没有抓到新增缺阵名单。（来源：HNS）\n- [Ghana] 加纳平局即可压住克罗地亚：加纳前两轮4分且零失球；奎罗斯赛前强调只专注执行对克罗地亚的计划。（来源：GFA / The Sun）\n- [Ghana] 进攻产量偏低：赛前报道提到加纳前两轮射门和射正都不多，但防守纪律很好。（来源：talkSPORT）\n\n### 小组形势\n- L组两轮后：英格兰4分第一，加纳4分第二，克罗地亚3分第三，巴拿马0分第四。加纳打平即可积分压住克罗地亚；克罗地亚只有赢球才能反超到前二。\n\n### 综述\n- 这是L组最直接的生死卡位。克罗地亚经验更足、必须主动进攻；加纳防线前两轮很硬，平局对他们更有利。\n\n### 资料来源\n- https://www.thesun.co.uk/sport/39512159/croatia-ghana-betting-tips-predictions-world-cup/\n- https://talksport.com/betting/4368578/croatia-vs-ghana-odds-tips-2026/\n- https://hns.team/en/news/31400/croatia-defeat-panama-through-budimir-goal-to-earn-first-points-at-the-world-cup/\n- https://www.ghanafa.org/semenyo-insists-team-is-focused-on-finishing-off-right\n- https://www.ghanafa.org/carlos-queiroz-vows-team-will-come-out-more-strong\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L\n\n---\n\n## J组 · 阿尔及利亚 vs 奥地利（match_id: `2026-06-27-ALG-AUT`）\n\n- 开球：2026-06-27 21:00（堪萨斯城当地时间 CDT）｜北京时间 2026-06-28 10:00（北京时间周日上午）\n- 场地：Kansas City Stadium（Arrowhead Stadium），美国密苏里州堪萨斯城（J组第3轮收官）\n\n### 阿尔及利亚（Algeria，主队）\n- FIFA 排名：第 35 位\n- 晋级之路：非洲区G组头名直接晋级，2014年后重返世界杯。\n- 主教练：弗拉基米尔·佩特科维奇 (Vladimir Petković)\n- 世界杯历史：第5次参加世界杯，最佳成绩为2014年16强。1982年因“希洪之耻”被奥地利与西德的结果挤出局，本场有强烈历史叙事。\n- 核心球员：\n  - 里亚德·马赫雷斯 (Riyad Mahrez)（边锋（队长），吉达国民）\n  - 穆罕默德·阿穆拉 (Mohamed Amoura)（前锋，沃尔夫斯堡）\n  - 阿明·古伊里 (Amine Gouiri)（前锋，马赛）\n  - 伊斯梅尔·本纳赛尔 (Ismaël Bennacer)（中场，AC米兰）\n  - 卢卡·齐达内 (Luca Zidane)（门将，未指定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-22 vs 约旦（世界杯J组第2轮）：2-1（W）\n  - 2026-06-16 vs 阿根廷（世界杯J组第1轮）：0-3（L）\n  - 2026-03-31 vs 乌拉圭（热身赛）：0-0（D）\n  - 2026-03-27 vs 沙特阿拉伯（热身赛）：2-0（W）\n  - 2025-11-18 vs 沙特阿拉伯（热身赛）：2-0（W）\n\n### 奥地利（Austria，客队）\n- FIFA 排名：第 24 位\n- 晋级之路：欧洲区H组头名直接晋级，1998年后首次重返世界杯。\n- 主教练：拉尔夫·朗尼克 (Ralf Rangnick)\n- 世界杯历史：历史最佳为1934年、1954年四强；本届首轮3-1胜约旦，取得多年后世界杯首胜，次轮0-2负阿根廷。\n- 核心球员：\n  - 大卫·阿拉巴 (David Alaba)（后卫（队长），皇家马德里）\n  - 马塞尔·萨比策 (Marcel Sabitzer)（中场，多特蒙德）\n  - 孔拉德·莱默 (Konrad Laimer)（中场/后卫，拜仁慕尼黑）\n  - 马尔科·阿瑙托维奇 (Marko Arnautović)（前锋，自由身）\n  - 凯文·丹索 (Kevin Danso)（后卫，托特纳姆热刺）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-22 vs 阿根廷（世界杯J组第2轮）：0-2（L）\n  - 2026-06-16 vs 约旦（世界杯J组第1轮）：3-1（W）\n  - 2026-06-01 vs 突尼斯（热身赛）：1-0（W）\n  - 2026-03-31 vs 韩国（热身赛）：1-0（W）\n  - 2026-03-27 vs 加纳（热身赛）：5-1（W）\n\n### 博彩赔率（1X2，十进制）\n- The Sun 6月27日赛前提示：主胜 — / 平 — / 客胜 —（公开页强调低比分倾向，未完整列出1X2三项；talkSPORT当日提示更看好奥地利方向。）\n\n### 历史交锋（H2H）\n- 共交手 2 次。世界杯相关历史叙事集中在1982年“希洪之耻”；本场是44年后再度在世界杯语境下相遇。\n\n### 近期新闻\n- [Both] 1982旧账成为赛前最大叙事：阿尔及利亚媒体与球迷把本场视作对1982年被间接挤出局的一次情绪补账。（来源：The Guardian）\n- [Both] 平局可能同时有利：两队均为3分，赛前报道提到一分很可能让两队都保留晋级路径，这让比赛动机更复杂。（来源：The Guardian / Times of India）\n- [Austria] 朗尼克球队更重整体压迫：奥地利首轮3-1胜约旦，次轮0-2负阿根廷，整体组织和体能强度仍被视为优势。（来源：talkSPORT）\n- [Algeria] 阿尔及利亚赢约旦后重回出线竞争：首轮0-3负阿根廷后，阿尔及利亚2-1击败约旦，把末轮变成与奥地利的直接卡位。（来源：The Guardian）\n\n### 小组形势\n- J组两轮后：阿根廷6分净胜+5已锁定小组第一；奥地利3分净胜0第二；阿尔及利亚3分净胜-2第三；约旦0分第四。奥地利与阿尔及利亚直接争第二，也都可能争较好第三名。\n\n### 综述\n- 这是今天情绪最重的一场。奥地利整体更稳，阿尔及利亚有历史动员和反击速度；但一分对双方都可能够用，比赛节奏可能偏谨慎。\n\n### 资料来源\n- https://www.theguardian.com/football/2026/jun/26/algeria-austria-1982-world-cup-shame-of-gijon-west-germany\n- https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/will-world-cup-witness-another-disgrace-of-gijon-austria-vs-algeria-raises-fears/articleshow/132028195.cms\n- https://www.thesun.co.uk/betting/39553633/world-cup-2026-acca-tips-27-june/\n- https://talksport.com/football/4367219/football-tips-best-football-bets-saturday-27-june/\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J\n\n---\n\n## J组 · 约旦 vs 阿根廷（match_id: `2026-06-27-JOR-ARG`）\n\n- 开球：2026-06-27 21:00（阿灵顿/达拉斯当地时间 CDT）｜北京时间 2026-06-28 10:00（北京时间周日上午）\n- 场地：Dallas Stadium（AT&T Stadium），美国得克萨斯州阿灵顿（J组第3轮收官）\n\n### 约旦（Jordan，主队）\n- FIFA 排名：第 65 位\n- 晋级之路：亚洲区第三阶段B组第二名直接晋级，队史首次进入世界杯。\n- 主教练：贾马尔·塞拉米 (Jamal Sellami)\n- 世界杯历史：队史首次参加世界杯；前两轮1-3负奥地利、1-2负阿尔及利亚，已经基本告别出线希望。\n- 核心球员：\n  - 穆萨·塔马里 (Mousa Al-Tamari)（边锋/前锋，蒙彼利埃）\n  - 阿里·奥尔万 (Ali Olwan)（前锋，未指定）\n  - 亚赞·奈马特 (Yazan Al-Naimat)（前锋，未指定）\n  - 尼扎尔·拉什丹 (Nizar Al-Rashdan)（中场，未指定）\n  - 亚泽德·阿布莱拉 (Yazeed Abulaila)（门将，未指定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-22 vs 阿尔及利亚（世界杯J组第2轮）：1-2（L）\n  - 2026-06-16 vs 奥地利（世界杯J组第1轮）：1-3（L）\n  - 2026-06-09 vs 哥伦比亚（热身赛）：0-2（L）\n  - 2026-03-31 vs 尼日利亚（热身赛）：2-2（D）\n  - 2026-03-27 vs 哥斯达黎加（热身赛）：2-1（W）\n\n### 阿根廷（Argentina，客队）\n- FIFA 排名：第 2 位\n- 晋级之路：南美区预选赛头名直接晋级；2022年世界杯冠军。\n- 主教练：莱昂内尔·斯卡洛尼 (Lionel Scaloni)\n- 世界杯历史：三次夺得世界杯冠军（1978、1986、2022）。本届前两轮3-0胜阿尔及利亚、2-0胜奥地利，已锁定J组第一。\n- 核心球员：\n  - 莱昂内尔·梅西 (Lionel Messi)（前锋/队长，迈阿密国际）\n  - 胡利安·阿尔瓦雷斯 (Julián Álvarez)（前锋，马德里竞技）\n  - 尼科·帕斯 (Nico Paz)（攻击手，科莫）\n  - 恩佐·费尔南德斯 (Enzo Fernández)（中场，切尔西）\n  - 埃米利亚诺·马丁内斯 (Emiliano Martínez)（门将，阿斯顿维拉）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-22 vs 奥地利（世界杯J组第2轮）：2-0（W）\n  - 2026-06-16 vs 阿尔及利亚（世界杯J组第1轮）：3-0（W）\n  - 2026-06-06 vs 冰岛（热身赛）：3-0（W）\n  - 2026-06-02 vs 洪都拉斯（热身赛）：2-0（W）\n  - 2026-03-26 vs 赞比亚（热身赛）：5-0（W）\n\n### 博彩赔率（1X2，十进制）\n- The Sun / Times of India 赛前稿：主胜 — / 平 — / 客胜 —（公开页未完整列出1X2三项；所有赛前稿均把阿根廷列为明显热门，但强调会轮换。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队成年国家队缺少正式交锋记录，本场是约旦队史首次世界杯对阵卫冕冠军。\n\n### 近期新闻\n- [Argentina] 梅西确认替补：斯卡洛尼确认梅西不会首发，但会在下半场获得出场时间以保持节奏。（来源：The Sun / Times of India）\n- [Argentina] 阿根廷已锁定J组第一：前两轮全胜且零失球，末轮主要是轮换和考察阵容深度。（来源：The Sun）\n- [Jordan] 约旦为荣誉而战：队史首次世界杯前两轮全败，但两场都有进球；面对卫冕冠军仍有展示窗口。（来源：Times of India / Wikipedia）\n- [Argentina] 尼科·帕斯和阿尔瓦雷斯预计获得更多时间：赛前稿称斯卡洛尼会让替补攻击线首发，劳塔罗也可能休息。（来源：The Sun）\n\n### 小组形势\n- J组两轮后：阿根廷6分净胜+5已锁定小组第一；奥地利3分第二；阿尔及利亚3分第三；约旦0分第四。阿根廷没有排名压力，约旦理论空间极小，主要争取体面收官。\n\n### 综述\n- 阿根廷即便轮换，整体质量仍明显高于约旦。变量在梅西替补、进攻端轮换后默契是否下降；约旦更现实的目标是争取进球和少失球。\n\n### 资料来源\n- https://www.thesun.co.uk/sport/39562837/lionel-messi-argentina-lionel-scaloni-venezuela/\n- https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/fifa-world-cup-record-breaker-lionel-messi-rested-for-argentinas-group-finale-against-jordan/articleshow/132027044.cms\n- https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/will-world-cup-witness-another-disgrace-of-gijon-austria-vs-algeria-raises-fears/articleshow/132028195.cms\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J\n- https://en.wikipedia.org/wiki/Jordan_at_the_FIFA_World_Cup\n\n---\n\n## K组 · 哥伦比亚 vs 葡萄牙（match_id: `2026-06-27-COL-POR`）\n\n- 开球：2026-06-27 19:30（迈阿密当地时间 EDT）｜北京时间 2026-06-28 07:30（北京时间周日上午）\n- 场地：Miami Stadium（Hard Rock Stadium），美国佛罗里达州迈阿密花园（K组第3轮收官）\n\n### 哥伦比亚（Colombia，主队）\n- FIFA 排名：第 13 位\n- 晋级之路：南美区预选赛第3名直接晋级。\n- 主教练：内斯托尔·洛伦索 (Néstor Lorenzo)\n- 世界杯历史：第7次参加世界杯，最佳成绩为2014年八强；本届前两轮全胜，已晋级32强。\n- 核心球员：\n  - 路易斯·迪亚斯 (Luis Díaz)（边锋，拜仁慕尼黑）\n  - 哈梅斯·罗德里格斯 (James Rodríguez)（中场（队长），明尼苏达联）\n  - 丹尼尔·穆尼奥斯 (Daniel Muñoz)（右后卫，水晶宫）\n  - 杰弗森·莱尔马 (Jefferson Lerma)（中场，水晶宫）\n  - 路易斯·苏亚雷斯 (Luis Suárez)（前锋，葡萄牙体育）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-23 vs 刚果民主共和国（世界杯K组第2轮）：1-0（W）\n  - 2026-06-17 vs 乌兹别克斯坦（世界杯K组第1轮）：3-1（W）\n  - 2026-06-07 vs 约旦（热身赛）：2-0（W）\n  - 2026-05-29 vs 哥斯达黎加（热身赛）：3-1（W）\n  - 2026-03-29 vs 法国（热身赛）：1-3（L）\n\n### 葡萄牙（Portugal，客队）\n- FIFA 排名：第 5 位\n- 晋级之路：欧洲区F组头名直接晋级。\n- 主教练：罗伯托·马丁内斯 (Roberto Martínez)\n- 世界杯历史：第9次参加世界杯，最佳成绩为1966年季军。本届首轮1-1平刚果（金），次轮5-0大胜乌兹别克斯坦，已至少锁定出线资格。\n- 核心球员：\n  - 克里斯蒂亚诺·罗纳尔多 (Cristiano Ronaldo)（前锋（队长），利雅得胜利）\n  - 布鲁诺·费尔南德斯 (Bruno Fernandes)（中场，曼联）\n  - 贝尔纳多·席尔瓦 (Bernardo Silva)（中场/边锋，曼城）\n  - 维蒂尼亚 (Vitinha)（中场，巴黎圣日耳曼）\n  - 鲁本·迪亚斯 (Rúben Dias)（后卫，曼城）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-23 vs 乌兹别克斯坦（世界杯K组第2轮）：5-0（W）\n  - 2026-06-17 vs 刚果民主共和国（世界杯K组第1轮）：1-1（D）\n  - 2026-06-10 vs 尼日利亚（热身赛）：2-1（W）\n  - 2026-06-06 vs 智利（热身赛）：2-1（W）\n  - 2026-03-31 vs 美国（热身赛）：2-0（W）\n\n### 博彩赔率（1X2，十进制）\n- Betfred / talkSPORT：主胜 5 / 平 4.33 / 客胜 1.62（原始分数赔率：哥伦比亚4/1，平10/3，葡萄牙8/13，换算十进制约为5.00 / 4.33 / 1.62。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。K组资料列示两队此前没有成年国家队正式交锋记录。\n\n### 近期新闻\n- [Colombia] 哥伦比亚两连胜已出线：次轮1-0击败刚果（金），穆尼奥斯第76分钟打进制胜球；全场20脚射门、9次射正。（来源：The Guardian）\n- [Portugal] C罗对乌兹别克斯坦梅开二度：葡萄牙5-0大胜后重新掌握出线主动，C罗、努诺·门德斯、莱昂都有进球贡献。（来源：The Guardian / talkSPORT）\n- [Portugal] 鲁本·迪亚斯已回归：赛前阵容信息称葡萄牙暂无重大新增伤情，迪亚斯从伤病中回归。（来源：talkSPORT）\n- [Colombia] 迈阿密球迷环境偏哥伦比亚：迈阿密-戴德县哥伦比亚出生居民超过10万人，现场氛围可能不完全中立。（来源：Axios Miami）\n\n### 小组形势\n- K组两轮后：哥伦比亚6分第一，葡萄牙4分第二，刚果（金）1分第三，乌兹别克斯坦0分第四。哥伦比亚打平即可锁定小组第一；葡萄牙必须赢球才能反超头名。\n\n### 综述\n- K组头名直接对话。葡萄牙纸面更强、状态刚起；哥伦比亚两连胜、防守更稳，并且打平就够。\n\n### 资料来源\n- https://talksport.com/football/4367089/colombia-portugal-world-cup-betting-tips-predictions/\n- https://www.theguardian.com/football/live/2026/jun/24/fifa-world-cup-2026-live-colombia-v-dr-congo-updates-col-vs-cod-group-k-match-score-latest\n- https://www.theguardian.com/football/live/2026/jun/23/portugal-v-uzbekistan-world-cup-2026-live\n- https://www.axios.com/local/miami/2026/06/26/colombia-portugal-hard-rock-miami-world-cup\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K\n\n---\n\n## K组 · 刚果民主共和国 vs 乌兹别克斯坦（match_id: `2026-06-27-COD-UZB`）\n\n- 开球：2026-06-27 19:30（亚特兰大当地时间 EDT）｜北京时间 2026-06-28 07:30（北京时间周日上午）\n- 场地：Atlanta Stadium（Mercedes-Benz Stadium），美国佐治亚州亚特兰大（K组第3轮收官）\n\n### 刚果民主共和国（DR Congo，主队）\n- FIFA 排名：第 56 位\n- 晋级之路：非洲区B组第二，随后通过非洲附加赛和洲际附加赛晋级；2026-03-31加时1-0胜牙买加拿到门票。\n- 主教练：塞巴斯蒂安·德萨布尔 (Sébastien Desabre)\n- 世界杯历史：继1974年后第二次参加世界杯（当时以扎伊尔名义参赛）。本届首轮1-1平葡萄牙，次轮0-1负哥伦比亚。\n- 核心球员：\n  - 约安·维萨 (Yoane Wissa)（前锋，布伦特福德）\n  - 塞德里克·巴坎布 (Cédric Bakambu)（前锋，贝蒂斯）\n  - 尚塞尔·姆本巴 (Chancel Mbemba)（后卫（队长），未指定）\n  - 阿隆·万-比萨卡 (Aaron Wan-Bissaka)（后卫，西汉姆联）\n  - 利昂内尔·姆帕西 (Lionel Mpasi)（门将，未指定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-23 vs 哥伦比亚（世界杯K组第2轮）：0-1（L）\n  - 2026-06-17 vs 葡萄牙（世界杯K组第1轮）：1-1（D）\n  - 2026-06-09 vs 智利（热身赛）：1-2（L）\n  - 2026-06-03 vs 丹麦（热身赛）：0-0（D）\n  - 2026-03-31 vs 牙买加（洲际附加赛）：1-0（W）\n\n### 乌兹别克斯坦（Uzbekistan，客队）\n- FIFA 排名：第 50 位\n- 晋级之路：亚洲区第三阶段A组第二，队史首次进入世界杯。\n- 主教练：法比奥·卡纳瓦罗 (Fabio Cannavaro)\n- 世界杯历史：队史首次参加世界杯；前两轮1-3负哥伦比亚、0-5负葡萄牙，防线压力很大。\n- 核心球员：\n  - 阿卜杜科迪尔·胡萨诺夫 (Abdukodir Khusanov)（后卫，曼城）\n  - 埃尔多尔·绍穆罗多夫 (Eldor Shomurodov)（前锋（队长），伊斯坦布尔）\n  - 阿博斯别克·法伊祖拉耶夫 (Abbosbek Fayzullaev)（攻击中场，伊斯坦布尔）\n  - 贾洛利丁·马沙里波夫 (Jaloliddin Masharipov)（中场，未指定）\n  - 鲁斯塔姆·阿舒尔马托夫 (Rustam Ashurmatov)（后卫，未指定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-23 vs 葡萄牙（世界杯K组第2轮）：0-5（L）\n  - 2026-06-17 vs 哥伦比亚（世界杯K组第1轮）：1-3（L）\n  - 2026-06-08 vs 荷兰（热身赛）：1-2（L）\n  - 2026-06-02 vs 加拿大（热身赛）：0-2（L）\n  - 2025-06-05 vs 阿联酋（世预赛）：0-0（D）\n\n### 博彩赔率（1X2，十进制）\n- The Sun / NY Post 小组前瞻：主胜 — / 平 — / 客胜 —（未抓到完整本场1X2三项；赛前材料把刚果（金）列为更被看好的一方。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队此前没有成年国家队交锋记录。\n\n### 近期新闻\n- [DR Congo] 刚果（金）仍有争第三机会：一平一负后积1分，本场赢球可到4分，保留较好第三名晋级希望。（来源：The Sun / SB Nation）\n- [DR Congo] 门将姆帕西对哥伦比亚表现抢眼：次轮0-1小负哥伦比亚，姆帕西多次扑救，让比赛悬念维持到最后。（来源：The Guardian）\n- [Uzbekistan] 乌兹别克两连败失8球：次轮0-5负葡萄牙，胡萨诺夫出现乌龙，球队情绪和防守稳定性都受考验。（来源：The Guardian）\n- [Uzbekistan] 法伊祖拉耶夫完成队史世界杯首球：首轮对哥伦比亚打进乌兹别克世界杯历史首球，是球队少数正面信号。（来源：Wikipedia / Guardian）\n\n### 小组形势\n- K组两轮后：哥伦比亚6分，葡萄牙4分，刚果（金）1分，乌兹别克斯坦0分。刚果（金）赢球可到4分争较好第三；乌兹别克斯坦净胜球-7，出线空间极小。\n\n### 综述\n- 刚果（金）对葡萄牙拿过分，防守组织比乌兹别克更稳；乌兹别克斯坦处子秀两连败，可能会更开放，但后场风险也更高。\n\n### 资料来源\n- https://www.thesun.co.uk/sport/39552031/world-cup-2026-live-group-k-table-latest-standings/\n- https://www.sbnation.com/fifa-world-cup/1119534/world-cup-2026-what-are-the-knockout-round-scenarios-in-group-k\n- https://www.theguardian.com/football/live/2026/jun/24/fifa-world-cup-2026-live-colombia-v-dr-congo-updates-col-vs-cod-group-k-match-score-latest\n- https://www.theguardian.com/football/live/2026/jun/23/portugal-v-uzbekistan-world-cup-2026-live\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K\n- https://en.wikipedia.org/wiki/Uzbekistan_at_the_FIFA_World_Cup\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 15 个比赛日、共 64 场比赛中，4 个先期参赛模型的历次预测、实际赛果与所得分数（结算规则：比分完全猜对 5 分 / 仅胜负方向猜对 3 分 / 猜错或未预测 0 分）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 胜负方向命中 | 比分完全命中 |\n|  ---  |  ---  |  ---  |  ---  |\n| Claude Opus 4.8 | 141 | 41/64 | 9/64 |\n| Kimi K2.7 | 133 | 41/64 | 5/64 |\n| Grok 4.3 | 130 | 40/64 | 5/64 |\n| Mistral Medium 3.5 | 116 | 36/64 | 4/64 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（3） | 1-1（0） | 1-0（3） | 1-0（3） |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 0-1（0） | 1-2（0） | 0-1（0） |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 海地 vs 苏格兰 | 0-1 | 0-2（3） | 0-2（3） | 2-0（0） | 1-2（3） |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-2（0） | 0-3（0） |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 德国 vs 库拉索 | 7-1 | 6-0（3） | 4-0（3） | 4-0（3） | 4-0（3） |\n| 荷兰 vs 日本 | 2-2 | 1-1（3） | 1-1（3） | 2-1（0） | 2-1（0） |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（3） | 2-0（3） | 1-0（3） | 1-0（3） |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 3-0（0） |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 2-1（0） |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 0-1（0） |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（3） | 2-1（3） | 2-1（3） |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（3） | 0-3（3） | 0-2（3） | 0-2（3） |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 奥地利 vs 约旦 | 3-1 | 3-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 3-0（0） | 2-0（0） | 2-0（0） |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（3） | 2-1（3） | 2-1（3） | 2-0（3） |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（3） | 0-2（3） | 0-2（3） | 0-2（3） |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-1（0） | 2-0（0） | 2-0（0） |\n| 瑞士 vs 波黑 | 4-1 | 2-1（3） | 1-1（0） | 2-0（3） | 2-1（3） |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 1-1（0） | 2-1（3） | 2-1（3） |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 3-1（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 1-2（3） |\n| 巴西 vs 海地 | 3-0 | 4-0（3） | 4-0（3） | 2-0（3） | 3-0（5） |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-1（0） | 1-0（0） | 2-0（0） |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（3） | 1-2（0） | 3-1（3） | 2-1（3） |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（3） | 4-0（3） | 2-1（5） | 2-0（3） |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 3-0（0） | 2-0（0） |\n| 突尼斯 vs 日本 | 0-4 | 0-2（3） | 0-1（3） | 1-2（3） | 1-2（3） |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（3） | 3-0（3） | 1-0（3） | 2-0（3） |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（3） | 1-1（3） | 2-0（0） |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 2-0（0） | 1-1（3） | 1-0（0） |\n| 新西兰 vs 埃及 | 1-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-1（3） |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（3） | 3-1（3） | 2-1（3） | 2-0（5） |\n| 法国 vs 伊拉克 | 3-0 | 4-0（3） | 5-0（3） | 3-1（3） | 3-0（5） |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（3） | 3-2（5） | 2-1（3） | 2-1（3） |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（3） | 0-1（3） | 1-2（5） | 1-2（5） |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（3） | 3-1（3） | 2-0（3） | 2-1（3） |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 2-0（0） | 3-0（0） | 2-0（0） |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 0-1（5） |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（3） | 2-0（3） | 2-0（3） | 1-0（5） |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 1-2（0） | 0-0（0） | 1-1（0） |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（3） | 1-0（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-2（3） |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（3） | 4-0（3） | 2-0（3） | 3-0（3） |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（3） | 0-1（3） | 0-1（3） | 1-2（3） |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 1-2（0） | 0-1（0） | 1-2（0） |\n\n**2026-06-25**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 库拉索 vs 科特迪瓦 | 0-2 | 0-2（5） | 0-3（3） | 0-1（3） | 0-2（5） |\n| 厄瓜多尔 vs 德国 | 2-1 | 1-2（0） | 0-3（0） | 1-2（0） | 1-1（0） |\n| 日本 vs 瑞典 | 1-1 | 2-1（0） | 1-1（5） | 2-1（0） | 1-1（5） |\n| 突尼斯 vs 荷兰 | 1-3 | 0-3（3） | 0-4（3） | 1-3（5） | 0-3（3） |\n| 土耳其 vs 美国 | 3-2 | 0-2（0） | 1-2（0） | 1-1（0） | 1-2（0） |\n| 巴拉圭 vs 澳大利亚 | 0-0 | 1-1（3） | 1-0（0） | 0-0（5） | 1-1（3） |\n\n**2026-06-26**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 挪威 vs 法国 | 1-4 | 2-3（3） | 1-2（3） | 2-3（3） | 2-2（0） |\n| 塞内加尔 vs 伊拉克 | 5-0 | 3-0（3） | 2-0（3） | 3-1（3） | 2-0（3） |\n| 埃及 vs 伊朗 | 1-1 | 2-0（0） | 2-1（0） | 1-1（5） | 1-1（5） |\n| 新西兰 vs 比利时 | 1-5 | 1-2（3） | 0-2（3） | 1-2（3） | 0-2（3） |\n| 佛得角 vs 沙特阿拉伯 | 0-0 | 2-1（0） | 2-0（0） | 2-1（0） | 1-1（3） |\n| 乌拉圭 vs 西班牙 | 0-1 | 1-2（3） | 1-1（0） | 0-2（3） | 1-2（3） |\n\n<!-- HISTORY-REVIEW-END -->\n\n═══════════ 资料文档结束 ═══════════\n\n文档末尾附有各模型（包括你自己）历次预测与实际赛果的对照战绩，请在预测前先复盘这些记录，再给出你独立的判断。\n\n请预测每场比赛常规时间的结果，严格按以下 JSON 数组格式输出，不要输出任何其他文字，不要用 markdown 代码块包裹：\n[{\"match_id\": \"...\", \"winner\": \"home\" 或 \"away\" 或 \"draw\", \"score\": \"主队进球-客队进球（如 2-1）\", \"confidence\": 1到100的整数, \"reasoning_zh\": \"50字以内中文理由\"}]\n\nmatch_id 必须逐一使用以下 ID（共 6 场，每场恰好一条预测）：\n2026-06-27-PAN-ENG\n2026-06-27-CRO-GHA\n2026-06-27-ALG-AUT\n2026-06-27-JOR-ARG\n2026-06-27-COL-POR\n2026-06-27-COD-UZB"
+   },
+   "generated_at": "2026-06-27T09:14:59.342Z",
+   "model_runs": {
+    "x-ai/grok-4.3": {
+     "status": "ok",
+     "latency_s": 8,
+     "via": "openrouter",
+     "error": null
+    },
+    "mistralai/mistral-medium-3-5": {
+     "status": "ok",
+     "latency_s": 7,
+     "via": "openrouter",
+     "error": null
+    },
+    "moonshotai/kimi-k2.6": {
+     "status": "ok",
+     "latency_s": 55,
+     "via": "openrouter",
+     "error": null
+    },
+    "anthropic/claude-fable-5": {
+     "status": "ok",
+     "latency_s": 12,
+     "via": "openrouter",
+     "error": null
+    },
+    "qwen/qwen3.7-max": {
+     "status": "ok",
+     "latency_s": 48,
+     "via": "openrouter",
+     "error": null
+    },
+    "google/gemini-3.5-flash": {
+     "status": "ok",
+     "latency_s": 20,
+     "via": "openrouter",
+     "error": null
+    },
+    "sakana/fugu-ultra": {
+     "status": "ok",
+     "latency_s": 225,
+     "via": "sakana",
+     "error": null
+    },
+    "bytedance/doubao-seed-2.0-pro": {
+     "status": "ok",
+     "latency_s": 33,
+     "via": "volcengine",
+     "error": null
+    }
+   },
+   "context_md": "# 2026-06-27 世界杯比赛资料文档\n\n本文档汇总了 2026-06-27（比赛日，北美当地时间）FIFA 2026 世界杯全部 6 场小组赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与小组形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-06-27-PAN-ENG`：L组 巴拿马(Panama, 主) vs 英格兰(England, 客)\n- `2026-06-27-CRO-GHA`：L组 克罗地亚(Croatia, 主) vs 加纳(Ghana, 客)\n- `2026-06-27-ALG-AUT`：J组 阿尔及利亚(Algeria, 主) vs 奥地利(Austria, 客)\n- `2026-06-27-JOR-ARG`：J组 约旦(Jordan, 主) vs 阿根廷(Argentina, 客)\n- `2026-06-27-COL-POR`：K组 哥伦比亚(Colombia, 主) vs 葡萄牙(Portugal, 客)\n- `2026-06-27-COD-UZB`：K组 刚果民主共和国(DR Congo, 主) vs 乌兹别克斯坦(Uzbekistan, 客)\n\n---\n\n## L组 · 巴拿马 vs 英格兰（match_id: `2026-06-27-PAN-ENG`）\n\n- 开球：2026-06-27 17:00（东卢瑟福当地时间 EDT）｜北京时间 2026-06-28 05:00（北京时间周日清晨）\n- 场地：New York New Jersey Stadium（MetLife Stadium），美国新泽西州东卢瑟福（L组第3轮收官）\n\n### 巴拿马（Panama，主队）\n- FIFA 排名：第 30 位\n- 晋级之路：中北美及加勒比海区预选赛A组头名直接晋级，最终轮10战7胜3平保持不败；队史第二次参加世界杯。\n- 主教练：托马斯·克里斯蒂安森 (Thomas Christiansen)\n- 世界杯历史：2018年首次参赛，小组三战全负；本届前两轮均0-1小负，仍在争取队史世界杯首个积分。\n- 核心球员：\n  - 克里斯蒂安·马丁内斯 (Cristian Martínez)（边路/中场，未指定）\n  - 迈克尔·阿米尔·穆里略 (Michael Amir Murillo)（右后卫，马赛）\n  - 何塞·路易斯·罗德里格斯 (José Luis Rodríguez)（边路，未指定）\n  - 塞西利奥·沃特曼 (Cecilio Waterman)（前锋，科洛科洛）\n  - 何塞·法哈多 (José Fajardo)（前锋，未指定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-23 vs 克罗地亚（世界杯L组第2轮）：0-1（L）\n  - 2026-06-17 vs 加纳（世界杯L组第1轮）：0-1（L）\n  - 2026-06-06 vs 波黑（热身赛）：1-1（D）\n  - 2026-06-03 vs 多米尼加（热身赛）：4-2（W）\n  - 2026-05-31 vs 巴西（热身赛）：2-6（L）\n\n### 英格兰（England，客队）\n- FIFA 排名：第 4 位\n- 晋级之路：欧洲区K组头名直接晋级，预选赛8战全胜且一球未失。\n- 主教练：托马斯·图赫尔 (Thomas Tuchel)\n- 世界杯历史：1966年世界杯冠军；近两届分别为2018年第四名、2022年八强。本届前两轮积4分，已确认至少以较好第三名身份晋级。\n- 核心球员：\n  - 哈里·凯恩 (Harry Kane)（前锋（队长），拜仁慕尼黑）\n  - 裘德·贝林厄姆 (Jude Bellingham)（中场，皇家马德里）\n  - 德克兰·赖斯 (Declan Rice)（中场，阿森纳）\n  - 布卡约·萨卡 (Bukayo Saka)（边锋，阿森纳）\n  - 马库斯·拉什福德 (Marcus Rashford)（边锋/前锋，巴塞罗那）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-23 vs 加纳（世界杯L组第2轮）：0-0（D）\n  - 2026-06-17 vs 克罗地亚（世界杯L组第1轮）：4-2（W）\n  - 2026-06-10 vs 哥斯达黎加（热身赛）：3-0（W）\n  - 2026-06-06 vs 新西兰（热身赛）：1-0（W）\n  - 2026-03-31 vs 日本（热身赛）：0-1（L）\n\n### 博彩赔率（1X2，十进制）\n- talkSPORT / Sky Bet 赛前促销页：主胜 — / 平 — / 客胜 —（公开页未完整列出常规1X2三项；多篇赛前稿均把英格兰列为明显热门。）\n\n### 历史交锋（H2H）\n- 共交手 1 次。唯一一次交锋是2018世界杯，英格兰6-1大胜巴拿马，凯恩上演帽子戏法。\n\n### 近期新闻\n- [England] 英格兰已确认晋级，但仍要争小组第一：乌拉圭出局等结果让英格兰至少锁定较好第三名资格；最后一轮击败巴拿马可主动锁定L组头名。（来源：The Guardian）\n- [England] 里斯·詹姆斯伤缺，赖斯也有健康状况关注：詹姆斯腿筋不适，将缺席巴拿马一战和32强战；赖斯的身体状态也被图赫尔提及，梅努可能顶上。（来源：The Guardian）\n- [Panama] 巴拿马两场0-1后已无晋级路径：球队仍在争取队史世界杯首个积分；克里斯蒂安森预计继续依靠5-4-1低位与快速反击。（来源：The Guardian）\n- [Panama] 训练中出现队友冲突：沃特曼与罗德里格斯在训练中发生肢体冲突，主帅淡化事件，称是竞争首发位置的表现。（来源：New York Post / The Sun）\n\n### 小组形势\n- L组两轮后：英格兰4分净胜+2第一，加纳4分净胜+1第二，克罗地亚3分第三，巴拿马0分第四。英格兰已至少确认晋级，取胜可锁定小组第一；巴拿马已出局。\n\n### 综述\n- 英格兰实力和动机都占优，但刚被加纳0-0限制后，需要破解巴拿马低位防守。巴拿马前两轮防线并未崩盘，问题是至今没有进球。\n\n### 资料来源\n- https://www.theguardian.com/football/2026/jun/27/england-through-to-last-32-of-the-world-cup-after-uruguay-exit-against-spain\n- https://www.theguardian.com/football/2026/jun/27/england-world-cup-thomas-tuchel-panama\n- https://www.theguardian.com/football/2026/jun/26/world-cup-scouting-report-lowdown-england-opponent-panama\n- https://nypost.com/2026/06/26/sports/panamas-disastrous-world-cup-hits-new-low-with-fight-at-practice/\n- https://talksport.com/football/world-cup/4365423/england-panama-betting-offer-world-cup-sky-bet/\n\n---\n\n## L组 · 克罗地亚 vs 加纳（match_id: `2026-06-27-CRO-GHA`）\n\n- 开球：2026-06-27 17:00（费城当地时间 EDT）｜北京时间 2026-06-28 05:00（北京时间周日清晨）\n- 场地：Philadelphia Stadium（Lincoln Financial Field），美国宾夕法尼亚州费城（L组第3轮收官）\n\n### 克罗地亚（Croatia，主队）\n- FIFA 排名：第 10 位\n- 晋级之路：欧洲区L组头名直接晋级，预选赛8战7胜1平不败。\n- 主教练：兹拉特科·达利奇 (Zlatko Dalić)\n- 世界杯历史：2018年世界杯亚军、2022年季军。本届首轮2-4负英格兰，次轮1-0胜巴拿马。\n- 核心球员：\n  - 卢卡·莫德里奇 (Luka Modrić)（中场（队长），AC米兰）\n  - 马特奥·科瓦契奇 (Mateo Kovačić)（中场，曼城）\n  - 约什科·格瓦迪奥尔 (Joško Gvardiol)（后卫，曼城）\n  - 安特·布迪米尔 (Ante Budimir)（前锋，奥萨苏纳）\n  - 伊万·佩里西奇 (Ivan Perišić)（边路，埃因霍温）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-23 vs 巴拿马（世界杯L组第2轮）：1-0（W）\n  - 2026-06-17 vs 英格兰（世界杯L组第1轮）：2-4（L）\n  - 2026-06-07 vs 斯洛文尼亚（热身赛）：2-1（W）\n  - 2026-06-02 vs 比利时（热身赛）：0-2（L）\n  - 2026-03-31 vs 巴西（热身赛）：1-3（L）\n\n### 加纳（Ghana，客队）\n- FIFA 排名：第 72 位\n- 晋级之路：非洲区I组头名直接晋级。\n- 主教练：卡洛斯·奎罗斯 (Carlos Queiroz)\n- 世界杯历史：第5次参加世界杯，2010年曾进八强。本届1-0胜巴拿马、0-0平英格兰，前两轮不失球。\n- 核心球员：\n  - 安托万·塞门约 (Antoine Semenyo)（边锋/前锋，曼城）\n  - 托马斯·帕尔泰 (Thomas Partey)（中场，阿森纳）\n  - 伊纳基·威廉姆斯 (Iñaki Williams)（前锋，毕尔巴鄂竞技）\n  - 乔丹·阿尤 (Jordan Ayew)（前锋（队长），莱斯特城）\n  - 卡莱布·耶伦基 (Caleb Yirenkyi)（中场，未指定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-23 vs 英格兰（世界杯L组第2轮）：0-0（D）\n  - 2026-06-17 vs 巴拿马（世界杯L组第1轮）：1-0（W）\n  - 2026-06-02 vs 威尔士（热身赛）：1-1（D）\n  - 2026-05-22 vs 墨西哥（热身赛）：0-2（L）\n  - 2026-03-30 vs 德国（热身赛）：1-2（L）\n\n### 博彩赔率（1X2，十进制）\n- The Sun / SunSport：主胜 1.7 / 平 3.3 / 客胜 5.5（原始分数赔率：克罗地亚7/10，平23/10，加纳9/2，换算十进制约为1.70 / 3.30 / 5.50。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队成年国家队此前没有交锋记录，本场是首次正式交手。\n\n### 近期新闻\n- [Croatia] 莫德里奇达成国家队200场：对巴拿马一战，莫德里奇完成国家队第200次出场；克罗地亚靠布迪米尔进球拿到首胜。（来源：HNS）\n- [Croatia] 格瓦迪奥尔仍在找比赛节奏：达利奇提到格瓦迪奥尔此前重伤后比赛节奏还需评估，但没有抓到新增缺阵名单。（来源：HNS）\n- [Ghana] 加纳平局即可压住克罗地亚：加纳前两轮4分且零失球；奎罗斯赛前强调只专注执行对克罗地亚的计划。（来源：GFA / The Sun）\n- [Ghana] 进攻产量偏低：赛前报道提到加纳前两轮射门和射正都不多，但防守纪律很好。（来源：talkSPORT）\n\n### 小组形势\n- L组两轮后：英格兰4分第一，加纳4分第二，克罗地亚3分第三，巴拿马0分第四。加纳打平即可积分压住克罗地亚；克罗地亚只有赢球才能反超到前二。\n\n### 综述\n- 这是L组最直接的生死卡位。克罗地亚经验更足、必须主动进攻；加纳防线前两轮很硬，平局对他们更有利。\n\n### 资料来源\n- https://www.thesun.co.uk/sport/39512159/croatia-ghana-betting-tips-predictions-world-cup/\n- https://talksport.com/betting/4368578/croatia-vs-ghana-odds-tips-2026/\n- https://hns.team/en/news/31400/croatia-defeat-panama-through-budimir-goal-to-earn-first-points-at-the-world-cup/\n- https://www.ghanafa.org/semenyo-insists-team-is-focused-on-finishing-off-right\n- https://www.ghanafa.org/carlos-queiroz-vows-team-will-come-out-more-strong\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L\n\n---\n\n## J组 · 阿尔及利亚 vs 奥地利（match_id: `2026-06-27-ALG-AUT`）\n\n- 开球：2026-06-27 21:00（堪萨斯城当地时间 CDT）｜北京时间 2026-06-28 10:00（北京时间周日上午）\n- 场地：Kansas City Stadium（Arrowhead Stadium），美国密苏里州堪萨斯城（J组第3轮收官）\n\n### 阿尔及利亚（Algeria，主队）\n- FIFA 排名：第 35 位\n- 晋级之路：非洲区G组头名直接晋级，2014年后重返世界杯。\n- 主教练：弗拉基米尔·佩特科维奇 (Vladimir Petković)\n- 世界杯历史：第5次参加世界杯，最佳成绩为2014年16强。1982年因“希洪之耻”被奥地利与西德的结果挤出局，本场有强烈历史叙事。\n- 核心球员：\n  - 里亚德·马赫雷斯 (Riyad Mahrez)（边锋（队长），吉达国民）\n  - 穆罕默德·阿穆拉 (Mohamed Amoura)（前锋，沃尔夫斯堡）\n  - 阿明·古伊里 (Amine Gouiri)（前锋，马赛）\n  - 伊斯梅尔·本纳赛尔 (Ismaël Bennacer)（中场，AC米兰）\n  - 卢卡·齐达内 (Luca Zidane)（门将，未指定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-22 vs 约旦（世界杯J组第2轮）：2-1（W）\n  - 2026-06-16 vs 阿根廷（世界杯J组第1轮）：0-3（L）\n  - 2026-03-31 vs 乌拉圭（热身赛）：0-0（D）\n  - 2026-03-27 vs 沙特阿拉伯（热身赛）：2-0（W）\n  - 2025-11-18 vs 沙特阿拉伯（热身赛）：2-0（W）\n\n### 奥地利（Austria，客队）\n- FIFA 排名：第 24 位\n- 晋级之路：欧洲区H组头名直接晋级，1998年后首次重返世界杯。\n- 主教练：拉尔夫·朗尼克 (Ralf Rangnick)\n- 世界杯历史：历史最佳为1934年、1954年四强；本届首轮3-1胜约旦，取得多年后世界杯首胜，次轮0-2负阿根廷。\n- 核心球员：\n  - 大卫·阿拉巴 (David Alaba)（后卫（队长），皇家马德里）\n  - 马塞尔·萨比策 (Marcel Sabitzer)（中场，多特蒙德）\n  - 孔拉德·莱默 (Konrad Laimer)（中场/后卫，拜仁慕尼黑）\n  - 马尔科·阿瑙托维奇 (Marko Arnautović)（前锋，自由身）\n  - 凯文·丹索 (Kevin Danso)（后卫，托特纳姆热刺）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-22 vs 阿根廷（世界杯J组第2轮）：0-2（L）\n  - 2026-06-16 vs 约旦（世界杯J组第1轮）：3-1（W）\n  - 2026-06-01 vs 突尼斯（热身赛）：1-0（W）\n  - 2026-03-31 vs 韩国（热身赛）：1-0（W）\n  - 2026-03-27 vs 加纳（热身赛）：5-1（W）\n\n### 博彩赔率（1X2，十进制）\n- The Sun 6月27日赛前提示：主胜 — / 平 — / 客胜 —（公开页强调低比分倾向，未完整列出1X2三项；talkSPORT当日提示更看好奥地利方向。）\n\n### 历史交锋（H2H）\n- 共交手 2 次。世界杯相关历史叙事集中在1982年“希洪之耻”；本场是44年后再度在世界杯语境下相遇。\n\n### 近期新闻\n- [Both] 1982旧账成为赛前最大叙事：阿尔及利亚媒体与球迷把本场视作对1982年被间接挤出局的一次情绪补账。（来源：The Guardian）\n- [Both] 平局可能同时有利：两队均为3分，赛前报道提到一分很可能让两队都保留晋级路径，这让比赛动机更复杂。（来源：The Guardian / Times of India）\n- [Austria] 朗尼克球队更重整体压迫：奥地利首轮3-1胜约旦，次轮0-2负阿根廷，整体组织和体能强度仍被视为优势。（来源：talkSPORT）\n- [Algeria] 阿尔及利亚赢约旦后重回出线竞争：首轮0-3负阿根廷后，阿尔及利亚2-1击败约旦，把末轮变成与奥地利的直接卡位。（来源：The Guardian）\n\n### 小组形势\n- J组两轮后：阿根廷6分净胜+5已锁定小组第一；奥地利3分净胜0第二；阿尔及利亚3分净胜-2第三；约旦0分第四。奥地利与阿尔及利亚直接争第二，也都可能争较好第三名。\n\n### 综述\n- 这是今天情绪最重的一场。奥地利整体更稳，阿尔及利亚有历史动员和反击速度；但一分对双方都可能够用，比赛节奏可能偏谨慎。\n\n### 资料来源\n- https://www.theguardian.com/football/2026/jun/26/algeria-austria-1982-world-cup-shame-of-gijon-west-germany\n- https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/will-world-cup-witness-another-disgrace-of-gijon-austria-vs-algeria-raises-fears/articleshow/132028195.cms\n- https://www.thesun.co.uk/betting/39553633/world-cup-2026-acca-tips-27-june/\n- https://talksport.com/football/4367219/football-tips-best-football-bets-saturday-27-june/\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J\n\n---\n\n## J组 · 约旦 vs 阿根廷（match_id: `2026-06-27-JOR-ARG`）\n\n- 开球：2026-06-27 21:00（阿灵顿/达拉斯当地时间 CDT）｜北京时间 2026-06-28 10:00（北京时间周日上午）\n- 场地：Dallas Stadium（AT&T Stadium），美国得克萨斯州阿灵顿（J组第3轮收官）\n\n### 约旦（Jordan，主队）\n- FIFA 排名：第 65 位\n- 晋级之路：亚洲区第三阶段B组第二名直接晋级，队史首次进入世界杯。\n- 主教练：贾马尔·塞拉米 (Jamal Sellami)\n- 世界杯历史：队史首次参加世界杯；前两轮1-3负奥地利、1-2负阿尔及利亚，已经基本告别出线希望。\n- 核心球员：\n  - 穆萨·塔马里 (Mousa Al-Tamari)（边锋/前锋，蒙彼利埃）\n  - 阿里·奥尔万 (Ali Olwan)（前锋，未指定）\n  - 亚赞·奈马特 (Yazan Al-Naimat)（前锋，未指定）\n  - 尼扎尔·拉什丹 (Nizar Al-Rashdan)（中场，未指定）\n  - 亚泽德·阿布莱拉 (Yazeed Abulaila)（门将，未指定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-22 vs 阿尔及利亚（世界杯J组第2轮）：1-2（L）\n  - 2026-06-16 vs 奥地利（世界杯J组第1轮）：1-3（L）\n  - 2026-06-09 vs 哥伦比亚（热身赛）：0-2（L）\n  - 2026-03-31 vs 尼日利亚（热身赛）：2-2（D）\n  - 2026-03-27 vs 哥斯达黎加（热身赛）：2-1（W）\n\n### 阿根廷（Argentina，客队）\n- FIFA 排名：第 2 位\n- 晋级之路：南美区预选赛头名直接晋级；2022年世界杯冠军。\n- 主教练：莱昂内尔·斯卡洛尼 (Lionel Scaloni)\n- 世界杯历史：三次夺得世界杯冠军（1978、1986、2022）。本届前两轮3-0胜阿尔及利亚、2-0胜奥地利，已锁定J组第一。\n- 核心球员：\n  - 莱昂内尔·梅西 (Lionel Messi)（前锋/队长，迈阿密国际）\n  - 胡利安·阿尔瓦雷斯 (Julián Álvarez)（前锋，马德里竞技）\n  - 尼科·帕斯 (Nico Paz)（攻击手，科莫）\n  - 恩佐·费尔南德斯 (Enzo Fernández)（中场，切尔西）\n  - 埃米利亚诺·马丁内斯 (Emiliano Martínez)（门将，阿斯顿维拉）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-22 vs 奥地利（世界杯J组第2轮）：2-0（W）\n  - 2026-06-16 vs 阿尔及利亚（世界杯J组第1轮）：3-0（W）\n  - 2026-06-06 vs 冰岛（热身赛）：3-0（W）\n  - 2026-06-02 vs 洪都拉斯（热身赛）：2-0（W）\n  - 2026-03-26 vs 赞比亚（热身赛）：5-0（W）\n\n### 博彩赔率（1X2，十进制）\n- The Sun / Times of India 赛前稿：主胜 — / 平 — / 客胜 —（公开页未完整列出1X2三项；所有赛前稿均把阿根廷列为明显热门，但强调会轮换。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队成年国家队缺少正式交锋记录，本场是约旦队史首次世界杯对阵卫冕冠军。\n\n### 近期新闻\n- [Argentina] 梅西确认替补：斯卡洛尼确认梅西不会首发，但会在下半场获得出场时间以保持节奏。（来源：The Sun / Times of India）\n- [Argentina] 阿根廷已锁定J组第一：前两轮全胜且零失球，末轮主要是轮换和考察阵容深度。（来源：The Sun）\n- [Jordan] 约旦为荣誉而战：队史首次世界杯前两轮全败，但两场都有进球；面对卫冕冠军仍有展示窗口。（来源：Times of India / Wikipedia）\n- [Argentina] 尼科·帕斯和阿尔瓦雷斯预计获得更多时间：赛前稿称斯卡洛尼会让替补攻击线首发，劳塔罗也可能休息。（来源：The Sun）\n\n### 小组形势\n- J组两轮后：阿根廷6分净胜+5已锁定小组第一；奥地利3分第二；阿尔及利亚3分第三；约旦0分第四。阿根廷没有排名压力，约旦理论空间极小，主要争取体面收官。\n\n### 综述\n- 阿根廷即便轮换，整体质量仍明显高于约旦。变量在梅西替补、进攻端轮换后默契是否下降；约旦更现实的目标是争取进球和少失球。\n\n### 资料来源\n- https://www.thesun.co.uk/sport/39562837/lionel-messi-argentina-lionel-scaloni-venezuela/\n- https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/fifa-world-cup-record-breaker-lionel-messi-rested-for-argentinas-group-finale-against-jordan/articleshow/132027044.cms\n- https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/will-world-cup-witness-another-disgrace-of-gijon-austria-vs-algeria-raises-fears/articleshow/132028195.cms\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J\n- https://en.wikipedia.org/wiki/Jordan_at_the_FIFA_World_Cup\n\n---\n\n## K组 · 哥伦比亚 vs 葡萄牙（match_id: `2026-06-27-COL-POR`）\n\n- 开球：2026-06-27 19:30（迈阿密当地时间 EDT）｜北京时间 2026-06-28 07:30（北京时间周日上午）\n- 场地：Miami Stadium（Hard Rock Stadium），美国佛罗里达州迈阿密花园（K组第3轮收官）\n\n### 哥伦比亚（Colombia，主队）\n- FIFA 排名：第 13 位\n- 晋级之路：南美区预选赛第3名直接晋级。\n- 主教练：内斯托尔·洛伦索 (Néstor Lorenzo)\n- 世界杯历史：第7次参加世界杯，最佳成绩为2014年八强；本届前两轮全胜，已晋级32强。\n- 核心球员：\n  - 路易斯·迪亚斯 (Luis Díaz)（边锋，拜仁慕尼黑）\n  - 哈梅斯·罗德里格斯 (James Rodríguez)（中场（队长），明尼苏达联）\n  - 丹尼尔·穆尼奥斯 (Daniel Muñoz)（右后卫，水晶宫）\n  - 杰弗森·莱尔马 (Jefferson Lerma)（中场，水晶宫）\n  - 路易斯·苏亚雷斯 (Luis Suárez)（前锋，葡萄牙体育）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-23 vs 刚果民主共和国（世界杯K组第2轮）：1-0（W）\n  - 2026-06-17 vs 乌兹别克斯坦（世界杯K组第1轮）：3-1（W）\n  - 2026-06-07 vs 约旦（热身赛）：2-0（W）\n  - 2026-05-29 vs 哥斯达黎加（热身赛）：3-1（W）\n  - 2026-03-29 vs 法国（热身赛）：1-3（L）\n\n### 葡萄牙（Portugal，客队）\n- FIFA 排名：第 5 位\n- 晋级之路：欧洲区F组头名直接晋级。\n- 主教练：罗伯托·马丁内斯 (Roberto Martínez)\n- 世界杯历史：第9次参加世界杯，最佳成绩为1966年季军。本届首轮1-1平刚果（金），次轮5-0大胜乌兹别克斯坦，已至少锁定出线资格。\n- 核心球员：\n  - 克里斯蒂亚诺·罗纳尔多 (Cristiano Ronaldo)（前锋（队长），利雅得胜利）\n  - 布鲁诺·费尔南德斯 (Bruno Fernandes)（中场，曼联）\n  - 贝尔纳多·席尔瓦 (Bernardo Silva)（中场/边锋，曼城）\n  - 维蒂尼亚 (Vitinha)（中场，巴黎圣日耳曼）\n  - 鲁本·迪亚斯 (Rúben Dias)（后卫，曼城）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-23 vs 乌兹别克斯坦（世界杯K组第2轮）：5-0（W）\n  - 2026-06-17 vs 刚果民主共和国（世界杯K组第1轮）：1-1（D）\n  - 2026-06-10 vs 尼日利亚（热身赛）：2-1（W）\n  - 2026-06-06 vs 智利（热身赛）：2-1（W）\n  - 2026-03-31 vs 美国（热身赛）：2-0（W）\n\n### 博彩赔率（1X2，十进制）\n- Betfred / talkSPORT：主胜 5 / 平 4.33 / 客胜 1.62（原始分数赔率：哥伦比亚4/1，平10/3，葡萄牙8/13，换算十进制约为5.00 / 4.33 / 1.62。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。K组资料列示两队此前没有成年国家队正式交锋记录。\n\n### 近期新闻\n- [Colombia] 哥伦比亚两连胜已出线：次轮1-0击败刚果（金），穆尼奥斯第76分钟打进制胜球；全场20脚射门、9次射正。（来源：The Guardian）\n- [Portugal] C罗对乌兹别克斯坦梅开二度：葡萄牙5-0大胜后重新掌握出线主动，C罗、努诺·门德斯、莱昂都有进球贡献。（来源：The Guardian / talkSPORT）\n- [Portugal] 鲁本·迪亚斯已回归：赛前阵容信息称葡萄牙暂无重大新增伤情，迪亚斯从伤病中回归。（来源：talkSPORT）\n- [Colombia] 迈阿密球迷环境偏哥伦比亚：迈阿密-戴德县哥伦比亚出生居民超过10万人，现场氛围可能不完全中立。（来源：Axios Miami）\n\n### 小组形势\n- K组两轮后：哥伦比亚6分第一，葡萄牙4分第二，刚果（金）1分第三，乌兹别克斯坦0分第四。哥伦比亚打平即可锁定小组第一；葡萄牙必须赢球才能反超头名。\n\n### 综述\n- K组头名直接对话。葡萄牙纸面更强、状态刚起；哥伦比亚两连胜、防守更稳，并且打平就够。\n\n### 资料来源\n- https://talksport.com/football/4367089/colombia-portugal-world-cup-betting-tips-predictions/\n- https://www.theguardian.com/football/live/2026/jun/24/fifa-world-cup-2026-live-colombia-v-dr-congo-updates-col-vs-cod-group-k-match-score-latest\n- https://www.theguardian.com/football/live/2026/jun/23/portugal-v-uzbekistan-world-cup-2026-live\n- https://www.axios.com/local/miami/2026/06/26/colombia-portugal-hard-rock-miami-world-cup\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K\n\n---\n\n## K组 · 刚果民主共和国 vs 乌兹别克斯坦（match_id: `2026-06-27-COD-UZB`）\n\n- 开球：2026-06-27 19:30（亚特兰大当地时间 EDT）｜北京时间 2026-06-28 07:30（北京时间周日上午）\n- 场地：Atlanta Stadium（Mercedes-Benz Stadium），美国佐治亚州亚特兰大（K组第3轮收官）\n\n### 刚果民主共和国（DR Congo，主队）\n- FIFA 排名：第 56 位\n- 晋级之路：非洲区B组第二，随后通过非洲附加赛和洲际附加赛晋级；2026-03-31加时1-0胜牙买加拿到门票。\n- 主教练：塞巴斯蒂安·德萨布尔 (Sébastien Desabre)\n- 世界杯历史：继1974年后第二次参加世界杯（当时以扎伊尔名义参赛）。本届首轮1-1平葡萄牙，次轮0-1负哥伦比亚。\n- 核心球员：\n  - 约安·维萨 (Yoane Wissa)（前锋，布伦特福德）\n  - 塞德里克·巴坎布 (Cédric Bakambu)（前锋，贝蒂斯）\n  - 尚塞尔·姆本巴 (Chancel Mbemba)（后卫（队长），未指定）\n  - 阿隆·万-比萨卡 (Aaron Wan-Bissaka)（后卫，西汉姆联）\n  - 利昂内尔·姆帕西 (Lionel Mpasi)（门将，未指定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-23 vs 哥伦比亚（世界杯K组第2轮）：0-1（L）\n  - 2026-06-17 vs 葡萄牙（世界杯K组第1轮）：1-1（D）\n  - 2026-06-09 vs 智利（热身赛）：1-2（L）\n  - 2026-06-03 vs 丹麦（热身赛）：0-0（D）\n  - 2026-03-31 vs 牙买加（洲际附加赛）：1-0（W）\n\n### 乌兹别克斯坦（Uzbekistan，客队）\n- FIFA 排名：第 50 位\n- 晋级之路：亚洲区第三阶段A组第二，队史首次进入世界杯。\n- 主教练：法比奥·卡纳瓦罗 (Fabio Cannavaro)\n- 世界杯历史：队史首次参加世界杯；前两轮1-3负哥伦比亚、0-5负葡萄牙，防线压力很大。\n- 核心球员：\n  - 阿卜杜科迪尔·胡萨诺夫 (Abdukodir Khusanov)（后卫，曼城）\n  - 埃尔多尔·绍穆罗多夫 (Eldor Shomurodov)（前锋（队长），伊斯坦布尔）\n  - 阿博斯别克·法伊祖拉耶夫 (Abbosbek Fayzullaev)（攻击中场，伊斯坦布尔）\n  - 贾洛利丁·马沙里波夫 (Jaloliddin Masharipov)（中场，未指定）\n  - 鲁斯塔姆·阿舒尔马托夫 (Rustam Ashurmatov)（后卫，未指定）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-23 vs 葡萄牙（世界杯K组第2轮）：0-5（L）\n  - 2026-06-17 vs 哥伦比亚（世界杯K组第1轮）：1-3（L）\n  - 2026-06-08 vs 荷兰（热身赛）：1-2（L）\n  - 2026-06-02 vs 加拿大（热身赛）：0-2（L）\n  - 2025-06-05 vs 阿联酋（世预赛）：0-0（D）\n\n### 博彩赔率（1X2，十进制）\n- The Sun / NY Post 小组前瞻：主胜 — / 平 — / 客胜 —（未抓到完整本场1X2三项；赛前材料把刚果（金）列为更被看好的一方。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队此前没有成年国家队交锋记录。\n\n### 近期新闻\n- [DR Congo] 刚果（金）仍有争第三机会：一平一负后积1分，本场赢球可到4分，保留较好第三名晋级希望。（来源：The Sun / SB Nation）\n- [DR Congo] 门将姆帕西对哥伦比亚表现抢眼：次轮0-1小负哥伦比亚，姆帕西多次扑救，让比赛悬念维持到最后。（来源：The Guardian）\n- [Uzbekistan] 乌兹别克两连败失8球：次轮0-5负葡萄牙，胡萨诺夫出现乌龙，球队情绪和防守稳定性都受考验。（来源：The Guardian）\n- [Uzbekistan] 法伊祖拉耶夫完成队史世界杯首球：首轮对哥伦比亚打进乌兹别克世界杯历史首球，是球队少数正面信号。（来源：Wikipedia / Guardian）\n\n### 小组形势\n- K组两轮后：哥伦比亚6分，葡萄牙4分，刚果（金）1分，乌兹别克斯坦0分。刚果（金）赢球可到4分争较好第三；乌兹别克斯坦净胜球-7，出线空间极小。\n\n### 综述\n- 刚果（金）对葡萄牙拿过分，防守组织比乌兹别克更稳；乌兹别克斯坦处子秀两连败，可能会更开放，但后场风险也更高。\n\n### 资料来源\n- https://www.thesun.co.uk/sport/39552031/world-cup-2026-live-group-k-table-latest-standings/\n- https://www.sbnation.com/fifa-world-cup/1119534/world-cup-2026-what-are-the-knockout-round-scenarios-in-group-k\n- https://www.theguardian.com/football/live/2026/jun/24/fifa-world-cup-2026-live-colombia-v-dr-congo-updates-col-vs-cod-group-k-match-score-latest\n- https://www.theguardian.com/football/live/2026/jun/23/portugal-v-uzbekistan-world-cup-2026-live\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K\n- https://en.wikipedia.org/wiki/Uzbekistan_at_the_FIFA_World_Cup\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 15 个比赛日、共 64 场比赛中，4 个先期参赛模型的历次预测、实际赛果与所得分数（结算规则：比分完全猜对 5 分 / 仅胜负方向猜对 3 分 / 猜错或未预测 0 分）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 胜负方向命中 | 比分完全命中 |\n|  ---  |  ---  |  ---  |  ---  |\n| Claude Opus 4.8 | 141 | 41/64 | 9/64 |\n| Kimi K2.7 | 133 | 41/64 | 5/64 |\n| Grok 4.3 | 130 | 40/64 | 5/64 |\n| Mistral Medium 3.5 | 116 | 36/64 | 4/64 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（3） | 1-1（0） | 1-0（3） | 1-0（3） |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 0-1（0） | 1-2（0） | 0-1（0） |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 海地 vs 苏格兰 | 0-1 | 0-2（3） | 0-2（3） | 2-0（0） | 1-2（3） |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-2（0） | 0-3（0） |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 德国 vs 库拉索 | 7-1 | 6-0（3） | 4-0（3） | 4-0（3） | 4-0（3） |\n| 荷兰 vs 日本 | 2-2 | 1-1（3） | 1-1（3） | 2-1（0） | 2-1（0） |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（3） | 2-0（3） | 1-0（3） | 1-0（3） |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 3-0（0） |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 2-1（0） |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 0-1（0） |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（3） | 2-1（3） | 2-1（3） |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（3） | 0-3（3） | 0-2（3） | 0-2（3） |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 奥地利 vs 约旦 | 3-1 | 3-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 3-0（0） | 2-0（0） | 2-0（0） |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（3） | 2-1（3） | 2-1（3） | 2-0（3） |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（3） | 0-2（3） | 0-2（3） | 0-2（3） |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-1（0） | 2-0（0） | 2-0（0） |\n| 瑞士 vs 波黑 | 4-1 | 2-1（3） | 1-1（0） | 2-0（3） | 2-1（3） |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 1-1（0） | 2-1（3） | 2-1（3） |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 3-1（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 1-2（3） |\n| 巴西 vs 海地 | 3-0 | 4-0（3） | 4-0（3） | 2-0（3） | 3-0（5） |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-1（0） | 1-0（0） | 2-0（0） |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（3） | 1-2（0） | 3-1（3） | 2-1（3） |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（3） | 4-0（3） | 2-1（5） | 2-0（3） |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 3-0（0） | 2-0（0） |\n| 突尼斯 vs 日本 | 0-4 | 0-2（3） | 0-1（3） | 1-2（3） | 1-2（3） |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（3） | 3-0（3） | 1-0（3） | 2-0（3） |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（3） | 1-1（3） | 2-0（0） |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 2-0（0） | 1-1（3） | 1-0（0） |\n| 新西兰 vs 埃及 | 1-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-1（3） |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（3） | 3-1（3） | 2-1（3） | 2-0（5） |\n| 法国 vs 伊拉克 | 3-0 | 4-0（3） | 5-0（3） | 3-1（3） | 3-0（5） |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（3） | 3-2（5） | 2-1（3） | 2-1（3） |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（3） | 0-1（3） | 1-2（5） | 1-2（5） |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（3） | 3-1（3） | 2-0（3） | 2-1（3） |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 2-0（0） | 3-0（0） | 2-0（0） |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 0-1（5） |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（3） | 2-0（3） | 2-0（3） | 1-0（5） |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 1-2（0） | 0-0（0） | 1-1（0） |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（3） | 1-0（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-2（3） |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（3） | 4-0（3） | 2-0（3） | 3-0（3） |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（3） | 0-1（3） | 0-1（3） | 1-2（3） |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 1-2（0） | 0-1（0） | 1-2（0） |\n\n**2026-06-25**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 库拉索 vs 科特迪瓦 | 0-2 | 0-2（5） | 0-3（3） | 0-1（3） | 0-2（5） |\n| 厄瓜多尔 vs 德国 | 2-1 | 1-2（0） | 0-3（0） | 1-2（0） | 1-1（0） |\n| 日本 vs 瑞典 | 1-1 | 2-1（0） | 1-1（5） | 2-1（0） | 1-1（5） |\n| 突尼斯 vs 荷兰 | 1-3 | 0-3（3） | 0-4（3） | 1-3（5） | 0-3（3） |\n| 土耳其 vs 美国 | 3-2 | 0-2（0） | 1-2（0） | 1-1（0） | 1-2（0） |\n| 巴拉圭 vs 澳大利亚 | 0-0 | 1-1（3） | 1-0（0） | 0-0（5） | 1-1（3） |\n\n**2026-06-26**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 挪威 vs 法国 | 1-4 | 2-3（3） | 1-2（3） | 2-3（3） | 2-2（0） |\n| 塞内加尔 vs 伊拉克 | 5-0 | 3-0（3） | 2-0（3） | 3-1（3） | 2-0（3） |\n| 埃及 vs 伊朗 | 1-1 | 2-0（0） | 2-1（0） | 1-1（5） | 1-1（5） |\n| 新西兰 vs 比利时 | 1-5 | 1-2（3） | 0-2（3） | 1-2（3） | 0-2（3） |\n| 佛得角 vs 沙特阿拉伯 | 0-0 | 2-1（0） | 2-0（0） | 2-1（0） | 1-1（3） |\n| 乌拉圭 vs 西班牙 | 0-1 | 1-2（3） | 1-1（0） | 0-2（3） | 1-2（3） |\n\n<!-- HISTORY-REVIEW-END -->\n"
+  },
+  {
+   "date": "2026-06-28",
+   "matches": [
+    {
+     "id": "2026-06-28-RSA-CAN",
+     "group": "32强 Match 73",
+     "home": {
+      "code": "RSA",
+      "en": "South Africa",
+      "zh": "南非",
+      "flag": "🇿🇦"
+     },
+     "away": {
+      "code": "CAN",
+      "en": "Canada",
+      "zh": "加拿大",
+      "flag": "🇨🇦"
+     },
+     "kickoff_local": "2026-06-28 12:00（洛杉矶当地时间 PDT；英国时间 20:00）",
+     "kickoff_beijing": "2026-06-29 03:00（北京时间周一凌晨）",
+     "venue": "Los Angeles Stadium（SoFi Stadium），美国加州英格尔伍德（32强揭幕战）",
+     "teams": {
+      "South Africa": {
+       "name_zh": "南非",
+       "fifa_ranking": 59,
+       "qualified_via": "非洲区预选赛小组头名直接晋级；小组赛A组第二，1-1平捷克、0-2负墨西哥、1-0胜韩国，以4分晋级32强。",
+       "coach": "雨果·布鲁斯 (Hugo Broos)，比利时籍，强调团队纪律和身体对抗，世界杯后计划退休。",
+       "wc_history": "队史第4次参加世界杯，1998、2002、2010均止步小组赛；本届首次进入世界杯淘汰赛。",
+       "key_players": [
+        {
+         "name": "罗恩文·威廉姆斯 (Ronwen Williams)",
+         "pos": "门将/队长",
+         "club": "马姆罗迪日落"
+        },
+        {
+         "name": "特博霍·莫科埃纳 (Teboho Mokoena)",
+         "pos": "中场",
+         "club": "马姆罗迪日落"
+        },
+        {
+         "name": "亚亚·西托勒 (Yaya Sithole)",
+         "pos": "中场",
+         "club": "未指定"
+        },
+        {
+         "name": "奥布里·莫迪巴 (Aubrey Modiba)",
+         "pos": "后卫/中场",
+         "club": "马姆罗迪日落"
+        },
+        {
+         "name": "雷利沃·莫科埃纳 (Relebohile Mofokeng)",
+         "pos": "边锋",
+         "club": "奥兰多海盗"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-24",
+         "opponent": "韩国（世界杯A组第3轮）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-19",
+         "opponent": "墨西哥（世界杯A组第2轮）",
+         "score": "0-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-13",
+         "opponent": "捷克（世界杯A组第1轮）",
+         "score": "1-1",
+         "result": "D"
+        }
+       ]
+      },
+      "Canada": {
+       "name_zh": "加拿大",
+       "fifa_ranking": 30,
+       "qualified_via": "东道主之一自动晋级；小组赛B组第二，6-0胜卡塔尔、1-1平波黑、1-2负瑞士，以4分晋级32强。",
+       "coach": "杰西·马什 (Jesse Marsch)，美籍，偏高压和快速推进，常用4-4-2/4-2-3-1。",
+       "wc_history": "队史第3次参加世界杯，1986和2022均止步小组赛；本届首次进入世界杯淘汰赛。",
+       "key_players": [
+        {
+         "name": "阿方索·戴维斯 (Alphonso Davies)",
+         "pos": "左后卫/边翼卫/队长",
+         "club": "拜仁慕尼黑"
+        },
+        {
+         "name": "乔纳森·戴维 (Jonathan David)",
+         "pos": "前锋",
+         "club": "尤文图斯"
+        },
+        {
+         "name": "赛尔·拉林 (Cyle Larin)",
+         "pos": "前锋",
+         "club": "马略卡"
+        },
+        {
+         "name": "莫伊塞·邦比托 (Moïse Bombito)",
+         "pos": "中后卫",
+         "club": "尼斯"
+        },
+        {
+         "name": "斯蒂芬·尤斯塔基奥 (Stephen Eustáquio)",
+         "pos": "中场/副队长",
+         "club": "波尔图"
+        },
+        {
+         "name": "塔让·布坎南 (Tajon Buchanan)",
+         "pos": "边锋",
+         "club": "比利亚雷亚尔"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-24",
+         "opponent": "瑞士（世界杯B组第3轮）",
+         "score": "1-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-19",
+         "opponent": "波黑（世界杯B组第2轮）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-13",
+         "opponent": "卡塔尔（世界杯B组第1轮）",
+         "score": "6-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-05",
+         "opponent": "爱尔兰（热身赛）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-01",
+         "opponent": "乌兹别克斯坦（热身赛）",
+         "score": "2-0",
+         "result": "W"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "talkSPORT / BetMGM 赛前推广页",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "公开页未完整列出常规时间1X2三项；赛前稿明确称加拿大是更被看好的一方，主要依据为戴维斯回归、乔纳森·戴维状态和前场配置。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 0,
+      "summary_zh": "未查到两队成年国家队正式大赛交锋记录；这是双方首次在世界杯淘汰赛相遇。"
+     },
+     "news": [
+      {
+       "team": "Canada",
+       "headline_zh": "戴维斯确认回归",
+       "detail_zh": "阿方索·戴维斯在洛杉矶赛前表示，这场32强将是自己本届世界杯复出之战；马什也称他的回归会改变加拿大的上限。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Canada",
+       "headline_zh": "邦比托也回归，科内报销",
+       "detail_zh": "加拿大在淘汰赛迎回戴维斯和邦比托，但中场伊斯梅尔·科内因对卡塔尔时严重腿伤已经整届报销。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Canada",
+       "headline_zh": "尤斯塔基奥状态待评估",
+       "detail_zh": "副队长尤斯塔基奥因肌肉疲劳上一场只替补踢了约30分钟，他能否恢复到首发强度会影响加拿大中场控制。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "South Africa",
+       "headline_zh": "莫科埃纳停赛归来",
+       "detail_zh": "特博霍·莫科埃纳因停赛缺席对韩国一战后，本场预计回到中场，和亚亚·西托勒搭档。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "South Africa",
+       "headline_zh": "布鲁斯把晋级称为成功，但不满足于此",
+       "detail_zh": "布鲁斯赛前说球队已经可以把本届世界杯视作成功，但并不是来踢完就回家；若再进一步会是南非的奇迹。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Both",
+       "headline_zh": "双方都在冲击队史首场世界杯淘汰赛胜利",
+       "detail_zh": "AP确认南非和加拿大都首次进入世界杯淘汰赛，本场胜者也会成为本届第一支进入16强的球队。",
+       "source": "AP / SB Nation"
+      }
+     ],
+     "group_context_zh": "这是2026世界杯32强揭幕战，单场淘汰制；本项目仍预测90分钟常规时间，平局合法。胜者将在16强对阵荷兰与摩洛哥之间的胜者。南非为A组第二，加拿大为B组第二，两队都在争队史首场世界杯淘汰赛胜利。",
+     "summary_zh": "南非靠1-0击败韩国首次闯入世界杯淘汰赛，团队纪律和身体对抗是核心卖点；加拿大虽然刚输给瑞士，但戴维斯和邦比托回归，乔纳森·戴维此前对卡塔尔戴帽，前场火力更有层次。变量在加拿大中场伤病，以及南非能否继续用低位和反击制造压力。",
+     "sources": [
+      "https://www.theguardian.com/football/2026/jun/28/alphonso-davies-returns-canada-world-cup-moment-of-destiny",
+      "https://www.theguardian.com/football/2026/jun/27/hugo-broos-rose-above-south-africas-problems-to-reach-world-cup-last-32",
+      "https://apnews.com/article/world-cup-round-of-32-35a72baeef527fc815952f9b5997eb14",
+      "https://www.sbnation.com/fifa-world-cup/1120327/2026-world-cup-round-of-32-full-list-of-matches-potential-round-of-16-games",
+      "https://www.thesun.co.uk/sport/39572309/world-cup-cristiano-ronaldo-luka-modric-lionel-messi-england/",
+      "https://talksport.com/betting/4368341/world-cup-2026-betmgm-offer-south-africa-vs-canada/"
+     ],
+     "result": {
+      "id": "2026-06-28-RSA-CAN",
+      "score": "0-1",
+      "winner": "away"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-28-RSA-CAN",
+        "winner": "away",
+        "score": "1-2",
+        "confidence": 62,
+        "reasoning_zh": "加拿大整体实力与前场配置占优，戴维斯回归后提升明显，南非纪律性强但单场淘汰难挡客队进攻层次。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-28-RSA-CAN",
+        "winner": "draw",
+        "score": "1-1",
+        "confidence": 60,
+        "reasoning_zh": "加拿大进攻更强，但南非防守纪律性强，鏖战90分钟难分胜负。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-28-RSA-CAN",
+        "winner": "away",
+        "score": "1-2",
+        "confidence": 55,
+        "reasoning_zh": "加拿大整体实力更强，戴维斯与邦比托回归提升上限，戴维前场火力充足；南非靠防守反击有威胁但攻坚乏力，加拿大险胜。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-28-RSA-CAN",
+        "winner": "away",
+        "score": "0-2",
+        "confidence": 65,
+        "reasoning_zh": "加拿大迎回戴维斯与邦比托，防线实力大增；乔纳森·戴维领衔的锋线冲击力强，看好加拿大完胜。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-28-RSA-CAN",
+        "winner": "away",
+        "score": "0-1",
+        "confidence": 58,
+        "reasoning_zh": "加拿大强点回归，南非防守韧性足但进攻受限"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    }
+   ],
+   "settled": true,
+   "day_points": {
+    "x-ai/grok-4.3": 2,
+    "moonshotai/kimi-k2.6": 0,
+    "anthropic/claude-fable-5": 2,
+    "google/gemini-3.5-flash": 2,
+    "sakana/fugu-ultra": 5,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
+   },
+   "prompt": {
+    "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场比赛常规时间（90分钟+补时）的结果；淘汰赛也只预测90分钟，平局合法。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断会出现冷门、平局或非热门球队取胜时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的精确比分。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
+    "user": "以下是 2026-06-28 世界杯 1 场比赛的完整资料文档：\n\n═══════════ 资料文档开始 ═══════════\n# 2026-06-28 世界杯比赛资料文档\n\n本文档汇总了 2026-06-28（比赛日，北美当地时间）FIFA 2026 世界杯全部 1 场32强淘汰赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与赛事形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-06-28-RSA-CAN`：32强 Match 73 南非(South Africa, 主) vs 加拿大(Canada, 客)\n\n---\n\n## 32强 Match 73 · 南非 vs 加拿大（match_id: `2026-06-28-RSA-CAN`）\n\n- 开球：2026-06-28 12:00（洛杉矶当地时间 PDT；英国时间 20:00）｜北京时间 2026-06-29 03:00（北京时间周一凌晨）\n- 场地：Los Angeles Stadium（SoFi Stadium），美国加州英格尔伍德（32强揭幕战）\n\n### 南非（South Africa，主队）\n- FIFA 排名：第 59 位\n- 晋级之路：非洲区预选赛小组头名直接晋级；小组赛A组第二，1-1平捷克、0-2负墨西哥、1-0胜韩国，以4分晋级32强。\n- 主教练：雨果·布鲁斯 (Hugo Broos)，比利时籍，强调团队纪律和身体对抗，世界杯后计划退休。\n- 世界杯历史：队史第4次参加世界杯，1998、2002、2010均止步小组赛；本届首次进入世界杯淘汰赛。\n- 核心球员：\n  - 罗恩文·威廉姆斯 (Ronwen Williams)（门将/队长，马姆罗迪日落）\n  - 特博霍·莫科埃纳 (Teboho Mokoena)（中场，马姆罗迪日落）\n  - 亚亚·西托勒 (Yaya Sithole)（中场，未指定）\n  - 奥布里·莫迪巴 (Aubrey Modiba)（后卫/中场，马姆罗迪日落）\n  - 雷利沃·莫科埃纳 (Relebohile Mofokeng)（边锋，奥兰多海盗）\n- 近 3 场正式比赛（新→旧）：\n  - 2026-06-24 vs 韩国（世界杯A组第3轮）：1-0（W）\n  - 2026-06-19 vs 墨西哥（世界杯A组第2轮）：0-2（L）\n  - 2026-06-13 vs 捷克（世界杯A组第1轮）：1-1（D）\n\n### 加拿大（Canada，客队）\n- FIFA 排名：第 30 位\n- 晋级之路：东道主之一自动晋级；小组赛B组第二，6-0胜卡塔尔、1-1平波黑、1-2负瑞士，以4分晋级32强。\n- 主教练：杰西·马什 (Jesse Marsch)，美籍，偏高压和快速推进，常用4-4-2/4-2-3-1。\n- 世界杯历史：队史第3次参加世界杯，1986和2022均止步小组赛；本届首次进入世界杯淘汰赛。\n- 核心球员：\n  - 阿方索·戴维斯 (Alphonso Davies)（左后卫/边翼卫/队长，拜仁慕尼黑）\n  - 乔纳森·戴维 (Jonathan David)（前锋，尤文图斯）\n  - 赛尔·拉林 (Cyle Larin)（前锋，马略卡）\n  - 莫伊塞·邦比托 (Moïse Bombito)（中后卫，尼斯）\n  - 斯蒂芬·尤斯塔基奥 (Stephen Eustáquio)（中场/副队长，波尔图）\n  - 塔让·布坎南 (Tajon Buchanan)（边锋，比利亚雷亚尔）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-24 vs 瑞士（世界杯B组第3轮）：1-2（L）\n  - 2026-06-19 vs 波黑（世界杯B组第2轮）：1-1（D）\n  - 2026-06-13 vs 卡塔尔（世界杯B组第1轮）：6-0（W）\n  - 2026-06-05 vs 爱尔兰（热身赛）：1-1（D）\n  - 2026-06-01 vs 乌兹别克斯坦（热身赛）：2-0（W）\n\n### 博彩赔率（1X2，十进制）\n- talkSPORT / BetMGM 赛前推广页：主胜 — / 平 — / 客胜 —（公开页未完整列出常规时间1X2三项；赛前稿明确称加拿大是更被看好的一方，主要依据为戴维斯回归、乔纳森·戴维状态和前场配置。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。未查到两队成年国家队正式大赛交锋记录；这是双方首次在世界杯淘汰赛相遇。\n\n### 近期新闻\n- [Canada] 戴维斯确认回归：阿方索·戴维斯在洛杉矶赛前表示，这场32强将是自己本届世界杯复出之战；马什也称他的回归会改变加拿大的上限。（来源：The Guardian）\n- [Canada] 邦比托也回归，科内报销：加拿大在淘汰赛迎回戴维斯和邦比托，但中场伊斯梅尔·科内因对卡塔尔时严重腿伤已经整届报销。（来源：The Guardian）\n- [Canada] 尤斯塔基奥状态待评估：副队长尤斯塔基奥因肌肉疲劳上一场只替补踢了约30分钟，他能否恢复到首发强度会影响加拿大中场控制。（来源：The Guardian）\n- [South Africa] 莫科埃纳停赛归来：特博霍·莫科埃纳因停赛缺席对韩国一战后，本场预计回到中场，和亚亚·西托勒搭档。（来源：The Guardian）\n- [South Africa] 布鲁斯把晋级称为成功，但不满足于此：布鲁斯赛前说球队已经可以把本届世界杯视作成功，但并不是来踢完就回家；若再进一步会是南非的奇迹。（来源：The Guardian）\n- [Both] 双方都在冲击队史首场世界杯淘汰赛胜利：AP确认南非和加拿大都首次进入世界杯淘汰赛，本场胜者也会成为本届第一支进入16强的球队。（来源：AP / SB Nation）\n\n### 赛事形势\n- 这是2026世界杯32强揭幕战，单场淘汰制；本项目仍预测90分钟常规时间，平局合法。胜者将在16强对阵荷兰与摩洛哥之间的胜者。南非为A组第二，加拿大为B组第二，两队都在争队史首场世界杯淘汰赛胜利。\n\n### 综述\n- 南非靠1-0击败韩国首次闯入世界杯淘汰赛，团队纪律和身体对抗是核心卖点；加拿大虽然刚输给瑞士，但戴维斯和邦比托回归，乔纳森·戴维此前对卡塔尔戴帽，前场火力更有层次。变量在加拿大中场伤病，以及南非能否继续用低位和反击制造压力。\n\n### 资料来源\n- https://www.theguardian.com/football/2026/jun/28/alphonso-davies-returns-canada-world-cup-moment-of-destiny\n- https://www.theguardian.com/football/2026/jun/27/hugo-broos-rose-above-south-africas-problems-to-reach-world-cup-last-32\n- https://apnews.com/article/world-cup-round-of-32-35a72baeef527fc815952f9b5997eb14\n- https://www.sbnation.com/fifa-world-cup/1120327/2026-world-cup-round-of-32-full-list-of-matches-potential-round-of-16-games\n- https://www.thesun.co.uk/sport/39572309/world-cup-cristiano-ronaldo-luka-modric-lionel-messi-england/\n- https://talksport.com/betting/4368341/world-cup-2026-betmgm-offer-south-africa-vs-canada/\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 16 个比赛日、共 70 场比赛中，4 个先期参赛模型的历次预测、实际赛果与所得分数（结算规则：比分完全猜对 5 分 / 仅胜负方向猜对 3 分 / 猜错或未预测 0 分）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 胜负方向命中 | 比分完全命中 |\n|  ---  |  ---  |  ---  |  ---  |\n| Claude Opus 4.8 | 161 | 47/70 | 10/70 |\n| Kimi K2.7 | 150 | 46/70 | 6/70 |\n| Grok 4.3 | 147 | 45/70 | 6/70 |\n| Mistral Medium 3.5 | 130 | 40/70 | 5/70 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（3） | 1-1（0） | 1-0（3） | 1-0（3） |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 0-1（0） | 1-2（0） | 0-1（0） |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 海地 vs 苏格兰 | 0-1 | 0-2（3） | 0-2（3） | 2-0（0） | 1-2（3） |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-2（0） | 0-3（0） |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 德国 vs 库拉索 | 7-1 | 6-0（3） | 4-0（3） | 4-0（3） | 4-0（3） |\n| 荷兰 vs 日本 | 2-2 | 1-1（3） | 1-1（3） | 2-1（0） | 2-1（0） |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（3） | 2-0（3） | 1-0（3） | 1-0（3） |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 3-0（0） |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 2-1（0） |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 0-1（0） |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（3） | 2-1（3） | 2-1（3） |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（3） | 0-3（3） | 0-2（3） | 0-2（3） |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 奥地利 vs 约旦 | 3-1 | 3-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 3-0（0） | 2-0（0） | 2-0（0） |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（3） | 2-1（3） | 2-1（3） | 2-0（3） |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（3） | 0-2（3） | 0-2（3） | 0-2（3） |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-1（0） | 2-0（0） | 2-0（0） |\n| 瑞士 vs 波黑 | 4-1 | 2-1（3） | 1-1（0） | 2-0（3） | 2-1（3） |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 1-1（0） | 2-1（3） | 2-1（3） |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 3-1（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 1-2（3） |\n| 巴西 vs 海地 | 3-0 | 4-0（3） | 4-0（3） | 2-0（3） | 3-0（5） |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-1（0） | 1-0（0） | 2-0（0） |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（3） | 1-2（0） | 3-1（3） | 2-1（3） |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（3） | 4-0（3） | 2-1（5） | 2-0（3） |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 3-0（0） | 2-0（0） |\n| 突尼斯 vs 日本 | 0-4 | 0-2（3） | 0-1（3） | 1-2（3） | 1-2（3） |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（3） | 3-0（3） | 1-0（3） | 2-0（3） |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（3） | 1-1（3） | 2-0（0） |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 2-0（0） | 1-1（3） | 1-0（0） |\n| 新西兰 vs 埃及 | 1-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-1（3） |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（3） | 3-1（3） | 2-1（3） | 2-0（5） |\n| 法国 vs 伊拉克 | 3-0 | 4-0（3） | 5-0（3） | 3-1（3） | 3-0（5） |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（3） | 3-2（5） | 2-1（3） | 2-1（3） |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（3） | 0-1（3） | 1-2（5） | 1-2（5） |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（3） | 3-1（3） | 2-0（3） | 2-1（3） |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 2-0（0） | 3-0（0） | 2-0（0） |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 0-1（5） |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（3） | 2-0（3） | 2-0（3） | 1-0（5） |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 1-2（0） | 0-0（0） | 1-1（0） |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（3） | 1-0（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-2（3） |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（3） | 4-0（3） | 2-0（3） | 3-0（3） |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（3） | 0-1（3） | 0-1（3） | 1-2（3） |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 1-2（0） | 0-1（0） | 1-2（0） |\n\n**2026-06-25**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 库拉索 vs 科特迪瓦 | 0-2 | 0-2（5） | 0-3（3） | 0-1（3） | 0-2（5） |\n| 厄瓜多尔 vs 德国 | 2-1 | 1-2（0） | 0-3（0） | 1-2（0） | 1-1（0） |\n| 日本 vs 瑞典 | 1-1 | 2-1（0） | 1-1（5） | 2-1（0） | 1-1（5） |\n| 突尼斯 vs 荷兰 | 1-3 | 0-3（3） | 0-4（3） | 1-3（5） | 0-3（3） |\n| 土耳其 vs 美国 | 3-2 | 0-2（0） | 1-2（0） | 1-1（0） | 1-2（0） |\n| 巴拉圭 vs 澳大利亚 | 0-0 | 1-1（3） | 1-0（0） | 0-0（5） | 1-1（3） |\n\n**2026-06-26**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 挪威 vs 法国 | 1-4 | 2-3（3） | 1-2（3） | 2-3（3） | 2-2（0） |\n| 塞内加尔 vs 伊拉克 | 5-0 | 3-0（3） | 2-0（3） | 3-1（3） | 2-0（3） |\n| 埃及 vs 伊朗 | 1-1 | 2-0（0） | 2-1（0） | 1-1（5） | 1-1（5） |\n| 新西兰 vs 比利时 | 1-5 | 1-2（3） | 0-2（3） | 1-2（3） | 0-2（3） |\n| 佛得角 vs 沙特阿拉伯 | 0-0 | 2-1（0） | 2-0（0） | 2-1（0） | 1-1（3） |\n| 乌拉圭 vs 西班牙 | 0-1 | 1-2（3） | 1-1（0） | 0-2（3） | 1-2（3） |\n\n**2026-06-27**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 巴拿马 vs 英格兰 | 0-2 | 0-3（3） | 0-2（5） | 0-2（5） | 0-2（5） |\n| 克罗地亚 vs 加纳 | 2-1 | 2-1（5） | 0-0（0） | 1-1（0） | 1-0（3） |\n| 阿尔及利亚 vs 奥地利 | 3-3 | 0-0（3） | 0-1（0） | 1-1（3） | 1-1（3） |\n| 约旦 vs 阿根廷 | 1-3 | 0-3（3） | 0-3（3） | 0-2（3） | 0-2（3） |\n| 哥伦比亚 vs 葡萄牙 | 0-0 | 1-2（0） | 2-2（3） | 1-1（3） | 1-1（3） |\n| 刚果民主共和国 vs 乌兹别克斯坦 | 3-1 | 2-0（3） | 1-0（3） | 2-1（3） | 2-1（3） |\n\n<!-- HISTORY-REVIEW-END -->\n\n═══════════ 资料文档结束 ═══════════\n\n文档末尾附有各模型（包括你自己）历次预测与实际赛果的对照战绩，请在预测前先复盘这些记录，再给出你独立的判断。\n\n请预测每场比赛常规时间的结果，严格按以下 JSON 数组格式输出，不要输出任何其他文字，不要用 markdown 代码块包裹：\n[{\"match_id\": \"...\", \"winner\": \"home\" 或 \"away\" 或 \"draw\", \"score\": \"主队进球-客队进球（如 2-1）\", \"confidence\": 1到100的整数, \"reasoning_zh\": \"50字以内中文理由\"}]\n\nmatch_id 必须逐一使用以下 ID（共 1 场，每场恰好一条预测）：\n2026-06-28-RSA-CAN"
+   },
+   "generated_at": "2026-06-28T07:15:39.381Z",
+   "model_runs": {
+    "x-ai/grok-4.3": {
+     "status": "ok",
+     "latency_s": 4,
+     "via": "openrouter",
+     "error": null
+    },
+    "mistralai/mistral-medium-3-5": {
+     "status": "ok",
+     "latency_s": 2,
+     "via": "openrouter",
+     "error": null
+    },
+    "moonshotai/kimi-k2.6": {
+     "status": "ok",
+     "latency_s": 349,
+     "via": "openrouter",
+     "error": null
+    },
+    "anthropic/claude-fable-5": {
+     "status": "ok",
+     "latency_s": 4,
+     "via": "openrouter",
+     "error": null
+    },
+    "qwen/qwen3.7-max": {
+     "status": "ok",
+     "latency_s": 28,
+     "via": "openrouter",
+     "error": null
+    },
+    "google/gemini-3.5-flash": {
+     "status": "ok",
+     "latency_s": 7,
+     "via": "openrouter",
+     "error": null
+    },
+    "sakana/fugu-ultra": {
+     "status": "ok",
+     "latency_s": 66,
+     "via": "openrouter",
+     "error": null
+    },
+    "bytedance/doubao-seed-2.0-pro": {
+     "status": "ok",
+     "latency_s": 30,
+     "via": "volcengine",
+     "error": null
+    }
+   },
+   "context_md": "# 2026-06-28 世界杯比赛资料文档\n\n本文档汇总了 2026-06-28（比赛日，北美当地时间）FIFA 2026 世界杯全部 1 场32强淘汰赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与赛事形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-06-28-RSA-CAN`：32强 Match 73 南非(South Africa, 主) vs 加拿大(Canada, 客)\n\n---\n\n## 32强 Match 73 · 南非 vs 加拿大（match_id: `2026-06-28-RSA-CAN`）\n\n- 开球：2026-06-28 12:00（洛杉矶当地时间 PDT；英国时间 20:00）｜北京时间 2026-06-29 03:00（北京时间周一凌晨）\n- 场地：Los Angeles Stadium（SoFi Stadium），美国加州英格尔伍德（32强揭幕战）\n\n### 南非（South Africa，主队）\n- FIFA 排名：第 59 位\n- 晋级之路：非洲区预选赛小组头名直接晋级；小组赛A组第二，1-1平捷克、0-2负墨西哥、1-0胜韩国，以4分晋级32强。\n- 主教练：雨果·布鲁斯 (Hugo Broos)，比利时籍，强调团队纪律和身体对抗，世界杯后计划退休。\n- 世界杯历史：队史第4次参加世界杯，1998、2002、2010均止步小组赛；本届首次进入世界杯淘汰赛。\n- 核心球员：\n  - 罗恩文·威廉姆斯 (Ronwen Williams)（门将/队长，马姆罗迪日落）\n  - 特博霍·莫科埃纳 (Teboho Mokoena)（中场，马姆罗迪日落）\n  - 亚亚·西托勒 (Yaya Sithole)（中场，未指定）\n  - 奥布里·莫迪巴 (Aubrey Modiba)（后卫/中场，马姆罗迪日落）\n  - 雷利沃·莫科埃纳 (Relebohile Mofokeng)（边锋，奥兰多海盗）\n- 近 3 场正式比赛（新→旧）：\n  - 2026-06-24 vs 韩国（世界杯A组第3轮）：1-0（W）\n  - 2026-06-19 vs 墨西哥（世界杯A组第2轮）：0-2（L）\n  - 2026-06-13 vs 捷克（世界杯A组第1轮）：1-1（D）\n\n### 加拿大（Canada，客队）\n- FIFA 排名：第 30 位\n- 晋级之路：东道主之一自动晋级；小组赛B组第二，6-0胜卡塔尔、1-1平波黑、1-2负瑞士，以4分晋级32强。\n- 主教练：杰西·马什 (Jesse Marsch)，美籍，偏高压和快速推进，常用4-4-2/4-2-3-1。\n- 世界杯历史：队史第3次参加世界杯，1986和2022均止步小组赛；本届首次进入世界杯淘汰赛。\n- 核心球员：\n  - 阿方索·戴维斯 (Alphonso Davies)（左后卫/边翼卫/队长，拜仁慕尼黑）\n  - 乔纳森·戴维 (Jonathan David)（前锋，尤文图斯）\n  - 赛尔·拉林 (Cyle Larin)（前锋，马略卡）\n  - 莫伊塞·邦比托 (Moïse Bombito)（中后卫，尼斯）\n  - 斯蒂芬·尤斯塔基奥 (Stephen Eustáquio)（中场/副队长，波尔图）\n  - 塔让·布坎南 (Tajon Buchanan)（边锋，比利亚雷亚尔）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-24 vs 瑞士（世界杯B组第3轮）：1-2（L）\n  - 2026-06-19 vs 波黑（世界杯B组第2轮）：1-1（D）\n  - 2026-06-13 vs 卡塔尔（世界杯B组第1轮）：6-0（W）\n  - 2026-06-05 vs 爱尔兰（热身赛）：1-1（D）\n  - 2026-06-01 vs 乌兹别克斯坦（热身赛）：2-0（W）\n\n### 博彩赔率（1X2，十进制）\n- talkSPORT / BetMGM 赛前推广页：主胜 — / 平 — / 客胜 —（公开页未完整列出常规时间1X2三项；赛前稿明确称加拿大是更被看好的一方，主要依据为戴维斯回归、乔纳森·戴维状态和前场配置。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。未查到两队成年国家队正式大赛交锋记录；这是双方首次在世界杯淘汰赛相遇。\n\n### 近期新闻\n- [Canada] 戴维斯确认回归：阿方索·戴维斯在洛杉矶赛前表示，这场32强将是自己本届世界杯复出之战；马什也称他的回归会改变加拿大的上限。（来源：The Guardian）\n- [Canada] 邦比托也回归，科内报销：加拿大在淘汰赛迎回戴维斯和邦比托，但中场伊斯梅尔·科内因对卡塔尔时严重腿伤已经整届报销。（来源：The Guardian）\n- [Canada] 尤斯塔基奥状态待评估：副队长尤斯塔基奥因肌肉疲劳上一场只替补踢了约30分钟，他能否恢复到首发强度会影响加拿大中场控制。（来源：The Guardian）\n- [South Africa] 莫科埃纳停赛归来：特博霍·莫科埃纳因停赛缺席对韩国一战后，本场预计回到中场，和亚亚·西托勒搭档。（来源：The Guardian）\n- [South Africa] 布鲁斯把晋级称为成功，但不满足于此：布鲁斯赛前说球队已经可以把本届世界杯视作成功，但并不是来踢完就回家；若再进一步会是南非的奇迹。（来源：The Guardian）\n- [Both] 双方都在冲击队史首场世界杯淘汰赛胜利：AP确认南非和加拿大都首次进入世界杯淘汰赛，本场胜者也会成为本届第一支进入16强的球队。（来源：AP / SB Nation）\n\n### 赛事形势\n- 这是2026世界杯32强揭幕战，单场淘汰制；本项目仍预测90分钟常规时间，平局合法。胜者将在16强对阵荷兰与摩洛哥之间的胜者。南非为A组第二，加拿大为B组第二，两队都在争队史首场世界杯淘汰赛胜利。\n\n### 综述\n- 南非靠1-0击败韩国首次闯入世界杯淘汰赛，团队纪律和身体对抗是核心卖点；加拿大虽然刚输给瑞士，但戴维斯和邦比托回归，乔纳森·戴维此前对卡塔尔戴帽，前场火力更有层次。变量在加拿大中场伤病，以及南非能否继续用低位和反击制造压力。\n\n### 资料来源\n- https://www.theguardian.com/football/2026/jun/28/alphonso-davies-returns-canada-world-cup-moment-of-destiny\n- https://www.theguardian.com/football/2026/jun/27/hugo-broos-rose-above-south-africas-problems-to-reach-world-cup-last-32\n- https://apnews.com/article/world-cup-round-of-32-35a72baeef527fc815952f9b5997eb14\n- https://www.sbnation.com/fifa-world-cup/1120327/2026-world-cup-round-of-32-full-list-of-matches-potential-round-of-16-games\n- https://www.thesun.co.uk/sport/39572309/world-cup-cristiano-ronaldo-luka-modric-lionel-messi-england/\n- https://talksport.com/betting/4368341/world-cup-2026-betmgm-offer-south-africa-vs-canada/\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 16 个比赛日、共 70 场比赛中，4 个先期参赛模型的历次预测、实际赛果与所得分数（结算规则：比分完全猜对 5 分 / 仅胜负方向猜对 3 分 / 猜错或未预测 0 分）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 胜负方向命中 | 比分完全命中 |\n|  ---  |  ---  |  ---  |  ---  |\n| Claude Opus 4.8 | 161 | 47/70 | 10/70 |\n| Kimi K2.7 | 150 | 46/70 | 6/70 |\n| Grok 4.3 | 147 | 45/70 | 6/70 |\n| Mistral Medium 3.5 | 130 | 40/70 | 5/70 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（3） | 1-1（0） | 1-0（3） | 1-0（3） |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 0-1（0） | 1-2（0） | 0-1（0） |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 海地 vs 苏格兰 | 0-1 | 0-2（3） | 0-2（3） | 2-0（0） | 1-2（3） |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-2（0） | 0-3（0） |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 德国 vs 库拉索 | 7-1 | 6-0（3） | 4-0（3） | 4-0（3） | 4-0（3） |\n| 荷兰 vs 日本 | 2-2 | 1-1（3） | 1-1（3） | 2-1（0） | 2-1（0） |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（3） | 2-0（3） | 1-0（3） | 1-0（3） |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 3-0（0） |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 2-1（0） |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 0-1（0） |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（3） | 2-1（3） | 2-1（3） |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（3） | 0-3（3） | 0-2（3） | 0-2（3） |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 奥地利 vs 约旦 | 3-1 | 3-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 3-0（0） | 2-0（0） | 2-0（0） |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（3） | 2-1（3） | 2-1（3） | 2-0（3） |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（3） | 0-2（3） | 0-2（3） | 0-2（3） |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-1（0） | 2-0（0） | 2-0（0） |\n| 瑞士 vs 波黑 | 4-1 | 2-1（3） | 1-1（0） | 2-0（3） | 2-1（3） |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 1-1（0） | 2-1（3） | 2-1（3） |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 3-1（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 1-2（3） |\n| 巴西 vs 海地 | 3-0 | 4-0（3） | 4-0（3） | 2-0（3） | 3-0（5） |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-1（0） | 1-0（0） | 2-0（0） |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（3） | 1-2（0） | 3-1（3） | 2-1（3） |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（3） | 4-0（3） | 2-1（5） | 2-0（3） |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 3-0（0） | 2-0（0） |\n| 突尼斯 vs 日本 | 0-4 | 0-2（3） | 0-1（3） | 1-2（3） | 1-2（3） |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（3） | 3-0（3） | 1-0（3） | 2-0（3） |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（3） | 1-1（3） | 2-0（0） |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 2-0（0） | 1-1（3） | 1-0（0） |\n| 新西兰 vs 埃及 | 1-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-1（3） |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（3） | 3-1（3） | 2-1（3） | 2-0（5） |\n| 法国 vs 伊拉克 | 3-0 | 4-0（3） | 5-0（3） | 3-1（3） | 3-0（5） |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（3） | 3-2（5） | 2-1（3） | 2-1（3） |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（3） | 0-1（3） | 1-2（5） | 1-2（5） |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（3） | 3-1（3） | 2-0（3） | 2-1（3） |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 2-0（0） | 3-0（0） | 2-0（0） |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 0-1（5） |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（3） | 2-0（3） | 2-0（3） | 1-0（5） |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 1-2（0） | 0-0（0） | 1-1（0） |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（3） | 1-0（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-2（3） |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（3） | 4-0（3） | 2-0（3） | 3-0（3） |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（3） | 0-1（3） | 0-1（3） | 1-2（3） |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 1-2（0） | 0-1（0） | 1-2（0） |\n\n**2026-06-25**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 库拉索 vs 科特迪瓦 | 0-2 | 0-2（5） | 0-3（3） | 0-1（3） | 0-2（5） |\n| 厄瓜多尔 vs 德国 | 2-1 | 1-2（0） | 0-3（0） | 1-2（0） | 1-1（0） |\n| 日本 vs 瑞典 | 1-1 | 2-1（0） | 1-1（5） | 2-1（0） | 1-1（5） |\n| 突尼斯 vs 荷兰 | 1-3 | 0-3（3） | 0-4（3） | 1-3（5） | 0-3（3） |\n| 土耳其 vs 美国 | 3-2 | 0-2（0） | 1-2（0） | 1-1（0） | 1-2（0） |\n| 巴拉圭 vs 澳大利亚 | 0-0 | 1-1（3） | 1-0（0） | 0-0（5） | 1-1（3） |\n\n**2026-06-26**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 挪威 vs 法国 | 1-4 | 2-3（3） | 1-2（3） | 2-3（3） | 2-2（0） |\n| 塞内加尔 vs 伊拉克 | 5-0 | 3-0（3） | 2-0（3） | 3-1（3） | 2-0（3） |\n| 埃及 vs 伊朗 | 1-1 | 2-0（0） | 2-1（0） | 1-1（5） | 1-1（5） |\n| 新西兰 vs 比利时 | 1-5 | 1-2（3） | 0-2（3） | 1-2（3） | 0-2（3） |\n| 佛得角 vs 沙特阿拉伯 | 0-0 | 2-1（0） | 2-0（0） | 2-1（0） | 1-1（3） |\n| 乌拉圭 vs 西班牙 | 0-1 | 1-2（3） | 1-1（0） | 0-2（3） | 1-2（3） |\n\n**2026-06-27**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 巴拿马 vs 英格兰 | 0-2 | 0-3（3） | 0-2（5） | 0-2（5） | 0-2（5） |\n| 克罗地亚 vs 加纳 | 2-1 | 2-1（5） | 0-0（0） | 1-1（0） | 1-0（3） |\n| 阿尔及利亚 vs 奥地利 | 3-3 | 0-0（3） | 0-1（0） | 1-1（3） | 1-1（3） |\n| 约旦 vs 阿根廷 | 1-3 | 0-3（3） | 0-3（3） | 0-2（3） | 0-2（3） |\n| 哥伦比亚 vs 葡萄牙 | 0-0 | 1-2（0） | 2-2（3） | 1-1（3） | 1-1（3） |\n| 刚果民主共和国 vs 乌兹别克斯坦 | 3-1 | 2-0（3） | 1-0（3） | 2-1（3） | 2-1（3） |\n\n<!-- HISTORY-REVIEW-END -->\n"
+  },
+  {
+   "date": "2026-06-29",
+   "matches": [
+    {
+     "id": "2026-06-29-BRA-JPN",
+     "group": "32强 Match 74",
+     "home": {
+      "code": "BRA",
+      "en": "Brazil",
+      "zh": "巴西",
+      "flag": "🇧🇷"
+     },
+     "away": {
+      "code": "JPN",
+      "en": "Japan",
+      "zh": "日本",
+      "flag": "🇯🇵"
+     },
+     "kickoff_local": "2026-06-29 12:00（休斯敦当地时间 CDT；美东 13:00）",
+     "kickoff_beijing": "2026-06-30 01:00（北京时间周二凌晨）",
+     "venue": "Houston Stadium（NRG/Reliant Stadium），美国德州休斯敦",
+     "teams": {
+      "Brazil": {
+       "name_zh": "巴西",
+       "fifa_ranking": 6,
+       "qualified_via": "南美区预选赛第5名直接晋级；小组赛C组第一，1-1平摩洛哥、3-0胜海地、3-0胜苏格兰，2胜1平积7分、7进1失。",
+       "coach": "卡洛·安切洛蒂 (Carlo Ancelotti)",
+       "wc_history": "五届世界杯冠军，史上唯一全勤球队；本届在安切洛蒂执教下冲击第六冠。",
+       "key_players": [
+        {
+         "name": "Vinicius Junior 维尼修斯",
+         "pos": "左边锋",
+         "club": "皇家马德里"
+        },
+        {
+         "name": "Matheus Cunha 马特乌斯·库尼亚",
+         "pos": "前锋/攻击手",
+         "club": "曼联"
+        },
+        {
+         "name": "Neymar 内马尔",
+         "pos": "前锋/攻击手",
+         "club": "桑托斯"
+        },
+        {
+         "name": "Alisson 阿利松",
+         "pos": "门将",
+         "club": "利物浦"
+        },
+        {
+         "name": "Marquinhos 马尔基尼奥斯",
+         "pos": "中后卫/队长",
+         "club": "巴黎圣日耳曼"
+        },
+        {
+         "name": "Gabriel Magalhães 加布里埃尔",
+         "pos": "中后卫",
+         "club": "阿森纳"
+        },
+        {
+         "name": "Casemiro 卡塞米罗",
+         "pos": "后腰",
+         "club": "曼联"
+        },
+        {
+         "name": "Bruno Guimarães 布鲁诺·吉马良斯",
+         "pos": "中场",
+         "club": "纽卡斯尔联"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-24",
+         "opponent": "苏格兰（世界杯C组第3轮）",
+         "score": "3-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-19",
+         "opponent": "海地（世界杯C组第2轮）",
+         "score": "3-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-13",
+         "opponent": "摩洛哥（世界杯C组第1轮）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "埃及（友谊赛）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-05-31",
+         "opponent": "巴拿马（友谊赛）",
+         "score": "6-2",
+         "result": "W"
+        }
+       ]
+      },
+      "Japan": {
+       "name_zh": "日本",
+       "fifa_ranking": 18,
+       "qualified_via": "亚洲区第三阶段C组头名，2025-03-20提前锁定世界杯席位；小组赛F组第二，2-2平荷兰、4-0胜突尼斯、1-1平瑞典，1胜2平积5分。",
+       "coach": "森保一 (Hajime Moriyasu)",
+       "wc_history": "连续第8次参加世界杯，多次进入16强，但队史尚未赢过世界杯淘汰赛。",
+       "key_players": [
+        {
+         "name": "Zion Suzuki 铃木彩艳",
+         "pos": "门将",
+         "club": "帕尔马"
+        },
+        {
+         "name": "Hiroki Ito 伊藤洋辉",
+         "pos": "后卫",
+         "club": "拜仁慕尼黑"
+        },
+        {
+         "name": "Takehiro Tomiyasu 富安健洋",
+         "pos": "后卫",
+         "club": "阿森纳"
+        },
+        {
+         "name": "Daichi Kamada 镰田大地",
+         "pos": "中场/前腰",
+         "club": "水晶宫"
+        },
+        {
+         "name": "Ritsu Doan 堂安律",
+         "pos": "攻击中场",
+         "club": "弗赖堡"
+        },
+        {
+         "name": "Ayase Ueda 上田绮世",
+         "pos": "前锋",
+         "club": "费耶诺德"
+        },
+        {
+         "name": "Takefusa Kubo 久保建英",
+         "pos": "攻击手",
+         "club": "皇家社会"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-25",
+         "opponent": "瑞典（世界杯F组第3轮）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-20",
+         "opponent": "突尼斯（世界杯F组第2轮）",
+         "score": "4-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-14",
+         "opponent": "荷兰（世界杯F组第1轮）",
+         "score": "2-2",
+         "result": "D"
+        },
+        {
+         "date": "2026-05-31",
+         "opponent": "冰岛（友谊赛）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "英格兰（友谊赛）",
+         "score": "1-0",
+         "result": "W"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "NY Post / Kalshi 赛前市场快照",
+       "home_win": 1.71,
+       "draw": null,
+       "away_win": 5.3,
+       "note": "home=巴西；页面显示巴西 -140、日本 +430，未完整列出平局价格。本项目淘汰赛预测最终晋级方，同时给出90分钟比分。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 14,
+      "summary_zh": "巴西历史交锋长期占优；最近一次交手为2025年10月友谊赛，日本3-2逆转巴西，取得队史首次战胜巴西。该场巴西缺少阿利松、马尔基尼奥斯、加布里埃尔、拉菲尼亚等主力，参考价值需打折。"
+     },
+     "news": [
+      {
+       "team": "Brazil",
+       "headline_zh": "安切洛蒂倾向延续主体阵容",
+       "detail_zh": "休斯敦赛前报道显示安切洛蒂不打算大幅调整，对苏格兰一战的主体框架预计继续使用。",
+       "source": "Houston Chronicle / The Times"
+      },
+      {
+       "team": "Brazil",
+       "headline_zh": "维尼修斯小组赛连续破门",
+       "detail_zh": "维尼修斯小组赛3场打入4球，是巴西最明确的前场破局点；库尼亚近两场首发并贡献3球。",
+       "source": "Houston Chronicle / FIFA group data"
+      },
+      {
+       "team": "Brazil",
+       "headline_zh": "拉菲尼亚缺席休斯敦之行",
+       "detail_zh": "拉菲尼亚仍在从肌肉伤中恢复，赛前消息称他没有随队前往休斯敦；内马尔已替补复出，出场时间取决于比赛走势。",
+       "source": "The Times / Houston Chronicle"
+      },
+      {
+       "team": "Japan",
+       "headline_zh": "久保建英确认缺席",
+       "detail_zh": "久保建英左膝伤未恢复，确认无缘对巴西；若日本晋级，才可能在下一轮回归。",
+       "source": "The Times / Houston Chronicle"
+      },
+      {
+       "team": "Japan",
+       "headline_zh": "日本面对强队韧性充足",
+       "detail_zh": "日本小组赛2-2平荷兰、1-1平瑞典，铃木彩艳门线表现突出，镰田大地和上田绮世均已打入2球。",
+       "source": "FIFA group data / Houston Chronicle"
+      }
+     ],
+     "group_context_zh": "这是C组第一对F组第二的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵美国与埃及之间的胜者。巴西连续两个3-0后攻击线升温，日本则凭对荷兰和瑞典的不败表现证明抗压能力。",
+     "summary_zh": "巴西纸面实力、淘汰赛经验和前场个人能力占优，维尼修斯状态正热，安切洛蒂也倾向保持稳定；但拉菲尼亚缺阵削弱右路变化。日本没有久保建英，创造力受损，不过整体纪律、门将状态和快速转换仍能制造麻烦。90分钟关键在巴西能否尽早打开局面；若久攻不下，日本有能力把比赛拖成低比分，并把晋级悬念带进加时或点球。",
+     "sources": [
+      "https://api.fifa.com/api/v3/calendar/id/400021516",
+      "https://api.fifa.com/api/v3/calendar/17/285023/289273/Standing?count=200",
+      "https://www.houstonchronicle.com/world-cup/article/brazil-japan-world-cup-preview-houston-22324184.php",
+      "https://www.thetimes.com/sport/football/world-cup/article/world-cup-2026-latest-news-live-scores-team-updates-day-18-ft279cnt6",
+      "https://nypost.com/2026/06/28/betting/kalshi-promo-code-nypmax-trade-10-get-15-for-japan-vs-brazil/"
+     ],
+     "result": {
+      "id": "2026-06-29-BRA-JPN",
+      "score": "2-1",
+      "winner": "home"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-29-BRA-JPN",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 78,
+        "reasoning_zh": "巴西攻击线状态火热，日本核心缺阵，实力差距明显"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-29-BRA-JPN",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 85,
+        "reasoning_zh": "巴西锋线火热且防守稳固，日本缺少久保创造力受损，看好巴西90分钟取胜。"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-29-BRA-JPN",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 70,
+        "reasoning_zh": "巴西攻击线火热，维尼修斯状态正佳。日本缺久保创造力受损，难破巴西防线，巴西90分钟拿下。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-29-BRA-JPN",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 75,
+        "reasoning_zh": "久保建英缺阵削弱日本反击，铃木彩艳虽神勇，但巴西终能凭个人能力小胜晋级。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-29-BRA-JPN",
+        "winner": "home",
+        "score": "3-1",
+        "confidence": 70,
+        "reasoning_zh": "巴西前场火力强，维尼修斯状态正热，日本缺久保创造力受损但能进球，巴西取胜。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-29-GER-PAR",
+     "group": "32强 Match 77",
+     "home": {
+      "code": "GER",
+      "en": "Germany",
+      "zh": "德国",
+      "flag": "🇩🇪"
+     },
+     "away": {
+      "code": "PAR",
+      "en": "Paraguay",
+      "zh": "巴拉圭",
+      "flag": "🇵🇾"
+     },
+     "kickoff_local": "2026-06-29 16:30（福克斯伯勒当地时间 EDT）",
+     "kickoff_beijing": "2026-06-30 04:30（北京时间周二凌晨）",
+     "venue": "Boston Stadium（Gillette Stadium），美国马萨诸塞州福克斯伯勒",
+     "teams": {
+      "Germany": {
+       "name_zh": "德国",
+       "fifa_ranking": 10,
+       "qualified_via": "欧洲区A组头名直接晋级；小组赛E组第一，7-1胜库拉索、2-1胜科特迪瓦、1-2负厄瓜多尔，2胜1负积6分。",
+       "coach": "尤利安·纳格尔斯曼 (Julian Nagelsmann)",
+       "wc_history": "四届世界杯冠军；2018和2022连续两届小组出局，本届已重返淘汰赛。",
+       "key_players": [
+        {
+         "name": "Jamal Musiala 穆西亚拉",
+         "pos": "攻击中场/边锋",
+         "club": "拜仁慕尼黑"
+        },
+        {
+         "name": "Florian Wirtz 维尔茨",
+         "pos": "攻击中场",
+         "club": "利物浦"
+        },
+        {
+         "name": "Kai Havertz 哈弗茨",
+         "pos": "前锋/前腰",
+         "club": "阿森纳"
+        },
+        {
+         "name": "Joshua Kimmich 基米希",
+         "pos": "中场/右后卫/队长",
+         "club": "拜仁慕尼黑"
+        },
+        {
+         "name": "Manuel Neuer 诺伊尔",
+         "pos": "门将",
+         "club": "拜仁慕尼黑"
+        },
+        {
+         "name": "Antonio Rüdiger 吕迪格",
+         "pos": "中后卫",
+         "club": "皇家马德里"
+        },
+        {
+         "name": "Jonathan Tah 塔",
+         "pos": "中后卫",
+         "club": "拜仁慕尼黑"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-25",
+         "opponent": "厄瓜多尔（世界杯E组第3轮）",
+         "score": "1-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-20",
+         "opponent": "科特迪瓦（世界杯E组第2轮）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-14",
+         "opponent": "库拉索（世界杯E组第1轮）",
+         "score": "7-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "美国（友谊赛）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-05-31",
+         "opponent": "芬兰（友谊赛）",
+         "score": "4-0",
+         "result": "W"
+        }
+       ]
+      },
+      "Paraguay": {
+       "name_zh": "巴拉圭",
+       "fifa_ranking": 39,
+       "qualified_via": "南美区预选赛第6名直接晋级；小组赛D组第三，1-4负美国、1-0胜土耳其、0-0平澳大利亚，4分以最佳第三名身份晋级。",
+       "coach": "古斯塔沃·阿尔法罗 (Gustavo Alfaro)",
+       "wc_history": "第9次参加世界杯，最佳战绩为2010年八强；传统特点是低位防守、身体对抗和反击。",
+       "key_players": [
+        {
+         "name": "Julio Enciso 恩西索",
+         "pos": "前锋/攻击型中场",
+         "club": "斯特拉斯堡"
+        },
+        {
+         "name": "Miguel Almirón 阿尔米隆",
+         "pos": "边锋/进攻手",
+         "club": "亚特兰大联"
+        },
+        {
+         "name": "Gustavo Gómez 古斯塔沃·戈麦斯",
+         "pos": "中后卫/队长",
+         "club": "帕尔梅拉斯"
+        },
+        {
+         "name": "Diego Gómez 迭戈·戈麦斯",
+         "pos": "中场",
+         "club": "布莱顿"
+        },
+        {
+         "name": "Matías Galarza 加拉尔萨",
+         "pos": "中场",
+         "club": "河床"
+        },
+        {
+         "name": "Antonio Sanabria 萨纳夫里亚",
+         "pos": "中锋",
+         "club": "克雷莫纳"
+        },
+        {
+         "name": "Omar Alderete 阿尔德雷特",
+         "pos": "中后卫",
+         "club": "赫塔费"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-25",
+         "opponent": "澳大利亚（世界杯D组第3轮）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-19",
+         "opponent": "土耳其（世界杯D组第2轮）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-12",
+         "opponent": "美国（世界杯D组第1轮）",
+         "score": "1-4",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-05",
+         "opponent": "尼加拉瓜（友谊赛）",
+         "score": "4-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "摩洛哥（友谊赛）",
+         "score": "1-2",
+         "result": "L"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "Bavarian Football Works 赛前页",
+       "home_win": 1.36,
+       "draw": 5,
+       "away_win": 8,
+       "note": "home=德国；原始价格德国 -280、平 +400、巴拉圭 +700。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 3,
+      "summary_zh": "两队世界杯淘汰赛曾在2002年16强交手，德国1-0击败巴拉圭，诺伊维尔末段制胜。历史交锋德国总体占优。"
+     },
+     "news": [
+      {
+       "team": "Germany",
+       "headline_zh": "末轮输球带来警讯",
+       "detail_zh": "德国前两场火力很强，但末轮1-2负厄瓜多尔暴露节奏、门将和防线稳定性问题。",
+       "source": "Bavarian Football Works"
+      },
+      {
+       "team": "Germany",
+       "headline_zh": "施洛特贝克缺阵",
+       "detail_zh": "尼科·施洛特贝克脚踝伤缺席，纳撒尼尔·布朗内收肌问题存疑；马利克·蒂奥可能进入首发讨论。",
+       "source": "Bavarian Football Works"
+      },
+      {
+       "team": "Germany",
+       "headline_zh": "纳格尔斯曼仍有阵容选择题",
+       "detail_zh": "基米希的位置、帕夫洛维奇是否轮出、劳姆与布朗的边路选择，是德国赛前主要变量。",
+       "source": "Bavarian Football Works"
+      },
+      {
+       "team": "Paraguay",
+       "headline_zh": "连续两场零封反弹",
+       "detail_zh": "巴拉圭首战1-4负美国后，1-0土耳其、0-0澳大利亚，靠防守反弹拿到4分晋级。",
+       "source": "SB Nation / FIFA group data"
+      },
+      {
+       "team": "Paraguay",
+       "headline_zh": "阿尔德雷特出场存疑",
+       "detail_zh": "中卫奥马尔·阿尔德雷特对澳大利亚时膝部受伤，AS称其能否出战德国仍待最终医学通报。",
+       "source": "AS"
+      },
+      {
+       "team": "Paraguay",
+       "headline_zh": "阿尔米隆回归提升转换",
+       "detail_zh": "阿尔米隆因对土耳其的红牌缺席澳大利亚战，本场若没有追加影响，能提升巴拉圭反击速度。",
+       "source": "Bavarian Football Works / The Guardian"
+      }
+     ],
+     "group_context_zh": "这是E组第一对最佳第三名的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵法国与瑞典之间的胜者。德国纸面优势明显，巴拉圭合理剧本是低位防守、拖慢节奏、依靠恩西索、阿尔米隆和定位球制造少量机会。",
+     "summary_zh": "德国是今天方向最明确的热门之一，前两轮攻击火力充足，但末轮输给厄瓜多尔让稳定性打了折扣，施洛特贝克缺阵也影响防线轮换。巴拉圭进攻产量有限，却连续两场零封，淘汰赛有把比赛拖慢的能力。90分钟关键在德国能否早进球；若拖到下半场，巴拉圭把比赛带进加时或点球的空间会上升。",
+     "sources": [
+      "https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32",
+      "https://www.bavarianfootballworks.com/fifa-world-cup/222631/world-cup-matchday-preview-germany-vs-paraguay",
+      "https://www.bavarianfootballworks.com/germany-international-soccer/222053/official-germany-to-face-paraguay-in-world-cup-round-of-32",
+      "https://www.fourfourtwo.com/team/paraguay-world-cup-2026-squad",
+      "https://as.com/futbol/mundial/alderete-pone-en-jaque-a-paraguay-f202606-n/"
+     ],
+     "result": {
+      "id": "2026-06-29-GER-PAR",
+      "score": "1-1",
+      "winner": "away"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-29-GER-PAR",
+        "winner": "home",
+        "score": "3-0",
+        "confidence": 82,
+        "reasoning_zh": "德国纸面碾压，巴拉圭防守反击难破门"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-29-GER-PAR",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 88,
+        "reasoning_zh": "德国硬实力占优但防线有隐忧，巴拉圭防守顽强，德国小胜晋级。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-29-GER-PAR",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 72,
+        "reasoning_zh": "德国前场穆西亚拉维尔茨实力压制，巴拉圭防守为主。德国早进球后掌控比赛，90分钟内取胜。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-29-GER-PAR",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 85,
+        "reasoning_zh": "巴拉圭虽防守坚韧，但主卫阿尔德雷特出战存疑，德国前场群星闪耀，淘汰赛重回正轨。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-29-GER-PAR",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 68,
+        "reasoning_zh": "德国攻击力足但防线不稳，巴拉圭低位反击可能进球，德国仍以实力取胜晋级。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-29-NED-MAR",
+     "group": "32强 Match 75",
+     "home": {
+      "code": "NED",
+      "en": "Netherlands",
+      "zh": "荷兰",
+      "flag": "🇳🇱"
+     },
+     "away": {
+      "code": "MAR",
+      "en": "Morocco",
+      "zh": "摩洛哥",
+      "flag": "🇲🇦"
+     },
+     "kickoff_local": "2026-06-29 19:00（蒙特雷/瓜达卢佩当地时间 UTC-6；美东 21:00）",
+     "kickoff_beijing": "2026-06-30 09:00（北京时间周二上午）",
+     "venue": "Monterrey Stadium（Estadio BBVA），墨西哥新莱昂州瓜达卢佩",
+     "teams": {
+      "Netherlands": {
+       "name_zh": "荷兰",
+       "fifa_ranking": 8,
+       "qualified_via": "欧洲区G组头名直接晋级；小组赛F组第一，2-2平日本、5-1胜瑞典、3-1胜突尼斯，2胜1平积7分、10进4失。",
+       "coach": "罗纳德·科曼 (Ronald Koeman)",
+       "wc_history": "三次世界杯亚军，2014年季军，2022年止步八强；本届继续追求队史首冠。",
+       "key_players": [
+        {
+         "name": "Virgil van Dijk 范戴克",
+         "pos": "中后卫/队长",
+         "club": "利物浦"
+        },
+        {
+         "name": "Frenkie de Jong 弗朗基·德容",
+         "pos": "中场",
+         "club": "巴塞罗那"
+        },
+        {
+         "name": "Cody Gakpo 加克波",
+         "pos": "边锋/前锋",
+         "club": "利物浦"
+        },
+        {
+         "name": "Brian Brobbey 布罗比",
+         "pos": "中锋",
+         "club": "阿贾克斯"
+        },
+        {
+         "name": "Denzel Dumfries 邓弗里斯",
+         "pos": "右后卫/翼卫",
+         "club": "皇家马德里"
+        },
+        {
+         "name": "Bart Verbruggen 费布鲁亨",
+         "pos": "门将",
+         "club": "布莱顿"
+        },
+        {
+         "name": "Tijjani Reijnders 赖因德斯",
+         "pos": "中场",
+         "club": "曼城"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-25",
+         "opponent": "突尼斯（世界杯F组第3轮）",
+         "score": "3-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-20",
+         "opponent": "瑞典（世界杯F组第2轮）",
+         "score": "5-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-14",
+         "opponent": "日本（世界杯F组第1轮）",
+         "score": "2-2",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-08",
+         "opponent": "乌兹别克斯坦（友谊赛）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-03",
+         "opponent": "阿尔及利亚（友谊赛）",
+         "score": "0-1",
+         "result": "L"
+        }
+       ]
+      },
+      "Morocco": {
+       "name_zh": "摩洛哥",
+       "fifa_ranking": 7,
+       "qualified_via": "非洲区E组头名，8战全胜晋级；小组赛C组第二，1-1平巴西、1-0胜苏格兰、4-2胜海地，2胜1平积7分，因净胜球落后巴西列第二。",
+       "coach": "穆罕默德·瓦赫比 (Mohamed Ouahbi)",
+       "wc_history": "2022年打进四强，创造非洲球队世界杯最佳战绩；本届继续以强转换和防守纪律为基础。",
+       "key_players": [
+        {
+         "name": "Achraf Hakimi 阿什拉夫·哈基米",
+         "pos": "右后卫/队长",
+         "club": "巴黎圣日耳曼"
+        },
+        {
+         "name": "Brahim Díaz 布拉欣·迪亚斯",
+         "pos": "攻击中场/边锋",
+         "club": "皇家马德里"
+        },
+        {
+         "name": "Ismael Saibari 伊斯梅尔·塞巴里",
+         "pos": "中场/攻击手",
+         "club": "埃因霍温"
+        },
+        {
+         "name": "Yassine Bounou 布努",
+         "pos": "门将",
+         "club": "利雅得新月"
+        },
+        {
+         "name": "Ayyoub Bouaddi 阿尤布·布阿迪",
+         "pos": "中场",
+         "club": "里尔"
+        },
+        {
+         "name": "Noussair Mazraoui 马兹拉维",
+         "pos": "边后卫",
+         "club": "曼联"
+        },
+        {
+         "name": "Sofyan Amrabat 阿姆拉巴特",
+         "pos": "后腰",
+         "club": "皇家贝蒂斯"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-24",
+         "opponent": "海地（世界杯C组第3轮）",
+         "score": "4-2",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-19",
+         "opponent": "苏格兰（世界杯C组第2轮）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-13",
+         "opponent": "巴西（世界杯C组第1轮）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-07",
+         "opponent": "挪威（友谊赛）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-02",
+         "opponent": "马达加斯加（友谊赛）",
+         "score": "3-0",
+         "result": "W"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "NY Post / FanDuel Predicts 赛前市场快照",
+       "home_win": 2.15,
+       "draw": null,
+       "away_win": 3.9,
+       "note": "home=荷兰；页面显示荷兰约 +115、摩洛哥约 +290，未完整列出平局价格。本项目淘汰赛预测最终晋级方，同时给出90分钟比分。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 3,
+      "summary_zh": "世界杯层面两队曾在1994年小组赛交手，荷兰2-1击败摩洛哥。本场是双方32年后再次在世界杯相遇。"
+     },
+     "news": [
+      {
+       "team": "Netherlands",
+       "headline_zh": "荷兰小组赛火力最亮",
+       "detail_zh": "荷兰三场小组赛打进10球，5-1击败瑞典、3-1击败突尼斯，布罗比、加克波和邓弗里斯状态突出。",
+       "source": "FIFA group data / The Guardian"
+      },
+      {
+       "team": "Netherlands",
+       "headline_zh": "对日本暴露防线波动",
+       "detail_zh": "荷兰首战2-2日本，显示球队在领先或比赛后段仍会被快速冲击打穿。",
+       "source": "FIFA group data"
+      },
+      {
+       "team": "Morocco",
+       "headline_zh": "摩洛哥排名升至队史高位",
+       "detail_zh": "2026年6月FIFA排名中，摩洛哥升至第7，反超荷兰的第8。",
+       "source": "FIFA world ranking"
+      },
+      {
+       "team": "Morocco",
+       "headline_zh": "布阿迪成为本届亮点",
+       "detail_zh": "Guardian赛前特写称18岁中场阿尤布·布阿迪是摩洛哥本届亮点之一，球队延续强转换和中场硬度。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Both",
+       "headline_zh": "两队主框架稳定",
+       "detail_zh": "公开赛前资料未见明确新增停赛；两队末轮都保留了较完整主力框架。",
+       "source": "FIFA group data / The Guardian"
+      }
+     ],
+     "group_context_zh": "这是F组第一对C组第二的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵加拿大。两队小组赛同为7分不败：荷兰10个进球火力更亮，摩洛哥对巴西1-1证明抗强队能力。",
+     "summary_zh": "这是今天最接近的一场。荷兰进攻输出最亮，前场多点开花，但防线在对日本时暴露过后段波动。摩洛哥排名高过荷兰，防守纪律、转换速度和淘汰赛经验都很适合拉低节奏。90分钟关键在荷兰能否早进球；如果打不开，摩洛哥有很强的加时或点球晋级空间。",
+     "sources": [
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C",
+      "https://inside.fifa.com/news/argentina-reclaim-top-spot-mens-world-ranking-fifa-coca-cola",
+      "https://www.theguardian.com/football/2026/jun/28/street-football-on-world-stage-morocco-and-netherlands-face-off-in-last-32-game-with-a-backstory",
+      "https://nypost.com/2026/06/28/betting/fanduel-predicts-promo-code-make-any-trade-and-get-25-bonus-for-morocco-vs-netherlands/"
+     ],
+     "result": {
+      "id": "2026-06-29-NED-MAR",
+      "score": "1-1",
+      "winner": "away"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-29-NED-MAR",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 65,
+        "reasoning_zh": "荷兰进攻火力更猛，主场占优，摩洛哥难全身而退"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-29-NED-MAR",
+        "winner": "away",
+        "score": "1-1",
+        "confidence": 55,
+        "reasoning_zh": "荷兰攻强守弱，摩洛哥转换犀利且大赛韧性强，90分钟平局后摩洛哥点球晋级。"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-29-NED-MAR",
+        "winner": "away",
+        "score": "1-1",
+        "confidence": 52,
+        "reasoning_zh": "最接近一场。摩洛哥排名更高、防守纪律强、淘汰赛经验足，荷兰后段易被冲击，预计点球淘汰荷兰。"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-29-NED-MAR",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 65,
+        "reasoning_zh": "荷兰进攻火力极其凶猛，加克波等人状态正佳，摩洛哥防守虽强也难挡橙衣军团攻势。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-29-NED-MAR",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 55,
+        "reasoning_zh": "荷兰进攻最亮多点开花，摩洛哥防守反击制造威胁，荷兰主场略占优势险胜。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "absent",
+       "pred": null,
+       "settled": {
+        "points": 0,
+        "verdict": "miss",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    }
+   ],
+   "settled": true,
+   "day_points": {
+    "x-ai/grok-4.3": 2,
+    "moonshotai/kimi-k2.6": 10,
+    "anthropic/claude-fable-5": 7,
+    "google/gemini-3.5-flash": 2,
+    "sakana/fugu-ultra": 2,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
+   },
+   "prompt": {
+    "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场淘汰赛的最终晋级方/最终获胜方，以及90分钟（含补时、不含加时和点球大战）的比分；90分钟比分可以是平局，但最终晋级方不能是平局，必须在主队或客队中选择一方。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断非热门球队会通过90分钟、加时或点球晋级时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的90分钟精确比分，并给出最终晋级方向。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
+    "user": "以下是 2026-06-29 世界杯 3 场比赛的完整资料文档：\n\n═══════════ 资料文档开始 ═══════════\n# 2026-06-29 世界杯比赛资料文档\n\n本文档汇总了 2026-06-29（比赛日，北美当地时间）FIFA 2026 世界杯全部 3 场32强淘汰赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与赛事形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-06-29-BRA-JPN`：32强 Match 74 巴西(Brazil, 主) vs 日本(Japan, 客)\n- `2026-06-29-GER-PAR`：32强 Match 77 德国(Germany, 主) vs 巴拉圭(Paraguay, 客)\n- `2026-06-29-NED-MAR`：32强 Match 75 荷兰(Netherlands, 主) vs 摩洛哥(Morocco, 客)\n\n---\n\n## 32强 Match 74 · 巴西 vs 日本（match_id: `2026-06-29-BRA-JPN`）\n\n- 开球：2026-06-29 12:00（休斯敦当地时间 CDT；美东 13:00）｜北京时间 2026-06-30 01:00（北京时间周二凌晨）\n- 场地：Houston Stadium（NRG/Reliant Stadium），美国德州休斯敦\n\n### 巴西（Brazil，主队）\n- FIFA 排名：第 6 位\n- 晋级之路：南美区预选赛第5名直接晋级；小组赛C组第一，1-1平摩洛哥、3-0胜海地、3-0胜苏格兰，2胜1平积7分、7进1失。\n- 主教练：卡洛·安切洛蒂 (Carlo Ancelotti)\n- 世界杯历史：五届世界杯冠军，史上唯一全勤球队；本届在安切洛蒂执教下冲击第六冠。\n- 核心球员：\n  - Vinicius Junior 维尼修斯（左边锋，皇家马德里）\n  - Matheus Cunha 马特乌斯·库尼亚（前锋/攻击手，曼联）\n  - Neymar 内马尔（前锋/攻击手，桑托斯）\n  - Alisson 阿利松（门将，利物浦）\n  - Marquinhos 马尔基尼奥斯（中后卫/队长，巴黎圣日耳曼）\n  - Gabriel Magalhães 加布里埃尔（中后卫，阿森纳）\n  - Casemiro 卡塞米罗（后腰，曼联）\n  - Bruno Guimarães 布鲁诺·吉马良斯（中场，纽卡斯尔联）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-24 vs 苏格兰（世界杯C组第3轮）：3-0（W）\n  - 2026-06-19 vs 海地（世界杯C组第2轮）：3-0（W）\n  - 2026-06-13 vs 摩洛哥（世界杯C组第1轮）：1-1（D）\n  - 2026-06-06 vs 埃及（友谊赛）：2-1（W）\n  - 2026-05-31 vs 巴拿马（友谊赛）：6-2（W）\n\n### 日本（Japan，客队）\n- FIFA 排名：第 18 位\n- 晋级之路：亚洲区第三阶段C组头名，2025-03-20提前锁定世界杯席位；小组赛F组第二，2-2平荷兰、4-0胜突尼斯、1-1平瑞典，1胜2平积5分。\n- 主教练：森保一 (Hajime Moriyasu)\n- 世界杯历史：连续第8次参加世界杯，多次进入16强，但队史尚未赢过世界杯淘汰赛。\n- 核心球员：\n  - Zion Suzuki 铃木彩艳（门将，帕尔马）\n  - Hiroki Ito 伊藤洋辉（后卫，拜仁慕尼黑）\n  - Takehiro Tomiyasu 富安健洋（后卫，阿森纳）\n  - Daichi Kamada 镰田大地（中场/前腰，水晶宫）\n  - Ritsu Doan 堂安律（攻击中场，弗赖堡）\n  - Ayase Ueda 上田绮世（前锋，费耶诺德）\n  - Takefusa Kubo 久保建英（攻击手，皇家社会）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-25 vs 瑞典（世界杯F组第3轮）：1-1（D）\n  - 2026-06-20 vs 突尼斯（世界杯F组第2轮）：4-0（W）\n  - 2026-06-14 vs 荷兰（世界杯F组第1轮）：2-2（D）\n  - 2026-05-31 vs 冰岛（友谊赛）：1-0（W）\n  - 2026-03-31 vs 英格兰（友谊赛）：1-0（W）\n\n### 博彩赔率（1X2，十进制）\n- NY Post / Kalshi 赛前市场快照：主胜 1.71 / 平 — / 客胜 5.3（home=巴西；页面显示巴西 -140、日本 +430，未完整列出平局价格。本项目淘汰赛预测最终晋级方，同时给出90分钟比分。）\n\n### 历史交锋（H2H）\n- 共交手 14 次。巴西历史交锋长期占优；最近一次交手为2025年10月友谊赛，日本3-2逆转巴西，取得队史首次战胜巴西。该场巴西缺少阿利松、马尔基尼奥斯、加布里埃尔、拉菲尼亚等主力，参考价值需打折。\n\n### 近期新闻\n- [Brazil] 安切洛蒂倾向延续主体阵容：休斯敦赛前报道显示安切洛蒂不打算大幅调整，对苏格兰一战的主体框架预计继续使用。（来源：Houston Chronicle / The Times）\n- [Brazil] 维尼修斯小组赛连续破门：维尼修斯小组赛3场打入4球，是巴西最明确的前场破局点；库尼亚近两场首发并贡献3球。（来源：Houston Chronicle / FIFA group data）\n- [Brazil] 拉菲尼亚缺席休斯敦之行：拉菲尼亚仍在从肌肉伤中恢复，赛前消息称他没有随队前往休斯敦；内马尔已替补复出，出场时间取决于比赛走势。（来源：The Times / Houston Chronicle）\n- [Japan] 久保建英确认缺席：久保建英左膝伤未恢复，确认无缘对巴西；若日本晋级，才可能在下一轮回归。（来源：The Times / Houston Chronicle）\n- [Japan] 日本面对强队韧性充足：日本小组赛2-2平荷兰、1-1平瑞典，铃木彩艳门线表现突出，镰田大地和上田绮世均已打入2球。（来源：FIFA group data / Houston Chronicle）\n\n### 赛事形势\n- 这是C组第一对F组第二的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵美国与埃及之间的胜者。巴西连续两个3-0后攻击线升温，日本则凭对荷兰和瑞典的不败表现证明抗压能力。\n\n### 综述\n- 巴西纸面实力、淘汰赛经验和前场个人能力占优，维尼修斯状态正热，安切洛蒂也倾向保持稳定；但拉菲尼亚缺阵削弱右路变化。日本没有久保建英，创造力受损，不过整体纪律、门将状态和快速转换仍能制造麻烦。90分钟关键在巴西能否尽早打开局面；若久攻不下，日本有能力把比赛拖成低比分，并把晋级悬念带进加时或点球。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/id/400021516\n- https://api.fifa.com/api/v3/calendar/17/285023/289273/Standing?count=200\n- https://www.houstonchronicle.com/world-cup/article/brazil-japan-world-cup-preview-houston-22324184.php\n- https://www.thetimes.com/sport/football/world-cup/article/world-cup-2026-latest-news-live-scores-team-updates-day-18-ft279cnt6\n- https://nypost.com/2026/06/28/betting/kalshi-promo-code-nypmax-trade-10-get-15-for-japan-vs-brazil/\n\n---\n\n## 32强 Match 77 · 德国 vs 巴拉圭（match_id: `2026-06-29-GER-PAR`）\n\n- 开球：2026-06-29 16:30（福克斯伯勒当地时间 EDT）｜北京时间 2026-06-30 04:30（北京时间周二凌晨）\n- 场地：Boston Stadium（Gillette Stadium），美国马萨诸塞州福克斯伯勒\n\n### 德国（Germany，主队）\n- FIFA 排名：第 10 位\n- 晋级之路：欧洲区A组头名直接晋级；小组赛E组第一，7-1胜库拉索、2-1胜科特迪瓦、1-2负厄瓜多尔，2胜1负积6分。\n- 主教练：尤利安·纳格尔斯曼 (Julian Nagelsmann)\n- 世界杯历史：四届世界杯冠军；2018和2022连续两届小组出局，本届已重返淘汰赛。\n- 核心球员：\n  - Jamal Musiala 穆西亚拉（攻击中场/边锋，拜仁慕尼黑）\n  - Florian Wirtz 维尔茨（攻击中场，利物浦）\n  - Kai Havertz 哈弗茨（前锋/前腰，阿森纳）\n  - Joshua Kimmich 基米希（中场/右后卫/队长，拜仁慕尼黑）\n  - Manuel Neuer 诺伊尔（门将，拜仁慕尼黑）\n  - Antonio Rüdiger 吕迪格（中后卫，皇家马德里）\n  - Jonathan Tah 塔（中后卫，拜仁慕尼黑）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-25 vs 厄瓜多尔（世界杯E组第3轮）：1-2（L）\n  - 2026-06-20 vs 科特迪瓦（世界杯E组第2轮）：2-1（W）\n  - 2026-06-14 vs 库拉索（世界杯E组第1轮）：7-1（W）\n  - 2026-06-06 vs 美国（友谊赛）：2-1（W）\n  - 2026-05-31 vs 芬兰（友谊赛）：4-0（W）\n\n### 巴拉圭（Paraguay，客队）\n- FIFA 排名：第 39 位\n- 晋级之路：南美区预选赛第6名直接晋级；小组赛D组第三，1-4负美国、1-0胜土耳其、0-0平澳大利亚，4分以最佳第三名身份晋级。\n- 主教练：古斯塔沃·阿尔法罗 (Gustavo Alfaro)\n- 世界杯历史：第9次参加世界杯，最佳战绩为2010年八强；传统特点是低位防守、身体对抗和反击。\n- 核心球员：\n  - Julio Enciso 恩西索（前锋/攻击型中场，斯特拉斯堡）\n  - Miguel Almirón 阿尔米隆（边锋/进攻手，亚特兰大联）\n  - Gustavo Gómez 古斯塔沃·戈麦斯（中后卫/队长，帕尔梅拉斯）\n  - Diego Gómez 迭戈·戈麦斯（中场，布莱顿）\n  - Matías Galarza 加拉尔萨（中场，河床）\n  - Antonio Sanabria 萨纳夫里亚（中锋，克雷莫纳）\n  - Omar Alderete 阿尔德雷特（中后卫，赫塔费）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-25 vs 澳大利亚（世界杯D组第3轮）：0-0（D）\n  - 2026-06-19 vs 土耳其（世界杯D组第2轮）：1-0（W）\n  - 2026-06-12 vs 美国（世界杯D组第1轮）：1-4（L）\n  - 2026-06-05 vs 尼加拉瓜（友谊赛）：4-0（W）\n  - 2026-03-31 vs 摩洛哥（友谊赛）：1-2（L）\n\n### 博彩赔率（1X2，十进制）\n- Bavarian Football Works 赛前页：主胜 1.36 / 平 5 / 客胜 8（home=德国；原始价格德国 -280、平 +400、巴拉圭 +700。）\n\n### 历史交锋（H2H）\n- 共交手 3 次。两队世界杯淘汰赛曾在2002年16强交手，德国1-0击败巴拉圭，诺伊维尔末段制胜。历史交锋德国总体占优。\n\n### 近期新闻\n- [Germany] 末轮输球带来警讯：德国前两场火力很强，但末轮1-2负厄瓜多尔暴露节奏、门将和防线稳定性问题。（来源：Bavarian Football Works）\n- [Germany] 施洛特贝克缺阵：尼科·施洛特贝克脚踝伤缺席，纳撒尼尔·布朗内收肌问题存疑；马利克·蒂奥可能进入首发讨论。（来源：Bavarian Football Works）\n- [Germany] 纳格尔斯曼仍有阵容选择题：基米希的位置、帕夫洛维奇是否轮出、劳姆与布朗的边路选择，是德国赛前主要变量。（来源：Bavarian Football Works）\n- [Paraguay] 连续两场零封反弹：巴拉圭首战1-4负美国后，1-0土耳其、0-0澳大利亚，靠防守反弹拿到4分晋级。（来源：SB Nation / FIFA group data）\n- [Paraguay] 阿尔德雷特出场存疑：中卫奥马尔·阿尔德雷特对澳大利亚时膝部受伤，AS称其能否出战德国仍待最终医学通报。（来源：AS）\n- [Paraguay] 阿尔米隆回归提升转换：阿尔米隆因对土耳其的红牌缺席澳大利亚战，本场若没有追加影响，能提升巴拉圭反击速度。（来源：Bavarian Football Works / The Guardian）\n\n### 赛事形势\n- 这是E组第一对最佳第三名的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵法国与瑞典之间的胜者。德国纸面优势明显，巴拉圭合理剧本是低位防守、拖慢节奏、依靠恩西索、阿尔米隆和定位球制造少量机会。\n\n### 综述\n- 德国是今天方向最明确的热门之一，前两轮攻击火力充足，但末轮输给厄瓜多尔让稳定性打了折扣，施洛特贝克缺阵也影响防线轮换。巴拉圭进攻产量有限，却连续两场零封，淘汰赛有把比赛拖慢的能力。90分钟关键在德国能否早进球；若拖到下半场，巴拉圭把比赛带进加时或点球的空间会上升。\n\n### 资料来源\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- https://www.bavarianfootballworks.com/fifa-world-cup/222631/world-cup-matchday-preview-germany-vs-paraguay\n- https://www.bavarianfootballworks.com/germany-international-soccer/222053/official-germany-to-face-paraguay-in-world-cup-round-of-32\n- https://www.fourfourtwo.com/team/paraguay-world-cup-2026-squad\n- https://as.com/futbol/mundial/alderete-pone-en-jaque-a-paraguay-f202606-n/\n\n---\n\n## 32强 Match 75 · 荷兰 vs 摩洛哥（match_id: `2026-06-29-NED-MAR`）\n\n- 开球：2026-06-29 19:00（蒙特雷/瓜达卢佩当地时间 UTC-6；美东 21:00）｜北京时间 2026-06-30 09:00（北京时间周二上午）\n- 场地：Monterrey Stadium（Estadio BBVA），墨西哥新莱昂州瓜达卢佩\n\n### 荷兰（Netherlands，主队）\n- FIFA 排名：第 8 位\n- 晋级之路：欧洲区G组头名直接晋级；小组赛F组第一，2-2平日本、5-1胜瑞典、3-1胜突尼斯，2胜1平积7分、10进4失。\n- 主教练：罗纳德·科曼 (Ronald Koeman)\n- 世界杯历史：三次世界杯亚军，2014年季军，2022年止步八强；本届继续追求队史首冠。\n- 核心球员：\n  - Virgil van Dijk 范戴克（中后卫/队长，利物浦）\n  - Frenkie de Jong 弗朗基·德容（中场，巴塞罗那）\n  - Cody Gakpo 加克波（边锋/前锋，利物浦）\n  - Brian Brobbey 布罗比（中锋，阿贾克斯）\n  - Denzel Dumfries 邓弗里斯（右后卫/翼卫，皇家马德里）\n  - Bart Verbruggen 费布鲁亨（门将，布莱顿）\n  - Tijjani Reijnders 赖因德斯（中场，曼城）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-25 vs 突尼斯（世界杯F组第3轮）：3-1（W）\n  - 2026-06-20 vs 瑞典（世界杯F组第2轮）：5-1（W）\n  - 2026-06-14 vs 日本（世界杯F组第1轮）：2-2（D）\n  - 2026-06-08 vs 乌兹别克斯坦（友谊赛）：2-1（W）\n  - 2026-06-03 vs 阿尔及利亚（友谊赛）：0-1（L）\n\n### 摩洛哥（Morocco，客队）\n- FIFA 排名：第 7 位\n- 晋级之路：非洲区E组头名，8战全胜晋级；小组赛C组第二，1-1平巴西、1-0胜苏格兰、4-2胜海地，2胜1平积7分，因净胜球落后巴西列第二。\n- 主教练：穆罕默德·瓦赫比 (Mohamed Ouahbi)\n- 世界杯历史：2022年打进四强，创造非洲球队世界杯最佳战绩；本届继续以强转换和防守纪律为基础。\n- 核心球员：\n  - Achraf Hakimi 阿什拉夫·哈基米（右后卫/队长，巴黎圣日耳曼）\n  - Brahim Díaz 布拉欣·迪亚斯（攻击中场/边锋，皇家马德里）\n  - Ismael Saibari 伊斯梅尔·塞巴里（中场/攻击手，埃因霍温）\n  - Yassine Bounou 布努（门将，利雅得新月）\n  - Ayyoub Bouaddi 阿尤布·布阿迪（中场，里尔）\n  - Noussair Mazraoui 马兹拉维（边后卫，曼联）\n  - Sofyan Amrabat 阿姆拉巴特（后腰，皇家贝蒂斯）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-24 vs 海地（世界杯C组第3轮）：4-2（W）\n  - 2026-06-19 vs 苏格兰（世界杯C组第2轮）：1-0（W）\n  - 2026-06-13 vs 巴西（世界杯C组第1轮）：1-1（D）\n  - 2026-06-07 vs 挪威（友谊赛）：1-1（D）\n  - 2026-06-02 vs 马达加斯加（友谊赛）：3-0（W）\n\n### 博彩赔率（1X2，十进制）\n- NY Post / FanDuel Predicts 赛前市场快照：主胜 2.15 / 平 — / 客胜 3.9（home=荷兰；页面显示荷兰约 +115、摩洛哥约 +290，未完整列出平局价格。本项目淘汰赛预测最终晋级方，同时给出90分钟比分。）\n\n### 历史交锋（H2H）\n- 共交手 3 次。世界杯层面两队曾在1994年小组赛交手，荷兰2-1击败摩洛哥。本场是双方32年后再次在世界杯相遇。\n\n### 近期新闻\n- [Netherlands] 荷兰小组赛火力最亮：荷兰三场小组赛打进10球，5-1击败瑞典、3-1击败突尼斯，布罗比、加克波和邓弗里斯状态突出。（来源：FIFA group data / The Guardian）\n- [Netherlands] 对日本暴露防线波动：荷兰首战2-2日本，显示球队在领先或比赛后段仍会被快速冲击打穿。（来源：FIFA group data）\n- [Morocco] 摩洛哥排名升至队史高位：2026年6月FIFA排名中，摩洛哥升至第7，反超荷兰的第8。（来源：FIFA world ranking）\n- [Morocco] 布阿迪成为本届亮点：Guardian赛前特写称18岁中场阿尤布·布阿迪是摩洛哥本届亮点之一，球队延续强转换和中场硬度。（来源：The Guardian）\n- [Both] 两队主框架稳定：公开赛前资料未见明确新增停赛；两队末轮都保留了较完整主力框架。（来源：FIFA group data / The Guardian）\n\n### 赛事形势\n- 这是F组第一对C组第二的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵加拿大。两队小组赛同为7分不败：荷兰10个进球火力更亮，摩洛哥对巴西1-1证明抗强队能力。\n\n### 综述\n- 这是今天最接近的一场。荷兰进攻输出最亮，前场多点开花，但防线在对日本时暴露过后段波动。摩洛哥排名高过荷兰，防守纪律、转换速度和淘汰赛经验都很适合拉低节奏。90分钟关键在荷兰能否早进球；如果打不开，摩洛哥有很强的加时或点球晋级空间。\n\n### 资料来源\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C\n- https://inside.fifa.com/news/argentina-reclaim-top-spot-mens-world-ranking-fifa-coca-cola\n- https://www.theguardian.com/football/2026/jun/28/street-football-on-world-stage-morocco-and-netherlands-face-off-in-last-32-game-with-a-backstory\n- https://nypost.com/2026/06/28/betting/fanduel-predicts-promo-code-make-any-trade-and-get-25-bonus-for-morocco-vs-netherlands/\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 17 个比赛日、共 71 场比赛中，4 个先期参赛模型的历次预测、实际赛果与所得分数（结算规则：比分与方向同时猜对 5 分 / 仅方向猜对 3 分 / 猜错或未预测 0 分）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 方向命中 | 比分+方向全中 |\n|  ---  |  ---  |  ---  |  ---  |\n| Claude Opus 4.8 | 164 | 48/71 | 10/71 |\n| Grok 4.3 | 150 | 46/71 | 6/71 |\n| Kimi K2.7 | 150 | 46/71 | 6/71 |\n| Mistral Medium 3.5 | 133 | 41/71 | 5/71 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（3） | 1-1（0） | 1-0（3） | 1-0（3） |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 0-1（0） | 1-2（0） | 0-1（0） |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 海地 vs 苏格兰 | 0-1 | 0-2（3） | 0-2（3） | 2-0（0） | 1-2（3） |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-2（0） | 0-3（0） |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 德国 vs 库拉索 | 7-1 | 6-0（3） | 4-0（3） | 4-0（3） | 4-0（3） |\n| 荷兰 vs 日本 | 2-2 | 1-1（3） | 1-1（3） | 2-1（0） | 2-1（0） |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（3） | 2-0（3） | 1-0（3） | 1-0（3） |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 3-0（0） |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 2-1（0） |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 0-1（0） |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（3） | 2-1（3） | 2-1（3） |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（3） | 0-3（3） | 0-2（3） | 0-2（3） |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 奥地利 vs 约旦 | 3-1 | 3-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 3-0（0） | 2-0（0） | 2-0（0） |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（3） | 2-1（3） | 2-1（3） | 2-0（3） |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（3） | 0-2（3） | 0-2（3） | 0-2（3） |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-1（0） | 2-0（0） | 2-0（0） |\n| 瑞士 vs 波黑 | 4-1 | 2-1（3） | 1-1（0） | 2-0（3） | 2-1（3） |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 1-1（0） | 2-1（3） | 2-1（3） |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 3-1（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 1-2（3） |\n| 巴西 vs 海地 | 3-0 | 4-0（3） | 4-0（3） | 2-0（3） | 3-0（5） |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-1（0） | 1-0（0） | 2-0（0） |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（3） | 1-2（0） | 3-1（3） | 2-1（3） |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（3） | 4-0（3） | 2-1（5） | 2-0（3） |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 3-0（0） | 2-0（0） |\n| 突尼斯 vs 日本 | 0-4 | 0-2（3） | 0-1（3） | 1-2（3） | 1-2（3） |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（3） | 3-0（3） | 1-0（3） | 2-0（3） |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（3） | 1-1（3） | 2-0（0） |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 2-0（0） | 1-1（3） | 1-0（0） |\n| 新西兰 vs 埃及 | 1-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-1（3） |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（3） | 3-1（3） | 2-1（3） | 2-0（5） |\n| 法国 vs 伊拉克 | 3-0 | 4-0（3） | 5-0（3） | 3-1（3） | 3-0（5） |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（3） | 3-2（5） | 2-1（3） | 2-1（3） |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（3） | 0-1（3） | 1-2（5） | 1-2（5） |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（3） | 3-1（3） | 2-0（3） | 2-1（3） |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 2-0（0） | 3-0（0） | 2-0（0） |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 0-1（5） |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（3） | 2-0（3） | 2-0（3） | 1-0（5） |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 1-2（0） | 0-0（0） | 1-1（0） |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（3） | 1-0（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-2（3） |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（3） | 4-0（3） | 2-0（3） | 3-0（3） |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（3） | 0-1（3） | 0-1（3） | 1-2（3） |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 1-2（0） | 0-1（0） | 1-2（0） |\n\n**2026-06-25**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 库拉索 vs 科特迪瓦 | 0-2 | 0-2（5） | 0-3（3） | 0-1（3） | 0-2（5） |\n| 厄瓜多尔 vs 德国 | 2-1 | 1-2（0） | 0-3（0） | 1-2（0） | 1-1（0） |\n| 日本 vs 瑞典 | 1-1 | 2-1（0） | 1-1（5） | 2-1（0） | 1-1（5） |\n| 突尼斯 vs 荷兰 | 1-3 | 0-3（3） | 0-4（3） | 1-3（5） | 0-3（3） |\n| 土耳其 vs 美国 | 3-2 | 0-2（0） | 1-2（0） | 1-1（0） | 1-2（0） |\n| 巴拉圭 vs 澳大利亚 | 0-0 | 1-1（3） | 1-0（0） | 0-0（5） | 1-1（3） |\n\n**2026-06-26**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 挪威 vs 法国 | 1-4 | 2-3（3） | 1-2（3） | 2-3（3） | 2-2（0） |\n| 塞内加尔 vs 伊拉克 | 5-0 | 3-0（3） | 2-0（3） | 3-1（3） | 2-0（3） |\n| 埃及 vs 伊朗 | 1-1 | 2-0（0） | 2-1（0） | 1-1（5） | 1-1（5） |\n| 新西兰 vs 比利时 | 1-5 | 1-2（3） | 0-2（3） | 1-2（3） | 0-2（3） |\n| 佛得角 vs 沙特阿拉伯 | 0-0 | 2-1（0） | 2-0（0） | 2-1（0） | 1-1（3） |\n| 乌拉圭 vs 西班牙 | 0-1 | 1-2（3） | 1-1（0） | 0-2（3） | 1-2（3） |\n\n**2026-06-27**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 巴拿马 vs 英格兰 | 0-2 | 0-3（3） | 0-2（5） | 0-2（5） | 0-2（5） |\n| 克罗地亚 vs 加纳 | 2-1 | 2-1（5） | 0-0（0） | 1-1（0） | 1-0（3） |\n| 阿尔及利亚 vs 奥地利 | 3-3 | 0-0（3） | 0-1（0） | 1-1（3） | 1-1（3） |\n| 约旦 vs 阿根廷 | 1-3 | 0-3（3） | 0-3（3） | 0-2（3） | 0-2（3） |\n| 哥伦比亚 vs 葡萄牙 | 0-0 | 1-2（0） | 2-2（3） | 1-1（3） | 1-1（3） |\n| 刚果民主共和国 vs 乌兹别克斯坦 | 3-1 | 2-0（3） | 1-0（3） | 2-1（3） | 2-1（3） |\n\n**2026-06-28**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 南非 vs 加拿大 | 0-1 | 1-2（3） | 0-2（3） | 1-1（0） | 1-2（3） |\n\n<!-- HISTORY-REVIEW-END -->\n\n═══════════ 资料文档结束 ═══════════\n\n文档末尾附有各模型（包括你自己）历次预测与实际赛果的对照战绩，请在预测前先复盘这些记录，再给出你独立的判断。\n\n请预测每场淘汰赛的最终晋级方/最终获胜方与90分钟比分。winner 表示最终晋级方，只能是 home 或 away；score 表示90分钟比分，可以是平局。严格按以下 JSON 数组格式输出，不要输出任何其他文字，不要用 markdown 代码块包裹：\n[{\"match_id\": \"...\", \"winner\": \"home\" 或 \"away\", \"score\": \"90分钟主队进球-客队进球（如 1-1 或 2-1）\", \"confidence\": 1到100的整数, \"reasoning_zh\": \"50字以内中文理由\"}]\n\nmatch_id 必须逐一使用以下 ID（共 3 场，每场恰好一条预测）：\n2026-06-29-BRA-JPN\n2026-06-29-GER-PAR\n2026-06-29-NED-MAR"
+   },
+   "generated_at": "2026-06-29T02:16:46.289Z",
+   "model_runs": {
+    "x-ai/grok-4.3": {
+     "status": "ok",
+     "latency_s": 12,
+     "via": "openrouter",
+     "error": null
+    },
+    "mistralai/mistral-medium-3-5": {
+     "status": "ok",
+     "latency_s": 4,
+     "via": "openrouter",
+     "error": null
+    },
+    "moonshotai/kimi-k2.6": {
+     "status": "ok",
+     "latency_s": 71,
+     "via": "openrouter",
+     "error": null
+    },
+    "anthropic/claude-fable-5": {
+     "status": "ok",
+     "latency_s": 8,
+     "via": "openrouter",
+     "error": null
+    },
+    "qwen/qwen3.7-max": {
+     "status": "ok",
+     "latency_s": 42,
+     "via": "openrouter",
+     "error": null
+    },
+    "google/gemini-3.5-flash": {
+     "status": "ok",
+     "latency_s": 11,
+     "via": "openrouter",
+     "error": null
+    },
+    "sakana/fugu-ultra": {
+     "status": "ok",
+     "latency_s": 15,
+     "via": "sakana",
+     "error": null
+    },
+    "bytedance/doubao-seed-2.0-pro": {
+     "status": "ok",
+     "latency_s": 24,
+     "via": "volcengine",
+     "error": null
+    }
+   },
+   "context_md": "# 2026-06-29 世界杯比赛资料文档\n\n本文档汇总了 2026-06-29（比赛日，北美当地时间）FIFA 2026 世界杯全部 3 场32强淘汰赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与赛事形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-06-29-BRA-JPN`：32强 Match 74 巴西(Brazil, 主) vs 日本(Japan, 客)\n- `2026-06-29-GER-PAR`：32强 Match 77 德国(Germany, 主) vs 巴拉圭(Paraguay, 客)\n- `2026-06-29-NED-MAR`：32强 Match 75 荷兰(Netherlands, 主) vs 摩洛哥(Morocco, 客)\n\n---\n\n## 32强 Match 74 · 巴西 vs 日本（match_id: `2026-06-29-BRA-JPN`）\n\n- 开球：2026-06-29 12:00（休斯敦当地时间 CDT；美东 13:00）｜北京时间 2026-06-30 01:00（北京时间周二凌晨）\n- 场地：Houston Stadium（NRG/Reliant Stadium），美国德州休斯敦\n\n### 巴西（Brazil，主队）\n- FIFA 排名：第 6 位\n- 晋级之路：南美区预选赛第5名直接晋级；小组赛C组第一，1-1平摩洛哥、3-0胜海地、3-0胜苏格兰，2胜1平积7分、7进1失。\n- 主教练：卡洛·安切洛蒂 (Carlo Ancelotti)\n- 世界杯历史：五届世界杯冠军，史上唯一全勤球队；本届在安切洛蒂执教下冲击第六冠。\n- 核心球员：\n  - Vinicius Junior 维尼修斯（左边锋，皇家马德里）\n  - Matheus Cunha 马特乌斯·库尼亚（前锋/攻击手，曼联）\n  - Neymar 内马尔（前锋/攻击手，桑托斯）\n  - Alisson 阿利松（门将，利物浦）\n  - Marquinhos 马尔基尼奥斯（中后卫/队长，巴黎圣日耳曼）\n  - Gabriel Magalhães 加布里埃尔（中后卫，阿森纳）\n  - Casemiro 卡塞米罗（后腰，曼联）\n  - Bruno Guimarães 布鲁诺·吉马良斯（中场，纽卡斯尔联）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-24 vs 苏格兰（世界杯C组第3轮）：3-0（W）\n  - 2026-06-19 vs 海地（世界杯C组第2轮）：3-0（W）\n  - 2026-06-13 vs 摩洛哥（世界杯C组第1轮）：1-1（D）\n  - 2026-06-06 vs 埃及（友谊赛）：2-1（W）\n  - 2026-05-31 vs 巴拿马（友谊赛）：6-2（W）\n\n### 日本（Japan，客队）\n- FIFA 排名：第 18 位\n- 晋级之路：亚洲区第三阶段C组头名，2025-03-20提前锁定世界杯席位；小组赛F组第二，2-2平荷兰、4-0胜突尼斯、1-1平瑞典，1胜2平积5分。\n- 主教练：森保一 (Hajime Moriyasu)\n- 世界杯历史：连续第8次参加世界杯，多次进入16强，但队史尚未赢过世界杯淘汰赛。\n- 核心球员：\n  - Zion Suzuki 铃木彩艳（门将，帕尔马）\n  - Hiroki Ito 伊藤洋辉（后卫，拜仁慕尼黑）\n  - Takehiro Tomiyasu 富安健洋（后卫，阿森纳）\n  - Daichi Kamada 镰田大地（中场/前腰，水晶宫）\n  - Ritsu Doan 堂安律（攻击中场，弗赖堡）\n  - Ayase Ueda 上田绮世（前锋，费耶诺德）\n  - Takefusa Kubo 久保建英（攻击手，皇家社会）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-25 vs 瑞典（世界杯F组第3轮）：1-1（D）\n  - 2026-06-20 vs 突尼斯（世界杯F组第2轮）：4-0（W）\n  - 2026-06-14 vs 荷兰（世界杯F组第1轮）：2-2（D）\n  - 2026-05-31 vs 冰岛（友谊赛）：1-0（W）\n  - 2026-03-31 vs 英格兰（友谊赛）：1-0（W）\n\n### 博彩赔率（1X2，十进制）\n- NY Post / Kalshi 赛前市场快照：主胜 1.71 / 平 — / 客胜 5.3（home=巴西；页面显示巴西 -140、日本 +430，未完整列出平局价格。本项目淘汰赛预测最终晋级方，同时给出90分钟比分。）\n\n### 历史交锋（H2H）\n- 共交手 14 次。巴西历史交锋长期占优；最近一次交手为2025年10月友谊赛，日本3-2逆转巴西，取得队史首次战胜巴西。该场巴西缺少阿利松、马尔基尼奥斯、加布里埃尔、拉菲尼亚等主力，参考价值需打折。\n\n### 近期新闻\n- [Brazil] 安切洛蒂倾向延续主体阵容：休斯敦赛前报道显示安切洛蒂不打算大幅调整，对苏格兰一战的主体框架预计继续使用。（来源：Houston Chronicle / The Times）\n- [Brazil] 维尼修斯小组赛连续破门：维尼修斯小组赛3场打入4球，是巴西最明确的前场破局点；库尼亚近两场首发并贡献3球。（来源：Houston Chronicle / FIFA group data）\n- [Brazil] 拉菲尼亚缺席休斯敦之行：拉菲尼亚仍在从肌肉伤中恢复，赛前消息称他没有随队前往休斯敦；内马尔已替补复出，出场时间取决于比赛走势。（来源：The Times / Houston Chronicle）\n- [Japan] 久保建英确认缺席：久保建英左膝伤未恢复，确认无缘对巴西；若日本晋级，才可能在下一轮回归。（来源：The Times / Houston Chronicle）\n- [Japan] 日本面对强队韧性充足：日本小组赛2-2平荷兰、1-1平瑞典，铃木彩艳门线表现突出，镰田大地和上田绮世均已打入2球。（来源：FIFA group data / Houston Chronicle）\n\n### 赛事形势\n- 这是C组第一对F组第二的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵美国与埃及之间的胜者。巴西连续两个3-0后攻击线升温，日本则凭对荷兰和瑞典的不败表现证明抗压能力。\n\n### 综述\n- 巴西纸面实力、淘汰赛经验和前场个人能力占优，维尼修斯状态正热，安切洛蒂也倾向保持稳定；但拉菲尼亚缺阵削弱右路变化。日本没有久保建英，创造力受损，不过整体纪律、门将状态和快速转换仍能制造麻烦。90分钟关键在巴西能否尽早打开局面；若久攻不下，日本有能力把比赛拖成低比分，并把晋级悬念带进加时或点球。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/id/400021516\n- https://api.fifa.com/api/v3/calendar/17/285023/289273/Standing?count=200\n- https://www.houstonchronicle.com/world-cup/article/brazil-japan-world-cup-preview-houston-22324184.php\n- https://www.thetimes.com/sport/football/world-cup/article/world-cup-2026-latest-news-live-scores-team-updates-day-18-ft279cnt6\n- https://nypost.com/2026/06/28/betting/kalshi-promo-code-nypmax-trade-10-get-15-for-japan-vs-brazil/\n\n---\n\n## 32强 Match 77 · 德国 vs 巴拉圭（match_id: `2026-06-29-GER-PAR`）\n\n- 开球：2026-06-29 16:30（福克斯伯勒当地时间 EDT）｜北京时间 2026-06-30 04:30（北京时间周二凌晨）\n- 场地：Boston Stadium（Gillette Stadium），美国马萨诸塞州福克斯伯勒\n\n### 德国（Germany，主队）\n- FIFA 排名：第 10 位\n- 晋级之路：欧洲区A组头名直接晋级；小组赛E组第一，7-1胜库拉索、2-1胜科特迪瓦、1-2负厄瓜多尔，2胜1负积6分。\n- 主教练：尤利安·纳格尔斯曼 (Julian Nagelsmann)\n- 世界杯历史：四届世界杯冠军；2018和2022连续两届小组出局，本届已重返淘汰赛。\n- 核心球员：\n  - Jamal Musiala 穆西亚拉（攻击中场/边锋，拜仁慕尼黑）\n  - Florian Wirtz 维尔茨（攻击中场，利物浦）\n  - Kai Havertz 哈弗茨（前锋/前腰，阿森纳）\n  - Joshua Kimmich 基米希（中场/右后卫/队长，拜仁慕尼黑）\n  - Manuel Neuer 诺伊尔（门将，拜仁慕尼黑）\n  - Antonio Rüdiger 吕迪格（中后卫，皇家马德里）\n  - Jonathan Tah 塔（中后卫，拜仁慕尼黑）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-25 vs 厄瓜多尔（世界杯E组第3轮）：1-2（L）\n  - 2026-06-20 vs 科特迪瓦（世界杯E组第2轮）：2-1（W）\n  - 2026-06-14 vs 库拉索（世界杯E组第1轮）：7-1（W）\n  - 2026-06-06 vs 美国（友谊赛）：2-1（W）\n  - 2026-05-31 vs 芬兰（友谊赛）：4-0（W）\n\n### 巴拉圭（Paraguay，客队）\n- FIFA 排名：第 39 位\n- 晋级之路：南美区预选赛第6名直接晋级；小组赛D组第三，1-4负美国、1-0胜土耳其、0-0平澳大利亚，4分以最佳第三名身份晋级。\n- 主教练：古斯塔沃·阿尔法罗 (Gustavo Alfaro)\n- 世界杯历史：第9次参加世界杯，最佳战绩为2010年八强；传统特点是低位防守、身体对抗和反击。\n- 核心球员：\n  - Julio Enciso 恩西索（前锋/攻击型中场，斯特拉斯堡）\n  - Miguel Almirón 阿尔米隆（边锋/进攻手，亚特兰大联）\n  - Gustavo Gómez 古斯塔沃·戈麦斯（中后卫/队长，帕尔梅拉斯）\n  - Diego Gómez 迭戈·戈麦斯（中场，布莱顿）\n  - Matías Galarza 加拉尔萨（中场，河床）\n  - Antonio Sanabria 萨纳夫里亚（中锋，克雷莫纳）\n  - Omar Alderete 阿尔德雷特（中后卫，赫塔费）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-25 vs 澳大利亚（世界杯D组第3轮）：0-0（D）\n  - 2026-06-19 vs 土耳其（世界杯D组第2轮）：1-0（W）\n  - 2026-06-12 vs 美国（世界杯D组第1轮）：1-4（L）\n  - 2026-06-05 vs 尼加拉瓜（友谊赛）：4-0（W）\n  - 2026-03-31 vs 摩洛哥（友谊赛）：1-2（L）\n\n### 博彩赔率（1X2，十进制）\n- Bavarian Football Works 赛前页：主胜 1.36 / 平 5 / 客胜 8（home=德国；原始价格德国 -280、平 +400、巴拉圭 +700。）\n\n### 历史交锋（H2H）\n- 共交手 3 次。两队世界杯淘汰赛曾在2002年16强交手，德国1-0击败巴拉圭，诺伊维尔末段制胜。历史交锋德国总体占优。\n\n### 近期新闻\n- [Germany] 末轮输球带来警讯：德国前两场火力很强，但末轮1-2负厄瓜多尔暴露节奏、门将和防线稳定性问题。（来源：Bavarian Football Works）\n- [Germany] 施洛特贝克缺阵：尼科·施洛特贝克脚踝伤缺席，纳撒尼尔·布朗内收肌问题存疑；马利克·蒂奥可能进入首发讨论。（来源：Bavarian Football Works）\n- [Germany] 纳格尔斯曼仍有阵容选择题：基米希的位置、帕夫洛维奇是否轮出、劳姆与布朗的边路选择，是德国赛前主要变量。（来源：Bavarian Football Works）\n- [Paraguay] 连续两场零封反弹：巴拉圭首战1-4负美国后，1-0土耳其、0-0澳大利亚，靠防守反弹拿到4分晋级。（来源：SB Nation / FIFA group data）\n- [Paraguay] 阿尔德雷特出场存疑：中卫奥马尔·阿尔德雷特对澳大利亚时膝部受伤，AS称其能否出战德国仍待最终医学通报。（来源：AS）\n- [Paraguay] 阿尔米隆回归提升转换：阿尔米隆因对土耳其的红牌缺席澳大利亚战，本场若没有追加影响，能提升巴拉圭反击速度。（来源：Bavarian Football Works / The Guardian）\n\n### 赛事形势\n- 这是E组第一对最佳第三名的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵法国与瑞典之间的胜者。德国纸面优势明显，巴拉圭合理剧本是低位防守、拖慢节奏、依靠恩西索、阿尔米隆和定位球制造少量机会。\n\n### 综述\n- 德国是今天方向最明确的热门之一，前两轮攻击火力充足，但末轮输给厄瓜多尔让稳定性打了折扣，施洛特贝克缺阵也影响防线轮换。巴拉圭进攻产量有限，却连续两场零封，淘汰赛有把比赛拖慢的能力。90分钟关键在德国能否早进球；若拖到下半场，巴拉圭把比赛带进加时或点球的空间会上升。\n\n### 资料来源\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- https://www.bavarianfootballworks.com/fifa-world-cup/222631/world-cup-matchday-preview-germany-vs-paraguay\n- https://www.bavarianfootballworks.com/germany-international-soccer/222053/official-germany-to-face-paraguay-in-world-cup-round-of-32\n- https://www.fourfourtwo.com/team/paraguay-world-cup-2026-squad\n- https://as.com/futbol/mundial/alderete-pone-en-jaque-a-paraguay-f202606-n/\n\n---\n\n## 32强 Match 75 · 荷兰 vs 摩洛哥（match_id: `2026-06-29-NED-MAR`）\n\n- 开球：2026-06-29 19:00（蒙特雷/瓜达卢佩当地时间 UTC-6；美东 21:00）｜北京时间 2026-06-30 09:00（北京时间周二上午）\n- 场地：Monterrey Stadium（Estadio BBVA），墨西哥新莱昂州瓜达卢佩\n\n### 荷兰（Netherlands，主队）\n- FIFA 排名：第 8 位\n- 晋级之路：欧洲区G组头名直接晋级；小组赛F组第一，2-2平日本、5-1胜瑞典、3-1胜突尼斯，2胜1平积7分、10进4失。\n- 主教练：罗纳德·科曼 (Ronald Koeman)\n- 世界杯历史：三次世界杯亚军，2014年季军，2022年止步八强；本届继续追求队史首冠。\n- 核心球员：\n  - Virgil van Dijk 范戴克（中后卫/队长，利物浦）\n  - Frenkie de Jong 弗朗基·德容（中场，巴塞罗那）\n  - Cody Gakpo 加克波（边锋/前锋，利物浦）\n  - Brian Brobbey 布罗比（中锋，阿贾克斯）\n  - Denzel Dumfries 邓弗里斯（右后卫/翼卫，皇家马德里）\n  - Bart Verbruggen 费布鲁亨（门将，布莱顿）\n  - Tijjani Reijnders 赖因德斯（中场，曼城）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-25 vs 突尼斯（世界杯F组第3轮）：3-1（W）\n  - 2026-06-20 vs 瑞典（世界杯F组第2轮）：5-1（W）\n  - 2026-06-14 vs 日本（世界杯F组第1轮）：2-2（D）\n  - 2026-06-08 vs 乌兹别克斯坦（友谊赛）：2-1（W）\n  - 2026-06-03 vs 阿尔及利亚（友谊赛）：0-1（L）\n\n### 摩洛哥（Morocco，客队）\n- FIFA 排名：第 7 位\n- 晋级之路：非洲区E组头名，8战全胜晋级；小组赛C组第二，1-1平巴西、1-0胜苏格兰、4-2胜海地，2胜1平积7分，因净胜球落后巴西列第二。\n- 主教练：穆罕默德·瓦赫比 (Mohamed Ouahbi)\n- 世界杯历史：2022年打进四强，创造非洲球队世界杯最佳战绩；本届继续以强转换和防守纪律为基础。\n- 核心球员：\n  - Achraf Hakimi 阿什拉夫·哈基米（右后卫/队长，巴黎圣日耳曼）\n  - Brahim Díaz 布拉欣·迪亚斯（攻击中场/边锋，皇家马德里）\n  - Ismael Saibari 伊斯梅尔·塞巴里（中场/攻击手，埃因霍温）\n  - Yassine Bounou 布努（门将，利雅得新月）\n  - Ayyoub Bouaddi 阿尤布·布阿迪（中场，里尔）\n  - Noussair Mazraoui 马兹拉维（边后卫，曼联）\n  - Sofyan Amrabat 阿姆拉巴特（后腰，皇家贝蒂斯）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-24 vs 海地（世界杯C组第3轮）：4-2（W）\n  - 2026-06-19 vs 苏格兰（世界杯C组第2轮）：1-0（W）\n  - 2026-06-13 vs 巴西（世界杯C组第1轮）：1-1（D）\n  - 2026-06-07 vs 挪威（友谊赛）：1-1（D）\n  - 2026-06-02 vs 马达加斯加（友谊赛）：3-0（W）\n\n### 博彩赔率（1X2，十进制）\n- NY Post / FanDuel Predicts 赛前市场快照：主胜 2.15 / 平 — / 客胜 3.9（home=荷兰；页面显示荷兰约 +115、摩洛哥约 +290，未完整列出平局价格。本项目淘汰赛预测最终晋级方，同时给出90分钟比分。）\n\n### 历史交锋（H2H）\n- 共交手 3 次。世界杯层面两队曾在1994年小组赛交手，荷兰2-1击败摩洛哥。本场是双方32年后再次在世界杯相遇。\n\n### 近期新闻\n- [Netherlands] 荷兰小组赛火力最亮：荷兰三场小组赛打进10球，5-1击败瑞典、3-1击败突尼斯，布罗比、加克波和邓弗里斯状态突出。（来源：FIFA group data / The Guardian）\n- [Netherlands] 对日本暴露防线波动：荷兰首战2-2日本，显示球队在领先或比赛后段仍会被快速冲击打穿。（来源：FIFA group data）\n- [Morocco] 摩洛哥排名升至队史高位：2026年6月FIFA排名中，摩洛哥升至第7，反超荷兰的第8。（来源：FIFA world ranking）\n- [Morocco] 布阿迪成为本届亮点：Guardian赛前特写称18岁中场阿尤布·布阿迪是摩洛哥本届亮点之一，球队延续强转换和中场硬度。（来源：The Guardian）\n- [Both] 两队主框架稳定：公开赛前资料未见明确新增停赛；两队末轮都保留了较完整主力框架。（来源：FIFA group data / The Guardian）\n\n### 赛事形势\n- 这是F组第一对C组第二的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵加拿大。两队小组赛同为7分不败：荷兰10个进球火力更亮，摩洛哥对巴西1-1证明抗强队能力。\n\n### 综述\n- 这是今天最接近的一场。荷兰进攻输出最亮，前场多点开花，但防线在对日本时暴露过后段波动。摩洛哥排名高过荷兰，防守纪律、转换速度和淘汰赛经验都很适合拉低节奏。90分钟关键在荷兰能否早进球；如果打不开，摩洛哥有很强的加时或点球晋级空间。\n\n### 资料来源\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C\n- https://inside.fifa.com/news/argentina-reclaim-top-spot-mens-world-ranking-fifa-coca-cola\n- https://www.theguardian.com/football/2026/jun/28/street-football-on-world-stage-morocco-and-netherlands-face-off-in-last-32-game-with-a-backstory\n- https://nypost.com/2026/06/28/betting/fanduel-predicts-promo-code-make-any-trade-and-get-25-bonus-for-morocco-vs-netherlands/\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 17 个比赛日、共 71 场比赛中，4 个先期参赛模型的历次预测、实际赛果与所得分数（结算规则：比分与方向同时猜对 5 分 / 仅方向猜对 3 分 / 猜错或未预测 0 分）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 方向命中 | 比分+方向全中 |\n|  ---  |  ---  |  ---  |  ---  |\n| Claude Opus 4.8 | 164 | 48/71 | 10/71 |\n| Grok 4.3 | 150 | 46/71 | 6/71 |\n| Kimi K2.7 | 150 | 46/71 | 6/71 |\n| Mistral Medium 3.5 | 133 | 41/71 | 5/71 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（3） | 1-1（0） | 1-0（3） | 1-0（3） |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 0-1（0） | 1-2（0） | 0-1（0） |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n| 海地 vs 苏格兰 | 0-1 | 0-2（3） | 0-2（3） | 2-0（0） | 1-2（3） |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-2（0） | 0-3（0） |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 德国 vs 库拉索 | 7-1 | 6-0（3） | 4-0（3） | 4-0（3） | 4-0（3） |\n| 荷兰 vs 日本 | 2-2 | 1-1（3） | 1-1（3） | 2-1（0） | 2-1（0） |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（3） | 2-0（3） | 1-0（3） | 1-0（3） |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 3-0（0） |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 2-1（0） |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 0-1（0） |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 1-0（0） |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（3） | 2-1（3） | 2-1（3） |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（3） | 0-3（3） | 0-2（3） | 0-2（3） |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 奥地利 vs 约旦 | 3-1 | 3-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 3-0（0） | 2-0（0） | 2-0（0） |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（3） | 2-1（3） | 2-1（3） | 2-0（3） |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 1-1（0） |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（3） | 0-2（3） | 0-2（3） | 0-2（3） |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-1（0） | 2-0（0） | 2-0（0） |\n| 瑞士 vs 波黑 | 4-1 | 2-1（3） | 1-1（0） | 2-0（3） | 2-1（3） |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（3） | 2-0（3） | 2-0（3） | 2-0（3） |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 1-1（0） | 2-1（3） | 2-1（3） |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 3-1（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 1-2（3） |\n| 巴西 vs 海地 | 3-0 | 4-0（3） | 4-0（3） | 2-0（3） | 3-0（5） |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-1（0） | 1-0（0） | 2-0（0） |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（3） | 1-2（0） | 3-1（3） | 2-1（3） |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（3） | 4-0（3） | 2-1（5） | 2-0（3） |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 3-0（0） | 2-0（0） |\n| 突尼斯 vs 日本 | 0-4 | 0-2（3） | 0-1（3） | 1-2（3） | 1-2（3） |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（3） | 3-0（3） | 1-0（3） | 2-0（3） |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（3） | 1-1（3） | 2-0（0） |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 2-0（0） | 1-1（3） | 1-0（0） |\n| 新西兰 vs 埃及 | 1-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-1（3） |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（3） | 3-1（3） | 2-1（3） | 2-0（5） |\n| 法国 vs 伊拉克 | 3-0 | 4-0（3） | 5-0（3） | 3-1（3） | 3-0（5） |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（3） | 3-2（5） | 2-1（3） | 2-1（3） |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（3） | 0-1（3） | 1-2（5） | 1-2（5） |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（3） | 3-1（3） | 2-0（3） | 2-1（3） |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 2-0（0） | 3-0（0） | 2-0（0） |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（3） | 0-1（5） | 1-2（3） | 0-1（5） |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（3） | 2-0（3） | 2-0（3） | 1-0（5） |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 1-2（0） | 0-0（0） | 1-1（0） |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（3） | 1-0（3） | 2-1（3） | 2-1（3） |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（3） | 0-1（3） | 0-1（3） | 0-2（3） |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（3） | 4-0（3） | 2-0（3） | 3-0（3） |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（3） | 0-1（3） | 0-1（3） | 1-2（3） |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 1-2（0） | 0-1（0） | 1-2（0） |\n\n**2026-06-25**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 库拉索 vs 科特迪瓦 | 0-2 | 0-2（5） | 0-3（3） | 0-1（3） | 0-2（5） |\n| 厄瓜多尔 vs 德国 | 2-1 | 1-2（0） | 0-3（0） | 1-2（0） | 1-1（0） |\n| 日本 vs 瑞典 | 1-1 | 2-1（0） | 1-1（5） | 2-1（0） | 1-1（5） |\n| 突尼斯 vs 荷兰 | 1-3 | 0-3（3） | 0-4（3） | 1-3（5） | 0-3（3） |\n| 土耳其 vs 美国 | 3-2 | 0-2（0） | 1-2（0） | 1-1（0） | 1-2（0） |\n| 巴拉圭 vs 澳大利亚 | 0-0 | 1-1（3） | 1-0（0） | 0-0（5） | 1-1（3） |\n\n**2026-06-26**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 挪威 vs 法国 | 1-4 | 2-3（3） | 1-2（3） | 2-3（3） | 2-2（0） |\n| 塞内加尔 vs 伊拉克 | 5-0 | 3-0（3） | 2-0（3） | 3-1（3） | 2-0（3） |\n| 埃及 vs 伊朗 | 1-1 | 2-0（0） | 2-1（0） | 1-1（5） | 1-1（5） |\n| 新西兰 vs 比利时 | 1-5 | 1-2（3） | 0-2（3） | 1-2（3） | 0-2（3） |\n| 佛得角 vs 沙特阿拉伯 | 0-0 | 2-1（0） | 2-0（0） | 2-1（0） | 1-1（3） |\n| 乌拉圭 vs 西班牙 | 0-1 | 1-2（3） | 1-1（0） | 0-2（3） | 1-2（3） |\n\n**2026-06-27**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 巴拿马 vs 英格兰 | 0-2 | 0-3（3） | 0-2（5） | 0-2（5） | 0-2（5） |\n| 克罗地亚 vs 加纳 | 2-1 | 2-1（5） | 0-0（0） | 1-1（0） | 1-0（3） |\n| 阿尔及利亚 vs 奥地利 | 3-3 | 0-0（3） | 0-1（0） | 1-1（3） | 1-1（3） |\n| 约旦 vs 阿根廷 | 1-3 | 0-3（3） | 0-3（3） | 0-2（3） | 0-2（3） |\n| 哥伦比亚 vs 葡萄牙 | 0-0 | 1-2（0） | 2-2（3） | 1-1（3） | 1-1（3） |\n| 刚果民主共和国 vs 乌兹别克斯坦 | 3-1 | 2-0（3） | 1-0（3） | 2-1（3） | 2-1（3） |\n\n**2026-06-28**\n\n| 比赛 | 实际比分 | Grok 4.3 | Mistral Medium 3.5 | Kimi K2.7 | Claude Opus 4.8 |\n| --- | --- | --- | --- | --- | --- |\n| 南非 vs 加拿大 | 0-1 | 1-2（3） | 0-2（3） | 1-1（0） | 1-2（3） |\n\n<!-- HISTORY-REVIEW-END -->\n"
+  },
+  {
+   "date": "2026-06-30",
+   "matches": [
+    {
+     "id": "2026-06-30-CIV-NOR",
+     "group": "32强 Match 78",
+     "home": {
+      "code": "CIV",
+      "en": "Ivory Coast",
+      "zh": "科特迪瓦",
+      "flag": "🇨🇮"
+     },
+     "away": {
+      "code": "NOR",
+      "en": "Norway",
+      "zh": "挪威",
+      "flag": "🇳🇴"
+     },
+     "kickoff_local": "2026-06-30 12:00（达拉斯当地时间 CDT）",
+     "kickoff_beijing": "2026-07-01 01:00（北京时间周三凌晨）",
+     "venue": "Dallas Stadium（AT&T Stadium），美国德州阿灵顿/达拉斯赛区",
+     "teams": {
+      "Ivory Coast": {
+       "name_zh": "科特迪瓦",
+       "fifa_ranking": 33,
+       "qualified_via": "非洲区预选赛F组头名直接晋级；小组赛E组第二，1-0胜厄瓜多尔、1-2负德国、2-0胜库拉索，2胜1负积6分，队史首次进入世界杯淘汰赛。",
+       "coach": "埃梅尔斯·法埃 (Emerse Faé)",
+       "wc_history": "队史第4次参加世界杯，此前三届均止步小组赛；2023非洲杯冠军班底，本届已经刷新队史世界杯最好成绩。",
+       "key_players": [
+        {
+         "name": "Amad Diallo 阿马德·迪亚洛",
+         "pos": "边锋/攻击手",
+         "club": "曼联"
+        },
+        {
+         "name": "Yan Diomandé 扬·迪奥曼德",
+         "pos": "边锋/前锋",
+         "club": "莱比锡"
+        },
+        {
+         "name": "Franck Kessié 弗兰克·凯西埃",
+         "pos": "中场",
+         "club": "吉达国民"
+        },
+        {
+         "name": "Simon Adingra 西蒙·阿丁格拉",
+         "pos": "边锋",
+         "club": "布莱顿"
+        },
+        {
+         "name": "Wilfried Singo 威尔弗里德·辛戈",
+         "pos": "后卫",
+         "club": "摩纳哥"
+        },
+        {
+         "name": "Ousmane Diomandé 奥斯曼·迪奥曼德",
+         "pos": "中后卫",
+         "club": "葡萄牙体育"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-25",
+         "opponent": "库拉索（世界杯E组第3轮）",
+         "score": "2-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-20",
+         "opponent": "德国（世界杯E组第2轮）",
+         "score": "1-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-14",
+         "opponent": "厄瓜多尔（世界杯E组第1轮）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-04",
+         "opponent": "法国（友谊赛）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "苏格兰（友谊赛）",
+         "score": "1-0",
+         "result": "W"
+        }
+       ]
+      },
+      "Norway": {
+       "name_zh": "挪威",
+       "fifa_ranking": 31,
+       "qualified_via": "欧洲区预选赛I组头名直接晋级，8战全胜；小组赛I组第二，4-1胜伊拉克、3-2胜塞内加尔、1-4负法国，2胜1负积6分晋级。",
+       "coach": "斯塔勒·索尔巴肯 (Ståle Solbakken)",
+       "wc_history": "第4次参加世界杯，自1998年以来首次重返正赛；1998年曾进入16强，本届由哈兰德和厄德高领衔。",
+       "key_players": [
+        {
+         "name": "Erling Haaland 埃尔林·哈兰德",
+         "pos": "中锋",
+         "club": "曼城"
+        },
+        {
+         "name": "Martin Ødegaard 马丁·厄德高",
+         "pos": "中场/前腰",
+         "club": "阿森纳"
+        },
+        {
+         "name": "Alexander Sørloth 亚历山大·瑟尔洛特",
+         "pos": "前锋",
+         "club": "马德里竞技"
+        },
+        {
+         "name": "Antonio Nusa 安东尼奥·努萨",
+         "pos": "边锋",
+         "club": "莱比锡"
+        },
+        {
+         "name": "Sander Berge 桑德·贝格",
+         "pos": "中场",
+         "club": "富勒姆"
+        },
+        {
+         "name": "Kristoffer Ajer 克里斯托弗·阿耶尔",
+         "pos": "后卫",
+         "club": "布伦特福德"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-26",
+         "opponent": "法国（世界杯I组第3轮）",
+         "score": "1-4",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-22",
+         "opponent": "塞内加尔（世界杯I组第2轮）",
+         "score": "3-2",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-16",
+         "opponent": "伊拉克（世界杯I组第1轮）",
+         "score": "4-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-07",
+         "opponent": "摩洛哥（友谊赛）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-01",
+         "opponent": "瑞典（友谊赛）",
+         "score": "3-1",
+         "result": "W"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "NY Post / Kalshi 赛前市场快照",
+       "home_win": 3.2,
+       "draw": null,
+       "away_win": 2.1,
+       "note": "home=科特迪瓦；公开页未完整列出90分钟1X2，晋级市场与赛前报道均显示挪威更被看好。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 0,
+      "summary_zh": "未查到两队成年国家队正式大赛交锋记录；本场是双方首次在世界杯淘汰赛相遇。"
+     },
+     "news": [
+      {
+       "team": "Ivory Coast",
+       "headline_zh": "科特迪瓦队史首次进入世界杯淘汰赛",
+       "detail_zh": "小组赛击败厄瓜多尔和库拉索，只输给德国一球，三场只丢2球，防守纪律和边路速度是主要卖点。",
+       "source": "FIFA group data / project results"
+      },
+      {
+       "team": "Ivory Coast",
+       "headline_zh": "阿马德和扬·迪奥曼德状态活跃",
+       "detail_zh": "科特迪瓦三场小组赛都能制造边路冲击，末轮2-0库拉索为淘汰赛带来信心。",
+       "source": "FIFA group data"
+      },
+      {
+       "team": "Norway",
+       "headline_zh": "哈兰德小组赛继续稳定进球威胁",
+       "detail_zh": "挪威前两轮合计打入7球，哈兰德、厄德高、瑟尔洛特构成最直接的进攻轴线。",
+       "source": "FIFA group data"
+      },
+      {
+       "team": "Norway",
+       "headline_zh": "末轮惨败法国暴露防线问题",
+       "detail_zh": "1-4负法国让挪威防线稳定性受到考验，淘汰赛若被科特迪瓦打出反击，比赛会很难控。",
+       "source": "project results"
+      }
+     ],
+     "group_context_zh": "这是E组第二对I组第二的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵葡萄牙与克罗地亚之间的胜者。",
+     "summary_zh": "挪威前场个人能力更突出，哈兰德和厄德高能够把少量机会转成高质量射门；科特迪瓦则更均衡，边路速度、身体对抗和小组赛防守质量都不错。关键变量是挪威能否从1-4输法国的防线波动里恢复；如果科特迪瓦先顶住前30分钟，比赛有被拖成低比分甚至90分钟平局的空间。",
+     "sources": [
+      "https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en",
+      "https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32",
+      "data/2026-06-14/matches.json",
+      "data/2026-06-20/matches.json",
+      "data/2026-06-25/matches.json",
+      "data/2026-06-26/matches.json"
+     ],
+     "result": {
+      "id": "2026-06-30-CIV-NOR",
+      "score": "1-2",
+      "winner": "away"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-CIV-NOR",
+        "winner": "away",
+        "score": "1-2",
+        "confidence": 58,
+        "reasoning_zh": "挪威哈兰德厄德高个人能力占优，防线虽有隐患但进攻火力更强，科特迪瓦防守稳但难以限制挪威反击"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-CIV-NOR",
+        "winner": "home",
+        "score": "1-1",
+        "confidence": 58,
+        "reasoning_zh": "科特迪瓦防守韧劲足，反击能牵制挪威；挪威防线不稳，主队有望拖入点球晋级。"
+       },
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-CIV-NOR",
+        "winner": "away",
+        "score": "1-2",
+        "confidence": 58,
+        "reasoning_zh": "挪威前场哈兰德厄德高个人能力突出，可转化少量机会；科特迪瓦边路有威胁但火力有限，挪威小胜晋级。"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-CIV-NOR",
+        "winner": "away",
+        "score": "1-1",
+        "confidence": 65,
+        "reasoning_zh": "科特迪瓦防守坚韧，挪威攻强守弱，常规时间防线缠斗或难分伯仲，看好挪威加时或点球凭借球星个人能力晋级。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-CIV-NOR",
+        "winner": "away",
+        "score": "0-2",
+        "confidence": 55,
+        "reasoning_zh": "挪威前场哈兰德、厄德高个人能力更强，能把握少量机会；科特迪瓦反击有威胁但终结力一般，挪威两球小胜晋级。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-CIV-NOR",
+        "winner": "away",
+        "score": "0-1",
+        "confidence": 80,
+        "reasoning_zh": "挪威哈兰德+厄德高进攻效率更高，科特迪瓦防线难零封，挪威小胜晋级。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-CIV-NOR",
+        "winner": "away",
+        "score": "2-3",
+        "confidence": 70,
+        "reasoning_zh": "挪威进攻火力更强，哈兰德和厄德高能把握机会；科特迪瓦防线可能抵挡不住，比赛预计进球较多。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-CIV-NOR",
+        "winner": "away",
+        "score": "0-1",
+        "confidence": 58,
+        "reasoning_zh": "科特迪瓦防守纪律好但缺乏终结效率，挪威靠哈兰德个人能力强吃，客胜一球小胜最合理"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-30-FRA-SWE",
+     "group": "32强 Match 77",
+     "home": {
+      "code": "FRA",
+      "en": "France",
+      "zh": "法国",
+      "flag": "🇫🇷"
+     },
+     "away": {
+      "code": "SWE",
+      "en": "Sweden",
+      "zh": "瑞典",
+      "flag": "🇸🇪"
+     },
+     "kickoff_local": "2026-06-30 17:00（新泽西当地时间 EDT）",
+     "kickoff_beijing": "2026-07-01 05:00（北京时间周三清晨）",
+     "venue": "New York/New Jersey Stadium（MetLife Stadium），美国新泽西州东卢瑟福",
+     "teams": {
+      "France": {
+       "name_zh": "法国",
+       "fifa_ranking": 3,
+       "qualified_via": "欧洲区预选赛D组头名直接晋级；小组赛I组第一，3-1胜塞内加尔、3-0胜伊拉克、4-1胜挪威，3战全胜积9分、10进2失。",
+       "coach": "迪迪埃·德尚 (Didier Deschamps)",
+       "wc_history": "两届世界杯冠军，2018冠军、2022亚军；本届是德尚告别周期，仍是争冠热门之一。",
+       "key_players": [
+        {
+         "name": "Kylian Mbappé 基利安·姆巴佩",
+         "pos": "前锋/队长",
+         "club": "皇家马德里"
+        },
+        {
+         "name": "Ousmane Dembélé 奥斯曼·登贝莱",
+         "pos": "边锋/攻击手",
+         "club": "巴黎圣日耳曼"
+        },
+        {
+         "name": "Michael Olise 迈克尔·奥利塞",
+         "pos": "攻击中场/边锋",
+         "club": "拜仁慕尼黑"
+        },
+        {
+         "name": "Aurélien Tchouaméni 奥雷利安·楚阿梅尼",
+         "pos": "中场",
+         "club": "皇家马德里"
+        },
+        {
+         "name": "William Saliba 威廉·萨利巴",
+         "pos": "中后卫",
+         "club": "阿森纳"
+        },
+        {
+         "name": "Mike Maignan 迈克·迈尼昂",
+         "pos": "门将",
+         "club": "AC米兰"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-26",
+         "opponent": "挪威（世界杯I组第3轮）",
+         "score": "4-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-22",
+         "opponent": "伊拉克（世界杯I组第2轮）",
+         "score": "3-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-16",
+         "opponent": "塞内加尔（世界杯I组第1轮）",
+         "score": "3-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-08",
+         "opponent": "北爱尔兰（友谊赛）",
+         "score": "3-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-04",
+         "opponent": "科特迪瓦（友谊赛）",
+         "score": "1-2",
+         "result": "L"
+        }
+       ]
+      },
+      "Sweden": {
+       "name_zh": "瑞典",
+       "fifa_ranking": 38,
+       "qualified_via": "欧洲区附加赛晋级；小组赛F组第三，5-1胜突尼斯、1-5负荷兰、1-1平日本，4分以最佳第三名身份晋级。",
+       "coach": "格雷厄姆·波特 (Graham Potter)",
+       "wc_history": "第13次参加世界杯，历史最佳为1958年亚军、1994年季军；2018年曾进八强。",
+       "key_players": [
+        {
+         "name": "Alexander Isak 亚历山大·伊萨克",
+         "pos": "前锋",
+         "club": "利物浦"
+        },
+        {
+         "name": "Viktor Gyökeres 维克托·约凯雷斯",
+         "pos": "中锋",
+         "club": "阿森纳"
+        },
+        {
+         "name": "Anthony Elanga 安东尼·埃兰加",
+         "pos": "边锋",
+         "club": "纽卡斯尔联"
+        },
+        {
+         "name": "Lucas Bergvall 卢卡斯·贝里瓦尔",
+         "pos": "中场",
+         "club": "热刺"
+        },
+        {
+         "name": "Yasin Ayari 亚辛·阿亚里",
+         "pos": "中场",
+         "club": "布莱顿"
+        },
+        {
+         "name": "Victor Lindelöf 维克托·林德洛夫",
+         "pos": "中后卫",
+         "club": "阿斯顿维拉"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-25",
+         "opponent": "日本（世界杯F组第3轮）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-20",
+         "opponent": "荷兰（世界杯F组第2轮）",
+         "score": "1-5",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-14",
+         "opponent": "突尼斯（世界杯F组第1轮）",
+         "score": "5-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "希腊（友谊赛）",
+         "score": "2-2",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-01",
+         "opponent": "挪威（友谊赛）",
+         "score": "1-3",
+         "result": "L"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "The Sun / talkSPORT 赛前页",
+       "home_win": 1.35,
+       "draw": 5,
+       "away_win": 8.5,
+       "note": "home=法国；公开赛前页普遍把法国列为明显热门，瑞典主要依靠双前锋反击制造变量。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 22,
+      "summary_zh": "法国与瑞典历史交锋较多，法国总体略占优；最近正式交锋集中在欧洲赛事和欧国联，瑞典并非没有制造冷门的历史。"
+     },
+     "news": [
+      {
+       "team": "France",
+       "headline_zh": "法国小组赛三战全胜",
+       "detail_zh": "法国三场打入10球，末轮4-1击败挪威，姆巴佩和登贝莱领衔的前场状态非常稳定。",
+       "source": "FIFA group data / project results"
+      },
+      {
+       "team": "France",
+       "headline_zh": "德尚阵容深度明显",
+       "detail_zh": "法国从中后场到边路都有充足轮换，淘汰赛容错率高于大多数球队。",
+       "source": "project scouting notes"
+      },
+      {
+       "team": "Sweden",
+       "headline_zh": "瑞典进攻点集中在伊萨克和约凯雷斯",
+       "detail_zh": "瑞典首轮5-1突尼斯展示火力，但1-5负荷兰暴露防线，末轮1-1日本才拿到最佳第三晋级资格。",
+       "source": "FIFA group data / project results"
+      },
+      {
+       "team": "Sweden",
+       "headline_zh": "波特需要压低比赛节奏",
+       "detail_zh": "对法国若开放对攻，瑞典防线会承压；更现实的路线是中低位防守后找双前锋反击。",
+       "source": "project tactical notes"
+      }
+     ],
+     "group_context_zh": "这是I组第一对最佳第三名的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵德国与巴拉圭之间的胜者；由于巴拉圭已淘汰德国，本场胜者将对阵巴拉圭。",
+     "summary_zh": "法国是本日纸面优势最明确的一队，三场小组赛攻防都在线，姆巴佩的速度会直接考验瑞典身后空间。瑞典的优势是伊萨克和约凯雷斯两名前锋个人能力够强，但球队对荷兰的1-5说明防线抗压有隐患。90分钟关键在法国能否限制瑞典第一传；只要不让比赛变成来回冲刺，法国晋级概率明显更高。",
+     "sources": [
+      "https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en",
+      "https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32",
+      "https://www.thesun.co.uk/sport/39572309/world-cup-cristiano-ronaldo-luka-modric-lionel-messi-england/",
+      "data/2026-06-14/matches.json",
+      "data/2026-06-22/matches.json",
+      "data/2026-06-25/matches.json",
+      "data/2026-06-26/matches.json"
+     ],
+     "result": {
+      "id": "2026-06-30-FRA-SWE",
+      "score": "3-0",
+      "winner": "home"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-FRA-SWE",
+        "winner": "home",
+        "score": "3-0",
+        "confidence": 82,
+        "reasoning_zh": "法国小组赛攻防统治级，姆巴佩状态正佳，瑞典防线屡屡崩盘，纸面与状态差距明显"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-FRA-SWE",
+        "winner": "home",
+        "score": "3-1",
+        "confidence": 80,
+        "reasoning_zh": "法国中前场状态火热，瑞典防线对荷兰惨负后仍有隐患，法国90分钟内拿下比赛。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-FRA-SWE",
+        "winner": "home",
+        "score": "3-1",
+        "confidence": 82,
+        "reasoning_zh": "法国三战全胜攻防俱佳，姆巴佩速度直击瑞典身后空间；瑞典防线对荷兰崩盘，难抵法国冲击。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-FRA-SWE",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 85,
+        "reasoning_zh": "法国整体实力及状态处于绝对优势，但瑞典双前锋反击犀利，瑞典可进一球，法国最终两轮内解决战斗。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-FRA-SWE",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 80,
+        "reasoning_zh": "法国攻防全面占优，三战全胜状态火热；瑞典防线抗压差，仅靠双前锋反击难翻盘。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-FRA-SWE",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 90,
+        "reasoning_zh": "法国小组赛全胜状态火热防守稳，瑞典进攻低效难威胁法国"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-FRA-SWE",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 85,
+        "reasoning_zh": "法国状态火热攻防均衡，瑞典防线脆弱难挡姆巴佩冲击，主场优势确保晋级。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-FRA-SWE",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 78,
+        "reasoning_zh": "法国纸面实力碾压瑞典，伊萨克或约凯雷斯靠反击偷一球，法国仍能稳赢晋级"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-06-30-MEX-ECU",
+     "group": "32强 Match 79",
+     "home": {
+      "code": "MEX",
+      "en": "Mexico",
+      "zh": "墨西哥",
+      "flag": "🇲🇽"
+     },
+     "away": {
+      "code": "ECU",
+      "en": "Ecuador",
+      "zh": "厄瓜多尔",
+      "flag": "🇪🇨"
+     },
+     "kickoff_local": "2026-06-30 19:00（墨西哥城当地时间 CST）",
+     "kickoff_beijing": "2026-07-01 09:00（北京时间周三上午）",
+     "venue": "Mexico City Stadium（Estadio Azteca），墨西哥墨西哥城",
+     "teams": {
+      "Mexico": {
+       "name_zh": "墨西哥",
+       "fifa_ranking": 14,
+       "qualified_via": "东道主自动晋级；小组赛A组第一，1-0胜韩国、2-0胜南非、3-0胜捷克，3战全胜且零失球。",
+       "coach": "哈维尔·阿吉雷 (Javier Aguirre)",
+       "wc_history": "第18次参加世界杯，1994年以来多次进入16强但长期未过第五场；本届作为东道主之一冲击突破。",
+       "key_players": [
+        {
+         "name": "Santiago Giménez 圣地亚哥·希门尼斯",
+         "pos": "中锋",
+         "club": "AC米兰"
+        },
+        {
+         "name": "Raúl Jiménez 劳尔·希门尼斯",
+         "pos": "前锋",
+         "club": "富勒姆"
+        },
+        {
+         "name": "Edson Álvarez 埃德森·阿尔瓦雷斯",
+         "pos": "后腰/队长",
+         "club": "费内巴切"
+        },
+        {
+         "name": "Johan Vásquez 约翰·巴斯克斯",
+         "pos": "中后卫",
+         "club": "热那亚"
+        },
+        {
+         "name": "Orbelín Pineda 奥尔贝林·皮内达",
+         "pos": "中场",
+         "club": "雅典AEK"
+        },
+        {
+         "name": "Gilberto Mora 希尔伯托·莫拉",
+         "pos": "攻击中场",
+         "club": "蒂华纳"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-24",
+         "opponent": "捷克（世界杯A组第3轮）",
+         "score": "3-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-19",
+         "opponent": "南非（世界杯A组第2轮）",
+         "score": "2-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-13",
+         "opponent": "韩国（世界杯A组第1轮）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-05",
+         "opponent": "塞尔维亚（友谊赛）",
+         "score": "5-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-05-30",
+         "opponent": "澳大利亚（友谊赛）",
+         "score": "1-0",
+         "result": "W"
+        }
+       ]
+      },
+      "Ecuador": {
+       "name_zh": "厄瓜多尔",
+       "fifa_ranking": 24,
+       "qualified_via": "南美区预选赛第二名直接晋级；小组赛E组第三，0-1负科特迪瓦、0-0平库拉索、2-1胜德国，4分以最佳第三名身份晋级。",
+       "coach": "塞巴斯蒂安·贝卡塞塞 (Sebastián Beccacece)",
+       "wc_history": "队史第5次参加世界杯，最佳成绩为2006年16强；本届继续依靠南美区最稳防线和强中后场。",
+       "key_players": [
+        {
+         "name": "Moisés Caicedo 莫伊塞斯·卡塞多",
+         "pos": "中场",
+         "club": "切尔西"
+        },
+        {
+         "name": "Willian Pacho 威廉·帕乔",
+         "pos": "中后卫",
+         "club": "巴黎圣日耳曼"
+        },
+        {
+         "name": "Piero Hincapié 皮耶罗·因卡皮耶",
+         "pos": "中后卫/左后卫",
+         "club": "阿森纳"
+        },
+        {
+         "name": "Pervis Estupiñán 佩尔维斯·埃斯图皮尼安",
+         "pos": "左后卫",
+         "club": "布莱顿"
+        },
+        {
+         "name": "Enner Valencia 恩内尔·巴伦西亚",
+         "pos": "前锋/队长",
+         "club": "巴西国际"
+        },
+        {
+         "name": "Kendry Páez 肯德里·派斯",
+         "pos": "攻击中场",
+         "club": "切尔西"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-25",
+         "opponent": "德国（世界杯E组第3轮）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-20",
+         "opponent": "库拉索（世界杯E组第2轮）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-14",
+         "opponent": "科特迪瓦（世界杯E组第1轮）",
+         "score": "0-1",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-07",
+         "opponent": "危地马拉（友谊赛）",
+         "score": "3-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-05-30",
+         "opponent": "沙特阿拉伯（友谊赛）",
+         "score": "2-1",
+         "result": "W"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "NY Post / Kalshi 赛前市场快照",
+       "home_win": 1.65,
+       "draw": null,
+       "away_win": 4,
+       "note": "home=墨西哥；页面显示墨西哥约 -154、厄瓜多尔约 +300，未完整列出平局价格。本项目淘汰赛预测最终晋级方，同时给出90分钟比分。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 26,
+      "summary_zh": "两队交锋频繁，墨西哥历史战绩占优，但近年厄瓜多尔对中北美球队的防守韧性更强；2024美洲杯双方0-0战平，厄瓜多尔凭小组形势晋级。"
+     },
+     "news": [
+      {
+       "team": "Mexico",
+       "headline_zh": "墨西哥三战全胜零失球",
+       "detail_zh": "作为东道主，墨西哥小组赛1-0韩国、2-0南非、3-0捷克，攻防稳定且有主场情绪加成。",
+       "source": "FIFA group data / project results"
+      },
+      {
+       "team": "Mexico",
+       "headline_zh": "墨西哥城海拔和主场氛围是额外变量",
+       "detail_zh": "比赛在阿兹特克体育场进行，墨西哥更适应环境，厄瓜多尔也有高原经验，因此优势主要体现在观众压力而非单纯体能。",
+       "source": "FIFA venue data / tactical notes"
+      },
+      {
+       "team": "Ecuador",
+       "headline_zh": "厄瓜多尔末轮击败德国",
+       "detail_zh": "2-1击败德国让厄瓜多尔从小组边缘进入淘汰赛，卡塞多和中后场强度仍是核心。",
+       "source": "project results"
+      },
+      {
+       "team": "Ecuador",
+       "headline_zh": "进攻稳定性仍是疑问",
+       "detail_zh": "前两轮0-1科特迪瓦、0-0库拉索，说明厄瓜多尔在阵地战打开局面时并不轻松。",
+       "source": "FIFA group data"
+      }
+     ],
+     "group_context_zh": "这是A组第一对最佳第三名的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵加拿大与摩洛哥之间的胜者；由于摩洛哥已淘汰荷兰，本场胜者将对阵摩洛哥。",
+     "summary_zh": "墨西哥小组赛三战全胜且零失球，节奏、主场情绪和防守结构都在线；厄瓜多尔刚击败德国，抗强队能力很有说服力，但进攻端前两轮打不开局面的老问题仍在。90分钟关键在墨西哥能否先破密集防守；如果迟迟没有进球，厄瓜多尔有把比赛拖入加时或点球的能力。",
+     "sources": [
+      "https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en",
+      "https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32",
+      "https://nypost.com/2026/06/29/betting/mexico-vs-ecuador-world-cup-prediction-odds-picks-best-bet-for-round-of-32/",
+      "data/2026-06-14/matches.json",
+      "data/2026-06-18/matches.json",
+      "data/2026-06-20/matches.json",
+      "data/2026-06-24/matches.json",
+      "data/2026-06-25/matches.json"
+     ],
+     "result": {
+      "id": "2026-06-30-MEX-ECU",
+      "score": "2-0",
+      "winner": "home"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-MEX-ECU",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 65,
+        "reasoning_zh": "墨西哥主场零失球三连胜，厄瓜多尔进攻乏力虽防守顽强但难以抵挡东道主主场压力"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-MEX-ECU",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 76,
+        "reasoning_zh": "墨西哥主场三连胜且零失球，整体状态占优，厄瓜多尔进攻乏力难以破门。"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-MEX-ECU",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 60,
+        "reasoning_zh": "墨西哥主场零失球状态稳，但厄瓜多尔防线强韧难破，墨西哥凭主场氛围小胜或加时晋级。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-MEX-ECU",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 78,
+        "reasoning_zh": "墨西哥坐拥阿兹特克高原主场，小组赛零失球防守极其稳健；厄瓜多尔阵地进攻乏力，看好东道主常规时间取胜。"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-MEX-ECU",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 60,
+        "reasoning_zh": "墨西哥主场零失球状态稳，厄瓜多尔防守强但进攻乏力，墨西哥小胜过关。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-MEX-ECU",
+        "winner": "home",
+        "score": "1-1",
+        "confidence": 85,
+        "reasoning_zh": "墨西哥主场优势明显，厄瓜多尔攻坚能力不足，90分钟战平后墨西哥晋级。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-MEX-ECU",
+        "winner": "home",
+        "score": "1-1",
+        "confidence": 75,
+        "reasoning_zh": "墨西哥主场防守稳固，但厄瓜多尔韧性足，可能90分钟战平，墨西哥凭主场优势加时晋级。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-06-30-MEX-ECU",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 65,
+        "reasoning_zh": "墨西哥主场零失球状态稳固，厄瓜多尔进攻乏力但有卡塞多支撑，比分小胜合理。"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    }
+   ],
+   "settled": true,
+   "day_points": {
+    "x-ai/grok-4.3": 12,
+    "moonshotai/kimi-k2.6": 7,
+    "anthropic/claude-fable-5": 9,
+    "google/gemini-3.5-flash": 9,
+    "sakana/fugu-ultra": 6,
+    "tencent/hy3-preview": 6,
+    "xiaomi/mimo-v2.5-pro": 6,
+    "minimax/minimax-m3": 6
+   },
+   "prompt": {
+    "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场淘汰赛的最终晋级方/最终获胜方，以及90分钟（含补时、不含加时和点球大战）的比分；90分钟比分可以是平局，但最终晋级方不能是平局，必须在主队或客队中选择一方。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断非热门球队会通过90分钟、加时或点球晋级时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的90分钟精确比分，并给出最终晋级方向。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
+    "user": "以下是 2026-06-30 世界杯 3 场比赛的完整资料文档：\n\n═══════════ 资料文档开始 ═══════════\n# 2026-06-30 世界杯比赛资料文档\n\n本文档汇总了 2026-06-30（比赛日，北美当地时间）FIFA 2026 世界杯全部 3 场32强淘汰赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与赛事形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-06-30-CIV-NOR`：32强 Match 78 科特迪瓦(Ivory Coast, 主) vs 挪威(Norway, 客)\n- `2026-06-30-FRA-SWE`：32强 Match 77 法国(France, 主) vs 瑞典(Sweden, 客)\n- `2026-06-30-MEX-ECU`：32强 Match 79 墨西哥(Mexico, 主) vs 厄瓜多尔(Ecuador, 客)\n\n---\n\n## 32强 Match 78 · 科特迪瓦 vs 挪威（match_id: `2026-06-30-CIV-NOR`）\n\n- 开球：2026-06-30 12:00（达拉斯当地时间 CDT）｜北京时间 2026-07-01 01:00（北京时间周三凌晨）\n- 场地：Dallas Stadium（AT&T Stadium），美国德州阿灵顿/达拉斯赛区\n\n### 科特迪瓦（Ivory Coast，主队）\n- FIFA 排名：第 33 位\n- 晋级之路：非洲区预选赛F组头名直接晋级；小组赛E组第二，1-0胜厄瓜多尔、1-2负德国、2-0胜库拉索，2胜1负积6分，队史首次进入世界杯淘汰赛。\n- 主教练：埃梅尔斯·法埃 (Emerse Faé)\n- 世界杯历史：队史第4次参加世界杯，此前三届均止步小组赛；2023非洲杯冠军班底，本届已经刷新队史世界杯最好成绩。\n- 核心球员：\n  - Amad Diallo 阿马德·迪亚洛（边锋/攻击手，曼联）\n  - Yan Diomandé 扬·迪奥曼德（边锋/前锋，莱比锡）\n  - Franck Kessié 弗兰克·凯西埃（中场，吉达国民）\n  - Simon Adingra 西蒙·阿丁格拉（边锋，布莱顿）\n  - Wilfried Singo 威尔弗里德·辛戈（后卫，摩纳哥）\n  - Ousmane Diomandé 奥斯曼·迪奥曼德（中后卫，葡萄牙体育）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-25 vs 库拉索（世界杯E组第3轮）：2-0（W）\n  - 2026-06-20 vs 德国（世界杯E组第2轮）：1-2（L）\n  - 2026-06-14 vs 厄瓜多尔（世界杯E组第1轮）：1-0（W）\n  - 2026-06-04 vs 法国（友谊赛）：2-1（W）\n  - 2026-03-31 vs 苏格兰（友谊赛）：1-0（W）\n\n### 挪威（Norway，客队）\n- FIFA 排名：第 31 位\n- 晋级之路：欧洲区预选赛I组头名直接晋级，8战全胜；小组赛I组第二，4-1胜伊拉克、3-2胜塞内加尔、1-4负法国，2胜1负积6分晋级。\n- 主教练：斯塔勒·索尔巴肯 (Ståle Solbakken)\n- 世界杯历史：第4次参加世界杯，自1998年以来首次重返正赛；1998年曾进入16强，本届由哈兰德和厄德高领衔。\n- 核心球员：\n  - Erling Haaland 埃尔林·哈兰德（中锋，曼城）\n  - Martin Ødegaard 马丁·厄德高（中场/前腰，阿森纳）\n  - Alexander Sørloth 亚历山大·瑟尔洛特（前锋，马德里竞技）\n  - Antonio Nusa 安东尼奥·努萨（边锋，莱比锡）\n  - Sander Berge 桑德·贝格（中场，富勒姆）\n  - Kristoffer Ajer 克里斯托弗·阿耶尔（后卫，布伦特福德）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-26 vs 法国（世界杯I组第3轮）：1-4（L）\n  - 2026-06-22 vs 塞内加尔（世界杯I组第2轮）：3-2（W）\n  - 2026-06-16 vs 伊拉克（世界杯I组第1轮）：4-1（W）\n  - 2026-06-07 vs 摩洛哥（友谊赛）：1-1（D）\n  - 2026-06-01 vs 瑞典（友谊赛）：3-1（W）\n\n### 博彩赔率（1X2，十进制）\n- NY Post / Kalshi 赛前市场快照：主胜 3.2 / 平 — / 客胜 2.1（home=科特迪瓦；公开页未完整列出90分钟1X2，晋级市场与赛前报道均显示挪威更被看好。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。未查到两队成年国家队正式大赛交锋记录；本场是双方首次在世界杯淘汰赛相遇。\n\n### 近期新闻\n- [Ivory Coast] 科特迪瓦队史首次进入世界杯淘汰赛：小组赛击败厄瓜多尔和库拉索，只输给德国一球，三场只丢2球，防守纪律和边路速度是主要卖点。（来源：FIFA group data / project results）\n- [Ivory Coast] 阿马德和扬·迪奥曼德状态活跃：科特迪瓦三场小组赛都能制造边路冲击，末轮2-0库拉索为淘汰赛带来信心。（来源：FIFA group data）\n- [Norway] 哈兰德小组赛继续稳定进球威胁：挪威前两轮合计打入7球，哈兰德、厄德高、瑟尔洛特构成最直接的进攻轴线。（来源：FIFA group data）\n- [Norway] 末轮惨败法国暴露防线问题：1-4负法国让挪威防线稳定性受到考验，淘汰赛若被科特迪瓦打出反击，比赛会很难控。（来源：project results）\n\n### 赛事形势\n- 这是E组第二对I组第二的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵葡萄牙与克罗地亚之间的胜者。\n\n### 综述\n- 挪威前场个人能力更突出，哈兰德和厄德高能够把少量机会转成高质量射门；科特迪瓦则更均衡，边路速度、身体对抗和小组赛防守质量都不错。关键变量是挪威能否从1-4输法国的防线波动里恢复；如果科特迪瓦先顶住前30分钟，比赛有被拖成低比分甚至90分钟平局的空间。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- data/2026-06-14/matches.json\n- data/2026-06-20/matches.json\n- data/2026-06-25/matches.json\n- data/2026-06-26/matches.json\n\n---\n\n## 32强 Match 77 · 法国 vs 瑞典（match_id: `2026-06-30-FRA-SWE`）\n\n- 开球：2026-06-30 17:00（新泽西当地时间 EDT）｜北京时间 2026-07-01 05:00（北京时间周三清晨）\n- 场地：New York/New Jersey Stadium（MetLife Stadium），美国新泽西州东卢瑟福\n\n### 法国（France，主队）\n- FIFA 排名：第 3 位\n- 晋级之路：欧洲区预选赛D组头名直接晋级；小组赛I组第一，3-1胜塞内加尔、3-0胜伊拉克、4-1胜挪威，3战全胜积9分、10进2失。\n- 主教练：迪迪埃·德尚 (Didier Deschamps)\n- 世界杯历史：两届世界杯冠军，2018冠军、2022亚军；本届是德尚告别周期，仍是争冠热门之一。\n- 核心球员：\n  - Kylian Mbappé 基利安·姆巴佩（前锋/队长，皇家马德里）\n  - Ousmane Dembélé 奥斯曼·登贝莱（边锋/攻击手，巴黎圣日耳曼）\n  - Michael Olise 迈克尔·奥利塞（攻击中场/边锋，拜仁慕尼黑）\n  - Aurélien Tchouaméni 奥雷利安·楚阿梅尼（中场，皇家马德里）\n  - William Saliba 威廉·萨利巴（中后卫，阿森纳）\n  - Mike Maignan 迈克·迈尼昂（门将，AC米兰）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-26 vs 挪威（世界杯I组第3轮）：4-1（W）\n  - 2026-06-22 vs 伊拉克（世界杯I组第2轮）：3-0（W）\n  - 2026-06-16 vs 塞内加尔（世界杯I组第1轮）：3-1（W）\n  - 2026-06-08 vs 北爱尔兰（友谊赛）：3-1（W）\n  - 2026-06-04 vs 科特迪瓦（友谊赛）：1-2（L）\n\n### 瑞典（Sweden，客队）\n- FIFA 排名：第 38 位\n- 晋级之路：欧洲区附加赛晋级；小组赛F组第三，5-1胜突尼斯、1-5负荷兰、1-1平日本，4分以最佳第三名身份晋级。\n- 主教练：格雷厄姆·波特 (Graham Potter)\n- 世界杯历史：第13次参加世界杯，历史最佳为1958年亚军、1994年季军；2018年曾进八强。\n- 核心球员：\n  - Alexander Isak 亚历山大·伊萨克（前锋，利物浦）\n  - Viktor Gyökeres 维克托·约凯雷斯（中锋，阿森纳）\n  - Anthony Elanga 安东尼·埃兰加（边锋，纽卡斯尔联）\n  - Lucas Bergvall 卢卡斯·贝里瓦尔（中场，热刺）\n  - Yasin Ayari 亚辛·阿亚里（中场，布莱顿）\n  - Victor Lindelöf 维克托·林德洛夫（中后卫，阿斯顿维拉）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-25 vs 日本（世界杯F组第3轮）：1-1（D）\n  - 2026-06-20 vs 荷兰（世界杯F组第2轮）：1-5（L）\n  - 2026-06-14 vs 突尼斯（世界杯F组第1轮）：5-1（W）\n  - 2026-06-06 vs 希腊（友谊赛）：2-2（D）\n  - 2026-06-01 vs 挪威（友谊赛）：1-3（L）\n\n### 博彩赔率（1X2，十进制）\n- The Sun / talkSPORT 赛前页：主胜 1.35 / 平 5 / 客胜 8.5（home=法国；公开赛前页普遍把法国列为明显热门，瑞典主要依靠双前锋反击制造变量。）\n\n### 历史交锋（H2H）\n- 共交手 22 次。法国与瑞典历史交锋较多，法国总体略占优；最近正式交锋集中在欧洲赛事和欧国联，瑞典并非没有制造冷门的历史。\n\n### 近期新闻\n- [France] 法国小组赛三战全胜：法国三场打入10球，末轮4-1击败挪威，姆巴佩和登贝莱领衔的前场状态非常稳定。（来源：FIFA group data / project results）\n- [France] 德尚阵容深度明显：法国从中后场到边路都有充足轮换，淘汰赛容错率高于大多数球队。（来源：project scouting notes）\n- [Sweden] 瑞典进攻点集中在伊萨克和约凯雷斯：瑞典首轮5-1突尼斯展示火力，但1-5负荷兰暴露防线，末轮1-1日本才拿到最佳第三晋级资格。（来源：FIFA group data / project results）\n- [Sweden] 波特需要压低比赛节奏：对法国若开放对攻，瑞典防线会承压；更现实的路线是中低位防守后找双前锋反击。（来源：project tactical notes）\n\n### 赛事形势\n- 这是I组第一对最佳第三名的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵德国与巴拉圭之间的胜者；由于巴拉圭已淘汰德国，本场胜者将对阵巴拉圭。\n\n### 综述\n- 法国是本日纸面优势最明确的一队，三场小组赛攻防都在线，姆巴佩的速度会直接考验瑞典身后空间。瑞典的优势是伊萨克和约凯雷斯两名前锋个人能力够强，但球队对荷兰的1-5说明防线抗压有隐患。90分钟关键在法国能否限制瑞典第一传；只要不让比赛变成来回冲刺，法国晋级概率明显更高。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- https://www.thesun.co.uk/sport/39572309/world-cup-cristiano-ronaldo-luka-modric-lionel-messi-england/\n- data/2026-06-14/matches.json\n- data/2026-06-22/matches.json\n- data/2026-06-25/matches.json\n- data/2026-06-26/matches.json\n\n---\n\n## 32强 Match 79 · 墨西哥 vs 厄瓜多尔（match_id: `2026-06-30-MEX-ECU`）\n\n- 开球：2026-06-30 19:00（墨西哥城当地时间 CST）｜北京时间 2026-07-01 09:00（北京时间周三上午）\n- 场地：Mexico City Stadium（Estadio Azteca），墨西哥墨西哥城\n\n### 墨西哥（Mexico，主队）\n- FIFA 排名：第 14 位\n- 晋级之路：东道主自动晋级；小组赛A组第一，1-0胜韩国、2-0胜南非、3-0胜捷克，3战全胜且零失球。\n- 主教练：哈维尔·阿吉雷 (Javier Aguirre)\n- 世界杯历史：第18次参加世界杯，1994年以来多次进入16强但长期未过第五场；本届作为东道主之一冲击突破。\n- 核心球员：\n  - Santiago Giménez 圣地亚哥·希门尼斯（中锋，AC米兰）\n  - Raúl Jiménez 劳尔·希门尼斯（前锋，富勒姆）\n  - Edson Álvarez 埃德森·阿尔瓦雷斯（后腰/队长，费内巴切）\n  - Johan Vásquez 约翰·巴斯克斯（中后卫，热那亚）\n  - Orbelín Pineda 奥尔贝林·皮内达（中场，雅典AEK）\n  - Gilberto Mora 希尔伯托·莫拉（攻击中场，蒂华纳）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-24 vs 捷克（世界杯A组第3轮）：3-0（W）\n  - 2026-06-19 vs 南非（世界杯A组第2轮）：2-0（W）\n  - 2026-06-13 vs 韩国（世界杯A组第1轮）：1-0（W）\n  - 2026-06-05 vs 塞尔维亚（友谊赛）：5-1（W）\n  - 2026-05-30 vs 澳大利亚（友谊赛）：1-0（W）\n\n### 厄瓜多尔（Ecuador，客队）\n- FIFA 排名：第 24 位\n- 晋级之路：南美区预选赛第二名直接晋级；小组赛E组第三，0-1负科特迪瓦、0-0平库拉索、2-1胜德国，4分以最佳第三名身份晋级。\n- 主教练：塞巴斯蒂安·贝卡塞塞 (Sebastián Beccacece)\n- 世界杯历史：队史第5次参加世界杯，最佳成绩为2006年16强；本届继续依靠南美区最稳防线和强中后场。\n- 核心球员：\n  - Moisés Caicedo 莫伊塞斯·卡塞多（中场，切尔西）\n  - Willian Pacho 威廉·帕乔（中后卫，巴黎圣日耳曼）\n  - Piero Hincapié 皮耶罗·因卡皮耶（中后卫/左后卫，阿森纳）\n  - Pervis Estupiñán 佩尔维斯·埃斯图皮尼安（左后卫，布莱顿）\n  - Enner Valencia 恩内尔·巴伦西亚（前锋/队长，巴西国际）\n  - Kendry Páez 肯德里·派斯（攻击中场，切尔西）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-25 vs 德国（世界杯E组第3轮）：2-1（W）\n  - 2026-06-20 vs 库拉索（世界杯E组第2轮）：0-0（D）\n  - 2026-06-14 vs 科特迪瓦（世界杯E组第1轮）：0-1（L）\n  - 2026-06-07 vs 危地马拉（友谊赛）：3-0（W）\n  - 2026-05-30 vs 沙特阿拉伯（友谊赛）：2-1（W）\n\n### 博彩赔率（1X2，十进制）\n- NY Post / Kalshi 赛前市场快照：主胜 1.65 / 平 — / 客胜 4（home=墨西哥；页面显示墨西哥约 -154、厄瓜多尔约 +300，未完整列出平局价格。本项目淘汰赛预测最终晋级方，同时给出90分钟比分。）\n\n### 历史交锋（H2H）\n- 共交手 26 次。两队交锋频繁，墨西哥历史战绩占优，但近年厄瓜多尔对中北美球队的防守韧性更强；2024美洲杯双方0-0战平，厄瓜多尔凭小组形势晋级。\n\n### 近期新闻\n- [Mexico] 墨西哥三战全胜零失球：作为东道主，墨西哥小组赛1-0韩国、2-0南非、3-0捷克，攻防稳定且有主场情绪加成。（来源：FIFA group data / project results）\n- [Mexico] 墨西哥城海拔和主场氛围是额外变量：比赛在阿兹特克体育场进行，墨西哥更适应环境，厄瓜多尔也有高原经验，因此优势主要体现在观众压力而非单纯体能。（来源：FIFA venue data / tactical notes）\n- [Ecuador] 厄瓜多尔末轮击败德国：2-1击败德国让厄瓜多尔从小组边缘进入淘汰赛，卡塞多和中后场强度仍是核心。（来源：project results）\n- [Ecuador] 进攻稳定性仍是疑问：前两轮0-1科特迪瓦、0-0库拉索，说明厄瓜多尔在阵地战打开局面时并不轻松。（来源：FIFA group data）\n\n### 赛事形势\n- 这是A组第一对最佳第三名的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵加拿大与摩洛哥之间的胜者；由于摩洛哥已淘汰荷兰，本场胜者将对阵摩洛哥。\n\n### 综述\n- 墨西哥小组赛三战全胜且零失球，节奏、主场情绪和防守结构都在线；厄瓜多尔刚击败德国，抗强队能力很有说服力，但进攻端前两轮打不开局面的老问题仍在。90分钟关键在墨西哥能否先破密集防守；如果迟迟没有进球，厄瓜多尔有把比赛拖入加时或点球的能力。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- https://nypost.com/2026/06/29/betting/mexico-vs-ecuador-world-cup-prediction-odds-picks-best-bet-for-round-of-32/\n- data/2026-06-14/matches.json\n- data/2026-06-18/matches.json\n- data/2026-06-20/matches.json\n- data/2026-06-24/matches.json\n- data/2026-06-25/matches.json\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 18 个比赛日、共 74 场比赛中，8 个当前活跃模型的历次预测、实际赛果与所得分数（结算规则：方向正确 2 分 + 90 分钟比分正确 3 分，两项都对 5 分；两项都错或未预测 0 分；模型加入前的未参赛场次不计入该模型分母）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 方向命中 | 比分命中 | 两项全中 |\n|  ---  |  ---  |  ---  |  ---  |  ---  |\n| Claude Opus 4.8 | 133 | 50/74 | 11/74 | 11/74 |\n| Kimi K2.7 | 120 | 48/74 | 8/74 | 8/74 |\n| Grok 4.3 | 112 | 47/74 | 6/74 | 6/74 |\n| Gemini 3.5 Flash | 34 | 14/22 | 2/22 | 2/22 |\n| Fugu Ultra | 34 | 14/22 | 2/22 | 2/22 |\n| Tencent HY3 Preview | 0 | 0/0 | 0/0 | 0/0 |\n| Xiaomi MiMo v2.5 Pro | 0 | 0/0 | 0/0 | 0/0 |\n| MiniMax M3 | 0 | 0/0 | 0/0 | 0/0 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（2） | 1-0（2） | 1-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 1-2（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 海地 vs 苏格兰 | 0-1 | 0-2（2） | 2-0（0） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-3（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 库拉索 | 7-1 | 6-0（2） | 4-0（2） | 4-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 荷兰 vs 日本 | 2-2 | 1-1（2） | 2-1（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（2） | 1-0（2） | 1-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 奥地利 vs 约旦 | 3-1 | 3-0（2） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（2） | 2-1（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 瑞士 vs 波黑 | 4-1 | 2-1（2） | 2-0（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（2） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（2） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴西 vs 海地 | 3-0 | 4-0（2） | 2-0（2） | 3-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（2） | 3-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（2） | 2-1（5） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 突尼斯 vs 日本 | 0-4 | 0-2（2） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（2） | 1-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（2） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 1-1（2） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 新西兰 vs 埃及 | 1-3 | 0-2（2） | 0-1（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（2） | 2-1（2） | 2-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 法国 vs 伊拉克 | 3-0 | 4-0（2） | 3-1（2） | 3-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（2） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（2） | 1-2（5） | 1-2（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（2） | 2-0（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 3-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（2） | 1-2（2） | 0-1（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（2） | 2-0（2） | 1-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 0-0（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（2） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（2） | 0-1（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（2） | 2-0（2） | 3-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（2） | 0-1（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 0-1（0） | 1-2（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-25**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 库拉索 vs 科特迪瓦 | 0-2 | 0-2（5） | 0-1（2） | 0-2（5） | 0-3（2） | 0-3（2） | 未参赛 | 未参赛 | 未参赛 |\n| 厄瓜多尔 vs 德国 | 2-1 | 1-2（0） | 1-2（0） | 1-1（0） | 1-1（0） | 0-2（0） | 未参赛 | 未参赛 | 未参赛 |\n| 日本 vs 瑞典 | 1-1 | 2-1（0） | 2-1（0） | 1-1（5） | 3-1（0） | 2-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 突尼斯 vs 荷兰 | 1-3 | 0-3（2） | 1-3（5） | 0-3（2） | 0-4（2） | 0-4（2） | 未参赛 | 未参赛 | 未参赛 |\n| 土耳其 vs 美国 | 3-2 | 0-2（0） | 1-1（0） | 1-2（0） | 2-1（2） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 巴拉圭 vs 澳大利亚 | 0-0 | 1-1（2） | 0-0（5） | 1-1（2） | 0-1（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-26**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 挪威 vs 法国 | 1-4 | 2-3（2） | 2-3（2） | 2-2（0） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 塞内加尔 vs 伊拉克 | 5-0 | 3-0（2） | 3-1（2） | 2-0（2） | 3-1（2） | 4-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 埃及 vs 伊朗 | 1-1 | 2-0（0） | 1-1（5） | 1-1（5） | 1-0（0） | 0-0（2） | 未参赛 | 未参赛 | 未参赛 |\n| 新西兰 vs 比利时 | 1-5 | 1-2（2） | 1-2（2） | 0-2（2） | 0-3（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 佛得角 vs 沙特阿拉伯 | 0-0 | 2-1（0） | 2-1（0） | 1-1（2） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 |\n| 乌拉圭 vs 西班牙 | 0-1 | 1-2（2） | 0-2（2） | 1-2（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-27**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 巴拿马 vs 英格兰 | 0-2 | 0-3（2） | 0-2（5） | 0-2（5） | 0-3（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 克罗地亚 vs 加纳 | 2-1 | 2-1（5） | 1-1（0） | 1-0（2） | 2-1（5） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 阿尔及利亚 vs 奥地利 | 3-3 | 0-0（2） | 1-1（2） | 1-1（2） | 0-0（2） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 约旦 vs 阿根廷 | 1-3 | 0-3（2） | 0-2（2） | 0-2（2） | 1-3（5） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 哥伦比亚 vs 葡萄牙 | 0-0 | 1-2（0） | 1-1（2） | 1-1（2） | 1-2（0） | 0-0（5） | 未参赛 | 未参赛 | 未参赛 |\n| 刚果民主共和国 vs 乌兹别克斯坦 | 3-1 | 2-0（2） | 2-1（2） | 2-1（2） | 3-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-28**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 南非 vs 加拿大 | 0-1 | 1-2（2） | 1-1（0） | 1-2（2） | 0-2（2） | 0-1（5） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-29**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 巴西 vs 日本 | 2-1 | 2-0（2） | 2-1（5） | 2-0（2） | 1-0（2） | 3-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 巴拉圭 | 1-1 | 3-0（0） | 2-1（0） | 2-0（0） | 2-0（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 荷兰 vs 摩洛哥 | 1-1 | 2-1（0） | 1-1（5） | 1-1（5） | 2-1（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 |\n\n<!-- HISTORY-REVIEW-END -->\n\n═══════════ 资料文档结束 ═══════════\n\n文档末尾附有各模型（包括你自己）历次预测与实际赛果的对照战绩，请在预测前先复盘这些记录，再给出你独立的判断。\n\n请预测每场淘汰赛的最终晋级方/最终获胜方与90分钟比分。winner 表示最终晋级方，只能是 home 或 away；score 表示90分钟比分，可以是平局。严格按以下 JSON 数组格式输出，不要输出任何其他文字，不要用 markdown 代码块包裹：\n[{\"match_id\": \"...\", \"winner\": \"home\" 或 \"away\", \"score\": \"90分钟主队进球-客队进球（如 1-1 或 2-1）\", \"confidence\": 1到100的整数, \"reasoning_zh\": \"50字以内中文理由\"}]\n\nmatch_id 必须逐一使用以下 ID（共 3 场，每场恰好一条预测）：\n2026-06-30-CIV-NOR\n2026-06-30-FRA-SWE\n2026-06-30-MEX-ECU"
+   },
+   "generated_at": "2026-06-30T06:43:18.625Z",
+   "model_runs": {
+    "x-ai/grok-4.3": {
+     "status": "ok",
+     "latency_s": 9,
+     "via": "openrouter",
+     "error": null
+    },
+    "moonshotai/kimi-k2.6": {
+     "status": "ok",
+     "latency_s": 190,
+     "via": "openrouter",
+     "error": null
+    },
+    "anthropic/claude-fable-5": {
+     "status": "ok",
+     "latency_s": 9,
+     "via": "openrouter",
+     "error": null
+    },
+    "google/gemini-3.5-flash": {
+     "status": "ok",
+     "latency_s": 13,
+     "via": "openrouter",
+     "error": null
+    },
+    "sakana/fugu-ultra": {
+     "status": "ok",
+     "latency_s": 13,
+     "via": "sakana",
+     "error": null
+    },
+    "tencent/hy3-preview": {
+     "status": "ok",
+     "latency_s": 42,
+     "via": "openrouter",
+     "error": null
+    },
+    "xiaomi/mimo-v2.5-pro": {
+     "status": "ok",
+     "latency_s": 35,
+     "via": "openrouter",
+     "error": null
+    },
+    "minimax/minimax-m3": {
+     "status": "ok",
+     "latency_s": 34,
+     "via": "openrouter",
+     "error": null
+    }
+   },
+   "context_md": "# 2026-06-30 世界杯比赛资料文档\n\n本文档汇总了 2026-06-30（比赛日，北美当地时间）FIFA 2026 世界杯全部 3 场32强淘汰赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与赛事形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-06-30-CIV-NOR`：32强 Match 78 科特迪瓦(Ivory Coast, 主) vs 挪威(Norway, 客)\n- `2026-06-30-FRA-SWE`：32强 Match 77 法国(France, 主) vs 瑞典(Sweden, 客)\n- `2026-06-30-MEX-ECU`：32强 Match 79 墨西哥(Mexico, 主) vs 厄瓜多尔(Ecuador, 客)\n\n---\n\n## 32强 Match 78 · 科特迪瓦 vs 挪威（match_id: `2026-06-30-CIV-NOR`）\n\n- 开球：2026-06-30 12:00（达拉斯当地时间 CDT）｜北京时间 2026-07-01 01:00（北京时间周三凌晨）\n- 场地：Dallas Stadium（AT&T Stadium），美国德州阿灵顿/达拉斯赛区\n\n### 科特迪瓦（Ivory Coast，主队）\n- FIFA 排名：第 33 位\n- 晋级之路：非洲区预选赛F组头名直接晋级；小组赛E组第二，1-0胜厄瓜多尔、1-2负德国、2-0胜库拉索，2胜1负积6分，队史首次进入世界杯淘汰赛。\n- 主教练：埃梅尔斯·法埃 (Emerse Faé)\n- 世界杯历史：队史第4次参加世界杯，此前三届均止步小组赛；2023非洲杯冠军班底，本届已经刷新队史世界杯最好成绩。\n- 核心球员：\n  - Amad Diallo 阿马德·迪亚洛（边锋/攻击手，曼联）\n  - Yan Diomandé 扬·迪奥曼德（边锋/前锋，莱比锡）\n  - Franck Kessié 弗兰克·凯西埃（中场，吉达国民）\n  - Simon Adingra 西蒙·阿丁格拉（边锋，布莱顿）\n  - Wilfried Singo 威尔弗里德·辛戈（后卫，摩纳哥）\n  - Ousmane Diomandé 奥斯曼·迪奥曼德（中后卫，葡萄牙体育）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-25 vs 库拉索（世界杯E组第3轮）：2-0（W）\n  - 2026-06-20 vs 德国（世界杯E组第2轮）：1-2（L）\n  - 2026-06-14 vs 厄瓜多尔（世界杯E组第1轮）：1-0（W）\n  - 2026-06-04 vs 法国（友谊赛）：2-1（W）\n  - 2026-03-31 vs 苏格兰（友谊赛）：1-0（W）\n\n### 挪威（Norway，客队）\n- FIFA 排名：第 31 位\n- 晋级之路：欧洲区预选赛I组头名直接晋级，8战全胜；小组赛I组第二，4-1胜伊拉克、3-2胜塞内加尔、1-4负法国，2胜1负积6分晋级。\n- 主教练：斯塔勒·索尔巴肯 (Ståle Solbakken)\n- 世界杯历史：第4次参加世界杯，自1998年以来首次重返正赛；1998年曾进入16强，本届由哈兰德和厄德高领衔。\n- 核心球员：\n  - Erling Haaland 埃尔林·哈兰德（中锋，曼城）\n  - Martin Ødegaard 马丁·厄德高（中场/前腰，阿森纳）\n  - Alexander Sørloth 亚历山大·瑟尔洛特（前锋，马德里竞技）\n  - Antonio Nusa 安东尼奥·努萨（边锋，莱比锡）\n  - Sander Berge 桑德·贝格（中场，富勒姆）\n  - Kristoffer Ajer 克里斯托弗·阿耶尔（后卫，布伦特福德）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-26 vs 法国（世界杯I组第3轮）：1-4（L）\n  - 2026-06-22 vs 塞内加尔（世界杯I组第2轮）：3-2（W）\n  - 2026-06-16 vs 伊拉克（世界杯I组第1轮）：4-1（W）\n  - 2026-06-07 vs 摩洛哥（友谊赛）：1-1（D）\n  - 2026-06-01 vs 瑞典（友谊赛）：3-1（W）\n\n### 博彩赔率（1X2，十进制）\n- NY Post / Kalshi 赛前市场快照：主胜 3.2 / 平 — / 客胜 2.1（home=科特迪瓦；公开页未完整列出90分钟1X2，晋级市场与赛前报道均显示挪威更被看好。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。未查到两队成年国家队正式大赛交锋记录；本场是双方首次在世界杯淘汰赛相遇。\n\n### 近期新闻\n- [Ivory Coast] 科特迪瓦队史首次进入世界杯淘汰赛：小组赛击败厄瓜多尔和库拉索，只输给德国一球，三场只丢2球，防守纪律和边路速度是主要卖点。（来源：FIFA group data / project results）\n- [Ivory Coast] 阿马德和扬·迪奥曼德状态活跃：科特迪瓦三场小组赛都能制造边路冲击，末轮2-0库拉索为淘汰赛带来信心。（来源：FIFA group data）\n- [Norway] 哈兰德小组赛继续稳定进球威胁：挪威前两轮合计打入7球，哈兰德、厄德高、瑟尔洛特构成最直接的进攻轴线。（来源：FIFA group data）\n- [Norway] 末轮惨败法国暴露防线问题：1-4负法国让挪威防线稳定性受到考验，淘汰赛若被科特迪瓦打出反击，比赛会很难控。（来源：project results）\n\n### 赛事形势\n- 这是E组第二对I组第二的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵葡萄牙与克罗地亚之间的胜者。\n\n### 综述\n- 挪威前场个人能力更突出，哈兰德和厄德高能够把少量机会转成高质量射门；科特迪瓦则更均衡，边路速度、身体对抗和小组赛防守质量都不错。关键变量是挪威能否从1-4输法国的防线波动里恢复；如果科特迪瓦先顶住前30分钟，比赛有被拖成低比分甚至90分钟平局的空间。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- data/2026-06-14/matches.json\n- data/2026-06-20/matches.json\n- data/2026-06-25/matches.json\n- data/2026-06-26/matches.json\n\n---\n\n## 32强 Match 77 · 法国 vs 瑞典（match_id: `2026-06-30-FRA-SWE`）\n\n- 开球：2026-06-30 17:00（新泽西当地时间 EDT）｜北京时间 2026-07-01 05:00（北京时间周三清晨）\n- 场地：New York/New Jersey Stadium（MetLife Stadium），美国新泽西州东卢瑟福\n\n### 法国（France，主队）\n- FIFA 排名：第 3 位\n- 晋级之路：欧洲区预选赛D组头名直接晋级；小组赛I组第一，3-1胜塞内加尔、3-0胜伊拉克、4-1胜挪威，3战全胜积9分、10进2失。\n- 主教练：迪迪埃·德尚 (Didier Deschamps)\n- 世界杯历史：两届世界杯冠军，2018冠军、2022亚军；本届是德尚告别周期，仍是争冠热门之一。\n- 核心球员：\n  - Kylian Mbappé 基利安·姆巴佩（前锋/队长，皇家马德里）\n  - Ousmane Dembélé 奥斯曼·登贝莱（边锋/攻击手，巴黎圣日耳曼）\n  - Michael Olise 迈克尔·奥利塞（攻击中场/边锋，拜仁慕尼黑）\n  - Aurélien Tchouaméni 奥雷利安·楚阿梅尼（中场，皇家马德里）\n  - William Saliba 威廉·萨利巴（中后卫，阿森纳）\n  - Mike Maignan 迈克·迈尼昂（门将，AC米兰）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-26 vs 挪威（世界杯I组第3轮）：4-1（W）\n  - 2026-06-22 vs 伊拉克（世界杯I组第2轮）：3-0（W）\n  - 2026-06-16 vs 塞内加尔（世界杯I组第1轮）：3-1（W）\n  - 2026-06-08 vs 北爱尔兰（友谊赛）：3-1（W）\n  - 2026-06-04 vs 科特迪瓦（友谊赛）：1-2（L）\n\n### 瑞典（Sweden，客队）\n- FIFA 排名：第 38 位\n- 晋级之路：欧洲区附加赛晋级；小组赛F组第三，5-1胜突尼斯、1-5负荷兰、1-1平日本，4分以最佳第三名身份晋级。\n- 主教练：格雷厄姆·波特 (Graham Potter)\n- 世界杯历史：第13次参加世界杯，历史最佳为1958年亚军、1994年季军；2018年曾进八强。\n- 核心球员：\n  - Alexander Isak 亚历山大·伊萨克（前锋，利物浦）\n  - Viktor Gyökeres 维克托·约凯雷斯（中锋，阿森纳）\n  - Anthony Elanga 安东尼·埃兰加（边锋，纽卡斯尔联）\n  - Lucas Bergvall 卢卡斯·贝里瓦尔（中场，热刺）\n  - Yasin Ayari 亚辛·阿亚里（中场，布莱顿）\n  - Victor Lindelöf 维克托·林德洛夫（中后卫，阿斯顿维拉）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-25 vs 日本（世界杯F组第3轮）：1-1（D）\n  - 2026-06-20 vs 荷兰（世界杯F组第2轮）：1-5（L）\n  - 2026-06-14 vs 突尼斯（世界杯F组第1轮）：5-1（W）\n  - 2026-06-06 vs 希腊（友谊赛）：2-2（D）\n  - 2026-06-01 vs 挪威（友谊赛）：1-3（L）\n\n### 博彩赔率（1X2，十进制）\n- The Sun / talkSPORT 赛前页：主胜 1.35 / 平 5 / 客胜 8.5（home=法国；公开赛前页普遍把法国列为明显热门，瑞典主要依靠双前锋反击制造变量。）\n\n### 历史交锋（H2H）\n- 共交手 22 次。法国与瑞典历史交锋较多，法国总体略占优；最近正式交锋集中在欧洲赛事和欧国联，瑞典并非没有制造冷门的历史。\n\n### 近期新闻\n- [France] 法国小组赛三战全胜：法国三场打入10球，末轮4-1击败挪威，姆巴佩和登贝莱领衔的前场状态非常稳定。（来源：FIFA group data / project results）\n- [France] 德尚阵容深度明显：法国从中后场到边路都有充足轮换，淘汰赛容错率高于大多数球队。（来源：project scouting notes）\n- [Sweden] 瑞典进攻点集中在伊萨克和约凯雷斯：瑞典首轮5-1突尼斯展示火力，但1-5负荷兰暴露防线，末轮1-1日本才拿到最佳第三晋级资格。（来源：FIFA group data / project results）\n- [Sweden] 波特需要压低比赛节奏：对法国若开放对攻，瑞典防线会承压；更现实的路线是中低位防守后找双前锋反击。（来源：project tactical notes）\n\n### 赛事形势\n- 这是I组第一对最佳第三名的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵德国与巴拉圭之间的胜者；由于巴拉圭已淘汰德国，本场胜者将对阵巴拉圭。\n\n### 综述\n- 法国是本日纸面优势最明确的一队，三场小组赛攻防都在线，姆巴佩的速度会直接考验瑞典身后空间。瑞典的优势是伊萨克和约凯雷斯两名前锋个人能力够强，但球队对荷兰的1-5说明防线抗压有隐患。90分钟关键在法国能否限制瑞典第一传；只要不让比赛变成来回冲刺，法国晋级概率明显更高。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- https://www.thesun.co.uk/sport/39572309/world-cup-cristiano-ronaldo-luka-modric-lionel-messi-england/\n- data/2026-06-14/matches.json\n- data/2026-06-22/matches.json\n- data/2026-06-25/matches.json\n- data/2026-06-26/matches.json\n\n---\n\n## 32强 Match 79 · 墨西哥 vs 厄瓜多尔（match_id: `2026-06-30-MEX-ECU`）\n\n- 开球：2026-06-30 19:00（墨西哥城当地时间 CST）｜北京时间 2026-07-01 09:00（北京时间周三上午）\n- 场地：Mexico City Stadium（Estadio Azteca），墨西哥墨西哥城\n\n### 墨西哥（Mexico，主队）\n- FIFA 排名：第 14 位\n- 晋级之路：东道主自动晋级；小组赛A组第一，1-0胜韩国、2-0胜南非、3-0胜捷克，3战全胜且零失球。\n- 主教练：哈维尔·阿吉雷 (Javier Aguirre)\n- 世界杯历史：第18次参加世界杯，1994年以来多次进入16强但长期未过第五场；本届作为东道主之一冲击突破。\n- 核心球员：\n  - Santiago Giménez 圣地亚哥·希门尼斯（中锋，AC米兰）\n  - Raúl Jiménez 劳尔·希门尼斯（前锋，富勒姆）\n  - Edson Álvarez 埃德森·阿尔瓦雷斯（后腰/队长，费内巴切）\n  - Johan Vásquez 约翰·巴斯克斯（中后卫，热那亚）\n  - Orbelín Pineda 奥尔贝林·皮内达（中场，雅典AEK）\n  - Gilberto Mora 希尔伯托·莫拉（攻击中场，蒂华纳）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-24 vs 捷克（世界杯A组第3轮）：3-0（W）\n  - 2026-06-19 vs 南非（世界杯A组第2轮）：2-0（W）\n  - 2026-06-13 vs 韩国（世界杯A组第1轮）：1-0（W）\n  - 2026-06-05 vs 塞尔维亚（友谊赛）：5-1（W）\n  - 2026-05-30 vs 澳大利亚（友谊赛）：1-0（W）\n\n### 厄瓜多尔（Ecuador，客队）\n- FIFA 排名：第 24 位\n- 晋级之路：南美区预选赛第二名直接晋级；小组赛E组第三，0-1负科特迪瓦、0-0平库拉索、2-1胜德国，4分以最佳第三名身份晋级。\n- 主教练：塞巴斯蒂安·贝卡塞塞 (Sebastián Beccacece)\n- 世界杯历史：队史第5次参加世界杯，最佳成绩为2006年16强；本届继续依靠南美区最稳防线和强中后场。\n- 核心球员：\n  - Moisés Caicedo 莫伊塞斯·卡塞多（中场，切尔西）\n  - Willian Pacho 威廉·帕乔（中后卫，巴黎圣日耳曼）\n  - Piero Hincapié 皮耶罗·因卡皮耶（中后卫/左后卫，阿森纳）\n  - Pervis Estupiñán 佩尔维斯·埃斯图皮尼安（左后卫，布莱顿）\n  - Enner Valencia 恩内尔·巴伦西亚（前锋/队长，巴西国际）\n  - Kendry Páez 肯德里·派斯（攻击中场，切尔西）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-25 vs 德国（世界杯E组第3轮）：2-1（W）\n  - 2026-06-20 vs 库拉索（世界杯E组第2轮）：0-0（D）\n  - 2026-06-14 vs 科特迪瓦（世界杯E组第1轮）：0-1（L）\n  - 2026-06-07 vs 危地马拉（友谊赛）：3-0（W）\n  - 2026-05-30 vs 沙特阿拉伯（友谊赛）：2-1（W）\n\n### 博彩赔率（1X2，十进制）\n- NY Post / Kalshi 赛前市场快照：主胜 1.65 / 平 — / 客胜 4（home=墨西哥；页面显示墨西哥约 -154、厄瓜多尔约 +300，未完整列出平局价格。本项目淘汰赛预测最终晋级方，同时给出90分钟比分。）\n\n### 历史交锋（H2H）\n- 共交手 26 次。两队交锋频繁，墨西哥历史战绩占优，但近年厄瓜多尔对中北美球队的防守韧性更强；2024美洲杯双方0-0战平，厄瓜多尔凭小组形势晋级。\n\n### 近期新闻\n- [Mexico] 墨西哥三战全胜零失球：作为东道主，墨西哥小组赛1-0韩国、2-0南非、3-0捷克，攻防稳定且有主场情绪加成。（来源：FIFA group data / project results）\n- [Mexico] 墨西哥城海拔和主场氛围是额外变量：比赛在阿兹特克体育场进行，墨西哥更适应环境，厄瓜多尔也有高原经验，因此优势主要体现在观众压力而非单纯体能。（来源：FIFA venue data / tactical notes）\n- [Ecuador] 厄瓜多尔末轮击败德国：2-1击败德国让厄瓜多尔从小组边缘进入淘汰赛，卡塞多和中后场强度仍是核心。（来源：project results）\n- [Ecuador] 进攻稳定性仍是疑问：前两轮0-1科特迪瓦、0-0库拉索，说明厄瓜多尔在阵地战打开局面时并不轻松。（来源：FIFA group data）\n\n### 赛事形势\n- 这是A组第一对最佳第三名的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵加拿大与摩洛哥之间的胜者；由于摩洛哥已淘汰荷兰，本场胜者将对阵摩洛哥。\n\n### 综述\n- 墨西哥小组赛三战全胜且零失球，节奏、主场情绪和防守结构都在线；厄瓜多尔刚击败德国，抗强队能力很有说服力，但进攻端前两轮打不开局面的老问题仍在。90分钟关键在墨西哥能否先破密集防守；如果迟迟没有进球，厄瓜多尔有把比赛拖入加时或点球的能力。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- https://nypost.com/2026/06/29/betting/mexico-vs-ecuador-world-cup-prediction-odds-picks-best-bet-for-round-of-32/\n- data/2026-06-14/matches.json\n- data/2026-06-18/matches.json\n- data/2026-06-20/matches.json\n- data/2026-06-24/matches.json\n- data/2026-06-25/matches.json\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 18 个比赛日、共 74 场比赛中，8 个当前活跃模型的历次预测、实际赛果与所得分数（结算规则：方向正确 2 分 + 90 分钟比分正确 3 分，两项都对 5 分；两项都错或未预测 0 分；模型加入前的未参赛场次不计入该模型分母）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 方向命中 | 比分命中 | 两项全中 |\n|  ---  |  ---  |  ---  |  ---  |  ---  |\n| Claude Opus 4.8 | 133 | 50/74 | 11/74 | 11/74 |\n| Kimi K2.7 | 120 | 48/74 | 8/74 | 8/74 |\n| Grok 4.3 | 112 | 47/74 | 6/74 | 6/74 |\n| Gemini 3.5 Flash | 34 | 14/22 | 2/22 | 2/22 |\n| Fugu Ultra | 34 | 14/22 | 2/22 | 2/22 |\n| Tencent HY3 Preview | 0 | 0/0 | 0/0 | 0/0 |\n| Xiaomi MiMo v2.5 Pro | 0 | 0/0 | 0/0 | 0/0 |\n| MiniMax M3 | 0 | 0/0 | 0/0 | 0/0 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（2） | 1-0（2） | 1-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 1-2（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 海地 vs 苏格兰 | 0-1 | 0-2（2） | 2-0（0） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-3（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 库拉索 | 7-1 | 6-0（2） | 4-0（2） | 4-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 荷兰 vs 日本 | 2-2 | 1-1（2） | 2-1（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（2） | 1-0（2） | 1-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 奥地利 vs 约旦 | 3-1 | 3-0（2） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（2） | 2-1（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 瑞士 vs 波黑 | 4-1 | 2-1（2） | 2-0（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（2） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（2） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴西 vs 海地 | 3-0 | 4-0（2） | 2-0（2） | 3-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（2） | 3-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（2） | 2-1（5） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 突尼斯 vs 日本 | 0-4 | 0-2（2） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（2） | 1-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（2） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 1-1（2） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 新西兰 vs 埃及 | 1-3 | 0-2（2） | 0-1（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（2） | 2-1（2） | 2-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 法国 vs 伊拉克 | 3-0 | 4-0（2） | 3-1（2） | 3-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（2） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（2） | 1-2（5） | 1-2（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（2） | 2-0（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 3-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（2） | 1-2（2） | 0-1（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（2） | 2-0（2） | 1-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 0-0（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（2） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（2） | 0-1（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（2） | 2-0（2） | 3-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（2） | 0-1（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 0-1（0） | 1-2（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-25**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 库拉索 vs 科特迪瓦 | 0-2 | 0-2（5） | 0-1（2） | 0-2（5） | 0-3（2） | 0-3（2） | 未参赛 | 未参赛 | 未参赛 |\n| 厄瓜多尔 vs 德国 | 2-1 | 1-2（0） | 1-2（0） | 1-1（0） | 1-1（0） | 0-2（0） | 未参赛 | 未参赛 | 未参赛 |\n| 日本 vs 瑞典 | 1-1 | 2-1（0） | 2-1（0） | 1-1（5） | 3-1（0） | 2-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 突尼斯 vs 荷兰 | 1-3 | 0-3（2） | 1-3（5） | 0-3（2） | 0-4（2） | 0-4（2） | 未参赛 | 未参赛 | 未参赛 |\n| 土耳其 vs 美国 | 3-2 | 0-2（0） | 1-1（0） | 1-2（0） | 2-1（2） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 巴拉圭 vs 澳大利亚 | 0-0 | 1-1（2） | 0-0（5） | 1-1（2） | 0-1（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-26**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 挪威 vs 法国 | 1-4 | 2-3（2） | 2-3（2） | 2-2（0） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 塞内加尔 vs 伊拉克 | 5-0 | 3-0（2） | 3-1（2） | 2-0（2） | 3-1（2） | 4-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 埃及 vs 伊朗 | 1-1 | 2-0（0） | 1-1（5） | 1-1（5） | 1-0（0） | 0-0（2） | 未参赛 | 未参赛 | 未参赛 |\n| 新西兰 vs 比利时 | 1-5 | 1-2（2） | 1-2（2） | 0-2（2） | 0-3（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 佛得角 vs 沙特阿拉伯 | 0-0 | 2-1（0） | 2-1（0） | 1-1（2） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 |\n| 乌拉圭 vs 西班牙 | 0-1 | 1-2（2） | 0-2（2） | 1-2（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-27**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 巴拿马 vs 英格兰 | 0-2 | 0-3（2） | 0-2（5） | 0-2（5） | 0-3（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 克罗地亚 vs 加纳 | 2-1 | 2-1（5） | 1-1（0） | 1-0（2） | 2-1（5） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 阿尔及利亚 vs 奥地利 | 3-3 | 0-0（2） | 1-1（2） | 1-1（2） | 0-0（2） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 约旦 vs 阿根廷 | 1-3 | 0-3（2） | 0-2（2） | 0-2（2） | 1-3（5） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 哥伦比亚 vs 葡萄牙 | 0-0 | 1-2（0） | 1-1（2） | 1-1（2） | 1-2（0） | 0-0（5） | 未参赛 | 未参赛 | 未参赛 |\n| 刚果民主共和国 vs 乌兹别克斯坦 | 3-1 | 2-0（2） | 2-1（2） | 2-1（2） | 3-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-28**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 南非 vs 加拿大 | 0-1 | 1-2（2） | 1-1（0） | 1-2（2） | 0-2（2） | 0-1（5） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-29**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 巴西 vs 日本 | 2-1 | 2-0（2） | 2-1（5） | 2-0（2） | 1-0（2） | 3-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 巴拉圭 | 1-1 | 3-0（0） | 2-1（0） | 2-0（0） | 2-0（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 荷兰 vs 摩洛哥 | 1-1 | 2-1（0） | 1-1（5） | 1-1（5） | 2-1（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 |\n\n<!-- HISTORY-REVIEW-END -->\n"
+  },
+  {
+   "date": "2026-07-01",
+   "matches": [
+    {
+     "id": "2026-07-01-ENG-COD",
+     "group": "32强 Match 80",
+     "home": {
+      "code": "ENG",
+      "en": "England",
+      "zh": "英格兰",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+     },
+     "away": {
+      "code": "COD",
+      "en": "DR Congo",
+      "zh": "刚果民主共和国",
+      "flag": "🇨🇩"
+     },
+     "kickoff_local": "2026-07-01 12:00（亚特兰大当地时间 EDT）",
+     "kickoff_beijing": "2026-07-02 00:00（北京时间周四零点）",
+     "venue": "Atlanta Stadium（Mercedes-Benz Stadium），美国佐治亚州亚特兰大",
+     "teams": {
+      "England": {
+       "name_zh": "英格兰",
+       "fifa_ranking": 4,
+       "qualified_via": "欧洲区K组头名直接晋级，预选赛8战全胜且一球未失；小组赛L组第一，4-2胜克罗地亚、0-0平加纳、2-0胜巴拿马，2胜1平积7分。",
+       "coach": "托马斯·图赫尔 (Thomas Tuchel)",
+       "wc_history": "1966年世界杯冠军；近两届分别为2018年第四名、2022年八强。本届小组赛以头名进入32强，目标继续冲击冠军。",
+       "key_players": [
+        {
+         "name": "Harry Kane 哈里·凯恩",
+         "pos": "前锋/队长",
+         "club": "拜仁慕尼黑"
+        },
+        {
+         "name": "Jude Bellingham 裘德·贝林厄姆",
+         "pos": "中场",
+         "club": "皇家马德里"
+        },
+        {
+         "name": "Declan Rice 德克兰·赖斯",
+         "pos": "中场",
+         "club": "阿森纳"
+        },
+        {
+         "name": "Bukayo Saka 布卡约·萨卡",
+         "pos": "边锋",
+         "club": "阿森纳"
+        },
+        {
+         "name": "Marcus Rashford 马库斯·拉什福德",
+         "pos": "边锋/前锋",
+         "club": "巴塞罗那"
+        },
+        {
+         "name": "Jordan Pickford 乔丹·皮克福德",
+         "pos": "门将",
+         "club": "埃弗顿"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-27",
+         "opponent": "巴拿马（世界杯L组第3轮）",
+         "score": "2-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-23",
+         "opponent": "加纳（世界杯L组第2轮）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-17",
+         "opponent": "克罗地亚（世界杯L组第1轮）",
+         "score": "4-2",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-10",
+         "opponent": "哥斯达黎加（热身赛）",
+         "score": "3-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "新西兰（热身赛）",
+         "score": "1-0",
+         "result": "W"
+        }
+       ]
+      },
+      "DR Congo": {
+       "name_zh": "刚果民主共和国",
+       "fifa_ranking": 46,
+       "qualified_via": "非洲区B组第二，随后通过非洲附加赛和洲际附加赛晋级；小组赛K组第三，1-1平葡萄牙、0-1负哥伦比亚、3-1胜乌兹别克斯坦，以最佳第三名进入32强。",
+       "coach": "塞巴斯蒂安·德萨布尔 (Sébastien Desabre)",
+       "wc_history": "继1974年后第二次参加世界杯（当时以扎伊尔名义参赛）。本届已拿到队史世界杯首分并首次进入淘汰赛。",
+       "key_players": [
+        {
+         "name": "Yoane Wissa 约阿内·维萨",
+         "pos": "前锋",
+         "club": "纽卡斯尔联/布伦特福德背景"
+        },
+        {
+         "name": "Cédric Bakambu 塞德里克·巴坎布",
+         "pos": "前锋",
+         "club": "皇家贝蒂斯"
+        },
+        {
+         "name": "Chancel Mbemba 尚塞尔·姆本巴",
+         "pos": "中后卫/队长",
+         "club": "里尔"
+        },
+        {
+         "name": "Aaron Wan-Bissaka 阿隆·万-比萨卡",
+         "pos": "右后卫",
+         "club": "西汉姆联"
+        },
+        {
+         "name": "Noah Sadiki 诺亚·萨迪基",
+         "pos": "中场",
+         "club": "圣吉罗斯"
+        },
+        {
+         "name": "Lionel Mpasi 利昂内尔·姆帕西",
+         "pos": "门将",
+         "club": "罗德兹"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-27",
+         "opponent": "乌兹别克斯坦（世界杯K组第3轮）",
+         "score": "3-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-23",
+         "opponent": "哥伦比亚（世界杯K组第2轮）",
+         "score": "0-1",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-17",
+         "opponent": "葡萄牙（世界杯K组第1轮）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-09",
+         "opponent": "智利（热身赛）",
+         "score": "1-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-03",
+         "opponent": "丹麦（热身赛）",
+         "score": "0-0",
+         "result": "D"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "The Sun Ireland / RTE赛前页（分数赔率换算十进制）",
+       "home_win": 1.25,
+       "draw": 5,
+       "away_win": 13,
+       "note": "home=英格兰；原始英格兰1/4、平4/1、刚果民主共和国12/1。"
+      },
+      {
+       "source": "The Guardian / Opta赛前模型",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "Opta给英格兰90分钟胜率73.9%，但提醒刚果金的5-3-2低位防守会提高破局难度。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 0,
+      "summary_zh": "两队成年国家队此前没有正式交锋记录，本场是首次世界杯淘汰赛相遇。"
+     },
+     "news": [
+      {
+       "team": "England",
+       "headline_zh": "英格兰被看好，但小组赛破密防效率一般",
+       "detail_zh": "图赫尔要求球队面对刚果金低位防守时保持耐心；英格兰曾被加纳0-0限制，巴拿马一战也属于慢热取胜。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "England",
+       "headline_zh": "凯恩、贝林厄姆仍是进攻核心",
+       "detail_zh": "英格兰前场个人能力明显占优，但萨卡、赖斯等球员健康状态仍被赛前报道提及，右后卫位置也有伤情背景。",
+       "source": "The Guardian / talkSPORT"
+      },
+      {
+       "team": "DR Congo",
+       "headline_zh": "德萨布尔改打五后卫，防守指标很突出",
+       "detail_zh": "刚果金面对葡萄牙、哥伦比亚和丹麦等强队时以5-3-2压低空间，三场只丢2球，限制高质量机会能力突出。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "DR Congo",
+       "headline_zh": "维萨带队完成出线关键战",
+       "detail_zh": "刚果金末轮3-1逆转乌兹别克斯坦，维萨梅开二度，球队带着反击信心进入淘汰赛。",
+       "source": "FourFourTwo / project results"
+      }
+     ],
+     "group_context_zh": "这是L组第一对K组第三的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵墨西哥。",
+     "summary_zh": "英格兰纸面实力、排名和阵容深度都明显占优，凯恩和贝林厄姆能提供高质量终结与二线冲击；但刚果金不是普通弱旅，德萨布尔的五后卫低位已经让葡萄牙和哥伦比亚都踢得不轻松。关键在英格兰能否早破局，若久攻不下，刚果金有把90分钟拖成低比分甚至平局的空间。",
+     "sources": [
+      "https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en",
+      "https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en",
+      "https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32",
+      "https://www.theguardian.com/football/2026/jul/01/dr-congo-tactics-england-sebastien-desabre-world-cup-last-32",
+      "https://www.theguardian.com/football/2026/jul/01/thomas-tuchel-warns-england-dr-congo-world-cup-2026-last-32",
+      "https://www.thesun.ie/sport/17207505/irish-tv-channel-england-dr-congo-stream-time-odds/",
+      "data/2026-06-23/matches.json",
+      "data/2026-06-27/matches.json"
+     ],
+     "result": {
+      "id": "2026-07-01-ENG-COD",
+      "score": "2-1",
+      "winner": "home"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-ENG-COD",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 82,
+        "reasoning_zh": "复议前基准预测：英格兰晋级，90分钟 2-0"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-ENG-COD",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 85,
+        "reasoning_zh": "复议前基准预测：英格兰晋级，90分钟 2-1"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-ENG-COD",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 78,
+        "reasoning_zh": "复议前基准预测：英格兰晋级，90分钟 2-0"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-ENG-COD",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 1,
+        "reasoning_zh": "复议前基准预测：英格兰晋级，90分钟 1-0"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-ENG-COD",
+        "winner": "home",
+        "score": "3-0",
+        "confidence": 72,
+        "reasoning_zh": "复议前基准预测：英格兰晋级，90分钟 3-0"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-ENG-COD",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 85,
+        "reasoning_zh": "复议前基准预测：英格兰晋级，90分钟 1-0"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-ENG-COD",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 1,
+        "reasoning_zh": "复议前基准预测：英格兰晋级，90分钟 2-1"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-ENG-COD",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 7,
+        "reasoning_zh": "复议前基准预测：英格兰晋级，90分钟 2-1"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-07-01-BEL-SEN",
+     "group": "32强 Match 82",
+     "home": {
+      "code": "BEL",
+      "en": "Belgium",
+      "zh": "比利时",
+      "flag": "🇧🇪"
+     },
+     "away": {
+      "code": "SEN",
+      "en": "Senegal",
+      "zh": "塞内加尔",
+      "flag": "🇸🇳"
+     },
+     "kickoff_local": "2026-07-01 13:00（西雅图当地时间 PDT）",
+     "kickoff_beijing": "2026-07-02 04:00（北京时间周四凌晨）",
+     "venue": "Seattle Stadium（Lumen Field），美国华盛顿州西雅图",
+     "teams": {
+      "Belgium": {
+       "name_zh": "比利时",
+       "fifa_ranking": 9,
+       "qualified_via": "欧洲区预选赛出线；小组赛G组第一，1-1平埃及、0-0平伊朗、5-1胜新西兰，1胜2平积5分。",
+       "coach": "鲁迪·加西亚 (Rudi Garcia)",
+       "wc_history": "世界杯常客，最佳战绩为2018年季军。本届开局进攻迟滞，但末轮5-1击败新西兰后以小组第一晋级。",
+       "key_players": [
+        {
+         "name": "Kevin De Bruyne 凯文·德布劳内",
+         "pos": "攻击型中场",
+         "club": "那不勒斯"
+        },
+        {
+         "name": "Romelu Lukaku 罗梅卢·卢卡库",
+         "pos": "前锋",
+         "club": "那不勒斯"
+        },
+        {
+         "name": "Thibaut Courtois 蒂博·库尔图瓦",
+         "pos": "门将",
+         "club": "皇家马德里"
+        },
+        {
+         "name": "Jérémy Doku 杰里米·多库",
+         "pos": "边锋",
+         "club": "曼城"
+        },
+        {
+         "name": "Leandro Trossard 莱安德罗·特罗萨德",
+         "pos": "边锋/前锋",
+         "club": "阿森纳"
+        },
+        {
+         "name": "Amadou Onana 阿马杜·奥纳纳",
+         "pos": "后腰",
+         "club": "阿斯顿维拉"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-26",
+         "opponent": "新西兰（世界杯G组第3轮）",
+         "score": "5-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-21",
+         "opponent": "伊朗（世界杯G组第2轮）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-15",
+         "opponent": "埃及（世界杯G组第1轮）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-02",
+         "opponent": "克罗地亚（热身赛）",
+         "score": "2-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-28",
+         "opponent": "美国（友谊赛）",
+         "score": "5-2",
+         "result": "W"
+        }
+       ]
+      },
+      "Senegal": {
+       "name_zh": "塞内加尔",
+       "fifa_ranking": 15,
+       "qualified_via": "非洲区B组头名直接晋级；小组赛I组第三，1-3负法国、2-3负挪威、5-0胜伊拉克，以最佳第三名身份晋级。",
+       "coach": "帕佩·蒂亚乌 (Pape Thiaw)",
+       "wc_history": "第4次参加世界杯；2002年首秀闯入八强，2022年进入16强。本届从法国、挪威所在强组突围。",
+       "key_players": [
+        {
+         "name": "Sadio Mané 萨迪奥·马内",
+         "pos": "前锋",
+         "club": "利雅得胜利"
+        },
+        {
+         "name": "Nicolas Jackson 尼古拉斯·杰克逊",
+         "pos": "前锋",
+         "club": "拜仁慕尼黑/切尔西背景"
+        },
+        {
+         "name": "Ismaïla Sarr 伊斯马伊拉·萨尔",
+         "pos": "边锋",
+         "club": "水晶宫"
+        },
+        {
+         "name": "Kalidou Koulibaly 卡利杜·库利巴利",
+         "pos": "中后卫/队长",
+         "club": "利雅得新月"
+        },
+        {
+         "name": "Pape Matar Sarr 帕佩·马塔尔·萨尔",
+         "pos": "中场",
+         "club": "托特纳姆热刺"
+        },
+        {
+         "name": "Édouard Mendy 爱德华·门迪",
+         "pos": "门将",
+         "club": "吉达国民"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-26",
+         "opponent": "伊拉克（世界杯I组第3轮）",
+         "score": "5-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-22",
+         "opponent": "挪威（世界杯I组第2轮）",
+         "score": "2-3",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-16",
+         "opponent": "法国（世界杯I组第1轮）",
+         "score": "1-3",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-09",
+         "opponent": "沙特阿拉伯（热身赛）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-05-31",
+         "opponent": "美国（热身赛）",
+         "score": "2-3",
+         "result": "L"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "公开赛前报道综合",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "公开抓取页未完整列出90分钟1X2三项；Guardian报道把比利时列为更被看好一方，同时强调塞内加尔是最强第三名之一。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 1,
+      "summary_zh": "两队成年国家队交锋极少；公开资料中最常被提到的是2014年友谊赛1-1，世界杯淘汰赛层面没有交锋记录。"
+     },
+     "news": [
+      {
+       "team": "Belgium",
+       "headline_zh": "比利时末轮5-1打开进攻",
+       "detail_zh": "加西亚称球队目标就是以小组第一出线；德布劳内、卢卡库、库尔图瓦和特罗萨德等老核心在末轮找回存在感。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Belgium",
+       "headline_zh": "伤情好转，阵容完整度提升",
+       "detail_zh": "报道称多库、德凯特拉雷和卢卡库身体状态都在改善，德巴斯也接近可用，比利时仍留在西雅图备战。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Senegal",
+       "headline_zh": "门迪伤缺成赛前大变量",
+       "detail_zh": "印度时报赛前称主力门将爱德华·门迪因伤无缘对比利时，塞内加尔需要由替补门将迪亚夫顶上。",
+       "source": "Times of India"
+      },
+      {
+       "team": "Senegal",
+       "headline_zh": "塞内加尔从强组突围",
+       "detail_zh": "虽然先后输给法国和挪威，但末轮5-0击败伊拉克，把进攻信心和净胜球拉回来。",
+       "source": "project results / The Guardian"
+      }
+     ],
+     "group_context_zh": "这是G组第一对I组第三的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵美国与波黑之间的胜者。",
+     "summary_zh": "比利时排名、控球质量和经验更占优，德布劳内、卢卡库和特罗萨德在末轮5-1后状态回暖；塞内加尔虽然排名只低6位，但小组赛防线连续被法国、挪威打穿，门迪伤缺又削弱后场稳定性。关键是塞内加尔能否把比赛拖入身体对抗和转换节奏，如果比利时先进球，局面会明显倾向主队。",
+     "sources": [
+      "https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en",
+      "https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en",
+      "https://www.theguardian.com/football/2026/jul/01/belgium-senegal-world-cup-match-preview",
+      "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/fifa-world-cup-big-blow-for-senegal-douard-mendy-ruled-out-of-belgium-knockout-clash/articleshow/132105164.cms",
+      "data/2026-06-16/matches.json",
+      "data/2026-06-22/matches.json",
+      "data/2026-06-26/matches.json"
+     ],
+     "result": {
+      "id": "2026-07-01-BEL-SEN",
+      "score": "2-2",
+      "winner": "home"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-BEL-SEN",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 68,
+        "reasoning_zh": "复议前基准预测：比利时晋级，90分钟 2-1"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-BEL-SEN",
+        "winner": "home",
+        "score": "3-1",
+        "confidence": 82,
+        "reasoning_zh": "复议前基准预测：比利时晋级，90分钟 3-1"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-BEL-SEN",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 62,
+        "reasoning_zh": "复议前基准预测：比利时晋级，90分钟 2-1"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-BEL-SEN",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 1,
+        "reasoning_zh": "复议前基准预测：比利时晋级，90分钟 2-0"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-BEL-SEN",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 63,
+        "reasoning_zh": "复议前基准预测：比利时晋级，90分钟 2-0"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-BEL-SEN",
+        "winner": "home",
+        "score": "3-1",
+        "confidence": 85,
+        "reasoning_zh": "复议前基准预测：比利时晋级，90分钟 3-1"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-BEL-SEN",
+        "winner": "home",
+        "score": "3-1",
+        "confidence": 80,
+        "reasoning_zh": "复议前基准预测：比利时晋级，90分钟 3-1"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-BEL-SEN",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 7,
+        "reasoning_zh": "复议前基准预测：比利时晋级，90分钟 2-0"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-07-01-USA-BIH",
+     "group": "32强 Match 81",
+     "home": {
+      "code": "USA",
+      "en": "USA",
+      "zh": "美国",
+      "flag": "🇺🇸"
+     },
+     "away": {
+      "code": "BIH",
+      "en": "Bosnia and Herzegovina",
+      "zh": "波黑",
+      "flag": "🇧🇦"
+     },
+     "kickoff_local": "2026-07-01 17:00（旧金山湾区当地时间 PDT）",
+     "kickoff_beijing": "2026-07-02 08:00（北京时间周四上午）",
+     "venue": "San Francisco Bay Area Stadium（Levi’s Stadium），美国加州圣克拉拉",
+     "teams": {
+      "USA": {
+       "name_zh": "美国",
+       "fifa_ranking": 17,
+       "qualified_via": "东道主自动晋级；小组赛D组第一，4-1胜巴拉圭、2-0胜澳大利亚、2-3负土耳其，2胜1负积6分。",
+       "coach": "毛里西奥·波切蒂诺 (Mauricio Pochettino)",
+       "wc_history": "第12次参加世界杯；1930年季军为队史最佳，2002年打进八强，2022年止步16强。本届作为东道主之一，淘汰赛主场氛围明显。",
+       "key_players": [
+        {
+         "name": "Christian Pulisic 克里斯蒂安·普利西奇",
+         "pos": "边锋/前腰",
+         "club": "AC米兰"
+        },
+        {
+         "name": "Folarin Balogun 弗拉林·巴洛贡",
+         "pos": "中锋",
+         "club": "摩纳哥"
+        },
+        {
+         "name": "Tyler Adams 泰勒·亚当斯",
+         "pos": "后腰/队长",
+         "club": "伯恩茅斯"
+        },
+        {
+         "name": "Weston McKennie 韦斯顿·麦肯尼",
+         "pos": "中场",
+         "club": "尤文图斯"
+        },
+        {
+         "name": "Antonee Robinson 安东尼·罗宾逊",
+         "pos": "左后卫",
+         "club": "富勒姆"
+        },
+        {
+         "name": "Chris Richards 克里斯·理查兹",
+         "pos": "中后卫",
+         "club": "水晶宫"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-25",
+         "opponent": "土耳其（世界杯D组第3轮）",
+         "score": "2-3",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-19",
+         "opponent": "澳大利亚（世界杯D组第2轮）",
+         "score": "2-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-12",
+         "opponent": "巴拉圭（世界杯D组第1轮）",
+         "score": "4-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "德国（热身赛）",
+         "score": "1-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-05-31",
+         "opponent": "塞内加尔（热身赛）",
+         "score": "3-2",
+         "result": "W"
+        }
+       ]
+      },
+      "Bosnia and Herzegovina": {
+       "name_zh": "波黑",
+       "fifa_ranking": 64,
+       "qualified_via": "欧洲区附加赛点球淘汰威尔士和意大利晋级；小组赛B组第三，1-4负瑞士、1-1平加拿大、3-1胜卡塔尔，以最佳第三名晋级。",
+       "coach": "塞尔盖·巴尔巴雷兹 (Sergej Barbarez)",
+       "wc_history": "队史第2次参加世界杯，2014年首秀止步小组赛；本届首次进入世界杯淘汰赛。40岁哲科仍是精神核心和支点。",
+       "key_players": [
+        {
+         "name": "Edin Džeko 埃丁·哲科",
+         "pos": "前锋/队长",
+         "club": "沙尔克04"
+        },
+        {
+         "name": "Ermedin Demirović 埃尔梅丁·德米罗维奇",
+         "pos": "前锋",
+         "club": "斯图加特"
+        },
+        {
+         "name": "Sead Kolašinac 塞阿德·科拉希纳茨",
+         "pos": "后卫",
+         "club": "亚特兰大"
+        },
+        {
+         "name": "Nikola Katić 尼古拉·卡蒂奇",
+         "pos": "中后卫",
+         "club": "苏黎世"
+        },
+        {
+         "name": "Esmir Bajraktarević 埃斯米尔·巴伊拉克塔雷维奇",
+         "pos": "边锋",
+         "club": "PSV埃因霍温"
+        },
+        {
+         "name": "Nikola Vasilj 尼古拉·瓦西利",
+         "pos": "门将",
+         "club": "圣保利"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-24",
+         "opponent": "卡塔尔（世界杯B组第3轮）",
+         "score": "3-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-19",
+         "opponent": "加拿大（世界杯B组第2轮）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-13",
+         "opponent": "瑞士（世界杯B组第1轮）",
+         "score": "1-4",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "巴拿马（热身赛）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-05-29",
+         "opponent": "北马其顿（热身赛）",
+         "score": "0-0",
+         "result": "D"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "WSJ赛前概率 / 公开市场报道",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "公开抓取页未完整列出90分钟1X2三项；WSJ赛前称美国晋级概率约78.5%，市场和报道均把美国列为明显更被看好一方。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 3,
+      "summary_zh": "美国和波黑历史交锋不多，美国总体占优；最近一次常被提到的是2021年美国友谊赛1-0击败波黑。本场是双方首次世界杯交锋。"
+     },
+     "news": [
+      {
+       "team": "USA",
+       "headline_zh": "普利西奇恢复后预计回归主力阵容",
+       "detail_zh": "赛前报道称美国有望恢复揭幕战最有效的主力框架，普利西奇小腿问题缓解，巴洛贡、麦肯尼、亚当斯等核心预计回到首发。",
+       "source": "The Sun / NY Post"
+      },
+      {
+       "team": "USA",
+       "headline_zh": "波切蒂诺强调保持原有节奏",
+       "detail_zh": "美国队在连续出现强队出局后强调不需要过度调整，重点是纪律、防守和继续利用边翼宽度。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Bosnia and Herzegovina",
+       "headline_zh": "波黑主打直接和定位球",
+       "detail_zh": "赛前分析称波黑常用4-4-2和低位结构，依靠哲科、德米罗维奇、卡蒂奇等人的高点与传中制造机会。",
+       "source": "NY Post / Stars and Stripes FC"
+      },
+      {
+       "team": "Bosnia and Herzegovina",
+       "headline_zh": "巴伊拉克塔雷维奇叙事明显",
+       "detail_zh": "美国出生的埃斯米尔·巴伊拉克塔雷维奇选择代表波黑，成为本场额外故事线。",
+       "source": "talkSPORT / WSJ"
+      }
+     ],
+     "group_context_zh": "这是D组第一对B组第三的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵比利时与塞内加尔之间的胜者。",
+     "summary_zh": "美国拥有主场、速度和更完整的前场配置，普利西奇与巴洛贡能直接冲击波黑防线身后；波黑的优势在经验、身体对抗和定位球，哲科支点能让比赛变得很碎。美国如果前20分钟能压住波黑反击，晋级概率很高；但如果久攻不下，波黑有把比赛拖进加时的能力。",
+     "sources": [
+      "https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en",
+      "https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en",
+      "https://www.theguardian.com/football/2026/jun/30/usmnt-bosnia-herzegovina-world-cup-round-of-32-preview",
+      "https://nypost.com/2026/06/30/sports/inside-usmnt-bosnia-herzegovina-world-cup-matchup-plus-prediction/",
+      "https://www.starsandstripesfc.com/usmnt-news/44688/2026-world-cup-previewing-usa-vs-bosnia-herzegovina",
+      "https://talksport.com/betting/4377325/usa-vs-bosnia-herzegovina-bet-builder-tips/",
+      "data/2026-06-12/matches.json",
+      "data/2026-06-24/matches.json",
+      "data/2026-06-25/matches.json"
+     ],
+     "result": {
+      "id": "2026-07-01-USA-BIH",
+      "score": "2-0",
+      "winner": "home"
+     },
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-USA-BIH",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 75,
+        "reasoning_zh": "复议前基准预测：美国晋级，90分钟 2-0"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-USA-BIH",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 80,
+        "reasoning_zh": "复议前基准预测：美国晋级，90分钟 2-1"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-USA-BIH",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 68,
+        "reasoning_zh": "复议前基准预测：美国晋级，90分钟 2-1"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-USA-BIH",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 1,
+        "reasoning_zh": "复议前基准预测：美国晋级，90分钟 2-0"
+       },
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-USA-BIH",
+        "winner": "home",
+        "score": "3-1",
+        "confidence": 66,
+        "reasoning_zh": "复议前基准预测：美国晋级，90分钟 3-1"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-USA-BIH",
+        "winner": "home",
+        "score": "3-1",
+        "confidence": 80,
+        "reasoning_zh": "复议前基准预测：美国晋级，90分钟 3-1"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-USA-BIH",
+        "winner": "home",
+        "score": "3-1",
+        "confidence": 75,
+        "reasoning_zh": "复议前基准预测：美国晋级，90分钟 3-1"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-01-USA-BIH",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 72,
+        "reasoning_zh": "复议前基准预测：美国晋级，90分钟 1-0"
+       },
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
+      }
+     ]
+    }
+   ],
+   "settled": true,
+   "day_points": {
+    "x-ai/grok-4.3": 9,
+    "moonshotai/kimi-k2.6": 9,
+    "anthropic/claude-fable-5": 6,
+    "google/gemini-3.5-flash": 9,
+    "sakana/fugu-ultra": 6,
+    "tencent/hy3-preview": 6,
+    "xiaomi/mimo-v2.5-pro": 9,
+    "minimax/minimax-m3": 9
+   },
+   "prompt": {
+    "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场淘汰赛的最终晋级方/最终获胜方，以及90分钟（含补时、不含加时和点球大战）的比分；90分钟比分可以是平局，但最终晋级方不能是平局，必须在主队或客队中选择一方。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断非热门球队会通过90分钟、加时或点球晋级时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的90分钟精确比分，并给出最终晋级方向。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
+    "user": "以下是 2026-07-01 世界杯 3 场比赛的完整资料文档：\n\n═══════════ 资料文档开始 ═══════════\n# 2026-07-01 世界杯比赛资料文档\n\n本文档汇总了 2026-07-01（比赛日，北美当地时间）FIFA 2026 世界杯全部 3 场32强淘汰赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与赛事形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-07-01-ENG-COD`：32强 Match 80 英格兰(England, 主) vs 刚果民主共和国(DR Congo, 客)\n- `2026-07-01-BEL-SEN`：32强 Match 82 比利时(Belgium, 主) vs 塞内加尔(Senegal, 客)\n- `2026-07-01-USA-BIH`：32强 Match 81 美国(USA, 主) vs 波黑(Bosnia and Herzegovina, 客)\n\n---\n\n## 32强 Match 80 · 英格兰 vs 刚果民主共和国（match_id: `2026-07-01-ENG-COD`）\n\n- 开球：2026-07-01 12:00（亚特兰大当地时间 EDT）｜北京时间 2026-07-02 00:00（北京时间周四零点）\n- 场地：Atlanta Stadium（Mercedes-Benz Stadium），美国佐治亚州亚特兰大\n\n### 英格兰（England，主队）\n- FIFA 排名：第 4 位\n- 晋级之路：欧洲区K组头名直接晋级，预选赛8战全胜且一球未失；小组赛L组第一，4-2胜克罗地亚、0-0平加纳、2-0胜巴拿马，2胜1平积7分。\n- 主教练：托马斯·图赫尔 (Thomas Tuchel)\n- 世界杯历史：1966年世界杯冠军；近两届分别为2018年第四名、2022年八强。本届小组赛以头名进入32强，目标继续冲击冠军。\n- 核心球员：\n  - Harry Kane 哈里·凯恩（前锋/队长，拜仁慕尼黑）\n  - Jude Bellingham 裘德·贝林厄姆（中场，皇家马德里）\n  - Declan Rice 德克兰·赖斯（中场，阿森纳）\n  - Bukayo Saka 布卡约·萨卡（边锋，阿森纳）\n  - Marcus Rashford 马库斯·拉什福德（边锋/前锋，巴塞罗那）\n  - Jordan Pickford 乔丹·皮克福德（门将，埃弗顿）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs 巴拿马（世界杯L组第3轮）：2-0（W）\n  - 2026-06-23 vs 加纳（世界杯L组第2轮）：0-0（D）\n  - 2026-06-17 vs 克罗地亚（世界杯L组第1轮）：4-2（W）\n  - 2026-06-10 vs 哥斯达黎加（热身赛）：3-0（W）\n  - 2026-06-06 vs 新西兰（热身赛）：1-0（W）\n\n### 刚果民主共和国（DR Congo，客队）\n- FIFA 排名：第 46 位\n- 晋级之路：非洲区B组第二，随后通过非洲附加赛和洲际附加赛晋级；小组赛K组第三，1-1平葡萄牙、0-1负哥伦比亚、3-1胜乌兹别克斯坦，以最佳第三名进入32强。\n- 主教练：塞巴斯蒂安·德萨布尔 (Sébastien Desabre)\n- 世界杯历史：继1974年后第二次参加世界杯（当时以扎伊尔名义参赛）。本届已拿到队史世界杯首分并首次进入淘汰赛。\n- 核心球员：\n  - Yoane Wissa 约阿内·维萨（前锋，纽卡斯尔联/布伦特福德背景）\n  - Cédric Bakambu 塞德里克·巴坎布（前锋，皇家贝蒂斯）\n  - Chancel Mbemba 尚塞尔·姆本巴（中后卫/队长，里尔）\n  - Aaron Wan-Bissaka 阿隆·万-比萨卡（右后卫，西汉姆联）\n  - Noah Sadiki 诺亚·萨迪基（中场，圣吉罗斯）\n  - Lionel Mpasi 利昂内尔·姆帕西（门将，罗德兹）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs 乌兹别克斯坦（世界杯K组第3轮）：3-1（W）\n  - 2026-06-23 vs 哥伦比亚（世界杯K组第2轮）：0-1（L）\n  - 2026-06-17 vs 葡萄牙（世界杯K组第1轮）：1-1（D）\n  - 2026-06-09 vs 智利（热身赛）：1-2（L）\n  - 2026-06-03 vs 丹麦（热身赛）：0-0（D）\n\n### 博彩赔率（1X2，十进制）\n- The Sun Ireland / RTE赛前页（分数赔率换算十进制）：主胜 1.25 / 平 5 / 客胜 13（home=英格兰；原始英格兰1/4、平4/1、刚果民主共和国12/1。）\n- The Guardian / Opta赛前模型：主胜 — / 平 — / 客胜 —（Opta给英格兰90分钟胜率73.9%，但提醒刚果金的5-3-2低位防守会提高破局难度。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队成年国家队此前没有正式交锋记录，本场是首次世界杯淘汰赛相遇。\n\n### 近期新闻\n- [England] 英格兰被看好，但小组赛破密防效率一般：图赫尔要求球队面对刚果金低位防守时保持耐心；英格兰曾被加纳0-0限制，巴拿马一战也属于慢热取胜。（来源：The Guardian）\n- [England] 凯恩、贝林厄姆仍是进攻核心：英格兰前场个人能力明显占优，但萨卡、赖斯等球员健康状态仍被赛前报道提及，右后卫位置也有伤情背景。（来源：The Guardian / talkSPORT）\n- [DR Congo] 德萨布尔改打五后卫，防守指标很突出：刚果金面对葡萄牙、哥伦比亚和丹麦等强队时以5-3-2压低空间，三场只丢2球，限制高质量机会能力突出。（来源：The Guardian）\n- [DR Congo] 维萨带队完成出线关键战：刚果金末轮3-1逆转乌兹别克斯坦，维萨梅开二度，球队带着反击信心进入淘汰赛。（来源：FourFourTwo / project results）\n\n### 赛事形势\n- 这是L组第一对K组第三的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵墨西哥。\n\n### 综述\n- 英格兰纸面实力、排名和阵容深度都明显占优，凯恩和贝林厄姆能提供高质量终结与二线冲击；但刚果金不是普通弱旅，德萨布尔的五后卫低位已经让葡萄牙和哥伦比亚都踢得不轻松。关键在英格兰能否早破局，若久攻不下，刚果金有把90分钟拖成低比分甚至平局的空间。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- https://www.theguardian.com/football/2026/jul/01/dr-congo-tactics-england-sebastien-desabre-world-cup-last-32\n- https://www.theguardian.com/football/2026/jul/01/thomas-tuchel-warns-england-dr-congo-world-cup-2026-last-32\n- https://www.thesun.ie/sport/17207505/irish-tv-channel-england-dr-congo-stream-time-odds/\n- data/2026-06-23/matches.json\n- data/2026-06-27/matches.json\n\n---\n\n## 32强 Match 82 · 比利时 vs 塞内加尔（match_id: `2026-07-01-BEL-SEN`）\n\n- 开球：2026-07-01 13:00（西雅图当地时间 PDT）｜北京时间 2026-07-02 04:00（北京时间周四凌晨）\n- 场地：Seattle Stadium（Lumen Field），美国华盛顿州西雅图\n\n### 比利时（Belgium，主队）\n- FIFA 排名：第 9 位\n- 晋级之路：欧洲区预选赛出线；小组赛G组第一，1-1平埃及、0-0平伊朗、5-1胜新西兰，1胜2平积5分。\n- 主教练：鲁迪·加西亚 (Rudi Garcia)\n- 世界杯历史：世界杯常客，最佳战绩为2018年季军。本届开局进攻迟滞，但末轮5-1击败新西兰后以小组第一晋级。\n- 核心球员：\n  - Kevin De Bruyne 凯文·德布劳内（攻击型中场，那不勒斯）\n  - Romelu Lukaku 罗梅卢·卢卡库（前锋，那不勒斯）\n  - Thibaut Courtois 蒂博·库尔图瓦（门将，皇家马德里）\n  - Jérémy Doku 杰里米·多库（边锋，曼城）\n  - Leandro Trossard 莱安德罗·特罗萨德（边锋/前锋，阿森纳）\n  - Amadou Onana 阿马杜·奥纳纳（后腰，阿斯顿维拉）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-26 vs 新西兰（世界杯G组第3轮）：5-1（W）\n  - 2026-06-21 vs 伊朗（世界杯G组第2轮）：0-0（D）\n  - 2026-06-15 vs 埃及（世界杯G组第1轮）：1-1（D）\n  - 2026-06-02 vs 克罗地亚（热身赛）：2-0（W）\n  - 2026-03-28 vs 美国（友谊赛）：5-2（W）\n\n### 塞内加尔（Senegal，客队）\n- FIFA 排名：第 15 位\n- 晋级之路：非洲区B组头名直接晋级；小组赛I组第三，1-3负法国、2-3负挪威、5-0胜伊拉克，以最佳第三名身份晋级。\n- 主教练：帕佩·蒂亚乌 (Pape Thiaw)\n- 世界杯历史：第4次参加世界杯；2002年首秀闯入八强，2022年进入16强。本届从法国、挪威所在强组突围。\n- 核心球员：\n  - Sadio Mané 萨迪奥·马内（前锋，利雅得胜利）\n  - Nicolas Jackson 尼古拉斯·杰克逊（前锋，拜仁慕尼黑/切尔西背景）\n  - Ismaïla Sarr 伊斯马伊拉·萨尔（边锋，水晶宫）\n  - Kalidou Koulibaly 卡利杜·库利巴利（中后卫/队长，利雅得新月）\n  - Pape Matar Sarr 帕佩·马塔尔·萨尔（中场，托特纳姆热刺）\n  - Édouard Mendy 爱德华·门迪（门将，吉达国民）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-26 vs 伊拉克（世界杯I组第3轮）：5-0（W）\n  - 2026-06-22 vs 挪威（世界杯I组第2轮）：2-3（L）\n  - 2026-06-16 vs 法国（世界杯I组第1轮）：1-3（L）\n  - 2026-06-09 vs 沙特阿拉伯（热身赛）：0-0（D）\n  - 2026-05-31 vs 美国（热身赛）：2-3（L）\n\n### 博彩赔率（1X2，十进制）\n- 公开赛前报道综合：主胜 — / 平 — / 客胜 —（公开抓取页未完整列出90分钟1X2三项；Guardian报道把比利时列为更被看好一方，同时强调塞内加尔是最强第三名之一。）\n\n### 历史交锋（H2H）\n- 共交手 1 次。两队成年国家队交锋极少；公开资料中最常被提到的是2014年友谊赛1-1，世界杯淘汰赛层面没有交锋记录。\n\n### 近期新闻\n- [Belgium] 比利时末轮5-1打开进攻：加西亚称球队目标就是以小组第一出线；德布劳内、卢卡库、库尔图瓦和特罗萨德等老核心在末轮找回存在感。（来源：The Guardian）\n- [Belgium] 伤情好转，阵容完整度提升：报道称多库、德凯特拉雷和卢卡库身体状态都在改善，德巴斯也接近可用，比利时仍留在西雅图备战。（来源：The Guardian）\n- [Senegal] 门迪伤缺成赛前大变量：印度时报赛前称主力门将爱德华·门迪因伤无缘对比利时，塞内加尔需要由替补门将迪亚夫顶上。（来源：Times of India）\n- [Senegal] 塞内加尔从强组突围：虽然先后输给法国和挪威，但末轮5-0击败伊拉克，把进攻信心和净胜球拉回来。（来源：project results / The Guardian）\n\n### 赛事形势\n- 这是G组第一对I组第三的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵美国与波黑之间的胜者。\n\n### 综述\n- 比利时排名、控球质量和经验更占优，德布劳内、卢卡库和特罗萨德在末轮5-1后状态回暖；塞内加尔虽然排名只低6位，但小组赛防线连续被法国、挪威打穿，门迪伤缺又削弱后场稳定性。关键是塞内加尔能否把比赛拖入身体对抗和转换节奏，如果比利时先进球，局面会明显倾向主队。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en\n- https://www.theguardian.com/football/2026/jul/01/belgium-senegal-world-cup-match-preview\n- https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/fifa-world-cup-big-blow-for-senegal-douard-mendy-ruled-out-of-belgium-knockout-clash/articleshow/132105164.cms\n- data/2026-06-16/matches.json\n- data/2026-06-22/matches.json\n- data/2026-06-26/matches.json\n\n---\n\n## 32强 Match 81 · 美国 vs 波黑（match_id: `2026-07-01-USA-BIH`）\n\n- 开球：2026-07-01 17:00（旧金山湾区当地时间 PDT）｜北京时间 2026-07-02 08:00（北京时间周四上午）\n- 场地：San Francisco Bay Area Stadium（Levi’s Stadium），美国加州圣克拉拉\n\n### 美国（USA，主队）\n- FIFA 排名：第 17 位\n- 晋级之路：东道主自动晋级；小组赛D组第一，4-1胜巴拉圭、2-0胜澳大利亚、2-3负土耳其，2胜1负积6分。\n- 主教练：毛里西奥·波切蒂诺 (Mauricio Pochettino)\n- 世界杯历史：第12次参加世界杯；1930年季军为队史最佳，2002年打进八强，2022年止步16强。本届作为东道主之一，淘汰赛主场氛围明显。\n- 核心球员：\n  - Christian Pulisic 克里斯蒂安·普利西奇（边锋/前腰，AC米兰）\n  - Folarin Balogun 弗拉林·巴洛贡（中锋，摩纳哥）\n  - Tyler Adams 泰勒·亚当斯（后腰/队长，伯恩茅斯）\n  - Weston McKennie 韦斯顿·麦肯尼（中场，尤文图斯）\n  - Antonee Robinson 安东尼·罗宾逊（左后卫，富勒姆）\n  - Chris Richards 克里斯·理查兹（中后卫，水晶宫）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-25 vs 土耳其（世界杯D组第3轮）：2-3（L）\n  - 2026-06-19 vs 澳大利亚（世界杯D组第2轮）：2-0（W）\n  - 2026-06-12 vs 巴拉圭（世界杯D组第1轮）：4-1（W）\n  - 2026-06-06 vs 德国（热身赛）：1-2（L）\n  - 2026-05-31 vs 塞内加尔（热身赛）：3-2（W）\n\n### 波黑（Bosnia and Herzegovina，客队）\n- FIFA 排名：第 64 位\n- 晋级之路：欧洲区附加赛点球淘汰威尔士和意大利晋级；小组赛B组第三，1-4负瑞士、1-1平加拿大、3-1胜卡塔尔，以最佳第三名晋级。\n- 主教练：塞尔盖·巴尔巴雷兹 (Sergej Barbarez)\n- 世界杯历史：队史第2次参加世界杯，2014年首秀止步小组赛；本届首次进入世界杯淘汰赛。40岁哲科仍是精神核心和支点。\n- 核心球员：\n  - Edin Džeko 埃丁·哲科（前锋/队长，沙尔克04）\n  - Ermedin Demirović 埃尔梅丁·德米罗维奇（前锋，斯图加特）\n  - Sead Kolašinac 塞阿德·科拉希纳茨（后卫，亚特兰大）\n  - Nikola Katić 尼古拉·卡蒂奇（中后卫，苏黎世）\n  - Esmir Bajraktarević 埃斯米尔·巴伊拉克塔雷维奇（边锋，PSV埃因霍温）\n  - Nikola Vasilj 尼古拉·瓦西利（门将，圣保利）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-24 vs 卡塔尔（世界杯B组第3轮）：3-1（W）\n  - 2026-06-19 vs 加拿大（世界杯B组第2轮）：1-1（D）\n  - 2026-06-13 vs 瑞士（世界杯B组第1轮）：1-4（L）\n  - 2026-06-06 vs 巴拿马（热身赛）：1-1（D）\n  - 2026-05-29 vs 北马其顿（热身赛）：0-0（D）\n\n### 博彩赔率（1X2，十进制）\n- WSJ赛前概率 / 公开市场报道：主胜 — / 平 — / 客胜 —（公开抓取页未完整列出90分钟1X2三项；WSJ赛前称美国晋级概率约78.5%，市场和报道均把美国列为明显更被看好一方。）\n\n### 历史交锋（H2H）\n- 共交手 3 次。美国和波黑历史交锋不多，美国总体占优；最近一次常被提到的是2021年美国友谊赛1-0击败波黑。本场是双方首次世界杯交锋。\n\n### 近期新闻\n- [USA] 普利西奇恢复后预计回归主力阵容：赛前报道称美国有望恢复揭幕战最有效的主力框架，普利西奇小腿问题缓解，巴洛贡、麦肯尼、亚当斯等核心预计回到首发。（来源：The Sun / NY Post）\n- [USA] 波切蒂诺强调保持原有节奏：美国队在连续出现强队出局后强调不需要过度调整，重点是纪律、防守和继续利用边翼宽度。（来源：The Guardian）\n- [Bosnia and Herzegovina] 波黑主打直接和定位球：赛前分析称波黑常用4-4-2和低位结构，依靠哲科、德米罗维奇、卡蒂奇等人的高点与传中制造机会。（来源：NY Post / Stars and Stripes FC）\n- [Bosnia and Herzegovina] 巴伊拉克塔雷维奇叙事明显：美国出生的埃斯米尔·巴伊拉克塔雷维奇选择代表波黑，成为本场额外故事线。（来源：talkSPORT / WSJ）\n\n### 赛事形势\n- 这是D组第一对B组第三的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵比利时与塞内加尔之间的胜者。\n\n### 综述\n- 美国拥有主场、速度和更完整的前场配置，普利西奇与巴洛贡能直接冲击波黑防线身后；波黑的优势在经验、身体对抗和定位球，哲科支点能让比赛变得很碎。美国如果前20分钟能压住波黑反击，晋级概率很高；但如果久攻不下，波黑有把比赛拖进加时的能力。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en\n- https://www.theguardian.com/football/2026/jun/30/usmnt-bosnia-herzegovina-world-cup-round-of-32-preview\n- https://nypost.com/2026/06/30/sports/inside-usmnt-bosnia-herzegovina-world-cup-matchup-plus-prediction/\n- https://www.starsandstripesfc.com/usmnt-news/44688/2026-world-cup-previewing-usa-vs-bosnia-herzegovina\n- https://talksport.com/betting/4377325/usa-vs-bosnia-herzegovina-bet-builder-tips/\n- data/2026-06-12/matches.json\n- data/2026-06-24/matches.json\n- data/2026-06-25/matches.json\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 19 个比赛日、共 77 场比赛中，8 个当前活跃模型的历次预测、实际赛果与所得分数（结算规则：方向正确 2 分 + 90 分钟比分正确 3 分，两项都对 5 分；两项都错或未预测 0 分；模型加入前的未参赛场次不计入该模型分母）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 方向命中 | 比分命中 | 两项全中 |\n|  ---  |  ---  |  ---  |  ---  |  ---  |\n| Claude Opus 4.8 | 142 | 53/77 | 12/77 | 12/77 |\n| Kimi K2.7 | 127 | 50/77 | 9/77 | 9/77 |\n| Grok 4.3 | 124 | 50/77 | 8/77 | 8/77 |\n| Gemini 3.5 Flash | 43 | 17/25 | 3/25 | 3/25 |\n| Fugu Ultra | 40 | 17/25 | 2/25 | 2/25 |\n| Tencent HY3 Preview | 6 | 3/3 | 0/3 | 0/3 |\n| Xiaomi MiMo v2.5 Pro | 6 | 3/3 | 0/3 | 0/3 |\n| MiniMax M3 | 6 | 3/3 | 0/3 | 0/3 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（2） | 1-0（2） | 1-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 1-2（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 海地 vs 苏格兰 | 0-1 | 0-2（2） | 2-0（0） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-3（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 库拉索 | 7-1 | 6-0（2） | 4-0（2） | 4-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 荷兰 vs 日本 | 2-2 | 1-1（2） | 2-1（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（2） | 1-0（2） | 1-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 奥地利 vs 约旦 | 3-1 | 3-0（2） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（2） | 2-1（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 瑞士 vs 波黑 | 4-1 | 2-1（2） | 2-0（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（2） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（2） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴西 vs 海地 | 3-0 | 4-0（2） | 2-0（2） | 3-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（2） | 3-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（2） | 2-1（5） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 突尼斯 vs 日本 | 0-4 | 0-2（2） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（2） | 1-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（2） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 1-1（2） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 新西兰 vs 埃及 | 1-3 | 0-2（2） | 0-1（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（2） | 2-1（2） | 2-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 法国 vs 伊拉克 | 3-0 | 4-0（2） | 3-1（2） | 3-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（2） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（2） | 1-2（5） | 1-2（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（2） | 2-0（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 3-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（2） | 1-2（2） | 0-1（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（2） | 2-0（2） | 1-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 0-0（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（2） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（2） | 0-1（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（2） | 2-0（2） | 3-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（2） | 0-1（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 0-1（0） | 1-2（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-25**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 库拉索 vs 科特迪瓦 | 0-2 | 0-2（5） | 0-1（2） | 0-2（5） | 0-3（2） | 0-3（2） | 未参赛 | 未参赛 | 未参赛 |\n| 厄瓜多尔 vs 德国 | 2-1 | 1-2（0） | 1-2（0） | 1-1（0） | 1-1（0） | 0-2（0） | 未参赛 | 未参赛 | 未参赛 |\n| 日本 vs 瑞典 | 1-1 | 2-1（0） | 2-1（0） | 1-1（5） | 3-1（0） | 2-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 突尼斯 vs 荷兰 | 1-3 | 0-3（2） | 1-3（5） | 0-3（2） | 0-4（2） | 0-4（2） | 未参赛 | 未参赛 | 未参赛 |\n| 土耳其 vs 美国 | 3-2 | 0-2（0） | 1-1（0） | 1-2（0） | 2-1（2） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 巴拉圭 vs 澳大利亚 | 0-0 | 1-1（2） | 0-0（5） | 1-1（2） | 0-1（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-26**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 挪威 vs 法国 | 1-4 | 2-3（2） | 2-3（2） | 2-2（0） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 塞内加尔 vs 伊拉克 | 5-0 | 3-0（2） | 3-1（2） | 2-0（2） | 3-1（2） | 4-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 埃及 vs 伊朗 | 1-1 | 2-0（0） | 1-1（5） | 1-1（5） | 1-0（0） | 0-0（2） | 未参赛 | 未参赛 | 未参赛 |\n| 新西兰 vs 比利时 | 1-5 | 1-2（2） | 1-2（2） | 0-2（2） | 0-3（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 佛得角 vs 沙特阿拉伯 | 0-0 | 2-1（0） | 2-1（0） | 1-1（2） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 |\n| 乌拉圭 vs 西班牙 | 0-1 | 1-2（2） | 0-2（2） | 1-2（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-27**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 巴拿马 vs 英格兰 | 0-2 | 0-3（2） | 0-2（5） | 0-2（5） | 0-3（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 克罗地亚 vs 加纳 | 2-1 | 2-1（5） | 1-1（0） | 1-0（2） | 2-1（5） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 阿尔及利亚 vs 奥地利 | 3-3 | 0-0（2） | 1-1（2） | 1-1（2） | 0-0（2） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 约旦 vs 阿根廷 | 1-3 | 0-3（2） | 0-2（2） | 0-2（2） | 1-3（5） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 哥伦比亚 vs 葡萄牙 | 0-0 | 1-2（0） | 1-1（2） | 1-1（2） | 1-2（0） | 0-0（5） | 未参赛 | 未参赛 | 未参赛 |\n| 刚果民主共和国 vs 乌兹别克斯坦 | 3-1 | 2-0（2） | 2-1（2） | 2-1（2） | 3-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-28**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 南非 vs 加拿大 | 0-1 | 1-2（2） | 1-1（0） | 1-2（2） | 0-2（2） | 0-1（5） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-29**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 巴西 vs 日本 | 2-1 | 2-0（2） | 2-1（5） | 2-0（2） | 1-0（2） | 3-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 巴拉圭 | 1-1 | 3-0（0） | 2-1（0） | 2-0（0） | 2-0（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 荷兰 vs 摩洛哥 | 1-1 | 2-1（0） | 1-1（5） | 1-1（5） | 2-1（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-30**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 挪威 | 1-2 | 1-2（5） | 1-1（0） | 1-2（5） | 1-1（2） | 0-2（2） | 0-1（2） | 2-3（2） | 0-1（2） |\n| 法国 vs 瑞典 | 3-0 | 3-0（5） | 3-1（2） | 3-1（2） | 2-1（2） | 2-1（2） | 2-0（2） | 2-0（2） | 2-1（2） |\n| 墨西哥 vs 厄瓜多尔 | 2-0 | 2-1（2） | 2-0（5） | 1-0（2） | 2-0（5） | 1-0（2） | 1-1（2） | 1-1（2） | 2-1（2） |\n\n<!-- HISTORY-REVIEW-END -->\n\n═══════════ 资料文档结束 ═══════════\n\n文档末尾附有各模型（包括你自己）历次预测与实际赛果的对照战绩，请在预测前先复盘这些记录，再给出你独立的判断。\n\n请预测每场淘汰赛的最终晋级方/最终获胜方与90分钟比分。winner 表示最终晋级方，只能是 home 或 away；score 表示90分钟比分，可以是平局。严格按以下 JSON 数组格式输出，不要输出任何其他文字，不要用 markdown 代码块包裹：\n[{\"match_id\": \"...\", \"winner\": \"home\" 或 \"away\", \"score\": \"90分钟主队进球-客队进球（如 1-1 或 2-1）\", \"confidence\": 1到100的整数, \"reasoning_zh\": \"50字以内中文理由\"}]\n\nmatch_id 必须逐一使用以下 ID（共 3 场，每场恰好一条预测）：\n2026-07-01-ENG-COD\n2026-07-01-BEL-SEN\n2026-07-01-USA-BIH"
+   },
+   "generated_at": "2026-07-01T05:30:33.434Z",
+   "model_runs": {
+    "x-ai/grok-4.3": {
+     "status": "ok",
+     "latency_s": 8,
+     "via": "openrouter",
+     "error": null
+    },
+    "moonshotai/kimi-k2.6": {
+     "status": "ok",
+     "latency_s": 72,
+     "via": "openrouter",
+     "error": null
+    },
+    "anthropic/claude-fable-5": {
+     "status": "ok",
+     "latency_s": 8,
+     "via": "openrouter",
+     "error": null
+    },
+    "google/gemini-3.5-flash": {
+     "status": "ok",
+     "latency_s": 3,
+     "via": "openrouter",
+     "error": null
+    },
+    "sakana/fugu-ultra": {
+     "status": "ok",
+     "latency_s": 13,
+     "via": "sakana",
+     "error": null
+    },
+    "tencent/hy3-preview": {
+     "status": "ok",
+     "latency_s": 74,
+     "via": "openrouter",
+     "error": null
+    },
+    "xiaomi/mimo-v2.5-pro": {
+     "status": "ok",
+     "latency_s": 11,
+     "via": "openrouter",
+     "error": null
+    },
+    "minimax/minimax-m3": {
+     "status": "ok",
+     "latency_s": 30,
+     "via": "openrouter",
+     "error": null
+    }
+   },
+   "context_md": "# 2026-07-01 世界杯比赛资料文档\n\n本文档汇总了 2026-07-01（比赛日，北美当地时间）FIFA 2026 世界杯全部 3 场32强淘汰赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与赛事形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-07-01-ENG-COD`：32强 Match 80 英格兰(England, 主) vs 刚果民主共和国(DR Congo, 客)\n- `2026-07-01-BEL-SEN`：32强 Match 82 比利时(Belgium, 主) vs 塞内加尔(Senegal, 客)\n- `2026-07-01-USA-BIH`：32强 Match 81 美国(USA, 主) vs 波黑(Bosnia and Herzegovina, 客)\n\n---\n\n## 32强 Match 80 · 英格兰 vs 刚果民主共和国（match_id: `2026-07-01-ENG-COD`）\n\n- 开球：2026-07-01 12:00（亚特兰大当地时间 EDT）｜北京时间 2026-07-02 00:00（北京时间周四零点）\n- 场地：Atlanta Stadium（Mercedes-Benz Stadium），美国佐治亚州亚特兰大\n\n### 英格兰（England，主队）\n- FIFA 排名：第 4 位\n- 晋级之路：欧洲区K组头名直接晋级，预选赛8战全胜且一球未失；小组赛L组第一，4-2胜克罗地亚、0-0平加纳、2-0胜巴拿马，2胜1平积7分。\n- 主教练：托马斯·图赫尔 (Thomas Tuchel)\n- 世界杯历史：1966年世界杯冠军；近两届分别为2018年第四名、2022年八强。本届小组赛以头名进入32强，目标继续冲击冠军。\n- 核心球员：\n  - Harry Kane 哈里·凯恩（前锋/队长，拜仁慕尼黑）\n  - Jude Bellingham 裘德·贝林厄姆（中场，皇家马德里）\n  - Declan Rice 德克兰·赖斯（中场，阿森纳）\n  - Bukayo Saka 布卡约·萨卡（边锋，阿森纳）\n  - Marcus Rashford 马库斯·拉什福德（边锋/前锋，巴塞罗那）\n  - Jordan Pickford 乔丹·皮克福德（门将，埃弗顿）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs 巴拿马（世界杯L组第3轮）：2-0（W）\n  - 2026-06-23 vs 加纳（世界杯L组第2轮）：0-0（D）\n  - 2026-06-17 vs 克罗地亚（世界杯L组第1轮）：4-2（W）\n  - 2026-06-10 vs 哥斯达黎加（热身赛）：3-0（W）\n  - 2026-06-06 vs 新西兰（热身赛）：1-0（W）\n\n### 刚果民主共和国（DR Congo，客队）\n- FIFA 排名：第 46 位\n- 晋级之路：非洲区B组第二，随后通过非洲附加赛和洲际附加赛晋级；小组赛K组第三，1-1平葡萄牙、0-1负哥伦比亚、3-1胜乌兹别克斯坦，以最佳第三名进入32强。\n- 主教练：塞巴斯蒂安·德萨布尔 (Sébastien Desabre)\n- 世界杯历史：继1974年后第二次参加世界杯（当时以扎伊尔名义参赛）。本届已拿到队史世界杯首分并首次进入淘汰赛。\n- 核心球员：\n  - Yoane Wissa 约阿内·维萨（前锋，纽卡斯尔联/布伦特福德背景）\n  - Cédric Bakambu 塞德里克·巴坎布（前锋，皇家贝蒂斯）\n  - Chancel Mbemba 尚塞尔·姆本巴（中后卫/队长，里尔）\n  - Aaron Wan-Bissaka 阿隆·万-比萨卡（右后卫，西汉姆联）\n  - Noah Sadiki 诺亚·萨迪基（中场，圣吉罗斯）\n  - Lionel Mpasi 利昂内尔·姆帕西（门将，罗德兹）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs 乌兹别克斯坦（世界杯K组第3轮）：3-1（W）\n  - 2026-06-23 vs 哥伦比亚（世界杯K组第2轮）：0-1（L）\n  - 2026-06-17 vs 葡萄牙（世界杯K组第1轮）：1-1（D）\n  - 2026-06-09 vs 智利（热身赛）：1-2（L）\n  - 2026-06-03 vs 丹麦（热身赛）：0-0（D）\n\n### 博彩赔率（1X2，十进制）\n- The Sun Ireland / RTE赛前页（分数赔率换算十进制）：主胜 1.25 / 平 5 / 客胜 13（home=英格兰；原始英格兰1/4、平4/1、刚果民主共和国12/1。）\n- The Guardian / Opta赛前模型：主胜 — / 平 — / 客胜 —（Opta给英格兰90分钟胜率73.9%，但提醒刚果金的5-3-2低位防守会提高破局难度。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队成年国家队此前没有正式交锋记录，本场是首次世界杯淘汰赛相遇。\n\n### 近期新闻\n- [England] 英格兰被看好，但小组赛破密防效率一般：图赫尔要求球队面对刚果金低位防守时保持耐心；英格兰曾被加纳0-0限制，巴拿马一战也属于慢热取胜。（来源：The Guardian）\n- [England] 凯恩、贝林厄姆仍是进攻核心：英格兰前场个人能力明显占优，但萨卡、赖斯等球员健康状态仍被赛前报道提及，右后卫位置也有伤情背景。（来源：The Guardian / talkSPORT）\n- [DR Congo] 德萨布尔改打五后卫，防守指标很突出：刚果金面对葡萄牙、哥伦比亚和丹麦等强队时以5-3-2压低空间，三场只丢2球，限制高质量机会能力突出。（来源：The Guardian）\n- [DR Congo] 维萨带队完成出线关键战：刚果金末轮3-1逆转乌兹别克斯坦，维萨梅开二度，球队带着反击信心进入淘汰赛。（来源：FourFourTwo / project results）\n\n### 赛事形势\n- 这是L组第一对K组第三的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵墨西哥。\n\n### 综述\n- 英格兰纸面实力、排名和阵容深度都明显占优，凯恩和贝林厄姆能提供高质量终结与二线冲击；但刚果金不是普通弱旅，德萨布尔的五后卫低位已经让葡萄牙和哥伦比亚都踢得不轻松。关键在英格兰能否早破局，若久攻不下，刚果金有把90分钟拖成低比分甚至平局的空间。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- https://www.theguardian.com/football/2026/jul/01/dr-congo-tactics-england-sebastien-desabre-world-cup-last-32\n- https://www.theguardian.com/football/2026/jul/01/thomas-tuchel-warns-england-dr-congo-world-cup-2026-last-32\n- https://www.thesun.ie/sport/17207505/irish-tv-channel-england-dr-congo-stream-time-odds/\n- data/2026-06-23/matches.json\n- data/2026-06-27/matches.json\n\n---\n\n## 32强 Match 82 · 比利时 vs 塞内加尔（match_id: `2026-07-01-BEL-SEN`）\n\n- 开球：2026-07-01 13:00（西雅图当地时间 PDT）｜北京时间 2026-07-02 04:00（北京时间周四凌晨）\n- 场地：Seattle Stadium（Lumen Field），美国华盛顿州西雅图\n\n### 比利时（Belgium，主队）\n- FIFA 排名：第 9 位\n- 晋级之路：欧洲区预选赛出线；小组赛G组第一，1-1平埃及、0-0平伊朗、5-1胜新西兰，1胜2平积5分。\n- 主教练：鲁迪·加西亚 (Rudi Garcia)\n- 世界杯历史：世界杯常客，最佳战绩为2018年季军。本届开局进攻迟滞，但末轮5-1击败新西兰后以小组第一晋级。\n- 核心球员：\n  - Kevin De Bruyne 凯文·德布劳内（攻击型中场，那不勒斯）\n  - Romelu Lukaku 罗梅卢·卢卡库（前锋，那不勒斯）\n  - Thibaut Courtois 蒂博·库尔图瓦（门将，皇家马德里）\n  - Jérémy Doku 杰里米·多库（边锋，曼城）\n  - Leandro Trossard 莱安德罗·特罗萨德（边锋/前锋，阿森纳）\n  - Amadou Onana 阿马杜·奥纳纳（后腰，阿斯顿维拉）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-26 vs 新西兰（世界杯G组第3轮）：5-1（W）\n  - 2026-06-21 vs 伊朗（世界杯G组第2轮）：0-0（D）\n  - 2026-06-15 vs 埃及（世界杯G组第1轮）：1-1（D）\n  - 2026-06-02 vs 克罗地亚（热身赛）：2-0（W）\n  - 2026-03-28 vs 美国（友谊赛）：5-2（W）\n\n### 塞内加尔（Senegal，客队）\n- FIFA 排名：第 15 位\n- 晋级之路：非洲区B组头名直接晋级；小组赛I组第三，1-3负法国、2-3负挪威、5-0胜伊拉克，以最佳第三名身份晋级。\n- 主教练：帕佩·蒂亚乌 (Pape Thiaw)\n- 世界杯历史：第4次参加世界杯；2002年首秀闯入八强，2022年进入16强。本届从法国、挪威所在强组突围。\n- 核心球员：\n  - Sadio Mané 萨迪奥·马内（前锋，利雅得胜利）\n  - Nicolas Jackson 尼古拉斯·杰克逊（前锋，拜仁慕尼黑/切尔西背景）\n  - Ismaïla Sarr 伊斯马伊拉·萨尔（边锋，水晶宫）\n  - Kalidou Koulibaly 卡利杜·库利巴利（中后卫/队长，利雅得新月）\n  - Pape Matar Sarr 帕佩·马塔尔·萨尔（中场，托特纳姆热刺）\n  - Édouard Mendy 爱德华·门迪（门将，吉达国民）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-26 vs 伊拉克（世界杯I组第3轮）：5-0（W）\n  - 2026-06-22 vs 挪威（世界杯I组第2轮）：2-3（L）\n  - 2026-06-16 vs 法国（世界杯I组第1轮）：1-3（L）\n  - 2026-06-09 vs 沙特阿拉伯（热身赛）：0-0（D）\n  - 2026-05-31 vs 美国（热身赛）：2-3（L）\n\n### 博彩赔率（1X2，十进制）\n- 公开赛前报道综合：主胜 — / 平 — / 客胜 —（公开抓取页未完整列出90分钟1X2三项；Guardian报道把比利时列为更被看好一方，同时强调塞内加尔是最强第三名之一。）\n\n### 历史交锋（H2H）\n- 共交手 1 次。两队成年国家队交锋极少；公开资料中最常被提到的是2014年友谊赛1-1，世界杯淘汰赛层面没有交锋记录。\n\n### 近期新闻\n- [Belgium] 比利时末轮5-1打开进攻：加西亚称球队目标就是以小组第一出线；德布劳内、卢卡库、库尔图瓦和特罗萨德等老核心在末轮找回存在感。（来源：The Guardian）\n- [Belgium] 伤情好转，阵容完整度提升：报道称多库、德凯特拉雷和卢卡库身体状态都在改善，德巴斯也接近可用，比利时仍留在西雅图备战。（来源：The Guardian）\n- [Senegal] 门迪伤缺成赛前大变量：印度时报赛前称主力门将爱德华·门迪因伤无缘对比利时，塞内加尔需要由替补门将迪亚夫顶上。（来源：Times of India）\n- [Senegal] 塞内加尔从强组突围：虽然先后输给法国和挪威，但末轮5-0击败伊拉克，把进攻信心和净胜球拉回来。（来源：project results / The Guardian）\n\n### 赛事形势\n- 这是G组第一对I组第三的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵美国与波黑之间的胜者。\n\n### 综述\n- 比利时排名、控球质量和经验更占优，德布劳内、卢卡库和特罗萨德在末轮5-1后状态回暖；塞内加尔虽然排名只低6位，但小组赛防线连续被法国、挪威打穿，门迪伤缺又削弱后场稳定性。关键是塞内加尔能否把比赛拖入身体对抗和转换节奏，如果比利时先进球，局面会明显倾向主队。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en\n- https://www.theguardian.com/football/2026/jul/01/belgium-senegal-world-cup-match-preview\n- https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/fifa-world-cup-big-blow-for-senegal-douard-mendy-ruled-out-of-belgium-knockout-clash/articleshow/132105164.cms\n- data/2026-06-16/matches.json\n- data/2026-06-22/matches.json\n- data/2026-06-26/matches.json\n\n---\n\n## 32强 Match 81 · 美国 vs 波黑（match_id: `2026-07-01-USA-BIH`）\n\n- 开球：2026-07-01 17:00（旧金山湾区当地时间 PDT）｜北京时间 2026-07-02 08:00（北京时间周四上午）\n- 场地：San Francisco Bay Area Stadium（Levi’s Stadium），美国加州圣克拉拉\n\n### 美国（USA，主队）\n- FIFA 排名：第 17 位\n- 晋级之路：东道主自动晋级；小组赛D组第一，4-1胜巴拉圭、2-0胜澳大利亚、2-3负土耳其，2胜1负积6分。\n- 主教练：毛里西奥·波切蒂诺 (Mauricio Pochettino)\n- 世界杯历史：第12次参加世界杯；1930年季军为队史最佳，2002年打进八强，2022年止步16强。本届作为东道主之一，淘汰赛主场氛围明显。\n- 核心球员：\n  - Christian Pulisic 克里斯蒂安·普利西奇（边锋/前腰，AC米兰）\n  - Folarin Balogun 弗拉林·巴洛贡（中锋，摩纳哥）\n  - Tyler Adams 泰勒·亚当斯（后腰/队长，伯恩茅斯）\n  - Weston McKennie 韦斯顿·麦肯尼（中场，尤文图斯）\n  - Antonee Robinson 安东尼·罗宾逊（左后卫，富勒姆）\n  - Chris Richards 克里斯·理查兹（中后卫，水晶宫）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-25 vs 土耳其（世界杯D组第3轮）：2-3（L）\n  - 2026-06-19 vs 澳大利亚（世界杯D组第2轮）：2-0（W）\n  - 2026-06-12 vs 巴拉圭（世界杯D组第1轮）：4-1（W）\n  - 2026-06-06 vs 德国（热身赛）：1-2（L）\n  - 2026-05-31 vs 塞内加尔（热身赛）：3-2（W）\n\n### 波黑（Bosnia and Herzegovina，客队）\n- FIFA 排名：第 64 位\n- 晋级之路：欧洲区附加赛点球淘汰威尔士和意大利晋级；小组赛B组第三，1-4负瑞士、1-1平加拿大、3-1胜卡塔尔，以最佳第三名晋级。\n- 主教练：塞尔盖·巴尔巴雷兹 (Sergej Barbarez)\n- 世界杯历史：队史第2次参加世界杯，2014年首秀止步小组赛；本届首次进入世界杯淘汰赛。40岁哲科仍是精神核心和支点。\n- 核心球员：\n  - Edin Džeko 埃丁·哲科（前锋/队长，沙尔克04）\n  - Ermedin Demirović 埃尔梅丁·德米罗维奇（前锋，斯图加特）\n  - Sead Kolašinac 塞阿德·科拉希纳茨（后卫，亚特兰大）\n  - Nikola Katić 尼古拉·卡蒂奇（中后卫，苏黎世）\n  - Esmir Bajraktarević 埃斯米尔·巴伊拉克塔雷维奇（边锋，PSV埃因霍温）\n  - Nikola Vasilj 尼古拉·瓦西利（门将，圣保利）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-24 vs 卡塔尔（世界杯B组第3轮）：3-1（W）\n  - 2026-06-19 vs 加拿大（世界杯B组第2轮）：1-1（D）\n  - 2026-06-13 vs 瑞士（世界杯B组第1轮）：1-4（L）\n  - 2026-06-06 vs 巴拿马（热身赛）：1-1（D）\n  - 2026-05-29 vs 北马其顿（热身赛）：0-0（D）\n\n### 博彩赔率（1X2，十进制）\n- WSJ赛前概率 / 公开市场报道：主胜 — / 平 — / 客胜 —（公开抓取页未完整列出90分钟1X2三项；WSJ赛前称美国晋级概率约78.5%，市场和报道均把美国列为明显更被看好一方。）\n\n### 历史交锋（H2H）\n- 共交手 3 次。美国和波黑历史交锋不多，美国总体占优；最近一次常被提到的是2021年美国友谊赛1-0击败波黑。本场是双方首次世界杯交锋。\n\n### 近期新闻\n- [USA] 普利西奇恢复后预计回归主力阵容：赛前报道称美国有望恢复揭幕战最有效的主力框架，普利西奇小腿问题缓解，巴洛贡、麦肯尼、亚当斯等核心预计回到首发。（来源：The Sun / NY Post）\n- [USA] 波切蒂诺强调保持原有节奏：美国队在连续出现强队出局后强调不需要过度调整，重点是纪律、防守和继续利用边翼宽度。（来源：The Guardian）\n- [Bosnia and Herzegovina] 波黑主打直接和定位球：赛前分析称波黑常用4-4-2和低位结构，依靠哲科、德米罗维奇、卡蒂奇等人的高点与传中制造机会。（来源：NY Post / Stars and Stripes FC）\n- [Bosnia and Herzegovina] 巴伊拉克塔雷维奇叙事明显：美国出生的埃斯米尔·巴伊拉克塔雷维奇选择代表波黑，成为本场额外故事线。（来源：talkSPORT / WSJ）\n\n### 赛事形势\n- 这是D组第一对B组第三的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵比利时与塞内加尔之间的胜者。\n\n### 综述\n- 美国拥有主场、速度和更完整的前场配置，普利西奇与巴洛贡能直接冲击波黑防线身后；波黑的优势在经验、身体对抗和定位球，哲科支点能让比赛变得很碎。美国如果前20分钟能压住波黑反击，晋级概率很高；但如果久攻不下，波黑有把比赛拖进加时的能力。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en\n- https://www.theguardian.com/football/2026/jun/30/usmnt-bosnia-herzegovina-world-cup-round-of-32-preview\n- https://nypost.com/2026/06/30/sports/inside-usmnt-bosnia-herzegovina-world-cup-matchup-plus-prediction/\n- https://www.starsandstripesfc.com/usmnt-news/44688/2026-world-cup-previewing-usa-vs-bosnia-herzegovina\n- https://talksport.com/betting/4377325/usa-vs-bosnia-herzegovina-bet-builder-tips/\n- data/2026-06-12/matches.json\n- data/2026-06-24/matches.json\n- data/2026-06-25/matches.json\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 19 个比赛日、共 77 场比赛中，8 个当前活跃模型的历次预测、实际赛果与所得分数（结算规则：方向正确 2 分 + 90 分钟比分正确 3 分，两项都对 5 分；两项都错或未预测 0 分；模型加入前的未参赛场次不计入该模型分母）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 方向命中 | 比分命中 | 两项全中 |\n|  ---  |  ---  |  ---  |  ---  |  ---  |\n| Claude Opus 4.8 | 142 | 53/77 | 12/77 | 12/77 |\n| Kimi K2.7 | 127 | 50/77 | 9/77 | 9/77 |\n| Grok 4.3 | 124 | 50/77 | 8/77 | 8/77 |\n| Gemini 3.5 Flash | 43 | 17/25 | 3/25 | 3/25 |\n| Fugu Ultra | 40 | 17/25 | 2/25 | 2/25 |\n| Tencent HY3 Preview | 6 | 3/3 | 0/3 | 0/3 |\n| Xiaomi MiMo v2.5 Pro | 6 | 3/3 | 0/3 | 0/3 |\n| MiniMax M3 | 6 | 3/3 | 0/3 | 0/3 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（2） | 1-0（2） | 1-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 1-2（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 海地 vs 苏格兰 | 0-1 | 0-2（2） | 2-0（0） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-3（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 库拉索 | 7-1 | 6-0（2） | 4-0（2） | 4-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 荷兰 vs 日本 | 2-2 | 1-1（2） | 2-1（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（2） | 1-0（2） | 1-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 奥地利 vs 约旦 | 3-1 | 3-0（2） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（2） | 2-1（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 瑞士 vs 波黑 | 4-1 | 2-1（2） | 2-0（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（2） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（2） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴西 vs 海地 | 3-0 | 4-0（2） | 2-0（2） | 3-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（2） | 3-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（2） | 2-1（5） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 突尼斯 vs 日本 | 0-4 | 0-2（2） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（2） | 1-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（2） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 1-1（2） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 新西兰 vs 埃及 | 1-3 | 0-2（2） | 0-1（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（2） | 2-1（2） | 2-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 法国 vs 伊拉克 | 3-0 | 4-0（2） | 3-1（2） | 3-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（2） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（2） | 1-2（5） | 1-2（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（2） | 2-0（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 3-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（2） | 1-2（2） | 0-1（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（2） | 2-0（2） | 1-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 0-0（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（2） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（2） | 0-1（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（2） | 2-0（2） | 3-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（2） | 0-1（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 0-1（0） | 1-2（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-25**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 库拉索 vs 科特迪瓦 | 0-2 | 0-2（5） | 0-1（2） | 0-2（5） | 0-3（2） | 0-3（2） | 未参赛 | 未参赛 | 未参赛 |\n| 厄瓜多尔 vs 德国 | 2-1 | 1-2（0） | 1-2（0） | 1-1（0） | 1-1（0） | 0-2（0） | 未参赛 | 未参赛 | 未参赛 |\n| 日本 vs 瑞典 | 1-1 | 2-1（0） | 2-1（0） | 1-1（5） | 3-1（0） | 2-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 突尼斯 vs 荷兰 | 1-3 | 0-3（2） | 1-3（5） | 0-3（2） | 0-4（2） | 0-4（2） | 未参赛 | 未参赛 | 未参赛 |\n| 土耳其 vs 美国 | 3-2 | 0-2（0） | 1-1（0） | 1-2（0） | 2-1（2） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 巴拉圭 vs 澳大利亚 | 0-0 | 1-1（2） | 0-0（5） | 1-1（2） | 0-1（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-26**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 挪威 vs 法国 | 1-4 | 2-3（2） | 2-3（2） | 2-2（0） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 塞内加尔 vs 伊拉克 | 5-0 | 3-0（2） | 3-1（2） | 2-0（2） | 3-1（2） | 4-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 埃及 vs 伊朗 | 1-1 | 2-0（0） | 1-1（5） | 1-1（5） | 1-0（0） | 0-0（2） | 未参赛 | 未参赛 | 未参赛 |\n| 新西兰 vs 比利时 | 1-5 | 1-2（2） | 1-2（2） | 0-2（2） | 0-3（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 佛得角 vs 沙特阿拉伯 | 0-0 | 2-1（0） | 2-1（0） | 1-1（2） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 |\n| 乌拉圭 vs 西班牙 | 0-1 | 1-2（2） | 0-2（2） | 1-2（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-27**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 巴拿马 vs 英格兰 | 0-2 | 0-3（2） | 0-2（5） | 0-2（5） | 0-3（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 克罗地亚 vs 加纳 | 2-1 | 2-1（5） | 1-1（0） | 1-0（2） | 2-1（5） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 阿尔及利亚 vs 奥地利 | 3-3 | 0-0（2） | 1-1（2） | 1-1（2） | 0-0（2） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 约旦 vs 阿根廷 | 1-3 | 0-3（2） | 0-2（2） | 0-2（2） | 1-3（5） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 哥伦比亚 vs 葡萄牙 | 0-0 | 1-2（0） | 1-1（2） | 1-1（2） | 1-2（0） | 0-0（5） | 未参赛 | 未参赛 | 未参赛 |\n| 刚果民主共和国 vs 乌兹别克斯坦 | 3-1 | 2-0（2） | 2-1（2） | 2-1（2） | 3-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-28**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 南非 vs 加拿大 | 0-1 | 1-2（2） | 1-1（0） | 1-2（2） | 0-2（2） | 0-1（5） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-29**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 巴西 vs 日本 | 2-1 | 2-0（2） | 2-1（5） | 2-0（2） | 1-0（2） | 3-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 巴拉圭 | 1-1 | 3-0（0） | 2-1（0） | 2-0（0） | 2-0（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 荷兰 vs 摩洛哥 | 1-1 | 2-1（0） | 1-1（5） | 1-1（5） | 2-1（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-30**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 挪威 | 1-2 | 1-2（5） | 1-1（0） | 1-2（5） | 1-1（2） | 0-2（2） | 0-1（2） | 2-3（2） | 0-1（2） |\n| 法国 vs 瑞典 | 3-0 | 3-0（5） | 3-1（2） | 3-1（2） | 2-1（2） | 2-1（2） | 2-0（2） | 2-0（2） | 2-1（2） |\n| 墨西哥 vs 厄瓜多尔 | 2-0 | 2-1（2） | 2-0（5） | 1-0（2） | 2-0（5） | 1-0（2） | 1-1（2） | 1-1（2） | 2-1（2） |\n\n<!-- HISTORY-REVIEW-END -->\n"
+  },
+  {
+   "date": "2026-07-02",
+   "matches": [
+    {
+     "id": "2026-07-02-ESP-AUT",
+     "group": "32强 Match 84",
+     "home": {
+      "code": "ESP",
+      "en": "Spain",
+      "zh": "西班牙",
+      "flag": "🇪🇸"
+     },
+     "away": {
+      "code": "AUT",
+      "en": "Austria",
+      "zh": "奥地利",
+      "flag": "🇦🇹"
+     },
+     "kickoff_local": "2026-07-02 12:00（洛杉矶当地时间 PDT）",
+     "kickoff_beijing": "2026-07-03 03:00（北京时间周五凌晨）",
+     "venue": "Los Angeles Stadium（SoFi Stadium），美国加利福尼亚州洛杉矶",
+     "teams": {
+      "Spain": {
+       "name_zh": "西班牙",
+       "fifa_ranking": 2,
+       "qualified_via": "欧洲区预选赛头名直接晋级；小组赛H组第一，0-0平佛得角、4-0胜沙特阿拉伯、1-0胜乌拉圭，2胜1平积7分，未失球出线。",
+       "coach": "路易斯·德拉富恩特 (Luis de la Fuente)",
+       "wc_history": "2010年世界杯冠军；2018、2022连续止步16强。本届以2024欧洲杯冠军和夺冠热门身份进入淘汰赛，但需要打破世界杯淘汰赛多年不胜的心理包袱。",
+       "key_players": [
+        {
+         "name": "Lamine Yamal 拉明·亚马尔",
+         "pos": "右边锋",
+         "club": "巴塞罗那"
+        },
+        {
+         "name": "Pedri 佩德里",
+         "pos": "中场",
+         "club": "巴塞罗那"
+        },
+        {
+         "name": "Rodri 罗德里",
+         "pos": "后腰",
+         "club": "曼城"
+        },
+        {
+         "name": "Dani Olmo 达尼·奥尔莫",
+         "pos": "攻击型中场",
+         "club": "巴塞罗那"
+        },
+        {
+         "name": "Mikel Oyarzabal 米克尔·奥亚萨瓦尔",
+         "pos": "前锋",
+         "club": "皇家社会"
+        },
+        {
+         "name": "Fabián Ruiz 法比安·鲁伊斯",
+         "pos": "中场",
+         "club": "巴黎圣日耳曼"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-26",
+         "opponent": "乌拉圭（世界杯H组第3轮）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-21",
+         "opponent": "沙特阿拉伯（世界杯H组第2轮）",
+         "score": "4-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-15",
+         "opponent": "佛得角（世界杯H组第1轮）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-08",
+         "opponent": "秘鲁（热身赛）",
+         "score": "3-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-04",
+         "opponent": "伊拉克（热身赛）",
+         "score": "1-1",
+         "result": "D"
+        }
+       ]
+      },
+      "Austria": {
+       "name_zh": "奥地利",
+       "fifa_ranking": 24,
+       "qualified_via": "欧洲区H组头名直接晋级，1998年后首次重返世界杯；小组赛J组第二，3-1胜约旦、0-2负阿根廷、3-3平阿尔及利亚，以最后时刻进球锁定出线。",
+       "coach": "拉尔夫·朗尼克 (Ralf Rangnick)",
+       "wc_history": "历史最佳为1934年第四名和1954年第三名。本届是奥地利44年来首次进入世界杯淘汰赛，最低目标已经完成，后续更多依赖高位压迫制造意外。",
+       "key_players": [
+        {
+         "name": "David Alaba 大卫·阿拉巴",
+         "pos": "后卫/队长",
+         "club": "皇家马德里"
+        },
+        {
+         "name": "Marcel Sabitzer 马塞尔·萨比策",
+         "pos": "中场",
+         "club": "多特蒙德"
+        },
+        {
+         "name": "Konrad Laimer 孔拉德·莱默",
+         "pos": "中场/边后卫",
+         "club": "拜仁慕尼黑"
+        },
+        {
+         "name": "Marko Arnautović 马尔科·阿瑙托维奇",
+         "pos": "中锋",
+         "club": "自由身"
+        },
+        {
+         "name": "Kevin Danso 凯文·丹索",
+         "pos": "中后卫",
+         "club": "托特纳姆热刺"
+        },
+        {
+         "name": "Romano Schmid 罗马诺·施密德",
+         "pos": "中场",
+         "club": "云达不来梅"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-27",
+         "opponent": "阿尔及利亚（世界杯J组第3轮）",
+         "score": "3-3",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-22",
+         "opponent": "阿根廷（世界杯J组第2轮）",
+         "score": "0-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-16",
+         "opponent": "约旦（世界杯J组第1轮）",
+         "score": "3-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-01",
+         "opponent": "突尼斯（热身赛）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-31",
+         "opponent": "韩国（热身赛）",
+         "score": "1-0",
+         "result": "W"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "Barca Blaugranes / Times of India赛前预览",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "公开抓取页未完整列出90分钟1X2三项，但两家均把西班牙列为明显更被看好的一方；Barca Blaugranes给出90分钟2-1西班牙的赛前判断。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 0,
+      "summary_zh": "两队此前有历史交锋，但本项目未核到一致的完整成年国家队总表；世界杯淘汰赛层面没有交锋记录，本场是两队首次在世界杯淘汰赛相遇。"
+     },
+     "news": [
+      {
+       "team": "Spain",
+       "headline_zh": "西班牙控球稳定，但淘汰赛心理压力明显",
+       "detail_zh": "西班牙小组赛头名且未失球，但0-0佛得角、1-0乌拉圭都说明阵地战终结仍需要提升；西媒也强调球队要结束世界杯淘汰赛长期不胜。",
+       "source": "El País / project results"
+      },
+      {
+       "team": "Spain",
+       "headline_zh": "边路伤停影响进攻层次",
+       "detail_zh": "赛前报道列出耶雷米·皮诺、尼科·威廉姆斯缺席，维克托·穆尼奥斯存疑；亚马尔、佩德里、罗德里仍是控球与推进核心。",
+       "source": "Barca Blaugranes / The Guardian"
+      },
+      {
+       "team": "Austria",
+       "headline_zh": "奥地利没有明确新增缺席",
+       "detail_zh": "赛前预览显示奥地利暂无主要缺席，朗尼克预计继续4-2-3-1和高位压迫，阿拉巴、萨比策、莱默、阿瑙托维奇是中轴。",
+       "source": "Barca Blaugranes"
+      },
+      {
+       "team": "Austria",
+       "headline_zh": "最后时刻出线带来额外信心",
+       "detail_zh": "奥地利在对阿尔及利亚的补时阶段扳成3-3，避免被淘汰并锁定J组第二，这是他们44年来首次进入世界杯淘汰赛。",
+       "source": "The Guardian / El País"
+      }
+     ],
+     "group_context_zh": "这是H组第一对J组第二的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵葡萄牙与克罗地亚之间的胜者。",
+     "summary_zh": "西班牙控球、排名、阵容上限和小组赛防守都占优，但边路伤停与世界杯淘汰赛低效史会放大压力。奥地利的高位压迫能把比赛拉快，也有定位球和二点球威胁；如果西班牙先破局，比赛会回到他们熟悉的控球节奏，若久攻不下则存在被拖进加时的空间。",
+     "sources": [
+      "https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en",
+      "https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en",
+      "https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32",
+      "https://www.barcablaugranes.com/world-cup-2026/125416/spain-austria-world-cup-2026-team-news-match-preview-lineups-prediction",
+      "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/spain-vs-austria-at-fifa-world-cup-2026-how-to-watch-streaming-guide-start-time-predicted-line-ups-and-more/articleshow/132127208.cms",
+      "https://www.theguardian.com/football/2026/jul/01/fabian-ruiz-spain-austria-world-cup-2026-round-32",
+      "https://elpais.com/deportes/mundial-futbol/2026-07-02/espana-y-la-memoria-perdida-del-ko-busca-contra-austria-superar-una-eliminatoria-de-un-mundial-por-primera-vez-en-16-anos.html",
+      "https://elpais.com/deportes/mundial-futbol/2026-07-02/austria-rival-de-espana-entre-la-epica-wagneriana-y-la-placidez-del-objetivo-cumplido.html",
+      "data/2026-06-15/matches.json",
+      "data/2026-06-21/matches.json",
+      "data/2026-06-22/matches.json",
+      "data/2026-06-26/matches.json",
+      "data/2026-06-27/matches.json"
+     ],
+     "result": null,
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-ESP-AUT",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 78,
+        "reasoning_zh": "西班牙整体实力排名碾压，控球主导，奥地利高位压迫难持久，西班牙90分钟取胜概率高。"
+       },
+       "settled": null
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-ESP-AUT",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 80,
+        "reasoning_zh": "西班牙控球实力占优，奥地利高压虽能制造麻烦但难挡出局。"
+       },
+       "settled": null
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-ESP-AUT",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 72,
+        "reasoning_zh": "西班牙控球与防守稳固，未失球出线；奥地利高位压迫有威胁但个人能力差距明显，西班牙终能破局取胜。"
+       },
+       "settled": null
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-ESP-AUT",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 78,
+        "reasoning_zh": "西班牙控球体系成熟且小组赛一球未失。奥地利压迫较强但防守漏洞多，看好西班牙90分钟完胜。"
+       },
+       "settled": null
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-ESP-AUT",
+        "winner": "home",
+        "score": "3-1",
+        "confidence": 68,
+        "reasoning_zh": "西班牙控球与阵容占优终能破局，奥地利高位压迫可偷进一球，但整体仍难挡西班牙火力。"
+       },
+       "settled": null
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-ESP-AUT",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 85,
+        "reasoning_zh": "西班牙控球防守占优，奥地利难组织有效进攻"
+       },
+       "settled": null
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-ESP-AUT",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 70,
+        "reasoning_zh": "西班牙控球与防守占优，但边路伤停限制进攻，预计小胜晋级。"
+       },
+       "settled": null
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-ESP-AUT",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 62,
+        "reasoning_zh": "西班牙防守稳固小组赛零失球，但边路伤停削弱进攻，淘汰赛压力下可能小胜"
+       },
+       "settled": null
+      }
+     ]
+    },
+    {
+     "id": "2026-07-02-POR-CRO",
+     "group": "32强 Match 83",
+     "home": {
+      "code": "POR",
+      "en": "Portugal",
+      "zh": "葡萄牙",
+      "flag": "🇵🇹"
+     },
+     "away": {
+      "code": "CRO",
+      "en": "Croatia",
+      "zh": "克罗地亚",
+      "flag": "🇭🇷"
+     },
+     "kickoff_local": "2026-07-02 19:00（多伦多当地时间 EDT）",
+     "kickoff_beijing": "2026-07-03 07:00（北京时间周五早晨）",
+     "venue": "Toronto Stadium（BMO Field），加拿大安大略省多伦多",
+     "teams": {
+      "Portugal": {
+       "name_zh": "葡萄牙",
+       "fifa_ranking": 5,
+       "qualified_via": "欧洲区F组头名直接晋级；小组赛K组第二，1-1平刚果民主共和国、5-0胜乌兹别克斯坦、0-0平哥伦比亚，1胜2平积5分。",
+       "coach": "罗伯托·马丁内斯 (Roberto Martínez)",
+       "wc_history": "葡萄牙世界杯最佳为1966年季军。本届是C罗第六届世界杯，也可能是他最后一次世界杯淘汰赛机会，球队纸面阵容很强但小组赛稳定性一般。",
+       "key_players": [
+        {
+         "name": "Cristiano Ronaldo 克里斯蒂亚诺·罗纳尔多",
+         "pos": "前锋/队长",
+         "club": "利雅得胜利"
+        },
+        {
+         "name": "Bruno Fernandes 布鲁诺·费尔南德斯",
+         "pos": "中场",
+         "club": "曼联"
+        },
+        {
+         "name": "Bernardo Silva 贝尔纳多·席尔瓦",
+         "pos": "中场/边锋",
+         "club": "曼城"
+        },
+        {
+         "name": "Vitinha 维蒂尼亚",
+         "pos": "中场",
+         "club": "巴黎圣日耳曼"
+        },
+        {
+         "name": "Rúben Dias 鲁本·迪亚斯",
+         "pos": "中后卫",
+         "club": "曼城"
+        },
+        {
+         "name": "Rafael Leão 拉斐尔·莱奥",
+         "pos": "前锋/边锋",
+         "club": "AC米兰"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-27",
+         "opponent": "哥伦比亚（世界杯K组第3轮）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-23",
+         "opponent": "乌兹别克斯坦（世界杯K组第2轮）",
+         "score": "5-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-17",
+         "opponent": "刚果民主共和国（世界杯K组第1轮）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-10",
+         "opponent": "尼日利亚（热身赛）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "智利（热身赛）",
+         "score": "2-1",
+         "result": "W"
+        }
+       ]
+      },
+      "Croatia": {
+       "name_zh": "克罗地亚",
+       "fifa_ranking": 11,
+       "qualified_via": "欧洲区L组头名直接晋级；小组赛L组第二，2-4负英格兰、1-0胜巴拿马、2-1胜加纳，2胜1负积6分。",
+       "coach": "兹拉特科·达利奇 (Zlatko Dalić)",
+       "wc_history": "2018年世界杯亚军、2022年季军。克罗地亚大赛淘汰赛经验很强，老将莫德里奇继续领衔，但阵容年龄结构与连续高强度比赛是隐忧。",
+       "key_players": [
+        {
+         "name": "Luka Modrić 卢卡·莫德里奇",
+         "pos": "中场/队长",
+         "club": "AC米兰"
+        },
+        {
+         "name": "Joško Gvardiol 约什科·格瓦迪奥尔",
+         "pos": "后卫",
+         "club": "曼城"
+        },
+        {
+         "name": "Mateo Kovačić 马特奥·科瓦契奇",
+         "pos": "中场",
+         "club": "曼城"
+        },
+        {
+         "name": "Ivan Perišić 伊万·佩里西奇",
+         "pos": "边路",
+         "club": "埃因霍温"
+        },
+        {
+         "name": "Andrej Kramarić 安德烈·克拉马里奇",
+         "pos": "前锋",
+         "club": "霍芬海姆"
+        },
+        {
+         "name": "Josip Stanišić 约西普·斯塔尼希奇",
+         "pos": "边后卫",
+         "club": "拜仁慕尼黑"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-27",
+         "opponent": "加纳（世界杯L组第3轮）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-23",
+         "opponent": "巴拿马（世界杯L组第2轮）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-17",
+         "opponent": "英格兰（世界杯L组第1轮）",
+         "score": "2-4",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-07",
+         "opponent": "斯洛文尼亚（热身赛）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-02",
+         "opponent": "比利时（热身赛）",
+         "score": "0-2",
+         "result": "L"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "New York Post票务/赛前报道",
+       "home_win": 1.8,
+       "draw": null,
+       "away_win": null,
+       "note": "报道称葡萄牙被列为 -125 的更被看好一方；页面未完整列出90分钟1X2三项，十进制1.80为美式-125换算。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 8,
+      "summary_zh": "两队此前成年国家队交锋以葡萄牙优势为主，克罗地亚对葡萄牙胜绩很少；世界杯层面没有正式交锋记录，本场是C罗与莫德里奇的淘汰赛对话。"
+     },
+     "news": [
+      {
+       "team": "Portugal",
+       "headline_zh": "C罗与莫德里奇同场，告别叙事很强",
+       "detail_zh": "赛前报道把本场写成C罗和莫德里奇两位老将的世界杯末段对决，两人都没有正式宣布退役，但年龄意味着输球一方很可能告别世界杯舞台。",
+       "source": "El País / New York Post"
+      },
+      {
+       "team": "Portugal",
+       "headline_zh": "葡萄牙阵容厚，但小组赛节奏不稳定",
+       "detail_zh": "葡萄牙5-0击败乌兹别克斯坦打出上限，但另外两场都被逼平；TalkSport认为马丁内斯常用4-2-3-1，B费、维蒂尼亚、C罗是主要进攻链条。",
+       "source": "talkSPORT / project results"
+      },
+      {
+       "team": "Croatia",
+       "headline_zh": "克罗地亚连续两胜回稳",
+       "detail_zh": "克罗地亚首轮2-4负英格兰后，连续击败巴拿马和加纳拿到小组第二；斯塔尼希奇等边路球员赛前强调球队优先于个人表现。",
+       "source": "Bavarian Football Works / project results"
+      },
+      {
+       "team": "Croatia",
+       "headline_zh": "大赛经验是克罗地亚主要筹码",
+       "detail_zh": "达利奇带队经历2018亚军和2022季军，莫德里奇、科瓦契奇、佩里西奇的控场经验能降低淘汰赛波动，但体能与速度对抗是风险。",
+       "source": "project archive / El País"
+      }
+     ],
+     "group_context_zh": "这是K组第二对L组第二的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵西班牙与奥地利之间的胜者。",
+     "summary_zh": "葡萄牙排名、阵容厚度和前场创造力更高，鲁本·迪亚斯回归后防线稳定性也提升；但他们小组赛两场0/1球平局说明进攻节奏并不连续。克罗地亚淘汰赛韧性和中场控节奏能力强，最现实的路线是把比赛拖进低比分。若葡萄牙能早早把C罗、B费和边路串起来，90分钟晋级概率更高；若久攻不下，克罗地亚的加时和点球经验会变得危险。",
+     "sources": [
+      "https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en",
+      "https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en",
+      "https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32",
+      "https://www.sbnation.com/fifa-world-cup/1120327/2026-world-cup-round-of-32-full-list-of-matches-potential-round-of-16-games",
+      "https://talksport.com/betting/4257189/portugal-world-cup-squad-2026/",
+      "https://www.nypost.com/2026/06/30/ticket-sales/how-to-get-discounted-tickets-for-the-portugal-croatia-world-cup-match/",
+      "https://elpais.com/deportes/mundial-futbol/2026-07-02/un-ultimo-baile-mundialista-para-cristiano-o-modric-en-un-partido-marcado-por-el-primer-aniversario-de-la-muerte-de-diogo-jota.html",
+      "https://www.bavarianfootballworks.com/fifa-world-cup/223413/bayern-munich-josip-stanisic-happy-with-world-cup-performances-but-says-team-comes-first-world-cup-croatia-portugal-round-of-32",
+      "data/2026-06-17/matches.json",
+      "data/2026-06-23/matches.json",
+      "data/2026-06-27/matches.json"
+     ],
+     "result": null,
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-POR-CRO",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 72,
+        "reasoning_zh": "葡萄牙阵容厚度与前场创造力占优，C罗状态稳定，克罗地亚经验丰富但体能下滑，葡萄牙更易90分钟晋级。"
+       },
+       "settled": null
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-POR-CRO",
+        "winner": "home",
+        "score": "1-1",
+        "confidence": 65,
+        "reasoning_zh": "葡萄牙纸面更强但进攻不连贯，克罗地亚能拖入加时后葡晋级。"
+       },
+       "settled": null
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-POR-CRO",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 58,
+        "reasoning_zh": "葡萄牙阵容厚度和前场创造力更高，鲁本·迪亚斯稳固后防，克罗地亚年龄偏大速度吃紧，葡萄牙有望90分钟内解决。"
+       },
+       "settled": null
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-POR-CRO",
+        "winner": "home",
+        "score": "1-1",
+        "confidence": 68,
+        "reasoning_zh": "克罗地亚淘汰赛坚韧、擅拖延，90分钟恐难分胜负。葡萄牙板凳深度占优，看好其加时或点球晋级。"
+       },
+       "settled": null
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-POR-CRO",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 50,
+        "reasoning_zh": "葡萄牙阵容厚前场创造力更强，克罗地亚老将韧性足但速度吃亏，葡萄牙险胜晋级。"
+       },
+       "settled": null
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-POR-CRO",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 85,
+        "reasoning_zh": "葡萄牙阵容厚度更优，克罗地亚老将体能下滑，常规时间小胜"
+       },
+       "settled": null
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-POR-CRO",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 60,
+        "reasoning_zh": "葡萄牙阵容厚度更高，C罗关键战发力，有望低比分取胜。"
+       },
+       "settled": null
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-POR-CRO",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 58,
+        "reasoning_zh": "五五开对决，葡萄牙前场创造力略胜，B费和莱奥能制造威胁；克罗地亚淘汰赛经验强但锋线老化，预测葡萄牙小胜或经加时晋级。"
+       },
+       "settled": null
+      }
+     ]
+    },
+    {
+     "id": "2026-07-02-SUI-ALG",
+     "group": "32强 Match 85",
+     "home": {
+      "code": "SUI",
+      "en": "Switzerland",
+      "zh": "瑞士",
+      "flag": "🇨🇭"
+     },
+     "away": {
+      "code": "ALG",
+      "en": "Algeria",
+      "zh": "阿尔及利亚",
+      "flag": "🇩🇿"
+     },
+     "kickoff_local": "2026-07-02 20:00（温哥华当地时间 PDT）",
+     "kickoff_beijing": "2026-07-03 11:00（北京时间周五上午）",
+     "venue": "BC Place Vancouver，加拿大不列颠哥伦比亚省温哥华",
+     "teams": {
+      "Switzerland": {
+       "name_zh": "瑞士",
+       "fifa_ranking": 19,
+       "qualified_via": "欧洲区预选赛头名直接晋级；小组赛B组第一，1-1平卡塔尔、4-1胜波黑、2-1胜加拿大，2胜1平积7分。",
+       "coach": "穆拉特·亚金 (Murat Yakin)",
+       "wc_history": "瑞士连续多届世界杯进入淘汰赛，但近年世界杯淘汰赛突破有限。小组赛最后一轮击败加拿大后，继续留在温哥华作战，旅行与熟悉场地上有优势。",
+       "key_players": [
+        {
+         "name": "Granit Xhaka 格拉尼特·扎卡",
+         "pos": "中场/队长",
+         "club": "桑德兰/勒沃库森背景"
+        },
+        {
+         "name": "Manuel Akanji 曼努埃尔·阿坎吉",
+         "pos": "中后卫",
+         "club": "曼城/国际米兰背景"
+        },
+        {
+         "name": "Gregor Kobel 格雷戈尔·科贝尔",
+         "pos": "门将",
+         "club": "多特蒙德"
+        },
+        {
+         "name": "Dan Ndoye 丹·恩多耶",
+         "pos": "边锋",
+         "club": "诺丁汉森林"
+        },
+        {
+         "name": "Breel Embolo 布雷尔·恩博洛",
+         "pos": "前锋",
+         "club": "摩纳哥/雷恩背景"
+        },
+        {
+         "name": "Johan Manzambi 约翰·曼赞比",
+         "pos": "中场",
+         "club": "弗赖堡"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-24",
+         "opponent": "加拿大（世界杯B组第3轮）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-18",
+         "opponent": "波黑（世界杯B组第2轮）",
+         "score": "4-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-13",
+         "opponent": "卡塔尔（世界杯B组第1轮）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "澳大利亚（热身赛）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-05-31",
+         "opponent": "约旦（热身赛）",
+         "score": "4-1",
+         "result": "W"
+        }
+       ]
+      },
+      "Algeria": {
+       "name_zh": "阿尔及利亚",
+       "fifa_ranking": 28,
+       "qualified_via": "非洲区G组头名直接晋级；小组赛J组第三，0-3负阿根廷、2-1胜约旦、3-3平奥地利，以最佳第三名晋级。",
+       "coach": "弗拉基米尔·佩特科维奇 (Vladimir Petković)",
+       "wc_history": "第5次参加世界杯，2014年进入16强为队史最佳。本届从阿根廷、奥地利所在小组出线，末轮与奥地利的3-3让球队重新获得进攻信心。",
+       "key_players": [
+        {
+         "name": "Riyad Mahrez 里亚德·马赫雷斯",
+         "pos": "边锋/队长",
+         "club": "吉达国民"
+        },
+        {
+         "name": "Mohamed Amoura 穆罕默德·阿穆拉",
+         "pos": "前锋",
+         "club": "沃尔夫斯堡"
+        },
+        {
+         "name": "Amine Gouiri 阿明·古伊里",
+         "pos": "前锋",
+         "club": "马赛"
+        },
+        {
+         "name": "Rayan Aït-Nouri 拉扬·艾特-努里",
+         "pos": "左后卫",
+         "club": "曼城"
+        },
+        {
+         "name": "Ismaël Bennacer 伊斯梅尔·本纳赛尔",
+         "pos": "中场",
+         "club": "AC米兰"
+        },
+        {
+         "name": "Ibrahim Maza 伊布拉欣·马扎",
+         "pos": "攻击型中场",
+         "club": "勒沃库森"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-27",
+         "opponent": "奥地利（世界杯J组第3轮）",
+         "score": "3-3",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-22",
+         "opponent": "约旦（世界杯J组第2轮）",
+         "score": "2-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-16",
+         "opponent": "阿根廷（世界杯J组第1轮）",
+         "score": "0-3",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-03",
+         "opponent": "荷兰（热身赛）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-04-01",
+         "opponent": "乌拉圭（热身赛）",
+         "score": "0-0",
+         "result": "D"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "公开赛前报道综合",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "公开抓取页未完整列出本场90分钟1X2三项；Guardian/AP均强调瑞士以B组第一、留在温哥华作战，市场语境中瑞士更被看好，但阿尔及利亚进攻上限明确。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 1,
+      "summary_zh": "两队成年国家队交锋很少，本项目未核到世界杯正赛交锋记录；瑞士与阿尔及利亚在世界杯淘汰赛层面没有历史对战。"
+     },
+     "news": [
+      {
+       "team": "Switzerland",
+       "headline_zh": "瑞士继续留在温哥华，赛程与场地更顺",
+       "detail_zh": "瑞士2-1击败加拿大后拿到B组第一，AP和Guardian都提到球队将回到温哥华踢32强，减少旅行消耗。",
+       "source": "AP / The Guardian"
+      },
+      {
+       "team": "Switzerland",
+       "headline_zh": "亚金调整后进攻点变多",
+       "detail_zh": "对加拿大一战，鲁本·巴尔加斯和曼赞比先后进球，说明瑞士不只依赖扎卡组织和恩博洛支点，替补与二线攻击能改变比赛。",
+       "source": "The Guardian"
+      },
+      {
+       "team": "Algeria",
+       "headline_zh": "阿尔及利亚末轮打出进攻状态",
+       "detail_zh": "对奥地利一战踢成3-3，马赫雷斯补时阶段曾打入看似决定胜负的一球，阿尔及利亚从0-3负阿根廷后恢复了边路与反击信心。",
+       "source": "The Guardian / The Times"
+      },
+      {
+       "team": "Algeria",
+       "headline_zh": "佩特科维奇球队上限高但稳定性存疑",
+       "detail_zh": "Guardian赛前队报把阿尔及利亚称作本届较难判断的球队：近期战绩漂亮，但对手强度不一，高压场景下后防仍会暴露空间。",
+       "source": "The Guardian"
+      }
+     ],
+     "group_context_zh": "这是B组第一对J组第三的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵哥伦比亚与加纳之间的胜者。",
+     "summary_zh": "瑞士更稳定，结构清晰，扎卡控制节奏、阿坎吉和科贝尔保证下限，小组赛7分也说明他们能把优势转成结果；阿尔及利亚的马赫雷斯、阿穆拉和古伊里具备反击爆点，3-3奥地利证明他们能制造混乱。若瑞士先掌控中场，本场会偏低比分；如果阿尔及利亚先偷到转换机会，比赛很容易被拖进加时。",
+     "sources": [
+      "https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en",
+      "https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en",
+      "https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32",
+      "https://apnews.com/article/bf6b7a6e5386df29406406563fbc6aa4",
+      "https://www.theguardian.com/football/live/2026/jun/24/switzerland-v-canada-world-cup-2026-live",
+      "https://www.theguardian.com/football/2026/jun/08/algeria-world-cup-2026-team-guide",
+      "https://www.theguardian.com/football/2026/jun/28/algeria-austria-world-cup-group-j-match-report",
+      "https://www.thetimes.com/sport/football/world-cup/article/world-cup-2026-latest-news-live-scores-team-updates-day-17-3600zf68k",
+      "data/2026-06-13/matches.json",
+      "data/2026-06-16/matches.json",
+      "data/2026-06-18/matches.json",
+      "data/2026-06-22/matches.json",
+      "data/2026-06-24/matches.json",
+      "data/2026-06-27/matches.json"
+     ],
+     "result": null,
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-SUI-ALG",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 65,
+        "reasoning_zh": "瑞士主场熟悉场地且防守稳健，阿尔及利亚反击上限高但稳定性不足，低比分瑞士小胜概率更大。"
+       },
+       "settled": null
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-SUI-ALG",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 75,
+        "reasoning_zh": "瑞士连场作战更稳定，阿尔及利亚反击有威胁但后防难保。"
+       },
+       "settled": null
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-SUI-ALG",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 55,
+        "reasoning_zh": "瑞士结构清晰、扎卡控节奏、后防下限高，阿尔及利亚稳定性差，瑞士掌控中场后偏低比分取胜。"
+       },
+       "settled": null
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-SUI-ALG",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 75,
+        "reasoning_zh": "瑞士免受旅行奔波，攻守更均衡。阿尔及利亚神经刀属性明显且防线不稳，看好瑞士90分钟晋级。"
+       },
+       "settled": null
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-SUI-ALG",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 63,
+        "reasoning_zh": "瑞士结构稳定、扎卡控节奏，主场熟悉温哥华，能限制阿尔及利亚反击并高效取胜。"
+       },
+       "settled": null
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-SUI-ALG",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 82,
+        "reasoning_zh": "瑞士阵容稳定且有温哥华场地优势，阿尔及利亚防守端存在隐患"
+       },
+       "settled": null
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-SUI-ALG",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 75,
+        "reasoning_zh": "瑞士结构稳定且场地占优，阿尔及利亚防守漏洞大，主队可完胜。"
+       },
+       "settled": null
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-02-SUI-ALG",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 65,
+        "reasoning_zh": "瑞士结构清晰且留温哥华作战，阿尔及利亚防守不稳三场丢6球，瑞士应能控制局面"
+       },
+       "settled": null
+      }
+     ]
+    }
+   ],
+   "settled": false,
+   "day_points": {
+    "x-ai/grok-4.3": 0,
+    "moonshotai/kimi-k2.6": 0,
+    "anthropic/claude-fable-5": 0,
+    "google/gemini-3.5-flash": 0,
+    "sakana/fugu-ultra": 0,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
+   },
+   "prompt": {
+    "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场淘汰赛的最终晋级方/最终获胜方，以及90分钟（含补时、不含加时和点球大战）的比分；90分钟比分可以是平局，但最终晋级方不能是平局，必须在主队或客队中选择一方。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断非热门球队会通过90分钟、加时或点球晋级时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的90分钟精确比分，并给出最终晋级方向。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
+    "user": "以下是 2026-07-02 世界杯 3 场比赛的完整资料文档：\n\n═══════════ 资料文档开始 ═══════════\n# 2026-07-02 世界杯比赛资料文档\n\n本文档汇总了 2026-07-02（比赛日，北美当地时间）FIFA 2026 世界杯全部 3 场32强淘汰赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与赛事形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-07-02-ESP-AUT`：32强 Match 84 西班牙(Spain, 主) vs 奥地利(Austria, 客)\n- `2026-07-02-POR-CRO`：32强 Match 83 葡萄牙(Portugal, 主) vs 克罗地亚(Croatia, 客)\n- `2026-07-02-SUI-ALG`：32强 Match 85 瑞士(Switzerland, 主) vs 阿尔及利亚(Algeria, 客)\n\n---\n\n## 32强 Match 84 · 西班牙 vs 奥地利（match_id: `2026-07-02-ESP-AUT`）\n\n- 开球：2026-07-02 12:00（洛杉矶当地时间 PDT）｜北京时间 2026-07-03 03:00（北京时间周五凌晨）\n- 场地：Los Angeles Stadium（SoFi Stadium），美国加利福尼亚州洛杉矶\n\n### 西班牙（Spain，主队）\n- FIFA 排名：第 2 位\n- 晋级之路：欧洲区预选赛头名直接晋级；小组赛H组第一，0-0平佛得角、4-0胜沙特阿拉伯、1-0胜乌拉圭，2胜1平积7分，未失球出线。\n- 主教练：路易斯·德拉富恩特 (Luis de la Fuente)\n- 世界杯历史：2010年世界杯冠军；2018、2022连续止步16强。本届以2024欧洲杯冠军和夺冠热门身份进入淘汰赛，但需要打破世界杯淘汰赛多年不胜的心理包袱。\n- 核心球员：\n  - Lamine Yamal 拉明·亚马尔（右边锋，巴塞罗那）\n  - Pedri 佩德里（中场，巴塞罗那）\n  - Rodri 罗德里（后腰，曼城）\n  - Dani Olmo 达尼·奥尔莫（攻击型中场，巴塞罗那）\n  - Mikel Oyarzabal 米克尔·奥亚萨瓦尔（前锋，皇家社会）\n  - Fabián Ruiz 法比安·鲁伊斯（中场，巴黎圣日耳曼）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-26 vs 乌拉圭（世界杯H组第3轮）：1-0（W）\n  - 2026-06-21 vs 沙特阿拉伯（世界杯H组第2轮）：4-0（W）\n  - 2026-06-15 vs 佛得角（世界杯H组第1轮）：0-0（D）\n  - 2026-06-08 vs 秘鲁（热身赛）：3-1（W）\n  - 2026-06-04 vs 伊拉克（热身赛）：1-1（D）\n\n### 奥地利（Austria，客队）\n- FIFA 排名：第 24 位\n- 晋级之路：欧洲区H组头名直接晋级，1998年后首次重返世界杯；小组赛J组第二，3-1胜约旦、0-2负阿根廷、3-3平阿尔及利亚，以最后时刻进球锁定出线。\n- 主教练：拉尔夫·朗尼克 (Ralf Rangnick)\n- 世界杯历史：历史最佳为1934年第四名和1954年第三名。本届是奥地利44年来首次进入世界杯淘汰赛，最低目标已经完成，后续更多依赖高位压迫制造意外。\n- 核心球员：\n  - David Alaba 大卫·阿拉巴（后卫/队长，皇家马德里）\n  - Marcel Sabitzer 马塞尔·萨比策（中场，多特蒙德）\n  - Konrad Laimer 孔拉德·莱默（中场/边后卫，拜仁慕尼黑）\n  - Marko Arnautović 马尔科·阿瑙托维奇（中锋，自由身）\n  - Kevin Danso 凯文·丹索（中后卫，托特纳姆热刺）\n  - Romano Schmid 罗马诺·施密德（中场，云达不来梅）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs 阿尔及利亚（世界杯J组第3轮）：3-3（D）\n  - 2026-06-22 vs 阿根廷（世界杯J组第2轮）：0-2（L）\n  - 2026-06-16 vs 约旦（世界杯J组第1轮）：3-1（W）\n  - 2026-06-01 vs 突尼斯（热身赛）：1-0（W）\n  - 2026-03-31 vs 韩国（热身赛）：1-0（W）\n\n### 博彩赔率（1X2，十进制）\n- Barca Blaugranes / Times of India赛前预览：主胜 — / 平 — / 客胜 —（公开抓取页未完整列出90分钟1X2三项，但两家均把西班牙列为明显更被看好的一方；Barca Blaugranes给出90分钟2-1西班牙的赛前判断。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队此前有历史交锋，但本项目未核到一致的完整成年国家队总表；世界杯淘汰赛层面没有交锋记录，本场是两队首次在世界杯淘汰赛相遇。\n\n### 近期新闻\n- [Spain] 西班牙控球稳定，但淘汰赛心理压力明显：西班牙小组赛头名且未失球，但0-0佛得角、1-0乌拉圭都说明阵地战终结仍需要提升；西媒也强调球队要结束世界杯淘汰赛长期不胜。（来源：El País / project results）\n- [Spain] 边路伤停影响进攻层次：赛前报道列出耶雷米·皮诺、尼科·威廉姆斯缺席，维克托·穆尼奥斯存疑；亚马尔、佩德里、罗德里仍是控球与推进核心。（来源：Barca Blaugranes / The Guardian）\n- [Austria] 奥地利没有明确新增缺席：赛前预览显示奥地利暂无主要缺席，朗尼克预计继续4-2-3-1和高位压迫，阿拉巴、萨比策、莱默、阿瑙托维奇是中轴。（来源：Barca Blaugranes）\n- [Austria] 最后时刻出线带来额外信心：奥地利在对阿尔及利亚的补时阶段扳成3-3，避免被淘汰并锁定J组第二，这是他们44年来首次进入世界杯淘汰赛。（来源：The Guardian / El País）\n\n### 赛事形势\n- 这是H组第一对J组第二的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵葡萄牙与克罗地亚之间的胜者。\n\n### 综述\n- 西班牙控球、排名、阵容上限和小组赛防守都占优，但边路伤停与世界杯淘汰赛低效史会放大压力。奥地利的高位压迫能把比赛拉快，也有定位球和二点球威胁；如果西班牙先破局，比赛会回到他们熟悉的控球节奏，若久攻不下则存在被拖进加时的空间。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- https://www.barcablaugranes.com/world-cup-2026/125416/spain-austria-world-cup-2026-team-news-match-preview-lineups-prediction\n- https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/spain-vs-austria-at-fifa-world-cup-2026-how-to-watch-streaming-guide-start-time-predicted-line-ups-and-more/articleshow/132127208.cms\n- https://www.theguardian.com/football/2026/jul/01/fabian-ruiz-spain-austria-world-cup-2026-round-32\n- https://elpais.com/deportes/mundial-futbol/2026-07-02/espana-y-la-memoria-perdida-del-ko-busca-contra-austria-superar-una-eliminatoria-de-un-mundial-por-primera-vez-en-16-anos.html\n- https://elpais.com/deportes/mundial-futbol/2026-07-02/austria-rival-de-espana-entre-la-epica-wagneriana-y-la-placidez-del-objetivo-cumplido.html\n- data/2026-06-15/matches.json\n- data/2026-06-21/matches.json\n- data/2026-06-22/matches.json\n- data/2026-06-26/matches.json\n- data/2026-06-27/matches.json\n\n---\n\n## 32强 Match 83 · 葡萄牙 vs 克罗地亚（match_id: `2026-07-02-POR-CRO`）\n\n- 开球：2026-07-02 19:00（多伦多当地时间 EDT）｜北京时间 2026-07-03 07:00（北京时间周五早晨）\n- 场地：Toronto Stadium（BMO Field），加拿大安大略省多伦多\n\n### 葡萄牙（Portugal，主队）\n- FIFA 排名：第 5 位\n- 晋级之路：欧洲区F组头名直接晋级；小组赛K组第二，1-1平刚果民主共和国、5-0胜乌兹别克斯坦、0-0平哥伦比亚，1胜2平积5分。\n- 主教练：罗伯托·马丁内斯 (Roberto Martínez)\n- 世界杯历史：葡萄牙世界杯最佳为1966年季军。本届是C罗第六届世界杯，也可能是他最后一次世界杯淘汰赛机会，球队纸面阵容很强但小组赛稳定性一般。\n- 核心球员：\n  - Cristiano Ronaldo 克里斯蒂亚诺·罗纳尔多（前锋/队长，利雅得胜利）\n  - Bruno Fernandes 布鲁诺·费尔南德斯（中场，曼联）\n  - Bernardo Silva 贝尔纳多·席尔瓦（中场/边锋，曼城）\n  - Vitinha 维蒂尼亚（中场，巴黎圣日耳曼）\n  - Rúben Dias 鲁本·迪亚斯（中后卫，曼城）\n  - Rafael Leão 拉斐尔·莱奥（前锋/边锋，AC米兰）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs 哥伦比亚（世界杯K组第3轮）：0-0（D）\n  - 2026-06-23 vs 乌兹别克斯坦（世界杯K组第2轮）：5-0（W）\n  - 2026-06-17 vs 刚果民主共和国（世界杯K组第1轮）：1-1（D）\n  - 2026-06-10 vs 尼日利亚（热身赛）：2-1（W）\n  - 2026-06-06 vs 智利（热身赛）：2-1（W）\n\n### 克罗地亚（Croatia，客队）\n- FIFA 排名：第 11 位\n- 晋级之路：欧洲区L组头名直接晋级；小组赛L组第二，2-4负英格兰、1-0胜巴拿马、2-1胜加纳，2胜1负积6分。\n- 主教练：兹拉特科·达利奇 (Zlatko Dalić)\n- 世界杯历史：2018年世界杯亚军、2022年季军。克罗地亚大赛淘汰赛经验很强，老将莫德里奇继续领衔，但阵容年龄结构与连续高强度比赛是隐忧。\n- 核心球员：\n  - Luka Modrić 卢卡·莫德里奇（中场/队长，AC米兰）\n  - Joško Gvardiol 约什科·格瓦迪奥尔（后卫，曼城）\n  - Mateo Kovačić 马特奥·科瓦契奇（中场，曼城）\n  - Ivan Perišić 伊万·佩里西奇（边路，埃因霍温）\n  - Andrej Kramarić 安德烈·克拉马里奇（前锋，霍芬海姆）\n  - Josip Stanišić 约西普·斯塔尼希奇（边后卫，拜仁慕尼黑）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs 加纳（世界杯L组第3轮）：2-1（W）\n  - 2026-06-23 vs 巴拿马（世界杯L组第2轮）：1-0（W）\n  - 2026-06-17 vs 英格兰（世界杯L组第1轮）：2-4（L）\n  - 2026-06-07 vs 斯洛文尼亚（热身赛）：2-1（W）\n  - 2026-06-02 vs 比利时（热身赛）：0-2（L）\n\n### 博彩赔率（1X2，十进制）\n- New York Post票务/赛前报道：主胜 1.8 / 平 — / 客胜 —（报道称葡萄牙被列为 -125 的更被看好一方；页面未完整列出90分钟1X2三项，十进制1.80为美式-125换算。）\n\n### 历史交锋（H2H）\n- 共交手 8 次。两队此前成年国家队交锋以葡萄牙优势为主，克罗地亚对葡萄牙胜绩很少；世界杯层面没有正式交锋记录，本场是C罗与莫德里奇的淘汰赛对话。\n\n### 近期新闻\n- [Portugal] C罗与莫德里奇同场，告别叙事很强：赛前报道把本场写成C罗和莫德里奇两位老将的世界杯末段对决，两人都没有正式宣布退役，但年龄意味着输球一方很可能告别世界杯舞台。（来源：El País / New York Post）\n- [Portugal] 葡萄牙阵容厚，但小组赛节奏不稳定：葡萄牙5-0击败乌兹别克斯坦打出上限，但另外两场都被逼平；TalkSport认为马丁内斯常用4-2-3-1，B费、维蒂尼亚、C罗是主要进攻链条。（来源：talkSPORT / project results）\n- [Croatia] 克罗地亚连续两胜回稳：克罗地亚首轮2-4负英格兰后，连续击败巴拿马和加纳拿到小组第二；斯塔尼希奇等边路球员赛前强调球队优先于个人表现。（来源：Bavarian Football Works / project results）\n- [Croatia] 大赛经验是克罗地亚主要筹码：达利奇带队经历2018亚军和2022季军，莫德里奇、科瓦契奇、佩里西奇的控场经验能降低淘汰赛波动，但体能与速度对抗是风险。（来源：project archive / El País）\n\n### 赛事形势\n- 这是K组第二对L组第二的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵西班牙与奥地利之间的胜者。\n\n### 综述\n- 葡萄牙排名、阵容厚度和前场创造力更高，鲁本·迪亚斯回归后防线稳定性也提升；但他们小组赛两场0/1球平局说明进攻节奏并不连续。克罗地亚淘汰赛韧性和中场控节奏能力强，最现实的路线是把比赛拖进低比分。若葡萄牙能早早把C罗、B费和边路串起来，90分钟晋级概率更高；若久攻不下，克罗地亚的加时和点球经验会变得危险。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- https://www.sbnation.com/fifa-world-cup/1120327/2026-world-cup-round-of-32-full-list-of-matches-potential-round-of-16-games\n- https://talksport.com/betting/4257189/portugal-world-cup-squad-2026/\n- https://www.nypost.com/2026/06/30/ticket-sales/how-to-get-discounted-tickets-for-the-portugal-croatia-world-cup-match/\n- https://elpais.com/deportes/mundial-futbol/2026-07-02/un-ultimo-baile-mundialista-para-cristiano-o-modric-en-un-partido-marcado-por-el-primer-aniversario-de-la-muerte-de-diogo-jota.html\n- https://www.bavarianfootballworks.com/fifa-world-cup/223413/bayern-munich-josip-stanisic-happy-with-world-cup-performances-but-says-team-comes-first-world-cup-croatia-portugal-round-of-32\n- data/2026-06-17/matches.json\n- data/2026-06-23/matches.json\n- data/2026-06-27/matches.json\n\n---\n\n## 32强 Match 85 · 瑞士 vs 阿尔及利亚（match_id: `2026-07-02-SUI-ALG`）\n\n- 开球：2026-07-02 20:00（温哥华当地时间 PDT）｜北京时间 2026-07-03 11:00（北京时间周五上午）\n- 场地：BC Place Vancouver，加拿大不列颠哥伦比亚省温哥华\n\n### 瑞士（Switzerland，主队）\n- FIFA 排名：第 19 位\n- 晋级之路：欧洲区预选赛头名直接晋级；小组赛B组第一，1-1平卡塔尔、4-1胜波黑、2-1胜加拿大，2胜1平积7分。\n- 主教练：穆拉特·亚金 (Murat Yakin)\n- 世界杯历史：瑞士连续多届世界杯进入淘汰赛，但近年世界杯淘汰赛突破有限。小组赛最后一轮击败加拿大后，继续留在温哥华作战，旅行与熟悉场地上有优势。\n- 核心球员：\n  - Granit Xhaka 格拉尼特·扎卡（中场/队长，桑德兰/勒沃库森背景）\n  - Manuel Akanji 曼努埃尔·阿坎吉（中后卫，曼城/国际米兰背景）\n  - Gregor Kobel 格雷戈尔·科贝尔（门将，多特蒙德）\n  - Dan Ndoye 丹·恩多耶（边锋，诺丁汉森林）\n  - Breel Embolo 布雷尔·恩博洛（前锋，摩纳哥/雷恩背景）\n  - Johan Manzambi 约翰·曼赞比（中场，弗赖堡）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-24 vs 加拿大（世界杯B组第3轮）：2-1（W）\n  - 2026-06-18 vs 波黑（世界杯B组第2轮）：4-1（W）\n  - 2026-06-13 vs 卡塔尔（世界杯B组第1轮）：1-1（D）\n  - 2026-06-06 vs 澳大利亚（热身赛）：1-1（D）\n  - 2026-05-31 vs 约旦（热身赛）：4-1（W）\n\n### 阿尔及利亚（Algeria，客队）\n- FIFA 排名：第 28 位\n- 晋级之路：非洲区G组头名直接晋级；小组赛J组第三，0-3负阿根廷、2-1胜约旦、3-3平奥地利，以最佳第三名晋级。\n- 主教练：弗拉基米尔·佩特科维奇 (Vladimir Petković)\n- 世界杯历史：第5次参加世界杯，2014年进入16强为队史最佳。本届从阿根廷、奥地利所在小组出线，末轮与奥地利的3-3让球队重新获得进攻信心。\n- 核心球员：\n  - Riyad Mahrez 里亚德·马赫雷斯（边锋/队长，吉达国民）\n  - Mohamed Amoura 穆罕默德·阿穆拉（前锋，沃尔夫斯堡）\n  - Amine Gouiri 阿明·古伊里（前锋，马赛）\n  - Rayan Aït-Nouri 拉扬·艾特-努里（左后卫，曼城）\n  - Ismaël Bennacer 伊斯梅尔·本纳赛尔（中场，AC米兰）\n  - Ibrahim Maza 伊布拉欣·马扎（攻击型中场，勒沃库森）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs 奥地利（世界杯J组第3轮）：3-3（D）\n  - 2026-06-22 vs 约旦（世界杯J组第2轮）：2-1（W）\n  - 2026-06-16 vs 阿根廷（世界杯J组第1轮）：0-3（L）\n  - 2026-06-03 vs 荷兰（热身赛）：1-0（W）\n  - 2026-04-01 vs 乌拉圭（热身赛）：0-0（D）\n\n### 博彩赔率（1X2，十进制）\n- 公开赛前报道综合：主胜 — / 平 — / 客胜 —（公开抓取页未完整列出本场90分钟1X2三项；Guardian/AP均强调瑞士以B组第一、留在温哥华作战，市场语境中瑞士更被看好，但阿尔及利亚进攻上限明确。）\n\n### 历史交锋（H2H）\n- 共交手 1 次。两队成年国家队交锋很少，本项目未核到世界杯正赛交锋记录；瑞士与阿尔及利亚在世界杯淘汰赛层面没有历史对战。\n\n### 近期新闻\n- [Switzerland] 瑞士继续留在温哥华，赛程与场地更顺：瑞士2-1击败加拿大后拿到B组第一，AP和Guardian都提到球队将回到温哥华踢32强，减少旅行消耗。（来源：AP / The Guardian）\n- [Switzerland] 亚金调整后进攻点变多：对加拿大一战，鲁本·巴尔加斯和曼赞比先后进球，说明瑞士不只依赖扎卡组织和恩博洛支点，替补与二线攻击能改变比赛。（来源：The Guardian）\n- [Algeria] 阿尔及利亚末轮打出进攻状态：对奥地利一战踢成3-3，马赫雷斯补时阶段曾打入看似决定胜负的一球，阿尔及利亚从0-3负阿根廷后恢复了边路与反击信心。（来源：The Guardian / The Times）\n- [Algeria] 佩特科维奇球队上限高但稳定性存疑：Guardian赛前队报把阿尔及利亚称作本届较难判断的球队：近期战绩漂亮，但对手强度不一，高压场景下后防仍会暴露空间。（来源：The Guardian）\n\n### 赛事形势\n- 这是B组第一对J组第三的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵哥伦比亚与加纳之间的胜者。\n\n### 综述\n- 瑞士更稳定，结构清晰，扎卡控制节奏、阿坎吉和科贝尔保证下限，小组赛7分也说明他们能把优势转成结果；阿尔及利亚的马赫雷斯、阿穆拉和古伊里具备反击爆点，3-3奥地利证明他们能制造混乱。若瑞士先掌控中场，本场会偏低比分；如果阿尔及利亚先偷到转换机会，比赛很容易被拖进加时。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- https://apnews.com/article/bf6b7a6e5386df29406406563fbc6aa4\n- https://www.theguardian.com/football/live/2026/jun/24/switzerland-v-canada-world-cup-2026-live\n- https://www.theguardian.com/football/2026/jun/08/algeria-world-cup-2026-team-guide\n- https://www.theguardian.com/football/2026/jun/28/algeria-austria-world-cup-group-j-match-report\n- https://www.thetimes.com/sport/football/world-cup/article/world-cup-2026-latest-news-live-scores-team-updates-day-17-3600zf68k\n- data/2026-06-13/matches.json\n- data/2026-06-16/matches.json\n- data/2026-06-18/matches.json\n- data/2026-06-22/matches.json\n- data/2026-06-24/matches.json\n- data/2026-06-27/matches.json\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 20 个比赛日、共 80 场比赛中，8 个当前活跃模型的历次预测、实际赛果与所得分数（结算规则：方向正确 2 分 + 90 分钟比分正确 3 分，两项都对 5 分；两项都错或未预测 0 分；模型加入前的未参赛场次不计入该模型分母）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 方向命中 | 比分命中 | 两项全中 |\n|  ---  |  ---  |  ---  |  ---  |  ---  |\n| Claude Opus 4.8 | 148 | 56/80 | 12/80 | 12/80 |\n| Kimi K2.7 | 136 | 53/80 | 10/80 | 10/80 |\n| Grok 4.3 | 133 | 53/80 | 9/80 | 9/80 |\n| Gemini 3.5 Flash | 52 | 20/28 | 4/28 | 4/28 |\n| Fugu Ultra | 46 | 20/28 | 2/28 | 2/28 |\n| Xiaomi MiMo v2.5 Pro | 15 | 6/6 | 1/6 | 1/6 |\n| MiniMax M3 | 15 | 6/6 | 1/6 | 1/6 |\n| Tencent HY3 Preview | 12 | 6/6 | 0/6 | 0/6 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（2） | 1-0（2） | 1-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 1-2（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 海地 vs 苏格兰 | 0-1 | 0-2（2） | 2-0（0） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-3（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 库拉索 | 7-1 | 6-0（2） | 4-0（2） | 4-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 荷兰 vs 日本 | 2-2 | 1-1（2） | 2-1（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（2） | 1-0（2） | 1-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 奥地利 vs 约旦 | 3-1 | 3-0（2） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（2） | 2-1（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 瑞士 vs 波黑 | 4-1 | 2-1（2） | 2-0（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（2） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（2） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴西 vs 海地 | 3-0 | 4-0（2） | 2-0（2） | 3-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（2） | 3-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（2） | 2-1（5） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 突尼斯 vs 日本 | 0-4 | 0-2（2） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（2） | 1-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（2） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 1-1（2） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 新西兰 vs 埃及 | 1-3 | 0-2（2） | 0-1（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（2） | 2-1（2） | 2-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 法国 vs 伊拉克 | 3-0 | 4-0（2） | 3-1（2） | 3-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（2） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（2） | 1-2（5） | 1-2（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（2） | 2-0（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 3-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（2） | 1-2（2） | 0-1（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（2） | 2-0（2） | 1-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 0-0（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（2） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（2） | 0-1（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（2） | 2-0（2） | 3-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（2） | 0-1（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 0-1（0） | 1-2（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-25**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 库拉索 vs 科特迪瓦 | 0-2 | 0-2（5） | 0-1（2） | 0-2（5） | 0-3（2） | 0-3（2） | 未参赛 | 未参赛 | 未参赛 |\n| 厄瓜多尔 vs 德国 | 2-1 | 1-2（0） | 1-2（0） | 1-1（0） | 1-1（0） | 0-2（0） | 未参赛 | 未参赛 | 未参赛 |\n| 日本 vs 瑞典 | 1-1 | 2-1（0） | 2-1（0） | 1-1（5） | 3-1（0） | 2-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 突尼斯 vs 荷兰 | 1-3 | 0-3（2） | 1-3（5） | 0-3（2） | 0-4（2） | 0-4（2） | 未参赛 | 未参赛 | 未参赛 |\n| 土耳其 vs 美国 | 3-2 | 0-2（0） | 1-1（0） | 1-2（0） | 2-1（2） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 巴拉圭 vs 澳大利亚 | 0-0 | 1-1（2） | 0-0（5） | 1-1（2） | 0-1（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-26**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 挪威 vs 法国 | 1-4 | 2-3（2） | 2-3（2） | 2-2（0） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 塞内加尔 vs 伊拉克 | 5-0 | 3-0（2） | 3-1（2） | 2-0（2） | 3-1（2） | 4-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 埃及 vs 伊朗 | 1-1 | 2-0（0） | 1-1（5） | 1-1（5） | 1-0（0） | 0-0（2） | 未参赛 | 未参赛 | 未参赛 |\n| 新西兰 vs 比利时 | 1-5 | 1-2（2） | 1-2（2） | 0-2（2） | 0-3（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 佛得角 vs 沙特阿拉伯 | 0-0 | 2-1（0） | 2-1（0） | 1-1（2） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 |\n| 乌拉圭 vs 西班牙 | 0-1 | 1-2（2） | 0-2（2） | 1-2（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-27**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 巴拿马 vs 英格兰 | 0-2 | 0-3（2） | 0-2（5） | 0-2（5） | 0-3（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 克罗地亚 vs 加纳 | 2-1 | 2-1（5） | 1-1（0） | 1-0（2） | 2-1（5） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 阿尔及利亚 vs 奥地利 | 3-3 | 0-0（2） | 1-1（2） | 1-1（2） | 0-0（2） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 约旦 vs 阿根廷 | 1-3 | 0-3（2） | 0-2（2） | 0-2（2） | 1-3（5） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 哥伦比亚 vs 葡萄牙 | 0-0 | 1-2（0） | 1-1（2） | 1-1（2） | 1-2（0） | 0-0（5） | 未参赛 | 未参赛 | 未参赛 |\n| 刚果民主共和国 vs 乌兹别克斯坦 | 3-1 | 2-0（2） | 2-1（2） | 2-1（2） | 3-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-28**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 南非 vs 加拿大 | 0-1 | 1-2（2） | 1-1（0） | 1-2（2） | 0-2（2） | 0-1（5） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-29**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 巴西 vs 日本 | 2-1 | 2-0（2） | 2-1（5） | 2-0（2） | 1-0（2） | 3-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 巴拉圭 | 1-1 | 3-0（0） | 2-1（0） | 2-0（0） | 2-0（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 荷兰 vs 摩洛哥 | 1-1 | 2-1（0） | 1-1（5） | 1-1（5） | 2-1（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-30**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 挪威 | 1-2 | 1-2（5） | 1-1（0） | 1-2（5） | 1-1（2） | 0-2（2） | 0-1（2） | 2-3（2） | 0-1（2） |\n| 法国 vs 瑞典 | 3-0 | 3-0（5） | 3-1（2） | 3-1（2） | 2-1（2） | 2-1（2） | 2-0（2） | 2-0（2） | 2-1（2） |\n| 墨西哥 vs 厄瓜多尔 | 2-0 | 2-1（2） | 2-0（5） | 1-0（2） | 2-0（5） | 1-0（2） | 1-1（2） | 1-1（2） | 2-1（2） |\n\n**2026-07-01**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 英格兰 vs 刚果民主共和国 | 2-1 | 2-0（2） | 2-1（5） | 2-0（2） | 1-0（2） | 3-0（2） | 1-0（2） | 2-1（5） | 2-1（5） |\n| 比利时 vs 塞内加尔 | 2-2 | 2-1（2） | 3-1（2） | 2-1（2） | 2-0（2） | 2-0（2） | 3-1（2） | 3-1（2） | 2-0（2） |\n| 美国 vs 波黑 | 2-0 | 2-0（5） | 2-1（2） | 2-1（2） | 2-0（5） | 3-1（2） | 3-1（2） | 3-1（2） | 1-0（2） |\n\n<!-- HISTORY-REVIEW-END -->\n\n═══════════ 资料文档结束 ═══════════\n\n文档末尾附有各模型（包括你自己）历次预测与实际赛果的对照战绩，请在预测前先复盘这些记录，再给出你独立的判断。\n\n请预测每场淘汰赛的最终晋级方/最终获胜方与90分钟比分。winner 表示最终晋级方，只能是 home 或 away；score 表示90分钟比分，可以是平局。严格按以下 JSON 数组格式输出，不要输出任何其他文字，不要用 markdown 代码块包裹：\n[{\"match_id\": \"...\", \"winner\": \"home\" 或 \"away\", \"score\": \"90分钟主队进球-客队进球（如 1-1 或 2-1）\", \"confidence\": 1到100的整数, \"reasoning_zh\": \"50字以内中文理由\"}]\n\nmatch_id 必须逐一使用以下 ID（共 3 场，每场恰好一条预测）：\n2026-07-02-ESP-AUT\n2026-07-02-POR-CRO\n2026-07-02-SUI-ALG"
+   },
+   "generated_at": "2026-07-02T03:59:37.726Z",
+   "model_runs": {
+    "x-ai/grok-4.3": {
+     "status": "ok",
+     "latency_s": 11,
+     "via": "openrouter",
+     "error": null
+    },
+    "moonshotai/kimi-k2.6": {
+     "status": "ok",
+     "latency_s": 24,
+     "via": "openrouter",
+     "error": null
+    },
+    "anthropic/claude-fable-5": {
+     "status": "ok",
+     "latency_s": 8,
+     "via": "openrouter",
+     "error": null
+    },
+    "google/gemini-3.5-flash": {
+     "status": "ok",
+     "latency_s": 13,
+     "via": "openrouter",
+     "error": null
+    },
+    "sakana/fugu-ultra": {
+     "status": "ok",
+     "latency_s": 10,
+     "via": "sakana",
+     "error": null
+    },
+    "tencent/hy3-preview": {
+     "status": "ok",
+     "latency_s": 39,
+     "via": "openrouter",
+     "error": null
+    },
+    "xiaomi/mimo-v2.5-pro": {
+     "status": "ok",
+     "latency_s": 19,
+     "via": "openrouter",
+     "error": null
+    },
+    "minimax/minimax-m3": {
+     "status": "ok",
+     "latency_s": 35,
+     "via": "openrouter",
+     "error": null
+    }
+   },
+   "context_md": "# 2026-07-02 世界杯比赛资料文档\n\n本文档汇总了 2026-07-02（比赛日，北美当地时间）FIFA 2026 世界杯全部 3 场32强淘汰赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与赛事形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-07-02-ESP-AUT`：32强 Match 84 西班牙(Spain, 主) vs 奥地利(Austria, 客)\n- `2026-07-02-POR-CRO`：32强 Match 83 葡萄牙(Portugal, 主) vs 克罗地亚(Croatia, 客)\n- `2026-07-02-SUI-ALG`：32强 Match 85 瑞士(Switzerland, 主) vs 阿尔及利亚(Algeria, 客)\n\n---\n\n## 32强 Match 84 · 西班牙 vs 奥地利（match_id: `2026-07-02-ESP-AUT`）\n\n- 开球：2026-07-02 12:00（洛杉矶当地时间 PDT）｜北京时间 2026-07-03 03:00（北京时间周五凌晨）\n- 场地：Los Angeles Stadium（SoFi Stadium），美国加利福尼亚州洛杉矶\n\n### 西班牙（Spain，主队）\n- FIFA 排名：第 2 位\n- 晋级之路：欧洲区预选赛头名直接晋级；小组赛H组第一，0-0平佛得角、4-0胜沙特阿拉伯、1-0胜乌拉圭，2胜1平积7分，未失球出线。\n- 主教练：路易斯·德拉富恩特 (Luis de la Fuente)\n- 世界杯历史：2010年世界杯冠军；2018、2022连续止步16强。本届以2024欧洲杯冠军和夺冠热门身份进入淘汰赛，但需要打破世界杯淘汰赛多年不胜的心理包袱。\n- 核心球员：\n  - Lamine Yamal 拉明·亚马尔（右边锋，巴塞罗那）\n  - Pedri 佩德里（中场，巴塞罗那）\n  - Rodri 罗德里（后腰，曼城）\n  - Dani Olmo 达尼·奥尔莫（攻击型中场，巴塞罗那）\n  - Mikel Oyarzabal 米克尔·奥亚萨瓦尔（前锋，皇家社会）\n  - Fabián Ruiz 法比安·鲁伊斯（中场，巴黎圣日耳曼）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-26 vs 乌拉圭（世界杯H组第3轮）：1-0（W）\n  - 2026-06-21 vs 沙特阿拉伯（世界杯H组第2轮）：4-0（W）\n  - 2026-06-15 vs 佛得角（世界杯H组第1轮）：0-0（D）\n  - 2026-06-08 vs 秘鲁（热身赛）：3-1（W）\n  - 2026-06-04 vs 伊拉克（热身赛）：1-1（D）\n\n### 奥地利（Austria，客队）\n- FIFA 排名：第 24 位\n- 晋级之路：欧洲区H组头名直接晋级，1998年后首次重返世界杯；小组赛J组第二，3-1胜约旦、0-2负阿根廷、3-3平阿尔及利亚，以最后时刻进球锁定出线。\n- 主教练：拉尔夫·朗尼克 (Ralf Rangnick)\n- 世界杯历史：历史最佳为1934年第四名和1954年第三名。本届是奥地利44年来首次进入世界杯淘汰赛，最低目标已经完成，后续更多依赖高位压迫制造意外。\n- 核心球员：\n  - David Alaba 大卫·阿拉巴（后卫/队长，皇家马德里）\n  - Marcel Sabitzer 马塞尔·萨比策（中场，多特蒙德）\n  - Konrad Laimer 孔拉德·莱默（中场/边后卫，拜仁慕尼黑）\n  - Marko Arnautović 马尔科·阿瑙托维奇（中锋，自由身）\n  - Kevin Danso 凯文·丹索（中后卫，托特纳姆热刺）\n  - Romano Schmid 罗马诺·施密德（中场，云达不来梅）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs 阿尔及利亚（世界杯J组第3轮）：3-3（D）\n  - 2026-06-22 vs 阿根廷（世界杯J组第2轮）：0-2（L）\n  - 2026-06-16 vs 约旦（世界杯J组第1轮）：3-1（W）\n  - 2026-06-01 vs 突尼斯（热身赛）：1-0（W）\n  - 2026-03-31 vs 韩国（热身赛）：1-0（W）\n\n### 博彩赔率（1X2，十进制）\n- Barca Blaugranes / Times of India赛前预览：主胜 — / 平 — / 客胜 —（公开抓取页未完整列出90分钟1X2三项，但两家均把西班牙列为明显更被看好的一方；Barca Blaugranes给出90分钟2-1西班牙的赛前判断。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队此前有历史交锋，但本项目未核到一致的完整成年国家队总表；世界杯淘汰赛层面没有交锋记录，本场是两队首次在世界杯淘汰赛相遇。\n\n### 近期新闻\n- [Spain] 西班牙控球稳定，但淘汰赛心理压力明显：西班牙小组赛头名且未失球，但0-0佛得角、1-0乌拉圭都说明阵地战终结仍需要提升；西媒也强调球队要结束世界杯淘汰赛长期不胜。（来源：El País / project results）\n- [Spain] 边路伤停影响进攻层次：赛前报道列出耶雷米·皮诺、尼科·威廉姆斯缺席，维克托·穆尼奥斯存疑；亚马尔、佩德里、罗德里仍是控球与推进核心。（来源：Barca Blaugranes / The Guardian）\n- [Austria] 奥地利没有明确新增缺席：赛前预览显示奥地利暂无主要缺席，朗尼克预计继续4-2-3-1和高位压迫，阿拉巴、萨比策、莱默、阿瑙托维奇是中轴。（来源：Barca Blaugranes）\n- [Austria] 最后时刻出线带来额外信心：奥地利在对阿尔及利亚的补时阶段扳成3-3，避免被淘汰并锁定J组第二，这是他们44年来首次进入世界杯淘汰赛。（来源：The Guardian / El País）\n\n### 赛事形势\n- 这是H组第一对J组第二的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵葡萄牙与克罗地亚之间的胜者。\n\n### 综述\n- 西班牙控球、排名、阵容上限和小组赛防守都占优，但边路伤停与世界杯淘汰赛低效史会放大压力。奥地利的高位压迫能把比赛拉快，也有定位球和二点球威胁；如果西班牙先破局，比赛会回到他们熟悉的控球节奏，若久攻不下则存在被拖进加时的空间。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- https://www.barcablaugranes.com/world-cup-2026/125416/spain-austria-world-cup-2026-team-news-match-preview-lineups-prediction\n- https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/spain-vs-austria-at-fifa-world-cup-2026-how-to-watch-streaming-guide-start-time-predicted-line-ups-and-more/articleshow/132127208.cms\n- https://www.theguardian.com/football/2026/jul/01/fabian-ruiz-spain-austria-world-cup-2026-round-32\n- https://elpais.com/deportes/mundial-futbol/2026-07-02/espana-y-la-memoria-perdida-del-ko-busca-contra-austria-superar-una-eliminatoria-de-un-mundial-por-primera-vez-en-16-anos.html\n- https://elpais.com/deportes/mundial-futbol/2026-07-02/austria-rival-de-espana-entre-la-epica-wagneriana-y-la-placidez-del-objetivo-cumplido.html\n- data/2026-06-15/matches.json\n- data/2026-06-21/matches.json\n- data/2026-06-22/matches.json\n- data/2026-06-26/matches.json\n- data/2026-06-27/matches.json\n\n---\n\n## 32强 Match 83 · 葡萄牙 vs 克罗地亚（match_id: `2026-07-02-POR-CRO`）\n\n- 开球：2026-07-02 19:00（多伦多当地时间 EDT）｜北京时间 2026-07-03 07:00（北京时间周五早晨）\n- 场地：Toronto Stadium（BMO Field），加拿大安大略省多伦多\n\n### 葡萄牙（Portugal，主队）\n- FIFA 排名：第 5 位\n- 晋级之路：欧洲区F组头名直接晋级；小组赛K组第二，1-1平刚果民主共和国、5-0胜乌兹别克斯坦、0-0平哥伦比亚，1胜2平积5分。\n- 主教练：罗伯托·马丁内斯 (Roberto Martínez)\n- 世界杯历史：葡萄牙世界杯最佳为1966年季军。本届是C罗第六届世界杯，也可能是他最后一次世界杯淘汰赛机会，球队纸面阵容很强但小组赛稳定性一般。\n- 核心球员：\n  - Cristiano Ronaldo 克里斯蒂亚诺·罗纳尔多（前锋/队长，利雅得胜利）\n  - Bruno Fernandes 布鲁诺·费尔南德斯（中场，曼联）\n  - Bernardo Silva 贝尔纳多·席尔瓦（中场/边锋，曼城）\n  - Vitinha 维蒂尼亚（中场，巴黎圣日耳曼）\n  - Rúben Dias 鲁本·迪亚斯（中后卫，曼城）\n  - Rafael Leão 拉斐尔·莱奥（前锋/边锋，AC米兰）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs 哥伦比亚（世界杯K组第3轮）：0-0（D）\n  - 2026-06-23 vs 乌兹别克斯坦（世界杯K组第2轮）：5-0（W）\n  - 2026-06-17 vs 刚果民主共和国（世界杯K组第1轮）：1-1（D）\n  - 2026-06-10 vs 尼日利亚（热身赛）：2-1（W）\n  - 2026-06-06 vs 智利（热身赛）：2-1（W）\n\n### 克罗地亚（Croatia，客队）\n- FIFA 排名：第 11 位\n- 晋级之路：欧洲区L组头名直接晋级；小组赛L组第二，2-4负英格兰、1-0胜巴拿马、2-1胜加纳，2胜1负积6分。\n- 主教练：兹拉特科·达利奇 (Zlatko Dalić)\n- 世界杯历史：2018年世界杯亚军、2022年季军。克罗地亚大赛淘汰赛经验很强，老将莫德里奇继续领衔，但阵容年龄结构与连续高强度比赛是隐忧。\n- 核心球员：\n  - Luka Modrić 卢卡·莫德里奇（中场/队长，AC米兰）\n  - Joško Gvardiol 约什科·格瓦迪奥尔（后卫，曼城）\n  - Mateo Kovačić 马特奥·科瓦契奇（中场，曼城）\n  - Ivan Perišić 伊万·佩里西奇（边路，埃因霍温）\n  - Andrej Kramarić 安德烈·克拉马里奇（前锋，霍芬海姆）\n  - Josip Stanišić 约西普·斯塔尼希奇（边后卫，拜仁慕尼黑）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs 加纳（世界杯L组第3轮）：2-1（W）\n  - 2026-06-23 vs 巴拿马（世界杯L组第2轮）：1-0（W）\n  - 2026-06-17 vs 英格兰（世界杯L组第1轮）：2-4（L）\n  - 2026-06-07 vs 斯洛文尼亚（热身赛）：2-1（W）\n  - 2026-06-02 vs 比利时（热身赛）：0-2（L）\n\n### 博彩赔率（1X2，十进制）\n- New York Post票务/赛前报道：主胜 1.8 / 平 — / 客胜 —（报道称葡萄牙被列为 -125 的更被看好一方；页面未完整列出90分钟1X2三项，十进制1.80为美式-125换算。）\n\n### 历史交锋（H2H）\n- 共交手 8 次。两队此前成年国家队交锋以葡萄牙优势为主，克罗地亚对葡萄牙胜绩很少；世界杯层面没有正式交锋记录，本场是C罗与莫德里奇的淘汰赛对话。\n\n### 近期新闻\n- [Portugal] C罗与莫德里奇同场，告别叙事很强：赛前报道把本场写成C罗和莫德里奇两位老将的世界杯末段对决，两人都没有正式宣布退役，但年龄意味着输球一方很可能告别世界杯舞台。（来源：El País / New York Post）\n- [Portugal] 葡萄牙阵容厚，但小组赛节奏不稳定：葡萄牙5-0击败乌兹别克斯坦打出上限，但另外两场都被逼平；TalkSport认为马丁内斯常用4-2-3-1，B费、维蒂尼亚、C罗是主要进攻链条。（来源：talkSPORT / project results）\n- [Croatia] 克罗地亚连续两胜回稳：克罗地亚首轮2-4负英格兰后，连续击败巴拿马和加纳拿到小组第二；斯塔尼希奇等边路球员赛前强调球队优先于个人表现。（来源：Bavarian Football Works / project results）\n- [Croatia] 大赛经验是克罗地亚主要筹码：达利奇带队经历2018亚军和2022季军，莫德里奇、科瓦契奇、佩里西奇的控场经验能降低淘汰赛波动，但体能与速度对抗是风险。（来源：project archive / El País）\n\n### 赛事形势\n- 这是K组第二对L组第二的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵西班牙与奥地利之间的胜者。\n\n### 综述\n- 葡萄牙排名、阵容厚度和前场创造力更高，鲁本·迪亚斯回归后防线稳定性也提升；但他们小组赛两场0/1球平局说明进攻节奏并不连续。克罗地亚淘汰赛韧性和中场控节奏能力强，最现实的路线是把比赛拖进低比分。若葡萄牙能早早把C罗、B费和边路串起来，90分钟晋级概率更高；若久攻不下，克罗地亚的加时和点球经验会变得危险。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- https://www.sbnation.com/fifa-world-cup/1120327/2026-world-cup-round-of-32-full-list-of-matches-potential-round-of-16-games\n- https://talksport.com/betting/4257189/portugal-world-cup-squad-2026/\n- https://www.nypost.com/2026/06/30/ticket-sales/how-to-get-discounted-tickets-for-the-portugal-croatia-world-cup-match/\n- https://elpais.com/deportes/mundial-futbol/2026-07-02/un-ultimo-baile-mundialista-para-cristiano-o-modric-en-un-partido-marcado-por-el-primer-aniversario-de-la-muerte-de-diogo-jota.html\n- https://www.bavarianfootballworks.com/fifa-world-cup/223413/bayern-munich-josip-stanisic-happy-with-world-cup-performances-but-says-team-comes-first-world-cup-croatia-portugal-round-of-32\n- data/2026-06-17/matches.json\n- data/2026-06-23/matches.json\n- data/2026-06-27/matches.json\n\n---\n\n## 32强 Match 85 · 瑞士 vs 阿尔及利亚（match_id: `2026-07-02-SUI-ALG`）\n\n- 开球：2026-07-02 20:00（温哥华当地时间 PDT）｜北京时间 2026-07-03 11:00（北京时间周五上午）\n- 场地：BC Place Vancouver，加拿大不列颠哥伦比亚省温哥华\n\n### 瑞士（Switzerland，主队）\n- FIFA 排名：第 19 位\n- 晋级之路：欧洲区预选赛头名直接晋级；小组赛B组第一，1-1平卡塔尔、4-1胜波黑、2-1胜加拿大，2胜1平积7分。\n- 主教练：穆拉特·亚金 (Murat Yakin)\n- 世界杯历史：瑞士连续多届世界杯进入淘汰赛，但近年世界杯淘汰赛突破有限。小组赛最后一轮击败加拿大后，继续留在温哥华作战，旅行与熟悉场地上有优势。\n- 核心球员：\n  - Granit Xhaka 格拉尼特·扎卡（中场/队长，桑德兰/勒沃库森背景）\n  - Manuel Akanji 曼努埃尔·阿坎吉（中后卫，曼城/国际米兰背景）\n  - Gregor Kobel 格雷戈尔·科贝尔（门将，多特蒙德）\n  - Dan Ndoye 丹·恩多耶（边锋，诺丁汉森林）\n  - Breel Embolo 布雷尔·恩博洛（前锋，摩纳哥/雷恩背景）\n  - Johan Manzambi 约翰·曼赞比（中场，弗赖堡）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-24 vs 加拿大（世界杯B组第3轮）：2-1（W）\n  - 2026-06-18 vs 波黑（世界杯B组第2轮）：4-1（W）\n  - 2026-06-13 vs 卡塔尔（世界杯B组第1轮）：1-1（D）\n  - 2026-06-06 vs 澳大利亚（热身赛）：1-1（D）\n  - 2026-05-31 vs 约旦（热身赛）：4-1（W）\n\n### 阿尔及利亚（Algeria，客队）\n- FIFA 排名：第 28 位\n- 晋级之路：非洲区G组头名直接晋级；小组赛J组第三，0-3负阿根廷、2-1胜约旦、3-3平奥地利，以最佳第三名晋级。\n- 主教练：弗拉基米尔·佩特科维奇 (Vladimir Petković)\n- 世界杯历史：第5次参加世界杯，2014年进入16强为队史最佳。本届从阿根廷、奥地利所在小组出线，末轮与奥地利的3-3让球队重新获得进攻信心。\n- 核心球员：\n  - Riyad Mahrez 里亚德·马赫雷斯（边锋/队长，吉达国民）\n  - Mohamed Amoura 穆罕默德·阿穆拉（前锋，沃尔夫斯堡）\n  - Amine Gouiri 阿明·古伊里（前锋，马赛）\n  - Rayan Aït-Nouri 拉扬·艾特-努里（左后卫，曼城）\n  - Ismaël Bennacer 伊斯梅尔·本纳赛尔（中场，AC米兰）\n  - Ibrahim Maza 伊布拉欣·马扎（攻击型中场，勒沃库森）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs 奥地利（世界杯J组第3轮）：3-3（D）\n  - 2026-06-22 vs 约旦（世界杯J组第2轮）：2-1（W）\n  - 2026-06-16 vs 阿根廷（世界杯J组第1轮）：0-3（L）\n  - 2026-06-03 vs 荷兰（热身赛）：1-0（W）\n  - 2026-04-01 vs 乌拉圭（热身赛）：0-0（D）\n\n### 博彩赔率（1X2，十进制）\n- 公开赛前报道综合：主胜 — / 平 — / 客胜 —（公开抓取页未完整列出本场90分钟1X2三项；Guardian/AP均强调瑞士以B组第一、留在温哥华作战，市场语境中瑞士更被看好，但阿尔及利亚进攻上限明确。）\n\n### 历史交锋（H2H）\n- 共交手 1 次。两队成年国家队交锋很少，本项目未核到世界杯正赛交锋记录；瑞士与阿尔及利亚在世界杯淘汰赛层面没有历史对战。\n\n### 近期新闻\n- [Switzerland] 瑞士继续留在温哥华，赛程与场地更顺：瑞士2-1击败加拿大后拿到B组第一，AP和Guardian都提到球队将回到温哥华踢32强，减少旅行消耗。（来源：AP / The Guardian）\n- [Switzerland] 亚金调整后进攻点变多：对加拿大一战，鲁本·巴尔加斯和曼赞比先后进球，说明瑞士不只依赖扎卡组织和恩博洛支点，替补与二线攻击能改变比赛。（来源：The Guardian）\n- [Algeria] 阿尔及利亚末轮打出进攻状态：对奥地利一战踢成3-3，马赫雷斯补时阶段曾打入看似决定胜负的一球，阿尔及利亚从0-3负阿根廷后恢复了边路与反击信心。（来源：The Guardian / The Times）\n- [Algeria] 佩特科维奇球队上限高但稳定性存疑：Guardian赛前队报把阿尔及利亚称作本届较难判断的球队：近期战绩漂亮，但对手强度不一，高压场景下后防仍会暴露空间。（来源：The Guardian）\n\n### 赛事形势\n- 这是B组第一对J组第三的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵哥伦比亚与加纳之间的胜者。\n\n### 综述\n- 瑞士更稳定，结构清晰，扎卡控制节奏、阿坎吉和科贝尔保证下限，小组赛7分也说明他们能把优势转成结果；阿尔及利亚的马赫雷斯、阿穆拉和古伊里具备反击爆点，3-3奥地利证明他们能制造混乱。若瑞士先掌控中场，本场会偏低比分；如果阿尔及利亚先偷到转换机会，比赛很容易被拖进加时。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- https://apnews.com/article/bf6b7a6e5386df29406406563fbc6aa4\n- https://www.theguardian.com/football/live/2026/jun/24/switzerland-v-canada-world-cup-2026-live\n- https://www.theguardian.com/football/2026/jun/08/algeria-world-cup-2026-team-guide\n- https://www.theguardian.com/football/2026/jun/28/algeria-austria-world-cup-group-j-match-report\n- https://www.thetimes.com/sport/football/world-cup/article/world-cup-2026-latest-news-live-scores-team-updates-day-17-3600zf68k\n- data/2026-06-13/matches.json\n- data/2026-06-16/matches.json\n- data/2026-06-18/matches.json\n- data/2026-06-22/matches.json\n- data/2026-06-24/matches.json\n- data/2026-06-27/matches.json\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 20 个比赛日、共 80 场比赛中，8 个当前活跃模型的历次预测、实际赛果与所得分数（结算规则：方向正确 2 分 + 90 分钟比分正确 3 分，两项都对 5 分；两项都错或未预测 0 分；模型加入前的未参赛场次不计入该模型分母）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 方向命中 | 比分命中 | 两项全中 |\n|  ---  |  ---  |  ---  |  ---  |  ---  |\n| Claude Opus 4.8 | 148 | 56/80 | 12/80 | 12/80 |\n| Kimi K2.7 | 136 | 53/80 | 10/80 | 10/80 |\n| Grok 4.3 | 133 | 53/80 | 9/80 | 9/80 |\n| Gemini 3.5 Flash | 52 | 20/28 | 4/28 | 4/28 |\n| Fugu Ultra | 46 | 20/28 | 2/28 | 2/28 |\n| Xiaomi MiMo v2.5 Pro | 15 | 6/6 | 1/6 | 1/6 |\n| MiniMax M3 | 15 | 6/6 | 1/6 | 1/6 |\n| Tencent HY3 Preview | 12 | 6/6 | 0/6 | 0/6 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（2） | 1-0（2） | 1-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 1-2（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 海地 vs 苏格兰 | 0-1 | 0-2（2） | 2-0（0） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-3（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 库拉索 | 7-1 | 6-0（2） | 4-0（2） | 4-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 荷兰 vs 日本 | 2-2 | 1-1（2） | 2-1（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（2） | 1-0（2） | 1-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 奥地利 vs 约旦 | 3-1 | 3-0（2） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（2） | 2-1（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 瑞士 vs 波黑 | 4-1 | 2-1（2） | 2-0（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（2） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（2） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴西 vs 海地 | 3-0 | 4-0（2） | 2-0（2） | 3-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（2） | 3-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（2） | 2-1（5） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 突尼斯 vs 日本 | 0-4 | 0-2（2） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（2） | 1-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（2） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 1-1（2） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 新西兰 vs 埃及 | 1-3 | 0-2（2） | 0-1（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（2） | 2-1（2） | 2-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 法国 vs 伊拉克 | 3-0 | 4-0（2） | 3-1（2） | 3-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（2） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（2） | 1-2（5） | 1-2（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（2） | 2-0（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 3-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（2） | 1-2（2） | 0-1（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（2） | 2-0（2） | 1-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 0-0（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（2） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（2） | 0-1（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（2） | 2-0（2） | 3-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（2） | 0-1（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 0-1（0） | 1-2（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-25**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 库拉索 vs 科特迪瓦 | 0-2 | 0-2（5） | 0-1（2） | 0-2（5） | 0-3（2） | 0-3（2） | 未参赛 | 未参赛 | 未参赛 |\n| 厄瓜多尔 vs 德国 | 2-1 | 1-2（0） | 1-2（0） | 1-1（0） | 1-1（0） | 0-2（0） | 未参赛 | 未参赛 | 未参赛 |\n| 日本 vs 瑞典 | 1-1 | 2-1（0） | 2-1（0） | 1-1（5） | 3-1（0） | 2-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 突尼斯 vs 荷兰 | 1-3 | 0-3（2） | 1-3（5） | 0-3（2） | 0-4（2） | 0-4（2） | 未参赛 | 未参赛 | 未参赛 |\n| 土耳其 vs 美国 | 3-2 | 0-2（0） | 1-1（0） | 1-2（0） | 2-1（2） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 巴拉圭 vs 澳大利亚 | 0-0 | 1-1（2） | 0-0（5） | 1-1（2） | 0-1（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-26**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 挪威 vs 法国 | 1-4 | 2-3（2） | 2-3（2） | 2-2（0） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 塞内加尔 vs 伊拉克 | 5-0 | 3-0（2） | 3-1（2） | 2-0（2） | 3-1（2） | 4-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 埃及 vs 伊朗 | 1-1 | 2-0（0） | 1-1（5） | 1-1（5） | 1-0（0） | 0-0（2） | 未参赛 | 未参赛 | 未参赛 |\n| 新西兰 vs 比利时 | 1-5 | 1-2（2） | 1-2（2） | 0-2（2） | 0-3（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 佛得角 vs 沙特阿拉伯 | 0-0 | 2-1（0） | 2-1（0） | 1-1（2） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 |\n| 乌拉圭 vs 西班牙 | 0-1 | 1-2（2） | 0-2（2） | 1-2（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-27**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 巴拿马 vs 英格兰 | 0-2 | 0-3（2） | 0-2（5） | 0-2（5） | 0-3（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 克罗地亚 vs 加纳 | 2-1 | 2-1（5） | 1-1（0） | 1-0（2） | 2-1（5） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 阿尔及利亚 vs 奥地利 | 3-3 | 0-0（2） | 1-1（2） | 1-1（2） | 0-0（2） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 约旦 vs 阿根廷 | 1-3 | 0-3（2） | 0-2（2） | 0-2（2） | 1-3（5） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 哥伦比亚 vs 葡萄牙 | 0-0 | 1-2（0） | 1-1（2） | 1-1（2） | 1-2（0） | 0-0（5） | 未参赛 | 未参赛 | 未参赛 |\n| 刚果民主共和国 vs 乌兹别克斯坦 | 3-1 | 2-0（2） | 2-1（2） | 2-1（2） | 3-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-28**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 南非 vs 加拿大 | 0-1 | 1-2（2） | 1-1（0） | 1-2（2） | 0-2（2） | 0-1（5） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-29**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 巴西 vs 日本 | 2-1 | 2-0（2） | 2-1（5） | 2-0（2） | 1-0（2） | 3-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 巴拉圭 | 1-1 | 3-0（0） | 2-1（0） | 2-0（0） | 2-0（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 荷兰 vs 摩洛哥 | 1-1 | 2-1（0） | 1-1（5） | 1-1（5） | 2-1（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-30**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 挪威 | 1-2 | 1-2（5） | 1-1（0） | 1-2（5） | 1-1（2） | 0-2（2） | 0-1（2） | 2-3（2） | 0-1（2） |\n| 法国 vs 瑞典 | 3-0 | 3-0（5） | 3-1（2） | 3-1（2） | 2-1（2） | 2-1（2） | 2-0（2） | 2-0（2） | 2-1（2） |\n| 墨西哥 vs 厄瓜多尔 | 2-0 | 2-1（2） | 2-0（5） | 1-0（2） | 2-0（5） | 1-0（2） | 1-1（2） | 1-1（2） | 2-1（2） |\n\n**2026-07-01**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Opus 4.8 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 英格兰 vs 刚果民主共和国 | 2-1 | 2-0（2） | 2-1（5） | 2-0（2） | 1-0（2） | 3-0（2） | 1-0（2） | 2-1（5） | 2-1（5） |\n| 比利时 vs 塞内加尔 | 2-2 | 2-1（2） | 3-1（2） | 2-1（2） | 2-0（2） | 2-0（2） | 3-1（2） | 3-1（2） | 2-0（2） |\n| 美国 vs 波黑 | 2-0 | 2-0（5） | 2-1（2） | 2-1（2） | 2-0（5） | 3-1（2） | 3-1（2） | 3-1（2） | 1-0（2） |\n\n<!-- HISTORY-REVIEW-END -->\n"
   }
  ]
 };

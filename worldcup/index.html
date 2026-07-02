@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="./i18n.js?v=6"></script>
-<script src="./data.js?v=a8cad37c"></script>
+<script src="./data.js?v=0e28be4e"></script>
 <script src="./support.js?v=3"></script>
 </head>
 <body>
@@ -52,6 +52,7 @@
         <span style="color:#7a80a6;font-size:12px;letter-spacing:2px;border-right:1px solid rgba(255,255,255,.14);padding-right:13px;">{{ L.rulesLabel }}</span>
         <span style="color:#FFD24A;font-weight:700;">{{ L.ruleExact }}</span>
         <span style="color:#00FFA3;font-weight:700;">{{ L.ruleOutcome }}</span>
+        <span style="color:#00D4FF;font-weight:700;">{{ L.ruleScore }}</span>
         <span style="color:#6b7090;font-weight:700;">{{ L.ruleWrong }}</span>
       </div>
     </div>
@@ -67,7 +68,7 @@
       </div>
       <p style="margin:0 0 16px;font-size:14px;line-height:1.72;color:#c5c9e4;max-width:900px;">{{ L.elimBody }}</p>
       <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
-        <sc-for list="{{ challengers }}" as="c" hint-placeholder-count="2">
+        <sc-for list="{{ challengers }}" as="c" hint-placeholder-count="3">
           <span style="display:flex;align-items:center;gap:10px;padding:7px 15px 7px 8px;border-radius:999px;background:rgba(255,255,255,.045);border:1px solid {{ c.borderColor }};">
             <span style="{{ c.avatarStyle }}">{{ c.letter }}</span>
             <span style="display:flex;flex-direction:column;line-height:1.28;">
@@ -321,9 +322,10 @@
       <h2 style="margin:0;font-size:26px;font-weight:900;color:#fff;">{{ L.sec7Title }}</h2>
       <div style="flex:1;height:1px;background:linear-gradient(90deg,rgba(255,255,255,.18),transparent);"></div>
     </div>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:20px;">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;margin-bottom:20px;">
       <div style="background:linear-gradient(160deg,rgba(255,210,74,.12),#0b0d1d);border:1px solid rgba(255,210,74,.4);border-radius:16px;padding:22px;text-align:center;box-shadow:0 0 26px rgba(255,210,74,.12);"><div style="font-family:'Orbitron';font-weight:900;font-size:42px;color:#FFD24A;text-shadow:0 0 20px rgba(255,210,74,.5);">+5</div><div style="font-size:15px;font-weight:700;color:#fff;margin-top:6px;">{{ L.r5Title }}</div><div style="font-size:12px;color:#9398bd;margin-top:4px;">{{ L.r5Desc }}</div></div>
-      <div style="background:linear-gradient(160deg,rgba(0,255,163,.10),#0b0d1d);border:1px solid rgba(0,255,163,.4);border-radius:16px;padding:22px;text-align:center;box-shadow:0 0 26px rgba(0,255,163,.10);"><div style="font-family:'Orbitron';font-weight:900;font-size:42px;color:#00FFA3;text-shadow:0 0 20px rgba(0,255,163,.5);">+3</div><div style="font-size:15px;font-weight:700;color:#fff;margin-top:6px;">{{ L.r3Title }}</div><div style="font-size:12px;color:#9398bd;margin-top:4px;">{{ L.r3Desc }}</div></div>
+      <div style="background:linear-gradient(160deg,rgba(0,255,163,.10),#0b0d1d);border:1px solid rgba(0,255,163,.4);border-radius:16px;padding:22px;text-align:center;box-shadow:0 0 26px rgba(0,255,163,.10);"><div style="font-family:'Orbitron';font-weight:900;font-size:42px;color:#00FFA3;text-shadow:0 0 20px rgba(0,255,163,.5);">+2</div><div style="font-size:15px;font-weight:700;color:#fff;margin-top:6px;">{{ L.r2Title }}</div><div style="font-size:12px;color:#9398bd;margin-top:4px;">{{ L.r2Desc }}</div></div>
+      <div style="background:linear-gradient(160deg,rgba(0,212,255,.10),#0b0d1d);border:1px solid rgba(0,212,255,.4);border-radius:16px;padding:22px;text-align:center;box-shadow:0 0 26px rgba(0,212,255,.10);"><div style="font-family:'Orbitron';font-weight:900;font-size:42px;color:#00D4FF;text-shadow:0 0 20px rgba(0,212,255,.5);">+3</div><div style="font-size:15px;font-weight:700;color:#fff;margin-top:6px;">{{ L.r3Title }}</div><div style="font-size:12px;color:#9398bd;margin-top:4px;">{{ L.r3Desc }}</div></div>
       <div style="background:linear-gradient(160deg,rgba(107,112,144,.12),#0b0d1d);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:22px;text-align:center;"><div style="font-family:'Orbitron';font-weight:900;font-size:42px;color:#6b7090;">0</div><div style="font-size:15px;font-weight:700;color:#fff;margin-top:6px;">{{ L.r0Title }}</div><div style="font-size:12px;color:#9398bd;margin-top:4px;">{{ L.r0Desc }}</div></div>
     </div>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;">
@@ -386,7 +388,8 @@ class Component extends DCLogic {
 
   vmeta(v){
     if(v==='exact') return {color:'#FFD24A',bg:'rgba(255,210,74,.10)',bd:'rgba(255,210,74,.5)',mark:'✓✓',pts:'+5',gold:true};
-    if(v==='win') return {color:'#00FFA3',bg:'rgba(0,255,163,.08)',bd:'rgba(0,255,163,.4)',mark:'✓',pts:'+3',gold:false};
+    if(v==='win') return {color:'#00FFA3',bg:'rgba(0,255,163,.08)',bd:'rgba(0,255,163,.4)',mark:'✓',pts:'+2',gold:false};
+    if(v==='score') return {color:'#00D4FF',bg:'rgba(0,212,255,.08)',bd:'rgba(0,212,255,.4)',mark:'S',pts:'+3',gold:false};
     if(v==='miss') return {color:'#6b7090',bg:'rgba(255,255,255,.025)',bd:'rgba(255,255,255,.08)',mark:'—',pts:'0',gold:false};
     return {color:'#6b7090',bg:'rgba(255,255,255,.025)',bd:'rgba(255,255,255,.08)',mark:'✗',pts:'0',gold:false};
   }
@@ -394,7 +397,7 @@ class Component extends DCLogic {
   // ======== 真实数据适配层（window.ARENA_DATA 由 scripts/build-site-data.mjs 生成） ========
   arena(){
     if(this._arena) return this._arena;
-    const A = window.ARENA_DATA || {updated_at:'',rules:{exact:5,outcome:3},models:[],leaderboard:[],days:[]};
+    const A = window.ARENA_DATA || {updated_at:'',rules:{exact:5,outcome:2,scoreOnly:3},models:[],leaderboard:[],days:[]};
     const META = {
       'openai/gpt-5.5-pro':           {id:'gpt',      short:'GPT',      letter:'G', color:'#10A37F', logo:'logos/gpt.svg'},
       'x-ai/grok-4.3':                {id:'grok',     short:'Grok',     letter:'X', color:'#00D4FF', logo:'logos/grok.svg'},
@@ -404,20 +407,28 @@ class Component extends DCLogic {
       'anthropic/claude-fable-5':     {id:'claude',   short:'Claude',   letter:'C', color:'#D97757', logo:'logos/claude.svg'},
       'z-ai/glm-5.2':                 {id:'glm',      short:'GLM',      letter:'Z', color:'#EC4899', logo:'logos/glm.png',    raw:true, fit:'cover'}, // 官方 Z.ai 标志（自带底色，不走白化滤镜）
       'bytedance/doubao-seed-2.0-pro':{id:'doubao',   short:'Doubao',   letter:'豆', color:'#FACC15', logo:'logos/doubao.png', raw:true, fit:'cover'}, // 官方豆包形象（彩色铺满）
+      'qwen/qwen3.7-max':             {id:'qwen',     short:'Qwen',     letter:'Q', color:'#10B981'},
+      'google/gemini-3.5-flash':      {id:'gemini',   short:'Gemini',   letter:'G', color:'#38BDF8'},
+      'sakana/fugu-ultra':            {id:'fugu',     short:'Fugu',     letter:'F', color:'#EAB308'},
+      'tencent/hy3-preview':           {id:'tencent',  short:'HY3',      letter:'腾', color:'#22C55E'},
+      'xiaomi/mimo-v2.5-pro':          {id:'xiaomi',   short:'MiMo',     letter:'米', color:'#FF6900'},
+      'minimax/minimax-m3':            {id:'minimax',  short:'MiniMax',  letter:'M', color:'#8B5CF6'},
     };
     const days = A.days || [];
     const latest = days.length ? days[days.length-1] : null;
     let settledDay = null;
     for(let i=days.length-1;i>=0;i--){ if((days[i].matches||[]).some(m=>m.result)){ settledDay = days[i]; break; } }
 
-    const stats = {}; (A.leaderboard||[]).forEach(lb=>{ stats[lb.id]={exact:0,winOnly:0,wrong:0,miss:0,settled:0,seq:[]}; });
+    const stats = {}; (A.leaderboard||[]).forEach(lb=>{ stats[lb.id]={scoreHit:0,dirHit:0,wrong:0,miss:0,settled:0,seq:[]}; });
     days.forEach(d=> (d.matches||[]).forEach(m=>{ if(!m.result) return;
       (m.perModel||[]).forEach(pm=>{ const st=stats[pm.model]; if(!st) return;
         if(pm.status==='absent') return; // 该模型当日未参赛（如淘汰赛挑战者加入前的历史比赛），不计入战绩统计
         st.settled++;
         const v=pm.settled?pm.settled.verdict:'miss';
-        if(v==='exact') st.exact++; else if(v==='outcome') st.winOnly++; else if(v==='miss') st.miss++; else st.wrong++;
-        st.seq.push(v==='exact'||v==='outcome');
+        if(pm.settled?.scoreCorrect) st.scoreHit++;
+        if(pm.settled?.directionCorrect) st.dirHit++;
+        if(v==='miss') st.miss++; else if(!pm.settled?.scoreCorrect && !pm.settled?.directionCorrect) st.wrong++;
+        st.seq.push(!!pm.settled?.directionCorrect);
       });
     }));
     const streakOf=(seq)=>{ let s=0; for(let i=seq.length-1;i>=0;i--){ if(seq[i]) s++; else break; } return s; };
@@ -433,15 +444,15 @@ class Component extends DCLogic {
 
     const base = lb.map(l=>{
       const meta = META[l.id] || {id:l.id,short:l.display,letter:(l.display||'?')[0],color:l.color||'#8B5CFF'};
-      const st = stats[l.id] || {exact:0,winOnly:0,wrong:0,miss:0,settled:0,seq:[]};
+      const st = stats[l.id] || {scoreHit:0,dirHit:0,wrong:0,miss:0,settled:0,seq:[]};
       const change = prevRank ? (prevRank[l.id]-curRank[l.id]) : 0;
       return {
         id:meta.id, key:l.id, name:l.display, short:meta.short, vendor:l.vendor, letter:meta.letter, logo:meta.logo, fit:meta.fit, raw:meta.raw, color:meta.color,
         isNew: !!l.joined, joined: l.joined||null,
         total:l.total, series:(l.series||[]).map(s=>s.total), dates:(l.series||[]).map(s=>s.date.slice(5)),
         yesterday: settledDay ? (settledDay.day_points[l.id]||0) : 0,
-        hitRate: st.settled ? Math.round((st.exact+st.winOnly)/st.settled*100) : 0,
-        change, exact:st.exact, winOnly:st.winOnly, wrong:st.wrong+st.miss, streak:streakOf(st.seq), settled:st.settled,
+        hitRate: st.settled ? Math.round(st.dirHit/st.settled*100) : 0,
+        change, exact:st.scoreHit, winOnly:st.dirHit, wrong:st.wrong+st.miss, streak:streakOf(st.seq), settled:st.settled,
       };
     }).sort((a,b)=> b.total-a.total || b.exact-a.exact || b.hitRate-a.hitRate);
 
