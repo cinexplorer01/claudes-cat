@@ -1,6 +1,6 @@
 // 自动生成 — 勿手改。由 scripts/build-site-data.mjs 在每日更新时重建。
 window.ARENA_DATA = {
- "updated_at": "2026-07-02T04:02:46.582Z",
+ "updated_at": "2026-07-02T04:19:12.202Z",
  "rules": {
   "direction": 2,
   "score": 3,
@@ -29728,8 +29728,8 @@ window.ARENA_DATA = {
         "match_id": "2026-07-02-ESP-AUT",
         "winner": "home",
         "score": "2-0",
-        "confidence": 78,
-        "reasoning_zh": "西班牙控球体系成熟且小组赛一球未失。奥地利压迫较强但防守漏洞多，看好西班牙90分钟完胜。"
+        "confidence": 1,
+        "reasoning_zh": "西班牙整体实力和控球体系明显占优，奥地利难爆冷，维持原判。"
        },
        "settled": null
       },
@@ -29752,8 +29752,8 @@ window.ARENA_DATA = {
         "match_id": "2026-07-02-ESP-AUT",
         "winner": "home",
         "score": "1-0",
-        "confidence": 85,
-        "reasoning_zh": "西班牙控球防守占优，奥地利难组织有效进攻"
+        "confidence": 1,
+        "reasoning_zh": "西班牙实力占优，小组赛未失球，奥地利防守一般，西班牙晋级"
        },
        "settled": null
       },
@@ -29764,8 +29764,8 @@ window.ARENA_DATA = {
         "match_id": "2026-07-02-ESP-AUT",
         "winner": "home",
         "score": "1-0",
-        "confidence": 70,
-        "reasoning_zh": "西班牙控球与防守占优，但边路伤停限制进攻，预计小胜晋级。"
+        "confidence": 2,
+        "reasoning_zh": "西班牙小组赛零失球、控球体系成熟，奥地利高位压迫有威胁但阵容差距明显，西班牙应能低比分晋级。"
        },
        "settled": null
       },
@@ -30042,10 +30042,10 @@ window.ARENA_DATA = {
        "status": "ok",
        "pred": {
         "match_id": "2026-07-02-POR-CRO",
-        "winner": "home",
+        "winner": "away",
         "score": "1-1",
-        "confidence": 68,
-        "reasoning_zh": "克罗地亚淘汰赛坚韧、擅拖延，90分钟恐难分胜负。葡萄牙板凳深度占优，看好其加时或点球晋级。"
+        "confidence": 1,
+        "reasoning_zh": "葡萄牙状态不稳，克罗地亚淘汰赛经验极强，看好克罗地亚凭借坚韧防守通过加时或点球晋级。"
        },
        "settled": null
       },
@@ -30066,10 +30066,10 @@ window.ARENA_DATA = {
        "status": "ok",
        "pred": {
         "match_id": "2026-07-02-POR-CRO",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 85,
-        "reasoning_zh": "葡萄牙阵容厚度更优，克罗地亚老将体能下滑，常规时间小胜"
+        "winner": "away",
+        "score": "1-1",
+        "confidence": 1,
+        "reasoning_zh": "克罗地亚大赛淘汰赛经验丰富，葡萄牙状态不稳，更具韧性"
        },
        "settled": null
       },
@@ -30078,10 +30078,10 @@ window.ARENA_DATA = {
        "status": "ok",
        "pred": {
         "match_id": "2026-07-02-POR-CRO",
-        "winner": "home",
-        "score": "1-0",
-        "confidence": 60,
-        "reasoning_zh": "葡萄牙阵容厚度更高，C罗关键战发力，有望低比分取胜。"
+        "winner": "away",
+        "score": "1-1",
+        "confidence": 1,
+        "reasoning_zh": "克罗地亚淘汰赛韧性极强，莫德里奇控制节奏能力突出；葡萄牙小组赛两平，进攻不稳定，90分钟很可能打平后克罗地亚凭借大赛经验加时/点球晋级。"
        },
        "settled": null
       },
@@ -30363,8 +30363,8 @@ window.ARENA_DATA = {
         "match_id": "2026-07-02-SUI-ALG",
         "winner": "home",
         "score": "2-1",
-        "confidence": 75,
-        "reasoning_zh": "瑞士免受旅行奔波，攻守更均衡。阿尔及利亚神经刀属性明显且防线不稳，看好瑞士90分钟晋级。"
+        "confidence": 1,
+        "reasoning_zh": "瑞士结构稳定且留在温哥华以逸待劳，阿尔及利亚防线有隐忧，瑞士更显成算。"
        },
        "settled": null
       },
@@ -30387,8 +30387,8 @@ window.ARENA_DATA = {
         "match_id": "2026-07-02-SUI-ALG",
         "winner": "home",
         "score": "2-0",
-        "confidence": 82,
-        "reasoning_zh": "瑞士阵容稳定且有温哥华场地优势，阿尔及利亚防守端存在隐患"
+        "confidence": 1,
+        "reasoning_zh": "瑞士阵容稳定场地熟悉，阿尔及利亚防守差，瑞士晋级"
        },
        "settled": null
       },
@@ -30399,8 +30399,8 @@ window.ARENA_DATA = {
         "match_id": "2026-07-02-SUI-ALG",
         "winner": "home",
         "score": "2-0",
-        "confidence": 75,
-        "reasoning_zh": "瑞士结构稳定且场地占优，阿尔及利亚防守漏洞大，主队可完胜。"
+        "confidence": 2,
+        "reasoning_zh": "瑞士结构稳定且留在温哥华作战，阿坎吉-科贝尔防线可靠；阿尔及利亚虽有反击爆点但防守不稳，瑞士应能掌控比赛。"
        },
        "settled": null
       },
