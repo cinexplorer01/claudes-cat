@@ -1,6 +1,6 @@
 // 自动生成 — 勿手改。由 scripts/build-site-data.mjs 在每日更新时重建。
 window.ARENA_DATA = {
- "updated_at": "2026-07-02T05:05:00.445Z",
+ "updated_at": "2026-07-03T06:34:53.145Z",
  "rules": {
   "direction": 2,
   "score": 3,
@@ -68,7 +68,7 @@ window.ARENA_DATA = {
    "display": "Claude Fable 5",
    "vendor": "Anthropic",
    "color": "#d9a05b",
-   "total": 148,
+   "total": 152,
    "series": [
     {
      "date": "2026-06-12",
@@ -172,122 +172,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-07-02",
-     "day": 0,
-     "total": 148
-    }
-   ]
-  },
-  {
-   "id": "moonshotai/kimi-k2.6",
-   "display": "Kimi K2.7",
-   "vendor": "Moonshot AI",
-   "color": "#f87171",
-   "total": 136,
-   "series": [
-    {
-     "date": "2026-06-12",
-     "day": 2,
-     "total": 2
-    },
-    {
-     "date": "2026-06-13",
-     "day": 0,
-     "total": 2
-    },
-    {
-     "date": "2026-06-14",
      "day": 4,
-     "total": 6
+     "total": 152
     },
     {
-     "date": "2026-06-15",
+     "date": "2026-07-03",
      "day": 0,
-     "total": 6
-    },
-    {
-     "date": "2026-06-16",
-     "day": 8,
-     "total": 14
-    },
-    {
-     "date": "2026-06-17",
-     "day": 4,
-     "total": 18
-    },
-    {
-     "date": "2026-06-18",
-     "day": 6,
-     "total": 24
-    },
-    {
-     "date": "2026-06-19",
-     "day": 6,
-     "total": 30
-    },
-    {
-     "date": "2026-06-20",
-     "day": 9,
-     "total": 39
-    },
-    {
-     "date": "2026-06-21",
-     "day": 8,
-     "total": 47
-    },
-    {
-     "date": "2026-06-22",
-     "day": 11,
-     "total": 58
-    },
-    {
-     "date": "2026-06-23",
-     "day": 6,
-     "total": 64
-    },
-    {
-     "date": "2026-06-24",
-     "day": 8,
-     "total": 72
-    },
-    {
-     "date": "2026-06-25",
-     "day": 12,
-     "total": 84
-    },
-    {
-     "date": "2026-06-26",
-     "day": 13,
-     "total": 97
-    },
-    {
-     "date": "2026-06-27",
-     "day": 13,
-     "total": 110
-    },
-    {
-     "date": "2026-06-28",
-     "day": 0,
-     "total": 110
-    },
-    {
-     "date": "2026-06-29",
-     "day": 10,
-     "total": 120
-    },
-    {
-     "date": "2026-06-30",
-     "day": 7,
-     "total": 127
-    },
-    {
-     "date": "2026-07-01",
-     "day": 9,
-     "total": 136
-    },
-    {
-     "date": "2026-07-02",
-     "day": 0,
-     "total": 136
+     "total": 152
     }
    ]
   },
@@ -296,7 +187,7 @@ window.ARENA_DATA = {
    "display": "Grok 4.3",
    "vendor": "xAI",
    "color": "#a78bfa",
-   "total": 133,
+   "total": 142,
    "series": [
     {
      "date": "2026-06-12",
@@ -400,8 +291,132 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-07-02",
+     "day": 9,
+     "total": 142
+    },
+    {
+     "date": "2026-07-03",
      "day": 0,
-     "total": 133
+     "total": 142
+    }
+   ]
+  },
+  {
+   "id": "moonshotai/kimi-k2.6",
+   "display": "Kimi K2.7",
+   "vendor": "Moonshot AI",
+   "color": "#f87171",
+   "total": 142,
+   "series": [
+    {
+     "date": "2026-06-12",
+     "day": 2,
+     "total": 2
+    },
+    {
+     "date": "2026-06-13",
+     "day": 0,
+     "total": 2
+    },
+    {
+     "date": "2026-06-14",
+     "day": 4,
+     "total": 6
+    },
+    {
+     "date": "2026-06-15",
+     "day": 0,
+     "total": 6
+    },
+    {
+     "date": "2026-06-16",
+     "day": 8,
+     "total": 14
+    },
+    {
+     "date": "2026-06-17",
+     "day": 4,
+     "total": 18
+    },
+    {
+     "date": "2026-06-18",
+     "day": 6,
+     "total": 24
+    },
+    {
+     "date": "2026-06-19",
+     "day": 6,
+     "total": 30
+    },
+    {
+     "date": "2026-06-20",
+     "day": 9,
+     "total": 39
+    },
+    {
+     "date": "2026-06-21",
+     "day": 8,
+     "total": 47
+    },
+    {
+     "date": "2026-06-22",
+     "day": 11,
+     "total": 58
+    },
+    {
+     "date": "2026-06-23",
+     "day": 6,
+     "total": 64
+    },
+    {
+     "date": "2026-06-24",
+     "day": 8,
+     "total": 72
+    },
+    {
+     "date": "2026-06-25",
+     "day": 12,
+     "total": 84
+    },
+    {
+     "date": "2026-06-26",
+     "day": 13,
+     "total": 97
+    },
+    {
+     "date": "2026-06-27",
+     "day": 13,
+     "total": 110
+    },
+    {
+     "date": "2026-06-28",
+     "day": 0,
+     "total": 110
+    },
+    {
+     "date": "2026-06-29",
+     "day": 10,
+     "total": 120
+    },
+    {
+     "date": "2026-06-30",
+     "day": 7,
+     "total": 127
+    },
+    {
+     "date": "2026-07-01",
+     "day": 9,
+     "total": 136
+    },
+    {
+     "date": "2026-07-02",
+     "day": 6,
+     "total": 142
+    },
+    {
+     "date": "2026-07-03",
+     "day": 0,
+     "total": 142
     }
    ]
   },
@@ -410,7 +425,7 @@ window.ARENA_DATA = {
    "display": "Gemini 3.5 Flash",
    "vendor": "Google",
    "color": "#38bdf8",
-   "total": 52,
+   "total": 56,
    "series": [
     {
      "date": "2026-06-12",
@@ -514,8 +529,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-07-02",
+     "day": 4,
+     "total": 56
+    },
+    {
+     "date": "2026-07-03",
      "day": 0,
-     "total": 52
+     "total": 56
     }
    ]
   },
@@ -524,7 +544,7 @@ window.ARENA_DATA = {
    "display": "Fugu Ultra",
    "vendor": "Sakana AI",
    "color": "#eab308",
-   "total": 46,
+   "total": 52,
    "series": [
     {
      "date": "2026-06-12",
@@ -628,123 +648,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-07-02",
-     "day": 0,
-     "total": 46
-    }
-   ]
-  },
-  {
-   "id": "xiaomi/mimo-v2.5-pro",
-   "display": "Xiaomi MiMo v2.5 Pro",
-   "vendor": "Xiaomi",
-   "color": "#ff6900",
-   "joined": "2026-06-30",
-   "total": 15,
-   "series": [
-    {
-     "date": "2026-06-12",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-13",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-14",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-15",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-16",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-17",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-18",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-19",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-20",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-21",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-22",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-23",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-24",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-25",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-26",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-27",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-28",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-29",
-     "day": 0,
-     "total": 0
-    },
-    {
-     "date": "2026-06-30",
      "day": 6,
-     "total": 6
+     "total": 52
     },
     {
-     "date": "2026-07-01",
-     "day": 9,
-     "total": 15
-    },
-    {
-     "date": "2026-07-02",
+     "date": "2026-07-03",
      "day": 0,
-     "total": 15
+     "total": 52
     }
    ]
   },
@@ -754,7 +664,7 @@ window.ARENA_DATA = {
    "vendor": "MiniMax",
    "color": "#8b5cf6",
    "joined": "2026-06-30",
-   "total": 15,
+   "total": 24,
    "series": [
     {
      "date": "2026-06-12",
@@ -858,8 +768,133 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-07-02",
+     "day": 9,
+     "total": 24
+    },
+    {
+     "date": "2026-07-03",
      "day": 0,
+     "total": 24
+    }
+   ]
+  },
+  {
+   "id": "xiaomi/mimo-v2.5-pro",
+   "display": "Xiaomi MiMo v2.5 Pro",
+   "vendor": "Xiaomi",
+   "color": "#ff6900",
+   "joined": "2026-06-30",
+   "total": 22,
+   "series": [
+    {
+     "date": "2026-06-12",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-13",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-14",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-15",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-16",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-17",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-18",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-19",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-20",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-21",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-22",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-23",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-24",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-25",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-26",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-27",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-28",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-29",
+     "day": 0,
+     "total": 0
+    },
+    {
+     "date": "2026-06-30",
+     "day": 6,
+     "total": 6
+    },
+    {
+     "date": "2026-07-01",
+     "day": 9,
      "total": 15
+    },
+    {
+     "date": "2026-07-02",
+     "day": 7,
+     "total": 22
+    },
+    {
+     "date": "2026-07-03",
+     "day": 0,
+     "total": 22
     }
    ]
   },
@@ -869,7 +904,7 @@ window.ARENA_DATA = {
    "vendor": "Tencent",
    "color": "#22c55e",
    "joined": "2026-06-30",
-   "total": 12,
+   "total": 16,
    "series": [
     {
      "date": "2026-06-12",
@@ -973,8 +1008,13 @@ window.ARENA_DATA = {
     },
     {
      "date": "2026-07-02",
+     "day": 4,
+     "total": 16
+    },
+    {
+     "date": "2026-07-03",
      "day": 0,
-     "total": 12
+     "total": 16
     }
    ]
   }
@@ -29683,7 +29723,11 @@ window.ARENA_DATA = {
       "data/2026-06-26/matches.json",
       "data/2026-06-27/matches.json"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-07-02-ESP-AUT",
+      "score": "3-0",
+      "winner": "home"
+     },
      "perModel": [
       {
        "model": "x-ai/grok-4.3",
@@ -29695,7 +29739,12 @@ window.ARENA_DATA = {
         "confidence": 78,
         "reasoning_zh": "西班牙整体实力排名碾压，控球主导，奥地利高位压迫难持久，西班牙90分钟取胜概率高。"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -29707,7 +29756,12 @@ window.ARENA_DATA = {
         "confidence": 80,
         "reasoning_zh": "西班牙控球实力占优，奥地利高压虽能制造麻烦但难挡出局。"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -29719,7 +29773,12 @@ window.ARENA_DATA = {
         "confidence": 4,
         "reasoning_zh": "西班牙控球与防守全面占优，奥地利压迫有威胁但阵容差距明显，维持原判。"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "google/gemini-3.5-flash",
@@ -29731,7 +29790,12 @@ window.ARENA_DATA = {
         "confidence": 1,
         "reasoning_zh": "西班牙控球和防守极佳，奥地利虽有高位压迫但防守存漏洞，西班牙能掌控节奏稳步晋级。"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "sakana/fugu-ultra",
@@ -29743,7 +29807,12 @@ window.ARENA_DATA = {
         "confidence": 68,
         "reasoning_zh": "西班牙控球与阵容占优终能破局，奥地利高位压迫可偷进一球，但整体仍难挡西班牙火力。"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "tencent/hy3-preview",
@@ -29755,7 +29824,12 @@ window.ARENA_DATA = {
         "confidence": 1,
         "reasoning_zh": "西班牙实力占优控球稳定，奥地利难爆冷晋级"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "xiaomi/mimo-v2.5-pro",
@@ -29767,7 +29841,12 @@ window.ARENA_DATA = {
         "confidence": 1,
         "reasoning_zh": "西班牙FIFA第2、小组赛未失球，控球与阵容上限全面占优；奥地利高位压迫可造威胁但稳定性不足。"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "minimax/minimax-m3",
@@ -29779,7 +29858,12 @@ window.ARENA_DATA = {
         "confidence": 62,
         "reasoning_zh": "西班牙防守稳固小组赛零失球，但边路伤停削弱进攻，淘汰赛压力下可能小胜"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       }
      ]
     },
@@ -29999,7 +30083,11 @@ window.ARENA_DATA = {
       "data/2026-06-23/matches.json",
       "data/2026-06-27/matches.json"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-07-02-POR-CRO",
+      "score": "2-1",
+      "winner": "home"
+     },
      "perModel": [
       {
        "model": "x-ai/grok-4.3",
@@ -30011,7 +30099,12 @@ window.ARENA_DATA = {
         "confidence": 72,
         "reasoning_zh": "葡萄牙阵容厚度与前场创造力占优，C罗状态稳定，克罗地亚经验丰富但体能下滑，葡萄牙更易90分钟晋级。"
        },
-       "settled": null
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -30023,7 +30116,12 @@ window.ARENA_DATA = {
         "confidence": 65,
         "reasoning_zh": "葡萄牙纸面更强但进攻不连贯，克罗地亚能拖入加时后葡晋级。"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -30035,7 +30133,12 @@ window.ARENA_DATA = {
         "confidence": 2,
         "reasoning_zh": "葡萄牙对密集防守屡屡低效，克罗地亚控场与加时点球经验强，僵持局面下晋级更可能。"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "google/gemini-3.5-flash",
@@ -30047,7 +30150,12 @@ window.ARENA_DATA = {
         "confidence": 1,
         "reasoning_zh": "克罗地亚淘汰赛经验极其丰富且擅长加时。葡萄牙小组赛进攻滞涩，克罗地亚有望拖平并晋级。"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "sakana/fugu-ultra",
@@ -30059,7 +30167,12 @@ window.ARENA_DATA = {
         "confidence": 58,
         "reasoning_zh": "葡萄牙阵容厚度与前场创造力更强，鲁本·迪亚斯稳固后防，克罗地亚老化中场难撑90分钟，葡萄牙先破局后拉开。"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "tencent/hy3-preview",
@@ -30071,7 +30184,12 @@ window.ARENA_DATA = {
         "confidence": 1,
         "reasoning_zh": "克罗地亚淘汰赛经验丰富，低比分下加时优势明显"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "xiaomi/mimo-v2.5-pro",
@@ -30083,7 +30201,12 @@ window.ARENA_DATA = {
         "confidence": 1,
         "reasoning_zh": "克罗地亚大赛淘汰赛韧性顶级，中场控节奏能力强；葡萄牙小组赛两场平局暴露进攻不稳定，1.80赔率差距偏浅。"
        },
-       "settled": null
+       "settled": {
+        "points": 0,
+        "verdict": "wrong",
+        "directionCorrect": false,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "minimax/minimax-m3",
@@ -30095,7 +30218,12 @@ window.ARENA_DATA = {
         "confidence": 58,
         "reasoning_zh": "五五开对决，葡萄牙前场创造力略胜，B费和莱奥能制造威胁；克罗地亚淘汰赛经验强但锋线老化，预测葡萄牙小胜或经加时晋级。"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       }
      ]
     },
@@ -30318,7 +30446,11 @@ window.ARENA_DATA = {
       "data/2026-06-24/matches.json",
       "data/2026-06-27/matches.json"
      ],
-     "result": null,
+     "result": {
+      "id": "2026-07-02-SUI-ALG",
+      "score": "2-0",
+      "winner": "home"
+     },
      "perModel": [
       {
        "model": "x-ai/grok-4.3",
@@ -30330,7 +30462,12 @@ window.ARENA_DATA = {
         "confidence": 65,
         "reasoning_zh": "瑞士主场熟悉场地且防守稳健，阿尔及利亚反击上限高但稳定性不足，低比分瑞士小胜概率更大。"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "moonshotai/kimi-k2.6",
@@ -30342,7 +30479,12 @@ window.ARENA_DATA = {
         "confidence": 75,
         "reasoning_zh": "瑞士连场作战更稳定，阿尔及利亚反击有威胁但后防难保。"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "anthropic/claude-fable-5",
@@ -30354,7 +30496,12 @@ window.ARENA_DATA = {
         "confidence": 3,
         "reasoning_zh": "瑞士结构稳、留守温哥华占优，阿尔及利亚反击有爆点可拖平90分钟，瑞士最终晋级。"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "google/gemini-3.5-flash",
@@ -30366,7 +30513,12 @@ window.ARENA_DATA = {
         "confidence": 1,
         "reasoning_zh": "瑞士结构稳定且留在温哥华免去奔波，阿尔及利亚虽有反击爆点但防守不稳，看好瑞士小胜。"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "sakana/fugu-ultra",
@@ -30378,7 +30530,12 @@ window.ARENA_DATA = {
         "confidence": 56,
         "reasoning_zh": "瑞士结构清晰、扎卡控节奏、后防下限高；阿尔及利亚反击有威胁但稳定性差，瑞士靠一球稳稳掌控。"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "tencent/hy3-preview",
@@ -30390,7 +30547,12 @@ window.ARENA_DATA = {
         "confidence": 1,
         "reasoning_zh": "瑞士更稳定且场地优势明显，阿尔及利亚难爆冷"
        },
-       "settled": null
+       "settled": {
+        "points": 2,
+        "verdict": "outcome",
+        "directionCorrect": true,
+        "scoreCorrect": false
+       }
       },
       {
        "model": "xiaomi/mimo-v2.5-pro",
@@ -30402,7 +30564,12 @@ window.ARENA_DATA = {
         "confidence": 1,
         "reasoning_zh": "瑞士B组第一、留温哥华作战，扎卡+阿坎吉结构清晰；阿尔及利亚后防空间大，3-3奥地利暴露防守隐患。"
        },
-       "settled": null
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
       },
       {
        "model": "minimax/minimax-m3",
@@ -30414,21 +30581,26 @@ window.ARENA_DATA = {
         "confidence": 65,
         "reasoning_zh": "瑞士结构清晰且留温哥华作战，阿尔及利亚防守不稳三场丢6球，瑞士应能控制局面"
        },
-       "settled": null
+       "settled": {
+        "points": 5,
+        "verdict": "exact",
+        "directionCorrect": true,
+        "scoreCorrect": true
+       }
       }
      ]
     }
    ],
-   "settled": false,
+   "settled": true,
    "day_points": {
-    "x-ai/grok-4.3": 0,
-    "moonshotai/kimi-k2.6": 0,
-    "anthropic/claude-fable-5": 0,
-    "google/gemini-3.5-flash": 0,
-    "sakana/fugu-ultra": 0,
-    "tencent/hy3-preview": 0,
-    "xiaomi/mimo-v2.5-pro": 0,
-    "minimax/minimax-m3": 0
+    "x-ai/grok-4.3": 9,
+    "moonshotai/kimi-k2.6": 6,
+    "anthropic/claude-fable-5": 4,
+    "google/gemini-3.5-flash": 4,
+    "sakana/fugu-ultra": 6,
+    "tencent/hy3-preview": 4,
+    "xiaomi/mimo-v2.5-pro": 7,
+    "minimax/minimax-m3": 9
    },
    "prompt": {
     "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场淘汰赛的最终晋级方/最终获胜方，以及90分钟（含补时、不含加时和点球大战）的比分；90分钟比分可以是平局，但最终晋级方不能是平局，必须在主队或客队中选择一方。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断非热门球队会通过90分钟、加时或点球晋级时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的90分钟精确比分，并给出最终晋级方向。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
@@ -30486,6 +30658,1038 @@ window.ARENA_DATA = {
     }
    },
    "context_md": "# 2026-07-02 世界杯比赛资料文档\n\n本文档汇总了 2026-07-02（比赛日，北美当地时间）FIFA 2026 世界杯全部 3 场32强淘汰赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与赛事形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-07-02-ESP-AUT`：32强 Match 84 西班牙(Spain, 主) vs 奥地利(Austria, 客)\n- `2026-07-02-POR-CRO`：32强 Match 83 葡萄牙(Portugal, 主) vs 克罗地亚(Croatia, 客)\n- `2026-07-02-SUI-ALG`：32强 Match 85 瑞士(Switzerland, 主) vs 阿尔及利亚(Algeria, 客)\n\n---\n\n## 32强 Match 84 · 西班牙 vs 奥地利（match_id: `2026-07-02-ESP-AUT`）\n\n- 开球：2026-07-02 12:00（洛杉矶当地时间 PDT）｜北京时间 2026-07-03 03:00（北京时间周五凌晨）\n- 场地：Los Angeles Stadium（SoFi Stadium），美国加利福尼亚州洛杉矶\n\n### 西班牙（Spain，主队）\n- FIFA 排名：第 2 位\n- 晋级之路：欧洲区预选赛头名直接晋级；小组赛H组第一，0-0平佛得角、4-0胜沙特阿拉伯、1-0胜乌拉圭，2胜1平积7分，未失球出线。\n- 主教练：路易斯·德拉富恩特 (Luis de la Fuente)\n- 世界杯历史：2010年世界杯冠军；2018、2022连续止步16强。本届以2024欧洲杯冠军和夺冠热门身份进入淘汰赛，但需要打破世界杯淘汰赛多年不胜的心理包袱。\n- 核心球员：\n  - Lamine Yamal 拉明·亚马尔（右边锋，巴塞罗那）\n  - Pedri 佩德里（中场，巴塞罗那）\n  - Rodri 罗德里（后腰，曼城）\n  - Dani Olmo 达尼·奥尔莫（攻击型中场，巴塞罗那）\n  - Mikel Oyarzabal 米克尔·奥亚萨瓦尔（前锋，皇家社会）\n  - Fabián Ruiz 法比安·鲁伊斯（中场，巴黎圣日耳曼）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-26 vs 乌拉圭（世界杯H组第3轮）：1-0（W）\n  - 2026-06-21 vs 沙特阿拉伯（世界杯H组第2轮）：4-0（W）\n  - 2026-06-15 vs 佛得角（世界杯H组第1轮）：0-0（D）\n  - 2026-06-08 vs 秘鲁（热身赛）：3-1（W）\n  - 2026-06-04 vs 伊拉克（热身赛）：1-1（D）\n\n### 奥地利（Austria，客队）\n- FIFA 排名：第 24 位\n- 晋级之路：欧洲区H组头名直接晋级，1998年后首次重返世界杯；小组赛J组第二，3-1胜约旦、0-2负阿根廷、3-3平阿尔及利亚，以最后时刻进球锁定出线。\n- 主教练：拉尔夫·朗尼克 (Ralf Rangnick)\n- 世界杯历史：历史最佳为1934年第四名和1954年第三名。本届是奥地利44年来首次进入世界杯淘汰赛，最低目标已经完成，后续更多依赖高位压迫制造意外。\n- 核心球员：\n  - David Alaba 大卫·阿拉巴（后卫/队长，皇家马德里）\n  - Marcel Sabitzer 马塞尔·萨比策（中场，多特蒙德）\n  - Konrad Laimer 孔拉德·莱默（中场/边后卫，拜仁慕尼黑）\n  - Marko Arnautović 马尔科·阿瑙托维奇（中锋，自由身）\n  - Kevin Danso 凯文·丹索（中后卫，托特纳姆热刺）\n  - Romano Schmid 罗马诺·施密德（中场，云达不来梅）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs 阿尔及利亚（世界杯J组第3轮）：3-3（D）\n  - 2026-06-22 vs 阿根廷（世界杯J组第2轮）：0-2（L）\n  - 2026-06-16 vs 约旦（世界杯J组第1轮）：3-1（W）\n  - 2026-06-01 vs 突尼斯（热身赛）：1-0（W）\n  - 2026-03-31 vs 韩国（热身赛）：1-0（W）\n\n### 博彩赔率（1X2，十进制）\n- Barca Blaugranes / Times of India赛前预览：主胜 — / 平 — / 客胜 —（公开抓取页未完整列出90分钟1X2三项，但两家均把西班牙列为明显更被看好的一方；Barca Blaugranes给出90分钟2-1西班牙的赛前判断。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队此前有历史交锋，但本项目未核到一致的完整成年国家队总表；世界杯淘汰赛层面没有交锋记录，本场是两队首次在世界杯淘汰赛相遇。\n\n### 近期新闻\n- [Spain] 西班牙控球稳定，但淘汰赛心理压力明显：西班牙小组赛头名且未失球，但0-0佛得角、1-0乌拉圭都说明阵地战终结仍需要提升；西媒也强调球队要结束世界杯淘汰赛长期不胜。（来源：El País / project results）\n- [Spain] 边路伤停影响进攻层次：赛前报道列出耶雷米·皮诺、尼科·威廉姆斯缺席，维克托·穆尼奥斯存疑；亚马尔、佩德里、罗德里仍是控球与推进核心。（来源：Barca Blaugranes / The Guardian）\n- [Austria] 奥地利没有明确新增缺席：赛前预览显示奥地利暂无主要缺席，朗尼克预计继续4-2-3-1和高位压迫，阿拉巴、萨比策、莱默、阿瑙托维奇是中轴。（来源：Barca Blaugranes）\n- [Austria] 最后时刻出线带来额外信心：奥地利在对阿尔及利亚的补时阶段扳成3-3，避免被淘汰并锁定J组第二，这是他们44年来首次进入世界杯淘汰赛。（来源：The Guardian / El País）\n\n### 赛事形势\n- 这是H组第一对J组第二的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵葡萄牙与克罗地亚之间的胜者。\n\n### 综述\n- 西班牙控球、排名、阵容上限和小组赛防守都占优，但边路伤停与世界杯淘汰赛低效史会放大压力。奥地利的高位压迫能把比赛拉快，也有定位球和二点球威胁；如果西班牙先破局，比赛会回到他们熟悉的控球节奏，若久攻不下则存在被拖进加时的空间。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- https://www.barcablaugranes.com/world-cup-2026/125416/spain-austria-world-cup-2026-team-news-match-preview-lineups-prediction\n- https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/spain-vs-austria-at-fifa-world-cup-2026-how-to-watch-streaming-guide-start-time-predicted-line-ups-and-more/articleshow/132127208.cms\n- https://www.theguardian.com/football/2026/jul/01/fabian-ruiz-spain-austria-world-cup-2026-round-32\n- https://elpais.com/deportes/mundial-futbol/2026-07-02/espana-y-la-memoria-perdida-del-ko-busca-contra-austria-superar-una-eliminatoria-de-un-mundial-por-primera-vez-en-16-anos.html\n- https://elpais.com/deportes/mundial-futbol/2026-07-02/austria-rival-de-espana-entre-la-epica-wagneriana-y-la-placidez-del-objetivo-cumplido.html\n- data/2026-06-15/matches.json\n- data/2026-06-21/matches.json\n- data/2026-06-22/matches.json\n- data/2026-06-26/matches.json\n- data/2026-06-27/matches.json\n\n---\n\n## 32强 Match 83 · 葡萄牙 vs 克罗地亚（match_id: `2026-07-02-POR-CRO`）\n\n- 开球：2026-07-02 19:00（多伦多当地时间 EDT）｜北京时间 2026-07-03 07:00（北京时间周五早晨）\n- 场地：Toronto Stadium（BMO Field），加拿大安大略省多伦多\n\n### 葡萄牙（Portugal，主队）\n- FIFA 排名：第 5 位\n- 晋级之路：欧洲区F组头名直接晋级；小组赛K组第二，1-1平刚果民主共和国、5-0胜乌兹别克斯坦、0-0平哥伦比亚，1胜2平积5分。\n- 主教练：罗伯托·马丁内斯 (Roberto Martínez)\n- 世界杯历史：葡萄牙世界杯最佳为1966年季军。本届是C罗第六届世界杯，也可能是他最后一次世界杯淘汰赛机会，球队纸面阵容很强但小组赛稳定性一般。\n- 核心球员：\n  - Cristiano Ronaldo 克里斯蒂亚诺·罗纳尔多（前锋/队长，利雅得胜利）\n  - Bruno Fernandes 布鲁诺·费尔南德斯（中场，曼联）\n  - Bernardo Silva 贝尔纳多·席尔瓦（中场/边锋，曼城）\n  - Vitinha 维蒂尼亚（中场，巴黎圣日耳曼）\n  - Rúben Dias 鲁本·迪亚斯（中后卫，曼城）\n  - Rafael Leão 拉斐尔·莱奥（前锋/边锋，AC米兰）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs 哥伦比亚（世界杯K组第3轮）：0-0（D）\n  - 2026-06-23 vs 乌兹别克斯坦（世界杯K组第2轮）：5-0（W）\n  - 2026-06-17 vs 刚果民主共和国（世界杯K组第1轮）：1-1（D）\n  - 2026-06-10 vs 尼日利亚（热身赛）：2-1（W）\n  - 2026-06-06 vs 智利（热身赛）：2-1（W）\n\n### 克罗地亚（Croatia，客队）\n- FIFA 排名：第 11 位\n- 晋级之路：欧洲区L组头名直接晋级；小组赛L组第二，2-4负英格兰、1-0胜巴拿马、2-1胜加纳，2胜1负积6分。\n- 主教练：兹拉特科·达利奇 (Zlatko Dalić)\n- 世界杯历史：2018年世界杯亚军、2022年季军。克罗地亚大赛淘汰赛经验很强，老将莫德里奇继续领衔，但阵容年龄结构与连续高强度比赛是隐忧。\n- 核心球员：\n  - Luka Modrić 卢卡·莫德里奇（中场/队长，AC米兰）\n  - Joško Gvardiol 约什科·格瓦迪奥尔（后卫，曼城）\n  - Mateo Kovačić 马特奥·科瓦契奇（中场，曼城）\n  - Ivan Perišić 伊万·佩里西奇（边路，埃因霍温）\n  - Andrej Kramarić 安德烈·克拉马里奇（前锋，霍芬海姆）\n  - Josip Stanišić 约西普·斯塔尼希奇（边后卫，拜仁慕尼黑）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs 加纳（世界杯L组第3轮）：2-1（W）\n  - 2026-06-23 vs 巴拿马（世界杯L组第2轮）：1-0（W）\n  - 2026-06-17 vs 英格兰（世界杯L组第1轮）：2-4（L）\n  - 2026-06-07 vs 斯洛文尼亚（热身赛）：2-1（W）\n  - 2026-06-02 vs 比利时（热身赛）：0-2（L）\n\n### 博彩赔率（1X2，十进制）\n- New York Post票务/赛前报道：主胜 1.8 / 平 — / 客胜 —（报道称葡萄牙被列为 -125 的更被看好一方；页面未完整列出90分钟1X2三项，十进制1.80为美式-125换算。）\n\n### 历史交锋（H2H）\n- 共交手 8 次。两队此前成年国家队交锋以葡萄牙优势为主，克罗地亚对葡萄牙胜绩很少；世界杯层面没有正式交锋记录，本场是C罗与莫德里奇的淘汰赛对话。\n\n### 近期新闻\n- [Portugal] C罗与莫德里奇同场，告别叙事很强：赛前报道把本场写成C罗和莫德里奇两位老将的世界杯末段对决，两人都没有正式宣布退役，但年龄意味着输球一方很可能告别世界杯舞台。（来源：El País / New York Post）\n- [Portugal] 葡萄牙阵容厚，但小组赛节奏不稳定：葡萄牙5-0击败乌兹别克斯坦打出上限，但另外两场都被逼平；TalkSport认为马丁内斯常用4-2-3-1，B费、维蒂尼亚、C罗是主要进攻链条。（来源：talkSPORT / project results）\n- [Croatia] 克罗地亚连续两胜回稳：克罗地亚首轮2-4负英格兰后，连续击败巴拿马和加纳拿到小组第二；斯塔尼希奇等边路球员赛前强调球队优先于个人表现。（来源：Bavarian Football Works / project results）\n- [Croatia] 大赛经验是克罗地亚主要筹码：达利奇带队经历2018亚军和2022季军，莫德里奇、科瓦契奇、佩里西奇的控场经验能降低淘汰赛波动，但体能与速度对抗是风险。（来源：project archive / El País）\n\n### 赛事形势\n- 这是K组第二对L组第二的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵西班牙与奥地利之间的胜者。\n\n### 综述\n- 葡萄牙排名、阵容厚度和前场创造力更高，鲁本·迪亚斯回归后防线稳定性也提升；但他们小组赛两场0/1球平局说明进攻节奏并不连续。克罗地亚淘汰赛韧性和中场控节奏能力强，最现实的路线是把比赛拖进低比分。若葡萄牙能早早把C罗、B费和边路串起来，90分钟晋级概率更高；若久攻不下，克罗地亚的加时和点球经验会变得危险。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- https://www.sbnation.com/fifa-world-cup/1120327/2026-world-cup-round-of-32-full-list-of-matches-potential-round-of-16-games\n- https://talksport.com/betting/4257189/portugal-world-cup-squad-2026/\n- https://www.nypost.com/2026/06/30/ticket-sales/how-to-get-discounted-tickets-for-the-portugal-croatia-world-cup-match/\n- https://elpais.com/deportes/mundial-futbol/2026-07-02/un-ultimo-baile-mundialista-para-cristiano-o-modric-en-un-partido-marcado-por-el-primer-aniversario-de-la-muerte-de-diogo-jota.html\n- https://www.bavarianfootballworks.com/fifa-world-cup/223413/bayern-munich-josip-stanisic-happy-with-world-cup-performances-but-says-team-comes-first-world-cup-croatia-portugal-round-of-32\n- data/2026-06-17/matches.json\n- data/2026-06-23/matches.json\n- data/2026-06-27/matches.json\n\n---\n\n## 32强 Match 85 · 瑞士 vs 阿尔及利亚（match_id: `2026-07-02-SUI-ALG`）\n\n- 开球：2026-07-02 20:00（温哥华当地时间 PDT）｜北京时间 2026-07-03 11:00（北京时间周五上午）\n- 场地：BC Place Vancouver，加拿大不列颠哥伦比亚省温哥华\n\n### 瑞士（Switzerland，主队）\n- FIFA 排名：第 19 位\n- 晋级之路：欧洲区预选赛头名直接晋级；小组赛B组第一，1-1平卡塔尔、4-1胜波黑、2-1胜加拿大，2胜1平积7分。\n- 主教练：穆拉特·亚金 (Murat Yakin)\n- 世界杯历史：瑞士连续多届世界杯进入淘汰赛，但近年世界杯淘汰赛突破有限。小组赛最后一轮击败加拿大后，继续留在温哥华作战，旅行与熟悉场地上有优势。\n- 核心球员：\n  - Granit Xhaka 格拉尼特·扎卡（中场/队长，桑德兰/勒沃库森背景）\n  - Manuel Akanji 曼努埃尔·阿坎吉（中后卫，曼城/国际米兰背景）\n  - Gregor Kobel 格雷戈尔·科贝尔（门将，多特蒙德）\n  - Dan Ndoye 丹·恩多耶（边锋，诺丁汉森林）\n  - Breel Embolo 布雷尔·恩博洛（前锋，摩纳哥/雷恩背景）\n  - Johan Manzambi 约翰·曼赞比（中场，弗赖堡）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-24 vs 加拿大（世界杯B组第3轮）：2-1（W）\n  - 2026-06-18 vs 波黑（世界杯B组第2轮）：4-1（W）\n  - 2026-06-13 vs 卡塔尔（世界杯B组第1轮）：1-1（D）\n  - 2026-06-06 vs 澳大利亚（热身赛）：1-1（D）\n  - 2026-05-31 vs 约旦（热身赛）：4-1（W）\n\n### 阿尔及利亚（Algeria，客队）\n- FIFA 排名：第 28 位\n- 晋级之路：非洲区G组头名直接晋级；小组赛J组第三，0-3负阿根廷、2-1胜约旦、3-3平奥地利，以最佳第三名晋级。\n- 主教练：弗拉基米尔·佩特科维奇 (Vladimir Petković)\n- 世界杯历史：第5次参加世界杯，2014年进入16强为队史最佳。本届从阿根廷、奥地利所在小组出线，末轮与奥地利的3-3让球队重新获得进攻信心。\n- 核心球员：\n  - Riyad Mahrez 里亚德·马赫雷斯（边锋/队长，吉达国民）\n  - Mohamed Amoura 穆罕默德·阿穆拉（前锋，沃尔夫斯堡）\n  - Amine Gouiri 阿明·古伊里（前锋，马赛）\n  - Rayan Aït-Nouri 拉扬·艾特-努里（左后卫，曼城）\n  - Ismaël Bennacer 伊斯梅尔·本纳赛尔（中场，AC米兰）\n  - Ibrahim Maza 伊布拉欣·马扎（攻击型中场，勒沃库森）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs 奥地利（世界杯J组第3轮）：3-3（D）\n  - 2026-06-22 vs 约旦（世界杯J组第2轮）：2-1（W）\n  - 2026-06-16 vs 阿根廷（世界杯J组第1轮）：0-3（L）\n  - 2026-06-03 vs 荷兰（热身赛）：1-0（W）\n  - 2026-04-01 vs 乌拉圭（热身赛）：0-0（D）\n\n### 博彩赔率（1X2，十进制）\n- 公开赛前报道综合：主胜 — / 平 — / 客胜 —（公开抓取页未完整列出本场90分钟1X2三项；Guardian/AP均强调瑞士以B组第一、留在温哥华作战，市场语境中瑞士更被看好，但阿尔及利亚进攻上限明确。）\n\n### 历史交锋（H2H）\n- 共交手 1 次。两队成年国家队交锋很少，本项目未核到世界杯正赛交锋记录；瑞士与阿尔及利亚在世界杯淘汰赛层面没有历史对战。\n\n### 近期新闻\n- [Switzerland] 瑞士继续留在温哥华，赛程与场地更顺：瑞士2-1击败加拿大后拿到B组第一，AP和Guardian都提到球队将回到温哥华踢32强，减少旅行消耗。（来源：AP / The Guardian）\n- [Switzerland] 亚金调整后进攻点变多：对加拿大一战，鲁本·巴尔加斯和曼赞比先后进球，说明瑞士不只依赖扎卡组织和恩博洛支点，替补与二线攻击能改变比赛。（来源：The Guardian）\n- [Algeria] 阿尔及利亚末轮打出进攻状态：对奥地利一战踢成3-3，马赫雷斯补时阶段曾打入看似决定胜负的一球，阿尔及利亚从0-3负阿根廷后恢复了边路与反击信心。（来源：The Guardian / The Times）\n- [Algeria] 佩特科维奇球队上限高但稳定性存疑：Guardian赛前队报把阿尔及利亚称作本届较难判断的球队：近期战绩漂亮，但对手强度不一，高压场景下后防仍会暴露空间。（来源：The Guardian）\n\n### 赛事形势\n- 这是B组第一对J组第三的32强淘汰赛。本项目淘汰赛预测最终晋级方/最终获胜方，同时给出90分钟比分；90分钟可以打平，但最终晋级方不能为平局。胜者进入16强，对阵哥伦比亚与加纳之间的胜者。\n\n### 综述\n- 瑞士更稳定，结构清晰，扎卡控制节奏、阿坎吉和科贝尔保证下限，小组赛7分也说明他们能把优势转成结果；阿尔及利亚的马赫雷斯、阿穆拉和古伊里具备反击爆点，3-3奥地利证明他们能制造混乱。若瑞士先掌控中场，本场会偏低比分；如果阿尔及利亚先偷到转换机会，比赛很容易被拖进加时。\n\n### 资料来源\n- https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&idStage=289287&count=100&language=en\n- https://api.fifa.com/api/v3/rankingsbyschedule?rankingScheduleId=id15136&language=en\n- https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32\n- https://apnews.com/article/bf6b7a6e5386df29406406563fbc6aa4\n- https://www.theguardian.com/football/live/2026/jun/24/switzerland-v-canada-world-cup-2026-live\n- https://www.theguardian.com/football/2026/jun/08/algeria-world-cup-2026-team-guide\n- https://www.theguardian.com/football/2026/jun/28/algeria-austria-world-cup-group-j-match-report\n- https://www.thetimes.com/sport/football/world-cup/article/world-cup-2026-latest-news-live-scores-team-updates-day-17-3600zf68k\n- data/2026-06-13/matches.json\n- data/2026-06-16/matches.json\n- data/2026-06-18/matches.json\n- data/2026-06-22/matches.json\n- data/2026-06-24/matches.json\n- data/2026-06-27/matches.json\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 20 个比赛日、共 80 场比赛中，8 个当前活跃模型的历次预测、实际赛果与所得分数（结算规则：方向正确 2 分 + 90 分钟比分正确 3 分，两项都对 5 分；两项都错或未预测 0 分；模型加入前的未参赛场次不计入该模型分母）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 方向命中 | 比分命中 | 两项全中 |\n|  ---  |  ---  |  ---  |  ---  |  ---  |\n| Claude Fable 5 | 148 | 56/80 | 12/80 | 12/80 |\n| Kimi K2.7 | 136 | 53/80 | 10/80 | 10/80 |\n| Grok 4.3 | 133 | 53/80 | 9/80 | 9/80 |\n| Gemini 3.5 Flash | 52 | 20/28 | 4/28 | 4/28 |\n| Fugu Ultra | 46 | 20/28 | 2/28 | 2/28 |\n| Xiaomi MiMo v2.5 Pro | 15 | 6/6 | 1/6 | 1/6 |\n| MiniMax M3 | 15 | 6/6 | 1/6 | 1/6 |\n| Tencent HY3 Preview | 12 | 6/6 | 0/6 | 0/6 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（2） | 1-0（2） | 1-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 1-2（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 海地 vs 苏格兰 | 0-1 | 0-2（2） | 2-0（0） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-3（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 库拉索 | 7-1 | 6-0（2） | 4-0（2） | 4-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 荷兰 vs 日本 | 2-2 | 1-1（2） | 2-1（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（2） | 1-0（2） | 1-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 奥地利 vs 约旦 | 3-1 | 3-0（2） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（2） | 2-1（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 瑞士 vs 波黑 | 4-1 | 2-1（2） | 2-0（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（2） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（2） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴西 vs 海地 | 3-0 | 4-0（2） | 2-0（2） | 3-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（2） | 3-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（2） | 2-1（5） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 突尼斯 vs 日本 | 0-4 | 0-2（2） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（2） | 1-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（2） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 1-1（2） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 新西兰 vs 埃及 | 1-3 | 0-2（2） | 0-1（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（2） | 2-1（2） | 2-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 法国 vs 伊拉克 | 3-0 | 4-0（2） | 3-1（2） | 3-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（2） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（2） | 1-2（5） | 1-2（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（2） | 2-0（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 3-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（2） | 1-2（2） | 0-1（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（2） | 2-0（2） | 1-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 0-0（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（2） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（2） | 0-1（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（2） | 2-0（2） | 3-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（2） | 0-1（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 0-1（0） | 1-2（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-25**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 库拉索 vs 科特迪瓦 | 0-2 | 0-2（5） | 0-1（2） | 0-2（5） | 0-3（2） | 0-3（2） | 未参赛 | 未参赛 | 未参赛 |\n| 厄瓜多尔 vs 德国 | 2-1 | 1-2（0） | 1-2（0） | 1-1（0） | 1-1（0） | 0-2（0） | 未参赛 | 未参赛 | 未参赛 |\n| 日本 vs 瑞典 | 1-1 | 2-1（0） | 2-1（0） | 1-1（5） | 3-1（0） | 2-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 突尼斯 vs 荷兰 | 1-3 | 0-3（2） | 1-3（5） | 0-3（2） | 0-4（2） | 0-4（2） | 未参赛 | 未参赛 | 未参赛 |\n| 土耳其 vs 美国 | 3-2 | 0-2（0） | 1-1（0） | 1-2（0） | 2-1（2） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 巴拉圭 vs 澳大利亚 | 0-0 | 1-1（2） | 0-0（5） | 1-1（2） | 0-1（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-26**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 挪威 vs 法国 | 1-4 | 2-3（2） | 2-3（2） | 2-2（0） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 塞内加尔 vs 伊拉克 | 5-0 | 3-0（2） | 3-1（2） | 2-0（2） | 3-1（2） | 4-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 埃及 vs 伊朗 | 1-1 | 2-0（0） | 1-1（5） | 1-1（5） | 1-0（0） | 0-0（2） | 未参赛 | 未参赛 | 未参赛 |\n| 新西兰 vs 比利时 | 1-5 | 1-2（2） | 1-2（2） | 0-2（2） | 0-3（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 佛得角 vs 沙特阿拉伯 | 0-0 | 2-1（0） | 2-1（0） | 1-1（2） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 |\n| 乌拉圭 vs 西班牙 | 0-1 | 1-2（2） | 0-2（2） | 1-2（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-27**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 巴拿马 vs 英格兰 | 0-2 | 0-3（2） | 0-2（5） | 0-2（5） | 0-3（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 克罗地亚 vs 加纳 | 2-1 | 2-1（5） | 1-1（0） | 1-0（2） | 2-1（5） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 阿尔及利亚 vs 奥地利 | 3-3 | 0-0（2） | 1-1（2） | 1-1（2） | 0-0（2） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 约旦 vs 阿根廷 | 1-3 | 0-3（2） | 0-2（2） | 0-2（2） | 1-3（5） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 哥伦比亚 vs 葡萄牙 | 0-0 | 1-2（0） | 1-1（2） | 1-1（2） | 1-2（0） | 0-0（5） | 未参赛 | 未参赛 | 未参赛 |\n| 刚果民主共和国 vs 乌兹别克斯坦 | 3-1 | 2-0（2） | 2-1（2） | 2-1（2） | 3-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-28**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 南非 vs 加拿大 | 0-1 | 1-2（2） | 1-1（0） | 1-2（2） | 0-2（2） | 0-1（5） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-29**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 巴西 vs 日本 | 2-1 | 2-0（2） | 2-1（5） | 2-0（2） | 1-0（2） | 3-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 巴拉圭 | 1-1 | 3-0（0） | 2-1（0） | 2-0（0） | 2-0（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 荷兰 vs 摩洛哥 | 1-1 | 2-1（0） | 1-1（5） | 1-1（5） | 2-1（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-30**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 挪威 | 1-2 | 1-2（5） | 1-1（0） | 1-2（5） | 1-1（2） | 0-2（2） | 0-1（2） | 2-3（2） | 0-1（2） |\n| 法国 vs 瑞典 | 3-0 | 3-0（5） | 3-1（2） | 3-1（2） | 2-1（2） | 2-1（2） | 2-0（2） | 2-0（2） | 2-1（2） |\n| 墨西哥 vs 厄瓜多尔 | 2-0 | 2-1（2） | 2-0（5） | 1-0（2） | 2-0（5） | 1-0（2） | 1-1（2） | 1-1（2） | 2-1（2） |\n\n**2026-07-01**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 英格兰 vs 刚果民主共和国 | 2-1 | 2-0（2） | 2-1（5） | 2-0（2） | 1-0（2） | 3-0（2） | 1-0（2） | 2-1（5） | 2-1（5） |\n| 比利时 vs 塞内加尔 | 2-2 | 2-1（2） | 3-1（2） | 2-1（2） | 2-0（2） | 2-0（2） | 3-1（2） | 3-1（2） | 2-0（2） |\n| 美国 vs 波黑 | 2-0 | 2-0（5） | 2-1（2） | 2-1（2） | 2-0（5） | 3-1（2） | 3-1（2） | 3-1（2） | 1-0（2） |\n\n<!-- HISTORY-REVIEW-END -->\n"
+  },
+  {
+   "date": "2026-07-03",
+   "matches": [
+    {
+     "id": "2026-07-03-AUS-EGY",
+     "group": "32强淘汰赛",
+     "home": {
+      "code": "AUS",
+      "en": "Australia",
+      "zh": "澳大利亚",
+      "flag": "🇦🇺"
+     },
+     "away": {
+      "code": "EGY",
+      "en": "Egypt",
+      "zh": "埃及",
+      "flag": "🇪🇬"
+     },
+     "kickoff_local": "2026-07-03 13:00（阿灵顿当地时间 CDT）",
+     "kickoff_beijing": "2026-07-04 02:00（北京时间周六凌晨）",
+     "venue": "AT&T Stadium，美国得克萨斯州阿灵顿",
+     "teams": {
+      "Australia": {
+       "name_zh": "澳大利亚",
+       "fifa_ranking": 27,
+       "qualified_via": "D组第二晋级。小组赛：6/13 澳大利亚 2-0 土耳其（Irankunda 27'、Metcalfe 75'）、6/19 美国 2-0 澳大利亚（负）、6/25 巴拉圭 0-0 澳大利亚（平）；3场1胜1平1负积4分，进2失2净胜球0，凭与巴拉圭的直接交锋/净胜球压过同分的巴拉圭获小组第二直接晋级。",
+       "coach": "Tony Popovic（托尼·波波维奇，2024年9月接替Graham Arnold；偏好3-4-2-1阵型）",
+       "wc_history": "第7次参加世界杯（1974年首次，2006年起连续参赛）。曾两次进入16强（2006、2022）；本届力争第三次进16强、并连续两届晋级淘汰赛。",
+       "key_players": [
+        {
+         "name": "Mathew Ryan 马修·瑞恩",
+         "pos": "门将",
+         "club": "（队长，第4次参加世界杯，追平Cahill/Milligan的澳大利亚纪录）"
+        },
+        {
+         "name": "Nestory Irankunda 内斯托里·伊兰昆达",
+         "pos": "边锋",
+         "club": "拜仁慕尼黑体系青训背景（本届突破新星，20岁，对土耳其破门成澳大利亚最年轻世界杯进球者）"
+        },
+        {
+         "name": "Cristian Volpato 克里斯蒂安·沃尔帕托",
+         "pos": "前腰/攻击手",
+         "club": "萨索洛（Sassuolo）"
+        },
+        {
+         "name": "Harry Souttar 哈里·苏塔尔",
+         "pos": "中后卫",
+         "club": "（预计首发，防线核心）"
+        },
+        {
+         "name": "Jackson Irvine 杰克逊·欧文",
+         "pos": "中场",
+         "club": "圣保利（St. Pauli）"
+        },
+        {
+         "name": "Alessandro Circati 亚历山德罗·奇尔卡蒂",
+         "pos": "中后卫",
+         "club": "帕尔马（Parma）"
+        },
+        {
+         "name": "Jordan Bos 乔丹·博斯",
+         "pos": "左翼卫",
+         "club": ""
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-25",
+         "opponent": "Paraguay 巴拉圭",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-19",
+         "opponent": "USA 美国",
+         "score": "0-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-13",
+         "opponent": "Turkey 土耳其",
+         "score": "2-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-07",
+         "opponent": "Switzerland 瑞士（热身）",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-05-30",
+         "opponent": "Mexico 墨西哥（热身）",
+         "score": "0-1",
+         "result": "L"
+        }
+       ]
+      },
+      "Egypt": {
+       "name_zh": "埃及",
+       "fifa_ranking": 25,
+       "qualified_via": "G组第二晋级。小组赛：6/15 比利时 1-1 埃及（Emam Ashour 19'）、6/21 新西兰 1-3 埃及（Ziko 58'、Salah 67'、Trézéguet 82'）、6/26 埃及 1-1 伊朗（Saber 5'）；3场1胜2平不败积5分，进5失3净胜球+2，与同积5分的比利时相比净胜球劣势列小组第二晋级。",
+       "coach": "Hossam Hassan（侯萨姆·哈桑，2024年2月上任；作为球员是埃及历史最佳射手69球）",
+       "wc_history": "第4次参加世界杯（1934、1990、2018、2026）。此前从未小组出线，本届是自1934年以来首次晋级淘汰赛（1934年即止步16强/首轮）。",
+       "key_players": [
+        {
+         "name": "Mohamed Salah 穆罕默德·萨拉赫",
+         "pos": "右边锋/内锋",
+         "club": "利物浦（Liverpool，队长，埃及历史最佳射手之一，本届1球2助攻；腿筋伤已恢复、主帅确认可出战澳大利亚，但未必首发、出场时间受管控）"
+        },
+        {
+         "name": "Omar Marmoush 奥马尔·马尔穆什",
+         "pos": "前锋",
+         "club": "曼城（Manchester City）"
+        },
+        {
+         "name": "Mahmoud Trézéguet 马哈茂德·特雷泽盖",
+         "pos": "边锋",
+         "club": "（经验丰富的攻击手，对新西兰破门）"
+        },
+        {
+         "name": "Emam Ashour 伊马姆·阿舒尔",
+         "pos": "中场",
+         "club": "（对比利时破门）"
+        },
+        {
+         "name": "Mostafa 'Ziko' Mohamed 穆斯塔法·穆罕默德（Ziko）",
+         "pos": "前锋",
+         "club": ""
+        },
+        {
+         "name": "Mahmoud Saber 马哈茂德·萨贝尔",
+         "pos": "中场",
+         "club": "（对伊朗破门）"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-26",
+         "opponent": "Iran 伊朗",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-21",
+         "opponent": "New Zealand 新西兰",
+         "score": "3-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-15",
+         "opponent": "Belgium 比利时",
+         "score": "1-1",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "Brazil 巴西（热身）",
+         "score": "1-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-05-28",
+         "opponent": "Russia 俄罗斯（热身）",
+         "score": "1-0",
+         "result": "W"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "FanDuel（via CBS Sports / ESPN）",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "90分钟1X2 moneyline：埃及 +150（胜）/ 平局 +190 / 澳大利亚 +230；即埃及为微弱热门。晋级赔率：埃及 -140、澳大利亚 +115。总进球大小盘 O/U 1.5（Over -170 / Under +135）。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 1,
+      "summary_zh": "两队历史仅交手1次：2010年11月17日在开罗的友谊赛，埃及3-0完胜澳大利亚（Abdel-Zaher 29'、Geddo 60'、Zidan 90'点球）。这是双方唯一一次正式交锋，也是首次在世界杯相遇。"
+     },
+     "news": [
+      {
+       "team": "Australia",
+       "headline_zh": "两名攻击手因伤缺阵",
+       "detail_zh": "Jacob Italiano（腹股沟）与Mathew Leckie（腿筋）确定伤缺，削弱波波维奇的锋线轮换；Sports Mole预测首发为Beach; Circati, Herrington, Souttar; Bos, O'Neill, Irvine, Behich; Volpato, Irankunda, Metcalfe。",
+       "source": "Sports Mole"
+      },
+      {
+       "team": "Australia",
+       "headline_zh": "小组赛越踢越稳、力争连续两届进16强",
+       "detail_zh": "澳大利亚以1胜1平1负、净胜球0的成绩惊险获小组第二；对巴拉圭0-0的顽强防守帮助锁定晋级，球队希望在2022年后连续两届闯入16强。",
+       "source": "Al Jazeera / CBS Sports"
+      },
+      {
+       "team": "Egypt",
+       "headline_zh": "萨拉赫伤愈，主帅确认可出战但未必首发",
+       "detail_zh": "萨拉赫在末轮1-1平伊朗第57分钟因腿筋拉伤被换下，扫描确认拉伤；本周接受理疗与医疗评估、周三随队进行部分合练。主帅哈桑（Hossam Hassan）已确认萨拉赫将出战对澳大利亚的淘汰赛，但未保证其首发，教练组会管控出场时间以防复发。",
+       "source": "Goal.com / Yahoo Sports / FIFA"
+      },
+      {
+       "team": "Egypt",
+       "headline_zh": "多名主力带伤，另有一人停赛",
+       "detail_zh": "除萨拉赫外，Hamdy Fathy（腹股沟）、Hossam Abdelmaguid（头部）、Mohamed Abdelmonem（脚踝）、Ahmed El Fotouh（腿筋）均存疑，Mohanad Lasheen停赛；Sports Mole预测首发为Shobeir; Hany, Ibrahim, Rabia, Hafez; Ateya, Saber; Ziko, Salah, Ashour; Marmoush。",
+       "source": "Sports Mole"
+      },
+      {
+       "team": "Egypt",
+       "headline_zh": "改写历史、自1934年以来首次进淘汰赛",
+       "detail_zh": "埃及小组赛3场不败（2平1胜）以G组第二晋级，是自1934年以来首次跻身世界杯淘汰赛；萨拉赫对新西兰破门成为埃及世界杯历史最佳射手。",
+       "source": "CBS Sports / Al Jazeera"
+      }
+     ],
+     "group_context_zh": "淘汰赛单场定胜负（90分钟平进加时+点球）。埃及（世界排名25）在博彩市场上是微弱热门（晋级赔率-140），凭小组赛不败与更高效的进攻（本届进5球 vs 澳大利亚2球）占据心理优势，最大变量是队长萨拉赫的状态——他已从腿筋伤恢复、主帅确认可出战但未必首发、出场时间受管控，若其状态受限，埃及攻击力将受影响，且埃及另有多名主力带伤。澳大利亚（世界排名27）是纪律严明、身体强硬的防守型球队，以3-4-2-1稳守反击见长，小组赛后两场仅失2球、对巴拉圭零封，擅长拖慢节奏、压缩空间制造低比分。看点：萨拉赫能否上场及其牵制力、澳大利亚能否用防守把比赛拖入僵局甚至点球、20岁新星Irankunda的边路冲击。总进球盘口低至1.5，暗示市场预期这是一场低比分、偏谨慎的淘汰赛。",
+     "summary_zh": "世界杯32强淘汰赛：埃及（排名25、小组不败、微弱热门但队长萨拉赫伤愈、确认可出战而未必首发）对阵澳大利亚（排名27、防守稳固的反击型球队），双方历史仅2010年交手1次（埃及3-0），首次世界杯相遇。",
+     "sources": [
+      "https://www.cbssports.com/soccer/news/australia-egypt-odds-prediction-time-2026-world-cup-round-32-picks/",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
+      "https://www.aljazeera.com/sports/2026/6/26/australia-paraguay-fifa-world-cup-2026-score-report-socceroos",
+      "https://www.olympics.com/en/news/fifa-world-cup-2026-mohamed-salah-and-egypt-chase-first-ever-quarter-final-berth-all-players-full-squad-list-key-stats-and-schedule",
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/australia-squad-announcement-world-cup-tony-popovic",
+      "https://www.sportsmole.co.uk/football/australia/world-cup-2026/team-news/australia-vs-egypt-injury-suspension-list-predicted-xis_600492.html",
+      "https://sports.yahoo.com/articles/huge-mohamed-salah-concern-egypt-130920911.html",
+      "https://www.goal.com/en/lists/huge-mohamed-salah-concern-for-egypt-liverpool-icon-a-doubt-for-world-cup-round-of-32-tie-vs-australia/blt538d95ca86f18b20",
+      "https://www.espn.com/soccer/match/_/gameId/309362/australia-egypt",
+      "https://football-ranking.com/fifa-world-rankings",
+      "https://www.espn.com/soccer/odds/_/gameId/760499"
+     ],
+     "result": null,
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-AUS-EGY",
+        "winner": "away",
+        "score": "1-2",
+        "confidence": 62,
+        "reasoning_zh": "埃及攻击力更强，萨拉赫虽伤但仍优于澳防守反击"
+       },
+       "settled": null
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-AUS-EGY",
+        "winner": "away",
+        "score": "1-1",
+        "confidence": 55,
+        "reasoning_zh": "袋鼠防守顽强，埃及伤兵多、萨拉赫受限，90分钟僵局，点球埃及过关。"
+       },
+       "settled": null
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-AUS-EGY",
+        "winner": "away",
+        "score": "0-1",
+        "confidence": 55,
+        "reasoning_zh": "澳大利亚防守顽强但进攻乏力，埃及攻击线更有质量，马尔穆什+萨拉赫替补牵制足以打破僵局，低比分小胜。"
+       },
+       "settled": null
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-AUS-EGY",
+        "winner": "away",
+        "score": "0-1",
+        "confidence": 65,
+        "reasoning_zh": "埃及纸面实力微占优且防反犀利，萨拉赫等伤员回归提振士气，有望90分钟内一球小胜。"
+       },
+       "settled": null
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-AUS-EGY",
+        "winner": "away",
+        "score": "0-1",
+        "confidence": 52,
+        "reasoning_zh": "埃及进攻更高效小组不败，即便萨拉赫受限仍有马尔穆什等火力；澳防守顽强，低比分1球分胜负，埃及晋级。"
+       },
+       "settled": null
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-AUS-EGY",
+        "winner": "away",
+        "score": "0-0",
+        "confidence": 75,
+        "reasoning_zh": "两队防守稳健，埃及阵容深度占优，点球大战晋级。"
+       },
+       "settled": null
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-AUS-EGY",
+        "winner": "away",
+        "score": "0-0",
+        "confidence": 60,
+        "reasoning_zh": "埃及小组赛不败，进攻稍强；澳大利亚防守稳固，但进攻乏力。萨拉赫伤愈可出战，埃及有望通过加时或点球晋级。"
+       },
+       "settled": null
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-AUS-EGY",
+        "winner": "away",
+        "score": "1-1",
+        "confidence": 55,
+        "reasoning_zh": "埃及攻击线更深，萨拉赫伤愈可出战；澳大利亚防守稳健但锋线缺人两将伤缺，淘汰赛节奏更利于经验更丰富的埃及，加时或点球晋级。"
+       },
+       "settled": null
+      }
+     ]
+    },
+    {
+     "id": "2026-07-03-ARG-CPV",
+     "group": "32强淘汰赛",
+     "home": {
+      "code": "ARG",
+      "en": "Argentina",
+      "zh": "阿根廷",
+      "flag": "🇦🇷"
+     },
+     "away": {
+      "code": "CPV",
+      "en": "Cape Verde",
+      "zh": "佛得角",
+      "flag": "🇨🇻"
+     },
+     "kickoff_local": "2026-07-03 18:00（迈阿密当地时间 EDT）",
+     "kickoff_beijing": "2026-07-04 06:00（北京时间周六清晨）",
+     "venue": "Hard Rock Stadium，美国佛罗里达州迈阿密花园",
+     "teams": {
+      "Argentina": {
+       "name_zh": "阿根廷",
+       "fifa_ranking": 1,
+       "qualified_via": "J 组头名晋级。小组赛三战全胜：6/16 3-0 阿尔及利亚、6/22 2-0 奥地利、6/27 3-1 约旦；积 9 分、进 8 球失 1 球，小组第一（奥地利并列第二晋级，阿尔及利亚以最佳第三名出线，约旦垫底出局）。作为卫冕冠军以全胜战绩进入 Round of 32。",
+       "coach": "Lionel Scaloni（利昂内尔·斯卡洛尼）",
+       "wc_history": "3 届世界杯冠军（1978、1986、2022），卫冕冠军。梅西第 6 次参加世界杯（男足参赛纪录）；本届小组赛梅西已打进 6 球领跑金靴榜，生涯世界杯进球达 19 球，超越克洛泽成为世界杯历史第一射手；对阿尔及利亚上演帽子戏法，以 38 岁 357 天成为世界杯历史最年长帽子戏法球员。",
+       "key_players": [
+        {
+         "name": "Lionel Messi 梅西",
+         "pos": "前锋",
+         "club": "Inter Miami（迈阿密国际）"
+        },
+        {
+         "name": "Lautaro Martínez 劳塔罗·马丁内斯",
+         "pos": "前锋",
+         "club": "Inter Milan（国际米兰）"
+        },
+        {
+         "name": "Julián Álvarez 胡利安·阿尔瓦雷斯",
+         "pos": "前锋",
+         "club": "Atlético Madrid（马德里竞技）"
+        },
+        {
+         "name": "Enzo Fernández 恩佐·费尔南德斯",
+         "pos": "中场",
+         "club": "Chelsea（切尔西）"
+        },
+        {
+         "name": "Alexis Mac Allister 麦克阿利斯特",
+         "pos": "中场",
+         "club": "Liverpool（利物浦）"
+        },
+        {
+         "name": "Emiliano Martínez 埃米利亚诺·马丁内斯",
+         "pos": "门将",
+         "club": "Aston Villa（阿斯顿维拉）"
+        },
+        {
+         "name": "Cristian Romero 罗梅罗",
+         "pos": "后卫",
+         "club": "Tottenham（托特纳姆热刺）"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-27",
+         "opponent": "Jordan 约旦",
+         "score": "3-1",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-22",
+         "opponent": "Austria 奥地利",
+         "score": "2-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-16",
+         "opponent": "Algeria 阿尔及利亚",
+         "score": "3-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-09",
+         "opponent": "Iceland 冰岛（友谊赛）",
+         "score": "3-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-06",
+         "opponent": "Honduras 洪都拉斯（友谊赛）",
+         "score": "2-0",
+         "result": "W"
+        }
+       ]
+      },
+      "Cape Verde": {
+       "name_zh": "佛得角",
+       "fifa_ranking": 67,
+       "qualified_via": "首次参加世界杯。小组赛（H 组）三战三平：6/15 0-0 西班牙、6/21 2-2 乌拉圭、6/26 0-0 沙特阿拉伯；积 3 分、进 2 球失 2 球，小组第二晋级（西班牙 7 分小组第一，乌拉圭、沙特各 2 分出局）。世界杯预选赛中作为非洲区 D 组头名直接晋级正赛。是自 2010 年斯洛伐克以来首支从小组赛出线的世界杯新军，也是靠三场平局出线的球队（1998 智利后首次）。",
+       "coach": "Pedro Leitão Brito «Bubista»（佩德罗·莱唐·布里托，绰号 Bubista）",
+       "wc_history": "队史首次参加世界杯（世界杯新军）。人口约 50 多万，为世界杯历史上出线球队中人口最少的国家之一。此前 4 次参加非洲国家杯，最好成绩为八强（2013、2023）。绰号「蓝鲨」（Tubarões Azuis / Blue Sharks）。主帅 Bubista 2025 年当选非洲年度最佳教练。",
+       "key_players": [
+        {
+         "name": "Vozinha 沃齐尼亚（Josimar Dias）",
+         "pos": "门将（39/40 岁，副队长）",
+         "club": "Chaves（沙维斯，葡萄牙）"
+        },
+        {
+         "name": "Ryan Mendes 瑞恩·门德斯",
+         "pos": "队长/前锋",
+         "club": "Iğdır FK（伊迪尔，土耳其）"
+        },
+        {
+         "name": "Logan Costa 洛根·科斯塔",
+         "pos": "中后卫",
+         "club": "Villarreal（比利亚雷亚尔）"
+        },
+        {
+         "name": "Dailon Livramento 达伊隆·利夫拉门托",
+         "pos": "前锋",
+         "club": "Casa Pia（卡萨皮亚，葡萄牙）"
+        },
+        {
+         "name": "Kevin Pina 凯文·皮纳",
+         "pos": "防守型中场",
+         "club": "俱乐部不详"
+        },
+        {
+         "name": "Garry Rodrigues 加里·罗德里格斯",
+         "pos": "边锋",
+         "club": "俱乐部不详"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-26",
+         "opponent": "Saudi Arabia 沙特阿拉伯",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-21",
+         "opponent": "Uruguay 乌拉圭",
+         "score": "2-2",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-15",
+         "opponent": "Spain 西班牙",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-05-31",
+         "opponent": "Serbia 塞尔维亚（友谊赛）",
+         "score": "3-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-03-29",
+         "opponent": "Finland 芬兰（友谊赛，点球4-2胜）",
+         "score": "1-1",
+         "result": "D"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "ESPN / DraftKings",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "美式赔率（90分钟1X2口径，非晋级赔率）：阿根廷主胜 -650，平局 +700，佛得角客胜 +1900。让球盘 阿根廷 -2.5（+135）；大小球 大2.5 -165 / 小2.5 +130。"
+      },
+      {
+       "source": "英式赔率（多家预览）",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "阿根廷主胜约 1/6（英式），阿根廷为压倒性热门。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 0,
+      "summary_zh": "两队历史上从未交手，这是阿根廷与佛得角的首次正式/非正式交锋。"
+     },
+     "news": [
+      {
+       "team": "Argentina",
+       "headline_zh": "梅西回归首发，小组赛已进 6 球领跑金靴",
+       "detail_zh": "梅西在末轮对约旦被轮休后回归淘汰赛首发；三场小组赛打进 6 球领跑金靴榜，生涯世界杯进球达 19 球成历史第一射手。全队保持三战全胜、两场零封、仅失 1 球。",
+       "source": "ESPN / Al Jazeera / Yahoo Sports"
+      },
+      {
+       "team": "Argentina",
+       "headline_zh": "全队无伤停，罗梅罗可用",
+       "detail_zh": "赛前 Argentina 无伤停名单，全员可选；后卫罗梅罗可出战淘汰赛。预测首发（Sports Mole）：E.马丁内斯；莫利纳、罗梅罗、L.马丁内斯、梅迪纳；德保罗、麦克阿利斯特、恩佐、阿尔马达；梅西、劳塔罗。",
+       "source": "Sports Mole / ESPN"
+      },
+      {
+       "team": "Cape Verde",
+       "headline_zh": "主帅 Bubista：我们能伤到对手，要勇敢去踢",
+       "detail_zh": "Bubista 赛前表示不会只盯梅西一人「我们有自己的整体战略」，并称「我们相信自己……会勇敢、大胆地去争取晋级」，还引用巴拉圭爆冷德国说明小球队能与强队同场竞技。",
+       "source": "ESPN"
+      },
+      {
+       "team": "Cape Verde",
+       "headline_zh": "门将沃齐尼亚成防线核心，中场特尔莫·阿坎霍存疑",
+       "detail_zh": "39/40 岁门将沃齐尼亚小组赛对西班牙 7 次扑救、三场两次零封，成球队防守韧性象征，Instagram 粉丝从 50 万暴涨至 1740 万。伤停方面：Telmo Arcanjo 因肌肉伤存疑；后卫 Logan Costa 此前 ACL 伤愈及时入选。",
+       "source": "Al Jazeera / Sports Mole"
+      }
+     ],
+     "group_context_zh": "淘汰赛单场定胜负（90分钟平局则加时+点球）。实力差距被媒体称为 Round of 32 中最悬殊的一组：阿根廷 FIFA 第 1、卫冕冠军、小组三战全胜且梅西状态火热；佛得角 FIFA 第 67、世界杯新军，靠三场平局（含逼平西班牙）历史性出线，是本届最小人口的出线国。看点：阿根廷三叉戟攻击线（梅西+劳塔罗+阿尔瓦雷斯）对阵佛得角以老门将沃齐尼亚为核心的深度防守（曾对西班牙 7 次扑救零封）；佛得角能否延续「铁桶阵+防反」制造冷门，梅西能否继续刷新进球纪录。博彩层面阿根廷主胜 -650、佛得角客胜 +1900，为压倒性热门。",
+     "summary_zh": "卫冕冠军、FIFA 头名阿根廷（梅西领衔、小组全胜）对阵世界杯新军佛得角（三平出线、老门将沃齐尼亚封神），两队史上首次交锋，Round of 32 中实力最悬殊的一场。",
+     "sources": [
+      "https://sports.yahoo.com/articles/world-cup-2026-r32-argentina-092500864.html",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
+      "https://www.espn.com/soccer/team/results/_/id/2597/cape-verde",
+      "https://www.espn.com/soccer/team/results/_/id/202/argentina",
+      "https://www.espn.com/soccer/odds/_/gameId/760500",
+      "https://www.espn.com/soccer/story/_/id/49251285/cape-verde-boss-warns-hurt-argentina-world-cup",
+      "https://www.aljazeera.com/news/2026/7/1/cape-verde-fifa-world-cup-2026-vozinha-argentina-round-of-32-knockouts",
+      "https://www.sportsmole.co.uk/football/argentina/world-cup-2026/team-news/argentina-vs-cape-verde-injury-suspension-lists-predicted-xis_600508.html",
+      "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021521"
+     ],
+     "result": null,
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-ARG-CPV",
+        "winner": "home",
+        "score": "3-0",
+        "confidence": 85,
+        "reasoning_zh": "阿根廷卫冕冠军状态爆棚，梅西领衔碾压新军佛得角"
+       },
+       "settled": null
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-ARG-CPV",
+        "winner": "home",
+        "score": "3-0",
+        "confidence": 92,
+        "reasoning_zh": "阿根廷实力碾压、梅西状态火热，佛得角难挡3球完胜。"
+       },
+       "settled": null
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-ARG-CPV",
+        "winner": "home",
+        "score": "4-0",
+        "confidence": 88,
+        "reasoning_zh": "阿根廷全胜且梅西火热，佛得角铁桶阵靠平局出线但面对顶级攻击线难撑90分钟，久攻之下防线崩盘，大胜晋级。"
+       },
+       "settled": null
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-ARG-CPV",
+        "winner": "home",
+        "score": "3-1",
+        "confidence": 90,
+        "reasoning_zh": "阿根廷攻击力强大且梅西状态极佳，佛得角虽有防守韧性但难挡卫冕冠军，阿根廷大胜。"
+       },
+       "settled": null
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-ARG-CPV",
+        "winner": "home",
+        "score": "3-1",
+        "confidence": 88,
+        "reasoning_zh": "阿根廷实力碾压、梅西状态火热三叉戟犀利；佛得角铁桶阵难挡90分钟，或偶有反击破门，阿根廷大胜晋级。"
+       },
+       "settled": null
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-ARG-CPV",
+        "winner": "home",
+        "score": "3-1",
+        "confidence": 92,
+        "reasoning_zh": "阿根廷攻击力强劲，佛得角难挡其攻势，体面出局。"
+       },
+       "settled": null
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-ARG-CPV",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 95,
+        "reasoning_zh": "阿根廷实力碾压，梅西状态火热，全队无伤停；佛得角防守顽强但进攻乏力，难以抵挡阿根廷攻势。"
+       },
+       "settled": null
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-ARG-CPV",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 88,
+        "reasoning_zh": "卫冕冠军火力全开，梅西6球领跑金靴；佛得角靠三平出线但实力差距悬殊，老门将沃齐尼亚难以阻挡阿根廷三叉戟。"
+       },
+       "settled": null
+      }
+     ]
+    },
+    {
+     "id": "2026-07-03-COL-GHA",
+     "group": "32强淘汰赛",
+     "home": {
+      "code": "COL",
+      "en": "Colombia",
+      "zh": "哥伦比亚",
+      "flag": "🇨🇴"
+     },
+     "away": {
+      "code": "GHA",
+      "en": "Ghana",
+      "zh": "加纳",
+      "flag": "🇬🇭"
+     },
+     "kickoff_local": "2026-07-03 20:30（堪萨斯城当地时间 CDT；美东 ET 21:30）",
+     "kickoff_beijing": "2026-07-04 09:30（北京时间周六上午）",
+     "venue": "Arrowhead Stadium，美国密苏里州堪萨斯城",
+     "teams": {
+      "Colombia": {
+       "name_zh": "哥伦比亚",
+       "fifa_ranking": 16,
+       "qualified_via": "K组头名晋级（7分，2胜1平）。3-1胜乌兹别克斯坦、1-0胜刚果(金)、0-0平葡萄牙，进4球仅失1球，力压葡萄牙获小组第一。",
+       "coach": "Néstor Lorenzo（内斯托尔·洛伦索，阿根廷籍）",
+       "wc_history": "第7次参加世界杯（1962/1990/1994/1998/2014/2018）；最佳战绩为2014年八强（1/4决赛负巴西1-2），队史最好成绩。2022年未能出线，本届为复出后表现。",
+       "key_players": [
+        {
+         "name": "Luis Díaz 路易斯·迪亚斯",
+         "pos": "左边锋",
+         "club": "拜仁慕尼黑"
+        },
+        {
+         "name": "James Rodríguez 哈梅斯·罗德里格斯",
+         "pos": "进攻组织核心/队长",
+         "club": "未注明（34岁；队史世界杯头号射手6球）"
+        },
+        {
+         "name": "Luis Suárez 路易斯·苏亚雷斯",
+         "pos": "中锋",
+         "club": "里斯本竞技（伤愈复出，对葡萄牙缺阵后可先发）"
+        },
+        {
+         "name": "Daniel Muñoz 丹尼尔·穆尼奥斯",
+         "pos": "右后卫",
+         "club": "水晶宫（本届2球，队内并列最佳射手）"
+        },
+        {
+         "name": "Jefferson Lerma 杰弗森·莱尔马",
+         "pos": "后腰",
+         "club": "水晶宫"
+        },
+        {
+         "name": "Camilo Vargas 卡米洛·巴尔加斯",
+         "pos": "门将",
+         "club": "亚特兰大联（美职联）"
+        },
+        {
+         "name": "Davinson Sánchez 达文森·桑切斯",
+         "pos": "中后卫",
+         "club": "加拉塔萨雷"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-27",
+         "opponent": "葡萄牙（世界杯K组）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-23",
+         "opponent": "刚果(金)（世界杯K组）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06-17",
+         "opponent": "乌兹别克斯坦（世界杯K组）",
+         "score": "3-1",
+         "result": "W"
+        }
+       ]
+      },
+      "Ghana": {
+       "name_zh": "加纳",
+       "fifa_ranking": 73,
+       "qualified_via": "L组第三，以8个成绩最好的小组第三之一晋级（4分，1胜1平1负）。1-0胜巴拿马、0-0平英格兰、1-2负克罗地亚；与厄瓜多尔同分同净胜球同进球，凭更细的第三名排名规则挤入32强。",
+       "coach": "Carlos Queiroz（卡洛斯·奎罗斯，葡萄牙籍；赛前约两月上任；连续第5届率队出战世界杯，为继米卢后第二人。曾于2019-2020执教哥伦比亚，本场是与老东家的首次正式对决）",
+       "wc_history": "第5次参加世界杯（2006/2010/2014/2022/2026）；最佳战绩为2010年八强（1/4决赛点球负乌拉圭）。本届为多年来首次闯过小组赛。",
+       "key_players": [
+        {
+         "name": "Thomas Partey 托马斯·帕尔特伊",
+         "pos": "后腰",
+         "club": "比利亚雷亚尔（中场核心；赛前因英国性侵指控一度入境受阻，本人否认，小组赛仍出场）"
+        },
+        {
+         "name": "Antoine Semenyo 安东尼·塞门约",
+         "pos": "边锋/前锋",
+         "club": "曼城（1月自伯恩茅斯转会；踝伤存疑但预计可先发）"
+        },
+        {
+         "name": "Jordan Ayew 乔丹·阿尤",
+         "pos": "前锋/队长",
+         "club": "莱斯特城（34岁，队史射手榜前列33球）"
+        },
+        {
+         "name": "Kamaldeen Sulemana 卡马尔丁·苏莱曼纳",
+         "pos": "左边锋",
+         "club": "未注明"
+        },
+        {
+         "name": "Benjamin Asare 本杰明·阿萨雷",
+         "pos": "门将",
+         "club": "未注明"
+        },
+        {
+         "name": "Gideon Mensah 吉迪恩·门萨",
+         "pos": "左后卫",
+         "club": "未注明"
+        }
+       ],
+       "recent_form": [
+        {
+         "date": "2026-06-27",
+         "opponent": "克罗地亚（世界杯L组）",
+         "score": "1-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-06-23",
+         "opponent": "英格兰（世界杯L组）",
+         "score": "0-0",
+         "result": "D"
+        },
+        {
+         "date": "2026-06-17",
+         "opponent": "巴拿马（世界杯L组）",
+         "score": "1-0",
+         "result": "W"
+        },
+        {
+         "date": "2026-06（赛前热身）",
+         "opponent": "墨西哥（友谊赛）",
+         "score": "0-2",
+         "result": "L"
+        },
+        {
+         "date": "2026-06（赛前热身）",
+         "opponent": "威尔士（友谊赛）",
+         "score": "1-1",
+         "result": "D"
+        }
+       ]
+      }
+     },
+     "odds": [
+      {
+       "source": "RotoWire（汇总 BetMGM/DraftKings/FanDuel/bet365，赛前90分钟1X2美式盘）",
+       "home_win": null,
+       "draw": null,
+       "away_win": null,
+       "note": "哥伦比亚主胜约 -190~-200（隐含约1.53），平局约 +290~+310，加纳客胜约 +575~+650（大冷门）。此为90分钟常规时间1X2；哥伦比亚被明显看好，全线开出主胜赔付很低。"
+      }
+     ],
+     "h2h": {
+      "total_matches": 0,
+      "summary_zh": "两队史上从未在正式国际比赛交手，本场为哥伦比亚与加纳的首次对决。"
+     },
+     "news": [
+      {
+       "team": "Colombia",
+       "headline_zh": "苏亚雷斯伤愈、无伤停困扰",
+       "detail_zh": "哥伦比亚报告无伤病或停赛问题；此前对葡萄牙轮休/存疑的中锋路易斯·苏亚雷斯已恢复，可先发，迪亚斯、哈梅斯·罗德里格斯领衔攻击线。",
+       "source": "Goal.com / Sports Mole preview"
+      },
+      {
+       "team": "Colombia",
+       "headline_zh": "洛伦索率队K组头名压葡萄牙",
+       "detail_zh": "内斯托尔·洛伦索打造出纪律性强、逐渐建立信心的球队，K组3场仅失1球、力压赛前热门葡萄牙获小组第一；哈梅斯为队史世界杯头号射手（6球均来自2014年）。",
+       "source": "ESPN / Goal.com"
+      },
+      {
+       "team": "Ghana",
+       "headline_zh": "奎罗斯迎战老东家，称哥伦比亚并非无懈可击",
+       "detail_zh": "加纳主帅奎罗斯2019-20曾执教哥伦比亚，本场为离任后首次对阵老东家，被视为“复仇之战”；他公开表示哥伦比亚存在可利用的弱点，并承诺加纳会拿出更强表现。",
+       "source": "GHANAsoccernet / Minuto60"
+      },
+      {
+       "team": "Ghana",
+       "headline_zh": "塞门约踝伤存疑、库杜斯赛季报销、帕尔特伊有场外风波",
+       "detail_zh": "边锋塞门约带踝伤、门将Ati Zigi也存疑，但塞门约预计可先发；核心攻击手穆罕默德·库杜斯（热刺）因股四头肌伤势赛前已确定无缘本届；中场帕尔特伊因英国性侵指控一度入境受阻（本人否认），小组赛仍随队出战。",
+       "source": "ESPN / World Soccer Talk"
+      }
+     ],
+     "group_context_zh": "单场淘汰赛，90分钟平局则进加时+点球大战。哥伦比亚FIFA排名第16、K组头名（仅失1球）出线，纸面与状态均占优，主导控球与射门量，靠迪亚斯、哈梅斯的创造力和稳固防守寻找突破；加纳FIFA排名第73、以最佳小组第三惊险晋级，打法是深度低位防守+反击，全程3场仅进3球、防守韧性强但进攻乏力，且失去库杜斯、塞门约带伤。看点：奎罗斯对阵老东家哥伦比亚的“复仇”戏码、哥伦比亚能否耐心攻破加纳铁桶阵、加纳能否靠防反再爆冷。胜者下轮对阵瑞士（瑞士已2-0淘汰阿尔及利亚晋级）。",
+     "summary_zh": "哥伦比亚（K组头名、FIFA第16、无伤停）主场迎战惊险晋级的加纳（最佳小组第三、FIFA第73、库杜斯伤缺、塞门约带伤），博彩明显看好哥伦比亚主胜；这是两队史上首次交手，也是奎罗斯对阵老东家哥伦比亚的“复仇战”。",
+     "sources": [
+      "https://www.espn.com/espn/story/_/id/49224579/colombia-vs-ghana-kick-team-news-how-watch-world-cup-round-32-clash",
+      "https://www.rotowire.com/soccer/article/colombia-vs-ghana-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120687",
+      "https://www.goal.com/en/news/colombia-ghana-world-cup-preview/bltc918b39193cee468",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L",
+      "https://ghanasoccernet.com/world-cup-2026-colombia-is-not-perfect-ghana-coach-carlos-queiroz-identifies-weakness-ahead-of-reunion-with-former-team",
+      "https://www.espn.com/soccer/story/_/id/49205822/carlos-queiroz-world-cup-vulgar-ordinary-competition-ghana"
+     ],
+     "result": null,
+     "perModel": [
+      {
+       "model": "x-ai/grok-4.3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-COL-GHA",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 71,
+        "reasoning_zh": "哥伦比亚近态稳小组头名，加纳进攻乏力伤员多难抗衡"
+       },
+       "settled": null
+      },
+      {
+       "model": "moonshotai/kimi-k2.6",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-COL-GHA",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 85,
+        "reasoning_zh": "哥伦比亚阵容完整、攻防均衡，加纳缺库杜斯，主队小胜晋级。"
+       },
+       "settled": null
+      },
+      {
+       "model": "anthropic/claude-fable-5",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-COL-GHA",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 75,
+        "reasoning_zh": "哥伦比亚防守稳固仅失1球，加纳失库杜斯进攻乏力、只能深守。哥伦比亚耐心攻坚由迪亚斯打破僵局，小胜晋级。"
+       },
+       "settled": null
+      },
+      {
+       "model": "google/gemini-3.5-flash",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-COL-GHA",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 75,
+        "reasoning_zh": "哥伦比亚防守极其稳固且无伤停，加纳缺少库杜斯且多带伤，哥伦比亚有望一球小胜晋级。"
+       },
+       "settled": null
+      },
+      {
+       "model": "sakana/fugu-ultra",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-COL-GHA",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 74,
+        "reasoning_zh": "哥伦比亚纸面与状态占优，迪亚斯哈梅斯创造力强；加纳防反犀利或进一球，但哥伦比亚整体更胜晋级。"
+       },
+       "settled": null
+      },
+      {
+       "model": "tencent/hy3-preview",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-COL-GHA",
+        "winner": "home",
+        "score": "2-1",
+        "confidence": 84,
+        "reasoning_zh": "哥伦比亚攻防均衡，加纳缺核心进攻弱，主队小胜晋级。"
+       },
+       "settled": null
+      },
+      {
+       "model": "xiaomi/mimo-v2.5-pro",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-COL-GHA",
+        "winner": "home",
+        "score": "1-0",
+        "confidence": 85,
+        "reasoning_zh": "哥伦比亚小组头名且无伤停，防守稳固；加纳防守韧性但进攻乏力，库杜斯伤缺，哥伦比亚小胜晋级。"
+       },
+       "settled": null
+      },
+      {
+       "model": "minimax/minimax-m3",
+       "status": "ok",
+       "pred": {
+        "match_id": "2026-07-03-COL-GHA",
+        "winner": "home",
+        "score": "2-0",
+        "confidence": 72,
+        "reasoning_zh": "哥伦比亚K组头名防线仅失1球，苏亚雷斯伤愈回归；加纳失去库杜斯攻防受损，塞门约带伤，奎罗斯难阻老东家。"
+       },
+       "settled": null
+      }
+     ]
+    }
+   ],
+   "settled": false,
+   "day_points": {
+    "x-ai/grok-4.3": 0,
+    "moonshotai/kimi-k2.6": 0,
+    "anthropic/claude-fable-5": 0,
+    "google/gemini-3.5-flash": 0,
+    "sakana/fugu-ultra": 0,
+    "tencent/hy3-preview": 0,
+    "xiaomi/mimo-v2.5-pro": 0,
+    "minimax/minimax-m3": 0
+   },
+   "prompt": {
+    "system": "你是一位顶级足球比赛预测分析师。你将收到一份关于次日世界杯比赛的详细资料文档（包括两队信息、博彩赔率、历史交锋、近期新闻、小组形势）。请仅基于这些资料独立分析并预测每场淘汰赛的最终晋级方/最终获胜方，以及90分钟（含补时、不含加时和点球大战）的比分；90分钟比分可以是平局，但最终晋级方不能是平局，必须在主队或客队中选择一方。资料中的博彩赔率只作次要参考，不要把它当成主要依据，更不要简单照着赔率去推算比分；请重点结合两队实力、近期状态、战术风格、伤停与晋级动机、历史交锋，给出你自己有独立见解的判断——当你判断非热门球队会通过90分钟、加时或点球晋级时就大胆预测，不必盲从赔率上的热门，也不必和其他人保持一致。给出你认为最可能出现的90分钟精确比分，并给出最终晋级方向。资料文档末尾附有各模型历次预测与实际赛果的战绩记录，供你预测前复盘参考。",
+    "user": "以下是 2026-07-03 世界杯 3 场比赛的完整资料文档：\n\n═══════════ 资料文档开始 ═══════════\n# 2026-07-03 世界杯比赛资料文档\n\n本文档汇总了 2026-07-03（比赛日，北美当地时间）FIFA 2026 世界杯全部 3 场32强淘汰赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与赛事形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-07-03-AUS-EGY`：32强淘汰赛 澳大利亚(Australia, 主) vs 埃及(Egypt, 客)\n- `2026-07-03-ARG-CPV`：32强淘汰赛 阿根廷(Argentina, 主) vs 佛得角(Cape Verde, 客)\n- `2026-07-03-COL-GHA`：32强淘汰赛 哥伦比亚(Colombia, 主) vs 加纳(Ghana, 客)\n\n---\n\n## 32强淘汰赛 · 澳大利亚 vs 埃及（match_id: `2026-07-03-AUS-EGY`）\n\n- 开球：2026-07-03 13:00（阿灵顿当地时间 CDT）｜北京时间 2026-07-04 02:00（北京时间周六凌晨）\n- 场地：AT&T Stadium，美国得克萨斯州阿灵顿\n\n### 澳大利亚（Australia，主队）\n- FIFA 排名：第 27 位\n- 晋级之路：D组第二晋级。小组赛：6/13 澳大利亚 2-0 土耳其（Irankunda 27'、Metcalfe 75'）、6/19 美国 2-0 澳大利亚（负）、6/25 巴拉圭 0-0 澳大利亚（平）；3场1胜1平1负积4分，进2失2净胜球0，凭与巴拉圭的直接交锋/净胜球压过同分的巴拉圭获小组第二直接晋级。\n- 主教练：Tony Popovic（托尼·波波维奇，2024年9月接替Graham Arnold；偏好3-4-2-1阵型）\n- 世界杯历史：第7次参加世界杯（1974年首次，2006年起连续参赛）。曾两次进入16强（2006、2022）；本届力争第三次进16强、并连续两届晋级淘汰赛。\n- 核心球员：\n  - Mathew Ryan 马修·瑞恩（门将，（队长，第4次参加世界杯，追平Cahill/Milligan的澳大利亚纪录））\n  - Nestory Irankunda 内斯托里·伊兰昆达（边锋，拜仁慕尼黑体系青训背景（本届突破新星，20岁，对土耳其破门成澳大利亚最年轻世界杯进球者））\n  - Cristian Volpato 克里斯蒂安·沃尔帕托（前腰/攻击手，萨索洛（Sassuolo））\n  - Harry Souttar 哈里·苏塔尔（中后卫，（预计首发，防线核心））\n  - Jackson Irvine 杰克逊·欧文（中场，圣保利（St. Pauli））\n  - Alessandro Circati 亚历山德罗·奇尔卡蒂（中后卫，帕尔马（Parma））\n  - Jordan Bos 乔丹·博斯（左翼卫，）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-25 vs Paraguay 巴拉圭：0-0（D）\n  - 2026-06-19 vs USA 美国：0-2（L）\n  - 2026-06-13 vs Turkey 土耳其：2-0（W）\n  - 2026-06-07 vs Switzerland 瑞士（热身）：1-1（D）\n  - 2026-05-30 vs Mexico 墨西哥（热身）：0-1（L）\n\n### 埃及（Egypt，客队）\n- FIFA 排名：第 25 位\n- 晋级之路：G组第二晋级。小组赛：6/15 比利时 1-1 埃及（Emam Ashour 19'）、6/21 新西兰 1-3 埃及（Ziko 58'、Salah 67'、Trézéguet 82'）、6/26 埃及 1-1 伊朗（Saber 5'）；3场1胜2平不败积5分，进5失3净胜球+2，与同积5分的比利时相比净胜球劣势列小组第二晋级。\n- 主教练：Hossam Hassan（侯萨姆·哈桑，2024年2月上任；作为球员是埃及历史最佳射手69球）\n- 世界杯历史：第4次参加世界杯（1934、1990、2018、2026）。此前从未小组出线，本届是自1934年以来首次晋级淘汰赛（1934年即止步16强/首轮）。\n- 核心球员：\n  - Mohamed Salah 穆罕默德·萨拉赫（右边锋/内锋，利物浦（Liverpool，队长，埃及历史最佳射手之一，本届1球2助攻；腿筋伤已恢复、主帅确认可出战澳大利亚，但未必首发、出场时间受管控））\n  - Omar Marmoush 奥马尔·马尔穆什（前锋，曼城（Manchester City））\n  - Mahmoud Trézéguet 马哈茂德·特雷泽盖（边锋，（经验丰富的攻击手，对新西兰破门））\n  - Emam Ashour 伊马姆·阿舒尔（中场，（对比利时破门））\n  - Mostafa 'Ziko' Mohamed 穆斯塔法·穆罕默德（Ziko）（前锋，）\n  - Mahmoud Saber 马哈茂德·萨贝尔（中场，（对伊朗破门））\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-26 vs Iran 伊朗：1-1（D）\n  - 2026-06-21 vs New Zealand 新西兰：3-1（W）\n  - 2026-06-15 vs Belgium 比利时：1-1（D）\n  - 2026-06-06 vs Brazil 巴西（热身）：1-2（L）\n  - 2026-05-28 vs Russia 俄罗斯（热身）：1-0（W）\n\n### 博彩赔率（1X2，十进制）\n- FanDuel（via CBS Sports / ESPN）：主胜 — / 平 — / 客胜 —（90分钟1X2 moneyline：埃及 +150（胜）/ 平局 +190 / 澳大利亚 +230；即埃及为微弱热门。晋级赔率：埃及 -140、澳大利亚 +115。总进球大小盘 O/U 1.5（Over -170 / Under +135）。）\n\n### 历史交锋（H2H）\n- 共交手 1 次。两队历史仅交手1次：2010年11月17日在开罗的友谊赛，埃及3-0完胜澳大利亚（Abdel-Zaher 29'、Geddo 60'、Zidan 90'点球）。这是双方唯一一次正式交锋，也是首次在世界杯相遇。\n\n### 近期新闻\n- [Australia] 两名攻击手因伤缺阵：Jacob Italiano（腹股沟）与Mathew Leckie（腿筋）确定伤缺，削弱波波维奇的锋线轮换；Sports Mole预测首发为Beach; Circati, Herrington, Souttar; Bos, O'Neill, Irvine, Behich; Volpato, Irankunda, Metcalfe。（来源：Sports Mole）\n- [Australia] 小组赛越踢越稳、力争连续两届进16强：澳大利亚以1胜1平1负、净胜球0的成绩惊险获小组第二；对巴拉圭0-0的顽强防守帮助锁定晋级，球队希望在2022年后连续两届闯入16强。（来源：Al Jazeera / CBS Sports）\n- [Egypt] 萨拉赫伤愈，主帅确认可出战但未必首发：萨拉赫在末轮1-1平伊朗第57分钟因腿筋拉伤被换下，扫描确认拉伤；本周接受理疗与医疗评估、周三随队进行部分合练。主帅哈桑（Hossam Hassan）已确认萨拉赫将出战对澳大利亚的淘汰赛，但未保证其首发，教练组会管控出场时间以防复发。（来源：Goal.com / Yahoo Sports / FIFA）\n- [Egypt] 多名主力带伤，另有一人停赛：除萨拉赫外，Hamdy Fathy（腹股沟）、Hossam Abdelmaguid（头部）、Mohamed Abdelmonem（脚踝）、Ahmed El Fotouh（腿筋）均存疑，Mohanad Lasheen停赛；Sports Mole预测首发为Shobeir; Hany, Ibrahim, Rabia, Hafez; Ateya, Saber; Ziko, Salah, Ashour; Marmoush。（来源：Sports Mole）\n- [Egypt] 改写历史、自1934年以来首次进淘汰赛：埃及小组赛3场不败（2平1胜）以G组第二晋级，是自1934年以来首次跻身世界杯淘汰赛；萨拉赫对新西兰破门成为埃及世界杯历史最佳射手。（来源：CBS Sports / Al Jazeera）\n\n### 赛事形势\n- 淘汰赛单场定胜负（90分钟平进加时+点球）。埃及（世界排名25）在博彩市场上是微弱热门（晋级赔率-140），凭小组赛不败与更高效的进攻（本届进5球 vs 澳大利亚2球）占据心理优势，最大变量是队长萨拉赫的状态——他已从腿筋伤恢复、主帅确认可出战但未必首发、出场时间受管控，若其状态受限，埃及攻击力将受影响，且埃及另有多名主力带伤。澳大利亚（世界排名27）是纪律严明、身体强硬的防守型球队，以3-4-2-1稳守反击见长，小组赛后两场仅失2球、对巴拉圭零封，擅长拖慢节奏、压缩空间制造低比分。看点：萨拉赫能否上场及其牵制力、澳大利亚能否用防守把比赛拖入僵局甚至点球、20岁新星Irankunda的边路冲击。总进球盘口低至1.5，暗示市场预期这是一场低比分、偏谨慎的淘汰赛。\n\n### 综述\n- 世界杯32强淘汰赛：埃及（排名25、小组不败、微弱热门但队长萨拉赫伤愈、确认可出战而未必首发）对阵澳大利亚（排名27、防守稳固的反击型球队），双方历史仅2010年交手1次（埃及3-0），首次世界杯相遇。\n\n### 资料来源\n- https://www.cbssports.com/soccer/news/australia-egypt-odds-prediction-time-2026-world-cup-round-32-picks/\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G\n- https://www.aljazeera.com/sports/2026/6/26/australia-paraguay-fifa-world-cup-2026-score-report-socceroos\n- https://www.olympics.com/en/news/fifa-world-cup-2026-mohamed-salah-and-egypt-chase-first-ever-quarter-final-berth-all-players-full-squad-list-key-stats-and-schedule\n- https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/australia-squad-announcement-world-cup-tony-popovic\n- https://www.sportsmole.co.uk/football/australia/world-cup-2026/team-news/australia-vs-egypt-injury-suspension-list-predicted-xis_600492.html\n- https://sports.yahoo.com/articles/huge-mohamed-salah-concern-egypt-130920911.html\n- https://www.goal.com/en/lists/huge-mohamed-salah-concern-for-egypt-liverpool-icon-a-doubt-for-world-cup-round-of-32-tie-vs-australia/blt538d95ca86f18b20\n- https://www.espn.com/soccer/match/_/gameId/309362/australia-egypt\n- https://football-ranking.com/fifa-world-rankings\n- https://www.espn.com/soccer/odds/_/gameId/760499\n\n---\n\n## 32强淘汰赛 · 阿根廷 vs 佛得角（match_id: `2026-07-03-ARG-CPV`）\n\n- 开球：2026-07-03 18:00（迈阿密当地时间 EDT）｜北京时间 2026-07-04 06:00（北京时间周六清晨）\n- 场地：Hard Rock Stadium，美国佛罗里达州迈阿密花园\n\n### 阿根廷（Argentina，主队）\n- FIFA 排名：第 1 位\n- 晋级之路：J 组头名晋级。小组赛三战全胜：6/16 3-0 阿尔及利亚、6/22 2-0 奥地利、6/27 3-1 约旦；积 9 分、进 8 球失 1 球，小组第一（奥地利并列第二晋级，阿尔及利亚以最佳第三名出线，约旦垫底出局）。作为卫冕冠军以全胜战绩进入 Round of 32。\n- 主教练：Lionel Scaloni（利昂内尔·斯卡洛尼）\n- 世界杯历史：3 届世界杯冠军（1978、1986、2022），卫冕冠军。梅西第 6 次参加世界杯（男足参赛纪录）；本届小组赛梅西已打进 6 球领跑金靴榜，生涯世界杯进球达 19 球，超越克洛泽成为世界杯历史第一射手；对阿尔及利亚上演帽子戏法，以 38 岁 357 天成为世界杯历史最年长帽子戏法球员。\n- 核心球员：\n  - Lionel Messi 梅西（前锋，Inter Miami（迈阿密国际））\n  - Lautaro Martínez 劳塔罗·马丁内斯（前锋，Inter Milan（国际米兰））\n  - Julián Álvarez 胡利安·阿尔瓦雷斯（前锋，Atlético Madrid（马德里竞技））\n  - Enzo Fernández 恩佐·费尔南德斯（中场，Chelsea（切尔西））\n  - Alexis Mac Allister 麦克阿利斯特（中场，Liverpool（利物浦））\n  - Emiliano Martínez 埃米利亚诺·马丁内斯（门将，Aston Villa（阿斯顿维拉））\n  - Cristian Romero 罗梅罗（后卫，Tottenham（托特纳姆热刺））\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs Jordan 约旦：3-1（W）\n  - 2026-06-22 vs Austria 奥地利：2-0（W）\n  - 2026-06-16 vs Algeria 阿尔及利亚：3-0（W）\n  - 2026-06-09 vs Iceland 冰岛（友谊赛）：3-0（W）\n  - 2026-06-06 vs Honduras 洪都拉斯（友谊赛）：2-0（W）\n\n### 佛得角（Cape Verde，客队）\n- FIFA 排名：第 67 位\n- 晋级之路：首次参加世界杯。小组赛（H 组）三战三平：6/15 0-0 西班牙、6/21 2-2 乌拉圭、6/26 0-0 沙特阿拉伯；积 3 分、进 2 球失 2 球，小组第二晋级（西班牙 7 分小组第一，乌拉圭、沙特各 2 分出局）。世界杯预选赛中作为非洲区 D 组头名直接晋级正赛。是自 2010 年斯洛伐克以来首支从小组赛出线的世界杯新军，也是靠三场平局出线的球队（1998 智利后首次）。\n- 主教练：Pedro Leitão Brito «Bubista»（佩德罗·莱唐·布里托，绰号 Bubista）\n- 世界杯历史：队史首次参加世界杯（世界杯新军）。人口约 50 多万，为世界杯历史上出线球队中人口最少的国家之一。此前 4 次参加非洲国家杯，最好成绩为八强（2013、2023）。绰号「蓝鲨」（Tubarões Azuis / Blue Sharks）。主帅 Bubista 2025 年当选非洲年度最佳教练。\n- 核心球员：\n  - Vozinha 沃齐尼亚（Josimar Dias）（门将（39/40 岁，副队长），Chaves（沙维斯，葡萄牙））\n  - Ryan Mendes 瑞恩·门德斯（队长/前锋，Iğdır FK（伊迪尔，土耳其））\n  - Logan Costa 洛根·科斯塔（中后卫，Villarreal（比利亚雷亚尔））\n  - Dailon Livramento 达伊隆·利夫拉门托（前锋，Casa Pia（卡萨皮亚，葡萄牙））\n  - Kevin Pina 凯文·皮纳（防守型中场，俱乐部不详）\n  - Garry Rodrigues 加里·罗德里格斯（边锋，俱乐部不详）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-26 vs Saudi Arabia 沙特阿拉伯：0-0（D）\n  - 2026-06-21 vs Uruguay 乌拉圭：2-2（D）\n  - 2026-06-15 vs Spain 西班牙：0-0（D）\n  - 2026-05-31 vs Serbia 塞尔维亚（友谊赛）：3-0（W）\n  - 2026-03-29 vs Finland 芬兰（友谊赛，点球4-2胜）：1-1（D）\n\n### 博彩赔率（1X2，十进制）\n- ESPN / DraftKings：主胜 — / 平 — / 客胜 —（美式赔率（90分钟1X2口径，非晋级赔率）：阿根廷主胜 -650，平局 +700，佛得角客胜 +1900。让球盘 阿根廷 -2.5（+135）；大小球 大2.5 -165 / 小2.5 +130。）\n- 英式赔率（多家预览）：主胜 — / 平 — / 客胜 —（阿根廷主胜约 1/6（英式），阿根廷为压倒性热门。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队历史上从未交手，这是阿根廷与佛得角的首次正式/非正式交锋。\n\n### 近期新闻\n- [Argentina] 梅西回归首发，小组赛已进 6 球领跑金靴：梅西在末轮对约旦被轮休后回归淘汰赛首发；三场小组赛打进 6 球领跑金靴榜，生涯世界杯进球达 19 球成历史第一射手。全队保持三战全胜、两场零封、仅失 1 球。（来源：ESPN / Al Jazeera / Yahoo Sports）\n- [Argentina] 全队无伤停，罗梅罗可用：赛前 Argentina 无伤停名单，全员可选；后卫罗梅罗可出战淘汰赛。预测首发（Sports Mole）：E.马丁内斯；莫利纳、罗梅罗、L.马丁内斯、梅迪纳；德保罗、麦克阿利斯特、恩佐、阿尔马达；梅西、劳塔罗。（来源：Sports Mole / ESPN）\n- [Cape Verde] 主帅 Bubista：我们能伤到对手，要勇敢去踢：Bubista 赛前表示不会只盯梅西一人「我们有自己的整体战略」，并称「我们相信自己……会勇敢、大胆地去争取晋级」，还引用巴拉圭爆冷德国说明小球队能与强队同场竞技。（来源：ESPN）\n- [Cape Verde] 门将沃齐尼亚成防线核心，中场特尔莫·阿坎霍存疑：39/40 岁门将沃齐尼亚小组赛对西班牙 7 次扑救、三场两次零封，成球队防守韧性象征，Instagram 粉丝从 50 万暴涨至 1740 万。伤停方面：Telmo Arcanjo 因肌肉伤存疑；后卫 Logan Costa 此前 ACL 伤愈及时入选。（来源：Al Jazeera / Sports Mole）\n\n### 赛事形势\n- 淘汰赛单场定胜负（90分钟平局则加时+点球）。实力差距被媒体称为 Round of 32 中最悬殊的一组：阿根廷 FIFA 第 1、卫冕冠军、小组三战全胜且梅西状态火热；佛得角 FIFA 第 67、世界杯新军，靠三场平局（含逼平西班牙）历史性出线，是本届最小人口的出线国。看点：阿根廷三叉戟攻击线（梅西+劳塔罗+阿尔瓦雷斯）对阵佛得角以老门将沃齐尼亚为核心的深度防守（曾对西班牙 7 次扑救零封）；佛得角能否延续「铁桶阵+防反」制造冷门，梅西能否继续刷新进球纪录。博彩层面阿根廷主胜 -650、佛得角客胜 +1900，为压倒性热门。\n\n### 综述\n- 卫冕冠军、FIFA 头名阿根廷（梅西领衔、小组全胜）对阵世界杯新军佛得角（三平出线、老门将沃齐尼亚封神），两队史上首次交锋，Round of 32 中实力最悬殊的一场。\n\n### 资料来源\n- https://sports.yahoo.com/articles/world-cup-2026-r32-argentina-092500864.html\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J\n- https://www.espn.com/soccer/team/results/_/id/2597/cape-verde\n- https://www.espn.com/soccer/team/results/_/id/202/argentina\n- https://www.espn.com/soccer/odds/_/gameId/760500\n- https://www.espn.com/soccer/story/_/id/49251285/cape-verde-boss-warns-hurt-argentina-world-cup\n- https://www.aljazeera.com/news/2026/7/1/cape-verde-fifa-world-cup-2026-vozinha-argentina-round-of-32-knockouts\n- https://www.sportsmole.co.uk/football/argentina/world-cup-2026/team-news/argentina-vs-cape-verde-injury-suspension-lists-predicted-xis_600508.html\n- https://www.fifa.com/en/match-centre/match/17/285023/289287/400021521\n\n---\n\n## 32强淘汰赛 · 哥伦比亚 vs 加纳（match_id: `2026-07-03-COL-GHA`）\n\n- 开球：2026-07-03 20:30（堪萨斯城当地时间 CDT；美东 ET 21:30）｜北京时间 2026-07-04 09:30（北京时间周六上午）\n- 场地：Arrowhead Stadium，美国密苏里州堪萨斯城\n\n### 哥伦比亚（Colombia，主队）\n- FIFA 排名：第 16 位\n- 晋级之路：K组头名晋级（7分，2胜1平）。3-1胜乌兹别克斯坦、1-0胜刚果(金)、0-0平葡萄牙，进4球仅失1球，力压葡萄牙获小组第一。\n- 主教练：Néstor Lorenzo（内斯托尔·洛伦索，阿根廷籍）\n- 世界杯历史：第7次参加世界杯（1962/1990/1994/1998/2014/2018）；最佳战绩为2014年八强（1/4决赛负巴西1-2），队史最好成绩。2022年未能出线，本届为复出后表现。\n- 核心球员：\n  - Luis Díaz 路易斯·迪亚斯（左边锋，拜仁慕尼黑）\n  - James Rodríguez 哈梅斯·罗德里格斯（进攻组织核心/队长，未注明（34岁；队史世界杯头号射手6球））\n  - Luis Suárez 路易斯·苏亚雷斯（中锋，里斯本竞技（伤愈复出，对葡萄牙缺阵后可先发））\n  - Daniel Muñoz 丹尼尔·穆尼奥斯（右后卫，水晶宫（本届2球，队内并列最佳射手））\n  - Jefferson Lerma 杰弗森·莱尔马（后腰，水晶宫）\n  - Camilo Vargas 卡米洛·巴尔加斯（门将，亚特兰大联（美职联））\n  - Davinson Sánchez 达文森·桑切斯（中后卫，加拉塔萨雷）\n- 近 3 场正式比赛（新→旧）：\n  - 2026-06-27 vs 葡萄牙（世界杯K组）：0-0（D）\n  - 2026-06-23 vs 刚果(金)（世界杯K组）：1-0（W）\n  - 2026-06-17 vs 乌兹别克斯坦（世界杯K组）：3-1（W）\n\n### 加纳（Ghana，客队）\n- FIFA 排名：第 73 位\n- 晋级之路：L组第三，以8个成绩最好的小组第三之一晋级（4分，1胜1平1负）。1-0胜巴拿马、0-0平英格兰、1-2负克罗地亚；与厄瓜多尔同分同净胜球同进球，凭更细的第三名排名规则挤入32强。\n- 主教练：Carlos Queiroz（卡洛斯·奎罗斯，葡萄牙籍；赛前约两月上任；连续第5届率队出战世界杯，为继米卢后第二人。曾于2019-2020执教哥伦比亚，本场是与老东家的首次正式对决）\n- 世界杯历史：第5次参加世界杯（2006/2010/2014/2022/2026）；最佳战绩为2010年八强（1/4决赛点球负乌拉圭）。本届为多年来首次闯过小组赛。\n- 核心球员：\n  - Thomas Partey 托马斯·帕尔特伊（后腰，比利亚雷亚尔（中场核心；赛前因英国性侵指控一度入境受阻，本人否认，小组赛仍出场））\n  - Antoine Semenyo 安东尼·塞门约（边锋/前锋，曼城（1月自伯恩茅斯转会；踝伤存疑但预计可先发））\n  - Jordan Ayew 乔丹·阿尤（前锋/队长，莱斯特城（34岁，队史射手榜前列33球））\n  - Kamaldeen Sulemana 卡马尔丁·苏莱曼纳（左边锋，未注明）\n  - Benjamin Asare 本杰明·阿萨雷（门将，未注明）\n  - Gideon Mensah 吉迪恩·门萨（左后卫，未注明）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs 克罗地亚（世界杯L组）：1-2（L）\n  - 2026-06-23 vs 英格兰（世界杯L组）：0-0（D）\n  - 2026-06-17 vs 巴拿马（世界杯L组）：1-0（W）\n  - 2026-06（赛前热身） vs 墨西哥（友谊赛）：0-2（L）\n  - 2026-06（赛前热身） vs 威尔士（友谊赛）：1-1（D）\n\n### 博彩赔率（1X2，十进制）\n- RotoWire（汇总 BetMGM/DraftKings/FanDuel/bet365，赛前90分钟1X2美式盘）：主胜 — / 平 — / 客胜 —（哥伦比亚主胜约 -190~-200（隐含约1.53），平局约 +290~+310，加纳客胜约 +575~+650（大冷门）。此为90分钟常规时间1X2；哥伦比亚被明显看好，全线开出主胜赔付很低。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队史上从未在正式国际比赛交手，本场为哥伦比亚与加纳的首次对决。\n\n### 近期新闻\n- [Colombia] 苏亚雷斯伤愈、无伤停困扰：哥伦比亚报告无伤病或停赛问题；此前对葡萄牙轮休/存疑的中锋路易斯·苏亚雷斯已恢复，可先发，迪亚斯、哈梅斯·罗德里格斯领衔攻击线。（来源：Goal.com / Sports Mole preview）\n- [Colombia] 洛伦索率队K组头名压葡萄牙：内斯托尔·洛伦索打造出纪律性强、逐渐建立信心的球队，K组3场仅失1球、力压赛前热门葡萄牙获小组第一；哈梅斯为队史世界杯头号射手（6球均来自2014年）。（来源：ESPN / Goal.com）\n- [Ghana] 奎罗斯迎战老东家，称哥伦比亚并非无懈可击：加纳主帅奎罗斯2019-20曾执教哥伦比亚，本场为离任后首次对阵老东家，被视为“复仇之战”；他公开表示哥伦比亚存在可利用的弱点，并承诺加纳会拿出更强表现。（来源：GHANAsoccernet / Minuto60）\n- [Ghana] 塞门约踝伤存疑、库杜斯赛季报销、帕尔特伊有场外风波：边锋塞门约带踝伤、门将Ati Zigi也存疑，但塞门约预计可先发；核心攻击手穆罕默德·库杜斯（热刺）因股四头肌伤势赛前已确定无缘本届；中场帕尔特伊因英国性侵指控一度入境受阻（本人否认），小组赛仍随队出战。（来源：ESPN / World Soccer Talk）\n\n### 赛事形势\n- 单场淘汰赛，90分钟平局则进加时+点球大战。哥伦比亚FIFA排名第16、K组头名（仅失1球）出线，纸面与状态均占优，主导控球与射门量，靠迪亚斯、哈梅斯的创造力和稳固防守寻找突破；加纳FIFA排名第73、以最佳小组第三惊险晋级，打法是深度低位防守+反击，全程3场仅进3球、防守韧性强但进攻乏力，且失去库杜斯、塞门约带伤。看点：奎罗斯对阵老东家哥伦比亚的“复仇”戏码、哥伦比亚能否耐心攻破加纳铁桶阵、加纳能否靠防反再爆冷。胜者下轮对阵瑞士（瑞士已2-0淘汰阿尔及利亚晋级）。\n\n### 综述\n- 哥伦比亚（K组头名、FIFA第16、无伤停）主场迎战惊险晋级的加纳（最佳小组第三、FIFA第73、库杜斯伤缺、塞门约带伤），博彩明显看好哥伦比亚主胜；这是两队史上首次交手，也是奎罗斯对阵老东家哥伦比亚的“复仇战”。\n\n### 资料来源\n- https://www.espn.com/espn/story/_/id/49224579/colombia-vs-ghana-kick-team-news-how-watch-world-cup-round-32-clash\n- https://www.rotowire.com/soccer/article/colombia-vs-ghana-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120687\n- https://www.goal.com/en/news/colombia-ghana-world-cup-preview/bltc918b39193cee468\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L\n- https://ghanasoccernet.com/world-cup-2026-colombia-is-not-perfect-ghana-coach-carlos-queiroz-identifies-weakness-ahead-of-reunion-with-former-team\n- https://www.espn.com/soccer/story/_/id/49205822/carlos-queiroz-world-cup-vulgar-ordinary-competition-ghana\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 21 个比赛日、共 83 场比赛中，8 个当前活跃模型的历次预测、实际赛果与所得分数（结算规则：方向正确 2 分 + 90 分钟比分正确 3 分，两项都对 5 分；两项都错或未预测 0 分；模型加入前的未参赛场次不计入该模型分母）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 方向命中 | 比分命中 | 两项全中 |\n|  ---  |  ---  |  ---  |  ---  |  ---  |\n| Claude Fable 5 | 152 | 58/83 | 12/83 | 12/83 |\n| Grok 4.3 | 142 | 56/83 | 10/83 | 10/83 |\n| Kimi K2.7 | 142 | 56/83 | 10/83 | 10/83 |\n| Gemini 3.5 Flash | 56 | 22/31 | 4/31 | 4/31 |\n| Fugu Ultra | 52 | 23/31 | 2/31 | 2/31 |\n| MiniMax M3 | 24 | 9/9 | 2/9 | 2/9 |\n| Xiaomi MiMo v2.5 Pro | 22 | 8/9 | 2/9 | 2/9 |\n| Tencent HY3 Preview | 16 | 8/9 | 0/9 | 0/9 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（2） | 1-0（2） | 1-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 1-2（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 海地 vs 苏格兰 | 0-1 | 0-2（2） | 2-0（0） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-3（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 库拉索 | 7-1 | 6-0（2） | 4-0（2） | 4-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 荷兰 vs 日本 | 2-2 | 1-1（2） | 2-1（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（2） | 1-0（2） | 1-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 奥地利 vs 约旦 | 3-1 | 3-0（2） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（2） | 2-1（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 瑞士 vs 波黑 | 4-1 | 2-1（2） | 2-0（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（2） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（2） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴西 vs 海地 | 3-0 | 4-0（2） | 2-0（2） | 3-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（2） | 3-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（2） | 2-1（5） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 突尼斯 vs 日本 | 0-4 | 0-2（2） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（2） | 1-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（2） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 1-1（2） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 新西兰 vs 埃及 | 1-3 | 0-2（2） | 0-1（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（2） | 2-1（2） | 2-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 法国 vs 伊拉克 | 3-0 | 4-0（2） | 3-1（2） | 3-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（2） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（2） | 1-2（5） | 1-2（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（2） | 2-0（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 3-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（2） | 1-2（2） | 0-1（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（2） | 2-0（2） | 1-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 0-0（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（2） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（2） | 0-1（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（2） | 2-0（2） | 3-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（2） | 0-1（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 0-1（0） | 1-2（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-25**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 库拉索 vs 科特迪瓦 | 0-2 | 0-2（5） | 0-1（2） | 0-2（5） | 0-3（2） | 0-3（2） | 未参赛 | 未参赛 | 未参赛 |\n| 厄瓜多尔 vs 德国 | 2-1 | 1-2（0） | 1-2（0） | 1-1（0） | 1-1（0） | 0-2（0） | 未参赛 | 未参赛 | 未参赛 |\n| 日本 vs 瑞典 | 1-1 | 2-1（0） | 2-1（0） | 1-1（5） | 3-1（0） | 2-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 突尼斯 vs 荷兰 | 1-3 | 0-3（2） | 1-3（5） | 0-3（2） | 0-4（2） | 0-4（2） | 未参赛 | 未参赛 | 未参赛 |\n| 土耳其 vs 美国 | 3-2 | 0-2（0） | 1-1（0） | 1-2（0） | 2-1（2） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 巴拉圭 vs 澳大利亚 | 0-0 | 1-1（2） | 0-0（5） | 1-1（2） | 0-1（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-26**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 挪威 vs 法国 | 1-4 | 2-3（2） | 2-3（2） | 2-2（0） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 塞内加尔 vs 伊拉克 | 5-0 | 3-0（2） | 3-1（2） | 2-0（2） | 3-1（2） | 4-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 埃及 vs 伊朗 | 1-1 | 2-0（0） | 1-1（5） | 1-1（5） | 1-0（0） | 0-0（2） | 未参赛 | 未参赛 | 未参赛 |\n| 新西兰 vs 比利时 | 1-5 | 1-2（2） | 1-2（2） | 0-2（2） | 0-3（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 佛得角 vs 沙特阿拉伯 | 0-0 | 2-1（0） | 2-1（0） | 1-1（2） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 |\n| 乌拉圭 vs 西班牙 | 0-1 | 1-2（2） | 0-2（2） | 1-2（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-27**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 巴拿马 vs 英格兰 | 0-2 | 0-3（2） | 0-2（5） | 0-2（5） | 0-3（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 克罗地亚 vs 加纳 | 2-1 | 2-1（5） | 1-1（0） | 1-0（2） | 2-1（5） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 阿尔及利亚 vs 奥地利 | 3-3 | 0-0（2） | 1-1（2） | 1-1（2） | 0-0（2） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 约旦 vs 阿根廷 | 1-3 | 0-3（2） | 0-2（2） | 0-2（2） | 1-3（5） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 哥伦比亚 vs 葡萄牙 | 0-0 | 1-2（0） | 1-1（2） | 1-1（2） | 1-2（0） | 0-0（5） | 未参赛 | 未参赛 | 未参赛 |\n| 刚果民主共和国 vs 乌兹别克斯坦 | 3-1 | 2-0（2） | 2-1（2） | 2-1（2） | 3-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-28**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 南非 vs 加拿大 | 0-1 | 1-2（2） | 1-1（0） | 1-2（2） | 0-2（2） | 0-1（5） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-29**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 巴西 vs 日本 | 2-1 | 2-0（2） | 2-1（5） | 2-0（2） | 1-0（2） | 3-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 巴拉圭 | 1-1 | 3-0（0） | 2-1（0） | 2-0（0） | 2-0（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 荷兰 vs 摩洛哥 | 1-1 | 2-1（0） | 1-1（5） | 1-1（5） | 2-1（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-30**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 挪威 | 1-2 | 1-2（5） | 1-1（0） | 1-2（5） | 1-1（2） | 0-2（2） | 0-1（2） | 2-3（2） | 0-1（2） |\n| 法国 vs 瑞典 | 3-0 | 3-0（5） | 3-1（2） | 3-1（2） | 2-1（2） | 2-1（2） | 2-0（2） | 2-0（2） | 2-1（2） |\n| 墨西哥 vs 厄瓜多尔 | 2-0 | 2-1（2） | 2-0（5） | 1-0（2） | 2-0（5） | 1-0（2） | 1-1（2） | 1-1（2） | 2-1（2） |\n\n**2026-07-01**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 英格兰 vs 刚果民主共和国 | 2-1 | 2-0（2） | 2-1（5） | 2-0（2） | 1-0（2） | 3-0（2） | 1-0（2） | 2-1（5） | 2-1（5） |\n| 比利时 vs 塞内加尔 | 2-2 | 2-1（2） | 3-1（2） | 2-1（2） | 2-0（2） | 2-0（2） | 3-1（2） | 3-1（2） | 2-0（2） |\n| 美国 vs 波黑 | 2-0 | 2-0（5） | 2-1（2） | 2-1（2） | 2-0（5） | 3-1（2） | 3-1（2） | 3-1（2） | 1-0（2） |\n\n**2026-07-02**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 奥地利 | 3-0 | 2-1（2） | 2-1（2） | 2-0（2） | 2-0（2） | 3-1（2） | 1-1（2） | 1-0（2） | 1-0（2） |\n| 葡萄牙 vs 克罗地亚 | 2-1 | 2-1（5） | 1-1（2） | 1-1（0） | 1-1（0） | 2-0（2） | 1-1（0） | 1-1（0） | 1-0（2） |\n| 瑞士 vs 阿尔及利亚 | 2-0 | 1-0（2） | 2-1（2） | 1-1（2） | 2-1（2） | 1-0（2） | 1-1（2） | 2-0（5） | 2-0（5） |\n\n<!-- HISTORY-REVIEW-END -->\n\n═══════════ 资料文档结束 ═══════════\n\n文档末尾附有各模型（包括你自己）历次预测与实际赛果的对照战绩，请在预测前先复盘这些记录，再给出你独立的判断。\n\n请预测每场淘汰赛的最终晋级方/最终获胜方与90分钟比分。winner 表示最终晋级方，只能是 home 或 away；score 表示90分钟比分，可以是平局。严格按以下 JSON 数组格式输出，不要输出任何其他文字，不要用 markdown 代码块包裹：\n[{\"match_id\": \"...\", \"winner\": \"home\" 或 \"away\", \"score\": \"90分钟主队进球-客队进球（如 1-1 或 2-1）\", \"confidence\": 1到100的整数, \"reasoning_zh\": \"50字以内中文理由\"}]\n\nmatch_id 必须逐一使用以下 ID（共 3 场，每场恰好一条预测）：\n2026-07-03-AUS-EGY\n2026-07-03-ARG-CPV\n2026-07-03-COL-GHA"
+   },
+   "generated_at": "2026-07-03T06:25:46.834Z",
+   "model_runs": {
+    "x-ai/grok-4.3": {
+     "status": "ok",
+     "latency_s": 8,
+     "via": "openrouter",
+     "error": null
+    },
+    "moonshotai/kimi-k2.6": {
+     "status": "ok",
+     "latency_s": 16,
+     "via": "openrouter",
+     "error": null
+    },
+    "anthropic/claude-fable-5": {
+     "status": "ok",
+     "latency_s": 17,
+     "via": "openrouter",
+     "error": null
+    },
+    "google/gemini-3.5-flash": {
+     "status": "ok",
+     "latency_s": 14,
+     "via": "openrouter",
+     "error": null
+    },
+    "sakana/fugu-ultra": {
+     "status": "ok",
+     "latency_s": 15,
+     "via": "sakana",
+     "error": null
+    },
+    "tencent/hy3-preview": {
+     "status": "ok",
+     "latency_s": 81,
+     "via": "openrouter",
+     "error": null
+    },
+    "xiaomi/mimo-v2.5-pro": {
+     "status": "ok",
+     "latency_s": 20,
+     "via": "openrouter",
+     "error": null
+    },
+    "minimax/minimax-m3": {
+     "status": "ok",
+     "latency_s": 60,
+     "via": "openrouter",
+     "error": null
+    }
+   },
+   "context_md": "# 2026-07-03 世界杯比赛资料文档\n\n本文档汇总了 2026-07-03（比赛日，北美当地时间）FIFA 2026 世界杯全部 3 场32强淘汰赛的赛前资料，\n包括两队基本面、博彩赔率（1X2）、历史交锋、近期新闻与赛事形势。资料收集截至比赛前一天，\n8 个参赛模型收到完全相同的此文档。\n\n## 比赛清单（match_id）\n- `2026-07-03-AUS-EGY`：32强淘汰赛 澳大利亚(Australia, 主) vs 埃及(Egypt, 客)\n- `2026-07-03-ARG-CPV`：32强淘汰赛 阿根廷(Argentina, 主) vs 佛得角(Cape Verde, 客)\n- `2026-07-03-COL-GHA`：32强淘汰赛 哥伦比亚(Colombia, 主) vs 加纳(Ghana, 客)\n\n---\n\n## 32强淘汰赛 · 澳大利亚 vs 埃及（match_id: `2026-07-03-AUS-EGY`）\n\n- 开球：2026-07-03 13:00（阿灵顿当地时间 CDT）｜北京时间 2026-07-04 02:00（北京时间周六凌晨）\n- 场地：AT&T Stadium，美国得克萨斯州阿灵顿\n\n### 澳大利亚（Australia，主队）\n- FIFA 排名：第 27 位\n- 晋级之路：D组第二晋级。小组赛：6/13 澳大利亚 2-0 土耳其（Irankunda 27'、Metcalfe 75'）、6/19 美国 2-0 澳大利亚（负）、6/25 巴拉圭 0-0 澳大利亚（平）；3场1胜1平1负积4分，进2失2净胜球0，凭与巴拉圭的直接交锋/净胜球压过同分的巴拉圭获小组第二直接晋级。\n- 主教练：Tony Popovic（托尼·波波维奇，2024年9月接替Graham Arnold；偏好3-4-2-1阵型）\n- 世界杯历史：第7次参加世界杯（1974年首次，2006年起连续参赛）。曾两次进入16强（2006、2022）；本届力争第三次进16强、并连续两届晋级淘汰赛。\n- 核心球员：\n  - Mathew Ryan 马修·瑞恩（门将，（队长，第4次参加世界杯，追平Cahill/Milligan的澳大利亚纪录））\n  - Nestory Irankunda 内斯托里·伊兰昆达（边锋，拜仁慕尼黑体系青训背景（本届突破新星，20岁，对土耳其破门成澳大利亚最年轻世界杯进球者））\n  - Cristian Volpato 克里斯蒂安·沃尔帕托（前腰/攻击手，萨索洛（Sassuolo））\n  - Harry Souttar 哈里·苏塔尔（中后卫，（预计首发，防线核心））\n  - Jackson Irvine 杰克逊·欧文（中场，圣保利（St. Pauli））\n  - Alessandro Circati 亚历山德罗·奇尔卡蒂（中后卫，帕尔马（Parma））\n  - Jordan Bos 乔丹·博斯（左翼卫，）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-25 vs Paraguay 巴拉圭：0-0（D）\n  - 2026-06-19 vs USA 美国：0-2（L）\n  - 2026-06-13 vs Turkey 土耳其：2-0（W）\n  - 2026-06-07 vs Switzerland 瑞士（热身）：1-1（D）\n  - 2026-05-30 vs Mexico 墨西哥（热身）：0-1（L）\n\n### 埃及（Egypt，客队）\n- FIFA 排名：第 25 位\n- 晋级之路：G组第二晋级。小组赛：6/15 比利时 1-1 埃及（Emam Ashour 19'）、6/21 新西兰 1-3 埃及（Ziko 58'、Salah 67'、Trézéguet 82'）、6/26 埃及 1-1 伊朗（Saber 5'）；3场1胜2平不败积5分，进5失3净胜球+2，与同积5分的比利时相比净胜球劣势列小组第二晋级。\n- 主教练：Hossam Hassan（侯萨姆·哈桑，2024年2月上任；作为球员是埃及历史最佳射手69球）\n- 世界杯历史：第4次参加世界杯（1934、1990、2018、2026）。此前从未小组出线，本届是自1934年以来首次晋级淘汰赛（1934年即止步16强/首轮）。\n- 核心球员：\n  - Mohamed Salah 穆罕默德·萨拉赫（右边锋/内锋，利物浦（Liverpool，队长，埃及历史最佳射手之一，本届1球2助攻；腿筋伤已恢复、主帅确认可出战澳大利亚，但未必首发、出场时间受管控））\n  - Omar Marmoush 奥马尔·马尔穆什（前锋，曼城（Manchester City））\n  - Mahmoud Trézéguet 马哈茂德·特雷泽盖（边锋，（经验丰富的攻击手，对新西兰破门））\n  - Emam Ashour 伊马姆·阿舒尔（中场，（对比利时破门））\n  - Mostafa 'Ziko' Mohamed 穆斯塔法·穆罕默德（Ziko）（前锋，）\n  - Mahmoud Saber 马哈茂德·萨贝尔（中场，（对伊朗破门））\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-26 vs Iran 伊朗：1-1（D）\n  - 2026-06-21 vs New Zealand 新西兰：3-1（W）\n  - 2026-06-15 vs Belgium 比利时：1-1（D）\n  - 2026-06-06 vs Brazil 巴西（热身）：1-2（L）\n  - 2026-05-28 vs Russia 俄罗斯（热身）：1-0（W）\n\n### 博彩赔率（1X2，十进制）\n- FanDuel（via CBS Sports / ESPN）：主胜 — / 平 — / 客胜 —（90分钟1X2 moneyline：埃及 +150（胜）/ 平局 +190 / 澳大利亚 +230；即埃及为微弱热门。晋级赔率：埃及 -140、澳大利亚 +115。总进球大小盘 O/U 1.5（Over -170 / Under +135）。）\n\n### 历史交锋（H2H）\n- 共交手 1 次。两队历史仅交手1次：2010年11月17日在开罗的友谊赛，埃及3-0完胜澳大利亚（Abdel-Zaher 29'、Geddo 60'、Zidan 90'点球）。这是双方唯一一次正式交锋，也是首次在世界杯相遇。\n\n### 近期新闻\n- [Australia] 两名攻击手因伤缺阵：Jacob Italiano（腹股沟）与Mathew Leckie（腿筋）确定伤缺，削弱波波维奇的锋线轮换；Sports Mole预测首发为Beach; Circati, Herrington, Souttar; Bos, O'Neill, Irvine, Behich; Volpato, Irankunda, Metcalfe。（来源：Sports Mole）\n- [Australia] 小组赛越踢越稳、力争连续两届进16强：澳大利亚以1胜1平1负、净胜球0的成绩惊险获小组第二；对巴拉圭0-0的顽强防守帮助锁定晋级，球队希望在2022年后连续两届闯入16强。（来源：Al Jazeera / CBS Sports）\n- [Egypt] 萨拉赫伤愈，主帅确认可出战但未必首发：萨拉赫在末轮1-1平伊朗第57分钟因腿筋拉伤被换下，扫描确认拉伤；本周接受理疗与医疗评估、周三随队进行部分合练。主帅哈桑（Hossam Hassan）已确认萨拉赫将出战对澳大利亚的淘汰赛，但未保证其首发，教练组会管控出场时间以防复发。（来源：Goal.com / Yahoo Sports / FIFA）\n- [Egypt] 多名主力带伤，另有一人停赛：除萨拉赫外，Hamdy Fathy（腹股沟）、Hossam Abdelmaguid（头部）、Mohamed Abdelmonem（脚踝）、Ahmed El Fotouh（腿筋）均存疑，Mohanad Lasheen停赛；Sports Mole预测首发为Shobeir; Hany, Ibrahim, Rabia, Hafez; Ateya, Saber; Ziko, Salah, Ashour; Marmoush。（来源：Sports Mole）\n- [Egypt] 改写历史、自1934年以来首次进淘汰赛：埃及小组赛3场不败（2平1胜）以G组第二晋级，是自1934年以来首次跻身世界杯淘汰赛；萨拉赫对新西兰破门成为埃及世界杯历史最佳射手。（来源：CBS Sports / Al Jazeera）\n\n### 赛事形势\n- 淘汰赛单场定胜负（90分钟平进加时+点球）。埃及（世界排名25）在博彩市场上是微弱热门（晋级赔率-140），凭小组赛不败与更高效的进攻（本届进5球 vs 澳大利亚2球）占据心理优势，最大变量是队长萨拉赫的状态——他已从腿筋伤恢复、主帅确认可出战但未必首发、出场时间受管控，若其状态受限，埃及攻击力将受影响，且埃及另有多名主力带伤。澳大利亚（世界排名27）是纪律严明、身体强硬的防守型球队，以3-4-2-1稳守反击见长，小组赛后两场仅失2球、对巴拉圭零封，擅长拖慢节奏、压缩空间制造低比分。看点：萨拉赫能否上场及其牵制力、澳大利亚能否用防守把比赛拖入僵局甚至点球、20岁新星Irankunda的边路冲击。总进球盘口低至1.5，暗示市场预期这是一场低比分、偏谨慎的淘汰赛。\n\n### 综述\n- 世界杯32强淘汰赛：埃及（排名25、小组不败、微弱热门但队长萨拉赫伤愈、确认可出战而未必首发）对阵澳大利亚（排名27、防守稳固的反击型球队），双方历史仅2010年交手1次（埃及3-0），首次世界杯相遇。\n\n### 资料来源\n- https://www.cbssports.com/soccer/news/australia-egypt-odds-prediction-time-2026-world-cup-round-32-picks/\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G\n- https://www.aljazeera.com/sports/2026/6/26/australia-paraguay-fifa-world-cup-2026-score-report-socceroos\n- https://www.olympics.com/en/news/fifa-world-cup-2026-mohamed-salah-and-egypt-chase-first-ever-quarter-final-berth-all-players-full-squad-list-key-stats-and-schedule\n- https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/australia-squad-announcement-world-cup-tony-popovic\n- https://www.sportsmole.co.uk/football/australia/world-cup-2026/team-news/australia-vs-egypt-injury-suspension-list-predicted-xis_600492.html\n- https://sports.yahoo.com/articles/huge-mohamed-salah-concern-egypt-130920911.html\n- https://www.goal.com/en/lists/huge-mohamed-salah-concern-for-egypt-liverpool-icon-a-doubt-for-world-cup-round-of-32-tie-vs-australia/blt538d95ca86f18b20\n- https://www.espn.com/soccer/match/_/gameId/309362/australia-egypt\n- https://football-ranking.com/fifa-world-rankings\n- https://www.espn.com/soccer/odds/_/gameId/760499\n\n---\n\n## 32强淘汰赛 · 阿根廷 vs 佛得角（match_id: `2026-07-03-ARG-CPV`）\n\n- 开球：2026-07-03 18:00（迈阿密当地时间 EDT）｜北京时间 2026-07-04 06:00（北京时间周六清晨）\n- 场地：Hard Rock Stadium，美国佛罗里达州迈阿密花园\n\n### 阿根廷（Argentina，主队）\n- FIFA 排名：第 1 位\n- 晋级之路：J 组头名晋级。小组赛三战全胜：6/16 3-0 阿尔及利亚、6/22 2-0 奥地利、6/27 3-1 约旦；积 9 分、进 8 球失 1 球，小组第一（奥地利并列第二晋级，阿尔及利亚以最佳第三名出线，约旦垫底出局）。作为卫冕冠军以全胜战绩进入 Round of 32。\n- 主教练：Lionel Scaloni（利昂内尔·斯卡洛尼）\n- 世界杯历史：3 届世界杯冠军（1978、1986、2022），卫冕冠军。梅西第 6 次参加世界杯（男足参赛纪录）；本届小组赛梅西已打进 6 球领跑金靴榜，生涯世界杯进球达 19 球，超越克洛泽成为世界杯历史第一射手；对阿尔及利亚上演帽子戏法，以 38 岁 357 天成为世界杯历史最年长帽子戏法球员。\n- 核心球员：\n  - Lionel Messi 梅西（前锋，Inter Miami（迈阿密国际））\n  - Lautaro Martínez 劳塔罗·马丁内斯（前锋，Inter Milan（国际米兰））\n  - Julián Álvarez 胡利安·阿尔瓦雷斯（前锋，Atlético Madrid（马德里竞技））\n  - Enzo Fernández 恩佐·费尔南德斯（中场，Chelsea（切尔西））\n  - Alexis Mac Allister 麦克阿利斯特（中场，Liverpool（利物浦））\n  - Emiliano Martínez 埃米利亚诺·马丁内斯（门将，Aston Villa（阿斯顿维拉））\n  - Cristian Romero 罗梅罗（后卫，Tottenham（托特纳姆热刺））\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs Jordan 约旦：3-1（W）\n  - 2026-06-22 vs Austria 奥地利：2-0（W）\n  - 2026-06-16 vs Algeria 阿尔及利亚：3-0（W）\n  - 2026-06-09 vs Iceland 冰岛（友谊赛）：3-0（W）\n  - 2026-06-06 vs Honduras 洪都拉斯（友谊赛）：2-0（W）\n\n### 佛得角（Cape Verde，客队）\n- FIFA 排名：第 67 位\n- 晋级之路：首次参加世界杯。小组赛（H 组）三战三平：6/15 0-0 西班牙、6/21 2-2 乌拉圭、6/26 0-0 沙特阿拉伯；积 3 分、进 2 球失 2 球，小组第二晋级（西班牙 7 分小组第一，乌拉圭、沙特各 2 分出局）。世界杯预选赛中作为非洲区 D 组头名直接晋级正赛。是自 2010 年斯洛伐克以来首支从小组赛出线的世界杯新军，也是靠三场平局出线的球队（1998 智利后首次）。\n- 主教练：Pedro Leitão Brito «Bubista»（佩德罗·莱唐·布里托，绰号 Bubista）\n- 世界杯历史：队史首次参加世界杯（世界杯新军）。人口约 50 多万，为世界杯历史上出线球队中人口最少的国家之一。此前 4 次参加非洲国家杯，最好成绩为八强（2013、2023）。绰号「蓝鲨」（Tubarões Azuis / Blue Sharks）。主帅 Bubista 2025 年当选非洲年度最佳教练。\n- 核心球员：\n  - Vozinha 沃齐尼亚（Josimar Dias）（门将（39/40 岁，副队长），Chaves（沙维斯，葡萄牙））\n  - Ryan Mendes 瑞恩·门德斯（队长/前锋，Iğdır FK（伊迪尔，土耳其））\n  - Logan Costa 洛根·科斯塔（中后卫，Villarreal（比利亚雷亚尔））\n  - Dailon Livramento 达伊隆·利夫拉门托（前锋，Casa Pia（卡萨皮亚，葡萄牙））\n  - Kevin Pina 凯文·皮纳（防守型中场，俱乐部不详）\n  - Garry Rodrigues 加里·罗德里格斯（边锋，俱乐部不详）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-26 vs Saudi Arabia 沙特阿拉伯：0-0（D）\n  - 2026-06-21 vs Uruguay 乌拉圭：2-2（D）\n  - 2026-06-15 vs Spain 西班牙：0-0（D）\n  - 2026-05-31 vs Serbia 塞尔维亚（友谊赛）：3-0（W）\n  - 2026-03-29 vs Finland 芬兰（友谊赛，点球4-2胜）：1-1（D）\n\n### 博彩赔率（1X2，十进制）\n- ESPN / DraftKings：主胜 — / 平 — / 客胜 —（美式赔率（90分钟1X2口径，非晋级赔率）：阿根廷主胜 -650，平局 +700，佛得角客胜 +1900。让球盘 阿根廷 -2.5（+135）；大小球 大2.5 -165 / 小2.5 +130。）\n- 英式赔率（多家预览）：主胜 — / 平 — / 客胜 —（阿根廷主胜约 1/6（英式），阿根廷为压倒性热门。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队历史上从未交手，这是阿根廷与佛得角的首次正式/非正式交锋。\n\n### 近期新闻\n- [Argentina] 梅西回归首发，小组赛已进 6 球领跑金靴：梅西在末轮对约旦被轮休后回归淘汰赛首发；三场小组赛打进 6 球领跑金靴榜，生涯世界杯进球达 19 球成历史第一射手。全队保持三战全胜、两场零封、仅失 1 球。（来源：ESPN / Al Jazeera / Yahoo Sports）\n- [Argentina] 全队无伤停，罗梅罗可用：赛前 Argentina 无伤停名单，全员可选；后卫罗梅罗可出战淘汰赛。预测首发（Sports Mole）：E.马丁内斯；莫利纳、罗梅罗、L.马丁内斯、梅迪纳；德保罗、麦克阿利斯特、恩佐、阿尔马达；梅西、劳塔罗。（来源：Sports Mole / ESPN）\n- [Cape Verde] 主帅 Bubista：我们能伤到对手，要勇敢去踢：Bubista 赛前表示不会只盯梅西一人「我们有自己的整体战略」，并称「我们相信自己……会勇敢、大胆地去争取晋级」，还引用巴拉圭爆冷德国说明小球队能与强队同场竞技。（来源：ESPN）\n- [Cape Verde] 门将沃齐尼亚成防线核心，中场特尔莫·阿坎霍存疑：39/40 岁门将沃齐尼亚小组赛对西班牙 7 次扑救、三场两次零封，成球队防守韧性象征，Instagram 粉丝从 50 万暴涨至 1740 万。伤停方面：Telmo Arcanjo 因肌肉伤存疑；后卫 Logan Costa 此前 ACL 伤愈及时入选。（来源：Al Jazeera / Sports Mole）\n\n### 赛事形势\n- 淘汰赛单场定胜负（90分钟平局则加时+点球）。实力差距被媒体称为 Round of 32 中最悬殊的一组：阿根廷 FIFA 第 1、卫冕冠军、小组三战全胜且梅西状态火热；佛得角 FIFA 第 67、世界杯新军，靠三场平局（含逼平西班牙）历史性出线，是本届最小人口的出线国。看点：阿根廷三叉戟攻击线（梅西+劳塔罗+阿尔瓦雷斯）对阵佛得角以老门将沃齐尼亚为核心的深度防守（曾对西班牙 7 次扑救零封）；佛得角能否延续「铁桶阵+防反」制造冷门，梅西能否继续刷新进球纪录。博彩层面阿根廷主胜 -650、佛得角客胜 +1900，为压倒性热门。\n\n### 综述\n- 卫冕冠军、FIFA 头名阿根廷（梅西领衔、小组全胜）对阵世界杯新军佛得角（三平出线、老门将沃齐尼亚封神），两队史上首次交锋，Round of 32 中实力最悬殊的一场。\n\n### 资料来源\n- https://sports.yahoo.com/articles/world-cup-2026-r32-argentina-092500864.html\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J\n- https://www.espn.com/soccer/team/results/_/id/2597/cape-verde\n- https://www.espn.com/soccer/team/results/_/id/202/argentina\n- https://www.espn.com/soccer/odds/_/gameId/760500\n- https://www.espn.com/soccer/story/_/id/49251285/cape-verde-boss-warns-hurt-argentina-world-cup\n- https://www.aljazeera.com/news/2026/7/1/cape-verde-fifa-world-cup-2026-vozinha-argentina-round-of-32-knockouts\n- https://www.sportsmole.co.uk/football/argentina/world-cup-2026/team-news/argentina-vs-cape-verde-injury-suspension-lists-predicted-xis_600508.html\n- https://www.fifa.com/en/match-centre/match/17/285023/289287/400021521\n\n---\n\n## 32强淘汰赛 · 哥伦比亚 vs 加纳（match_id: `2026-07-03-COL-GHA`）\n\n- 开球：2026-07-03 20:30（堪萨斯城当地时间 CDT；美东 ET 21:30）｜北京时间 2026-07-04 09:30（北京时间周六上午）\n- 场地：Arrowhead Stadium，美国密苏里州堪萨斯城\n\n### 哥伦比亚（Colombia，主队）\n- FIFA 排名：第 16 位\n- 晋级之路：K组头名晋级（7分，2胜1平）。3-1胜乌兹别克斯坦、1-0胜刚果(金)、0-0平葡萄牙，进4球仅失1球，力压葡萄牙获小组第一。\n- 主教练：Néstor Lorenzo（内斯托尔·洛伦索，阿根廷籍）\n- 世界杯历史：第7次参加世界杯（1962/1990/1994/1998/2014/2018）；最佳战绩为2014年八强（1/4决赛负巴西1-2），队史最好成绩。2022年未能出线，本届为复出后表现。\n- 核心球员：\n  - Luis Díaz 路易斯·迪亚斯（左边锋，拜仁慕尼黑）\n  - James Rodríguez 哈梅斯·罗德里格斯（进攻组织核心/队长，未注明（34岁；队史世界杯头号射手6球））\n  - Luis Suárez 路易斯·苏亚雷斯（中锋，里斯本竞技（伤愈复出，对葡萄牙缺阵后可先发））\n  - Daniel Muñoz 丹尼尔·穆尼奥斯（右后卫，水晶宫（本届2球，队内并列最佳射手））\n  - Jefferson Lerma 杰弗森·莱尔马（后腰，水晶宫）\n  - Camilo Vargas 卡米洛·巴尔加斯（门将，亚特兰大联（美职联））\n  - Davinson Sánchez 达文森·桑切斯（中后卫，加拉塔萨雷）\n- 近 3 场正式比赛（新→旧）：\n  - 2026-06-27 vs 葡萄牙（世界杯K组）：0-0（D）\n  - 2026-06-23 vs 刚果(金)（世界杯K组）：1-0（W）\n  - 2026-06-17 vs 乌兹别克斯坦（世界杯K组）：3-1（W）\n\n### 加纳（Ghana，客队）\n- FIFA 排名：第 73 位\n- 晋级之路：L组第三，以8个成绩最好的小组第三之一晋级（4分，1胜1平1负）。1-0胜巴拿马、0-0平英格兰、1-2负克罗地亚；与厄瓜多尔同分同净胜球同进球，凭更细的第三名排名规则挤入32强。\n- 主教练：Carlos Queiroz（卡洛斯·奎罗斯，葡萄牙籍；赛前约两月上任；连续第5届率队出战世界杯，为继米卢后第二人。曾于2019-2020执教哥伦比亚，本场是与老东家的首次正式对决）\n- 世界杯历史：第5次参加世界杯（2006/2010/2014/2022/2026）；最佳战绩为2010年八强（1/4决赛点球负乌拉圭）。本届为多年来首次闯过小组赛。\n- 核心球员：\n  - Thomas Partey 托马斯·帕尔特伊（后腰，比利亚雷亚尔（中场核心；赛前因英国性侵指控一度入境受阻，本人否认，小组赛仍出场））\n  - Antoine Semenyo 安东尼·塞门约（边锋/前锋，曼城（1月自伯恩茅斯转会；踝伤存疑但预计可先发））\n  - Jordan Ayew 乔丹·阿尤（前锋/队长，莱斯特城（34岁，队史射手榜前列33球））\n  - Kamaldeen Sulemana 卡马尔丁·苏莱曼纳（左边锋，未注明）\n  - Benjamin Asare 本杰明·阿萨雷（门将，未注明）\n  - Gideon Mensah 吉迪恩·门萨（左后卫，未注明）\n- 近 5 场正式比赛（新→旧）：\n  - 2026-06-27 vs 克罗地亚（世界杯L组）：1-2（L）\n  - 2026-06-23 vs 英格兰（世界杯L组）：0-0（D）\n  - 2026-06-17 vs 巴拿马（世界杯L组）：1-0（W）\n  - 2026-06（赛前热身） vs 墨西哥（友谊赛）：0-2（L）\n  - 2026-06（赛前热身） vs 威尔士（友谊赛）：1-1（D）\n\n### 博彩赔率（1X2，十进制）\n- RotoWire（汇总 BetMGM/DraftKings/FanDuel/bet365，赛前90分钟1X2美式盘）：主胜 — / 平 — / 客胜 —（哥伦比亚主胜约 -190~-200（隐含约1.53），平局约 +290~+310，加纳客胜约 +575~+650（大冷门）。此为90分钟常规时间1X2；哥伦比亚被明显看好，全线开出主胜赔付很低。）\n\n### 历史交锋（H2H）\n- 共交手 0 次。两队史上从未在正式国际比赛交手，本场为哥伦比亚与加纳的首次对决。\n\n### 近期新闻\n- [Colombia] 苏亚雷斯伤愈、无伤停困扰：哥伦比亚报告无伤病或停赛问题；此前对葡萄牙轮休/存疑的中锋路易斯·苏亚雷斯已恢复，可先发，迪亚斯、哈梅斯·罗德里格斯领衔攻击线。（来源：Goal.com / Sports Mole preview）\n- [Colombia] 洛伦索率队K组头名压葡萄牙：内斯托尔·洛伦索打造出纪律性强、逐渐建立信心的球队，K组3场仅失1球、力压赛前热门葡萄牙获小组第一；哈梅斯为队史世界杯头号射手（6球均来自2014年）。（来源：ESPN / Goal.com）\n- [Ghana] 奎罗斯迎战老东家，称哥伦比亚并非无懈可击：加纳主帅奎罗斯2019-20曾执教哥伦比亚，本场为离任后首次对阵老东家，被视为“复仇之战”；他公开表示哥伦比亚存在可利用的弱点，并承诺加纳会拿出更强表现。（来源：GHANAsoccernet / Minuto60）\n- [Ghana] 塞门约踝伤存疑、库杜斯赛季报销、帕尔特伊有场外风波：边锋塞门约带踝伤、门将Ati Zigi也存疑，但塞门约预计可先发；核心攻击手穆罕默德·库杜斯（热刺）因股四头肌伤势赛前已确定无缘本届；中场帕尔特伊因英国性侵指控一度入境受阻（本人否认），小组赛仍随队出战。（来源：ESPN / World Soccer Talk）\n\n### 赛事形势\n- 单场淘汰赛，90分钟平局则进加时+点球大战。哥伦比亚FIFA排名第16、K组头名（仅失1球）出线，纸面与状态均占优，主导控球与射门量，靠迪亚斯、哈梅斯的创造力和稳固防守寻找突破；加纳FIFA排名第73、以最佳小组第三惊险晋级，打法是深度低位防守+反击，全程3场仅进3球、防守韧性强但进攻乏力，且失去库杜斯、塞门约带伤。看点：奎罗斯对阵老东家哥伦比亚的“复仇”戏码、哥伦比亚能否耐心攻破加纳铁桶阵、加纳能否靠防反再爆冷。胜者下轮对阵瑞士（瑞士已2-0淘汰阿尔及利亚晋级）。\n\n### 综述\n- 哥伦比亚（K组头名、FIFA第16、无伤停）主场迎战惊险晋级的加纳（最佳小组第三、FIFA第73、库杜斯伤缺、塞门约带伤），博彩明显看好哥伦比亚主胜；这是两队史上首次交手，也是奎罗斯对阵老东家哥伦比亚的“复仇战”。\n\n### 资料来源\n- https://www.espn.com/espn/story/_/id/49224579/colombia-vs-ghana-kick-team-news-how-watch-world-cup-round-32-clash\n- https://www.rotowire.com/soccer/article/colombia-vs-ghana-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120687\n- https://www.goal.com/en/news/colombia-ghana-world-cup-preview/bltc918b39193cee468\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K\n- https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L\n- https://ghanasoccernet.com/world-cup-2026-colombia-is-not-perfect-ghana-coach-carlos-queiroz-identifies-weakness-ahead-of-reunion-with-former-team\n- https://www.espn.com/soccer/story/_/id/49205822/carlos-queiroz-world-cup-vulgar-ordinary-competition-ghana\n\n<!-- HISTORY-REVIEW-START -->\n\n---\n\n## 历史预测战绩（各模型已结算比赛日的预测与赛果对照）\n\n下表为本擂台已结算的 21 个比赛日、共 83 场比赛中，8 个当前活跃模型的历次预测、实际赛果与所得分数（结算规则：方向正确 2 分 + 90 分钟比分正确 3 分，两项都对 5 分；两项都错或未预测 0 分；模型加入前的未参赛场次不计入该模型分母）。其中包含各模型历次的预测记录。括号内为该场所得分数。\n\n### 累计积分与命中率\n| 模型 | 累计积分 | 方向命中 | 比分命中 | 两项全中 |\n|  ---  |  ---  |  ---  |  ---  |  ---  |\n| Claude Fable 5 | 152 | 58/83 | 12/83 | 12/83 |\n| Grok 4.3 | 142 | 56/83 | 10/83 | 10/83 |\n| Kimi K2.7 | 142 | 56/83 | 10/83 | 10/83 |\n| Gemini 3.5 Flash | 56 | 22/31 | 4/31 | 4/31 |\n| Fugu Ultra | 52 | 23/31 | 2/31 | 2/31 |\n| MiniMax M3 | 24 | 9/9 | 2/9 | 2/9 |\n| Xiaomi MiMo v2.5 Pro | 22 | 8/9 | 2/9 | 2/9 |\n| Tencent HY3 Preview | 16 | 8/9 | 0/9 | 0/9 |\n\n### 逐场预测与赛果明细\n**2026-06-12**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 加拿大 vs 波黑 | 1-1 | 1-0（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 美国 vs 巴拉圭 | 4-1 | 2-1（2） | 1-0（2） | 1-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-13**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 澳大利亚 vs 土耳其 | 2-0 | 1-2（0） | 1-2（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴西 vs 摩洛哥 | 1-1 | 2-1（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 海地 vs 苏格兰 | 0-1 | 0-2（2） | 2-0（0） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 卡塔尔 vs 瑞士 | 1-1 | 0-3（0） | 0-2（0） | 0-3（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-14**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 厄瓜多尔 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 库拉索 | 7-1 | 6-0（2） | 4-0（2） | 4-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 荷兰 vs 日本 | 2-2 | 1-1（2） | 2-1（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 瑞典 vs 突尼斯 | 5-1 | 2-1（2） | 1-0（2） | 1-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-15**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 佛得角 | 0-0 | 3-0（0） | 3-0（0） | 3-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 比利时 vs 埃及 | 1-1 | 1-0（0） | 1-0（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 沙特阿拉伯 vs 乌拉圭 | 1-1 | 0-1（0） | 0-1（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 伊朗 vs 新西兰 | 2-2 | 1-0（0） | 1-0（0） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-16**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 法国 vs 塞内加尔 | 3-1 | 3-1（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 伊拉克 vs 挪威 | 1-4 | 0-4（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 阿根廷 vs 阿尔及利亚 | 3-0 | 3-0（5） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 奥地利 vs 约旦 | 3-1 | 3-0（2） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-17**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 刚果（金） | 1-1 | 3-0（0） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 英格兰 vs 克罗地亚 | 4-2 | 2-1（2） | 2-1（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 加纳 vs 巴拿马 | 1-0 | 1-1（0） | 1-1（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 乌兹别克斯坦 vs 哥伦比亚 | 1-3 | 0-2（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-18**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 捷克 vs 南非 | 1-1 | 2-1（0） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 瑞士 vs 波黑 | 4-1 | 2-1（2） | 2-0（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 加拿大 vs 卡塔尔 | 6-0 | 2-0（2） | 2-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 墨西哥 vs 韩国 | 1-0 | 1-0（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-19**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 美国 vs 澳大利亚 | 2-0 | 2-0（5） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 苏格兰 vs 摩洛哥 | 0-1 | 0-2（2） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴西 vs 海地 | 3-0 | 4-0（2） | 2-0（2） | 3-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 土耳其 vs 巴拉圭 | 0-1 | 2-1（0） | 1-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-20**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 荷兰 vs 瑞典 | 5-1 | 2-1（2） | 3-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 科特迪瓦 | 2-1 | 3-1（2） | 2-1（5） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 厄瓜多尔 vs 库拉索 | 0-0 | 4-0（0） | 3-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 突尼斯 vs 日本 | 0-4 | 0-2（2） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-21**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 沙特阿拉伯 | 4-0 | 3-0（2） | 1-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 比利时 vs 伊朗 | 0-0 | 2-1（0） | 1-1（2） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 乌拉圭 vs 佛得角 | 2-2 | 2-0（0） | 1-1（2） | 1-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 新西兰 vs 埃及 | 1-3 | 0-2（2） | 0-1（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-22**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 阿根廷 vs 奥地利 | 2-0 | 3-0（2） | 2-1（2） | 2-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 法国 vs 伊拉克 | 3-0 | 4-0（2） | 3-1（2） | 3-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 挪威 vs 塞内加尔 | 3-2 | 2-1（2） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 约旦 vs 阿尔及利亚 | 1-2 | 0-2（2） | 1-2（5） | 1-2（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-23**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 葡萄牙 vs 乌兹别克斯坦 | 5-0 | 3-0（2） | 2-0（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 英格兰 vs 加纳 | 0-0 | 3-0（0） | 3-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 巴拿马 vs 克罗地亚 | 0-1 | 0-2（2） | 1-2（2） | 0-1（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 哥伦比亚 vs 刚果民主共和国 | 1-0 | 2-1（2） | 2-0（2） | 1-0（5） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-24**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 瑞士 vs 加拿大 | 2-1 | 1-1（0） | 0-0（0） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 波黑 vs 卡塔尔 | 3-1 | 2-0（2） | 2-1（2） | 2-1（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 苏格兰 vs 巴西 | 0-3 | 0-2（2） | 0-1（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 摩洛哥 vs 海地 | 4-2 | 3-0（2） | 2-0（2） | 3-0（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 捷克 vs 墨西哥 | 0-3 | 1-2（2） | 0-1（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n| 南非 vs 韩国 | 1-0 | 0-1（0） | 0-1（0） | 1-2（0） | 未参赛 | 未参赛 | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-25**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 库拉索 vs 科特迪瓦 | 0-2 | 0-2（5） | 0-1（2） | 0-2（5） | 0-3（2） | 0-3（2） | 未参赛 | 未参赛 | 未参赛 |\n| 厄瓜多尔 vs 德国 | 2-1 | 1-2（0） | 1-2（0） | 1-1（0） | 1-1（0） | 0-2（0） | 未参赛 | 未参赛 | 未参赛 |\n| 日本 vs 瑞典 | 1-1 | 2-1（0） | 2-1（0） | 1-1（5） | 3-1（0） | 2-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 突尼斯 vs 荷兰 | 1-3 | 0-3（2） | 1-3（5） | 0-3（2） | 0-4（2） | 0-4（2） | 未参赛 | 未参赛 | 未参赛 |\n| 土耳其 vs 美国 | 3-2 | 0-2（0） | 1-1（0） | 1-2（0） | 2-1（2） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 巴拉圭 vs 澳大利亚 | 0-0 | 1-1（2） | 0-0（5） | 1-1（2） | 0-1（0） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-26**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 挪威 vs 法国 | 1-4 | 2-3（2） | 2-3（2） | 2-2（0） | 1-2（2） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 塞内加尔 vs 伊拉克 | 5-0 | 3-0（2） | 3-1（2） | 2-0（2） | 3-1（2） | 4-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 埃及 vs 伊朗 | 1-1 | 2-0（0） | 1-1（5） | 1-1（5） | 1-0（0） | 0-0（2） | 未参赛 | 未参赛 | 未参赛 |\n| 新西兰 vs 比利时 | 1-5 | 1-2（2） | 1-2（2） | 0-2（2） | 0-3（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 佛得角 vs 沙特阿拉伯 | 0-0 | 2-1（0） | 2-1（0） | 1-1（2） | 2-0（0） | 2-0（0） | 未参赛 | 未参赛 | 未参赛 |\n| 乌拉圭 vs 西班牙 | 0-1 | 1-2（2） | 0-2（2） | 1-2（2） | 0-2（2） | 0-2（2） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-27**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 巴拿马 vs 英格兰 | 0-2 | 0-3（2） | 0-2（5） | 0-2（5） | 0-3（2） | 0-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 克罗地亚 vs 加纳 | 2-1 | 2-1（5） | 1-1（0） | 1-0（2） | 2-1（5） | 1-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 阿尔及利亚 vs 奥地利 | 3-3 | 0-0（2） | 1-1（2） | 1-1（2） | 0-0（2） | 0-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 约旦 vs 阿根廷 | 1-3 | 0-3（2） | 0-2（2） | 0-2（2） | 1-3（5） | 1-2（2） | 未参赛 | 未参赛 | 未参赛 |\n| 哥伦比亚 vs 葡萄牙 | 0-0 | 1-2（0） | 1-1（2） | 1-1（2） | 1-2（0） | 0-0（5） | 未参赛 | 未参赛 | 未参赛 |\n| 刚果民主共和国 vs 乌兹别克斯坦 | 3-1 | 2-0（2） | 2-1（2） | 2-1（2） | 3-0（2） | 2-0（2） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-28**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 南非 vs 加拿大 | 0-1 | 1-2（2） | 1-1（0） | 1-2（2） | 0-2（2） | 0-1（5） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-29**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 巴西 vs 日本 | 2-1 | 2-0（2） | 2-1（5） | 2-0（2） | 1-0（2） | 3-1（2） | 未参赛 | 未参赛 | 未参赛 |\n| 德国 vs 巴拉圭 | 1-1 | 3-0（0） | 2-1（0） | 2-0（0） | 2-0（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 |\n| 荷兰 vs 摩洛哥 | 1-1 | 2-1（0） | 1-1（5） | 1-1（5） | 2-1（0） | 2-1（0） | 未参赛 | 未参赛 | 未参赛 |\n\n**2026-06-30**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 科特迪瓦 vs 挪威 | 1-2 | 1-2（5） | 1-1（0） | 1-2（5） | 1-1（2） | 0-2（2） | 0-1（2） | 2-3（2） | 0-1（2） |\n| 法国 vs 瑞典 | 3-0 | 3-0（5） | 3-1（2） | 3-1（2） | 2-1（2） | 2-1（2） | 2-0（2） | 2-0（2） | 2-1（2） |\n| 墨西哥 vs 厄瓜多尔 | 2-0 | 2-1（2） | 2-0（5） | 1-0（2） | 2-0（5） | 1-0（2） | 1-1（2） | 1-1（2） | 2-1（2） |\n\n**2026-07-01**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 英格兰 vs 刚果民主共和国 | 2-1 | 2-0（2） | 2-1（5） | 2-0（2） | 1-0（2） | 3-0（2） | 1-0（2） | 2-1（5） | 2-1（5） |\n| 比利时 vs 塞内加尔 | 2-2 | 2-1（2） | 3-1（2） | 2-1（2） | 2-0（2） | 2-0（2） | 3-1（2） | 3-1（2） | 2-0（2） |\n| 美国 vs 波黑 | 2-0 | 2-0（5） | 2-1（2） | 2-1（2） | 2-0（5） | 3-1（2） | 3-1（2） | 3-1（2） | 1-0（2） |\n\n**2026-07-02**\n\n| 比赛 | 实际比分 | Grok 4.3 | Kimi K2.7 | Claude Fable 5 | Gemini 3.5 Flash | Fugu Ultra | Tencent HY3 Preview | Xiaomi MiMo v2.5 Pro | MiniMax M3 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 西班牙 vs 奥地利 | 3-0 | 2-1（2） | 2-1（2） | 2-0（2） | 2-0（2） | 3-1（2） | 1-1（2） | 1-0（2） | 1-0（2） |\n| 葡萄牙 vs 克罗地亚 | 2-1 | 2-1（5） | 1-1（2） | 1-1（0） | 1-1（0） | 2-0（2） | 1-1（0） | 1-1（0） | 1-0（2） |\n| 瑞士 vs 阿尔及利亚 | 2-0 | 1-0（2） | 2-1（2） | 1-1（2） | 2-1（2） | 1-0（2） | 1-1（2） | 2-0（5） | 2-0（5） |\n\n<!-- HISTORY-REVIEW-END -->\n"
   }
  ]
 };
